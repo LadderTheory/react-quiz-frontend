@@ -53,7 +53,7 @@ function Quiz(props) {
     const QUIZSTAGE = 3;
     const SCORECARDSTAGE = 4;
 
-    const [q_is_shown, set_q_is_shown] = React.useState(TABLESTAGE);
+    const [q_is_shown, set_q_stage] = React.useState(TABLESTAGE);
 
     let q_length = props.quiz.length;
 
@@ -76,21 +76,25 @@ function Quiz(props) {
         return props.quiz.slice(range[0], range[1])
     }
 
-    function change_current_question(a) {
-        if (a >= selected_items().length) {
-            set_q_is_shown(SCORECARDSTAGE);
-        } else {
-            set_q_current_question(a);
+    function change_current_question() {
+        let m = (selected_items().length - 1) - q_answered_counter, i=0;
+
+        console.log('m', m);
+        
+        if (m > 0) {
+            i = Math.floor(Math.random() * m);
         }
+
+        set_q_current_question(i);
     }
 
     function change_page(a) {
         if (a < 0) {
-            a = 0;
+            a = page_count();
         }
 
         if (a > page_count()) {
-            a = page_count();
+            a = 0;
         }
 
         set_q_page(a);
@@ -98,11 +102,11 @@ function Quiz(props) {
 
     function change_range(a) {
         if (a < 0) {
-            a = 0;
+            a = q_length;
         }
 
         if (a > q_length) {
-            a = q_length
+            a = 0;
         }
 
         set_q_range(a);
@@ -143,8 +147,9 @@ function Quiz(props) {
     }
 
     function resetQuiz() {
-        change_current_question(0);
+        change_current_question()
         set_q_incorrect_counter(0);
+        set_q_answered_counter(0);
     }
 
     function quiz_modal() {
@@ -186,12 +191,13 @@ function Quiz(props) {
 
                 data = (
                     <div>
-                        <b>{question}</b>
-                        <br />
+                        <b>Q: {question}</b>
+                        <br /><br />
                         {answers.map((x,i) => (
-                            <><button onClick={handleEvent} data-question={x.toString()} value={i} name={ANSWER_BUTTON_NAME}>{`${i+1}: `}{x}</button><br /></>
+                            <>{`${i+1}: `}<button onClick={handleEvent} data-question={x.toString()} value={i} name={ANSWER_BUTTON_NAME}>{x}</button><br /></>
                         ))}
-                        <br />Incorrect answers: {q_incorrect_counter};
+                        <br />Correct Answers: {q_answered_counter}
+                        <br />Incorrect Answers: {q_incorrect_counter}
                         <br /><button onClick={handleEvent} name={END_QUIZ_NAME}>End Quiz</button>
                     </div>
                 )
@@ -199,10 +205,26 @@ function Quiz(props) {
             case SCORECARDSTAGE:
                 data = (
                     <div>
-                        You got {selected_items().length - q_incorrect_counter} correct!
+                        You scored {selected_items().length - q_incorrect_counter}
                         <br />
                         <button onClick={handleEvent} name={END_QUIZ_NAME}>End Quiz</button>
                         <button onClick={handleEvent} name={RETAKE_NAME}>Retake Quiz</button>
+                        <br />What you need to study:<br />
+                        <table style={table_style}>
+                            <tbody>
+                                {q_incorrect_arr.map(x => {
+                                    return (
+                                        <tr>
+                                            {[...Object.keys(x)].map(xx => {
+                                                return <td style={cell_style}>{x[xx]}</td>
+                                            })}
+                                        </tr>
+                                        
+                                    )
+                                })}
+                            </tbody>
+                        </table>
+                        
                     </div>
                 )
                 break;
@@ -225,13 +247,14 @@ function Quiz(props) {
         switch (name) {
             case RANGE_NAME:
                 change_range(value);
+                set_q_questions(selected_items());
                 break;
             case BEGIN_QUIZ_NAME:
-                set_q_is_shown(OPTIONSSTAGE);
+                set_q_stage(OPTIONSSTAGE);
                 resetQuiz();
                 break;
             case END_QUIZ_NAME:
-                set_q_is_shown(TABLESTAGE);
+                set_q_stage(TABLESTAGE);
                 break;
             case PAGE_NAME:
                 change_page(value);
@@ -253,36 +276,45 @@ function Quiz(props) {
                             answer: x[q_selected_answer],
                         }
                     }))
-                    set_q_is_shown(QUIZSTAGE);
+                    set_q_stage(QUIZSTAGE);
                 }
                 break;
             case ANSWER_BUTTON_NAME:
-                if (event.target.dataset.question == q_questions[q_current_question].answer){//correct
-                    let arr = q_questions;
-                    let m = arr.length - q_answered_counter, t, i;
-
-                    if (m) {
-                        i = Math.floor(Math.random() * m--);
-
-                        t = arr[m];
-                        arr[m] = arr[i];
-                        arr[i] = t;
-                    }
-                    
-                    set_q_questions(arr);
-                    set_q_answered_counter(q_answered_counter + 1);
-                } else {//incorrect
-                    set_q_incorrect_counter(q_incorrect_counter + 1);
-                }
+                answer_button_event(event);
                 break;
             case RETAKE_NAME:
-                set_q_is_shown(OPTIONSSTAGE);
+                set_q_stage(OPTIONSSTAGE);
                 resetQuiz();
             default:
                 console.log("how?")
                 break;
         }
         event.preventDefault();
+    }
+
+    function answer_button_event(event) {
+        if (event.target.dataset.question == q_questions[q_current_question].answer) {//correct answer
+            let arr = q_questions.slice();
+            let t = arr[q_current_question];
+            let m = (q_questions.length - 1) - q_answered_counter;
+
+            arr[q_current_question] = arr[m];
+            arr[m] = t;
+
+            if (q_answered_counter + 1 == q_questions.length) {
+                set_q_stage(SCORECARDSTAGE);
+            }
+
+            set_q_answered_counter(q_answered_counter + 1);
+            set_q_questions(arr);
+        }else{
+            set_q_incorrect_counter(q_incorrect_counter + 1);
+            let arr = q_incorrect_arr.slice();
+            arr.push(q_questions[q_current_question]);
+            set_q_incorrect_arr(arr);
+        }
+
+        change_current_question();
     }
 
     function handleRangeFormSubmit(event) {
@@ -375,6 +407,7 @@ function Quiz(props) {
             {quiz_modal()}
         </div>
     )
+
 }
 
 export default Quiz
