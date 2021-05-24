@@ -33,7 +33,7 @@ function Quiz(props) {
         return [...Object.keys(props.quiz[0])]
     }
     
-    const [q_range, set_q_range] = React.useState(5);
+    const [q_range, set_q_range] = React.useState(20);
     const [q_page, set_q_page] = React.useState(1);
     const [q_table, set_q_table] = React.useState(makeTable());
     const [q_selection_error, set_q_selection_error] = React.useState(false);
@@ -61,9 +61,9 @@ function Quiz(props) {
         return Math.ceil(q_length / q_range);
     }
 
-    function page_box_width() {
+    function input_box_width(basis) {
         return {
-            width: (q_page.toString().length + 3) + 'ch',
+            width: (basis.toString().length + 3) + 'ch',
         }
     }
     
@@ -293,7 +293,7 @@ function Quiz(props) {
 
     let q_range_form = (
         <form onSubmit={handleRangeFormSubmit}>
-            Quiz Size:<br/><input name={RANGE_NAME} value={q_range.toString()} type="number" onChange={handleEvent}/>/{q_length}<br/>
+            Quiz Size:<br/><input name={RANGE_NAME} style={input_box_width(q_range)} value={q_range.toString()} type="number" onChange={handleEvent}/>/{q_length}<br/>
             {/*<input type="submit"/>*/}
         </form>
     )
@@ -307,7 +307,7 @@ function Quiz(props) {
         let cells = [
             <button onClick={() => page_increment(-1)} >{"Previous Page"}</button>,
             <button onClick={() => page_increment(1)} >{"Next Page"}</button>,
-            <><input style={page_box_width()} type="number" name={PAGE_NAME} onChange={handleEvent} value={q_page.toString()} />{`/${page_count()}`}</>,
+            <><input style={input_box_width(q_page)} type="number" name={PAGE_NAME} onChange={handleEvent} value={q_page.toString()} />{`/${page_count()}`}</>,
             <button name={BEGIN_QUIZ_NAME} onClick={handleEvent}>{"Begin Quiz"}</button>
         ];
 
