@@ -45,6 +45,8 @@ function Quiz(props) {
 
     const [q_selected_question, set_q_selected_question] = React.useState(keys()[1]);
     const [q_selected_answer, set_q_selected_answer] = React.useState(keys()[2]);
+    const [q_answered_counter, set_q_answered_counter] = React.useState(0);
+    const [q_incorrect_arr, set_q_incorrect_arr] = React.useState([]);
 
     const TABLESTAGE = 1;
     const OPTIONSSTAGE = 2;
@@ -106,7 +108,7 @@ function Quiz(props) {
         set_q_range(a);
     }
 
-    function random_selection(arr, count) {
+    function random_answers(arr, count) {
         let selection = [arr[q_current_question].answer];
         let used = [q_current_question];
 
@@ -180,7 +182,7 @@ function Quiz(props) {
             case QUIZSTAGE:
                 console.log(q_questions);
                 let question = q_questions[q_current_question].question;
-                let answers = shuffle(random_selection(q_questions, 4).slice());
+                let answers = shuffle(random_answers(q_questions, 4).slice());
 
                 data = (
                     <div>
@@ -255,11 +257,23 @@ function Quiz(props) {
                 }
                 break;
             case ANSWER_BUTTON_NAME:
-                if (event.target.dataset.question == q_questions[q_current_question].answer){
-                } else {
+                if (event.target.dataset.question == q_questions[q_current_question].answer){//correct
+                    let arr = q_questions;
+                    let m = arr.length - q_answered_counter, t, i;
+
+                    if (m) {
+                        i = Math.floor(Math.random() * m--);
+
+                        t = arr[m];
+                        arr[m] = arr[i];
+                        arr[i] = t;
+                    }
+                    
+                    set_q_questions(arr);
+                    set_q_answered_counter(q_answered_counter + 1);
+                } else {//incorrect
                     set_q_incorrect_counter(q_incorrect_counter + 1);
                 }
-                change_current_question(q_current_question + 1);
                 break;
             case RETAKE_NAME:
                 set_q_is_shown(OPTIONSSTAGE);
