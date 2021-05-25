@@ -233,8 +233,17 @@ function Quiz(props) {
                         <button onClick={handleEvent} name={RETAKE_NAME}>Retake Quiz</button>
                         <br />What you need to study:<br />
                         <table style={table_style}>
+                            <thead>
+                                <tr>
+                                {[...Object.keys(q_questions[0])].map(x => {
+                                    return (
+                                        <td style={{...cell_style,...head_cell_color_style}}>{x}</td>
+                                    )
+                                })}
+                                </tr>
+                            </thead>
                             <tbody>
-                                {q_incorrect_arr.map(x => {
+                                {q_questions.filter(x => x.fails > 0).map(x => {
                                     return (
                                         <tr>
                                             {[...Object.keys(x)].map(xx => {
@@ -296,6 +305,7 @@ function Quiz(props) {
                         return {
                             question: x[q_selected_question],
                             answer: x[q_selected_answer],
+                            fails: 0,
                         }
                     }))
                     set_q_stage(QUIZSTAGE);
@@ -335,9 +345,9 @@ function Quiz(props) {
             set_q_questions(arr);
         }else{
             set_q_incorrect_counter(q_incorrect_counter + 1);
-            let arr = q_incorrect_arr.slice();
-            arr.push(q_questions[q_current_question]);
-            set_q_incorrect_arr(arr);
+            let arr = q_questions.slice();
+            arr[q_current_question].fails += 1;
+            set_q_questions(arr);
         }
 
         change_current_question();
