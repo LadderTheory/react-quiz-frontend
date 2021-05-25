@@ -51,8 +51,8 @@ function Quiz(props) {
 
     const DEFAULT_SELECTION = keys()[0]
 
-    const [q_selected_question, set_q_selected_question] = React.useState(keys()[1]);
-    const [q_selected_answer, set_q_selected_answer] = React.useState(keys()[2]);
+    const [q_selected_question, set_q_selected_question] = React.useState(keys()[0]);
+    const [q_selected_answer, set_q_selected_answer] = React.useState(keys()[1]);
     const [q_answered_counter, set_q_answered_counter] = React.useState(0);
     const [q_answers, set_q_answers] = React.useState(4);
 
@@ -223,7 +223,7 @@ function Quiz(props) {
                 )
                 break;
             case QUIZSTAGE:
-                console.log(q_questions);
+                console.log("q_questions", q_questions);
                 let question = q_questions[q_current_question].question;
                 let answers = shuffle(random_answers(q_questions, q_answers).slice());
 
@@ -322,6 +322,7 @@ function Quiz(props) {
                 if (q_selected_question === q_selected_answer || q_answers == 0) {
                     set_q_selection_error(true);
                 }else{
+                    //console.log(selected_items()[0], q_selected_question, q_selected_answer)
                     set_q_questions(selected_items().map(x => {
                         return {
                             question: x[q_selected_question],
@@ -336,6 +337,7 @@ function Quiz(props) {
                 answer_button_event(event);
                 break;
             case RETAKE_NAME:
+
                 set_q_stage(OPTIONSSTAGE);
                 resetQuiz();
                 break;
@@ -460,7 +462,6 @@ function Quiz(props) {
     }
     
     React.useEffect(() => set_q_table(makeTable()), [q_page, q_range])
-
     React.useEffect(() => set_q_data(props.datasets[q_chosen_quiz].data), [q_chosen_quiz]);
     React.useEffect(() => set_q_table(makeTable()), [q_data]);
 
