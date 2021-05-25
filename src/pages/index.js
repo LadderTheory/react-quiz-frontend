@@ -2,6 +2,7 @@ import * as React from "react"
 import Quiz from "./quiz.js"
 
 const language_data = [
+  require("./language_data/afrikaans"),
   require("./language_data/albanian"),
   require("./language_data/greek"),
   require("./language_data/hawaiian"),
