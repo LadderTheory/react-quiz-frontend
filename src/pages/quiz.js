@@ -285,6 +285,7 @@ function Quiz(props) {
             case RETAKE_NAME:
                 set_q_stage(OPTIONSSTAGE);
                 resetQuiz();
+                break;
             default:
                 console.log("how?")
                 break;
@@ -293,7 +294,7 @@ function Quiz(props) {
     }
 
     function answer_button_event(event) {
-        if (event.target.dataset.question == q_questions[q_current_question].answer) {//correct answer
+        if (event.target.dataset.question === q_questions[q_current_question].answer) {//correct answer
             let arr = q_questions.slice();
             let t = arr[q_current_question];
             let m = (q_questions.length - 1) - q_answered_counter;
@@ -301,7 +302,7 @@ function Quiz(props) {
             arr[q_current_question] = arr[m];
             arr[m] = t;
 
-            if (q_answered_counter + 1 == q_questions.length) {
+            if (q_answered_counter + 1 === q_questions.length) {
                 set_q_stage(SCORECARDSTAGE);
             }
 
