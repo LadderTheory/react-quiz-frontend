@@ -1,5005 +1,5005 @@
-const hindi = [
+const hebrew = [
     {
       "Number": 1,
-      "Hindi": "जैसा",
+      "Hebrew": "כמו",
       "in English": "as"
     },
     {
       "Number": 2,
-      "Hindi": "मैं",
+      "Hebrew": "אני",
       "in English": "I"
     },
     {
       "Number": 3,
-      "Hindi": "उसके",
+      "Hebrew": "שלו",
       "in English": "his"
     },
     {
       "Number": 4,
-      "Hindi": "कि",
+      "Hebrew": "ש",
       "in English": "that"
     },
     {
       "Number": 5,
-      "Hindi": "वह",
+      "Hebrew": "הוא",
       "in English": "he"
     },
     {
       "Number": 6,
-      "Hindi": "था",
+      "Hebrew": "היה",
       "in English": "was"
     },
     {
       "Number": 7,
-      "Hindi": "के लिए",
+      "Hebrew": "עבור",
       "in English": "for"
     },
     {
       "Number": 8,
-      "Hindi": "पर",
+      "Hebrew": "על",
       "in English": "on"
     },
     {
       "Number": 9,
-      "Hindi": "हैं",
+      "Hebrew": "הם",
       "in English": "are"
     },
     {
       "Number": 10,
-      "Hindi": "साथ",
+      "Hebrew": "עם",
       "in English": "with"
     },
     {
       "Number": 11,
-      "Hindi": "वे",
+      "Hebrew": "הם",
       "in English": "they"
     },
     {
       "Number": 12,
-      "Hindi": "हो",
+      "Hebrew": "להיות",
       "in English": "be"
     },
     {
       "Number": 13,
-      "Hindi": "पर",
+      "Hebrew": "ב",
       "in English": "at"
     },
     {
       "Number": 14,
-      "Hindi": "एक",
+      "Hebrew": "אחד",
       "in English": "one"
     },
     {
       "Number": 15,
-      "Hindi": "है",
+      "Hebrew": "יש לי",
       "in English": "have"
     },
     {
       "Number": 16,
-      "Hindi": "इस",
+      "Hebrew": "זה",
       "in English": "this"
     },
     {
       "Number": 17,
-      "Hindi": "से",
+      "Hebrew": "מ",
       "in English": "from"
     },
     {
       "Number": 18,
-      "Hindi": "द्वारा",
+      "Hebrew": "על ידי",
       "in English": "by"
     },
     {
       "Number": 19,
-      "Hindi": "गरम",
+      "Hebrew": "חם",
       "in English": "hot"
     },
     {
       "Number": 20,
-      "Hindi": "शब्द",
+      "Hebrew": "מילה",
       "in English": "word"
     },
     {
       "Number": 21,
-      "Hindi": "लेकिन",
+      "Hebrew": "אבל",
       "in English": "but"
     },
     {
       "Number": 22,
-      "Hindi": "क्या",
+      "Hebrew": "מה",
       "in English": "what"
     },
     {
       "Number": 23,
-      "Hindi": "कुछ",
+      "Hebrew": "כמה",
       "in English": "some"
     },
     {
       "Number": 24,
-      "Hindi": "है",
+      "Hebrew": "הוא",
       "in English": "is"
     },
     {
       "Number": 25,
-      "Hindi": "यह",
+      "Hebrew": "זה",
       "in English": "it"
     },
     {
       "Number": 26,
-      "Hindi": "आप",
+      "Hebrew": "אתה",
       "in English": "you"
     },
     {
       "Number": 27,
-      "Hindi": "या",
+      "Hebrew": "או",
       "in English": "or"
     },
     {
       "Number": 28,
-      "Hindi": "था",
+      "Hebrew": "היה לי",
       "in English": "had"
     },
     {
       "Number": 29,
-      "Hindi": "",
+      "Hebrew": "עבור",
       "in English": "the"
     },
     {
       "Number": 30,
-      "Hindi": "की",
+      "Hebrew": "של",
       "in English": "of"
     },
     {
       "Number": 31,
-      "Hindi": "तक",
+      "Hebrew": "אל",
       "in English": "to"
     },
     {
       "Number": 32,
-      "Hindi": "और",
+      "Hebrew": "ו",
       "in English": "and"
     },
     {
       "Number": 33,
-      "Hindi": "एक",
+      "Hebrew": "זמן",
       "in English": "a"
     },
     {
       "Number": 34,
-      "Hindi": "में",
+      "Hebrew": "ב",
       "in English": "in"
     },
     {
       "Number": 35,
-      "Hindi": "हम",
+      "Hebrew": "אנחנו",
       "in English": "we"
     },
     {
       "Number": 36,
-      "Hindi": "कर सकते हैं",
+      "Hebrew": "יכול",
       "in English": "can"
     },
     {
       "Number": 37,
-      "Hindi": "बाहर",
+      "Hebrew": "את",
       "in English": "out"
     },
     {
       "Number": 38,
-      "Hindi": "अन्य",
+      "Hebrew": "אחר",
       "in English": "other"
     },
     {
       "Number": 39,
-      "Hindi": "थे",
+      "Hebrew": "היו",
       "in English": "were"
     },
     {
       "Number": 40,
-      "Hindi": "जो",
+      "Hebrew": "ש",
       "in English": "which"
     },
     {
       "Number": 41,
-      "Hindi": "कर",
+      "Hebrew": "לעשות",
       "in English": "do"
     },
     {
       "Number": 42,
-      "Hindi": "उनके",
+      "Hebrew": "שלהם",
       "in English": "their"
     },
     {
       "Number": 43,
-      "Hindi": "समय",
+      "Hebrew": "זמן",
       "in English": "time"
     },
     {
       "Number": 44,
-      "Hindi": "अगर",
+      "Hebrew": "אם",
       "in English": "if"
     },
     {
       "Number": 45,
-      "Hindi": "होगा",
+      "Hebrew": "יהיה",
       "in English": "will"
     },
     {
       "Number": 46,
-      "Hindi": "कैसे",
+      "Hebrew": "איך",
       "in English": "how"
     },
     {
       "Number": 47,
-      "Hindi": "कहा",
+      "Hebrew": "אמר",
       "in English": "said"
     },
     {
       "Number": 48,
-      "Hindi": "एक",
+      "Hebrew": "בית",
       "in English": "an"
     },
     {
       "Number": 49,
-      "Hindi": "प्रत्येक",
+      "Hebrew": "כל",
       "in English": "each"
     },
     {
       "Number": 50,
-      "Hindi": "बता",
+      "Hebrew": "לספר",
       "in English": "tell"
     },
     {
       "Number": 51,
-      "Hindi": "करता है",
+      "Hebrew": "עושה",
       "in English": "does"
     },
     {
       "Number": 52,
-      "Hindi": "सेट",
+      "Hebrew": "סט",
       "in English": "set"
     },
     {
       "Number": 53,
-      "Hindi": "तीन",
+      "Hebrew": "שלוש",
       "in English": "three"
     },
     {
       "Number": 54,
-      "Hindi": "चाहते हैं",
+      "Hebrew": "רוצה",
       "in English": "want"
     },
     {
       "Number": 55,
-      "Hindi": "हवा",
+      "Hebrew": "אוויר",
       "in English": "air"
     },
     {
       "Number": 56,
-      "Hindi": "अच्छी तरह से",
+      "Hebrew": "גם",
       "in English": "well"
     },
     {
       "Number": 57,
-      "Hindi": "भी",
+      "Hebrew": "גם",
       "in English": "also"
     },
     {
       "Number": 58,
-      "Hindi": "खेलने",
+      "Hebrew": "לשחק",
       "in English": "play"
     },
     {
       "Number": 59,
-      "Hindi": "छोटे",
+      "Hebrew": "קטן",
       "in English": "small"
     },
     {
       "Number": 60,
-      "Hindi": "अंत",
+      "Hebrew": "סוף",
       "in English": "end"
     },
     {
       "Number": 61,
-      "Hindi": "डाल",
+      "Hebrew": "לשים",
       "in English": "put"
     },
     {
       "Number": 62,
-      "Hindi": "घर",
+      "Hebrew": "בית",
       "in English": "home"
     },
     {
       "Number": 63,
-      "Hindi": "पढ़ा",
+      "Hebrew": "לקרוא",
       "in English": "read"
     },
     {
       "Number": 64,
-      "Hindi": "हाथ",
+      "Hebrew": "יד",
       "in English": "hand"
     },
     {
       "Number": 65,
-      "Hindi": "बंदरगाह",
+      "Hebrew": "נמל",
       "in English": "port"
     },
     {
       "Number": 66,
-      "Hindi": "बड़ा",
+      "Hebrew": "גדול",
       "in English": "large"
     },
     {
       "Number": 67,
-      "Hindi": "जादू",
+      "Hebrew": "לאיית",
       "in English": "spell"
     },
     {
       "Number": 68,
-      "Hindi": "जोड़",
+      "Hebrew": "להוסיף",
       "in English": "add"
     },
     {
       "Number": 69,
-      "Hindi": "और भी",
+      "Hebrew": "אפילו",
       "in English": "even"
     },
     {
       "Number": 70,
-      "Hindi": "भूमि",
+      "Hebrew": "ארץ",
       "in English": "land"
     },
     {
       "Number": 71,
-      "Hindi": "यहाँ",
+      "Hebrew": "כאן",
       "in English": "here"
     },
     {
       "Number": 72,
-      "Hindi": "चाहिए",
+      "Hebrew": "חייב",
       "in English": "must"
     },
     {
       "Number": 73,
-      "Hindi": "बड़ा",
+      "Hebrew": "גדול",
       "in English": "big"
     },
     {
       "Number": 74,
-      "Hindi": "उच्च",
+      "Hebrew": "גבוה",
       "in English": "high"
     },
     {
       "Number": 75,
-      "Hindi": "ऐसा",
+      "Hebrew": "כזה",
       "in English": "such"
     },
     {
       "Number": 76,
-      "Hindi": "का पालन करें",
+      "Hebrew": "מעקב",
       "in English": "follow"
     },
     {
       "Number": 77,
-      "Hindi": "अधिनियम",
+      "Hebrew": "מעשה",
       "in English": "act"
     },
     {
       "Number": 78,
-      "Hindi": "क्यों",
+      "Hebrew": "מדוע",
       "in English": "why"
     },
     {
       "Number": 79,
-      "Hindi": "पूछना",
+      "Hebrew": "שואל",
       "in English": "ask"
     },
     {
       "Number": 80,
-      "Hindi": "पुरुषों",
+      "Hebrew": "אנשים",
       "in English": "men"
     },
     {
       "Number": 81,
-      "Hindi": "परिवर्तन",
+      "Hebrew": "לשנות",
       "in English": "change"
     },
     {
       "Number": 82,
-      "Hindi": "चला गया",
+      "Hebrew": "הלכתי",
       "in English": "went"
     },
     {
       "Number": 83,
-      "Hindi": "प्रकाश",
+      "Hebrew": "אור",
       "in English": "light"
     },
     {
       "Number": 84,
-      "Hindi": "तरह",
+      "Hebrew": "סוג",
       "in English": "kind"
     },
     {
       "Number": 85,
-      "Hindi": "बंद",
+      "Hebrew": "את",
       "in English": "off"
     },
     {
       "Number": 86,
-      "Hindi": "आवश्यकता",
+      "Hebrew": "צריך",
       "in English": "need"
     },
     {
       "Number": 87,
-      "Hindi": "घर",
+      "Hebrew": "בית",
       "in English": "house"
     },
     {
       "Number": 88,
-      "Hindi": "तस्वीर",
+      "Hebrew": "תמונה",
       "in English": "picture"
     },
     {
       "Number": 89,
-      "Hindi": "कोशिश",
+      "Hebrew": "לנסות",
       "in English": "try"
     },
     {
       "Number": 90,
-      "Hindi": "हमें",
+      "Hebrew": "שלנו",
       "in English": "us"
     },
     {
       "Number": 91,
-      "Hindi": "फिर",
+      "Hebrew": "שוב",
       "in English": "again"
     },
     {
       "Number": 92,
-      "Hindi": "पशु",
+      "Hebrew": "חיה",
       "in English": "animal"
     },
     {
       "Number": 93,
-      "Hindi": "बिंदु",
+      "Hebrew": "נקודה",
       "in English": "point"
     },
     {
       "Number": 94,
-      "Hindi": "मां",
+      "Hebrew": "אמא",
       "in English": "mother"
     },
     {
       "Number": 95,
-      "Hindi": "दुनिया",
+      "Hebrew": "עולם",
       "in English": "world"
     },
     {
       "Number": 96,
-      "Hindi": "निकट",
+      "Hebrew": "ליד",
       "in English": "near"
     },
     {
       "Number": 97,
-      "Hindi": "बनाना",
+      "Hebrew": "לבנות",
       "in English": "build"
     },
     {
       "Number": 98,
-      "Hindi": "आत्म",
+      "Hebrew": "עצמי",
       "in English": "self"
     },
     {
       "Number": 99,
-      "Hindi": "पृथ्वी",
+      "Hebrew": "כדור הארץ",
       "in English": "earth"
     },
     {
       "Number": 100,
-      "Hindi": "पिता",
+      "Hebrew": "אב",
       "in English": "father"
     },
     {
       "Number": 101,
-      "Hindi": "किसी भी",
+      "Hebrew": "כל",
       "in English": "any"
     },
     {
       "Number": 102,
-      "Hindi": "नई",
+      "Hebrew": "חדש",
       "in English": "new"
     },
     {
       "Number": 103,
-      "Hindi": "काम",
+      "Hebrew": "עבודה",
       "in English": "work"
     },
     {
       "Number": 104,
-      "Hindi": "हिस्सा",
+      "Hebrew": "חלק",
       "in English": "part"
     },
     {
       "Number": 105,
-      "Hindi": "लेना",
+      "Hebrew": "לקחת",
       "in English": "take"
     },
     {
       "Number": 106,
-      "Hindi": "प्राप्त",
+      "Hebrew": "לקבל",
       "in English": "get"
     },
     {
       "Number": 107,
-      "Hindi": "जगह",
+      "Hebrew": "מקום",
       "in English": "place"
     },
     {
       "Number": 108,
-      "Hindi": "निर्मित",
+      "Hebrew": "עשיתי",
       "in English": "made"
     },
     {
       "Number": 109,
-      "Hindi": "जीना",
+      "Hebrew": "לחיות",
       "in English": "live"
     },
     {
       "Number": 110,
-      "Hindi": "जहां",
+      "Hebrew": "איפה",
       "in English": "where"
     },
     {
       "Number": 111,
-      "Hindi": "के बाद",
+      "Hebrew": "לאחר",
       "in English": "after"
     },
     {
       "Number": 112,
-      "Hindi": "वापस",
+      "Hebrew": "בחזרה",
       "in English": "back"
     },
     {
       "Number": 113,
-      "Hindi": "थोड़ा",
+      "Hebrew": "קטן",
       "in English": "little"
     },
     {
       "Number": 114,
-      "Hindi": "केवल",
+      "Hebrew": "רק",
       "in English": "only"
     },
     {
       "Number": 115,
-      "Hindi": "दौर",
+      "Hebrew": "עגול",
       "in English": "round"
     },
     {
       "Number": 116,
-      "Hindi": "आदमी",
+      "Hebrew": "גבר",
       "in English": "man"
     },
     {
       "Number": 117,
-      "Hindi": "वर्ष",
+      "Hebrew": "שנה",
       "in English": "year"
     },
     {
       "Number": 118,
-      "Hindi": "आया",
+      "Hebrew": "הגיע",
       "in English": "came"
     },
     {
       "Number": 119,
-      "Hindi": "शो",
+      "Hebrew": "מופע",
       "in English": "show"
     },
     {
       "Number": 120,
-      "Hindi": "हर",
+      "Hebrew": "כל",
       "in English": "every"
     },
     {
       "Number": 121,
-      "Hindi": "अच्छा",
+      "Hebrew": "טוב",
       "in English": "good"
     },
     {
       "Number": 122,
-      "Hindi": "मुझे",
+      "Hebrew": "לי",
       "in English": "me"
     },
     {
       "Number": 123,
-      "Hindi": "दे",
+      "Hebrew": "לתת",
       "in English": "give"
     },
     {
       "Number": 124,
-      "Hindi": "हमारे",
+      "Hebrew": "שלנו",
       "in English": "our"
     },
     {
       "Number": 125,
-      "Hindi": "नीचे",
+      "Hebrew": "תחת",
       "in English": "under"
     },
     {
       "Number": 126,
-      "Hindi": "नाम",
+      "Hebrew": "שם",
       "in English": "name"
     },
     {
       "Number": 127,
-      "Hindi": "बहुत",
+      "Hebrew": "מאוד",
       "in English": "very"
     },
     {
       "Number": 128,
-      "Hindi": "के माध्यम से",
+      "Hebrew": "דרך",
       "in English": "through"
     },
     {
       "Number": 129,
-      "Hindi": "बस",
+      "Hebrew": "רק",
       "in English": "just"
     },
     {
       "Number": 130,
-      "Hindi": "फार्म",
+      "Hebrew": "טופס",
       "in English": "form"
     },
     {
       "Number": 131,
-      "Hindi": "वाक्य",
+      "Hebrew": "משפט",
       "in English": "sentence"
     },
     {
       "Number": 132,
-      "Hindi": "महान",
+      "Hebrew": "גדול",
       "in English": "great"
     },
     {
       "Number": 133,
-      "Hindi": "लगता है",
+      "Hebrew": "חושב",
       "in English": "think"
     },
     {
       "Number": 134,
-      "Hindi": "कहना",
+      "Hebrew": "אומר",
       "in English": "say"
     },
     {
       "Number": 135,
-      "Hindi": "मदद",
+      "Hebrew": "לעזור",
       "in English": "help"
     },
     {
       "Number": 136,
-      "Hindi": "कम",
+      "Hebrew": "נמוך",
       "in English": "low"
     },
     {
       "Number": 137,
-      "Hindi": "रेखा",
+      "Hebrew": "שורה",
       "in English": "line"
     },
     {
       "Number": 138,
-      "Hindi": "अलग",
+      "Hebrew": "שונה",
       "in English": "differ"
     },
     {
       "Number": 139,
-      "Hindi": "बारी",
+      "Hebrew": "תור",
       "in English": "turn"
     },
     {
       "Number": 140,
-      "Hindi": "कारण",
+      "Hebrew": "סיבה",
       "in English": "cause"
     },
     {
       "Number": 141,
-      "Hindi": "ज्यादा",
+      "Hebrew": "הרבה",
       "in English": "much"
     },
     {
       "Number": 142,
-      "Hindi": "मतलब",
+      "Hebrew": "אומר",
       "in English": "mean"
     },
     {
       "Number": 143,
-      "Hindi": "पहले",
+      "Hebrew": "לפני",
       "in English": "before"
     },
     {
       "Number": 144,
-      "Hindi": "चाल",
+      "Hebrew": "מהלך",
       "in English": "move"
     },
     {
       "Number": 145,
-      "Hindi": "सही",
+      "Hebrew": "נכון",
       "in English": "right"
     },
     {
       "Number": 146,
-      "Hindi": "लड़का",
+      "Hebrew": "ילד",
       "in English": "boy"
     },
     {
       "Number": 147,
-      "Hindi": "पुराना",
+      "Hebrew": "ישן",
       "in English": "old"
     },
     {
       "Number": 148,
-      "Hindi": "भी",
+      "Hebrew": "גם",
       "in English": "too"
     },
     {
       "Number": 149,
-      "Hindi": "वही",
+      "Hebrew": "אותו",
       "in English": "same"
     },
     {
       "Number": 150,
-      "Hindi": "वह",
+      "Hebrew": "היא",
       "in English": "she"
     },
     {
       "Number": 151,
-      "Hindi": "सब",
+      "Hebrew": "כל",
       "in English": "all"
     },
     {
       "Number": 152,
-      "Hindi": "वहाँ",
+      "Hebrew": "שם",
       "in English": "there"
     },
     {
       "Number": 153,
-      "Hindi": "जब",
+      "Hebrew": "כאשר",
       "in English": "when"
     },
     {
       "Number": 154,
-      "Hindi": "ऊपर",
+      "Hebrew": "למעלה",
       "in English": "up"
     },
     {
       "Number": 155,
-      "Hindi": "उपयोग",
+      "Hebrew": "שימוש",
       "in English": "use"
     },
     {
       "Number": 156,
-      "Hindi": "अपने",
+      "Hebrew": "שלך",
       "in English": "your"
     },
     {
       "Number": 157,
-      "Hindi": "रास्ता",
+      "Hebrew": "דרך",
       "in English": "way"
     },
     {
       "Number": 158,
-      "Hindi": "के बारे में",
+      "Hebrew": "על",
       "in English": "about"
     },
     {
       "Number": 159,
-      "Hindi": "कई",
+      "Hebrew": "רבים",
       "in English": "many"
     },
     {
       "Number": 160,
-      "Hindi": "तो",
+      "Hebrew": "אז",
       "in English": "then"
     },
     {
       "Number": 161,
-      "Hindi": "उन्हें",
+      "Hebrew": "שלהם",
       "in English": "them"
     },
     {
       "Number": 162,
-      "Hindi": "लिखना",
+      "Hebrew": "לכתוב",
       "in English": "write"
     },
     {
       "Number": 163,
-      "Hindi": "होगा",
+      "Hebrew": "היית",
       "in English": "would"
     },
     {
       "Number": 164,
-      "Hindi": "जैसा",
+      "Hebrew": "כמו",
       "in English": "like"
     },
     {
       "Number": 165,
-      "Hindi": "तो",
+      "Hebrew": "כך",
       "in English": "so"
     },
     {
       "Number": 166,
-      "Hindi": "इन",
+      "Hebrew": "אלה",
       "in English": "these"
     },
     {
       "Number": 167,
-      "Hindi": "उसके",
+      "Hebrew": "שלה",
       "in English": "her"
     },
     {
       "Number": 168,
-      "Hindi": "लंबे समय तक",
+      "Hebrew": "ארוך",
       "in English": "long"
     },
     {
       "Number": 169,
-      "Hindi": "कर",
+      "Hebrew": "לעשות",
       "in English": "make"
     },
     {
       "Number": 170,
-      "Hindi": "बात",
+      "Hebrew": "דבר",
       "in English": "thing"
     },
     {
       "Number": 171,
-      "Hindi": "देखना",
+      "Hebrew": "לראות",
       "in English": "see"
     },
     {
       "Number": 172,
-      "Hindi": "उसे",
+      "Hebrew": "שלו",
       "in English": "him"
     },
     {
       "Number": 173,
-      "Hindi": "दो",
+      "Hebrew": "שנים",
       "in English": "two"
     },
     {
       "Number": 174,
-      "Hindi": "है",
+      "Hebrew": "יש",
       "in English": "has"
     },
     {
       "Number": 175,
-      "Hindi": "देखो",
+      "Hebrew": "להסתכל",
       "in English": "look"
     },
     {
       "Number": 176,
-      "Hindi": "अधिक",
+      "Hebrew": "יותר",
       "in English": "more"
     },
     {
       "Number": 177,
-      "Hindi": "दिन",
+      "Hebrew": "יום",
       "in English": "day"
     },
     {
       "Number": 178,
-      "Hindi": "सकता है",
+      "Hebrew": "יכול",
       "in English": "could"
     },
     {
       "Number": 179,
-      "Hindi": "जाना",
+      "Hebrew": "ללכת",
       "in English": "go"
     },
     {
       "Number": 180,
-      "Hindi": "आ",
+      "Hebrew": "תבואו",
       "in English": "come"
     },
     {
       "Number": 181,
-      "Hindi": "किया",
+      "Hebrew": "עשיתי",
       "in English": "did"
     },
     {
       "Number": 182,
-      "Hindi": "संख्या",
+      "Hebrew": "מספר",
       "in English": "number"
     },
     {
       "Number": 183,
-      "Hindi": "ध्वनि",
+      "Hebrew": "נשמע",
       "in English": "sound"
     },
     {
       "Number": 184,
-      "Hindi": "नहीं",
+      "Hebrew": "לא",
       "in English": "no"
     },
     {
       "Number": 185,
-      "Hindi": "सबसे",
+      "Hebrew": "ביותר",
       "in English": "most"
     },
     {
       "Number": 186,
-      "Hindi": "लोग",
+      "Hebrew": "אנשים",
       "in English": "people"
     },
     {
       "Number": 187,
-      "Hindi": "मेरे",
+      "Hebrew": "שלי",
       "in English": "my"
     },
     {
       "Number": 188,
-      "Hindi": "अधिक",
+      "Hebrew": "על",
       "in English": "over"
     },
     {
       "Number": 189,
-      "Hindi": "पता",
+      "Hebrew": "יודע",
       "in English": "know"
     },
     {
       "Number": 190,
-      "Hindi": "पानी",
+      "Hebrew": "מים",
       "in English": "water"
     },
     {
       "Number": 191,
-      "Hindi": "से",
+      "Hebrew": "מאשר",
       "in English": "than"
     },
     {
       "Number": 192,
-      "Hindi": "कॉल",
+      "Hebrew": "שיחה",
       "in English": "call"
     },
     {
       "Number": 193,
-      "Hindi": "पहले",
+      "Hebrew": "ראשון",
       "in English": "first"
     },
     {
       "Number": 194,
-      "Hindi": "कौन",
+      "Hebrew": "מי",
       "in English": "who"
     },
     {
       "Number": 195,
-      "Hindi": "मई",
+      "Hebrew": "רשאי",
       "in English": "may"
     },
     {
       "Number": 196,
-      "Hindi": "नीचे",
+      "Hebrew": "למטה",
       "in English": "down"
     },
     {
       "Number": 197,
-      "Hindi": "पक्ष",
+      "Hebrew": "צד",
       "in English": "side"
     },
     {
       "Number": 198,
-      "Hindi": "गया",
+      "Hebrew": "היה",
       "in English": "been"
     },
     {
       "Number": 199,
-      "Hindi": "अब",
+      "Hebrew": "עכשיו",
       "in English": "now"
     },
     {
       "Number": 200,
-      "Hindi": "लगता है",
+      "Hebrew": "למצוא",
       "in English": "find"
     },
     {
       "Number": 201,
-      "Hindi": "सिर",
+      "Hebrew": "ראש",
       "in English": "head"
     },
     {
       "Number": 202,
-      "Hindi": "खड़े",
+      "Hebrew": "לעמוד",
       "in English": "stand"
     },
     {
       "Number": 203,
-      "Hindi": "खुद",
+      "Hebrew": "של",
       "in English": "own"
     },
     {
       "Number": 204,
-      "Hindi": "पेज",
+      "Hebrew": "דף",
       "in English": "page"
     },
     {
       "Number": 205,
-      "Hindi": "चाहिए",
+      "Hebrew": "צריך",
       "in English": "should"
     },
     {
       "Number": 206,
-      "Hindi": "देश",
+      "Hebrew": "מדינה",
       "in English": "country"
     },
     {
       "Number": 207,
-      "Hindi": "पाया",
+      "Hebrew": "מצאתי",
       "in English": "found"
     },
     {
       "Number": 208,
-      "Hindi": "जवाब",
+      "Hebrew": "תשובה",
       "in English": "answer"
     },
     {
       "Number": 209,
-      "Hindi": "स्कूल",
+      "Hebrew": "בית ספר",
       "in English": "school"
     },
     {
       "Number": 210,
-      "Hindi": "बढ़ने",
+      "Hebrew": "לגדול",
       "in English": "grow"
     },
     {
       "Number": 211,
-      "Hindi": "अध्ययन",
+      "Hebrew": "מחקר",
       "in English": "study"
     },
     {
       "Number": 212,
-      "Hindi": "अब तक",
+      "Hebrew": "עוד",
       "in English": "still"
     },
     {
       "Number": 213,
-      "Hindi": "सीखना",
+      "Hebrew": "ללמוד",
       "in English": "learn"
     },
     {
       "Number": 214,
-      "Hindi": "संयंत्र",
+      "Hebrew": "צמח",
       "in English": "plant"
     },
     {
       "Number": 215,
-      "Hindi": "कवर",
+      "Hebrew": "כיסוי",
       "in English": "cover"
     },
     {
       "Number": 216,
-      "Hindi": "भोजन",
+      "Hebrew": "מזון",
       "in English": "food"
     },
     {
       "Number": 217,
-      "Hindi": "सूरज",
+      "Hebrew": "שמש",
       "in English": "sun"
     },
     {
       "Number": 218,
-      "Hindi": "चार",
+      "Hebrew": "ארבעה",
       "in English": "four"
     },
     {
       "Number": 219,
-      "Hindi": "के बीच",
+      "Hebrew": "בין",
       "in English": "between"
     },
     {
       "Number": 220,
-      "Hindi": "राज्य",
+      "Hebrew": "מדינה",
       "in English": "state"
     },
     {
       "Number": 221,
-      "Hindi": "रखना",
+      "Hebrew": "לשמור",
       "in English": "keep"
     },
     {
       "Number": 222,
-      "Hindi": "आंख",
+      "Hebrew": "עין",
       "in English": "eye"
     },
     {
       "Number": 223,
-      "Hindi": "कभी नहीं",
+      "Hebrew": "אף פעם לא",
       "in English": "never"
     },
     {
       "Number": 224,
-      "Hindi": "पिछले",
+      "Hebrew": "אחרון",
       "in English": "last"
     },
     {
       "Number": 225,
-      "Hindi": "चलो",
+      "Hebrew": "בואו",
       "in English": "let"
     },
     {
       "Number": 226,
-      "Hindi": "सोचा",
+      "Hebrew": "חשבתי",
       "in English": "thought"
     },
     {
       "Number": 227,
-      "Hindi": "शहर",
+      "Hebrew": "עיר",
       "in English": "city"
     },
     {
       "Number": 228,
-      "Hindi": "पेड़",
+      "Hebrew": "עץ",
       "in English": "tree"
     },
     {
       "Number": 229,
-      "Hindi": "पार",
+      "Hebrew": "לחצות",
       "in English": "cross"
     },
     {
       "Number": 230,
-      "Hindi": "खेत",
+      "Hebrew": "החווה",
       "in English": "farm"
     },
     {
       "Number": 231,
-      "Hindi": "कठिन",
+      "Hebrew": "קשה",
       "in English": "hard"
     },
     {
       "Number": 232,
-      "Hindi": "शुरुआत",
+      "Hebrew": "התחלה",
       "in English": "start"
     },
     {
       "Number": 233,
-      "Hindi": "हो सकता है",
+      "Hebrew": "אולי",
       "in English": "might"
     },
     {
       "Number": 234,
-      "Hindi": "कहानी",
+      "Hebrew": "סיפור",
       "in English": "story"
     },
     {
       "Number": 235,
-      "Hindi": "देखा",
+      "Hebrew": "מסור",
       "in English": "saw"
     },
     {
       "Number": 236,
-      "Hindi": "दूर",
+      "Hebrew": "רחוק",
       "in English": "far"
     },
     {
       "Number": 237,
-      "Hindi": "समुद्र",
+      "Hebrew": "ים",
       "in English": "sea"
     },
     {
       "Number": 238,
-      "Hindi": "आकर्षित",
+      "Hebrew": "לצייר",
       "in English": "draw"
     },
     {
       "Number": 239,
-      "Hindi": "छोड़ा",
+      "Hebrew": "עזב",
       "in English": "left"
     },
     {
       "Number": 240,
-      "Hindi": "देर से",
+      "Hebrew": "מאוחר",
       "in English": "late"
     },
     {
       "Number": 241,
-      "Hindi": "चलाने",
+      "Hebrew": "לרוץ",
       "in English": "run"
     },
     {
       "Number": 242,
-      "Hindi": "ऐसा नहीं",
+      "Hebrew": "לא",
       "in English": "don’t"
     },
     {
       "Number": 243,
-      "Hindi": "जबकि",
+      "Hebrew": "תוך",
       "in English": "while"
     },
     {
       "Number": 244,
-      "Hindi": "प्रेस",
+      "Hebrew": "עיתונות",
       "in English": "press"
     },
     {
       "Number": 245,
-      "Hindi": "करीब",
+      "Hebrew": "קרוב",
       "in English": "close"
     },
     {
       "Number": 246,
-      "Hindi": "रात",
+      "Hebrew": "לילה",
       "in English": "night"
     },
     {
       "Number": 247,
-      "Hindi": "असली",
+      "Hebrew": "אמיתי",
       "in English": "real"
     },
     {
       "Number": 248,
-      "Hindi": "जीवन",
+      "Hebrew": "חיים",
       "in English": "life"
     },
     {
       "Number": 249,
-      "Hindi": "कुछ",
+      "Hebrew": "כמה",
       "in English": "few"
     },
     {
       "Number": 250,
-      "Hindi": "उत्तर",
+      "Hebrew": "צפון",
       "in English": "north"
     },
     {
       "Number": 251,
-      "Hindi": "किताब",
+      "Hebrew": "ספר",
       "in English": "book"
     },
     {
       "Number": 252,
-      "Hindi": "ले",
+      "Hebrew": "לשאת",
       "in English": "carry"
     },
     {
       "Number": 253,
-      "Hindi": "ले लिया",
+      "Hebrew": "לקחתי",
       "in English": "took"
     },
     {
       "Number": 254,
-      "Hindi": "विज्ञान",
+      "Hebrew": "מדע",
       "in English": "science"
     },
     {
       "Number": 255,
-      "Hindi": "खाने",
+      "Hebrew": "לסעוד",
       "in English": "eat"
     },
     {
       "Number": 256,
-      "Hindi": "कमरे",
+      "Hebrew": "חדר",
       "in English": "room"
     },
     {
       "Number": 257,
-      "Hindi": "दोस्त",
+      "Hebrew": "חבר",
       "in English": "friend"
     },
     {
       "Number": 258,
-      "Hindi": "शुरू हुआ",
+      "Hebrew": "החל",
       "in English": "began"
     },
     {
       "Number": 259,
-      "Hindi": "विचार",
+      "Hebrew": "רעיון",
       "in English": "idea"
     },
     {
       "Number": 260,
-      "Hindi": "मछली",
+      "Hebrew": "דגים",
       "in English": "fish"
     },
     {
       "Number": 261,
-      "Hindi": "पहाड़",
+      "Hebrew": "הר",
       "in English": "mountain"
     },
     {
       "Number": 262,
-      "Hindi": "रोक",
+      "Hebrew": "להפסיק",
       "in English": "stop"
     },
     {
       "Number": 263,
-      "Hindi": "एक बार",
+      "Hebrew": "פעם אחת",
       "in English": "once"
     },
     {
       "Number": 264,
-      "Hindi": "आधार",
+      "Hebrew": "בסיס",
       "in English": "base"
     },
     {
       "Number": 265,
-      "Hindi": "सुनना",
+      "Hebrew": "לשמוע",
       "in English": "hear"
     },
     {
       "Number": 266,
-      "Hindi": "घोड़ा",
+      "Hebrew": "סוס",
       "in English": "horse"
     },
     {
       "Number": 267,
-      "Hindi": "कटौती",
+      "Hebrew": "לחתוך",
       "in English": "cut"
     },
     {
       "Number": 268,
-      "Hindi": "यकीन",
+      "Hebrew": "בטוח",
       "in English": "sure"
     },
     {
       "Number": 269,
-      "Hindi": "घड़ी",
+      "Hebrew": "לצפות",
       "in English": "watch"
     },
     {
       "Number": 270,
-      "Hindi": "रंग",
+      "Hebrew": "צבע",
       "in English": "color"
     },
     {
       "Number": 271,
-      "Hindi": "चेहरा",
+      "Hebrew": "פנים",
       "in English": "face"
     },
     {
       "Number": 272,
-      "Hindi": "लकड़ी",
+      "Hebrew": "עץ",
       "in English": "wood"
     },
     {
       "Number": 273,
-      "Hindi": "मुख्य",
+      "Hebrew": "עיקרי",
       "in English": "main"
     },
     {
       "Number": 274,
-      "Hindi": "खुला",
+      "Hebrew": "פתוח",
       "in English": "open"
     },
     {
       "Number": 275,
-      "Hindi": "प्रतीत",
+      "Hebrew": "נראה",
       "in English": "seem"
     },
     {
       "Number": 276,
-      "Hindi": "एक साथ",
+      "Hebrew": "יחד",
       "in English": "together"
     },
     {
       "Number": 277,
-      "Hindi": "अगला",
+      "Hebrew": "הבא",
       "in English": "next"
     },
     {
       "Number": 278,
-      "Hindi": "सफेद",
+      "Hebrew": "לבן",
       "in English": "white"
     },
     {
       "Number": 279,
-      "Hindi": "बच्चों",
+      "Hebrew": "ילדים",
       "in English": "children"
     },
     {
       "Number": 280,
-      "Hindi": "प्रारंभ करना",
+      "Hebrew": "להתחיל",
       "in English": "begin"
     },
     {
       "Number": 281,
-      "Hindi": "मिला",
+      "Hebrew": "לי",
       "in English": "got"
     },
     {
       "Number": 282,
-      "Hindi": "चलना",
+      "Hebrew": "ללכת",
       "in English": "walk"
     },
     {
       "Number": 283,
-      "Hindi": "उदाहरण",
+      "Hebrew": "דוגמא",
       "in English": "example"
     },
     {
       "Number": 284,
-      "Hindi": "आसानी",
+      "Hebrew": "להקל",
       "in English": "ease"
     },
     {
       "Number": 285,
-      "Hindi": "कागज",
+      "Hebrew": "נייר",
       "in English": "paper"
     },
     {
       "Number": 286,
-      "Hindi": "समूह",
+      "Hebrew": "קבוצה",
       "in English": "group"
     },
     {
       "Number": 287,
-      "Hindi": "सदैव",
+      "Hebrew": "תמיד",
       "in English": "always"
     },
     {
       "Number": 288,
-      "Hindi": "संगीत",
+      "Hebrew": "מוסיקה",
       "in English": "music"
     },
     {
       "Number": 289,
-      "Hindi": "उन",
+      "Hebrew": "אלה",
       "in English": "those"
     },
     {
       "Number": 290,
-      "Hindi": "दोनों",
+      "Hebrew": "שני",
       "in English": "both"
     },
     {
       "Number": 291,
-      "Hindi": "मार्क",
+      "Hebrew": "סימן",
       "in English": "mark"
     },
     {
       "Number": 292,
-      "Hindi": "अक्सर",
+      "Hebrew": "לעתים קרובות",
       "in English": "often"
     },
     {
       "Number": 293,
-      "Hindi": "पत्र",
+      "Hebrew": "מכתב",
       "in English": "letter"
     },
     {
       "Number": 294,
-      "Hindi": "जब तक",
+      "Hebrew": "עד",
       "in English": "until"
     },
     {
       "Number": 295,
-      "Hindi": "मील",
+      "Hebrew": "מייל",
       "in English": "mile"
     },
     {
       "Number": 296,
-      "Hindi": "नदी",
+      "Hebrew": "נהר",
       "in English": "river"
     },
     {
       "Number": 297,
-      "Hindi": "कार",
+      "Hebrew": "מכונית",
       "in English": "car"
     },
     {
       "Number": 298,
-      "Hindi": "पैर",
+      "Hebrew": "רגליים",
       "in English": "feet"
     },
     {
       "Number": 299,
-      "Hindi": "देखभाल",
+      "Hebrew": "טיפול",
       "in English": "care"
     },
     {
       "Number": 300,
-      "Hindi": "दूसरा",
+      "Hebrew": "שני",
       "in English": "second"
     },
     {
       "Number": 301,
-      "Hindi": "पर्याप्त",
+      "Hebrew": "מספיק",
       "in English": "enough"
     },
     {
       "Number": 302,
-      "Hindi": "सादे",
+      "Hebrew": "מישור",
       "in English": "plain"
     },
     {
       "Number": 303,
-      "Hindi": "लड़की",
+      "Hebrew": "ילדה",
       "in English": "girl"
     },
     {
       "Number": 304,
-      "Hindi": "हमेशा की तरह",
+      "Hebrew": "כרגיל",
       "in English": "usual"
     },
     {
       "Number": 305,
-      "Hindi": "युवा",
+      "Hebrew": "צעיר",
       "in English": "young"
     },
     {
       "Number": 306,
-      "Hindi": "तैयार",
+      "Hebrew": "מוכן",
       "in English": "ready"
     },
     {
       "Number": 307,
-      "Hindi": "ऊपर",
+      "Hebrew": "מעל",
       "in English": "above"
     },
     {
       "Number": 308,
-      "Hindi": "कभी",
+      "Hebrew": "אי פעם",
       "in English": "ever"
     },
     {
       "Number": 309,
-      "Hindi": "लाल",
+      "Hebrew": "אדום",
       "in English": "red"
     },
     {
       "Number": 310,
-      "Hindi": "सूची",
+      "Hebrew": "רשימה",
       "in English": "list"
     },
     {
       "Number": 311,
-      "Hindi": "हालांकि",
+      "Hebrew": "למרות ש",
       "in English": "though"
     },
     {
       "Number": 312,
-      "Hindi": "लग रहा है",
+      "Hebrew": "להרגיש",
       "in English": "feel"
     },
     {
       "Number": 313,
-      "Hindi": "वार्ता",
+      "Hebrew": "דיבורים",
       "in English": "talk"
     },
     {
       "Number": 314,
-      "Hindi": "पक्षी",
+      "Hebrew": "ציפור",
       "in English": "bird"
     },
     {
       "Number": 315,
-      "Hindi": "शीघ्र",
+      "Hebrew": "בקרוב",
       "in English": "soon"
     },
     {
       "Number": 316,
-      "Hindi": "शरीर",
+      "Hebrew": "גוף",
       "in English": "body"
     },
     {
       "Number": 317,
-      "Hindi": "कुत्ते",
+      "Hebrew": "כלב",
       "in English": "dog"
     },
     {
       "Number": 318,
-      "Hindi": "परिवार",
+      "Hebrew": "משפחה",
       "in English": "family"
     },
     {
       "Number": 319,
-      "Hindi": "प्रत्यक्ष",
+      "Hebrew": "ישיר",
       "in English": "direct"
     },
     {
       "Number": 320,
-      "Hindi": "ढोंग",
+      "Hebrew": "פוזה",
       "in English": "pose"
     },
     {
       "Number": 321,
-      "Hindi": "छोड़",
+      "Hebrew": "לעזוב",
       "in English": "leave"
     },
     {
       "Number": 322,
-      "Hindi": "गीत",
+      "Hebrew": "שיר",
       "in English": "song"
     },
     {
       "Number": 323,
-      "Hindi": "नाप",
+      "Hebrew": "למדוד",
       "in English": "measure"
     },
     {
       "Number": 324,
-      "Hindi": "दरवाजा",
+      "Hebrew": "דלת",
       "in English": "door"
     },
     {
       "Number": 325,
-      "Hindi": "उत्पाद",
+      "Hebrew": "מוצר",
       "in English": "product"
     },
     {
       "Number": 326,
-      "Hindi": "काला",
+      "Hebrew": "שחור",
       "in English": "black"
     },
     {
       "Number": 327,
-      "Hindi": "कम",
+      "Hebrew": "קצר",
       "in English": "short"
     },
     {
       "Number": 328,
-      "Hindi": "अंक",
+      "Hebrew": "ספרה",
       "in English": "numeral"
     },
     {
       "Number": 329,
-      "Hindi": "क्लास",
+      "Hebrew": "כיתה",
       "in English": "class"
     },
     {
       "Number": 330,
-      "Hindi": "हवा",
+      "Hebrew": "רוח",
       "in English": "wind"
     },
     {
       "Number": 331,
-      "Hindi": "सवाल",
+      "Hebrew": "שאלה",
       "in English": "question"
     },
     {
       "Number": 332,
-      "Hindi": "होना",
+      "Hebrew": "לקרות",
       "in English": "happen"
     },
     {
       "Number": 333,
-      "Hindi": "पूरा",
+      "Hebrew": "מלא",
       "in English": "complete"
     },
     {
       "Number": 334,
-      "Hindi": "जहाज",
+      "Hebrew": "ספינה",
       "in English": "ship"
     },
     {
       "Number": 335,
-      "Hindi": "क्षेत्र",
+      "Hebrew": "אזור",
       "in English": "area"
     },
     {
       "Number": 336,
-      "Hindi": "आधा",
+      "Hebrew": "מחצית",
       "in English": "half"
     },
     {
       "Number": 337,
-      "Hindi": "रॉक",
+      "Hebrew": "רוק",
       "in English": "rock"
     },
     {
       "Number": 338,
-      "Hindi": "आदेश",
+      "Hebrew": "כדי",
       "in English": "order"
     },
     {
       "Number": 339,
-      "Hindi": "आग",
+      "Hebrew": "אש",
       "in English": "fire"
     },
     {
       "Number": 340,
-      "Hindi": "दक्षिण",
+      "Hebrew": "דרום",
       "in English": "south"
     },
     {
       "Number": 341,
-      "Hindi": "समस्या",
+      "Hebrew": "בעיה",
       "in English": "problem"
     },
     {
       "Number": 342,
-      "Hindi": "टुकड़ा",
+      "Hebrew": "חתיכה",
       "in English": "piece"
     },
     {
       "Number": 343,
-      "Hindi": "बताया",
+      "Hebrew": "אמר לי",
       "in English": "told"
     },
     {
       "Number": 344,
-      "Hindi": "पता था",
+      "Hebrew": "ידעתי",
       "in English": "knew"
     },
     {
       "Number": 345,
-      "Hindi": "पास",
+      "Hebrew": "עובר",
       "in English": "pass"
     },
     {
       "Number": 346,
-      "Hindi": "के बाद से",
+      "Hebrew": "מאז",
       "in English": "since"
     },
     {
       "Number": 347,
-      "Hindi": "शीर्ष",
+      "Hebrew": "עליון",
       "in English": "top"
     },
     {
       "Number": 348,
-      "Hindi": "पूरे",
+      "Hebrew": "כל",
       "in English": "whole"
     },
     {
       "Number": 349,
-      "Hindi": "राजा",
+      "Hebrew": "מלך",
       "in English": "king"
     },
     {
       "Number": 350,
-      "Hindi": "सड़क",
+      "Hebrew": "רחוב",
       "in English": "street"
     },
     {
       "Number": 351,
-      "Hindi": "इंच",
+      "Hebrew": "אינץ",
       "in English": "inch"
     },
     {
       "Number": 352,
-      "Hindi": "गुणा",
+      "Hebrew": "להכפיל",
       "in English": "multiply"
     },
     {
       "Number": 353,
-      "Hindi": "कुछ नहीं",
+      "Hebrew": "שום דבר",
       "in English": "nothing"
     },
     {
       "Number": 354,
-      "Hindi": "कोर्स",
+      "Hebrew": "כמובן",
       "in English": "course"
     },
     {
       "Number": 355,
-      "Hindi": "रहना",
+      "Hebrew": "להישאר",
       "in English": "stay"
     },
     {
       "Number": 356,
-      "Hindi": "पहिया",
+      "Hebrew": "גלגל",
       "in English": "wheel"
     },
     {
       "Number": 357,
-      "Hindi": "पूर्ण",
+      "Hebrew": "מלא",
       "in English": "full"
     },
     {
       "Number": 358,
-      "Hindi": "बल",
+      "Hebrew": "כוח",
       "in English": "force"
     },
     {
       "Number": 359,
-      "Hindi": "नीला",
+      "Hebrew": "כחול",
       "in English": "blue"
     },
     {
       "Number": 360,
-      "Hindi": "वस्तु",
+      "Hebrew": "אובייקט",
       "in English": "object"
     },
     {
       "Number": 361,
-      "Hindi": "तय",
+      "Hebrew": "להחליט",
       "in English": "decide"
     },
     {
       "Number": 362,
-      "Hindi": "सतह",
+      "Hebrew": "פני השטח",
       "in English": "surface"
     },
     {
       "Number": 363,
-      "Hindi": "गहरा",
+      "Hebrew": "עמוק",
       "in English": "deep"
     },
     {
       "Number": 364,
-      "Hindi": "चांद",
+      "Hebrew": "ירח",
       "in English": "moon"
     },
     {
       "Number": 365,
-      "Hindi": "द्वीप",
+      "Hebrew": "אי",
       "in English": "island"
     },
     {
       "Number": 366,
-      "Hindi": "पैर",
+      "Hebrew": "רגל",
       "in English": "foot"
     },
     {
       "Number": 367,
-      "Hindi": "प्रणाली",
+      "Hebrew": "מערכת",
       "in English": "system"
     },
     {
       "Number": 368,
-      "Hindi": "व्यस्त",
+      "Hebrew": "עסוק",
       "in English": "busy"
     },
     {
       "Number": 369,
-      "Hindi": "परीक्षण",
+      "Hebrew": "מבחן",
       "in English": "test"
     },
     {
       "Number": 370,
-      "Hindi": "रिकॉर्ड",
+      "Hebrew": "שיא",
       "in English": "record"
     },
     {
       "Number": 371,
-      "Hindi": "नाव",
+      "Hebrew": "סירה",
       "in English": "boat"
     },
     {
       "Number": 372,
-      "Hindi": "आम",
+      "Hebrew": "משותף",
       "in English": "common"
     },
     {
       "Number": 373,
-      "Hindi": "सोना",
+      "Hebrew": "זהב",
       "in English": "gold"
     },
     {
       "Number": 374,
-      "Hindi": "संभव",
+      "Hebrew": "אפשרי",
       "in English": "possible"
     },
     {
       "Number": 375,
-      "Hindi": "विमान",
+      "Hebrew": "מטוס",
       "in English": "plane"
     },
     {
       "Number": 376,
-      "Hindi": "जगह",
+      "Hebrew": "במקום",
       "in English": "stead"
     },
     {
       "Number": 377,
-      "Hindi": "सूखा",
+      "Hebrew": "יבש",
       "in English": "dry"
     },
     {
       "Number": 378,
-      "Hindi": "आश्चर्य",
+      "Hebrew": "פלא",
       "in English": "wonder"
     },
     {
       "Number": 379,
-      "Hindi": "हंसी",
+      "Hebrew": "צחוק",
       "in English": "laugh"
     },
     {
       "Number": 380,
-      "Hindi": "हजार",
+      "Hebrew": "אלף",
       "in English": "thousand"
     },
     {
       "Number": 381,
-      "Hindi": "पहले",
+      "Hebrew": "לפני",
       "in English": "ago"
     },
     {
       "Number": 382,
-      "Hindi": "भागा",
+      "Hebrew": "רצתי",
       "in English": "ran"
     },
     {
       "Number": 383,
-      "Hindi": "जाँच",
+      "Hebrew": "לבדוק",
       "in English": "check"
     },
     {
       "Number": 384,
-      "Hindi": "खेल",
+      "Hebrew": "משחק",
       "in English": "game"
     },
     {
       "Number": 385,
-      "Hindi": "आकार",
+      "Hebrew": "צורה",
       "in English": "shape"
     },
     {
       "Number": 386,
-      "Hindi": "समानता",
+      "Hebrew": "להשוות",
       "in English": "equate"
     },
     {
       "Number": 387,
-      "Hindi": "गरम",
+      "Hebrew": "חם",
       "in English": "hot"
     },
     {
       "Number": 388,
-      "Hindi": "मिस",
+      "Hebrew": "מתגעגע",
       "in English": "miss"
     },
     {
       "Number": 389,
-      "Hindi": "लाया",
+      "Hebrew": "הביא",
       "in English": "brought"
     },
     {
       "Number": 390,
-      "Hindi": "गर्मी",
+      "Hebrew": "חום",
       "in English": "heat"
     },
     {
       "Number": 391,
-      "Hindi": "बर्फ",
+      "Hebrew": "שלג",
       "in English": "snow"
     },
     {
       "Number": 392,
-      "Hindi": "टायर",
+      "Hebrew": "צמיג",
       "in English": "tire"
     },
     {
       "Number": 393,
-      "Hindi": "लाना",
+      "Hebrew": "להביא",
       "in English": "bring"
     },
     {
       "Number": 394,
-      "Hindi": "हां",
+      "Hebrew": "כן",
       "in English": "yes"
     },
     {
       "Number": 395,
-      "Hindi": "दूर",
+      "Hebrew": "רחוק",
       "in English": "distant"
     },
     {
       "Number": 396,
-      "Hindi": "भरने",
+      "Hebrew": "למלא",
       "in English": "fill"
     },
     {
       "Number": 397,
-      "Hindi": "पूर्व",
+      "Hebrew": "מזרח",
       "in English": "east"
     },
     {
       "Number": 398,
-      "Hindi": "रंग",
+      "Hebrew": "לצייר",
       "in English": "paint"
     },
     {
       "Number": 399,
-      "Hindi": "भाषा",
+      "Hebrew": "שפה",
       "in English": "language"
     },
     {
       "Number": 400,
-      "Hindi": "के बीच",
+      "Hebrew": "בין",
       "in English": "among"
     },
     {
       "Number": 401,
-      "Hindi": "इकाई",
+      "Hebrew": "יחידה",
       "in English": "unit"
     },
     {
       "Number": 402,
-      "Hindi": "बिजली",
+      "Hebrew": "כוח",
       "in English": "power"
     },
     {
       "Number": 403,
-      "Hindi": "शहर",
+      "Hebrew": "העיר",
       "in English": "town"
     },
     {
       "Number": 404,
-      "Hindi": "ठीक",
+      "Hebrew": "קנס",
       "in English": "fine"
     },
     {
       "Number": 405,
-      "Hindi": "कुछ",
+      "Hebrew": "מסוים",
       "in English": "certain"
     },
     {
       "Number": 406,
-      "Hindi": "मक्खी",
+      "Hebrew": "לעוף",
       "in English": "fly"
     },
     {
       "Number": 407,
-      "Hindi": "गिरावट",
+      "Hebrew": "ליפול",
       "in English": "fall"
     },
     {
       "Number": 408,
-      "Hindi": "नेतृत्व",
+      "Hebrew": "להוביל",
       "in English": "lead"
     },
     {
       "Number": 409,
-      "Hindi": "रोना",
+      "Hebrew": "זעקה",
       "in English": "cry"
     },
     {
       "Number": 410,
-      "Hindi": "अंधेरा",
+      "Hebrew": "אפל",
       "in English": "dark"
     },
     {
       "Number": 411,
-      "Hindi": "मशीन",
+      "Hebrew": "מכונה",
       "in English": "machine"
     },
     {
       "Number": 412,
-      "Hindi": "नोट",
+      "Hebrew": "הערה",
       "in English": "note"
     },
     {
       "Number": 413,
-      "Hindi": "इंतजार",
+      "Hebrew": "לחכות",
       "in English": "wait"
     },
     {
       "Number": 414,
-      "Hindi": "योजना",
+      "Hebrew": "תכנית",
       "in English": "plan"
     },
     {
       "Number": 415,
-      "Hindi": "आंकड़ा",
+      "Hebrew": "דמות",
       "in English": "figure"
     },
     {
       "Number": 416,
-      "Hindi": "सितारा",
+      "Hebrew": "כוכב",
       "in English": "star"
     },
     {
       "Number": 417,
-      "Hindi": "बॉक्स",
+      "Hebrew": "תיבה",
       "in English": "box"
     },
     {
       "Number": 418,
-      "Hindi": "संज्ञा",
+      "Hebrew": "שם עצם",
       "in English": "noun"
     },
     {
       "Number": 419,
-      "Hindi": "क्षेत्र",
+      "Hebrew": "שדה",
       "in English": "field"
     },
     {
       "Number": 420,
-      "Hindi": "बाकी",
+      "Hebrew": "שאר",
       "in English": "rest"
     },
     {
       "Number": 421,
-      "Hindi": "सही",
+      "Hebrew": "נכון",
       "in English": "correct"
     },
     {
       "Number": 422,
-      "Hindi": "सक्षम",
+      "Hebrew": "תוכל",
       "in English": "able"
     },
     {
       "Number": 423,
-      "Hindi": "पाउंड",
+      "Hebrew": "קילו",
       "in English": "pound"
     },
     {
       "Number": 424,
-      "Hindi": "किया",
+      "Hebrew": "עשיתי",
       "in English": "done"
     },
     {
       "Number": 425,
-      "Hindi": "सुंदरता",
+      "Hebrew": "יופי",
       "in English": "beauty"
     },
     {
       "Number": 426,
-      "Hindi": "ड्राइव",
+      "Hebrew": "כונן",
       "in English": "drive"
     },
     {
       "Number": 427,
-      "Hindi": "खड़ा हुआ",
+      "Hebrew": "עמד",
       "in English": "stood"
     },
     {
       "Number": 428,
-      "Hindi": "होते हैं",
+      "Hebrew": "להכיל",
       "in English": "contain"
     },
     {
       "Number": 429,
-      "Hindi": "सामने",
+      "Hebrew": "מול",
       "in English": "front"
     },
     {
       "Number": 430,
-      "Hindi": "सिखाना",
+      "Hebrew": "ללמד",
       "in English": "teach"
     },
     {
       "Number": 431,
-      "Hindi": "सप्ताह",
+      "Hebrew": "שבוע",
       "in English": "week"
     },
     {
       "Number": 432,
-      "Hindi": "अंतिम",
+      "Hebrew": "סופי",
       "in English": "final"
     },
     {
       "Number": 433,
-      "Hindi": "दिया",
+      "Hebrew": "נתתי",
       "in English": "gave"
     },
     {
       "Number": 434,
-      "Hindi": "हरे रंग",
+      "Hebrew": "ירוק",
       "in English": "green"
     },
     {
       "Number": 435,
-      "Hindi": "ओह",
+      "Hebrew": "הו",
       "in English": "oh"
     },
     {
       "Number": 436,
-      "Hindi": "त्वरित",
+      "Hebrew": "מהיר",
       "in English": "quick"
     },
     {
       "Number": 437,
-      "Hindi": "विकसित",
+      "Hebrew": "לפתח",
       "in English": "develop"
     },
     {
       "Number": 438,
-      "Hindi": "सागर",
+      "Hebrew": "אוקיינוס",
       "in English": "ocean"
     },
     {
       "Number": 439,
-      "Hindi": "गर्म",
+      "Hebrew": "חם",
       "in English": "warm"
     },
     {
       "Number": 440,
-      "Hindi": "मुक्त",
+      "Hebrew": "חופשי",
       "in English": "free"
     },
     {
       "Number": 441,
-      "Hindi": "मिनट",
+      "Hebrew": "דקות",
       "in English": "minute"
     },
     {
       "Number": 442,
-      "Hindi": "मजबूत",
+      "Hebrew": "חזק",
       "in English": "strong"
     },
     {
       "Number": 443,
-      "Hindi": "विशेष",
+      "Hebrew": "מיוחד",
       "in English": "special"
     },
     {
       "Number": 444,
-      "Hindi": "मन",
+      "Hebrew": "דעה",
       "in English": "mind"
     },
     {
       "Number": 445,
-      "Hindi": "पीछे",
+      "Hebrew": "מאחור",
       "in English": "behind"
     },
     {
       "Number": 446,
-      "Hindi": "स्पष्ट",
+      "Hebrew": "ברור",
       "in English": "clear"
     },
     {
       "Number": 447,
-      "Hindi": "पूंछ",
+      "Hebrew": "זנב",
       "in English": "tail"
     },
     {
       "Number": 448,
-      "Hindi": "उत्पादन",
+      "Hebrew": "לייצר",
       "in English": "produce"
     },
     {
       "Number": 449,
-      "Hindi": "तथ्य",
+      "Hebrew": "עובדה",
       "in English": "fact"
     },
     {
       "Number": 450,
-      "Hindi": "अंतरिक्ष",
+      "Hebrew": "חלל",
       "in English": "space"
     },
     {
       "Number": 451,
-      "Hindi": "सुना",
+      "Hebrew": "שמע",
       "in English": "heard"
     },
     {
       "Number": 452,
-      "Hindi": "सर्वश्रेष्ठ",
+      "Hebrew": "הטוב ביותר",
       "in English": "best"
     },
     {
       "Number": 453,
-      "Hindi": "घंटे",
+      "Hebrew": "שעה",
       "in English": "hour"
     },
     {
       "Number": 454,
-      "Hindi": "बेहतर",
+      "Hebrew": "טוב יותר",
       "in English": "better"
     },
     {
       "Number": 455,
-      "Hindi": "सच",
+      "Hebrew": "נכון",
       "in English": "true"
     },
     {
       "Number": 456,
-      "Hindi": "दौरान",
+      "Hebrew": "במהלך",
       "in English": "during"
     },
     {
       "Number": 457,
-      "Hindi": "सौ",
+      "Hebrew": "מאה",
       "in English": "hundred"
     },
     {
       "Number": 458,
-      "Hindi": "पांच",
+      "Hebrew": "חמש",
       "in English": "five"
     },
     {
       "Number": 459,
-      "Hindi": "याद",
+      "Hebrew": "לזכור",
       "in English": "remember"
     },
     {
       "Number": 460,
-      "Hindi": "कदम",
+      "Hebrew": "צעד",
       "in English": "step"
     },
     {
       "Number": 461,
-      "Hindi": "शीघ्र",
+      "Hebrew": "מוקדם",
       "in English": "early"
     },
     {
       "Number": 462,
-      "Hindi": "पकड़",
+      "Hebrew": "להחזיק",
       "in English": "hold"
     },
     {
       "Number": 463,
-      "Hindi": "पश्चिम",
+      "Hebrew": "מערב",
       "in English": "west"
     },
     {
       "Number": 464,
-      "Hindi": "जमीन",
+      "Hebrew": "קרקע",
       "in English": "ground"
     },
     {
       "Number": 465,
-      "Hindi": "ब्याज",
+      "Hebrew": "עניין",
       "in English": "interest"
     },
     {
       "Number": 466,
-      "Hindi": "तक पहुँचने",
+      "Hebrew": "להגיע",
       "in English": "reach"
     },
     {
       "Number": 467,
-      "Hindi": "तेजी",
+      "Hebrew": "מהר",
       "in English": "fast"
     },
     {
       "Number": 468,
-      "Hindi": "क्रिया",
+      "Hebrew": "פועל",
       "in English": "verb"
     },
     {
       "Number": 469,
-      "Hindi": "गाना",
+      "Hebrew": "לשיר",
       "in English": "sing"
     },
     {
       "Number": 470,
-      "Hindi": "सुनो",
+      "Hebrew": "להקשיב",
       "in English": "listen"
     },
     {
       "Number": 471,
-      "Hindi": "छह",
+      "Hebrew": "שש",
       "in English": "six"
     },
     {
       "Number": 472,
-      "Hindi": "तालिका",
+      "Hebrew": "שולחן",
       "in English": "table"
     },
     {
       "Number": 473,
-      "Hindi": "यात्रा",
+      "Hebrew": "נסיעה",
       "in English": "travel"
     },
     {
       "Number": 474,
-      "Hindi": "कम",
+      "Hebrew": "פחות",
       "in English": "less"
     },
     {
       "Number": 475,
-      "Hindi": "सुबह",
+      "Hebrew": "בוקר",
       "in English": "morning"
     },
     {
       "Number": 476,
-      "Hindi": "दस",
+      "Hebrew": "עשר",
       "in English": "ten"
     },
     {
       "Number": 477,
-      "Hindi": "सरल",
+      "Hebrew": "פשוט",
       "in English": "simple"
     },
     {
       "Number": 478,
-      "Hindi": "कई",
+      "Hebrew": "כמה",
       "in English": "several"
     },
     {
       "Number": 479,
-      "Hindi": "स्वर",
+      "Hebrew": "תנועה",
       "in English": "vowel"
     },
     {
       "Number": 480,
-      "Hindi": "की ओर",
+      "Hebrew": "לקראת",
       "in English": "toward"
     },
     {
       "Number": 481,
-      "Hindi": "युद्ध",
+      "Hebrew": "מלחמה",
       "in English": "war"
     },
     {
       "Number": 482,
-      "Hindi": "रखना",
+      "Hebrew": "שכבתי",
       "in English": "lay"
     },
     {
       "Number": 483,
-      "Hindi": "के खिलाफ",
+      "Hebrew": "נגד",
       "in English": "against"
     },
     {
       "Number": 484,
-      "Hindi": "पैटर्न",
+      "Hebrew": "דפוס",
       "in English": "pattern"
     },
     {
       "Number": 485,
-      "Hindi": "धीमी",
+      "Hebrew": "איטי",
       "in English": "slow"
     },
     {
       "Number": 486,
-      "Hindi": "केंद्र",
+      "Hebrew": "מרכז",
       "in English": "center"
     },
     {
       "Number": 487,
-      "Hindi": "प्यार",
+      "Hebrew": "אהבה",
       "in English": "love"
     },
     {
       "Number": 488,
-      "Hindi": "व्यक्ति",
+      "Hebrew": "אדם",
       "in English": "person"
     },
     {
       "Number": 489,
-      "Hindi": "धन",
+      "Hebrew": "כסף",
       "in English": "money"
     },
     {
       "Number": 490,
-      "Hindi": "सेवा कर",
+      "Hebrew": "לשרת",
       "in English": "serve"
     },
     {
       "Number": 491,
-      "Hindi": "प्रकट",
+      "Hebrew": "להופיע",
       "in English": "appear"
     },
     {
       "Number": 492,
-      "Hindi": "सड़क",
+      "Hebrew": "כביש",
       "in English": "road"
     },
     {
       "Number": 493,
-      "Hindi": "नक्शा",
+      "Hebrew": "המפה",
       "in English": "map"
     },
     {
       "Number": 494,
-      "Hindi": "बारिश",
+      "Hebrew": "גשם",
       "in English": "rain"
     },
     {
       "Number": 495,
-      "Hindi": "नियम",
+      "Hebrew": "שלטון",
       "in English": "rule"
     },
     {
       "Number": 496,
-      "Hindi": "शासन",
+      "Hebrew": "למשול",
       "in English": "govern"
     },
     {
       "Number": 497,
-      "Hindi": "खींच",
+      "Hebrew": "למשוך",
       "in English": "pull"
     },
     {
       "Number": 498,
-      "Hindi": "ठंड",
+      "Hebrew": "קר",
       "in English": "cold"
     },
     {
       "Number": 499,
-      "Hindi": "नोटिस",
+      "Hebrew": "הודעה",
       "in English": "notice"
     },
     {
       "Number": 500,
-      "Hindi": "आवाज",
+      "Hebrew": "קול",
       "in English": "voice"
     },
     {
       "Number": 501,
-      "Hindi": "ऊर्जा",
+      "Hebrew": "אנרגיה",
       "in English": "energy"
     },
     {
       "Number": 502,
-      "Hindi": "शिकार",
+      "Hebrew": "ציד",
       "in English": "hunt"
     },
     {
       "Number": 503,
-      "Hindi": "संभावित",
+      "Hebrew": "סביר",
       "in English": "probable"
     },
     {
       "Number": 504,
-      "Hindi": "बिस्तर",
+      "Hebrew": "מיטה",
       "in English": "bed"
     },
     {
       "Number": 505,
-      "Hindi": "भाई",
+      "Hebrew": "אח",
       "in English": "brother"
     },
     {
       "Number": 506,
-      "Hindi": "अंडा",
+      "Hebrew": "ביצה",
       "in English": "egg"
     },
     {
       "Number": 507,
-      "Hindi": "सवारी",
+      "Hebrew": "נסיעה",
       "in English": "ride"
     },
     {
       "Number": 508,
-      "Hindi": "सेल",
+      "Hebrew": "תא",
       "in English": "cell"
     },
     {
       "Number": 509,
-      "Hindi": "विश्वास है",
+      "Hebrew": "מאמין",
       "in English": "believe"
     },
     {
       "Number": 510,
-      "Hindi": "शायद",
+      "Hebrew": "אולי",
       "in English": "perhaps"
     },
     {
       "Number": 511,
-      "Hindi": "उठाओ",
+      "Hebrew": "לבחור",
       "in English": "pick"
     },
     {
       "Number": 512,
-      "Hindi": "अचानक",
+      "Hebrew": "פתאומי",
       "in English": "sudden"
     },
     {
       "Number": 513,
-      "Hindi": "गिनती",
+      "Hebrew": "לספור",
       "in English": "count"
     },
     {
       "Number": 514,
-      "Hindi": "वर्ग",
+      "Hebrew": "רבוע",
       "in English": "square"
     },
     {
       "Number": 515,
-      "Hindi": "कारण",
+      "Hebrew": "סיבה",
       "in English": "reason"
     },
     {
       "Number": 516,
-      "Hindi": "लंबाई",
+      "Hebrew": "משך",
       "in English": "length"
     },
     {
       "Number": 517,
-      "Hindi": "का प्रतिनिधित्व",
+      "Hebrew": "מייצג",
       "in English": "represent"
     },
     {
       "Number": 518,
-      "Hindi": "कला",
+      "Hebrew": "אמנות",
       "in English": "art"
     },
     {
       "Number": 519,
-      "Hindi": "विषय",
+      "Hebrew": "נושא",
       "in English": "subject"
     },
     {
       "Number": 520,
-      "Hindi": "क्षेत्र",
+      "Hebrew": "אזור",
       "in English": "region"
     },
     {
       "Number": 521,
-      "Hindi": "आकार",
+      "Hebrew": "גודל",
       "in English": "size"
     },
     {
       "Number": 522,
-      "Hindi": "भिन्न हो",
+      "Hebrew": "להשתנות",
       "in English": "vary"
     },
     {
       "Number": 523,
-      "Hindi": "बसा",
+      "Hebrew": "להתיישב",
       "in English": "settle"
     },
     {
       "Number": 524,
-      "Hindi": "बोलना",
+      "Hebrew": "לדבר",
       "in English": "speak"
     },
     {
       "Number": 525,
-      "Hindi": "वजन",
+      "Hebrew": "משקל",
       "in English": "weight"
     },
     {
       "Number": 526,
-      "Hindi": "सामान्य",
+      "Hebrew": "כללי",
       "in English": "general"
     },
     {
       "Number": 527,
-      "Hindi": "बर्फ",
+      "Hebrew": "קרח",
       "in English": "ice"
     },
     {
       "Number": 528,
-      "Hindi": "मामला",
+      "Hebrew": "עניין",
       "in English": "matter"
     },
     {
       "Number": 529,
-      "Hindi": "वृत्त",
+      "Hebrew": "המעגל",
       "in English": "circle"
     },
     {
       "Number": 530,
-      "Hindi": "जोड़ी",
+      "Hebrew": "זוג",
       "in English": "pair"
     },
     {
       "Number": 531,
-      "Hindi": "शामिल",
+      "Hebrew": "כולל",
       "in English": "include"
     },
     {
       "Number": 532,
-      "Hindi": "विभाजन",
+      "Hebrew": "פער",
       "in English": "divide"
     },
     {
       "Number": 533,
-      "Hindi": "शब्दांश",
+      "Hebrew": "הברה",
       "in English": "syllable"
     },
     {
       "Number": 534,
-      "Hindi": "लगा",
+      "Hebrew": "הרגיש",
       "in English": "felt"
     },
     {
       "Number": 535,
-      "Hindi": "भव्य",
+      "Hebrew": "גדול",
       "in English": "grand"
     },
     {
       "Number": 536,
-      "Hindi": "गेंद",
+      "Hebrew": "כדור",
       "in English": "ball"
     },
     {
       "Number": 537,
-      "Hindi": "अभी तक",
+      "Hebrew": "בכל זאת",
       "in English": "yet"
     },
     {
       "Number": 538,
-      "Hindi": "लहर",
+      "Hebrew": "גל",
       "in English": "wave"
     },
     {
       "Number": 539,
-      "Hindi": "ड्रॉप",
+      "Hebrew": "טיפה",
       "in English": "drop"
     },
     {
       "Number": 540,
-      "Hindi": "दिल",
+      "Hebrew": "לב",
       "in English": "heart"
     },
     {
       "Number": 541,
-      "Hindi": "AM",
+      "Hebrew": "בבוקר",
       "in English": "am"
     },
     {
       "Number": 542,
-      "Hindi": "वर्तमान",
+      "Hebrew": "נוכחי",
       "in English": "present"
     },
     {
       "Number": 543,
-      "Hindi": "भारी",
+      "Hebrew": "כבד",
       "in English": "heavy"
     },
     {
       "Number": 544,
-      "Hindi": "नृत्य",
+      "Hebrew": "ריקוד",
       "in English": "dance"
     },
     {
       "Number": 545,
-      "Hindi": "इंजन",
+      "Hebrew": "מנוע",
       "in English": "engine"
     },
     {
       "Number": 546,
-      "Hindi": "स्थिति",
+      "Hebrew": "עמדה",
       "in English": "position"
     },
     {
       "Number": 547,
-      "Hindi": "बांह",
+      "Hebrew": "זרוע",
       "in English": "arm"
     },
     {
       "Number": 548,
-      "Hindi": "विस्तृत",
+      "Hebrew": "רחב",
       "in English": "wide"
     },
     {
       "Number": 549,
-      "Hindi": "स्टील अथॉरिटी ऑफ इंडिया",
+      "Hebrew": "מפרש",
       "in English": "sail"
     },
     {
       "Number": 550,
-      "Hindi": "सामग्री",
+      "Hebrew": "חומר",
       "in English": "material"
     },
     {
       "Number": 551,
-      "Hindi": "अंश",
+      "Hebrew": "חלק",
       "in English": "fraction"
     },
     {
       "Number": 552,
-      "Hindi": "वन",
+      "Hebrew": "יער",
       "in English": "forest"
     },
     {
       "Number": 553,
-      "Hindi": "बैठना",
+      "Hebrew": "לשבת",
       "in English": "sit"
     },
     {
       "Number": 554,
-      "Hindi": "दौड़",
+      "Hebrew": "מירוץ",
       "in English": "race"
     },
     {
       "Number": 555,
-      "Hindi": "खिड़की",
+      "Hebrew": "חלון",
       "in English": "window"
     },
     {
       "Number": 556,
-      "Hindi": "दुकान",
+      "Hebrew": "חנות",
       "in English": "store"
     },
     {
       "Number": 557,
-      "Hindi": "गर्मियों",
+      "Hebrew": "הקיץ",
       "in English": "summer"
     },
     {
       "Number": 558,
-      "Hindi": "सफर",
+      "Hebrew": "רכבת",
       "in English": "train"
     },
     {
       "Number": 559,
-      "Hindi": "नींद",
+      "Hebrew": "לישון",
       "in English": "sleep"
     },
     {
       "Number": 560,
-      "Hindi": "साबित",
+      "Hebrew": "להוכיח",
       "in English": "prove"
     },
     {
       "Number": 561,
-      "Hindi": "लोन",
+      "Hebrew": "בודד",
       "in English": "lone"
     },
     {
       "Number": 562,
-      "Hindi": "पैर",
+      "Hebrew": "רגל",
       "in English": "leg"
     },
     {
       "Number": 563,
-      "Hindi": "व्यायाम",
+      "Hebrew": "תרגיל",
       "in English": "exercise"
     },
     {
       "Number": 564,
-      "Hindi": "दीवार",
+      "Hebrew": "קיר",
       "in English": "wall"
     },
     {
       "Number": 565,
-      "Hindi": "पकड़",
+      "Hebrew": "מלכוד",
       "in English": "catch"
     },
     {
       "Number": 566,
-      "Hindi": "माउंट",
+      "Hebrew": "הר",
       "in English": "mount"
     },
     {
       "Number": 567,
-      "Hindi": "इच्छा",
+      "Hebrew": "מאחל לי",
       "in English": "wish"
     },
     {
       "Number": 568,
-      "Hindi": "आसमान",
+      "Hebrew": "שמים",
       "in English": "sky"
     },
     {
       "Number": 569,
-      "Hindi": "बोर्ड",
+      "Hebrew": "לוח",
       "in English": "board"
     },
     {
       "Number": 570,
-      "Hindi": "हर्ष",
+      "Hebrew": "שמחה",
       "in English": "joy"
     },
     {
       "Number": 571,
-      "Hindi": "सर्दियों",
+      "Hebrew": "חורף",
       "in English": "winter"
     },
     {
       "Number": 572,
-      "Hindi": "शनि",
+      "Hebrew": "ישבתי",
       "in English": "sat"
     },
     {
       "Number": 573,
-      "Hindi": "लिखित",
+      "Hebrew": "נכתב",
       "in English": "written"
     },
     {
       "Number": 574,
-      "Hindi": "जंगली",
+      "Hebrew": "פראי",
       "in English": "wild"
     },
     {
       "Number": 575,
-      "Hindi": "साधन",
+      "Hebrew": "מכשיר",
       "in English": "instrument"
     },
     {
       "Number": 576,
-      "Hindi": "रखा",
+      "Hebrew": "שמר",
       "in English": "kept"
     },
     {
       "Number": 577,
-      "Hindi": "कांच",
+      "Hebrew": "זכוכית",
       "in English": "glass"
     },
     {
       "Number": 578,
-      "Hindi": "घास",
+      "Hebrew": "דשא",
       "in English": "grass"
     },
     {
       "Number": 579,
-      "Hindi": "गाय",
+      "Hebrew": "פרה",
       "in English": "cow"
     },
     {
       "Number": 580,
-      "Hindi": "काम",
+      "Hebrew": "עבודה",
       "in English": "job"
     },
     {
       "Number": 581,
-      "Hindi": "बढ़त",
+      "Hebrew": "קצה",
       "in English": "edge"
     },
     {
       "Number": 582,
-      "Hindi": "साइन",
+      "Hebrew": "סימן",
       "in English": "sign"
     },
     {
       "Number": 583,
-      "Hindi": "यात्रा",
+      "Hebrew": "ביקור",
       "in English": "visit"
     },
     {
       "Number": 584,
-      "Hindi": "अतीत",
+      "Hebrew": "האחרון",
       "in English": "past"
     },
     {
       "Number": 585,
-      "Hindi": "मुलायम",
+      "Hebrew": "רך",
       "in English": "soft"
     },
     {
       "Number": 586,
-      "Hindi": "मज़ा",
+      "Hebrew": "כיף",
       "in English": "fun"
     },
     {
       "Number": 587,
-      "Hindi": "उज्ज्वल",
+      "Hebrew": "בהיר",
       "in English": "bright"
     },
     {
       "Number": 588,
-      "Hindi": "गैस",
+      "Hebrew": "גז",
       "in English": "gas"
     },
     {
       "Number": 589,
-      "Hindi": "मौसम",
+      "Hebrew": "מזג אוויר",
       "in English": "weather"
     },
     {
       "Number": 590,
-      "Hindi": "माह",
+      "Hebrew": "חודש",
       "in English": "month"
     },
     {
       "Number": 591,
-      "Hindi": "लाख",
+      "Hebrew": "מיליון",
       "in English": "million"
     },
     {
       "Number": 592,
-      "Hindi": "भालू",
+      "Hebrew": "לשאת",
       "in English": "bear"
     },
     {
       "Number": 593,
-      "Hindi": "खत्म",
+      "Hebrew": "גימור",
       "in English": "finish"
     },
     {
       "Number": 594,
-      "Hindi": "खुश",
+      "Hebrew": "שמח",
       "in English": "happy"
     },
     {
       "Number": 595,
-      "Hindi": "आशा",
+      "Hebrew": "מקווה",
       "in English": "hope"
     },
     {
       "Number": 596,
-      "Hindi": "फूल",
+      "Hebrew": "פרח",
       "in English": "flower"
     },
     {
       "Number": 597,
-      "Hindi": "कपड़े",
+      "Hebrew": "להלביש",
       "in English": "clothe"
     },
     {
       "Number": 598,
-      "Hindi": "अजीब",
+      "Hebrew": "מוזר",
       "in English": "strange"
     },
     {
       "Number": 599,
-      "Hindi": "चला गया",
+      "Hebrew": "נעלם",
       "in English": "gone"
     },
     {
       "Number": 600,
-      "Hindi": "व्यापार",
+      "Hebrew": "מסחר",
       "in English": "trade"
     },
     {
       "Number": 601,
-      "Hindi": "राग",
+      "Hebrew": "מנגינה",
       "in English": "melody"
     },
     {
       "Number": 602,
-      "Hindi": "यात्रा",
+      "Hebrew": "טיול",
       "in English": "trip"
     },
     {
       "Number": 603,
-      "Hindi": "कार्यालय",
+      "Hebrew": "משרד",
       "in English": "office"
     },
     {
       "Number": 604,
-      "Hindi": "प्राप्त करना",
+      "Hebrew": "לקבל",
       "in English": "receive"
     },
     {
       "Number": 605,
-      "Hindi": "पंक्ति",
+      "Hebrew": "שורה",
       "in English": "row"
     },
     {
       "Number": 606,
-      "Hindi": "मुंह",
+      "Hebrew": "פה",
       "in English": "mouth"
     },
     {
       "Number": 607,
-      "Hindi": "सटीक",
+      "Hebrew": "מדויק",
       "in English": "exact"
     },
     {
       "Number": 608,
-      "Hindi": "प्रतीक",
+      "Hebrew": "סמל",
       "in English": "symbol"
     },
     {
       "Number": 609,
-      "Hindi": "मरना",
+      "Hebrew": "למות",
       "in English": "die"
     },
     {
       "Number": 610,
-      "Hindi": "कम से कम",
+      "Hebrew": "לפחות",
       "in English": "least"
     },
     {
       "Number": 611,
-      "Hindi": "मुसीबत",
+      "Hebrew": "צרות",
       "in English": "trouble"
     },
     {
       "Number": 612,
-      "Hindi": "चिल्लाओ",
+      "Hebrew": "צעקה",
       "in English": "shout"
     },
     {
       "Number": 613,
-      "Hindi": "सिवाय",
+      "Hebrew": "אלא",
       "in English": "except"
     },
     {
       "Number": 614,
-      "Hindi": "लिखा",
+      "Hebrew": "כתבתי",
       "in English": "wrote"
     },
     {
       "Number": 615,
-      "Hindi": "बीज",
+      "Hebrew": "זרע",
       "in English": "seed"
     },
     {
       "Number": 616,
-      "Hindi": "स्वर",
+      "Hebrew": "טון",
       "in English": "tone"
     },
     {
       "Number": 617,
-      "Hindi": "शामिल होने",
+      "Hebrew": "להצטרף",
       "in English": "join"
     },
     {
       "Number": 618,
-      "Hindi": "सुझाव है",
+      "Hebrew": "מציע",
       "in English": "suggest"
     },
     {
       "Number": 619,
-      "Hindi": "साफ",
+      "Hebrew": "נקי",
       "in English": "clean"
     },
     {
       "Number": 620,
-      "Hindi": "तोड़",
+      "Hebrew": "הפסקה",
       "in English": "break"
     },
     {
       "Number": 621,
-      "Hindi": "महिला",
+      "Hebrew": "גברת",
       "in English": "lady"
     },
     {
       "Number": 622,
-      "Hindi": "यार्ड",
+      "Hebrew": "חצר",
       "in English": "yard"
     },
     {
       "Number": 623,
-      "Hindi": "वृद्धि",
+      "Hebrew": "לעלות",
       "in English": "rise"
     },
     {
       "Number": 624,
-      "Hindi": "बुरा",
+      "Hebrew": "רע",
       "in English": "bad"
     },
     {
       "Number": 625,
-      "Hindi": "झटका",
+      "Hebrew": "מכה",
       "in English": "blow"
     },
     {
       "Number": 626,
-      "Hindi": "तेल",
+      "Hebrew": "שמן",
       "in English": "oil"
     },
     {
       "Number": 627,
-      "Hindi": "खून",
+      "Hebrew": "דם",
       "in English": "blood"
     },
     {
       "Number": 628,
-      "Hindi": "स्पर्श",
+      "Hebrew": "לגעת",
       "in English": "touch"
     },
     {
       "Number": 629,
-      "Hindi": "बढ़ी",
+      "Hebrew": "גדלתי",
       "in English": "grew"
     },
     {
       "Number": 630,
-      "Hindi": "प्रतिशत",
+      "Hebrew": "סנט",
       "in English": "cent"
     },
     {
       "Number": 631,
-      "Hindi": "मिश्रण",
+      "Hebrew": "לערבב",
       "in English": "mix"
     },
     {
       "Number": 632,
-      "Hindi": "टीम",
+      "Hebrew": "צוות",
       "in English": "team"
     },
     {
       "Number": 633,
-      "Hindi": "तार",
+      "Hebrew": "חוט",
       "in English": "wire"
     },
     {
       "Number": 634,
-      "Hindi": "लागत",
+      "Hebrew": "עלות",
       "in English": "cost"
     },
     {
       "Number": 635,
-      "Hindi": "खोया",
+      "Hebrew": "איבדתי",
       "in English": "lost"
     },
     {
       "Number": 636,
-      "Hindi": "ब्राउन",
+      "Hebrew": "חום",
       "in English": "brown"
     },
     {
       "Number": 637,
-      "Hindi": "पहनना",
+      "Hebrew": "ללבוש",
       "in English": "wear"
     },
     {
       "Number": 638,
-      "Hindi": "बगीचा",
+      "Hebrew": "גן",
       "in English": "garden"
     },
     {
       "Number": 639,
-      "Hindi": "बराबर",
+      "Hebrew": "שווה",
       "in English": "equal"
     },
     {
       "Number": 640,
-      "Hindi": "भेजा",
+      "Hebrew": "שלחתי",
       "in English": "sent"
     },
     {
       "Number": 641,
-      "Hindi": "चयन",
+      "Hebrew": "לבחור",
       "in English": "choose"
     },
     {
       "Number": 642,
-      "Hindi": "गिर गया",
+      "Hebrew": "נפלתי",
       "in English": "fell"
     },
     {
       "Number": 643,
-      "Hindi": "फिट",
+      "Hebrew": "להתאים",
       "in English": "fit"
     },
     {
       "Number": 644,
-      "Hindi": "प्रवाह",
+      "Hebrew": "לזרום",
       "in English": "flow"
     },
     {
       "Number": 645,
-      "Hindi": "मेला",
+      "Hebrew": "הוגן",
       "in English": "fair"
     },
     {
       "Number": 646,
-      "Hindi": "बैंक",
+      "Hebrew": "בנק",
       "in English": "bank"
     },
     {
       "Number": 647,
-      "Hindi": "इकट्ठा",
+      "Hebrew": "לאסוף",
       "in English": "collect"
     },
     {
       "Number": 648,
-      "Hindi": "बचा",
+      "Hebrew": "להציל",
       "in English": "save"
     },
     {
       "Number": 649,
-      "Hindi": "नियंत्रण",
+      "Hebrew": "שליטה",
       "in English": "control"
     },
     {
       "Number": 650,
-      "Hindi": "दशमलव",
+      "Hebrew": "עשרוני",
       "in English": "decimal"
     },
     {
       "Number": 651,
-      "Hindi": "कान",
+      "Hebrew": "אוזן",
       "in English": "ear"
     },
     {
       "Number": 652,
-      "Hindi": "बाकी",
+      "Hebrew": "אחר",
       "in English": "else"
     },
     {
       "Number": 653,
-      "Hindi": "काफी",
+      "Hebrew": "די",
       "in English": "quite"
     },
     {
       "Number": 654,
-      "Hindi": "तोड़ दिया",
+      "Hebrew": "פרץ",
       "in English": "broke"
     },
     {
       "Number": 655,
-      "Hindi": "मामले",
+      "Hebrew": "מקרה",
       "in English": "case"
     },
     {
       "Number": 656,
-      "Hindi": "बीच",
+      "Hebrew": "אמצע",
       "in English": "middle"
     },
     {
       "Number": 657,
-      "Hindi": "हत्या",
+      "Hebrew": "להרוג",
       "in English": "kill"
     },
     {
       "Number": 658,
-      "Hindi": "बेटा",
+      "Hebrew": "בן",
       "in English": "son"
     },
     {
       "Number": 659,
-      "Hindi": "झील",
+      "Hebrew": "אגם",
       "in English": "lake"
     },
     {
       "Number": 660,
-      "Hindi": "पल",
+      "Hebrew": "רגע",
       "in English": "moment"
     },
     {
       "Number": 661,
-      "Hindi": "पैमाने",
+      "Hebrew": "בקנה מידה",
       "in English": "scale"
     },
     {
       "Number": 662,
-      "Hindi": "जोर",
+      "Hebrew": "רם",
       "in English": "loud"
     },
     {
       "Number": 663,
-      "Hindi": "वसंत",
+      "Hebrew": "האביב",
       "in English": "spring"
     },
     {
       "Number": 664,
-      "Hindi": "निरीक्षण",
+      "Hebrew": "להתבונן",
       "in English": "observe"
     },
     {
       "Number": 665,
-      "Hindi": "बच्चे",
+      "Hebrew": "ילד",
       "in English": "child"
     },
     {
       "Number": 666,
-      "Hindi": "सीधे",
+      "Hebrew": "ישר",
       "in English": "straight"
     },
     {
       "Number": 667,
-      "Hindi": "व्यंजन",
+      "Hebrew": "עיצור",
       "in English": "consonant"
     },
     {
       "Number": 668,
-      "Hindi": "राष्ट्र",
+      "Hebrew": "אומה",
       "in English": "nation"
     },
     {
       "Number": 669,
-      "Hindi": "शब्दकोश",
+      "Hebrew": "מילון",
       "in English": "dictionary"
     },
     {
       "Number": 670,
-      "Hindi": "दूध",
+      "Hebrew": "חלב",
       "in English": "milk"
     },
     {
       "Number": 671,
-      "Hindi": "गति",
+      "Hebrew": "מהירות",
       "in English": "speed"
     },
     {
       "Number": 672,
-      "Hindi": "विधि",
+      "Hebrew": "שיטה",
       "in English": "method"
     },
     {
       "Number": 673,
-      "Hindi": "अंग",
+      "Hebrew": "איבר",
       "in English": "organ"
     },
     {
       "Number": 674,
-      "Hindi": "भुगतान",
+      "Hebrew": "לשלם",
       "in English": "pay"
     },
     {
       "Number": 675,
-      "Hindi": "उम्र",
+      "Hebrew": "גיל",
       "in English": "age"
     },
     {
       "Number": 676,
-      "Hindi": "अनुभाग",
+      "Hebrew": "סעיף",
       "in English": "section"
     },
     {
       "Number": 677,
-      "Hindi": "पोशाक",
+      "Hebrew": "שמלה",
       "in English": "dress"
     },
     {
       "Number": 678,
-      "Hindi": "बादल",
+      "Hebrew": "ענן",
       "in English": "cloud"
     },
     {
       "Number": 679,
-      "Hindi": "आश्चर्य",
+      "Hebrew": "הפתעה",
       "in English": "surprise"
     },
     {
       "Number": 680,
-      "Hindi": "शांत",
+      "Hebrew": "שקט",
       "in English": "quiet"
     },
     {
       "Number": 681,
-      "Hindi": "पत्थर",
+      "Hebrew": "אבן",
       "in English": "stone"
     },
     {
       "Number": 682,
-      "Hindi": "छोटे",
+      "Hebrew": "זעיר",
       "in English": "tiny"
     },
     {
       "Number": 683,
-      "Hindi": "चढ़ाई",
+      "Hebrew": "טיפוס",
       "in English": "climb"
     },
     {
       "Number": 684,
-      "Hindi": "शीतल",
+      "Hebrew": "מגניב",
       "in English": "cool"
     },
     {
       "Number": 685,
-      "Hindi": "डिजाइन",
+      "Hebrew": "לעצב",
       "in English": "design"
     },
     {
       "Number": 686,
-      "Hindi": "गरीब",
+      "Hebrew": "עני",
       "in English": "poor"
     },
     {
       "Number": 687,
-      "Hindi": "बहुत",
+      "Hebrew": "מגרש",
       "in English": "lot"
     },
     {
       "Number": 688,
-      "Hindi": "प्रयोग",
+      "Hebrew": "ניסיון",
       "in English": "experiment"
     },
     {
       "Number": 689,
-      "Hindi": "तल",
+      "Hebrew": "תחתון",
       "in English": "bottom"
     },
     {
       "Number": 690,
-      "Hindi": "कुंजी",
+      "Hebrew": "מפתח",
       "in English": "key"
     },
     {
       "Number": 691,
-      "Hindi": "लोहा",
+      "Hebrew": "ברזל",
       "in English": "iron"
     },
     {
       "Number": 692,
-      "Hindi": "एकल",
+      "Hebrew": "אחת",
       "in English": "single"
     },
     {
       "Number": 693,
-      "Hindi": "छड़ी",
+      "Hebrew": "מקל",
       "in English": "stick"
     },
     {
       "Number": 694,
-      "Hindi": "फ्लैट",
+      "Hebrew": "דירה",
       "in English": "flat"
     },
     {
       "Number": 695,
-      "Hindi": "बीस",
+      "Hebrew": "עשרים",
       "in English": "twenty"
     },
     {
       "Number": 696,
-      "Hindi": "त्वचा",
+      "Hebrew": "עור",
       "in English": "skin"
     },
     {
       "Number": 697,
-      "Hindi": "मुस्कान",
+      "Hebrew": "חיוך",
       "in English": "smile"
     },
     {
       "Number": 698,
-      "Hindi": "क्रीज",
+      "Hebrew": "קמט",
       "in English": "crease"
     },
     {
       "Number": 699,
-      "Hindi": "छेद",
+      "Hebrew": "חור",
       "in English": "hole"
     },
     {
       "Number": 700,
-      "Hindi": "कूद",
+      "Hebrew": "לקפוץ",
       "in English": "jump"
     },
     {
       "Number": 701,
-      "Hindi": "बच्चे",
+      "Hebrew": "תינוק",
       "in English": "baby"
     },
     {
       "Number": 702,
-      "Hindi": "आठ",
+      "Hebrew": "שמונה",
       "in English": "eight"
     },
     {
       "Number": 703,
-      "Hindi": "गांव",
+      "Hebrew": "כפר",
       "in English": "village"
     },
     {
       "Number": 704,
-      "Hindi": "मिलो",
+      "Hebrew": "נפגש",
       "in English": "meet"
     },
     {
       "Number": 705,
-      "Hindi": "जड़",
+      "Hebrew": "שורש",
       "in English": "root"
     },
     {
       "Number": 706,
-      "Hindi": "खरीद",
+      "Hebrew": "לקנות",
       "in English": "buy"
     },
     {
       "Number": 707,
-      "Hindi": "उठाना",
+      "Hebrew": "להעלות",
       "in English": "raise"
     },
     {
       "Number": 708,
-      "Hindi": "हल",
+      "Hebrew": "לפתור",
       "in English": "solve"
     },
     {
       "Number": 709,
-      "Hindi": "धातु",
+      "Hebrew": "מתכת",
       "in English": "metal"
     },
     {
       "Number": 710,
-      "Hindi": "चाहे",
+      "Hebrew": "אם",
       "in English": "whether"
     },
     {
       "Number": 711,
-      "Hindi": "धक्का",
+      "Hebrew": "דחיפה",
       "in English": "push"
     },
     {
       "Number": 712,
-      "Hindi": "सात",
+      "Hebrew": "שבע",
       "in English": "seven"
     },
     {
       "Number": 713,
-      "Hindi": "पैरा",
+      "Hebrew": "סעיף",
       "in English": "paragraph"
     },
     {
       "Number": 714,
-      "Hindi": "तीसरे",
+      "Hebrew": "שלישי",
       "in English": "third"
     },
     {
       "Number": 715,
-      "Hindi": "करेगा",
+      "Hebrew": "תהא",
       "in English": "shall"
     },
     {
       "Number": 716,
-      "Hindi": "आयोजित",
+      "Hebrew": "מוחזק",
       "in English": "held"
     },
     {
       "Number": 717,
-      "Hindi": "बाल",
+      "Hebrew": "שיער",
       "in English": "hair"
     },
     {
       "Number": 718,
-      "Hindi": "वर्णन",
+      "Hebrew": "לתאר",
       "in English": "describe"
     },
     {
       "Number": 719,
-      "Hindi": "कुक",
+      "Hebrew": "טבח",
       "in English": "cook"
     },
     {
       "Number": 720,
-      "Hindi": "मंजिल",
+      "Hebrew": "רצפה",
       "in English": "floor"
     },
     {
       "Number": 721,
-      "Hindi": "भी",
+      "Hebrew": "או",
       "in English": "either"
     },
     {
       "Number": 722,
-      "Hindi": "परिणाम",
+      "Hebrew": "תוצאה",
       "in English": "result"
     },
     {
       "Number": 723,
-      "Hindi": "जला",
+      "Hebrew": "לשרוף",
       "in English": "burn"
     },
     {
       "Number": 724,
-      "Hindi": "पहाड़ी",
+      "Hebrew": "גבעה",
       "in English": "hill"
     },
     {
       "Number": 725,
-      "Hindi": "सुरक्षित",
+      "Hebrew": "בטוח",
       "in English": "safe"
     },
     {
       "Number": 726,
-      "Hindi": "बिल्ली",
+      "Hebrew": "חתול",
       "in English": "cat"
     },
     {
       "Number": 727,
-      "Hindi": "सदी",
+      "Hebrew": "המאה",
       "in English": "century"
     },
     {
       "Number": 728,
-      "Hindi": "विचार करना",
+      "Hebrew": "לשקול",
       "in English": "consider"
     },
     {
       "Number": 729,
-      "Hindi": "प्रकार",
+      "Hebrew": "סוג",
       "in English": "type"
     },
     {
       "Number": 730,
-      "Hindi": "कानून",
+      "Hebrew": "החוק",
       "in English": "law"
     },
     {
       "Number": 731,
-      "Hindi": "बिट",
+      "Hebrew": "קצת",
       "in English": "bit"
     },
     {
       "Number": 732,
-      "Hindi": "तट",
+      "Hebrew": "החוף",
       "in English": "coast"
     },
     {
       "Number": 733,
-      "Hindi": "नकल",
+      "Hebrew": "עותק",
       "in English": "copy"
     },
     {
       "Number": 734,
-      "Hindi": "वाक्यांश",
+      "Hebrew": "ביטוי",
       "in English": "phrase"
     },
     {
       "Number": 735,
-      "Hindi": "चुप",
+      "Hebrew": "שקט",
       "in English": "silent"
     },
     {
       "Number": 736,
-      "Hindi": "लंबा",
+      "Hebrew": "גבוה",
       "in English": "tall"
     },
     {
       "Number": 737,
-      "Hindi": "रेत",
+      "Hebrew": "חול",
       "in English": "sand"
     },
     {
       "Number": 738,
-      "Hindi": "मिट्टी",
+      "Hebrew": "אדמה",
       "in English": "soil"
     },
     {
       "Number": 739,
-      "Hindi": "रोल",
+      "Hebrew": "גליל",
       "in English": "roll"
     },
     {
       "Number": 740,
-      "Hindi": "तापमान",
+      "Hebrew": "טמפרטורה",
       "in English": "temperature"
     },
     {
       "Number": 741,
-      "Hindi": "उंगली",
+      "Hebrew": "אצבע",
       "in English": "finger"
     },
     {
       "Number": 742,
-      "Hindi": "उद्योग",
+      "Hebrew": "תעשייה",
       "in English": "industry"
     },
     {
       "Number": 743,
-      "Hindi": "मूल्य",
+      "Hebrew": "ערך",
       "in English": "value"
     },
     {
       "Number": 744,
-      "Hindi": "लड़ाई",
+      "Hebrew": "מאבק",
       "in English": "fight"
     },
     {
       "Number": 745,
-      "Hindi": "झूठ",
+      "Hebrew": "שקר",
       "in English": "lie"
     },
     {
       "Number": 746,
-      "Hindi": "हरा",
+      "Hebrew": "הכה",
       "in English": "beat"
     },
     {
       "Number": 747,
-      "Hindi": "उत्तेजित",
+      "Hebrew": "לרגש",
       "in English": "excite"
     },
     {
       "Number": 748,
-      "Hindi": "प्राकृतिक",
+      "Hebrew": "טבעי",
       "in English": "natural"
     },
     {
       "Number": 749,
-      "Hindi": "देखें",
+      "Hebrew": "תצוגה",
       "in English": "view"
     },
     {
       "Number": 750,
-      "Hindi": "भावना",
+      "Hebrew": "תחושה",
       "in English": "sense"
     },
     {
       "Number": 751,
-      "Hindi": "राजधानी",
+      "Hebrew": "הון",
       "in English": "capital"
     },
     {
       "Number": 752,
-      "Hindi": "नहीं होगा",
+      "Hebrew": "לא יהיה",
       "in English": "won’t"
     },
     {
       "Number": 753,
-      "Hindi": "कुर्सी",
+      "Hebrew": "כיסא",
       "in English": "chair"
     },
     {
       "Number": 754,
-      "Hindi": "खतरे",
+      "Hebrew": "סכנה",
       "in English": "danger"
     },
     {
       "Number": 755,
-      "Hindi": "फल",
+      "Hebrew": "פירות",
       "in English": "fruit"
     },
     {
       "Number": 756,
-      "Hindi": "अमीर",
+      "Hebrew": "עשיר",
       "in English": "rich"
     },
     {
       "Number": 757,
-      "Hindi": "मोटी",
+      "Hebrew": "עבה",
       "in English": "thick"
     },
     {
       "Number": 758,
-      "Hindi": "सैनिक",
+      "Hebrew": "חיל",
       "in English": "soldier"
     },
     {
       "Number": 759,
-      "Hindi": "प्रक्रिया",
+      "Hebrew": "תהליך",
       "in English": "process"
     },
     {
       "Number": 760,
-      "Hindi": "संचालित",
+      "Hebrew": "פועל",
       "in English": "operate"
     },
     {
       "Number": 761,
-      "Hindi": "अभ्यास",
+      "Hebrew": "בפועל",
       "in English": "practice"
     },
     {
       "Number": 762,
-      "Hindi": "अलग",
+      "Hebrew": "נפרד",
       "in English": "separate"
     },
     {
       "Number": 763,
-      "Hindi": "मुश्किल",
+      "Hebrew": "קשה",
       "in English": "difficult"
     },
     {
       "Number": 764,
-      "Hindi": "चिकित्सक",
+      "Hebrew": "רופא",
       "in English": "doctor"
     },
     {
       "Number": 765,
-      "Hindi": "कृपया",
+      "Hebrew": "בבקשה",
       "in English": "please"
     },
     {
       "Number": 766,
-      "Hindi": "रक्षा",
+      "Hebrew": "להגן על",
       "in English": "protect"
     },
     {
       "Number": 767,
-      "Hindi": "दोपहर",
+      "Hebrew": "הצהריים",
       "in English": "noon"
     },
     {
       "Number": 768,
-      "Hindi": "फसल",
+      "Hebrew": "יבול",
       "in English": "crop"
     },
     {
       "Number": 769,
-      "Hindi": "आधुनिक",
+      "Hebrew": "מודרני",
       "in English": "modern"
     },
     {
       "Number": 770,
-      "Hindi": "तत्व",
+      "Hebrew": "אלמנט",
       "in English": "element"
     },
     {
       "Number": 771,
-      "Hindi": "मारना",
+      "Hebrew": "פגע",
       "in English": "hit"
     },
     {
       "Number": 772,
-      "Hindi": "छात्र",
+      "Hebrew": "סטודנט",
       "in English": "student"
     },
     {
       "Number": 773,
-      "Hindi": "कोने",
+      "Hebrew": "פינה",
       "in English": "corner"
     },
     {
       "Number": 774,
-      "Hindi": "पार्टी",
+      "Hebrew": "מפלגה",
       "in English": "party"
     },
     {
       "Number": 775,
-      "Hindi": "आपूर्ति",
+      "Hebrew": "אספקה",
       "in English": "supply"
     },
     {
       "Number": 776,
-      "Hindi": "जिसका",
+      "Hebrew": "של מי",
       "in English": "whose"
     },
     {
       "Number": 777,
-      "Hindi": "स्थिति जानें",
+      "Hebrew": "אתר",
       "in English": "locate"
     },
     {
       "Number": 778,
-      "Hindi": "अंगूठी",
+      "Hebrew": "טבעת",
       "in English": "ring"
     },
     {
       "Number": 779,
-      "Hindi": "चरित्र",
+      "Hebrew": "אופי",
       "in English": "character"
     },
     {
       "Number": 780,
-      "Hindi": "कीट",
+      "Hebrew": "חרקים",
       "in English": "insect"
     },
     {
       "Number": 781,
-      "Hindi": "पकड़ा",
+      "Hebrew": "נתפס",
       "in English": "caught"
     },
     {
       "Number": 782,
-      "Hindi": "अवधि",
+      "Hebrew": "התקופה",
       "in English": "period"
     },
     {
       "Number": 783,
-      "Hindi": "संकेत मिलता है",
+      "Hebrew": "מצביע על",
       "in English": "indicate"
     },
     {
       "Number": 784,
-      "Hindi": "रेडियो",
+      "Hebrew": "רדיו",
       "in English": "radio"
     },
     {
       "Number": 785,
-      "Hindi": "बात",
+      "Hebrew": "דיברתי",
       "in English": "spoke"
     },
     {
       "Number": 786,
-      "Hindi": "एटम",
+      "Hebrew": "אטום",
       "in English": "atom"
     },
     {
       "Number": 787,
-      "Hindi": "मानव",
+      "Hebrew": "אדם",
       "in English": "human"
     },
     {
       "Number": 788,
-      "Hindi": "इतिहास",
+      "Hebrew": "היסטוריה",
       "in English": "history"
     },
     {
       "Number": 789,
-      "Hindi": "प्रभाव",
+      "Hebrew": "השפעה",
       "in English": "effect"
     },
     {
       "Number": 790,
-      "Hindi": "बिजली",
+      "Hebrew": "חשמלי",
       "in English": "electric"
     },
     {
       "Number": 791,
-      "Hindi": "उम्मीद",
+      "Hebrew": "מצפה",
       "in English": "expect"
     },
     {
       "Number": 792,
-      "Hindi": "हड्डी",
+      "Hebrew": "עצם",
       "in English": "bone"
     },
     {
       "Number": 793,
-      "Hindi": "रेल",
+      "Hebrew": "רכבת",
       "in English": "rail"
     },
     {
       "Number": 794,
-      "Hindi": "कल्पना",
+      "Hebrew": "להניח",
       "in English": "imagine"
     },
     {
       "Number": 795,
-      "Hindi": "प्रदान",
+      "Hebrew": "לספק",
       "in English": "provide"
     },
     {
       "Number": 796,
-      "Hindi": "सहमत",
+      "Hebrew": "מסכים",
       "in English": "agree"
     },
     {
       "Number": 797,
-      "Hindi": "इस प्रकार",
+      "Hebrew": "כך",
       "in English": "thus"
     },
     {
       "Number": 798,
-      "Hindi": "कोमल",
+      "Hebrew": "עדין",
       "in English": "gentle"
     },
     {
       "Number": 799,
-      "Hindi": "महिला",
+      "Hebrew": "אישה",
       "in English": "woman"
     },
     {
       "Number": 800,
-      "Hindi": "कप्तान",
+      "Hebrew": "קפטן",
       "in English": "captain"
     },
     {
       "Number": 801,
-      "Hindi": "अनुमान",
+      "Hebrew": "מניח",
       "in English": "guess"
     },
     {
       "Number": 802,
-      "Hindi": "आवश्यक",
+      "Hebrew": "הכרחי",
       "in English": "necessary"
     },
     {
       "Number": 803,
-      "Hindi": "तेज़",
+      "Hebrew": "חד",
       "in English": "sharp"
     },
     {
       "Number": 804,
-      "Hindi": "पंख",
+      "Hebrew": "כנף",
       "in English": "wing"
     },
     {
       "Number": 805,
-      "Hindi": "बना",
+      "Hebrew": "ליצור",
       "in English": "create"
     },
     {
       "Number": 806,
-      "Hindi": "पड़ोसी",
+      "Hebrew": "השכן",
       "in English": "neighbor"
     },
     {
       "Number": 807,
-      "Hindi": "धोने",
+      "Hebrew": "לשטוף",
       "in English": "wash"
     },
     {
       "Number": 808,
-      "Hindi": "बल्ला",
+      "Hebrew": "עטלף",
       "in English": "bat"
     },
     {
       "Number": 809,
-      "Hindi": "बल्कि",
+      "Hebrew": "ולא",
       "in English": "rather"
     },
     {
       "Number": 810,
-      "Hindi": "भीड़",
+      "Hebrew": "קהל",
       "in English": "crowd"
     },
     {
       "Number": 811,
-      "Hindi": "मकई",
+      "Hebrew": "תירס",
       "in English": "corn"
     },
     {
       "Number": 812,
-      "Hindi": "तुलना",
+      "Hebrew": "להשוות",
       "in English": "compare"
     },
     {
       "Number": 813,
-      "Hindi": "कविता",
+      "Hebrew": "שיר",
       "in English": "poem"
     },
     {
       "Number": 814,
-      "Hindi": "स्ट्रिंग",
+      "Hebrew": "מחרוזת",
       "in English": "string"
     },
     {
       "Number": 815,
-      "Hindi": "बेल",
+      "Hebrew": "פעמון",
       "in English": "bell"
     },
     {
       "Number": 816,
-      "Hindi": "निर्भर",
+      "Hebrew": "תלויים",
       "in English": "depend"
     },
     {
       "Number": 817,
-      "Hindi": "मांस",
+      "Hebrew": "בשר",
       "in English": "meat"
     },
     {
       "Number": 818,
-      "Hindi": "रगड़",
+      "Hebrew": "לשפשף",
       "in English": "rub"
     },
     {
       "Number": 819,
-      "Hindi": "ट्यूब",
+      "Hebrew": "צינור",
       "in English": "tube"
     },
     {
       "Number": 820,
-      "Hindi": "प्रसिद्ध",
+      "Hebrew": "מפורסם",
       "in English": "famous"
     },
     {
       "Number": 921,
-      "Hindi": "डॉलर",
+      "Hebrew": "דולר",
       "in English": "dollar"
     },
     {
       "Number": 822,
-      "Hindi": "धारा",
+      "Hebrew": "זרם",
       "in English": "stream"
     },
     {
       "Number": 823,
-      "Hindi": "डर",
+      "Hebrew": "פחד",
       "in English": "fear"
     },
     {
       "Number": 284,
-      "Hindi": "दृष्टि",
+      "Hebrew": "מראה",
       "in English": "sight"
     },
     {
       "Number": 825,
-      "Hindi": "पतली",
+      "Hebrew": "דק",
       "in English": "thin"
     },
     {
       "Number": 826,
-      "Hindi": "त्रिकोण",
+      "Hebrew": "משולש",
       "in English": "triangle"
     },
     {
       "Number": 827,
-      "Hindi": "ग्रह",
+      "Hebrew": "כדור הארץ",
       "in English": "planet"
     },
     {
       "Number": 828,
-      "Hindi": "जल्दी करो",
+      "Hebrew": "למהר",
       "in English": "hurry"
     },
     {
       "Number": 829,
-      "Hindi": "प्रमुख",
+      "Hebrew": "ראשי",
       "in English": "chief"
     },
     {
       "Number": 830,
-      "Hindi": "कॉलोनी",
+      "Hebrew": "מושבה",
       "in English": "colony"
     },
     {
       "Number": 831,
-      "Hindi": "घड़ी",
+      "Hebrew": "שעון",
       "in English": "clock"
     },
     {
       "Number": 832,
-      "Hindi": "मेरा",
+      "Hebrew": "שלי",
       "in English": "mine"
     },
     {
       "Number": 833,
-      "Hindi": "टाई",
+      "Hebrew": "עניבה",
       "in English": "tie"
     },
     {
       "Number": 834,
-      "Hindi": "दर्ज",
+      "Hebrew": "להיכנס",
       "in English": "enter"
     },
     {
       "Number": 835,
-      "Hindi": "प्रमुख",
+      "Hebrew": "גדול",
       "in English": "major"
     },
     {
       "Number": 836,
-      "Hindi": "ताजा",
+      "Hebrew": "טרי",
       "in English": "fresh"
     },
     {
       "Number": 837,
-      "Hindi": "खोज",
+      "Hebrew": "חיפוש",
       "in English": "search"
     },
     {
       "Number": 838,
-      "Hindi": "भेजें",
+      "Hebrew": "לשלוח",
       "in English": "send"
     },
     {
       "Number": 839,
-      "Hindi": "पीले",
+      "Hebrew": "צהוב",
       "in English": "yellow"
     },
     {
       "Number": 840,
-      "Hindi": "बंदूक",
+      "Hebrew": "אקדח",
       "in English": "gun"
     },
     {
       "Number": 841,
-      "Hindi": "की अनुमति",
+      "Hebrew": "לאפשר",
       "in English": "allow"
     },
     {
       "Number": 842,
-      "Hindi": "प्रिंट",
+      "Hebrew": "הדפסה",
       "in English": "print"
     },
     {
       "Number": 843,
-      "Hindi": "मृत",
+      "Hebrew": "מת",
       "in English": "dead"
     },
     {
       "Number": 844,
-      "Hindi": "हाजिर",
+      "Hebrew": "מקום",
       "in English": "spot"
     },
     {
       "Number": 845,
-      "Hindi": "रेगिस्तान",
+      "Hebrew": "מדבר",
       "in English": "desert"
     },
     {
       "Number": 846,
-      "Hindi": "सूट",
+      "Hebrew": "חליפה",
       "in English": "suit"
     },
     {
       "Number": 847,
-      "Hindi": "वर्तमान",
+      "Hebrew": "נוכחי",
       "in English": "current"
     },
     {
       "Number": 848,
-      "Hindi": "लिफ्ट",
+      "Hebrew": "מעלית",
       "in English": "lift"
     },
     {
       "Number": 840,
-      "Hindi": "गुलाब",
+      "Hebrew": "עלה",
       "in English": "rose"
     },
     {
       "Number": 850,
-      "Hindi": "पहुंचना",
+      "Hebrew": "להגיע",
       "in English": "arrive"
     },
     {
       "Number": 851,
-      "Hindi": "मास्टर",
+      "Hebrew": "אדון",
       "in English": "master"
     },
     {
       "Number": 852,
-      "Hindi": "ट्रैक",
+      "Hebrew": "מסלול",
       "in English": "track"
     },
     {
       "Number": 853,
-      "Hindi": "माता पिता",
+      "Hebrew": "הורה",
       "in English": "parent"
     },
     {
       "Number": 854,
-      "Hindi": "किनारे",
+      "Hebrew": "החוף",
       "in English": "shore"
     },
     {
       "Number": 855,
-      "Hindi": "विभाजन",
+      "Hebrew": "החלוקה",
       "in English": "division"
     },
     {
       "Number": 856,
-      "Hindi": "चादर",
+      "Hebrew": "גיליון",
       "in English": "sheet"
     },
     {
       "Number": 857,
-      "Hindi": "पदार्थ",
+      "Hebrew": "חומר",
       "in English": "substance"
     },
     {
       "Number": 858,
-      "Hindi": "एहसान",
+      "Hebrew": "להעדיף",
       "in English": "favor"
     },
     {
       "Number": 859,
-      "Hindi": "कनेक्ट",
+      "Hebrew": "להתחבר",
       "in English": "connect"
     },
     {
       "Number": 860,
-      "Hindi": "पोस्ट",
+      "Hebrew": "שלאחר",
       "in English": "post"
     },
     {
       "Number": 861,
-      "Hindi": "खर्च",
+      "Hebrew": "לבלות",
       "in English": "spend"
     },
     {
       "Number": 862,
-      "Hindi": "राग",
+      "Hebrew": "אקורד",
       "in English": "chord"
     },
     {
       "Number": 863,
-      "Hindi": "वसा",
+      "Hebrew": "שומן",
       "in English": "fat"
     },
     {
       "Number": 864,
-      "Hindi": "प्रसन्न",
+      "Hebrew": "שמח",
       "in English": "glad"
     },
     {
       "Number": 865,
-      "Hindi": "मूल",
+      "Hebrew": "מקורי",
       "in English": "original"
     },
     {
       "Number": 866,
-      "Hindi": "शेयर",
+      "Hebrew": "מניה",
       "in English": "share"
     },
     {
       "Number": 867,
-      "Hindi": "स्टेशन",
+      "Hebrew": "תחנה",
       "in English": "station"
     },
     {
       "Number": 868,
-      "Hindi": "पिता",
+      "Hebrew": "אבא",
       "in English": "dad"
     },
     {
       "Number": 869,
-      "Hindi": "रोटी",
+      "Hebrew": "לחם",
       "in English": "bread"
     },
     {
       "Number": 870,
-      "Hindi": "चार्ज",
+      "Hebrew": "לחייב את",
       "in English": "charge"
     },
     {
       "Number": 871,
-      "Hindi": "उचित",
+      "Hebrew": "ראוי",
       "in English": "proper"
     },
     {
       "Number": 872,
-      "Hindi": "बार",
+      "Hebrew": "בר",
       "in English": "bar"
     },
     {
       "Number": 873,
-      "Hindi": "प्रस्ताव",
+      "Hebrew": "הצעה",
       "in English": "offer"
     },
     {
       "Number": 874,
-      "Hindi": "खंड",
+      "Hebrew": "קטע",
       "in English": "segment"
     },
     {
       "Number": 875,
-      "Hindi": "गुलाम",
+      "Hebrew": "עבדים",
       "in English": "slave"
     },
     {
       "Number": 876,
-      "Hindi": "बतख",
+      "Hebrew": "ברווז",
       "in English": "duck"
     },
     {
       "Number": 877,
-      "Hindi": "पल",
+      "Hebrew": "מיידי",
       "in English": "instant"
     },
     {
       "Number": 878,
-      "Hindi": "बाजार",
+      "Hebrew": "שוק",
       "in English": "market"
     },
     {
       "Number": 879,
-      "Hindi": "डिग्री",
+      "Hebrew": "תואר",
       "in English": "degree"
     },
     {
       "Number": 880,
-      "Hindi": "आबाद",
+      "Hebrew": "לאכלס",
       "in English": "populate"
     },
     {
       "Number": 881,
-      "Hindi": "लड़की",
+      "Hebrew": "חומוס",
       "in English": "chick"
     },
     {
       "Number": 882,
-      "Hindi": "प्रिय",
+      "Hebrew": "יקר",
       "in English": "dear"
     },
     {
       "Number": 883,
-      "Hindi": "दुश्मन",
+      "Hebrew": "אויב",
       "in English": "enemy"
     },
     {
       "Number": 884,
-      "Hindi": "उत्तर",
+      "Hebrew": "להגיב",
       "in English": "reply"
     },
     {
       "Number": 885,
-      "Hindi": "पेय",
+      "Hebrew": "משקה",
       "in English": "drink"
     },
     {
       "Number": 886,
-      "Hindi": "घटित",
+      "Hebrew": "להתרחש",
       "in English": "occur"
     },
     {
       "Number": 887,
-      "Hindi": "समर्थन",
+      "Hebrew": "תמיכה",
       "in English": "support"
     },
     {
       "Number": 888,
-      "Hindi": "भाषण",
+      "Hebrew": "נאום",
       "in English": "speech"
     },
     {
       "Number": 889,
-      "Hindi": "प्रकृति",
+      "Hebrew": "טבע",
       "in English": "nature"
     },
     {
       "Number": 890,
-      "Hindi": "सीमा",
+      "Hebrew": "טווח",
       "in English": "range"
     },
     {
       "Number": 891,
-      "Hindi": "भाप",
+      "Hebrew": "קיטור",
       "in English": "steam"
     },
     {
       "Number": 892,
-      "Hindi": "प्रस्ताव",
+      "Hebrew": "תנועה",
       "in English": "motion"
     },
     {
       "Number": 893,
-      "Hindi": "पथ",
+      "Hebrew": "נתיב",
       "in English": "path"
     },
     {
       "Number": 894,
-      "Hindi": "तरल",
+      "Hebrew": "נוזל",
       "in English": "liquid"
     },
     {
       "Number": 895,
-      "Hindi": "लॉग इन करें",
+      "Hebrew": "להיכנס",
       "in English": "log"
     },
     {
       "Number": 896,
-      "Hindi": "मतलब",
+      "Hebrew": "התכוון",
       "in English": "meant"
     },
     {
       "Number": 897,
-      "Hindi": "भागफल",
+      "Hebrew": "מנה",
       "in English": "quotient"
     },
     {
       "Number": 898,
-      "Hindi": "दांत",
+      "Hebrew": "שיניים",
       "in English": "teeth"
     },
     {
       "Number": 899,
-      "Hindi": "खोल",
+      "Hebrew": "פגז",
       "in English": "shell"
     },
     {
       "Number": 900,
-      "Hindi": "गर्दन",
+      "Hebrew": "צוואר",
       "in English": "neck"
     },
     {
       "Number": 901,
-      "Hindi": "ऑक्सीजन",
+      "Hebrew": "חמצן",
       "in English": "oxygen"
     },
     {
       "Number": 902,
-      "Hindi": "चीनी",
+      "Hebrew": "סוכר",
       "in English": "sugar"
     },
     {
       "Number": 903,
-      "Hindi": "मौत",
+      "Hebrew": "מוות",
       "in English": "death"
     },
     {
       "Number": 904,
-      "Hindi": "सुंदर",
+      "Hebrew": "די",
       "in English": "pretty"
     },
     {
       "Number": 905,
-      "Hindi": "कौशल",
+      "Hebrew": "מיומנות",
       "in English": "skill"
     },
     {
       "Number": 906,
-      "Hindi": "महिलाओं",
+      "Hebrew": "נשים",
       "in English": "women"
     },
     {
       "Number": 907,
-      "Hindi": "मौसम",
+      "Hebrew": "עונה",
       "in English": "season"
     },
     {
       "Number": 908,
-      "Hindi": "समाधान",
+      "Hebrew": "פתרון",
       "in English": "solution"
     },
     {
       "Number": 909,
-      "Hindi": "चुंबक",
+      "Hebrew": "מגנט",
       "in English": "magnet"
     },
     {
       "Number": 910,
-      "Hindi": "चांदी",
+      "Hebrew": "כסף",
       "in English": "silver"
     },
     {
       "Number": 911,
-      "Hindi": "धन्यवाद",
+      "Hebrew": "תודה",
       "in English": "thank"
     },
     {
       "Number": 912,
-      "Hindi": "शाखा",
+      "Hebrew": "סניף",
       "in English": "branch"
     },
     {
       "Number": 913,
-      "Hindi": "मैच",
+      "Hebrew": "משחק",
       "in English": "match"
     },
     {
       "Number": 914,
-      "Hindi": "प्रत्यय",
+      "Hebrew": "סיומת",
       "in English": "suffix"
     },
     {
       "Number": 915,
-      "Hindi": "विशेष रूप से",
+      "Hebrew": "במיוחד",
       "in English": "especially"
     },
     {
       "Number": 916,
-      "Hindi": "अंजीर",
+      "Hebrew": "תאנה",
       "in English": "fig"
     },
     {
       "Number": 917,
-      "Hindi": "डर",
+      "Hebrew": "חושש",
       "in English": "afraid"
     },
     {
       "Number": 918,
-      "Hindi": "भारी",
+      "Hebrew": "ענק",
       "in English": "huge"
     },
     {
       "Number": 919,
-      "Hindi": "बहन",
+      "Hebrew": "אחות",
       "in English": "sister"
     },
     {
       "Number": 920,
-      "Hindi": "स्टील",
+      "Hebrew": "פלדה",
       "in English": "steel"
     },
     {
       "Number": 921,
-      "Hindi": "चर्चा",
+      "Hebrew": "לדון",
       "in English": "discuss"
     },
     {
       "Number": 922,
-      "Hindi": "आगे",
+      "Hebrew": "קדימה",
       "in English": "forward"
     },
     {
       "Number": 923,
-      "Hindi": "इसी तरह",
+      "Hebrew": "דומה",
       "in English": "similar"
     },
     {
       "Number": 924,
-      "Hindi": "गाइड",
+      "Hebrew": "להנחות את",
       "in English": "guide"
     },
     {
       "Number": 925,
-      "Hindi": "अनुभव",
+      "Hebrew": "ניסיון",
       "in English": "experience"
     },
     {
       "Number": 926,
-      "Hindi": "स्कोर",
+      "Hebrew": "ציון",
       "in English": "score"
     },
     {
       "Number": 927,
-      "Hindi": "सेब",
+      "Hebrew": "תפוח",
       "in English": "apple"
     },
     {
       "Number": 928,
-      "Hindi": "खरीदा",
+      "Hebrew": "קניתי",
       "in English": "bought"
     },
     {
       "Number": 929,
-      "Hindi": "नेतृत्व",
+      "Hebrew": "הוביל",
       "in English": "led"
     },
     {
       "Number": 930,
-      "Hindi": "पिच",
+      "Hebrew": "המגרש",
       "in English": "pitch"
     },
     {
       "Number": 931,
-      "Hindi": "कोट",
+      "Hebrew": "מעיל",
       "in English": "coat"
     },
     {
       "Number": 932,
-      "Hindi": "सामूहिक",
+      "Hebrew": "מסה",
       "in English": "mass"
     },
     {
       "Number": 933,
-      "Hindi": "कार्ड",
+      "Hebrew": "כרטיס",
       "in English": "card"
     },
     {
       "Number": 934,
-      "Hindi": "बैंड",
+      "Hebrew": "להקה",
       "in English": "band"
     },
     {
       "Number": 935,
-      "Hindi": "रस्सी",
+      "Hebrew": "חבל",
       "in English": "rope"
     },
     {
       "Number": 936,
-      "Hindi": "पर्ची",
+      "Hebrew": "תלוש",
       "in English": "slip"
     },
     {
       "Number": 937,
-      "Hindi": "जीत",
+      "Hebrew": "לנצח",
       "in English": "win"
     },
     {
       "Number": 938,
-      "Hindi": "सपना",
+      "Hebrew": "לחלום",
       "in English": "dream"
     },
     {
       "Number": 939,
-      "Hindi": "शाम",
+      "Hebrew": "ערב",
       "in English": "evening"
     },
     {
       "Number": 940,
-      "Hindi": "शर्त",
+      "Hebrew": "מצב",
       "in English": "condition"
     },
     {
       "Number": 941,
-      "Hindi": "फ़ीड",
+      "Hebrew": "הזנה",
       "in English": "feed"
     },
     {
       "Number": 942,
-      "Hindi": "उपकरण",
+      "Hebrew": "כלי",
       "in English": "tool"
     },
     {
       "Number": 943,
-      "Hindi": "संपूर्ण",
+      "Hebrew": "סך הכל",
       "in English": "total"
     },
     {
       "Number": 944,
-      "Hindi": "बुनियादी",
+      "Hebrew": "בסיסי",
       "in English": "basic"
     },
     {
       "Number": 945,
-      "Hindi": "गंध",
+      "Hebrew": "ריח",
       "in English": "smell"
     },
     {
       "Number": 946,
-      "Hindi": "घाटी",
+      "Hebrew": "עמק",
       "in English": "valley"
     },
     {
       "Number": 947,
-      "Hindi": "और न ही",
+      "Hebrew": "ולא",
       "in English": "nor"
     },
     {
       "Number": 948,
-      "Hindi": "डबल",
+      "Hebrew": "כפול",
       "in English": "double"
     },
     {
       "Number": 949,
-      "Hindi": "सीट",
+      "Hebrew": "מושב",
       "in English": "seat"
     },
     {
       "Number": 950,
-      "Hindi": "जारी रखने के",
+      "Hebrew": "להמשיך",
       "in English": "continue"
     },
     {
       "Number": 951,
-      "Hindi": "खंड",
+      "Hebrew": "בלוק",
       "in English": "block"
     },
     {
       "Number": 952,
-      "Hindi": "चार्ट",
+      "Hebrew": "תרשים",
       "in English": "chart"
     },
     {
       "Number": 953,
-      "Hindi": "टोपी",
+      "Hebrew": "כובע",
       "in English": "hat"
     },
     {
       "Number": 954,
-      "Hindi": "बेचने",
+      "Hebrew": "למכור",
       "in English": "sell"
     },
     {
       "Number": 955,
-      "Hindi": "सफलता",
+      "Hebrew": "הצלחה",
       "in English": "success"
     },
     {
       "Number": 956,
-      "Hindi": "कंपनी",
+      "Hebrew": "חברה",
       "in English": "company"
     },
     {
       "Number": 957,
-      "Hindi": "घटाना",
+      "Hebrew": "להחסיר",
       "in English": "subtract"
     },
     {
       "Number": 958,
-      "Hindi": "घटना",
+      "Hebrew": "אירוע",
       "in English": "event"
     },
     {
       "Number": 959,
-      "Hindi": "विशेष",
+      "Hebrew": "בפרט",
       "in English": "particular"
     },
     {
       "Number": 960,
-      "Hindi": "सौदा",
+      "Hebrew": "עסקה",
       "in English": "deal"
     },
     {
       "Number": 961,
-      "Hindi": "तैरना",
+      "Hebrew": "לשחות",
       "in English": "swim"
     },
     {
       "Number": 962,
-      "Hindi": "अवधि",
+      "Hebrew": "טווח",
       "in English": "term"
     },
     {
       "Number": 963,
-      "Hindi": "विपरीत",
+      "Hebrew": "ההפך",
       "in English": "opposite"
     },
     {
       "Number": 964,
-      "Hindi": "पत्नी",
+      "Hebrew": "אישה",
       "in English": "wife"
     },
     {
       "Number": 965,
-      "Hindi": "जूता",
+      "Hebrew": "נעל",
       "in English": "shoe"
     },
     {
       "Number": 966,
-      "Hindi": "कंधे",
+      "Hebrew": "כתף",
       "in English": "shoulder"
     },
     {
       "Number": 967,
-      "Hindi": "प्रसार",
+      "Hebrew": "התפשטות",
       "in English": "spread"
     },
     {
       "Number": 968,
-      "Hindi": "व्यवस्था",
+      "Hebrew": "לסדר",
       "in English": "arrange"
     },
     {
       "Number": 969,
-      "Hindi": "शिविर",
+      "Hebrew": "מחנה",
       "in English": "camp"
     },
     {
       "Number": 970,
-      "Hindi": "आविष्कार",
+      "Hebrew": "להמציא",
       "in English": "invent"
     },
     {
       "Number": 971,
-      "Hindi": "कपास",
+      "Hebrew": "כותנה",
       "in English": "cotton"
     },
     {
       "Number": 972,
-      "Hindi": "Born",
+      "Hebrew": "נולד",
       "in English": "born"
     },
     {
       "Number": 973,
-      "Hindi": "निर्धारित",
+      "Hebrew": "לקבוע",
       "in English": "determine"
     },
     {
       "Number": 974,
-      "Hindi": "चौथाई गेलन",
+      "Hebrew": "ליטר",
       "in English": "quart"
     },
     {
       "Number": 975,
-      "Hindi": "नौ",
+      "Hebrew": "תשע",
       "in English": "nine"
     },
     {
       "Number": 976,
-      "Hindi": "ट्रक",
+      "Hebrew": "משאית",
       "in English": "truck"
     },
     {
       "Number": 977,
-      "Hindi": "शोर",
+      "Hebrew": "רעש",
       "in English": "noise"
     },
     {
       "Number": 978,
-      "Hindi": "स्तर",
+      "Hebrew": "רמה",
       "in English": "level"
     },
     {
       "Number": 979,
-      "Hindi": "संयोग",
+      "Hebrew": "סיכוי",
       "in English": "chance"
     },
     {
       "Number": 980,
-      "Hindi": "इकट्ठा",
+      "Hebrew": "לאסוף",
       "in English": "gather"
     },
     {
       "Number": 981,
-      "Hindi": "दुकान",
+      "Hebrew": "חנות",
       "in English": "shop"
     },
     {
       "Number": 982,
-      "Hindi": "खिंचाव",
+      "Hebrew": "מתיחה",
       "in English": "stretch"
     },
     {
       "Number": 983,
-      "Hindi": "फेंक",
+      "Hebrew": "לזרוק",
       "in English": "throw"
     },
     {
       "Number": 984,
-      "Hindi": "चमक",
+      "Hebrew": "ברק",
       "in English": "shine"
     },
     {
       "Number": 985,
-      "Hindi": "संपत्ति",
+      "Hebrew": "רכוש",
       "in English": "property"
     },
     {
       "Number": 986,
-      "Hindi": "स्तंभ",
+      "Hebrew": "טור",
       "in English": "column"
     },
     {
       "Number": 987,
-      "Hindi": "अणु",
+      "Hebrew": "מולקולה",
       "in English": "molecule"
     },
     {
       "Number": 988,
-      "Hindi": "चयन",
+      "Hebrew": "בחר",
       "in English": "select"
     },
     {
       "Number": 989,
-      "Hindi": "गलत",
+      "Hebrew": "לא נכון",
       "in English": "wrong"
     },
     {
       "Number": 990,
-      "Hindi": "ग्रे",
+      "Hebrew": "אפור",
       "in English": "gray"
     },
     {
       "Number": 991,
-      "Hindi": "दोहराना",
+      "Hebrew": "חוזר",
       "in English": "repeat"
     },
     {
       "Number": 992,
-      "Hindi": "आवश्यकता",
+      "Hebrew": "דורש",
       "in English": "require"
     },
     {
       "Number": 993,
-      "Hindi": "विस्तृत",
+      "Hebrew": "רחב",
       "in English": "broad"
     },
     {
       "Number": 994,
-      "Hindi": "तैयार",
+      "Hebrew": "להכין",
       "in English": "prepare"
     },
     {
       "Number": 995,
-      "Hindi": "नमक",
+      "Hebrew": "מלח",
       "in English": "salt"
     },
     {
       "Number": 996,
-      "Hindi": "नाक",
+      "Hebrew": "האף",
       "in English": "nose"
     },
     {
       "Number": 997,
-      "Hindi": "बहुवचन",
+      "Hebrew": "לשון רבים",
       "in English": "plural"
     },
     {
       "Number": 998,
-      "Hindi": "क्रोध",
+      "Hebrew": "כעס",
       "in English": "anger"
     },
     {
       "Number": 999,
-      "Hindi": "दावा",
+      "Hebrew": "טענה",
       "in English": "claim"
     },
     {
       "Number": 1000,
-      "Hindi": "महाद्वीप",
+      "Hebrew": "יבשת",
       "in English": "continent"
     }
 ];
 
-exports.language = "Hindi";
-exports.data = hindi;
+exports.language = "Hebrew";
+exports.data = hebrew;

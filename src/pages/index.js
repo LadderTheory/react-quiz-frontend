@@ -4,7 +4,12 @@ import Quiz from "./quiz.js"
 const language_data = [
   require("./language_data/albanian"),
   require("./language_data/greek"),
+  require("./language_data/hawaiian"),
+  require("./language_data/hebrew"),
   require("./language_data/hindi"),
+  require("./language_data/italian"),
+  require("./language_data/japanese"),
+  require("./language_data/korean"),
   require("./language_data/russian"),
 ]
 
@@ -19,25 +24,10 @@ const pageStyles = {
 
 // markup
 const IndexPage = () => {
-  const [chosen_language, set_chosen_language] = React.useState(0);
-
-  function handleSelectionChange(event) {
-    console.log(event.target.value)
-    set_chosen_language(event.target.value);
-  }
-
   return (
     <main style={pageStyles}>
-      <title>H</title>
-      selection: {chosen_language}<br />
-      Language: <select value={chosen_language} onChange={handleSelectionChange}>
-        {language_data.map((x,i) => {
-          return (
-            <option value={i}>{x.language}</option>
-          )
-        })}
-      </select>
-      <Quiz quiz={language_data[chosen_language].data} />
+      <title>Somou</title>
+      <Quiz datasets={language_data} />
     </main>
   )
 }

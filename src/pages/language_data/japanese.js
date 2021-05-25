@@ -1,5005 +1,5005 @@
-const hindi = [
+const japanese = [
     {
       "Number": 1,
-      "Hindi": "जैसा",
+      "Japanese": "ように",
       "in English": "as"
     },
     {
       "Number": 2,
-      "Hindi": "मैं",
+      "Japanese": "私は",
       "in English": "I"
     },
     {
       "Number": 3,
-      "Hindi": "उसके",
+      "Japanese": "彼の",
       "in English": "his"
     },
     {
       "Number": 4,
-      "Hindi": "कि",
+      "Japanese": "その",
       "in English": "that"
     },
     {
       "Number": 5,
-      "Hindi": "वह",
+      "Japanese": "彼",
       "in English": "he"
     },
     {
       "Number": 6,
-      "Hindi": "था",
+      "Japanese": "た",
       "in English": "was"
     },
     {
       "Number": 7,
-      "Hindi": "के लिए",
+      "Japanese": "ために",
       "in English": "for"
     },
     {
       "Number": 8,
-      "Hindi": "पर",
+      "Japanese": "上の",
       "in English": "on"
     },
     {
       "Number": 9,
-      "Hindi": "हैं",
+      "Japanese": "アール",
       "in English": "are"
     },
     {
       "Number": 10,
-      "Hindi": "साथ",
+      "Japanese": "とともに",
       "in English": "with"
     },
     {
       "Number": 11,
-      "Hindi": "वे",
+      "Japanese": "彼ら",
       "in English": "they"
     },
     {
       "Number": 12,
-      "Hindi": "हो",
+      "Japanese": "ある",
       "in English": "be"
     },
     {
       "Number": 13,
-      "Hindi": "पर",
+      "Japanese": "アット",
       "in English": "at"
     },
     {
       "Number": 14,
-      "Hindi": "एक",
+      "Japanese": "一つ",
       "in English": "one"
     },
     {
       "Number": 15,
-      "Hindi": "है",
+      "Japanese": "持っている",
       "in English": "have"
     },
     {
       "Number": 16,
-      "Hindi": "इस",
+      "Japanese": "この",
       "in English": "this"
     },
     {
       "Number": 17,
-      "Hindi": "से",
+      "Japanese": "から",
       "in English": "from"
     },
     {
       "Number": 18,
-      "Hindi": "द्वारा",
+      "Japanese": "バイ",
       "in English": "by"
     },
     {
       "Number": 19,
-      "Hindi": "गरम",
+      "Japanese": "ホット",
       "in English": "hot"
     },
     {
       "Number": 20,
-      "Hindi": "शब्द",
+      "Japanese": "言葉",
       "in English": "word"
     },
     {
       "Number": 21,
-      "Hindi": "लेकिन",
+      "Japanese": "しかし",
       "in English": "but"
     },
     {
       "Number": 22,
-      "Hindi": "क्या",
+      "Japanese": "何",
       "in English": "what"
     },
     {
       "Number": 23,
-      "Hindi": "कुछ",
+      "Japanese": "いくつかの",
       "in English": "some"
     },
     {
       "Number": 24,
-      "Hindi": "है",
+      "Japanese": "です",
       "in English": "is"
     },
     {
       "Number": 25,
-      "Hindi": "यह",
+      "Japanese": "それ",
       "in English": "it"
     },
     {
       "Number": 26,
-      "Hindi": "आप",
+      "Japanese": "あなた",
       "in English": "you"
     },
     {
       "Number": 27,
-      "Hindi": "या",
+      "Japanese": "または",
       "in English": "or"
     },
     {
       "Number": 28,
-      "Hindi": "था",
+      "Japanese": "持っていた",
       "in English": "had"
     },
     {
       "Number": 29,
-      "Hindi": "",
+      "Japanese": "インクルード",
       "in English": "the"
     },
     {
       "Number": 30,
-      "Hindi": "की",
+      "Japanese": "の",
       "in English": "of"
     },
     {
       "Number": 31,
-      "Hindi": "तक",
+      "Japanese": "へ",
       "in English": "to"
     },
     {
       "Number": 32,
-      "Hindi": "और",
+      "Japanese": "そして",
       "in English": "and"
     },
     {
       "Number": 33,
-      "Hindi": "एक",
+      "Japanese": "は",
       "in English": "a"
     },
     {
       "Number": 34,
-      "Hindi": "में",
+      "Japanese": "で",
       "in English": "in"
     },
     {
       "Number": 35,
-      "Hindi": "हम",
+      "Japanese": "我?",
       "in English": "we"
     },
     {
       "Number": 36,
-      "Hindi": "कर सकते हैं",
+      "Japanese": "缶",
       "in English": "can"
     },
     {
       "Number": 37,
-      "Hindi": "बाहर",
+      "Japanese": "アウト",
       "in English": "out"
     },
     {
       "Number": 38,
-      "Hindi": "अन्य",
+      "Japanese": "その他",
       "in English": "other"
     },
     {
       "Number": 39,
-      "Hindi": "थे",
+      "Japanese": "だった",
       "in English": "were"
     },
     {
       "Number": 40,
-      "Hindi": "जो",
+      "Japanese": "これ",
       "in English": "which"
     },
     {
       "Number": 41,
-      "Hindi": "कर",
+      "Japanese": "やる",
       "in English": "do"
     },
     {
       "Number": 42,
-      "Hindi": "उनके",
+      "Japanese": "それらの",
       "in English": "their"
     },
     {
       "Number": 43,
-      "Hindi": "समय",
+      "Japanese": "時間",
       "in English": "time"
     },
     {
       "Number": 44,
-      "Hindi": "अगर",
+      "Japanese": "もし",
       "in English": "if"
     },
     {
       "Number": 45,
-      "Hindi": "होगा",
+      "Japanese": "意志",
       "in English": "will"
     },
     {
       "Number": 46,
-      "Hindi": "कैसे",
+      "Japanese": "方法",
       "in English": "how"
     },
     {
       "Number": 47,
-      "Hindi": "कहा",
+      "Japanese": "前記",
       "in English": "said"
     },
     {
       "Number": 48,
-      "Hindi": "एक",
+      "Japanese": "の",
       "in English": "an"
     },
     {
       "Number": 49,
-      "Hindi": "प्रत्येक",
+      "Japanese": "それぞれ",
       "in English": "each"
     },
     {
       "Number": 50,
-      "Hindi": "बता",
+      "Japanese": "言う",
       "in English": "tell"
     },
     {
       "Number": 51,
-      "Hindi": "करता है",
+      "Japanese": "し",
       "in English": "does"
     },
     {
       "Number": 52,
-      "Hindi": "सेट",
+      "Japanese": "セット",
       "in English": "set"
     },
     {
       "Number": 53,
-      "Hindi": "तीन",
+      "Japanese": "個",
       "in English": "three"
     },
     {
       "Number": 54,
-      "Hindi": "चाहते हैं",
+      "Japanese": "欲しい",
       "in English": "want"
     },
     {
       "Number": 55,
-      "Hindi": "हवा",
+      "Japanese": "空気",
       "in English": "air"
     },
     {
       "Number": 56,
-      "Hindi": "अच्छी तरह से",
+      "Japanese": "よく",
       "in English": "well"
     },
     {
       "Number": 57,
-      "Hindi": "भी",
+      "Japanese": "また",
       "in English": "also"
     },
     {
       "Number": 58,
-      "Hindi": "खेलने",
+      "Japanese": "遊ぶ",
       "in English": "play"
     },
     {
       "Number": 59,
-      "Hindi": "छोटे",
+      "Japanese": "小さい",
       "in English": "small"
     },
     {
       "Number": 60,
-      "Hindi": "अंत",
+      "Japanese": "終わり",
       "in English": "end"
     },
     {
       "Number": 61,
-      "Hindi": "डाल",
+      "Japanese": "置く",
       "in English": "put"
     },
     {
       "Number": 62,
-      "Hindi": "घर",
+      "Japanese": "ホーム",
       "in English": "home"
     },
     {
       "Number": 63,
-      "Hindi": "पढ़ा",
+      "Japanese": "読む",
       "in English": "read"
     },
     {
       "Number": 64,
-      "Hindi": "हाथ",
+      "Japanese": "手",
       "in English": "hand"
     },
     {
       "Number": 65,
-      "Hindi": "बंदरगाह",
+      "Japanese": "ポート",
       "in English": "port"
     },
     {
       "Number": 66,
-      "Hindi": "बड़ा",
+      "Japanese": "大きい",
       "in English": "large"
     },
     {
       "Number": 67,
-      "Hindi": "जादू",
+      "Japanese": "スペル",
       "in English": "spell"
     },
     {
       "Number": 68,
-      "Hindi": "जोड़",
+      "Japanese": "加える",
       "in English": "add"
     },
     {
       "Number": 69,
-      "Hindi": "और भी",
+      "Japanese": "さらに",
       "in English": "even"
     },
     {
       "Number": 70,
-      "Hindi": "भूमि",
+      "Japanese": "土地",
       "in English": "land"
     },
     {
       "Number": 71,
-      "Hindi": "यहाँ",
+      "Japanese": "ここに",
       "in English": "here"
     },
     {
       "Number": 72,
-      "Hindi": "चाहिए",
+      "Japanese": "しなければならない",
       "in English": "must"
     },
     {
       "Number": 73,
-      "Hindi": "बड़ा",
+      "Japanese": "大きい",
       "in English": "big"
     },
     {
       "Number": 74,
-      "Hindi": "उच्च",
+      "Japanese": "高い",
       "in English": "high"
     },
     {
       "Number": 75,
-      "Hindi": "ऐसा",
+      "Japanese": "そのような",
       "in English": "such"
     },
     {
       "Number": 76,
-      "Hindi": "का पालन करें",
+      "Japanese": "続く",
       "in English": "follow"
     },
     {
       "Number": 77,
-      "Hindi": "अधिनियम",
+      "Japanese": "行為",
       "in English": "act"
     },
     {
       "Number": 78,
-      "Hindi": "क्यों",
+      "Japanese": "なぜ",
       "in English": "why"
     },
     {
       "Number": 79,
-      "Hindi": "पूछना",
+      "Japanese": "頼む",
       "in English": "ask"
     },
     {
       "Number": 80,
-      "Hindi": "पुरुषों",
+      "Japanese": "人?",
       "in English": "men"
     },
     {
       "Number": 81,
-      "Hindi": "परिवर्तन",
+      "Japanese": "変更",
       "in English": "change"
     },
     {
       "Number": 82,
-      "Hindi": "चला गया",
+      "Japanese": "行ってきました",
       "in English": "went"
     },
     {
       "Number": 83,
-      "Hindi": "प्रकाश",
+      "Japanese": "? ?",
       "in English": "light"
     },
     {
       "Number": 84,
-      "Hindi": "तरह",
+      "Japanese": "種類",
       "in English": "kind"
     },
     {
       "Number": 85,
-      "Hindi": "बंद",
+      "Japanese": "オフ",
       "in English": "off"
     },
     {
       "Number": 86,
-      "Hindi": "आवश्यकता",
+      "Japanese": "? 要",
       "in English": "need"
     },
     {
       "Number": 87,
-      "Hindi": "घर",
+      "Japanese": "家",
       "in English": "house"
     },
     {
       "Number": 88,
-      "Hindi": "तस्वीर",
+      "Japanese": "絵",
       "in English": "picture"
     },
     {
       "Number": 89,
-      "Hindi": "कोशिश",
+      "Japanese": "試す",
       "in English": "try"
     },
     {
       "Number": 90,
-      "Hindi": "हमें",
+      "Japanese": "私たち",
       "in English": "us"
     },
     {
       "Number": 91,
-      "Hindi": "फिर",
+      "Japanese": "再び",
       "in English": "again"
     },
     {
       "Number": 92,
-      "Hindi": "पशु",
+      "Japanese": "動物",
       "in English": "animal"
     },
     {
       "Number": 93,
-      "Hindi": "बिंदु",
+      "Japanese": "ポイント",
       "in English": "point"
     },
     {
       "Number": 94,
-      "Hindi": "मां",
+      "Japanese": "母",
       "in English": "mother"
     },
     {
       "Number": 95,
-      "Hindi": "दुनिया",
+      "Japanese": "世界",
       "in English": "world"
     },
     {
       "Number": 96,
-      "Hindi": "निकट",
+      "Japanese": "近く",
       "in English": "near"
     },
     {
       "Number": 97,
-      "Hindi": "बनाना",
+      "Japanese": "ビルド",
       "in English": "build"
     },
     {
       "Number": 98,
-      "Hindi": "आत्म",
+      "Japanese": "自己",
       "in English": "self"
     },
     {
       "Number": 99,
-      "Hindi": "पृथ्वी",
+      "Japanese": "地球",
       "in English": "earth"
     },
     {
       "Number": 100,
-      "Hindi": "पिता",
+      "Japanese": "父",
       "in English": "father"
     },
     {
       "Number": 101,
-      "Hindi": "किसी भी",
+      "Japanese": "任意の",
       "in English": "any"
     },
     {
       "Number": 102,
-      "Hindi": "नई",
+      "Japanese": "新しい",
       "in English": "new"
     },
     {
       "Number": 103,
-      "Hindi": "काम",
+      "Japanese": "仕事",
       "in English": "work"
     },
     {
       "Number": 104,
-      "Hindi": "हिस्सा",
+      "Japanese": "パート",
       "in English": "part"
     },
     {
       "Number": 105,
-      "Hindi": "लेना",
+      "Japanese": "取る",
       "in English": "take"
     },
     {
       "Number": 106,
-      "Hindi": "प्राप्त",
+      "Japanese": "ゲット",
       "in English": "get"
     },
     {
       "Number": 107,
-      "Hindi": "जगह",
+      "Japanese": "場所",
       "in English": "place"
     },
     {
       "Number": 108,
-      "Hindi": "निर्मित",
+      "Japanese": "製",
       "in English": "made"
     },
     {
       "Number": 109,
-      "Hindi": "जीना",
+      "Japanese": "暮らす",
       "in English": "live"
     },
     {
       "Number": 110,
-      "Hindi": "जहां",
+      "Japanese": "どこ",
       "in English": "where"
     },
     {
       "Number": 111,
-      "Hindi": "के बाद",
+      "Japanese": "後に",
       "in English": "after"
     },
     {
       "Number": 112,
-      "Hindi": "वापस",
+      "Japanese": "バック",
       "in English": "back"
     },
     {
       "Number": 113,
-      "Hindi": "थोड़ा",
+      "Japanese": "少し",
       "in English": "little"
     },
     {
       "Number": 114,
-      "Hindi": "केवल",
+      "Japanese": "唯一の",
       "in English": "only"
     },
     {
       "Number": 115,
-      "Hindi": "दौर",
+      "Japanese": "ラウンド",
       "in English": "round"
     },
     {
       "Number": 116,
-      "Hindi": "आदमी",
+      "Japanese": "男",
       "in English": "man"
     },
     {
       "Number": 117,
-      "Hindi": "वर्ष",
+      "Japanese": "年",
       "in English": "year"
     },
     {
       "Number": 118,
-      "Hindi": "आया",
+      "Japanese": "来た",
       "in English": "came"
     },
     {
       "Number": 119,
-      "Hindi": "शो",
+      "Japanese": "ショー",
       "in English": "show"
     },
     {
       "Number": 120,
-      "Hindi": "हर",
+      "Japanese": "すべての",
       "in English": "every"
     },
     {
       "Number": 121,
-      "Hindi": "अच्छा",
+      "Japanese": "良い",
       "in English": "good"
     },
     {
       "Number": 122,
-      "Hindi": "मुझे",
+      "Japanese": "私に",
       "in English": "me"
     },
     {
       "Number": 123,
-      "Hindi": "दे",
+      "Japanese": "与える",
       "in English": "give"
     },
     {
       "Number": 124,
-      "Hindi": "हमारे",
+      "Japanese": "私たちの",
       "in English": "our"
     },
     {
       "Number": 125,
-      "Hindi": "नीचे",
+      "Japanese": "下",
       "in English": "under"
     },
     {
       "Number": 126,
-      "Hindi": "नाम",
+      "Japanese": "名前",
       "in English": "name"
     },
     {
       "Number": 127,
-      "Hindi": "बहुत",
+      "Japanese": "非常に",
       "in English": "very"
     },
     {
       "Number": 128,
-      "Hindi": "के माध्यम से",
+      "Japanese": "スルー",
       "in English": "through"
     },
     {
       "Number": 129,
-      "Hindi": "बस",
+      "Japanese": "ただ",
       "in English": "just"
     },
     {
       "Number": 130,
-      "Hindi": "फार्म",
+      "Japanese": "フォーム",
       "in English": "form"
     },
     {
       "Number": 131,
-      "Hindi": "वाक्य",
+      "Japanese": "文",
       "in English": "sentence"
     },
     {
       "Number": 132,
-      "Hindi": "महान",
+      "Japanese": "素晴らしい",
       "in English": "great"
     },
     {
       "Number": 133,
-      "Hindi": "लगता है",
+      "Japanese": "思う",
       "in English": "think"
     },
     {
       "Number": 134,
-      "Hindi": "कहना",
+      "Japanese": "言う",
       "in English": "say"
     },
     {
       "Number": 135,
-      "Hindi": "मदद",
+      "Japanese": "助け",
       "in English": "help"
     },
     {
       "Number": 136,
-      "Hindi": "कम",
+      "Japanese": "低い",
       "in English": "low"
     },
     {
       "Number": 137,
-      "Hindi": "रेखा",
+      "Japanese": "ライン",
       "in English": "line"
     },
     {
       "Number": 138,
-      "Hindi": "अलग",
+      "Japanese": "異なる",
       "in English": "differ"
     },
     {
       "Number": 139,
-      "Hindi": "बारी",
+      "Japanese": "ターン",
       "in English": "turn"
     },
     {
       "Number": 140,
-      "Hindi": "कारण",
+      "Japanese": "原因",
       "in English": "cause"
     },
     {
       "Number": 141,
-      "Hindi": "ज्यादा",
+      "Japanese": "ずっと",
       "in English": "much"
     },
     {
       "Number": 142,
-      "Hindi": "मतलब",
+      "Japanese": "意味する",
       "in English": "mean"
     },
     {
       "Number": 143,
-      "Hindi": "पहले",
+      "Japanese": "前に",
       "in English": "before"
     },
     {
       "Number": 144,
-      "Hindi": "चाल",
+      "Japanese": "移動",
       "in English": "move"
     },
     {
       "Number": 145,
-      "Hindi": "सही",
+      "Japanese": "権利",
       "in English": "right"
     },
     {
       "Number": 146,
-      "Hindi": "लड़का",
+      "Japanese": "男の子",
       "in English": "boy"
     },
     {
       "Number": 147,
-      "Hindi": "पुराना",
+      "Japanese": "古い",
       "in English": "old"
     },
     {
       "Number": 148,
-      "Hindi": "भी",
+      "Japanese": "あまりに",
       "in English": "too"
     },
     {
       "Number": 149,
-      "Hindi": "वही",
+      "Japanese": "同じ",
       "in English": "same"
     },
     {
       "Number": 150,
-      "Hindi": "वह",
+      "Japanese": "彼女",
       "in English": "she"
     },
     {
       "Number": 151,
-      "Hindi": "सब",
+      "Japanese": "すべて",
       "in English": "all"
     },
     {
       "Number": 152,
-      "Hindi": "वहाँ",
+      "Japanese": "そこ",
       "in English": "there"
     },
     {
       "Number": 153,
-      "Hindi": "जब",
+      "Japanese": "時",
       "in English": "when"
     },
     {
       "Number": 154,
-      "Hindi": "ऊपर",
+      "Japanese": "アップ",
       "in English": "up"
     },
     {
       "Number": 155,
-      "Hindi": "उपयोग",
+      "Japanese": "使用",
       "in English": "use"
     },
     {
       "Number": 156,
-      "Hindi": "अपने",
+      "Japanese": "あなたの",
       "in English": "your"
     },
     {
       "Number": 157,
-      "Hindi": "रास्ता",
+      "Japanese": "道",
       "in English": "way"
     },
     {
       "Number": 158,
-      "Hindi": "के बारे में",
+      "Japanese": "約",
       "in English": "about"
     },
     {
       "Number": 159,
-      "Hindi": "कई",
+      "Japanese": "多くの",
       "in English": "many"
     },
     {
       "Number": 160,
-      "Hindi": "तो",
+      "Japanese": "その後",
       "in English": "then"
     },
     {
       "Number": 161,
-      "Hindi": "उन्हें",
+      "Japanese": "それら",
       "in English": "them"
     },
     {
       "Number": 162,
-      "Hindi": "लिखना",
+      "Japanese": "書く",
       "in English": "write"
     },
     {
       "Number": 163,
-      "Hindi": "होगा",
+      "Japanese": "でしょう",
       "in English": "would"
     },
     {
       "Number": 164,
-      "Hindi": "जैसा",
+      "Japanese": "ような",
       "in English": "like"
     },
     {
       "Number": 165,
-      "Hindi": "तो",
+      "Japanese": "そう",
       "in English": "so"
     },
     {
       "Number": 166,
-      "Hindi": "इन",
+      "Japanese": "これらの",
       "in English": "these"
     },
     {
       "Number": 167,
-      "Hindi": "उसके",
+      "Japanese": "彼女の",
       "in English": "her"
     },
     {
       "Number": 168,
-      "Hindi": "लंबे समय तक",
+      "Japanese": "長い",
       "in English": "long"
     },
     {
       "Number": 169,
-      "Hindi": "कर",
+      "Japanese": "作る",
       "in English": "make"
     },
     {
       "Number": 170,
-      "Hindi": "बात",
+      "Japanese": "もの",
       "in English": "thing"
     },
     {
       "Number": 171,
-      "Hindi": "देखना",
+      "Japanese": "見る",
       "in English": "see"
     },
     {
       "Number": 172,
-      "Hindi": "उसे",
+      "Japanese": "彼に",
       "in English": "him"
     },
     {
       "Number": 173,
-      "Hindi": "दो",
+      "Japanese": "二つ",
       "in English": "two"
     },
     {
       "Number": 174,
-      "Hindi": "है",
+      "Japanese": "があります",
       "in English": "has"
     },
     {
       "Number": 175,
-      "Hindi": "देखो",
+      "Japanese": "見える",
       "in English": "look"
     },
     {
       "Number": 176,
-      "Hindi": "अधिक",
+      "Japanese": "多くの",
       "in English": "more"
     },
     {
       "Number": 177,
-      "Hindi": "दिन",
+      "Japanese": "日",
       "in English": "day"
     },
     {
       "Number": 178,
-      "Hindi": "सकता है",
+      "Japanese": "可能性",
       "in English": "could"
     },
     {
       "Number": 179,
-      "Hindi": "जाना",
+      "Japanese": "行く",
       "in English": "go"
     },
     {
       "Number": 180,
-      "Hindi": "आ",
+      "Japanese": "来る",
       "in English": "come"
     },
     {
       "Number": 181,
-      "Hindi": "किया",
+      "Japanese": "やった",
       "in English": "did"
     },
     {
       "Number": 182,
-      "Hindi": "संख्या",
+      "Japanese": "番号",
       "in English": "number"
     },
     {
       "Number": 183,
-      "Hindi": "ध्वनि",
+      "Japanese": "聞こえる",
       "in English": "sound"
     },
     {
       "Number": 184,
-      "Hindi": "नहीं",
+      "Japanese": "いいえ",
       "in English": "no"
     },
     {
       "Number": 185,
-      "Hindi": "सबसे",
+      "Japanese": "最も",
       "in English": "most"
     },
     {
       "Number": 186,
-      "Hindi": "लोग",
+      "Japanese": "人?",
       "in English": "people"
     },
     {
       "Number": 187,
-      "Hindi": "मेरे",
+      "Japanese": "私の",
       "in English": "my"
     },
     {
       "Number": 188,
-      "Hindi": "अधिक",
+      "Japanese": "オーバー",
       "in English": "over"
     },
     {
       "Number": 189,
-      "Hindi": "पता",
+      "Japanese": "知っている",
       "in English": "know"
     },
     {
       "Number": 190,
-      "Hindi": "पानी",
+      "Japanese": "水",
       "in English": "water"
     },
     {
       "Number": 191,
-      "Hindi": "से",
+      "Japanese": "比べて",
       "in English": "than"
     },
     {
       "Number": 192,
-      "Hindi": "कॉल",
+      "Japanese": "コール",
       "in English": "call"
     },
     {
       "Number": 193,
-      "Hindi": "पहले",
+      "Japanese": "最初の",
       "in English": "first"
     },
     {
       "Number": 194,
-      "Hindi": "कौन",
+      "Japanese": "誰",
       "in English": "who"
     },
     {
       "Number": 195,
-      "Hindi": "मई",
+      "Japanese": "よい",
       "in English": "may"
     },
     {
       "Number": 196,
-      "Hindi": "नीचे",
+      "Japanese": "ダウン",
       "in English": "down"
     },
     {
       "Number": 197,
-      "Hindi": "पक्ष",
+      "Japanese": "サイド",
       "in English": "side"
     },
     {
       "Number": 198,
-      "Hindi": "गया",
+      "Japanese": "き",
       "in English": "been"
     },
     {
       "Number": 199,
-      "Hindi": "अब",
+      "Japanese": "今",
       "in English": "now"
     },
     {
       "Number": 200,
-      "Hindi": "लगता है",
+      "Japanese": "見つける",
       "in English": "find"
     },
     {
       "Number": 201,
-      "Hindi": "सिर",
+      "Japanese": "ヘッド",
       "in English": "head"
     },
     {
       "Number": 202,
-      "Hindi": "खड़े",
+      "Japanese": "スタンド",
       "in English": "stand"
     },
     {
       "Number": 203,
-      "Hindi": "खुद",
+      "Japanese": "独自の",
       "in English": "own"
     },
     {
       "Number": 204,
-      "Hindi": "पेज",
+      "Japanese": "ページ",
       "in English": "page"
     },
     {
       "Number": 205,
-      "Hindi": "चाहिए",
+      "Japanese": "べき",
       "in English": "should"
     },
     {
       "Number": 206,
-      "Hindi": "देश",
+      "Japanese": "国",
       "in English": "country"
     },
     {
       "Number": 207,
-      "Hindi": "पाया",
+      "Japanese": "発見",
       "in English": "found"
     },
     {
       "Number": 208,
-      "Hindi": "जवाब",
+      "Japanese": "答え",
       "in English": "answer"
     },
     {
       "Number": 209,
-      "Hindi": "स्कूल",
+      "Japanese": "学校",
       "in English": "school"
     },
     {
       "Number": 210,
-      "Hindi": "बढ़ने",
+      "Japanese": "成長する",
       "in English": "grow"
     },
     {
       "Number": 211,
-      "Hindi": "अध्ययन",
+      "Japanese": "研究",
       "in English": "study"
     },
     {
       "Number": 212,
-      "Hindi": "अब तक",
+      "Japanese": "まだ",
       "in English": "still"
     },
     {
       "Number": 213,
-      "Hindi": "सीखना",
+      "Japanese": "学ぶ",
       "in English": "learn"
     },
     {
       "Number": 214,
-      "Hindi": "संयंत्र",
+      "Japanese": "植物",
       "in English": "plant"
     },
     {
       "Number": 215,
-      "Hindi": "कवर",
+      "Japanese": "カバー",
       "in English": "cover"
     },
     {
       "Number": 216,
-      "Hindi": "भोजन",
+      "Japanese": "食品",
       "in English": "food"
     },
     {
       "Number": 217,
-      "Hindi": "सूरज",
+      "Japanese": "太陽",
       "in English": "sun"
     },
     {
       "Number": 218,
-      "Hindi": "चार",
+      "Japanese": "つの",
       "in English": "four"
     },
     {
       "Number": 219,
-      "Hindi": "के बीच",
+      "Japanese": "間に",
       "in English": "between"
     },
     {
       "Number": 220,
-      "Hindi": "राज्य",
+      "Japanese": "状? ?",
       "in English": "state"
     },
     {
       "Number": 221,
-      "Hindi": "रखना",
+      "Japanese": "キープ",
       "in English": "keep"
     },
     {
       "Number": 222,
-      "Hindi": "आंख",
+      "Japanese": "目",
       "in English": "eye"
     },
     {
       "Number": 223,
-      "Hindi": "कभी नहीं",
+      "Japanese": "ネバー",
       "in English": "never"
     },
     {
       "Number": 224,
-      "Hindi": "पिछले",
+      "Japanese": "最後の",
       "in English": "last"
     },
     {
       "Number": 225,
-      "Hindi": "चलो",
+      "Japanese": "てみましょう",
       "in English": "let"
     },
     {
       "Number": 226,
-      "Hindi": "सोचा",
+      "Japanese": "考え",
       "in English": "thought"
     },
     {
       "Number": 227,
-      "Hindi": "शहर",
+      "Japanese": "街",
       "in English": "city"
     },
     {
       "Number": 228,
-      "Hindi": "पेड़",
+      "Japanese": "ツリー",
       "in English": "tree"
     },
     {
       "Number": 229,
-      "Hindi": "पार",
+      "Japanese": "クロス",
       "in English": "cross"
     },
     {
       "Number": 230,
-      "Hindi": "खेत",
+      "Japanese": "農場",
       "in English": "farm"
     },
     {
       "Number": 231,
-      "Hindi": "कठिन",
+      "Japanese": "ハード",
       "in English": "hard"
     },
     {
       "Number": 232,
-      "Hindi": "शुरुआत",
+      "Japanese": "スタート",
       "in English": "start"
     },
     {
       "Number": 233,
-      "Hindi": "हो सकता है",
+      "Japanese": "可能性がある",
       "in English": "might"
     },
     {
       "Number": 234,
-      "Hindi": "कहानी",
+      "Japanese": "物語",
       "in English": "story"
     },
     {
       "Number": 235,
-      "Hindi": "देखा",
+      "Japanese": "のこぎり",
       "in English": "saw"
     },
     {
       "Number": 236,
-      "Hindi": "दूर",
+      "Japanese": "遠く",
       "in English": "far"
     },
     {
       "Number": 237,
-      "Hindi": "समुद्र",
+      "Japanese": "海",
       "in English": "sea"
     },
     {
       "Number": 238,
-      "Hindi": "आकर्षित",
+      "Japanese": "描く",
       "in English": "draw"
     },
     {
       "Number": 239,
-      "Hindi": "छोड़ा",
+      "Japanese": "左",
       "in English": "left"
     },
     {
       "Number": 240,
-      "Hindi": "देर से",
+      "Japanese": "? く",
       "in English": "late"
     },
     {
       "Number": 241,
-      "Hindi": "चलाने",
+      "Japanese": "ラン",
       "in English": "run"
     },
     {
       "Number": 242,
-      "Hindi": "ऐसा नहीं",
+      "Japanese": "ない",
       "in English": "don’t"
     },
     {
       "Number": 243,
-      "Hindi": "जबकि",
+      "Japanese": "一方、",
       "in English": "while"
     },
     {
       "Number": 244,
-      "Hindi": "प्रेस",
+      "Japanese": "プレス",
       "in English": "press"
     },
     {
       "Number": 245,
-      "Hindi": "करीब",
+      "Japanese": "クローズ",
       "in English": "close"
     },
     {
       "Number": 246,
-      "Hindi": "रात",
+      "Japanese": "夜",
       "in English": "night"
     },
     {
       "Number": 247,
-      "Hindi": "असली",
+      "Japanese": "リアル",
       "in English": "real"
     },
     {
       "Number": 248,
-      "Hindi": "जीवन",
+      "Japanese": "生活",
       "in English": "life"
     },
     {
       "Number": 249,
-      "Hindi": "कुछ",
+      "Japanese": "少数",
       "in English": "few"
     },
     {
       "Number": 250,
-      "Hindi": "उत्तर",
+      "Japanese": "北",
       "in English": "north"
     },
     {
       "Number": 251,
-      "Hindi": "किताब",
+      "Japanese": "ブック",
       "in English": "book"
     },
     {
       "Number": 252,
-      "Hindi": "ले",
+      "Japanese": "運ぶ",
       "in English": "carry"
     },
     {
       "Number": 253,
-      "Hindi": "ले लिया",
+      "Japanese": "かかった",
       "in English": "took"
     },
     {
       "Number": 254,
-      "Hindi": "विज्ञान",
+      "Japanese": "科学",
       "in English": "science"
     },
     {
       "Number": 255,
-      "Hindi": "खाने",
+      "Japanese": "食べる",
       "in English": "eat"
     },
     {
       "Number": 256,
-      "Hindi": "कमरे",
+      "Japanese": "部屋",
       "in English": "room"
     },
     {
       "Number": 257,
-      "Hindi": "दोस्त",
+      "Japanese": "友人",
       "in English": "friend"
     },
     {
       "Number": 258,
-      "Hindi": "शुरू हुआ",
+      "Japanese": "始まった",
       "in English": "began"
     },
     {
       "Number": 259,
-      "Hindi": "विचार",
+      "Japanese": "アイデア",
       "in English": "idea"
     },
     {
       "Number": 260,
-      "Hindi": "मछली",
+      "Japanese": "魚",
       "in English": "fish"
     },
     {
       "Number": 261,
-      "Hindi": "पहाड़",
+      "Japanese": "山",
       "in English": "mountain"
     },
     {
       "Number": 262,
-      "Hindi": "रोक",
+      "Japanese": "停止",
       "in English": "stop"
     },
     {
       "Number": 263,
-      "Hindi": "एक बार",
+      "Japanese": "一度",
       "in English": "once"
     },
     {
       "Number": 264,
-      "Hindi": "आधार",
+      "Japanese": "ベース",
       "in English": "base"
     },
     {
       "Number": 265,
-      "Hindi": "सुनना",
+      "Japanese": "聞く",
       "in English": "hear"
     },
     {
       "Number": 266,
-      "Hindi": "घोड़ा",
+      "Japanese": "馬",
       "in English": "horse"
     },
     {
       "Number": 267,
-      "Hindi": "कटौती",
+      "Japanese": "カット",
       "in English": "cut"
     },
     {
       "Number": 268,
-      "Hindi": "यकीन",
+      "Japanese": "確か",
       "in English": "sure"
     },
     {
       "Number": 269,
-      "Hindi": "घड़ी",
+      "Japanese": "見る",
       "in English": "watch"
     },
     {
       "Number": 270,
-      "Hindi": "रंग",
+      "Japanese": "カラー",
       "in English": "color"
     },
     {
       "Number": 271,
-      "Hindi": "चेहरा",
+      "Japanese": "顔",
       "in English": "face"
     },
     {
       "Number": 272,
-      "Hindi": "लकड़ी",
+      "Japanese": "木材",
       "in English": "wood"
     },
     {
       "Number": 273,
-      "Hindi": "मुख्य",
+      "Japanese": "メイン",
       "in English": "main"
     },
     {
       "Number": 274,
-      "Hindi": "खुला",
+      "Japanese": "オープン",
       "in English": "open"
     },
     {
       "Number": 275,
-      "Hindi": "प्रतीत",
+      "Japanese": "見える",
       "in English": "seem"
     },
     {
       "Number": 276,
-      "Hindi": "एक साथ",
+      "Japanese": "一緒に",
       "in English": "together"
     },
     {
       "Number": 277,
-      "Hindi": "अगला",
+      "Japanese": "次",
       "in English": "next"
     },
     {
       "Number": 278,
-      "Hindi": "सफेद",
+      "Japanese": "白",
       "in English": "white"
     },
     {
       "Number": 279,
-      "Hindi": "बच्चों",
+      "Japanese": "子どもたち",
       "in English": "children"
     },
     {
       "Number": 280,
-      "Hindi": "प्रारंभ करना",
+      "Japanese": "始まる",
       "in English": "begin"
     },
     {
       "Number": 281,
-      "Hindi": "मिला",
+      "Japanese": "だ",
       "in English": "got"
     },
     {
       "Number": 282,
-      "Hindi": "चलना",
+      "Japanese": "歩く",
       "in English": "walk"
     },
     {
       "Number": 283,
-      "Hindi": "उदाहरण",
+      "Japanese": "例",
       "in English": "example"
     },
     {
       "Number": 284,
-      "Hindi": "आसानी",
+      "Japanese": "和らげる",
       "in English": "ease"
     },
     {
       "Number": 285,
-      "Hindi": "कागज",
+      "Japanese": "紙",
       "in English": "paper"
     },
     {
       "Number": 286,
-      "Hindi": "समूह",
+      "Japanese": "グループ",
       "in English": "group"
     },
     {
       "Number": 287,
-      "Hindi": "सदैव",
+      "Japanese": "常に",
       "in English": "always"
     },
     {
       "Number": 288,
-      "Hindi": "संगीत",
+      "Japanese": "音楽",
       "in English": "music"
     },
     {
       "Number": 289,
-      "Hindi": "उन",
+      "Japanese": "それらの",
       "in English": "those"
     },
     {
       "Number": 290,
-      "Hindi": "दोनों",
+      "Japanese": "両方",
       "in English": "both"
     },
     {
       "Number": 291,
-      "Hindi": "मार्क",
+      "Japanese": "マーク",
       "in English": "mark"
     },
     {
       "Number": 292,
-      "Hindi": "अक्सर",
+      "Japanese": "しばしば",
       "in English": "often"
     },
     {
       "Number": 293,
-      "Hindi": "पत्र",
+      "Japanese": "手紙",
       "in English": "letter"
     },
     {
       "Number": 294,
-      "Hindi": "जब तक",
+      "Japanese": "まで、",
       "in English": "until"
     },
     {
       "Number": 295,
-      "Hindi": "मील",
+      "Japanese": "マイル",
       "in English": "mile"
     },
     {
       "Number": 296,
-      "Hindi": "नदी",
+      "Japanese": "川",
       "in English": "river"
     },
     {
       "Number": 297,
-      "Hindi": "कार",
+      "Japanese": "カー",
       "in English": "car"
     },
     {
       "Number": 298,
-      "Hindi": "पैर",
+      "Japanese": "フィート",
       "in English": "feet"
     },
     {
       "Number": 299,
-      "Hindi": "देखभाल",
+      "Japanese": "介護",
       "in English": "care"
     },
     {
       "Number": 300,
-      "Hindi": "दूसरा",
+      "Japanese": "第2",
       "in English": "second"
     },
     {
       "Number": 301,
-      "Hindi": "पर्याप्त",
+      "Japanese": "十分な",
       "in English": "enough"
     },
     {
       "Number": 302,
-      "Hindi": "सादे",
+      "Japanese": "平野",
       "in English": "plain"
     },
     {
       "Number": 303,
-      "Hindi": "लड़की",
+      "Japanese": "女の子",
       "in English": "girl"
     },
     {
       "Number": 304,
-      "Hindi": "हमेशा की तरह",
+      "Japanese": "いつもの",
       "in English": "usual"
     },
     {
       "Number": 305,
-      "Hindi": "युवा",
+      "Japanese": "若い",
       "in English": "young"
     },
     {
       "Number": 306,
-      "Hindi": "तैयार",
+      "Japanese": "レディー",
       "in English": "ready"
     },
     {
       "Number": 307,
-      "Hindi": "ऊपर",
+      "Japanese": "上記",
       "in English": "above"
     },
     {
       "Number": 308,
-      "Hindi": "कभी",
+      "Japanese": "今までに",
       "in English": "ever"
     },
     {
       "Number": 309,
-      "Hindi": "लाल",
+      "Japanese": "赤",
       "in English": "red"
     },
     {
       "Number": 310,
-      "Hindi": "सूची",
+      "Japanese": "リスト",
       "in English": "list"
     },
     {
       "Number": 311,
-      "Hindi": "हालांकि",
+      "Japanese": "しかし",
       "in English": "though"
     },
     {
       "Number": 312,
-      "Hindi": "लग रहा है",
+      "Japanese": "感じる",
       "in English": "feel"
     },
     {
       "Number": 313,
-      "Hindi": "वार्ता",
+      "Japanese": "トーク",
       "in English": "talk"
     },
     {
       "Number": 314,
-      "Hindi": "पक्षी",
+      "Japanese": "鳥",
       "in English": "bird"
     },
     {
       "Number": 315,
-      "Hindi": "शीघ्र",
+      "Japanese": "すぐに",
       "in English": "soon"
     },
     {
       "Number": 316,
-      "Hindi": "शरीर",
+      "Japanese": "ボディ",
       "in English": "body"
     },
     {
       "Number": 317,
-      "Hindi": "कुत्ते",
+      "Japanese": "犬",
       "in English": "dog"
     },
     {
       "Number": 318,
-      "Hindi": "परिवार",
+      "Japanese": "家族",
       "in English": "family"
     },
     {
       "Number": 319,
-      "Hindi": "प्रत्यक्ष",
+      "Japanese": "ダイレクト",
       "in English": "direct"
     },
     {
       "Number": 320,
-      "Hindi": "ढोंग",
+      "Japanese": "ポーズ",
       "in English": "pose"
     },
     {
       "Number": 321,
-      "Hindi": "छोड़",
+      "Japanese": "去る",
       "in English": "leave"
     },
     {
       "Number": 322,
-      "Hindi": "गीत",
+      "Japanese": "歌",
       "in English": "song"
     },
     {
       "Number": 323,
-      "Hindi": "नाप",
+      "Japanese": "測定",
       "in English": "measure"
     },
     {
       "Number": 324,
-      "Hindi": "दरवाजा",
+      "Japanese": "ドア",
       "in English": "door"
     },
     {
       "Number": 325,
-      "Hindi": "उत्पाद",
+      "Japanese": "製品",
       "in English": "product"
     },
     {
       "Number": 326,
-      "Hindi": "काला",
+      "Japanese": "黒",
       "in English": "black"
     },
     {
       "Number": 327,
-      "Hindi": "कम",
+      "Japanese": "短い",
       "in English": "short"
     },
     {
       "Number": 328,
-      "Hindi": "अंक",
+      "Japanese": "数字",
       "in English": "numeral"
     },
     {
       "Number": 329,
-      "Hindi": "क्लास",
+      "Japanese": "クラス",
       "in English": "class"
     },
     {
       "Number": 330,
-      "Hindi": "हवा",
+      "Japanese": "風",
       "in English": "wind"
     },
     {
       "Number": 331,
-      "Hindi": "सवाल",
+      "Japanese": "質問",
       "in English": "question"
     },
     {
       "Number": 332,
-      "Hindi": "होना",
+      "Japanese": "起こる",
       "in English": "happen"
     },
     {
       "Number": 333,
-      "Hindi": "पूरा",
+      "Japanese": "完? ?な",
       "in English": "complete"
     },
     {
       "Number": 334,
-      "Hindi": "जहाज",
+      "Japanese": "船",
       "in English": "ship"
     },
     {
       "Number": 335,
-      "Hindi": "क्षेत्र",
+      "Japanese": "エリア",
       "in English": "area"
     },
     {
       "Number": 336,
-      "Hindi": "आधा",
+      "Japanese": "半分",
       "in English": "half"
     },
     {
       "Number": 337,
-      "Hindi": "रॉक",
+      "Japanese": "岩",
       "in English": "rock"
     },
     {
       "Number": 338,
-      "Hindi": "आदेश",
+      "Japanese": "オーダー",
       "in English": "order"
     },
     {
       "Number": 339,
-      "Hindi": "आग",
+      "Japanese": "火災",
       "in English": "fire"
     },
     {
       "Number": 340,
-      "Hindi": "दक्षिण",
+      "Japanese": "南",
       "in English": "south"
     },
     {
       "Number": 341,
-      "Hindi": "समस्या",
+      "Japanese": "問題",
       "in English": "problem"
     },
     {
       "Number": 342,
-      "Hindi": "टुकड़ा",
+      "Japanese": "作品",
       "in English": "piece"
     },
     {
       "Number": 343,
-      "Hindi": "बताया",
+      "Japanese": "言われ",
       "in English": "told"
     },
     {
       "Number": 344,
-      "Hindi": "पता था",
+      "Japanese": "知っていた",
       "in English": "knew"
     },
     {
       "Number": 345,
-      "Hindi": "पास",
+      "Japanese": "合格",
       "in English": "pass"
     },
     {
       "Number": 346,
-      "Hindi": "के बाद से",
+      "Japanese": "以来",
       "in English": "since"
     },
     {
       "Number": 347,
-      "Hindi": "शीर्ष",
+      "Japanese": "トップ",
       "in English": "top"
     },
     {
       "Number": 348,
-      "Hindi": "पूरे",
+      "Japanese": "? ?体",
       "in English": "whole"
     },
     {
       "Number": 349,
-      "Hindi": "राजा",
+      "Japanese": "王",
       "in English": "king"
     },
     {
       "Number": 350,
-      "Hindi": "सड़क",
+      "Japanese": "ストリート",
       "in English": "street"
     },
     {
       "Number": 351,
-      "Hindi": "इंच",
+      "Japanese": "インチ",
       "in English": "inch"
     },
     {
       "Number": 352,
-      "Hindi": "गुणा",
+      "Japanese": "掛ける",
       "in English": "multiply"
     },
     {
       "Number": 353,
-      "Hindi": "कुछ नहीं",
+      "Japanese": "何も",
       "in English": "nothing"
     },
     {
       "Number": 354,
-      "Hindi": "कोर्स",
+      "Japanese": "もちろん",
       "in English": "course"
     },
     {
       "Number": 355,
-      "Hindi": "रहना",
+      "Japanese": "滞在",
       "in English": "stay"
     },
     {
       "Number": 356,
-      "Hindi": "पहिया",
+      "Japanese": "ホイール",
       "in English": "wheel"
     },
     {
       "Number": 357,
-      "Hindi": "पूर्ण",
+      "Japanese": "フル",
       "in English": "full"
     },
     {
       "Number": 358,
-      "Hindi": "बल",
+      "Japanese": "力",
       "in English": "force"
     },
     {
       "Number": 359,
-      "Hindi": "नीला",
+      "Japanese": "ブルー",
       "in English": "blue"
     },
     {
       "Number": 360,
-      "Hindi": "वस्तु",
+      "Japanese": "オブジェクト",
       "in English": "object"
     },
     {
       "Number": 361,
-      "Hindi": "तय",
+      "Japanese": "決定する",
       "in English": "decide"
     },
     {
       "Number": 362,
-      "Hindi": "सतह",
+      "Japanese": "表面",
       "in English": "surface"
     },
     {
       "Number": 363,
-      "Hindi": "गहरा",
+      "Japanese": "深い",
       "in English": "deep"
     },
     {
       "Number": 364,
-      "Hindi": "चांद",
+      "Japanese": "ムーン",
       "in English": "moon"
     },
     {
       "Number": 365,
-      "Hindi": "द्वीप",
+      "Japanese": "島",
       "in English": "island"
     },
     {
       "Number": 366,
-      "Hindi": "पैर",
+      "Japanese": "足",
       "in English": "foot"
     },
     {
       "Number": 367,
-      "Hindi": "प्रणाली",
+      "Japanese": "システム",
       "in English": "system"
     },
     {
       "Number": 368,
-      "Hindi": "व्यस्त",
+      "Japanese": "忙しい",
       "in English": "busy"
     },
     {
       "Number": 369,
-      "Hindi": "परीक्षण",
+      "Japanese": "テスト",
       "in English": "test"
     },
     {
       "Number": 370,
-      "Hindi": "रिकॉर्ड",
+      "Japanese": "記録",
       "in English": "record"
     },
     {
       "Number": 371,
-      "Hindi": "नाव",
+      "Japanese": "ボート",
       "in English": "boat"
     },
     {
       "Number": 372,
-      "Hindi": "आम",
+      "Japanese": "一般的な",
       "in English": "common"
     },
     {
       "Number": 373,
-      "Hindi": "सोना",
+      "Japanese": "ゴールド",
       "in English": "gold"
     },
     {
       "Number": 374,
-      "Hindi": "संभव",
+      "Japanese": "可能",
       "in English": "possible"
     },
     {
       "Number": 375,
-      "Hindi": "विमान",
+      "Japanese": "飛行機",
       "in English": "plane"
     },
     {
       "Number": 376,
-      "Hindi": "जगह",
+      "Japanese": "代わり",
       "in English": "stead"
     },
     {
       "Number": 377,
-      "Hindi": "सूखा",
+      "Japanese": "ドライ",
       "in English": "dry"
     },
     {
       "Number": 378,
-      "Hindi": "आश्चर्य",
+      "Japanese": "不思議",
       "in English": "wonder"
     },
     {
       "Number": 379,
-      "Hindi": "हंसी",
+      "Japanese": "笑い",
       "in English": "laugh"
     },
     {
       "Number": 380,
-      "Hindi": "हजार",
+      "Japanese": "千の",
       "in English": "thousand"
     },
     {
       "Number": 381,
-      "Hindi": "पहले",
+      "Japanese": "前",
       "in English": "ago"
     },
     {
       "Number": 382,
-      "Hindi": "भागा",
+      "Japanese": "走った",
       "in English": "ran"
     },
     {
       "Number": 383,
-      "Hindi": "जाँच",
+      "Japanese": "チェック",
       "in English": "check"
     },
     {
       "Number": 384,
-      "Hindi": "खेल",
+      "Japanese": "ゲーム",
       "in English": "game"
     },
     {
       "Number": 385,
-      "Hindi": "आकार",
+      "Japanese": "形状",
       "in English": "shape"
     },
     {
       "Number": 386,
-      "Hindi": "समानता",
+      "Japanese": "一致する",
       "in English": "equate"
     },
     {
       "Number": 387,
-      "Hindi": "गरम",
+      "Japanese": "ホット",
       "in English": "hot"
     },
     {
       "Number": 388,
-      "Hindi": "मिस",
+      "Japanese": "ミス",
       "in English": "miss"
     },
     {
       "Number": 389,
-      "Hindi": "लाया",
+      "Japanese": "た",
       "in English": "brought"
     },
     {
       "Number": 390,
-      "Hindi": "गर्मी",
+      "Japanese": "熱",
       "in English": "heat"
     },
     {
       "Number": 391,
-      "Hindi": "बर्फ",
+      "Japanese": "雪",
       "in English": "snow"
     },
     {
       "Number": 392,
-      "Hindi": "टायर",
+      "Japanese": "タイヤ",
       "in English": "tire"
     },
     {
       "Number": 393,
-      "Hindi": "लाना",
+      "Japanese": "持って来る",
       "in English": "bring"
     },
     {
       "Number": 394,
-      "Hindi": "हां",
+      "Japanese": "はい",
       "in English": "yes"
     },
     {
       "Number": 395,
-      "Hindi": "दूर",
+      "Japanese": "遠い",
       "in English": "distant"
     },
     {
       "Number": 396,
-      "Hindi": "भरने",
+      "Japanese": "埋める",
       "in English": "fill"
     },
     {
       "Number": 397,
-      "Hindi": "पूर्व",
+      "Japanese": "東",
       "in English": "east"
     },
     {
       "Number": 398,
-      "Hindi": "रंग",
+      "Japanese": "ペイント",
       "in English": "paint"
     },
     {
       "Number": 399,
-      "Hindi": "भाषा",
+      "Japanese": "言語",
       "in English": "language"
     },
     {
       "Number": 400,
-      "Hindi": "के बीच",
+      "Japanese": "の間で",
       "in English": "among"
     },
     {
       "Number": 401,
-      "Hindi": "इकाई",
+      "Japanese": "ユニット",
       "in English": "unit"
     },
     {
       "Number": 402,
-      "Hindi": "बिजली",
+      "Japanese": "パワー",
       "in English": "power"
     },
     {
       "Number": 403,
-      "Hindi": "शहर",
+      "Japanese": "町",
       "in English": "town"
     },
     {
       "Number": 404,
-      "Hindi": "ठीक",
+      "Japanese": "罰金",
       "in English": "fine"
     },
     {
       "Number": 405,
-      "Hindi": "कुछ",
+      "Japanese": "特定の",
       "in English": "certain"
     },
     {
       "Number": 406,
-      "Hindi": "मक्खी",
+      "Japanese": "飛ぶ",
       "in English": "fly"
     },
     {
       "Number": 407,
-      "Hindi": "गिरावट",
+      "Japanese": "落ちる",
       "in English": "fall"
     },
     {
       "Number": 408,
-      "Hindi": "नेतृत्व",
+      "Japanese": "鉛",
       "in English": "lead"
     },
     {
       "Number": 409,
-      "Hindi": "रोना",
+      "Japanese": "泣く",
       "in English": "cry"
     },
     {
       "Number": 410,
-      "Hindi": "अंधेरा",
+      "Japanese": "暗い",
       "in English": "dark"
     },
     {
       "Number": 411,
-      "Hindi": "मशीन",
+      "Japanese": "マシン",
       "in English": "machine"
     },
     {
       "Number": 412,
-      "Hindi": "नोट",
+      "Japanese": "ノート",
       "in English": "note"
     },
     {
       "Number": 413,
-      "Hindi": "इंतजार",
+      "Japanese": "? つ",
       "in English": "wait"
     },
     {
       "Number": 414,
-      "Hindi": "योजना",
+      "Japanese": "計画",
       "in English": "plan"
     },
     {
       "Number": 415,
-      "Hindi": "आंकड़ा",
+      "Japanese": "図",
       "in English": "figure"
     },
     {
       "Number": 416,
-      "Hindi": "सितारा",
+      "Japanese": "スター",
       "in English": "star"
     },
     {
       "Number": 417,
-      "Hindi": "बॉक्स",
+      "Japanese": "ボックス",
       "in English": "box"
     },
     {
       "Number": 418,
-      "Hindi": "संज्ञा",
+      "Japanese": "名詞",
       "in English": "noun"
     },
     {
       "Number": 419,
-      "Hindi": "क्षेत्र",
+      "Japanese": "フィールド",
       "in English": "field"
     },
     {
       "Number": 420,
-      "Hindi": "बाकी",
+      "Japanese": "残り",
       "in English": "rest"
     },
     {
       "Number": 421,
-      "Hindi": "सही",
+      "Japanese": "正しい",
       "in English": "correct"
     },
     {
       "Number": 422,
-      "Hindi": "सक्षम",
+      "Japanese": "できる",
       "in English": "able"
     },
     {
       "Number": 423,
-      "Hindi": "पाउंड",
+      "Japanese": "ポンド",
       "in English": "pound"
     },
     {
       "Number": 424,
-      "Hindi": "किया",
+      "Japanese": "終わった",
       "in English": "done"
     },
     {
       "Number": 425,
-      "Hindi": "सुंदरता",
+      "Japanese": "美しさ",
       "in English": "beauty"
     },
     {
       "Number": 426,
-      "Hindi": "ड्राइव",
+      "Japanese": "ドライブ",
       "in English": "drive"
     },
     {
       "Number": 427,
-      "Hindi": "खड़ा हुआ",
+      "Japanese": "立っていた",
       "in English": "stood"
     },
     {
       "Number": 428,
-      "Hindi": "होते हैं",
+      "Japanese": "含む",
       "in English": "contain"
     },
     {
       "Number": 429,
-      "Hindi": "सामने",
+      "Japanese": "フロント",
       "in English": "front"
     },
     {
       "Number": 430,
-      "Hindi": "सिखाना",
+      "Japanese": "教える",
       "in English": "teach"
     },
     {
       "Number": 431,
-      "Hindi": "सप्ताह",
+      "Japanese": "週",
       "in English": "week"
     },
     {
       "Number": 432,
-      "Hindi": "अंतिम",
+      "Japanese": "ファイナル",
       "in English": "final"
     },
     {
       "Number": 433,
-      "Hindi": "दिया",
+      "Japanese": "与えた",
       "in English": "gave"
     },
     {
       "Number": 434,
-      "Hindi": "हरे रंग",
+      "Japanese": "緑",
       "in English": "green"
     },
     {
       "Number": 435,
-      "Hindi": "ओह",
+      "Japanese": "ああ",
       "in English": "oh"
     },
     {
       "Number": 436,
-      "Hindi": "त्वरित",
+      "Japanese": "クイック",
       "in English": "quick"
     },
     {
       "Number": 437,
-      "Hindi": "विकसित",
+      "Japanese": "開発する",
       "in English": "develop"
     },
     {
       "Number": 438,
-      "Hindi": "सागर",
+      "Japanese": "海",
       "in English": "ocean"
     },
     {
       "Number": 439,
-      "Hindi": "गर्म",
+      "Japanese": "暖かい",
       "in English": "warm"
     },
     {
       "Number": 440,
-      "Hindi": "मुक्त",
+      "Japanese": "無料で",
       "in English": "free"
     },
     {
       "Number": 441,
-      "Hindi": "मिनट",
+      "Japanese": "分",
       "in English": "minute"
     },
     {
       "Number": 442,
-      "Hindi": "मजबूत",
+      "Japanese": "強い",
       "in English": "strong"
     },
     {
       "Number": 443,
-      "Hindi": "विशेष",
+      "Japanese": "特別",
       "in English": "special"
     },
     {
       "Number": 444,
-      "Hindi": "मन",
+      "Japanese": "心",
       "in English": "mind"
     },
     {
       "Number": 445,
-      "Hindi": "पीछे",
+      "Japanese": "背後に",
       "in English": "behind"
     },
     {
       "Number": 446,
-      "Hindi": "स्पष्ट",
+      "Japanese": "明確な",
       "in English": "clear"
     },
     {
       "Number": 447,
-      "Hindi": "पूंछ",
+      "Japanese": "テール",
       "in English": "tail"
     },
     {
       "Number": 448,
-      "Hindi": "उत्पादन",
+      "Japanese": "作る",
       "in English": "produce"
     },
     {
       "Number": 449,
-      "Hindi": "तथ्य",
+      "Japanese": "事実",
       "in English": "fact"
     },
     {
       "Number": 450,
-      "Hindi": "अंतरिक्ष",
+      "Japanese": "スペース",
       "in English": "space"
     },
     {
       "Number": 451,
-      "Hindi": "सुना",
+      "Japanese": "聞いた",
       "in English": "heard"
     },
     {
       "Number": 452,
-      "Hindi": "सर्वश्रेष्ठ",
+      "Japanese": "ベスト",
       "in English": "best"
     },
     {
       "Number": 453,
-      "Hindi": "घंटे",
+      "Japanese": "時間",
       "in English": "hour"
     },
     {
       "Number": 454,
-      "Hindi": "बेहतर",
+      "Japanese": "良い",
       "in English": "better"
     },
     {
       "Number": 455,
-      "Hindi": "सच",
+      "Japanese": "真の",
       "in English": "true"
     },
     {
       "Number": 456,
-      "Hindi": "दौरान",
+      "Japanese": "間に",
       "in English": "during"
     },
     {
       "Number": 457,
-      "Hindi": "सौ",
+      "Japanese": "百",
       "in English": "hundred"
     },
     {
       "Number": 458,
-      "Hindi": "पांच",
+      "Japanese": "五",
       "in English": "five"
     },
     {
       "Number": 459,
-      "Hindi": "याद",
+      "Japanese": "覚えている",
       "in English": "remember"
     },
     {
       "Number": 460,
-      "Hindi": "कदम",
+      "Japanese": "ステップ",
       "in English": "step"
     },
     {
       "Number": 461,
-      "Hindi": "शीघ्र",
+      "Japanese": "早い",
       "in English": "early"
     },
     {
       "Number": 462,
-      "Hindi": "पकड़",
+      "Japanese": "ホールド",
       "in English": "hold"
     },
     {
       "Number": 463,
-      "Hindi": "पश्चिम",
+      "Japanese": "西",
       "in English": "west"
     },
     {
       "Number": 464,
-      "Hindi": "जमीन",
+      "Japanese": "地面",
       "in English": "ground"
     },
     {
       "Number": 465,
-      "Hindi": "ब्याज",
+      "Japanese": "関心",
       "in English": "interest"
     },
     {
       "Number": 466,
-      "Hindi": "तक पहुँचने",
+      "Japanese": "リーチ",
       "in English": "reach"
     },
     {
       "Number": 467,
-      "Hindi": "तेजी",
+      "Japanese": "速い",
       "in English": "fast"
     },
     {
       "Number": 468,
-      "Hindi": "क्रिया",
+      "Japanese": "動詞",
       "in English": "verb"
     },
     {
       "Number": 469,
-      "Hindi": "गाना",
+      "Japanese": "歌う",
       "in English": "sing"
     },
     {
       "Number": 470,
-      "Hindi": "सुनो",
+      "Japanese": "聞く",
       "in English": "listen"
     },
     {
       "Number": 471,
-      "Hindi": "छह",
+      "Japanese": "? ?",
       "in English": "six"
     },
     {
       "Number": 472,
-      "Hindi": "तालिका",
+      "Japanese": "テーブル",
       "in English": "table"
     },
     {
       "Number": 473,
-      "Hindi": "यात्रा",
+      "Japanese": "? 行",
       "in English": "travel"
     },
     {
       "Number": 474,
-      "Hindi": "कम",
+      "Japanese": "レス",
       "in English": "less"
     },
     {
       "Number": 475,
-      "Hindi": "सुबह",
+      "Japanese": "朝",
       "in English": "morning"
     },
     {
       "Number": 476,
-      "Hindi": "दस",
+      "Japanese": "十",
       "in English": "ten"
     },
     {
       "Number": 477,
-      "Hindi": "सरल",
+      "Japanese": "シンプル",
       "in English": "simple"
     },
     {
       "Number": 478,
-      "Hindi": "कई",
+      "Japanese": "いくつかの",
       "in English": "several"
     },
     {
       "Number": 479,
-      "Hindi": "स्वर",
+      "Japanese": "母音",
       "in English": "vowel"
     },
     {
       "Number": 480,
-      "Hindi": "की ओर",
+      "Japanese": "の方へ",
       "in English": "toward"
     },
     {
       "Number": 481,
-      "Hindi": "युद्ध",
+      "Japanese": "戦争",
       "in English": "war"
     },
     {
       "Number": 482,
-      "Hindi": "रखना",
+      "Japanese": "産む",
       "in English": "lay"
     },
     {
       "Number": 483,
-      "Hindi": "के खिलाफ",
+      "Japanese": "に対する",
       "in English": "against"
     },
     {
       "Number": 484,
-      "Hindi": "पैटर्न",
+      "Japanese": "パターン",
       "in English": "pattern"
     },
     {
       "Number": 485,
-      "Hindi": "धीमी",
+      "Japanese": "? い",
       "in English": "slow"
     },
     {
       "Number": 486,
-      "Hindi": "केंद्र",
+      "Japanese": "センター",
       "in English": "center"
     },
     {
       "Number": 487,
-      "Hindi": "प्यार",
+      "Japanese": "愛",
       "in English": "love"
     },
     {
       "Number": 488,
-      "Hindi": "व्यक्ति",
+      "Japanese": "人",
       "in English": "person"
     },
     {
       "Number": 489,
-      "Hindi": "धन",
+      "Japanese": "マネー",
       "in English": "money"
     },
     {
       "Number": 490,
-      "Hindi": "सेवा कर",
+      "Japanese": "サーブ",
       "in English": "serve"
     },
     {
       "Number": 491,
-      "Hindi": "प्रकट",
+      "Japanese": "見える",
       "in English": "appear"
     },
     {
       "Number": 492,
-      "Hindi": "सड़क",
+      "Japanese": "道路",
       "in English": "road"
     },
     {
       "Number": 493,
-      "Hindi": "नक्शा",
+      "Japanese": "マップ",
       "in English": "map"
     },
     {
       "Number": 494,
-      "Hindi": "बारिश",
+      "Japanese": "雨",
       "in English": "rain"
     },
     {
       "Number": 495,
-      "Hindi": "नियम",
+      "Japanese": "ルール",
       "in English": "rule"
     },
     {
       "Number": 496,
-      "Hindi": "शासन",
+      "Japanese": "支? ?する",
       "in English": "govern"
     },
     {
       "Number": 497,
-      "Hindi": "खींच",
+      "Japanese": "引っ張る",
       "in English": "pull"
     },
     {
       "Number": 498,
-      "Hindi": "ठंड",
+      "Japanese": "寒い",
       "in English": "cold"
     },
     {
       "Number": 499,
-      "Hindi": "नोटिस",
+      "Japanese": "予告",
       "in English": "notice"
     },
     {
       "Number": 500,
-      "Hindi": "आवाज",
+      "Japanese": "声",
       "in English": "voice"
     },
     {
       "Number": 501,
-      "Hindi": "ऊर्जा",
+      "Japanese": "エネルギー",
       "in English": "energy"
     },
     {
       "Number": 502,
-      "Hindi": "शिकार",
+      "Japanese": "狩り",
       "in English": "hunt"
     },
     {
       "Number": 503,
-      "Hindi": "संभावित",
+      "Japanese": "ありそうな",
       "in English": "probable"
     },
     {
       "Number": 504,
-      "Hindi": "बिस्तर",
+      "Japanese": "ベッド",
       "in English": "bed"
     },
     {
       "Number": 505,
-      "Hindi": "भाई",
+      "Japanese": "? ?",
       "in English": "brother"
     },
     {
       "Number": 506,
-      "Hindi": "अंडा",
+      "Japanese": "卵",
       "in English": "egg"
     },
     {
       "Number": 507,
-      "Hindi": "सवारी",
+      "Japanese": "乗る",
       "in English": "ride"
     },
     {
       "Number": 508,
-      "Hindi": "सेल",
+      "Japanese": "セル",
       "in English": "cell"
     },
     {
       "Number": 509,
-      "Hindi": "विश्वास है",
+      "Japanese": "信じる",
       "in English": "believe"
     },
     {
       "Number": 510,
-      "Hindi": "शायद",
+      "Japanese": "たぶん",
       "in English": "perhaps"
     },
     {
       "Number": 511,
-      "Hindi": "उठाओ",
+      "Japanese": "選ぶ",
       "in English": "pick"
     },
     {
       "Number": 512,
-      "Hindi": "अचानक",
+      "Japanese": "突然の",
       "in English": "sudden"
     },
     {
       "Number": 513,
-      "Hindi": "गिनती",
+      "Japanese": "カウント",
       "in English": "count"
     },
     {
       "Number": 514,
-      "Hindi": "वर्ग",
+      "Japanese": "広場",
       "in English": "square"
     },
     {
       "Number": 515,
-      "Hindi": "कारण",
+      "Japanese": "理由",
       "in English": "reason"
     },
     {
       "Number": 516,
-      "Hindi": "लंबाई",
+      "Japanese": "長さ",
       "in English": "length"
     },
     {
       "Number": 517,
-      "Hindi": "का प्रतिनिधित्व",
+      "Japanese": "表す",
       "in English": "represent"
     },
     {
       "Number": 518,
-      "Hindi": "कला",
+      "Japanese": "アート",
       "in English": "art"
     },
     {
       "Number": 519,
-      "Hindi": "विषय",
+      "Japanese": "テーマ",
       "in English": "subject"
     },
     {
       "Number": 520,
-      "Hindi": "क्षेत्र",
+      "Japanese": "地域",
       "in English": "region"
     },
     {
       "Number": 521,
-      "Hindi": "आकार",
+      "Japanese": "サイズ",
       "in English": "size"
     },
     {
       "Number": 522,
-      "Hindi": "भिन्न हो",
+      "Japanese": "変える",
       "in English": "vary"
     },
     {
       "Number": 523,
-      "Hindi": "बसा",
+      "Japanese": "落ち着く",
       "in English": "settle"
     },
     {
       "Number": 524,
-      "Hindi": "बोलना",
+      "Japanese": "話す",
       "in English": "speak"
     },
     {
       "Number": 525,
-      "Hindi": "वजन",
+      "Japanese": "重さ",
       "in English": "weight"
     },
     {
       "Number": 526,
-      "Hindi": "सामान्य",
+      "Japanese": "一般",
       "in English": "general"
     },
     {
       "Number": 527,
-      "Hindi": "बर्फ",
+      "Japanese": "アイス",
       "in English": "ice"
     },
     {
       "Number": 528,
-      "Hindi": "मामला",
+      "Japanese": "問題",
       "in English": "matter"
     },
     {
       "Number": 529,
-      "Hindi": "वृत्त",
+      "Japanese": "サークル",
       "in English": "circle"
     },
     {
       "Number": 530,
-      "Hindi": "जोड़ी",
+      "Japanese": "ペア",
       "in English": "pair"
     },
     {
       "Number": 531,
-      "Hindi": "शामिल",
+      "Japanese": "含める",
       "in English": "include"
     },
     {
       "Number": 532,
-      "Hindi": "विभाजन",
+      "Japanese": "分割",
       "in English": "divide"
     },
     {
       "Number": 533,
-      "Hindi": "शब्दांश",
+      "Japanese": "音節",
       "in English": "syllable"
     },
     {
       "Number": 534,
-      "Hindi": "लगा",
+      "Japanese": "フェルト",
       "in English": "felt"
     },
     {
       "Number": 535,
-      "Hindi": "भव्य",
+      "Japanese": "壮大な",
       "in English": "grand"
     },
     {
       "Number": 536,
-      "Hindi": "गेंद",
+      "Japanese": "ボール",
       "in English": "ball"
     },
     {
       "Number": 537,
-      "Hindi": "अभी तक",
+      "Japanese": "まだ",
       "in English": "yet"
     },
     {
       "Number": 538,
-      "Hindi": "लहर",
+      "Japanese": "波",
       "in English": "wave"
     },
     {
       "Number": 539,
-      "Hindi": "ड्रॉप",
+      "Japanese": "ドロップ",
       "in English": "drop"
     },
     {
       "Number": 540,
-      "Hindi": "दिल",
+      "Japanese": "心",
       "in English": "heart"
     },
     {
       "Number": 541,
-      "Hindi": "AM",
+      "Japanese": "AM",
       "in English": "am"
     },
     {
       "Number": 542,
-      "Hindi": "वर्तमान",
+      "Japanese": "現在",
       "in English": "present"
     },
     {
       "Number": 543,
-      "Hindi": "भारी",
+      "Japanese": "重い",
       "in English": "heavy"
     },
     {
       "Number": 544,
-      "Hindi": "नृत्य",
+      "Japanese": "ダンス",
       "in English": "dance"
     },
     {
       "Number": 545,
-      "Hindi": "इंजन",
+      "Japanese": "エンジン",
       "in English": "engine"
     },
     {
       "Number": 546,
-      "Hindi": "स्थिति",
+      "Japanese": "ポジション",
       "in English": "position"
     },
     {
       "Number": 547,
-      "Hindi": "बांह",
+      "Japanese": "アーム",
       "in English": "arm"
     },
     {
       "Number": 548,
-      "Hindi": "विस्तृत",
+      "Japanese": "広い",
       "in English": "wide"
     },
     {
       "Number": 549,
-      "Hindi": "स्टील अथॉरिटी ऑफ इंडिया",
+      "Japanese": "帆",
       "in English": "sail"
     },
     {
       "Number": 550,
-      "Hindi": "सामग्री",
+      "Japanese": "材料",
       "in English": "material"
     },
     {
       "Number": 551,
-      "Hindi": "अंश",
+      "Japanese": "分数",
       "in English": "fraction"
     },
     {
       "Number": 552,
-      "Hindi": "वन",
+      "Japanese": "森",
       "in English": "forest"
     },
     {
       "Number": 553,
-      "Hindi": "बैठना",
+      "Japanese": "座る",
       "in English": "sit"
     },
     {
       "Number": 554,
-      "Hindi": "दौड़",
+      "Japanese": "レース",
       "in English": "race"
     },
     {
       "Number": 555,
-      "Hindi": "खिड़की",
+      "Japanese": "窓",
       "in English": "window"
     },
     {
       "Number": 556,
-      "Hindi": "दुकान",
+      "Japanese": "店",
       "in English": "store"
     },
     {
       "Number": 557,
-      "Hindi": "गर्मियों",
+      "Japanese": "夏",
       "in English": "summer"
     },
     {
       "Number": 558,
-      "Hindi": "सफर",
+      "Japanese": "列車",
       "in English": "train"
     },
     {
       "Number": 559,
-      "Hindi": "नींद",
+      "Japanese": "スリープ",
       "in English": "sleep"
     },
     {
       "Number": 560,
-      "Hindi": "साबित",
+      "Japanese": "証明する",
       "in English": "prove"
     },
     {
       "Number": 561,
-      "Hindi": "लोन",
+      "Japanese": "ローン",
       "in English": "lone"
     },
     {
       "Number": 562,
-      "Hindi": "पैर",
+      "Japanese": "レッグ",
       "in English": "leg"
     },
     {
       "Number": 563,
-      "Hindi": "व्यायाम",
+      "Japanese": "エクササイズ",
       "in English": "exercise"
     },
     {
       "Number": 564,
-      "Hindi": "दीवार",
+      "Japanese": "壁",
       "in English": "wall"
     },
     {
       "Number": 565,
-      "Hindi": "पकड़",
+      "Japanese": "キャッチ",
       "in English": "catch"
     },
     {
       "Number": 566,
-      "Hindi": "माउंट",
+      "Japanese": "マウント",
       "in English": "mount"
     },
     {
       "Number": 567,
-      "Hindi": "इच्छा",
+      "Japanese": "希望",
       "in English": "wish"
     },
     {
       "Number": 568,
-      "Hindi": "आसमान",
+      "Japanese": "空",
       "in English": "sky"
     },
     {
       "Number": 569,
-      "Hindi": "बोर्ड",
+      "Japanese": "ボード",
       "in English": "board"
     },
     {
       "Number": 570,
-      "Hindi": "हर्ष",
+      "Japanese": "喜び",
       "in English": "joy"
     },
     {
       "Number": 571,
-      "Hindi": "सर्दियों",
+      "Japanese": "冬",
       "in English": "winter"
     },
     {
       "Number": 572,
-      "Hindi": "शनि",
+      "Japanese": "土",
       "in English": "sat"
     },
     {
       "Number": 573,
-      "Hindi": "लिखित",
+      "Japanese": "書かれた",
       "in English": "written"
     },
     {
       "Number": 574,
-      "Hindi": "जंगली",
+      "Japanese": "ワイルド",
       "in English": "wild"
     },
     {
       "Number": 575,
-      "Hindi": "साधन",
+      "Japanese": "楽器",
       "in English": "instrument"
     },
     {
       "Number": 576,
-      "Hindi": "रखा",
+      "Japanese": "保管",
       "in English": "kept"
     },
     {
       "Number": 577,
-      "Hindi": "कांच",
+      "Japanese": "ガラス",
       "in English": "glass"
     },
     {
       "Number": 578,
-      "Hindi": "घास",
+      "Japanese": "草",
       "in English": "grass"
     },
     {
       "Number": 579,
-      "Hindi": "गाय",
+      "Japanese": "乳牛",
       "in English": "cow"
     },
     {
       "Number": 580,
-      "Hindi": "काम",
+      "Japanese": "仕事",
       "in English": "job"
     },
     {
       "Number": 581,
-      "Hindi": "बढ़त",
+      "Japanese": "エッジ",
       "in English": "edge"
     },
     {
       "Number": 582,
-      "Hindi": "साइन",
+      "Japanese": "看板",
       "in English": "sign"
     },
     {
       "Number": 583,
-      "Hindi": "यात्रा",
+      "Japanese": "訪問",
       "in English": "visit"
     },
     {
       "Number": 584,
-      "Hindi": "अतीत",
+      "Japanese": "過去",
       "in English": "past"
     },
     {
       "Number": 585,
-      "Hindi": "मुलायम",
+      "Japanese": "ソフト",
       "in English": "soft"
     },
     {
       "Number": 586,
-      "Hindi": "मज़ा",
+      "Japanese": "楽しい",
       "in English": "fun"
     },
     {
       "Number": 587,
-      "Hindi": "उज्ज्वल",
+      "Japanese": "明るい",
       "in English": "bright"
     },
     {
       "Number": 588,
-      "Hindi": "गैस",
+      "Japanese": "ガス",
       "in English": "gas"
     },
     {
       "Number": 589,
-      "Hindi": "मौसम",
+      "Japanese": "天候",
       "in English": "weather"
     },
     {
       "Number": 590,
-      "Hindi": "माह",
+      "Japanese": "月",
       "in English": "month"
     },
     {
       "Number": 591,
-      "Hindi": "लाख",
+      "Japanese": "万",
       "in English": "million"
     },
     {
       "Number": 592,
-      "Hindi": "भालू",
+      "Japanese": "クマ",
       "in English": "bear"
     },
     {
       "Number": 593,
-      "Hindi": "खत्म",
+      "Japanese": "仕上げ",
       "in English": "finish"
     },
     {
       "Number": 594,
-      "Hindi": "खुश",
+      "Japanese": "幸せな",
       "in English": "happy"
     },
     {
       "Number": 595,
-      "Hindi": "आशा",
+      "Japanese": "希望",
       "in English": "hope"
     },
     {
       "Number": 596,
-      "Hindi": "फूल",
+      "Japanese": "花",
       "in English": "flower"
     },
     {
       "Number": 597,
-      "Hindi": "कपड़े",
+      "Japanese": "衣服を着せる",
       "in English": "clothe"
     },
     {
       "Number": 598,
-      "Hindi": "अजीब",
+      "Japanese": "奇妙な",
       "in English": "strange"
     },
     {
       "Number": 599,
-      "Hindi": "चला गया",
+      "Japanese": "いなくなった",
       "in English": "gone"
     },
     {
       "Number": 600,
-      "Hindi": "व्यापार",
+      "Japanese": "トレード",
       "in English": "trade"
     },
     {
       "Number": 601,
-      "Hindi": "राग",
+      "Japanese": "メロディー",
       "in English": "melody"
     },
     {
       "Number": 602,
-      "Hindi": "यात्रा",
+      "Japanese": "?",
       "in English": "trip"
     },
     {
       "Number": 603,
-      "Hindi": "कार्यालय",
+      "Japanese": "オフィス",
       "in English": "office"
     },
     {
       "Number": 604,
-      "Hindi": "प्राप्त करना",
+      "Japanese": "受け取る",
       "in English": "receive"
     },
     {
       "Number": 605,
-      "Hindi": "पंक्ति",
+      "Japanese": "行",
       "in English": "row"
     },
     {
       "Number": 606,
-      "Hindi": "मुंह",
+      "Japanese": "口",
       "in English": "mouth"
     },
     {
       "Number": 607,
-      "Hindi": "सटीक",
+      "Japanese": "正確な",
       "in English": "exact"
     },
     {
       "Number": 608,
-      "Hindi": "प्रतीक",
+      "Japanese": "シンボル",
       "in English": "symbol"
     },
     {
       "Number": 609,
-      "Hindi": "मरना",
+      "Japanese": "死ぬ",
       "in English": "die"
     },
     {
       "Number": 610,
-      "Hindi": "कम से कम",
+      "Japanese": "最低",
       "in English": "least"
     },
     {
       "Number": 611,
-      "Hindi": "मुसीबत",
+      "Japanese": "トラブル",
       "in English": "trouble"
     },
     {
       "Number": 612,
-      "Hindi": "चिल्लाओ",
+      "Japanese": "シャウト",
       "in English": "shout"
     },
     {
       "Number": 613,
-      "Hindi": "सिवाय",
+      "Japanese": "ただし",
       "in English": "except"
     },
     {
       "Number": 614,
-      "Hindi": "लिखा",
+      "Japanese": "書いた",
       "in English": "wrote"
     },
     {
       "Number": 615,
-      "Hindi": "बीज",
+      "Japanese": "シード",
       "in English": "seed"
     },
     {
       "Number": 616,
-      "Hindi": "स्वर",
+      "Japanese": "トーン",
       "in English": "tone"
     },
     {
       "Number": 617,
-      "Hindi": "शामिल होने",
+      "Japanese": "参加する",
       "in English": "join"
     },
     {
       "Number": 618,
-      "Hindi": "सुझाव है",
+      "Japanese": "提案する",
       "in English": "suggest"
     },
     {
       "Number": 619,
-      "Hindi": "साफ",
+      "Japanese": "クリーン",
       "in English": "clean"
     },
     {
       "Number": 620,
-      "Hindi": "तोड़",
+      "Japanese": "ブレーク",
       "in English": "break"
     },
     {
       "Number": 621,
-      "Hindi": "महिला",
+      "Japanese": "女性",
       "in English": "lady"
     },
     {
       "Number": 622,
-      "Hindi": "यार्ड",
+      "Japanese": "庭",
       "in English": "yard"
     },
     {
       "Number": 623,
-      "Hindi": "वृद्धि",
+      "Japanese": "上昇",
       "in English": "rise"
     },
     {
       "Number": 624,
-      "Hindi": "बुरा",
+      "Japanese": "悪い",
       "in English": "bad"
     },
     {
       "Number": 625,
-      "Hindi": "झटका",
+      "Japanese": "打撃",
       "in English": "blow"
     },
     {
       "Number": 626,
-      "Hindi": "तेल",
+      "Japanese": "オイル",
       "in English": "oil"
     },
     {
       "Number": 627,
-      "Hindi": "खून",
+      "Japanese": "血",
       "in English": "blood"
     },
     {
       "Number": 628,
-      "Hindi": "स्पर्श",
+      "Japanese": "触れる",
       "in English": "touch"
     },
     {
       "Number": 629,
-      "Hindi": "बढ़ी",
+      "Japanese": "成長した",
       "in English": "grew"
     },
     {
       "Number": 630,
-      "Hindi": "प्रतिशत",
+      "Japanese": "セント",
       "in English": "cent"
     },
     {
       "Number": 631,
-      "Hindi": "मिश्रण",
+      "Japanese": "ミックス",
       "in English": "mix"
     },
     {
       "Number": 632,
-      "Hindi": "टीम",
+      "Japanese": "チーム",
       "in English": "team"
     },
     {
       "Number": 633,
-      "Hindi": "तार",
+      "Japanese": "ワイヤー",
       "in English": "wire"
     },
     {
       "Number": 634,
-      "Hindi": "लागत",
+      "Japanese": "コスト",
       "in English": "cost"
     },
     {
       "Number": 635,
-      "Hindi": "खोया",
+      "Japanese": "失われた",
       "in English": "lost"
     },
     {
       "Number": 636,
-      "Hindi": "ब्राउन",
+      "Japanese": "ブラウン",
       "in English": "brown"
     },
     {
       "Number": 637,
-      "Hindi": "पहनना",
+      "Japanese": "着用",
       "in English": "wear"
     },
     {
       "Number": 638,
-      "Hindi": "बगीचा",
+      "Japanese": "庭",
       "in English": "garden"
     },
     {
       "Number": 639,
-      "Hindi": "बराबर",
+      "Japanese": "等しい",
       "in English": "equal"
     },
     {
       "Number": 640,
-      "Hindi": "भेजा",
+      "Japanese": "送信された",
       "in English": "sent"
     },
     {
       "Number": 641,
-      "Hindi": "चयन",
+      "Japanese": "選ぶ",
       "in English": "choose"
     },
     {
       "Number": 642,
-      "Hindi": "गिर गया",
+      "Japanese": "落ちた",
       "in English": "fell"
     },
     {
       "Number": 643,
-      "Hindi": "फिट",
+      "Japanese": "フィット",
       "in English": "fit"
     },
     {
       "Number": 644,
-      "Hindi": "प्रवाह",
+      "Japanese": "流れ",
       "in English": "flow"
     },
     {
       "Number": 645,
-      "Hindi": "मेला",
+      "Japanese": "フェア",
       "in English": "fair"
     },
     {
       "Number": 646,
-      "Hindi": "बैंक",
+      "Japanese": "銀行",
       "in English": "bank"
     },
     {
       "Number": 647,
-      "Hindi": "इकट्ठा",
+      "Japanese": "集める",
       "in English": "collect"
     },
     {
       "Number": 648,
-      "Hindi": "बचा",
+      "Japanese": "保存",
       "in English": "save"
     },
     {
       "Number": 649,
-      "Hindi": "नियंत्रण",
+      "Japanese": "コントロール",
       "in English": "control"
     },
     {
       "Number": 650,
-      "Hindi": "दशमलव",
+      "Japanese": "進",
       "in English": "decimal"
     },
     {
       "Number": 651,
-      "Hindi": "कान",
+      "Japanese": "耳",
       "in English": "ear"
     },
     {
       "Number": 652,
-      "Hindi": "बाकी",
+      "Japanese": "ほかに",
       "in English": "else"
     },
     {
       "Number": 653,
-      "Hindi": "काफी",
+      "Japanese": "かなり",
       "in English": "quite"
     },
     {
       "Number": 654,
-      "Hindi": "तोड़ दिया",
+      "Japanese": "壊した",
       "in English": "broke"
     },
     {
       "Number": 655,
-      "Hindi": "मामले",
+      "Japanese": "ケース",
       "in English": "case"
     },
     {
       "Number": 656,
-      "Hindi": "बीच",
+      "Japanese": "ミドル",
       "in English": "middle"
     },
     {
       "Number": 657,
-      "Hindi": "हत्या",
+      "Japanese": "殺す",
       "in English": "kill"
     },
     {
       "Number": 658,
-      "Hindi": "बेटा",
+      "Japanese": "息子",
       "in English": "son"
     },
     {
       "Number": 659,
-      "Hindi": "झील",
+      "Japanese": "湖",
       "in English": "lake"
     },
     {
       "Number": 660,
-      "Hindi": "पल",
+      "Japanese": "瞬間",
       "in English": "moment"
     },
     {
       "Number": 661,
-      "Hindi": "पैमाने",
+      "Japanese": "スケール",
       "in English": "scale"
     },
     {
       "Number": 662,
-      "Hindi": "जोर",
+      "Japanese": "騒? しい",
       "in English": "loud"
     },
     {
       "Number": 663,
-      "Hindi": "वसंत",
+      "Japanese": "春",
       "in English": "spring"
     },
     {
       "Number": 664,
-      "Hindi": "निरीक्षण",
+      "Japanese": "観察する",
       "in English": "observe"
     },
     {
       "Number": 665,
-      "Hindi": "बच्चे",
+      "Japanese": "子ども",
       "in English": "child"
     },
     {
       "Number": 666,
-      "Hindi": "सीधे",
+      "Japanese": "ストレート",
       "in English": "straight"
     },
     {
       "Number": 667,
-      "Hindi": "व्यंजन",
+      "Japanese": "子音",
       "in English": "consonant"
     },
     {
       "Number": 668,
-      "Hindi": "राष्ट्र",
+      "Japanese": "国家",
       "in English": "nation"
     },
     {
       "Number": 669,
-      "Hindi": "शब्दकोश",
+      "Japanese": "辞書",
       "in English": "dictionary"
     },
     {
       "Number": 670,
-      "Hindi": "दूध",
+      "Japanese": "ミルク",
       "in English": "milk"
     },
     {
       "Number": 671,
-      "Hindi": "गति",
+      "Japanese": "スピード",
       "in English": "speed"
     },
     {
       "Number": 672,
-      "Hindi": "विधि",
+      "Japanese": "方法",
       "in English": "method"
     },
     {
       "Number": 673,
-      "Hindi": "अंग",
+      "Japanese": "オルガン",
       "in English": "organ"
     },
     {
       "Number": 674,
-      "Hindi": "भुगतान",
+      "Japanese": "支払い",
       "in English": "pay"
     },
     {
       "Number": 675,
-      "Hindi": "उम्र",
+      "Japanese": "年齢",
       "in English": "age"
     },
     {
       "Number": 676,
-      "Hindi": "अनुभाग",
+      "Japanese": "セクション",
       "in English": "section"
     },
     {
       "Number": 677,
-      "Hindi": "पोशाक",
+      "Japanese": "ドレス",
       "in English": "dress"
     },
     {
       "Number": 678,
-      "Hindi": "बादल",
+      "Japanese": "クラウド",
       "in English": "cloud"
     },
     {
       "Number": 679,
-      "Hindi": "आश्चर्य",
+      "Japanese": "驚き",
       "in English": "surprise"
     },
     {
       "Number": 680,
-      "Hindi": "शांत",
+      "Japanese": "静かな",
       "in English": "quiet"
     },
     {
       "Number": 681,
-      "Hindi": "पत्थर",
+      "Japanese": "石",
       "in English": "stone"
     },
     {
       "Number": 682,
-      "Hindi": "छोटे",
+      "Japanese": "小さな",
       "in English": "tiny"
     },
     {
       "Number": 683,
-      "Hindi": "चढ़ाई",
+      "Japanese": "登る",
       "in English": "climb"
     },
     {
       "Number": 684,
-      "Hindi": "शीतल",
+      "Japanese": "涼しい",
       "in English": "cool"
     },
     {
       "Number": 685,
-      "Hindi": "डिजाइन",
+      "Japanese": "デザイン",
       "in English": "design"
     },
     {
       "Number": 686,
-      "Hindi": "गरीब",
+      "Japanese": "貧しい",
       "in English": "poor"
     },
     {
       "Number": 687,
-      "Hindi": "बहुत",
+      "Japanese": "たくさん",
       "in English": "lot"
     },
     {
       "Number": 688,
-      "Hindi": "प्रयोग",
+      "Japanese": "実験",
       "in English": "experiment"
     },
     {
       "Number": 689,
-      "Hindi": "तल",
+      "Japanese": "ボトム",
       "in English": "bottom"
     },
     {
       "Number": 690,
-      "Hindi": "कुंजी",
+      "Japanese": "キー",
       "in English": "key"
     },
     {
       "Number": 691,
-      "Hindi": "लोहा",
+      "Japanese": "鉄",
       "in English": "iron"
     },
     {
       "Number": 692,
-      "Hindi": "एकल",
+      "Japanese": "シングル",
       "in English": "single"
     },
     {
       "Number": 693,
-      "Hindi": "छड़ी",
+      "Japanese": "スティック",
       "in English": "stick"
     },
     {
       "Number": 694,
-      "Hindi": "फ्लैट",
+      "Japanese": "フラット",
       "in English": "flat"
     },
     {
       "Number": 695,
-      "Hindi": "बीस",
+      "Japanese": "個の",
       "in English": "twenty"
     },
     {
       "Number": 696,
-      "Hindi": "त्वचा",
+      "Japanese": "スキン",
       "in English": "skin"
     },
     {
       "Number": 697,
-      "Hindi": "मुस्कान",
+      "Japanese": "笑顔",
       "in English": "smile"
     },
     {
       "Number": 698,
-      "Hindi": "क्रीज",
+      "Japanese": "しわ",
       "in English": "crease"
     },
     {
       "Number": 699,
-      "Hindi": "छेद",
+      "Japanese": "穴",
       "in English": "hole"
     },
     {
       "Number": 700,
-      "Hindi": "कूद",
+      "Japanese": "ジャンプ",
       "in English": "jump"
     },
     {
       "Number": 701,
-      "Hindi": "बच्चे",
+      "Japanese": "赤ちゃん",
       "in English": "baby"
     },
     {
       "Number": 702,
-      "Hindi": "आठ",
+      "Japanese": "人",
       "in English": "eight"
     },
     {
       "Number": 703,
-      "Hindi": "गांव",
+      "Japanese": "村",
       "in English": "village"
     },
     {
       "Number": 704,
-      "Hindi": "मिलो",
+      "Japanese": "大会",
       "in English": "meet"
     },
     {
       "Number": 705,
-      "Hindi": "जड़",
+      "Japanese": "ルート",
       "in English": "root"
     },
     {
       "Number": 706,
-      "Hindi": "खरीद",
+      "Japanese": "買う",
       "in English": "buy"
     },
     {
       "Number": 707,
-      "Hindi": "उठाना",
+      "Japanese": "上げる",
       "in English": "raise"
     },
     {
       "Number": 708,
-      "Hindi": "हल",
+      "Japanese": "解く",
       "in English": "solve"
     },
     {
       "Number": 709,
-      "Hindi": "धातु",
+      "Japanese": "金属",
       "in English": "metal"
     },
     {
       "Number": 710,
-      "Hindi": "चाहे",
+      "Japanese": "かどうか",
       "in English": "whether"
     },
     {
       "Number": 711,
-      "Hindi": "धक्का",
+      "Japanese": "プッシュ",
       "in English": "push"
     },
     {
       "Number": 712,
-      "Hindi": "सात",
+      "Japanese": "7",
       "in English": "seven"
     },
     {
       "Number": 713,
-      "Hindi": "पैरा",
+      "Japanese": "パラグラフ",
       "in English": "paragraph"
     },
     {
       "Number": 714,
-      "Hindi": "तीसरे",
+      "Japanese": "第3",
       "in English": "third"
     },
     {
       "Number": 715,
-      "Hindi": "करेगा",
+      "Japanese": "しなければならない",
       "in English": "shall"
     },
     {
       "Number": 716,
-      "Hindi": "आयोजित",
+      "Japanese": "ハンドヘルド",
       "in English": "held"
     },
     {
       "Number": 717,
-      "Hindi": "बाल",
+      "Japanese": "髪",
       "in English": "hair"
     },
     {
       "Number": 718,
-      "Hindi": "वर्णन",
+      "Japanese": "説明する",
       "in English": "describe"
     },
     {
       "Number": 719,
-      "Hindi": "कुक",
+      "Japanese": "料理人",
       "in English": "cook"
     },
     {
       "Number": 720,
-      "Hindi": "मंजिल",
+      "Japanese": "床",
       "in English": "floor"
     },
     {
       "Number": 721,
-      "Hindi": "भी",
+      "Japanese": "どちら",
       "in English": "either"
     },
     {
       "Number": 722,
-      "Hindi": "परिणाम",
+      "Japanese": "結果",
       "in English": "result"
     },
     {
       "Number": 723,
-      "Hindi": "जला",
+      "Japanese": "燃やす",
       "in English": "burn"
     },
     {
       "Number": 724,
-      "Hindi": "पहाड़ी",
+      "Japanese": "丘",
       "in English": "hill"
     },
     {
       "Number": 725,
-      "Hindi": "सुरक्षित",
+      "Japanese": "金庫",
       "in English": "safe"
     },
     {
       "Number": 726,
-      "Hindi": "बिल्ली",
+      "Japanese": "猫",
       "in English": "cat"
     },
     {
       "Number": 727,
-      "Hindi": "सदी",
+      "Japanese": "世紀",
       "in English": "century"
     },
     {
       "Number": 728,
-      "Hindi": "विचार करना",
+      "Japanese": "考える",
       "in English": "consider"
     },
     {
       "Number": 729,
-      "Hindi": "प्रकार",
+      "Japanese": "タイプ",
       "in English": "type"
     },
     {
       "Number": 730,
-      "Hindi": "कानून",
+      "Japanese": "法則",
       "in English": "law"
     },
     {
       "Number": 731,
-      "Hindi": "बिट",
+      "Japanese": "ビット",
       "in English": "bit"
     },
     {
       "Number": 732,
-      "Hindi": "तट",
+      "Japanese": "海岸",
       "in English": "coast"
     },
     {
       "Number": 733,
-      "Hindi": "नकल",
+      "Japanese": "コピー",
       "in English": "copy"
     },
     {
       "Number": 734,
-      "Hindi": "वाक्यांश",
+      "Japanese": "フレーズ",
       "in English": "phrase"
     },
     {
       "Number": 735,
-      "Hindi": "चुप",
+      "Japanese": "サイレント",
       "in English": "silent"
     },
     {
       "Number": 736,
-      "Hindi": "लंबा",
+      "Japanese": "背の高い",
       "in English": "tall"
     },
     {
       "Number": 737,
-      "Hindi": "रेत",
+      "Japanese": "砂",
       "in English": "sand"
     },
     {
       "Number": 738,
-      "Hindi": "मिट्टी",
+      "Japanese": "土壌",
       "in English": "soil"
     },
     {
       "Number": 739,
-      "Hindi": "रोल",
+      "Japanese": "ロール",
       "in English": "roll"
     },
     {
       "Number": 740,
-      "Hindi": "तापमान",
+      "Japanese": "温度",
       "in English": "temperature"
     },
     {
       "Number": 741,
-      "Hindi": "उंगली",
+      "Japanese": "指",
       "in English": "finger"
     },
     {
       "Number": 742,
-      "Hindi": "उद्योग",
+      "Japanese": "業界",
       "in English": "industry"
     },
     {
       "Number": 743,
-      "Hindi": "मूल्य",
+      "Japanese": "値",
       "in English": "value"
     },
     {
       "Number": 744,
-      "Hindi": "लड़ाई",
+      "Japanese": "戦い",
       "in English": "fight"
     },
     {
       "Number": 745,
-      "Hindi": "झूठ",
+      "Japanese": "うそ",
       "in English": "lie"
     },
     {
       "Number": 746,
-      "Hindi": "हरा",
+      "Japanese": "ビート",
       "in English": "beat"
     },
     {
       "Number": 747,
-      "Hindi": "उत्तेजित",
+      "Japanese": "エキサイト",
       "in English": "excite"
     },
     {
       "Number": 748,
-      "Hindi": "प्राकृतिक",
+      "Japanese": "ナチュラル",
       "in English": "natural"
     },
     {
       "Number": 749,
-      "Hindi": "देखें",
+      "Japanese": "ビュー",
       "in English": "view"
     },
     {
       "Number": 750,
-      "Hindi": "भावना",
+      "Japanese": "感覚",
       "in English": "sense"
     },
     {
       "Number": 751,
-      "Hindi": "राजधानी",
+      "Japanese": "首都",
       "in English": "capital"
     },
     {
       "Number": 752,
-      "Hindi": "नहीं होगा",
+      "Japanese": "ないでしょう",
       "in English": "won’t"
     },
     {
       "Number": 753,
-      "Hindi": "कुर्सी",
+      "Japanese": "? 子",
       "in English": "chair"
     },
     {
       "Number": 754,
-      "Hindi": "खतरे",
+      "Japanese": "危険",
       "in English": "danger"
     },
     {
       "Number": 755,
-      "Hindi": "फल",
+      "Japanese": "フルーツ",
       "in English": "fruit"
     },
     {
       "Number": 756,
-      "Hindi": "अमीर",
+      "Japanese": "金持ち",
       "in English": "rich"
     },
     {
       "Number": 757,
-      "Hindi": "मोटी",
+      "Japanese": "厚い",
       "in English": "thick"
     },
     {
       "Number": 758,
-      "Hindi": "सैनिक",
+      "Japanese": "? ?士",
       "in English": "soldier"
     },
     {
       "Number": 759,
-      "Hindi": "प्रक्रिया",
+      "Japanese": "プロセス",
       "in English": "process"
     },
     {
       "Number": 760,
-      "Hindi": "संचालित",
+      "Japanese": "操作する",
       "in English": "operate"
     },
     {
       "Number": 761,
-      "Hindi": "अभ्यास",
+      "Japanese": "練習",
       "in English": "practice"
     },
     {
       "Number": 762,
-      "Hindi": "अलग",
+      "Japanese": "別",
       "in English": "separate"
     },
     {
       "Number": 763,
-      "Hindi": "मुश्किल",
+      "Japanese": "難しい",
       "in English": "difficult"
     },
     {
       "Number": 764,
-      "Hindi": "चिकित्सक",
+      "Japanese": "医師",
       "in English": "doctor"
     },
     {
       "Number": 765,
-      "Hindi": "कृपया",
+      "Japanese": "どうぞ",
       "in English": "please"
     },
     {
       "Number": 766,
-      "Hindi": "रक्षा",
+      "Japanese": "守る",
       "in English": "protect"
     },
     {
       "Number": 767,
-      "Hindi": "दोपहर",
+      "Japanese": "正午",
       "in English": "noon"
     },
     {
       "Number": 768,
-      "Hindi": "फसल",
+      "Japanese": "作物",
       "in English": "crop"
     },
     {
       "Number": 769,
-      "Hindi": "आधुनिक",
+      "Japanese": "モダン",
       "in English": "modern"
     },
     {
       "Number": 770,
-      "Hindi": "तत्व",
+      "Japanese": "要素",
       "in English": "element"
     },
     {
       "Number": 771,
-      "Hindi": "मारना",
+      "Japanese": "ヒット",
       "in English": "hit"
     },
     {
       "Number": 772,
-      "Hindi": "छात्र",
+      "Japanese": "学生",
       "in English": "student"
     },
     {
       "Number": 773,
-      "Hindi": "कोने",
+      "Japanese": "コーナー",
       "in English": "corner"
     },
     {
       "Number": 774,
-      "Hindi": "पार्टी",
+      "Japanese": "パーティー",
       "in English": "party"
     },
     {
       "Number": 775,
-      "Hindi": "आपूर्ति",
+      "Japanese": "サプライ",
       "in English": "supply"
     },
     {
       "Number": 776,
-      "Hindi": "जिसका",
+      "Japanese": "その",
       "in English": "whose"
     },
     {
       "Number": 777,
-      "Hindi": "स्थिति जानें",
+      "Japanese": "検索する",
       "in English": "locate"
     },
     {
       "Number": 778,
-      "Hindi": "अंगूठी",
+      "Japanese": "リング",
       "in English": "ring"
     },
     {
       "Number": 779,
-      "Hindi": "चरित्र",
+      "Japanese": "キャラクター",
       "in English": "character"
     },
     {
       "Number": 780,
-      "Hindi": "कीट",
+      "Japanese": "昆虫",
       "in English": "insect"
     },
     {
       "Number": 781,
-      "Hindi": "पकड़ा",
+      "Japanese": "キャッチ",
       "in English": "caught"
     },
     {
       "Number": 782,
-      "Hindi": "अवधि",
+      "Japanese": "期間",
       "in English": "period"
     },
     {
       "Number": 783,
-      "Hindi": "संकेत मिलता है",
+      "Japanese": "示す",
       "in English": "indicate"
     },
     {
       "Number": 784,
-      "Hindi": "रेडियो",
+      "Japanese": "ラジオ",
       "in English": "radio"
     },
     {
       "Number": 785,
-      "Hindi": "बात",
+      "Japanese": "スポーク",
       "in English": "spoke"
     },
     {
       "Number": 786,
-      "Hindi": "एटम",
+      "Japanese": "アトム",
       "in English": "atom"
     },
     {
       "Number": 787,
-      "Hindi": "मानव",
+      "Japanese": "人間",
       "in English": "human"
     },
     {
       "Number": 788,
-      "Hindi": "इतिहास",
+      "Japanese": "歴史",
       "in English": "history"
     },
     {
       "Number": 789,
-      "Hindi": "प्रभाव",
+      "Japanese": "効果",
       "in English": "effect"
     },
     {
       "Number": 790,
-      "Hindi": "बिजली",
+      "Japanese": "エレクトリック",
       "in English": "electric"
     },
     {
       "Number": 791,
-      "Hindi": "उम्मीद",
+      "Japanese": "期? する",
       "in English": "expect"
     },
     {
       "Number": 792,
-      "Hindi": "हड्डी",
+      "Japanese": "骨",
       "in English": "bone"
     },
     {
       "Number": 793,
-      "Hindi": "रेल",
+      "Japanese": "レール",
       "in English": "rail"
     },
     {
       "Number": 794,
-      "Hindi": "कल्पना",
+      "Japanese": "想像する",
       "in English": "imagine"
     },
     {
       "Number": 795,
-      "Hindi": "प्रदान",
+      "Japanese": "提供する",
       "in English": "provide"
     },
     {
       "Number": 796,
-      "Hindi": "सहमत",
+      "Japanese": "同意する",
       "in English": "agree"
     },
     {
       "Number": 797,
-      "Hindi": "इस प्रकार",
+      "Japanese": "このようにして",
       "in English": "thus"
     },
     {
       "Number": 798,
-      "Hindi": "कोमल",
+      "Japanese": "優しい",
       "in English": "gentle"
     },
     {
       "Number": 799,
-      "Hindi": "महिला",
+      "Japanese": "女",
       "in English": "woman"
     },
     {
       "Number": 800,
-      "Hindi": "कप्तान",
+      "Japanese": "キャプテン",
       "in English": "captain"
     },
     {
       "Number": 801,
-      "Hindi": "अनुमान",
+      "Japanese": "推測",
       "in English": "guess"
     },
     {
       "Number": 802,
-      "Hindi": "आवश्यक",
+      "Japanese": "? 要",
       "in English": "necessary"
     },
     {
       "Number": 803,
-      "Hindi": "तेज़",
+      "Japanese": "シャープ",
       "in English": "sharp"
     },
     {
       "Number": 804,
-      "Hindi": "पंख",
+      "Japanese": "ウイング",
       "in English": "wing"
     },
     {
       "Number": 805,
-      "Hindi": "बना",
+      "Japanese": "作る",
       "in English": "create"
     },
     {
       "Number": 806,
-      "Hindi": "पड़ोसी",
+      "Japanese": "隣人",
       "in English": "neighbor"
     },
     {
       "Number": 807,
-      "Hindi": "धोने",
+      "Japanese": "ウォッシュ",
       "in English": "wash"
     },
     {
       "Number": 808,
-      "Hindi": "बल्ला",
+      "Japanese": "バット",
       "in English": "bat"
     },
     {
       "Number": 809,
-      "Hindi": "बल्कि",
+      "Japanese": "むしろ",
       "in English": "rather"
     },
     {
       "Number": 810,
-      "Hindi": "भीड़",
+      "Japanese": "群衆",
       "in English": "crowd"
     },
     {
       "Number": 811,
-      "Hindi": "मकई",
+      "Japanese": "トウモロコシ",
       "in English": "corn"
     },
     {
       "Number": 812,
-      "Hindi": "तुलना",
+      "Japanese": "比較する",
       "in English": "compare"
     },
     {
       "Number": 813,
-      "Hindi": "कविता",
+      "Japanese": "詩",
       "in English": "poem"
     },
     {
       "Number": 814,
-      "Hindi": "स्ट्रिंग",
+      "Japanese": "文字列",
       "in English": "string"
     },
     {
       "Number": 815,
-      "Hindi": "बेल",
+      "Japanese": "鐘",
       "in English": "bell"
     },
     {
       "Number": 816,
-      "Hindi": "निर्भर",
+      "Japanese": "決まる",
       "in English": "depend"
     },
     {
       "Number": 817,
-      "Hindi": "मांस",
+      "Japanese": "肉",
       "in English": "meat"
     },
     {
       "Number": 818,
-      "Hindi": "रगड़",
+      "Japanese": "こする",
       "in English": "rub"
     },
     {
       "Number": 819,
-      "Hindi": "ट्यूब",
+      "Japanese": "チューブ",
       "in English": "tube"
     },
     {
       "Number": 820,
-      "Hindi": "प्रसिद्ध",
+      "Japanese": "有名な",
       "in English": "famous"
     },
     {
       "Number": 921,
-      "Hindi": "डॉलर",
+      "Japanese": "ドル",
       "in English": "dollar"
     },
     {
       "Number": 822,
-      "Hindi": "धारा",
+      "Japanese": "ストリーム",
       "in English": "stream"
     },
     {
       "Number": 823,
-      "Hindi": "डर",
+      "Japanese": "恐怖",
       "in English": "fear"
     },
     {
       "Number": 284,
-      "Hindi": "दृष्टि",
+      "Japanese": "視力",
       "in English": "sight"
     },
     {
       "Number": 825,
-      "Hindi": "पतली",
+      "Japanese": "薄い",
       "in English": "thin"
     },
     {
       "Number": 826,
-      "Hindi": "त्रिकोण",
+      "Japanese": "三角形",
       "in English": "triangle"
     },
     {
       "Number": 827,
-      "Hindi": "ग्रह",
+      "Japanese": "惑星",
       "in English": "planet"
     },
     {
       "Number": 828,
-      "Hindi": "जल्दी करो",
+      "Japanese": "急ぐ",
       "in English": "hurry"
     },
     {
       "Number": 829,
-      "Hindi": "प्रमुख",
+      "Japanese": "チーフ",
       "in English": "chief"
     },
     {
       "Number": 830,
-      "Hindi": "कॉलोनी",
+      "Japanese": "コロニー",
       "in English": "colony"
     },
     {
       "Number": 831,
-      "Hindi": "घड़ी",
+      "Japanese": "クロック",
       "in English": "clock"
     },
     {
       "Number": 832,
-      "Hindi": "मेरा",
+      "Japanese": "地雷",
       "in English": "mine"
     },
     {
       "Number": 833,
-      "Hindi": "टाई",
+      "Japanese": "ネクタイ",
       "in English": "tie"
     },
     {
       "Number": 834,
-      "Hindi": "दर्ज",
+      "Japanese": "? ?力する",
       "in English": "enter"
     },
     {
       "Number": 835,
-      "Hindi": "प्रमुख",
+      "Japanese": "主要な",
       "in English": "major"
     },
     {
       "Number": 836,
-      "Hindi": "ताजा",
+      "Japanese": "新鮮な",
       "in English": "fresh"
     },
     {
       "Number": 837,
-      "Hindi": "खोज",
+      "Japanese": "検索",
       "in English": "search"
     },
     {
       "Number": 838,
-      "Hindi": "भेजें",
+      "Japanese": "送信",
       "in English": "send"
     },
     {
       "Number": 839,
-      "Hindi": "पीले",
+      "Japanese": "黄色",
       "in English": "yellow"
     },
     {
       "Number": 840,
-      "Hindi": "बंदूक",
+      "Japanese": "銃",
       "in English": "gun"
     },
     {
       "Number": 841,
-      "Hindi": "की अनुमति",
+      "Japanese": "許可する",
       "in English": "allow"
     },
     {
       "Number": 842,
-      "Hindi": "प्रिंट",
+      "Japanese": "印刷",
       "in English": "print"
     },
     {
       "Number": 843,
-      "Hindi": "मृत",
+      "Japanese": "死んだ",
       "in English": "dead"
     },
     {
       "Number": 844,
-      "Hindi": "हाजिर",
+      "Japanese": "スポット",
       "in English": "spot"
     },
     {
       "Number": 845,
-      "Hindi": "रेगिस्तान",
+      "Japanese": "砂漠",
       "in English": "desert"
     },
     {
       "Number": 846,
-      "Hindi": "सूट",
+      "Japanese": "スーツ",
       "in English": "suit"
     },
     {
       "Number": 847,
-      "Hindi": "वर्तमान",
+      "Japanese": "現在の",
       "in English": "current"
     },
     {
       "Number": 848,
-      "Hindi": "लिफ्ट",
+      "Japanese": "リフト",
       "in English": "lift"
     },
     {
       "Number": 840,
-      "Hindi": "गुलाब",
+      "Japanese": "ローズ",
       "in English": "rose"
     },
     {
       "Number": 850,
-      "Hindi": "पहुंचना",
+      "Japanese": "届く",
       "in English": "arrive"
     },
     {
       "Number": 851,
-      "Hindi": "मास्टर",
+      "Japanese": "マスター",
       "in English": "master"
     },
     {
       "Number": 852,
-      "Hindi": "ट्रैक",
+      "Japanese": "トラック",
       "in English": "track"
     },
     {
       "Number": 853,
-      "Hindi": "माता पिता",
+      "Japanese": "親",
       "in English": "parent"
     },
     {
       "Number": 854,
-      "Hindi": "किनारे",
+      "Japanese": "海岸",
       "in English": "shore"
     },
     {
       "Number": 855,
-      "Hindi": "विभाजन",
+      "Japanese": "分裂",
       "in English": "division"
     },
     {
       "Number": 856,
-      "Hindi": "चादर",
+      "Japanese": "シート",
       "in English": "sheet"
     },
     {
       "Number": 857,
-      "Hindi": "पदार्थ",
+      "Japanese": "物質",
       "in English": "substance"
     },
     {
       "Number": 858,
-      "Hindi": "एहसान",
+      "Japanese": "好む",
       "in English": "favor"
     },
     {
       "Number": 859,
-      "Hindi": "कनेक्ट",
+      "Japanese": "接続する",
       "in English": "connect"
     },
     {
       "Number": 860,
-      "Hindi": "पोस्ट",
+      "Japanese": "ポスト",
       "in English": "post"
     },
     {
       "Number": 861,
-      "Hindi": "खर्च",
+      "Japanese": "過ごす",
       "in English": "spend"
     },
     {
       "Number": 862,
-      "Hindi": "राग",
+      "Japanese": "和音",
       "in English": "chord"
     },
     {
       "Number": 863,
-      "Hindi": "वसा",
+      "Japanese": "脂肪",
       "in English": "fat"
     },
     {
       "Number": 864,
-      "Hindi": "प्रसन्न",
+      "Japanese": "うれしい",
       "in English": "glad"
     },
     {
       "Number": 865,
-      "Hindi": "मूल",
+      "Japanese": "オリジナル",
       "in English": "original"
     },
     {
       "Number": 866,
-      "Hindi": "शेयर",
+      "Japanese": "シェア",
       "in English": "share"
     },
     {
       "Number": 867,
-      "Hindi": "स्टेशन",
+      "Japanese": "?",
       "in English": "station"
     },
     {
       "Number": 868,
-      "Hindi": "पिता",
+      "Japanese": "お父さん",
       "in English": "dad"
     },
     {
       "Number": 869,
-      "Hindi": "रोटी",
+      "Japanese": "パン",
       "in English": "bread"
     },
     {
       "Number": 870,
-      "Hindi": "चार्ज",
+      "Japanese": "?  電",
       "in English": "charge"
     },
     {
       "Number": 871,
-      "Hindi": "उचित",
+      "Japanese": "適切な",
       "in English": "proper"
     },
     {
       "Number": 872,
-      "Hindi": "बार",
+      "Japanese": "バー",
       "in English": "bar"
     },
     {
       "Number": 873,
-      "Hindi": "प्रस्ताव",
+      "Japanese": "申し出",
       "in English": "offer"
     },
     {
       "Number": 874,
-      "Hindi": "खंड",
+      "Japanese": "セグメント",
       "in English": "segment"
     },
     {
       "Number": 875,
-      "Hindi": "गुलाम",
+      "Japanese": "スレーブ",
       "in English": "slave"
     },
     {
       "Number": 876,
-      "Hindi": "बतख",
+      "Japanese": "アヒル",
       "in English": "duck"
     },
     {
       "Number": 877,
-      "Hindi": "पल",
+      "Japanese": "インスタント",
       "in English": "instant"
     },
     {
       "Number": 878,
-      "Hindi": "बाजार",
+      "Japanese": "市場",
       "in English": "market"
     },
     {
       "Number": 879,
-      "Hindi": "डिग्री",
+      "Japanese": "度",
       "in English": "degree"
     },
     {
       "Number": 880,
-      "Hindi": "आबाद",
+      "Japanese": "投? ?する",
       "in English": "populate"
     },
     {
       "Number": 881,
-      "Hindi": "लड़की",
+      "Japanese": "ひよこ",
       "in English": "chick"
     },
     {
       "Number": 882,
-      "Hindi": "प्रिय",
+      "Japanese": "かわいい",
       "in English": "dear"
     },
     {
       "Number": 883,
-      "Hindi": "दुश्मन",
+      "Japanese": "敵",
       "in English": "enemy"
     },
     {
       "Number": 884,
-      "Hindi": "उत्तर",
+      "Japanese": "返事",
       "in English": "reply"
     },
     {
       "Number": 885,
-      "Hindi": "पेय",
+      "Japanese": "ドリンク",
       "in English": "drink"
     },
     {
       "Number": 886,
-      "Hindi": "घटित",
+      "Japanese": "起こる",
       "in English": "occur"
     },
     {
       "Number": 887,
-      "Hindi": "समर्थन",
+      "Japanese": "サポート",
       "in English": "support"
     },
     {
       "Number": 888,
-      "Hindi": "भाषण",
+      "Japanese": "スピーチ",
       "in English": "speech"
     },
     {
       "Number": 889,
-      "Hindi": "प्रकृति",
+      "Japanese": "自然",
       "in English": "nature"
     },
     {
       "Number": 890,
-      "Hindi": "सीमा",
+      "Japanese": "レンジ",
       "in English": "range"
     },
     {
       "Number": 891,
-      "Hindi": "भाप",
+      "Japanese": "スチーム",
       "in English": "steam"
     },
     {
       "Number": 892,
-      "Hindi": "प्रस्ताव",
+      "Japanese": "モーション",
       "in English": "motion"
     },
     {
       "Number": 893,
-      "Hindi": "पथ",
+      "Japanese": "パス",
       "in English": "path"
     },
     {
       "Number": 894,
-      "Hindi": "तरल",
+      "Japanese": "液体",
       "in English": "liquid"
     },
     {
       "Number": 895,
-      "Hindi": "लॉग इन करें",
+      "Japanese": "ログ",
       "in English": "log"
     },
     {
       "Number": 896,
-      "Hindi": "मतलब",
+      "Japanese": "意味",
       "in English": "meant"
     },
     {
       "Number": 897,
-      "Hindi": "भागफल",
+      "Japanese": "商",
       "in English": "quotient"
     },
     {
       "Number": 898,
-      "Hindi": "दांत",
+      "Japanese": "歯牙",
       "in English": "teeth"
     },
     {
       "Number": 899,
-      "Hindi": "खोल",
+      "Japanese": "シェル",
       "in English": "shell"
     },
     {
       "Number": 900,
-      "Hindi": "गर्दन",
+      "Japanese": "首",
       "in English": "neck"
     },
     {
       "Number": 901,
-      "Hindi": "ऑक्सीजन",
+      "Japanese": "? ?素",
       "in English": "oxygen"
     },
     {
       "Number": 902,
-      "Hindi": "चीनी",
+      "Japanese": "砂糖",
       "in English": "sugar"
     },
     {
       "Number": 903,
-      "Hindi": "मौत",
+      "Japanese": "死",
       "in English": "death"
     },
     {
       "Number": 904,
-      "Hindi": "सुंदर",
+      "Japanese": "かわいい",
       "in English": "pretty"
     },
     {
       "Number": 905,
-      "Hindi": "कौशल",
+      "Japanese": "スキル",
       "in English": "skill"
     },
     {
       "Number": 906,
-      "Hindi": "महिलाओं",
+      "Japanese": "女性たち",
       "in English": "women"
     },
     {
       "Number": 907,
-      "Hindi": "मौसम",
+      "Japanese": "シーズン",
       "in English": "season"
     },
     {
       "Number": 908,
-      "Hindi": "समाधान",
+      "Japanese": "ソリューション",
       "in English": "solution"
     },
     {
       "Number": 909,
-      "Hindi": "चुंबक",
+      "Japanese": "マグネット",
       "in English": "magnet"
     },
     {
       "Number": 910,
-      "Hindi": "चांदी",
+      "Japanese": "銀",
       "in English": "silver"
     },
     {
       "Number": 911,
-      "Hindi": "धन्यवाद",
+      "Japanese": "感謝",
       "in English": "thank"
     },
     {
       "Number": 912,
-      "Hindi": "शाखा",
+      "Japanese": "ブランチ",
       "in English": "branch"
     },
     {
       "Number": 913,
-      "Hindi": "मैच",
+      "Japanese": "マッチ",
       "in English": "match"
     },
     {
       "Number": 914,
-      "Hindi": "प्रत्यय",
+      "Japanese": "サフィックス",
       "in English": "suffix"
     },
     {
       "Number": 915,
-      "Hindi": "विशेष रूप से",
+      "Japanese": "特に",
       "in English": "especially"
     },
     {
       "Number": 916,
-      "Hindi": "अंजीर",
+      "Japanese": "イチジク",
       "in English": "fig"
     },
     {
       "Number": 917,
-      "Hindi": "डर",
+      "Japanese": "恐れて",
       "in English": "afraid"
     },
     {
       "Number": 918,
-      "Hindi": "भारी",
+      "Japanese": "巨大な",
       "in English": "huge"
     },
     {
       "Number": 919,
-      "Hindi": "बहन",
+      "Japanese": "姉妹",
       "in English": "sister"
     },
     {
       "Number": 920,
-      "Hindi": "स्टील",
+      "Japanese": "スチール",
       "in English": "steel"
     },
     {
       "Number": 921,
-      "Hindi": "चर्चा",
+      "Japanese": "話し合う",
       "in English": "discuss"
     },
     {
       "Number": 922,
-      "Hindi": "आगे",
+      "Japanese": "フォワード",
       "in English": "forward"
     },
     {
       "Number": 923,
-      "Hindi": "इसी तरह",
+      "Japanese": "同じような",
       "in English": "similar"
     },
     {
       "Number": 924,
-      "Hindi": "गाइड",
+      "Japanese": "ガイド",
       "in English": "guide"
     },
     {
       "Number": 925,
-      "Hindi": "अनुभव",
+      "Japanese": "経験",
       "in English": "experience"
     },
     {
       "Number": 926,
-      "Hindi": "स्कोर",
+      "Japanese": "スコア",
       "in English": "score"
     },
     {
       "Number": 927,
-      "Hindi": "सेब",
+      "Japanese": "リンゴ",
       "in English": "apple"
     },
     {
       "Number": 928,
-      "Hindi": "खरीदा",
+      "Japanese": "買った",
       "in English": "bought"
     },
     {
       "Number": 929,
-      "Hindi": "नेतृत्व",
+      "Japanese": "主導",
       "in English": "led"
     },
     {
       "Number": 930,
-      "Hindi": "पिच",
+      "Japanese": "ピッチ",
       "in English": "pitch"
     },
     {
       "Number": 931,
-      "Hindi": "कोट",
+      "Japanese": "コート",
       "in English": "coat"
     },
     {
       "Number": 932,
-      "Hindi": "सामूहिक",
+      "Japanese": "マス",
       "in English": "mass"
     },
     {
       "Number": 933,
-      "Hindi": "कार्ड",
+      "Japanese": "カード",
       "in English": "card"
     },
     {
       "Number": 934,
-      "Hindi": "बैंड",
+      "Japanese": "バンド",
       "in English": "band"
     },
     {
       "Number": 935,
-      "Hindi": "रस्सी",
+      "Japanese": "ロープ",
       "in English": "rope"
     },
     {
       "Number": 936,
-      "Hindi": "पर्ची",
+      "Japanese": "スリップ",
       "in English": "slip"
     },
     {
       "Number": 937,
-      "Hindi": "जीत",
+      "Japanese": "勝つ",
       "in English": "win"
     },
     {
       "Number": 938,
-      "Hindi": "सपना",
+      "Japanese": "夢",
       "in English": "dream"
     },
     {
       "Number": 939,
-      "Hindi": "शाम",
+      "Japanese": "夕べ",
       "in English": "evening"
     },
     {
       "Number": 940,
-      "Hindi": "शर्त",
+      "Japanese": "条件",
       "in English": "condition"
     },
     {
       "Number": 941,
-      "Hindi": "फ़ीड",
+      "Japanese": "フィード",
       "in English": "feed"
     },
     {
       "Number": 942,
-      "Hindi": "उपकरण",
+      "Japanese": "ツール",
       "in English": "tool"
     },
     {
       "Number": 943,
-      "Hindi": "संपूर्ण",
+      "Japanese": "合計",
       "in English": "total"
     },
     {
       "Number": 944,
-      "Hindi": "बुनियादी",
+      "Japanese": "基本",
       "in English": "basic"
     },
     {
       "Number": 945,
-      "Hindi": "गंध",
+      "Japanese": "匂い",
       "in English": "smell"
     },
     {
       "Number": 946,
-      "Hindi": "घाटी",
+      "Japanese": "谷",
       "in English": "valley"
     },
     {
       "Number": 947,
-      "Hindi": "और न ही",
+      "Japanese": "も",
       "in English": "nor"
     },
     {
       "Number": 948,
-      "Hindi": "डबल",
+      "Japanese": "ダブル",
       "in English": "double"
     },
     {
       "Number": 949,
-      "Hindi": "सीट",
+      "Japanese": "座席",
       "in English": "seat"
     },
     {
       "Number": 950,
-      "Hindi": "जारी रखने के",
+      "Japanese": "続ける",
       "in English": "continue"
     },
     {
       "Number": 951,
-      "Hindi": "खंड",
+      "Japanese": "ブロック",
       "in English": "block"
     },
     {
       "Number": 952,
-      "Hindi": "चार्ट",
+      "Japanese": "チャート",
       "in English": "chart"
     },
     {
       "Number": 953,
-      "Hindi": "टोपी",
+      "Japanese": "帽子",
       "in English": "hat"
     },
     {
       "Number": 954,
-      "Hindi": "बेचने",
+      "Japanese": "売る",
       "in English": "sell"
     },
     {
       "Number": 955,
-      "Hindi": "सफलता",
+      "Japanese": "成功",
       "in English": "success"
     },
     {
       "Number": 956,
-      "Hindi": "कंपनी",
+      "Japanese": "会社",
       "in English": "company"
     },
     {
       "Number": 957,
-      "Hindi": "घटाना",
+      "Japanese": "引く",
       "in English": "subtract"
     },
     {
       "Number": 958,
-      "Hindi": "घटना",
+      "Japanese": "イベント",
       "in English": "event"
     },
     {
       "Number": 959,
-      "Hindi": "विशेष",
+      "Japanese": "特定の",
       "in English": "particular"
     },
     {
       "Number": 960,
-      "Hindi": "सौदा",
+      "Japanese": "契約",
       "in English": "deal"
     },
     {
       "Number": 961,
-      "Hindi": "तैरना",
+      "Japanese": "泳ぐ",
       "in English": "swim"
     },
     {
       "Number": 962,
-      "Hindi": "अवधि",
+      "Japanese": "言葉",
       "in English": "term"
     },
     {
       "Number": 963,
-      "Hindi": "विपरीत",
+      "Japanese": "反対",
       "in English": "opposite"
     },
     {
       "Number": 964,
-      "Hindi": "पत्नी",
+      "Japanese": "妻",
       "in English": "wife"
     },
     {
       "Number": 965,
-      "Hindi": "जूता",
+      "Japanese": "靴",
       "in English": "shoe"
     },
     {
       "Number": 966,
-      "Hindi": "कंधे",
+      "Japanese": "肩",
       "in English": "shoulder"
     },
     {
       "Number": 967,
-      "Hindi": "प्रसार",
+      "Japanese": "スプレッド",
       "in English": "spread"
     },
     {
       "Number": 968,
-      "Hindi": "व्यवस्था",
+      "Japanese": "アレンジ",
       "in English": "arrange"
     },
     {
       "Number": 969,
-      "Hindi": "शिविर",
+      "Japanese": "キャンプ",
       "in English": "camp"
     },
     {
       "Number": 970,
-      "Hindi": "आविष्कार",
+      "Japanese": "発明する",
       "in English": "invent"
     },
     {
       "Number": 971,
-      "Hindi": "कपास",
+      "Japanese": "綿",
       "in English": "cotton"
     },
     {
       "Number": 972,
-      "Hindi": "Born",
+      "Japanese": "ボルン",
       "in English": "born"
     },
     {
       "Number": 973,
-      "Hindi": "निर्धारित",
+      "Japanese": "決定する",
       "in English": "determine"
     },
     {
       "Number": 974,
-      "Hindi": "चौथाई गेलन",
+      "Japanese": "クォート",
       "in English": "quart"
     },
     {
       "Number": 975,
-      "Hindi": "नौ",
+      "Japanese": "人",
       "in English": "nine"
     },
     {
       "Number": 976,
-      "Hindi": "ट्रक",
+      "Japanese": "トラック",
       "in English": "truck"
     },
     {
       "Number": 977,
-      "Hindi": "शोर",
+      "Japanese": "ノイズ",
       "in English": "noise"
     },
     {
       "Number": 978,
-      "Hindi": "स्तर",
+      "Japanese": "レベル",
       "in English": "level"
     },
     {
       "Number": 979,
-      "Hindi": "संयोग",
+      "Japanese": "チャンス",
       "in English": "chance"
     },
     {
       "Number": 980,
-      "Hindi": "इकट्ठा",
+      "Japanese": "集まる",
       "in English": "gather"
     },
     {
       "Number": 981,
-      "Hindi": "दुकान",
+      "Japanese": "ショップ",
       "in English": "shop"
     },
     {
       "Number": 982,
-      "Hindi": "खिंचाव",
+      "Japanese": "ストレッチ",
       "in English": "stretch"
     },
     {
       "Number": 983,
-      "Hindi": "फेंक",
+      "Japanese": "投げる",
       "in English": "throw"
     },
     {
       "Number": 984,
-      "Hindi": "चमक",
+      "Japanese": "輝き",
       "in English": "shine"
     },
     {
       "Number": 985,
-      "Hindi": "संपत्ति",
+      "Japanese": "財産",
       "in English": "property"
     },
     {
       "Number": 986,
-      "Hindi": "स्तंभ",
+      "Japanese": "コラム",
       "in English": "column"
     },
     {
       "Number": 987,
-      "Hindi": "अणु",
+      "Japanese": "分子",
       "in English": "molecule"
     },
     {
       "Number": 988,
-      "Hindi": "चयन",
+      "Japanese": "選択する",
       "in English": "select"
     },
     {
       "Number": 989,
-      "Hindi": "गलत",
+      "Japanese": "間違った",
       "in English": "wrong"
     },
     {
       "Number": 990,
-      "Hindi": "ग्रे",
+      "Japanese": "グレー",
       "in English": "gray"
     },
     {
       "Number": 991,
-      "Hindi": "दोहराना",
+      "Japanese": "リピート",
       "in English": "repeat"
     },
     {
       "Number": 992,
-      "Hindi": "आवश्यकता",
+      "Japanese": "? 要とする",
       "in English": "require"
     },
     {
       "Number": 993,
-      "Hindi": "विस्तृत",
+      "Japanese": "? 広い",
       "in English": "broad"
     },
     {
       "Number": 994,
-      "Hindi": "तैयार",
+      "Japanese": "準備する",
       "in English": "prepare"
     },
     {
       "Number": 995,
-      "Hindi": "नमक",
+      "Japanese": "塩",
       "in English": "salt"
     },
     {
       "Number": 996,
-      "Hindi": "नाक",
+      "Japanese": "鼻",
       "in English": "nose"
     },
     {
       "Number": 997,
-      "Hindi": "बहुवचन",
+      "Japanese": "複数",
       "in English": "plural"
     },
     {
       "Number": 998,
-      "Hindi": "क्रोध",
+      "Japanese": "怒り",
       "in English": "anger"
     },
     {
       "Number": 999,
-      "Hindi": "दावा",
+      "Japanese": "請求",
       "in English": "claim"
     },
     {
       "Number": 1000,
-      "Hindi": "महाद्वीप",
+      "Japanese": "大陸",
       "in English": "continent"
     }
-];
+]
 
-exports.language = "Hindi";
-exports.data = hindi;
+exports.language = "Japanese";
+exports.data = japanese;

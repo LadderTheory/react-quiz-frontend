@@ -11,7 +11,7 @@ const even_cell_color_style = {
     backgroundColor: "#f2f2f2",
 }
 const head_cell_color_style = {
-    backgroundColor: "#4caf50",
+    backgroundColor: "rgb(164, 104, 215)",
     color: "white",
     padding: "7px",
 }
@@ -27,12 +27,19 @@ const QUESTION_SELECT_NAME = "question_select";
 const ANSWER_SELECT_NAME = "answer_select";
 const ANSWER_BUTTON_NAME = "answer_button";
 const RETAKE_NAME = "retake_button";
+const QUIZ_SELECT_NAME = "quiz_select";
+
+const TABLESTAGE = 1;
+const OPTIONSSTAGE = 2;
+const QUIZSTAGE = 3;
+const SCORECARDSTAGE = 4;
 
 function Quiz(props) {
+    const [q_data, set_q_data] = React.useState(props.datasets[0].data);
     function keys() {
-        return [...Object.keys(props.quiz[0])]
+        return [...Object.keys(q_data[0])]
     }
-    
+
     const [q_range, set_q_range] = React.useState(20);
     const [q_page, set_q_page] = React.useState(1);
     const [q_table, set_q_table] = React.useState(makeTable());
@@ -48,14 +55,16 @@ function Quiz(props) {
     const [q_answered_counter, set_q_answered_counter] = React.useState(0);
     const [q_incorrect_arr, set_q_incorrect_arr] = React.useState([]);
 
-    const TABLESTAGE = 1;
-    const OPTIONSSTAGE = 2;
-    const QUIZSTAGE = 3;
-    const SCORECARDSTAGE = 4;
+    const [q_chosen_language, set_chosen_language] = React.useState(0);
+    const [q_is_shown, set_q_stage] = React.useState(TABLESTAGE); 
 
-    const [q_is_shown, set_q_stage] = React.useState(TABLESTAGE);
+    function handleSelectionChange(event) {
+      console.log(event.target.value)
+      set_chosen_language(Number(event.target.value));
+      
+    }
 
-    let q_length = props.quiz.length;
+    let q_length = q_data.length;
 
     function page_count() {
         return Math.ceil(q_length / q_range);
@@ -73,7 +82,7 @@ function Quiz(props) {
             q_range * q_page
         ]
 
-        return props.quiz.slice(range[0], range[1])
+        return q_data.slice(range[0], range[1])
     }
 
     function change_current_question() {
@@ -144,6 +153,19 @@ function Quiz(props) {
         }
 
         return arr;
+    }
+
+    function quiz_select() {
+        return (<>
+            selection: {q_chosen_language}<br />
+            Language: <select name={QUIZ_SELECT_NAME} value={q_chosen_language} onChange={handleEvent}>
+                {props.datasets.map((x,i) => {
+                return (
+                    <option value={i}>{x.language}</option>
+                )
+                })}
+            </select>
+        </>)
     }
 
     function resetQuiz() {
@@ -286,6 +308,9 @@ function Quiz(props) {
                 set_q_stage(OPTIONSSTAGE);
                 resetQuiz();
                 break;
+            case QUIZ_SELECT_NAME:
+                handleSelectionChange(event)
+                break;
             default:
                 console.log("how?")
                 break;
@@ -365,7 +390,7 @@ function Quiz(props) {
 
         return (
             <div>
-                <p>Questions to test: </p>
+                {quiz_select()}
                 {q_range_form}
                 {page_controls()}
                 <table style={table_style}>
@@ -401,6 +426,9 @@ function Quiz(props) {
     }
     
     React.useEffect(() => set_q_table(makeTable()), [q_page, q_range])
+
+    React.useEffect(() => set_q_data(props.datasets[q_chosen_language].data), [q_chosen_language]);
+    React.useEffect(() => set_q_table(makeTable()), [q_data]);
 
     return (
         <div>

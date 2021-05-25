@@ -6001,5 +6001,5 @@ const top_russian = [
  }
 ]
 
-exports.language = "russian";
+exports.language = "Russian";
 exports.data= top_russian;

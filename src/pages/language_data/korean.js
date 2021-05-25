@@ -1,5005 +1,5005 @@
-const hindi = [
+const korean = [
     {
       "Number": 1,
-      "Hindi": "जैसा",
+      "Korean": "로",
       "in English": "as"
     },
     {
       "Number": 2,
-      "Hindi": "मैं",
+      "Korean": "나는",
       "in English": "I"
     },
     {
       "Number": 3,
-      "Hindi": "उसके",
+      "Korean": "그의",
       "in English": "his"
     },
     {
       "Number": 4,
-      "Hindi": "कि",
+      "Korean": "그",
       "in English": "that"
     },
     {
       "Number": 5,
-      "Hindi": "वह",
+      "Korean": "그",
       "in English": "he"
     },
     {
       "Number": 6,
-      "Hindi": "था",
+      "Korean": "했다",
       "in English": "was"
     },
     {
       "Number": 7,
-      "Hindi": "के लिए",
+      "Korean": "에 대한",
       "in English": "for"
     },
     {
       "Number": 8,
-      "Hindi": "पर",
+      "Korean": "에",
       "in English": "on"
     },
     {
       "Number": 9,
-      "Hindi": "हैं",
+      "Korean": "아르",
       "in English": "are"
     },
     {
       "Number": 10,
-      "Hindi": "साथ",
+      "Korean": "와",
       "in English": "with"
     },
     {
       "Number": 11,
-      "Hindi": "वे",
+      "Korean": "그들",
       "in English": "they"
     },
     {
       "Number": 12,
-      "Hindi": "हो",
+      "Korean": "있다",
       "in English": "be"
     },
     {
       "Number": 13,
-      "Hindi": "पर",
+      "Korean": "에",
       "in English": "at"
     },
     {
       "Number": 14,
-      "Hindi": "एक",
+      "Korean": "일",
       "in English": "one"
     },
     {
       "Number": 15,
-      "Hindi": "है",
+      "Korean": "이",
       "in English": "have"
     },
     {
       "Number": 16,
-      "Hindi": "इस",
+      "Korean": "이",
       "in English": "this"
     },
     {
       "Number": 17,
-      "Hindi": "से",
+      "Korean": "부터",
       "in English": "from"
     },
     {
       "Number": 18,
-      "Hindi": "द्वारा",
+      "Korean": "에 의해",
       "in English": "by"
     },
     {
       "Number": 19,
-      "Hindi": "गरम",
+      "Korean": "뜨거운",
       "in English": "hot"
     },
     {
       "Number": 20,
-      "Hindi": "शब्द",
+      "Korean": "단어",
       "in English": "word"
     },
     {
       "Number": 21,
-      "Hindi": "लेकिन",
+      "Korean": "하지만",
       "in English": "but"
     },
     {
       "Number": 22,
-      "Hindi": "क्या",
+      "Korean": "무엇",
       "in English": "what"
     },
     {
       "Number": 23,
-      "Hindi": "कुछ",
+      "Korean": "다소",
       "in English": "some"
     },
     {
       "Number": 24,
-      "Hindi": "है",
+      "Korean": "이다",
       "in English": "is"
     },
     {
       "Number": 25,
-      "Hindi": "यह",
+      "Korean": "그",
       "in English": "it"
     },
     {
       "Number": 26,
-      "Hindi": "आप",
+      "Korean": "당신",
       "in English": "you"
     },
     {
       "Number": 27,
-      "Hindi": "या",
+      "Korean": "또는",
       "in English": "or"
     },
     {
       "Number": 28,
-      "Hindi": "था",
+      "Korean": "했다",
       "in English": "had"
     },
     {
       "Number": 29,
-      "Hindi": "",
+      "Korean": "에",
       "in English": "the"
     },
     {
       "Number": 30,
-      "Hindi": "की",
+      "Korean": "의",
       "in English": "of"
     },
     {
       "Number": 31,
-      "Hindi": "तक",
+      "Korean": "에",
       "in English": "to"
     },
     {
       "Number": 32,
-      "Hindi": "और",
+      "Korean": "과",
       "in English": "and"
     },
     {
       "Number": 33,
-      "Hindi": "एक",
+      "Korean": "이",
       "in English": "a"
     },
     {
       "Number": 34,
-      "Hindi": "में",
+      "Korean": "에",
       "in English": "in"
     },
     {
       "Number": 35,
-      "Hindi": "हम",
+      "Korean": "우리",
       "in English": "we"
     },
     {
       "Number": 36,
-      "Hindi": "कर सकते हैं",
+      "Korean": "수",
       "in English": "can"
     },
     {
       "Number": 37,
-      "Hindi": "बाहर",
+      "Korean": "아웃",
       "in English": "out"
     },
     {
       "Number": 38,
-      "Hindi": "अन्य",
+      "Korean": "다른",
       "in English": "other"
     },
     {
       "Number": 39,
-      "Hindi": "थे",
+      "Korean": "했다",
       "in English": "were"
     },
     {
       "Number": 40,
-      "Hindi": "जो",
+      "Korean": "하는",
       "in English": "which"
     },
     {
       "Number": 41,
-      "Hindi": "कर",
+      "Korean": "할",
       "in English": "do"
     },
     {
       "Number": 42,
-      "Hindi": "उनके",
+      "Korean": "자신의",
       "in English": "their"
     },
     {
       "Number": 43,
-      "Hindi": "समय",
+      "Korean": "시간",
       "in English": "time"
     },
     {
       "Number": 44,
-      "Hindi": "अगर",
+      "Korean": "면",
       "in English": "if"
     },
     {
       "Number": 45,
-      "Hindi": "होगा",
+      "Korean": "것",
       "in English": "will"
     },
     {
       "Number": 46,
-      "Hindi": "कैसे",
+      "Korean": "방법",
       "in English": "how"
     },
     {
       "Number": 47,
-      "Hindi": "कहा",
+      "Korean": "말했다",
       "in English": "said"
     },
     {
       "Number": 48,
-      "Hindi": "एक",
+      "Korean": "이",
       "in English": "an"
     },
     {
       "Number": 49,
-      "Hindi": "प्रत्येक",
+      "Korean": "각",
       "in English": "each"
     },
     {
       "Number": 50,
-      "Hindi": "बता",
+      "Korean": "이야기",
       "in English": "tell"
     },
     {
       "Number": 51,
-      "Hindi": "करता है",
+      "Korean": "하지",
       "in English": "does"
     },
     {
       "Number": 52,
-      "Hindi": "सेट",
+      "Korean": "세트",
       "in English": "set"
     },
     {
       "Number": 53,
-      "Hindi": "तीन",
+      "Korean": "세",
       "in English": "three"
     },
     {
       "Number": 54,
-      "Hindi": "चाहते हैं",
+      "Korean": "필요",
       "in English": "want"
     },
     {
       "Number": 55,
-      "Hindi": "हवा",
+      "Korean": "공기",
       "in English": "air"
     },
     {
       "Number": 56,
-      "Hindi": "अच्छी तरह से",
+      "Korean": "잘",
       "in English": "well"
     },
     {
       "Number": 57,
-      "Hindi": "भी",
+      "Korean": "또한",
       "in English": "also"
     },
     {
       "Number": 58,
-      "Hindi": "खेलने",
+      "Korean": "재생",
       "in English": "play"
     },
     {
       "Number": 59,
-      "Hindi": "छोटे",
+      "Korean": "작은",
       "in English": "small"
     },
     {
       "Number": 60,
-      "Hindi": "अंत",
+      "Korean": "끝",
       "in English": "end"
     },
     {
       "Number": 61,
-      "Hindi": "डाल",
+      "Korean": "넣어",
       "in English": "put"
     },
     {
       "Number": 62,
-      "Hindi": "घर",
+      "Korean": "홈",
       "in English": "home"
     },
     {
       "Number": 63,
-      "Hindi": "पढ़ा",
+      "Korean": "읽기",
       "in English": "read"
     },
     {
       "Number": 64,
-      "Hindi": "हाथ",
+      "Korean": "손",
       "in English": "hand"
     },
     {
       "Number": 65,
-      "Hindi": "बंदरगाह",
+      "Korean": "포트",
       "in English": "port"
     },
     {
       "Number": 66,
-      "Hindi": "बड़ा",
+      "Korean": "큰",
       "in English": "large"
     },
     {
       "Number": 67,
-      "Hindi": "जादू",
+      "Korean": "철자",
       "in English": "spell"
     },
     {
       "Number": 68,
-      "Hindi": "जोड़",
+      "Korean": "추가",
       "in English": "add"
     },
     {
       "Number": 69,
-      "Hindi": "और भी",
+      "Korean": "도",
       "in English": "even"
     },
     {
       "Number": 70,
-      "Hindi": "भूमि",
+      "Korean": "?",
       "in English": "land"
     },
     {
       "Number": 71,
-      "Hindi": "यहाँ",
+      "Korean": "여기",
       "in English": "here"
     },
     {
       "Number": 72,
-      "Hindi": "चाहिए",
+      "Korean": "해야",
       "in English": "must"
     },
     {
       "Number": 73,
-      "Hindi": "बड़ा",
+      "Korean": "큰",
       "in English": "big"
     },
     {
       "Number": 74,
-      "Hindi": "उच्च",
+      "Korean": "높은",
       "in English": "high"
     },
     {
       "Number": 75,
-      "Hindi": "ऐसा",
+      "Korean": "이러한",
       "in English": "such"
     },
     {
       "Number": 76,
-      "Hindi": "का पालन करें",
+      "Korean": "따라",
       "in English": "follow"
     },
     {
       "Number": 77,
-      "Hindi": "अधिनियम",
+      "Korean": "행위",
       "in English": "act"
     },
     {
       "Number": 78,
-      "Hindi": "क्यों",
+      "Korean": "이유",
       "in English": "why"
     },
     {
       "Number": 79,
-      "Hindi": "पूछना",
+      "Korean": "문의",
       "in English": "ask"
     },
     {
       "Number": 80,
-      "Hindi": "पुरुषों",
+      "Korean": "남자",
       "in English": "men"
     },
     {
       "Number": 81,
-      "Hindi": "परिवर्तन",
+      "Korean": "변경",
       "in English": "change"
     },
     {
       "Number": 82,
-      "Hindi": "चला गया",
+      "Korean": "갔다",
       "in English": "went"
     },
     {
       "Number": 83,
-      "Hindi": "प्रकाश",
+      "Korean": "빛",
       "in English": "light"
     },
     {
       "Number": 84,
-      "Hindi": "तरह",
+      "Korean": "? 류",
       "in English": "kind"
     },
     {
       "Number": 85,
-      "Hindi": "बंद",
+      "Korean": "오프",
       "in English": "off"
     },
     {
       "Number": 86,
-      "Hindi": "आवश्यकता",
+      "Korean": "필요가있다",
       "in English": "need"
     },
     {
       "Number": 87,
-      "Hindi": "घर",
+      "Korean": "집",
       "in English": "house"
     },
     {
       "Number": 88,
-      "Hindi": "तस्वीर",
+      "Korean": "사진",
       "in English": "picture"
     },
     {
       "Number": 89,
-      "Hindi": "कोशिश",
+      "Korean": "시험",
       "in English": "try"
     },
     {
       "Number": 90,
-      "Hindi": "हमें",
+      "Korean": "우리",
       "in English": "us"
     },
     {
       "Number": 91,
-      "Hindi": "फिर",
+      "Korean": "다시",
       "in English": "again"
     },
     {
       "Number": 92,
-      "Hindi": "पशु",
+      "Korean": "동물",
       "in English": "animal"
     },
     {
       "Number": 93,
-      "Hindi": "बिंदु",
+      "Korean": "포인트",
       "in English": "point"
     },
     {
       "Number": 94,
-      "Hindi": "मां",
+      "Korean": "어머니",
       "in English": "mother"
     },
     {
       "Number": 95,
-      "Hindi": "दुनिया",
+      "Korean": "세계",
       "in English": "world"
     },
     {
       "Number": 96,
-      "Hindi": "निकट",
+      "Korean": "가까운",
       "in English": "near"
     },
     {
       "Number": 97,
-      "Hindi": "बनाना",
+      "Korean": "구축",
       "in English": "build"
     },
     {
       "Number": 98,
-      "Hindi": "आत्म",
+      "Korean": "자기",
       "in English": "self"
     },
     {
       "Number": 99,
-      "Hindi": "पृथ्वी",
+      "Korean": "지구",
       "in English": "earth"
     },
     {
       "Number": 100,
-      "Hindi": "पिता",
+      "Korean": "아버지",
       "in English": "father"
     },
     {
       "Number": 101,
-      "Hindi": "किसी भी",
+      "Korean": "모든",
       "in English": "any"
     },
     {
       "Number": 102,
-      "Hindi": "नई",
+      "Korean": "새로운",
       "in English": "new"
     },
     {
       "Number": 103,
-      "Hindi": "काम",
+      "Korean": "일",
       "in English": "work"
     },
     {
       "Number": 104,
-      "Hindi": "हिस्सा",
+      "Korean": "일부",
       "in English": "part"
     },
     {
       "Number": 105,
-      "Hindi": "लेना",
+      "Korean": "소요",
       "in English": "take"
     },
     {
       "Number": 106,
-      "Hindi": "प्राप्त",
+      "Korean": "도착",
       "in English": "get"
     },
     {
       "Number": 107,
-      "Hindi": "जगह",
+      "Korean": "장소",
       "in English": "place"
     },
     {
       "Number": 108,
-      "Hindi": "निर्मित",
+      "Korean": "만든",
       "in English": "made"
     },
     {
       "Number": 109,
-      "Hindi": "जीना",
+      "Korean": "살고있다",
       "in English": "live"
     },
     {
       "Number": 110,
-      "Hindi": "जहां",
+      "Korean": "어디에",
       "in English": "where"
     },
     {
       "Number": 111,
-      "Hindi": "के बाद",
+      "Korean": "후",
       "in English": "after"
     },
     {
       "Number": 112,
-      "Hindi": "वापस",
+      "Korean": "다시",
       "in English": "back"
     },
     {
       "Number": 113,
-      "Hindi": "थोड़ा",
+      "Korean": "작은",
       "in English": "little"
     },
     {
       "Number": 114,
-      "Hindi": "केवल",
+      "Korean": "만",
       "in English": "only"
     },
     {
       "Number": 115,
-      "Hindi": "दौर",
+      "Korean": "둥근",
       "in English": "round"
     },
     {
       "Number": 116,
-      "Hindi": "आदमी",
+      "Korean": "사람",
       "in English": "man"
     },
     {
       "Number": 117,
-      "Hindi": "वर्ष",
+      "Korean": "? ?",
       "in English": "year"
     },
     {
       "Number": 118,
-      "Hindi": "आया",
+      "Korean": "온",
       "in English": "came"
     },
     {
       "Number": 119,
-      "Hindi": "शो",
+      "Korean": "쇼",
       "in English": "show"
     },
     {
       "Number": 120,
-      "Hindi": "हर",
+      "Korean": "모든",
       "in English": "every"
     },
     {
       "Number": 121,
-      "Hindi": "अच्छा",
+      "Korean": "좋은",
       "in English": "good"
     },
     {
       "Number": 122,
-      "Hindi": "मुझे",
+      "Korean": "나를",
       "in English": "me"
     },
     {
       "Number": 123,
-      "Hindi": "दे",
+      "Korean": "제공",
       "in English": "give"
     },
     {
       "Number": 124,
-      "Hindi": "हमारे",
+      "Korean": "우리의",
       "in English": "our"
     },
     {
       "Number": 125,
-      "Hindi": "नीचे",
+      "Korean": "아래의",
       "in English": "under"
     },
     {
       "Number": 126,
-      "Hindi": "नाम",
+      "Korean": "이름",
       "in English": "name"
     },
     {
       "Number": 127,
-      "Hindi": "बहुत",
+      "Korean": "대단히",
       "in English": "very"
     },
     {
       "Number": 128,
-      "Hindi": "के माध्यम से",
+      "Korean": "를 통해",
       "in English": "through"
     },
     {
       "Number": 129,
-      "Hindi": "बस",
+      "Korean": "단지",
       "in English": "just"
     },
     {
       "Number": 130,
-      "Hindi": "फार्म",
+      "Korean": "양식",
       "in English": "form"
     },
     {
       "Number": 131,
-      "Hindi": "वाक्य",
+      "Korean": "문장",
       "in English": "sentence"
     },
     {
       "Number": 132,
-      "Hindi": "महान",
+      "Korean": "큰",
       "in English": "great"
     },
     {
       "Number": 133,
-      "Hindi": "लगता है",
+      "Korean": "생각",
       "in English": "think"
     },
     {
       "Number": 134,
-      "Hindi": "कहना",
+      "Korean": "말",
       "in English": "say"
     },
     {
       "Number": 135,
-      "Hindi": "मदद",
+      "Korean": "도움",
       "in English": "help"
     },
     {
       "Number": 136,
-      "Hindi": "कम",
+      "Korean": "낮은",
       "in English": "low"
     },
     {
       "Number": 137,
-      "Hindi": "रेखा",
+      "Korean": "온라인",
       "in English": "line"
     },
     {
       "Number": 138,
-      "Hindi": "अलग",
+      "Korean": "차이",
       "in English": "differ"
     },
     {
       "Number": 139,
-      "Hindi": "बारी",
+      "Korean": "회전",
       "in English": "turn"
     },
     {
       "Number": 140,
-      "Hindi": "कारण",
+      "Korean": "원인",
       "in English": "cause"
     },
     {
       "Number": 141,
-      "Hindi": "ज्यादा",
+      "Korean": "많은",
       "in English": "much"
     },
     {
       "Number": 142,
-      "Hindi": "मतलब",
+      "Korean": "의미",
       "in English": "mean"
     },
     {
       "Number": 143,
-      "Hindi": "पहले",
+      "Korean": "이전",
       "in English": "before"
     },
     {
       "Number": 144,
-      "Hindi": "चाल",
+      "Korean": "움직임",
       "in English": "move"
     },
     {
       "Number": 145,
-      "Hindi": "सही",
+      "Korean": "바로",
       "in English": "right"
     },
     {
       "Number": 146,
-      "Hindi": "लड़का",
+      "Korean": "소? ?",
       "in English": "boy"
     },
     {
       "Number": 147,
-      "Hindi": "पुराना",
+      "Korean": "늙은",
       "in English": "old"
     },
     {
       "Number": 148,
-      "Hindi": "भी",
+      "Korean": "너무",
       "in English": "too"
     },
     {
       "Number": 149,
-      "Hindi": "वही",
+      "Korean": "동일",
       "in English": "same"
     },
     {
       "Number": 150,
-      "Hindi": "वह",
+      "Korean": "그? ?",
       "in English": "she"
     },
     {
       "Number": 151,
-      "Hindi": "सब",
+      "Korean": "모든",
       "in English": "all"
     },
     {
       "Number": 152,
-      "Hindi": "वहाँ",
+      "Korean": "그곳에",
       "in English": "there"
     },
     {
       "Number": 153,
-      "Hindi": "जब",
+      "Korean": "때",
       "in English": "when"
     },
     {
       "Number": 154,
-      "Hindi": "ऊपर",
+      "Korean": "올라",
       "in English": "up"
     },
     {
       "Number": 155,
-      "Hindi": "उपयोग",
+      "Korean": "사용",
       "in English": "use"
     },
     {
       "Number": 156,
-      "Hindi": "अपने",
+      "Korean": "당신의",
       "in English": "your"
     },
     {
       "Number": 157,
-      "Hindi": "रास्ता",
+      "Korean": "방법",
       "in English": "way"
     },
     {
       "Number": 158,
-      "Hindi": "के बारे में",
+      "Korean": "에 대한",
       "in English": "about"
     },
     {
       "Number": 159,
-      "Hindi": "कई",
+      "Korean": "많은",
       "in English": "many"
     },
     {
       "Number": 160,
-      "Hindi": "तो",
+      "Korean": "다음",
       "in English": "then"
     },
     {
       "Number": 161,
-      "Hindi": "उन्हें",
+      "Korean": "그",
       "in English": "them"
     },
     {
       "Number": 162,
-      "Hindi": "लिखना",
+      "Korean": "쓰기",
       "in English": "write"
     },
     {
       "Number": 163,
-      "Hindi": "होगा",
+      "Korean": "것",
       "in English": "would"
     },
     {
       "Number": 164,
-      "Hindi": "जैसा",
+      "Korean": "같은",
       "in English": "like"
     },
     {
       "Number": 165,
-      "Hindi": "तो",
+      "Korean": "그래서",
       "in English": "so"
     },
     {
       "Number": 166,
-      "Hindi": "इन",
+      "Korean": "이들",
       "in English": "these"
     },
     {
       "Number": 167,
-      "Hindi": "उसके",
+      "Korean": "그? ?의",
       "in English": "her"
     },
     {
       "Number": 168,
-      "Hindi": "लंबे समय तक",
+      "Korean": "긴",
       "in English": "long"
     },
     {
       "Number": 169,
-      "Hindi": "कर",
+      "Korean": "확인",
       "in English": "make"
     },
     {
       "Number": 170,
-      "Hindi": "बात",
+      "Korean": "일",
       "in English": "thing"
     },
     {
       "Number": 171,
-      "Hindi": "देखना",
+      "Korean": "참조",
       "in English": "see"
     },
     {
       "Number": 172,
-      "Hindi": "उसे",
+      "Korean": "그",
       "in English": "him"
     },
     {
       "Number": 173,
-      "Hindi": "दो",
+      "Korean": "두",
       "in English": "two"
     },
     {
       "Number": 174,
-      "Hindi": "है",
+      "Korean": "이",
       "in English": "has"
     },
     {
       "Number": 175,
-      "Hindi": "देखो",
+      "Korean": "봐",
       "in English": "look"
     },
     {
       "Number": 176,
-      "Hindi": "अधिक",
+      "Korean": "더",
       "in English": "more"
     },
     {
       "Number": 177,
-      "Hindi": "दिन",
+      "Korean": "일",
       "in English": "day"
     },
     {
       "Number": 178,
-      "Hindi": "सकता है",
+      "Korean": "수",
       "in English": "could"
     },
     {
       "Number": 179,
-      "Hindi": "जाना",
+      "Korean": "이동",
       "in English": "go"
     },
     {
       "Number": 180,
-      "Hindi": "आ",
+      "Korean": "올",
       "in English": "come"
     },
     {
       "Number": 181,
-      "Hindi": "किया",
+      "Korean": "한",
       "in English": "did"
     },
     {
       "Number": 182,
-      "Hindi": "संख्या",
+      "Korean": "수",
       "in English": "number"
     },
     {
       "Number": 183,
-      "Hindi": "ध्वनि",
+      "Korean": "소리",
       "in English": "sound"
     },
     {
       "Number": 184,
-      "Hindi": "नहीं",
+      "Korean": "없음",
       "in English": "no"
     },
     {
       "Number": 185,
-      "Hindi": "सबसे",
+      "Korean": "가장",
       "in English": "most"
     },
     {
       "Number": 186,
-      "Hindi": "लोग",
+      "Korean": "사람들",
       "in English": "people"
     },
     {
       "Number": 187,
-      "Hindi": "मेरे",
+      "Korean": "내",
       "in English": "my"
     },
     {
       "Number": 188,
-      "Hindi": "अधिक",
+      "Korean": "이상",
       "in English": "over"
     },
     {
       "Number": 189,
-      "Hindi": "पता",
+      "Korean": "알고",
       "in English": "know"
     },
     {
       "Number": 190,
-      "Hindi": "पानी",
+      "Korean": "물",
       "in English": "water"
     },
     {
       "Number": 191,
-      "Hindi": "से",
+      "Korean": "보다",
       "in English": "than"
     },
     {
       "Number": 192,
-      "Hindi": "कॉल",
+      "Korean": "통화",
       "in English": "call"
     },
     {
       "Number": 193,
-      "Hindi": "पहले",
+      "Korean": "첫째",
       "in English": "first"
     },
     {
       "Number": 194,
-      "Hindi": "कौन",
+      "Korean": "사람",
       "in English": "who"
     },
     {
       "Number": 195,
-      "Hindi": "मई",
+      "Korean": "수도",
       "in English": "may"
     },
     {
       "Number": 196,
-      "Hindi": "नीचे",
+      "Korean": "아래로",
       "in English": "down"
     },
     {
       "Number": 197,
-      "Hindi": "पक्ष",
+      "Korean": "측면",
       "in English": "side"
     },
     {
       "Number": 198,
-      "Hindi": "गया",
+      "Korean": "하고",
       "in English": "been"
     },
     {
       "Number": 199,
-      "Hindi": "अब",
+      "Korean": "지금",
       "in English": "now"
     },
     {
       "Number": 200,
-      "Hindi": "लगता है",
+      "Korean": "발견",
       "in English": "find"
     },
     {
       "Number": 201,
-      "Hindi": "सिर",
+      "Korean": "머리",
       "in English": "head"
     },
     {
       "Number": 202,
-      "Hindi": "खड़े",
+      "Korean": "서",
       "in English": "stand"
     },
     {
       "Number": 203,
-      "Hindi": "खुद",
+      "Korean": "자신의",
       "in English": "own"
     },
     {
       "Number": 204,
-      "Hindi": "पेज",
+      "Korean": "페이지",
       "in English": "page"
     },
     {
       "Number": 205,
-      "Hindi": "चाहिए",
+      "Korean": "해야",
       "in English": "should"
     },
     {
       "Number": 206,
-      "Hindi": "देश",
+      "Korean": "국가",
       "in English": "country"
     },
     {
       "Number": 207,
-      "Hindi": "पाया",
+      "Korean": "발견",
       "in English": "found"
     },
     {
       "Number": 208,
-      "Hindi": "जवाब",
+      "Korean": "답변",
       "in English": "answer"
     },
     {
       "Number": 209,
-      "Hindi": "स्कूल",
+      "Korean": "학교",
       "in English": "school"
     },
     {
       "Number": 210,
-      "Hindi": "बढ़ने",
+      "Korean": "성장",
       "in English": "grow"
     },
     {
       "Number": 211,
-      "Hindi": "अध्ययन",
+      "Korean": "연구",
       "in English": "study"
     },
     {
       "Number": 212,
-      "Hindi": "अब तक",
+      "Korean": "여전히",
       "in English": "still"
     },
     {
       "Number": 213,
-      "Hindi": "सीखना",
+      "Korean": "학습",
       "in English": "learn"
     },
     {
       "Number": 214,
-      "Hindi": "संयंत्र",
+      "Korean": "공장",
       "in English": "plant"
     },
     {
       "Number": 215,
-      "Hindi": "कवर",
+      "Korean": "덮개",
       "in English": "cover"
     },
     {
       "Number": 216,
-      "Hindi": "भोजन",
+      "Korean": "음식",
       "in English": "food"
     },
     {
       "Number": 217,
-      "Hindi": "सूरज",
+      "Korean": "일",
       "in English": "sun"
     },
     {
       "Number": 218,
-      "Hindi": "चार",
+      "Korean": "네",
       "in English": "four"
     },
     {
       "Number": 219,
-      "Hindi": "के बीच",
+      "Korean": "사이",
       "in English": "between"
     },
     {
       "Number": 220,
-      "Hindi": "राज्य",
+      "Korean": "상태",
       "in English": "state"
     },
     {
       "Number": 221,
-      "Hindi": "रखना",
+      "Korean": "유지",
       "in English": "keep"
     },
     {
       "Number": 222,
-      "Hindi": "आंख",
+      "Korean": "눈",
       "in English": "eye"
     },
     {
       "Number": 223,
-      "Hindi": "कभी नहीं",
+      "Korean": "결코",
       "in English": "never"
     },
     {
       "Number": 224,
-      "Hindi": "पिछले",
+      "Korean": "마지막",
       "in English": "last"
     },
     {
       "Number": 225,
-      "Hindi": "चलो",
+      "Korean": "하자",
       "in English": "let"
     },
     {
       "Number": 226,
-      "Hindi": "सोचा",
+      "Korean": "생각",
       "in English": "thought"
     },
     {
       "Number": 227,
-      "Hindi": "शहर",
+      "Korean": "도시",
       "in English": "city"
     },
     {
       "Number": 228,
-      "Hindi": "पेड़",
+      "Korean": "트리",
       "in English": "tree"
     },
     {
       "Number": 229,
-      "Hindi": "पार",
+      "Korean": "교차",
       "in English": "cross"
     },
     {
       "Number": 230,
-      "Hindi": "खेत",
+      "Korean": "농장",
       "in English": "farm"
     },
     {
       "Number": 231,
-      "Hindi": "कठिन",
+      "Korean": "단단한",
       "in English": "hard"
     },
     {
       "Number": 232,
-      "Hindi": "शुरुआत",
+      "Korean": "시작",
       "in English": "start"
     },
     {
       "Number": 233,
-      "Hindi": "हो सकता है",
+      "Korean": "수도",
       "in English": "might"
     },
     {
       "Number": 234,
-      "Hindi": "कहानी",
+      "Korean": "이야기",
       "in English": "story"
     },
     {
       "Number": 235,
-      "Hindi": "देखा",
+      "Korean": "톱",
       "in English": "saw"
     },
     {
       "Number": 236,
-      "Hindi": "दूर",
+      "Korean": "까지",
       "in English": "far"
     },
     {
       "Number": 237,
-      "Hindi": "समुद्र",
+      "Korean": "바다",
       "in English": "sea"
     },
     {
       "Number": 238,
-      "Hindi": "आकर्षित",
+      "Korean": "그리",
       "in English": "draw"
     },
     {
       "Number": 239,
-      "Hindi": "छोड़ा",
+      "Korean": "왼쪽",
       "in English": "left"
     },
     {
       "Number": 240,
-      "Hindi": "देर से",
+      "Korean": "후반",
       "in English": "late"
     },
     {
       "Number": 241,
-      "Hindi": "चलाने",
+      "Korean": "실행",
       "in English": "run"
     },
     {
       "Number": 242,
-      "Hindi": "ऐसा नहीं",
+      "Korean": "하지",
       "in English": "don’t"
     },
     {
       "Number": 243,
-      "Hindi": "जबकि",
+      "Korean": "반면",
       "in English": "while"
     },
     {
       "Number": 244,
-      "Hindi": "प्रेस",
+      "Korean": "키를 누? 니다",
       "in English": "press"
     },
     {
       "Number": 245,
-      "Hindi": "करीब",
+      "Korean": "가까이",
       "in English": "close"
     },
     {
       "Number": 246,
-      "Hindi": "रात",
+      "Korean": "밤",
       "in English": "night"
     },
     {
       "Number": 247,
-      "Hindi": "असली",
+      "Korean": "실제",
       "in English": "real"
     },
     {
       "Number": 248,
-      "Hindi": "जीवन",
+      "Korean": "생활",
       "in English": "life"
     },
     {
       "Number": 249,
-      "Hindi": "कुछ",
+      "Korean": "조금",
       "in English": "few"
     },
     {
       "Number": 250,
-      "Hindi": "उत्तर",
+      "Korean": "북",
       "in English": "north"
     },
     {
       "Number": 251,
-      "Hindi": "किताब",
+      "Korean": "?",
       "in English": "book"
     },
     {
       "Number": 252,
-      "Hindi": "ले",
+      "Korean": "수행",
       "in English": "carry"
     },
     {
       "Number": 253,
-      "Hindi": "ले लिया",
+      "Korean": "했다",
       "in English": "took"
     },
     {
       "Number": 254,
-      "Hindi": "विज्ञान",
+      "Korean": "과학",
       "in English": "science"
     },
     {
       "Number": 255,
-      "Hindi": "खाने",
+      "Korean": "식사",
       "in English": "eat"
     },
     {
       "Number": 256,
-      "Hindi": "कमरे",
+      "Korean": "방",
       "in English": "room"
     },
     {
       "Number": 257,
-      "Hindi": "दोस्त",
+      "Korean": "친구",
       "in English": "friend"
     },
     {
       "Number": 258,
-      "Hindi": "शुरू हुआ",
+      "Korean": "시작",
       "in English": "began"
     },
     {
       "Number": 259,
-      "Hindi": "विचार",
+      "Korean": "아이디어",
       "in English": "idea"
     },
     {
       "Number": 260,
-      "Hindi": "मछली",
+      "Korean": "물고기",
       "in English": "fish"
     },
     {
       "Number": 261,
-      "Hindi": "पहाड़",
+      "Korean": "산",
       "in English": "mountain"
     },
     {
       "Number": 262,
-      "Hindi": "रोक",
+      "Korean": "중지",
       "in English": "stop"
     },
     {
       "Number": 263,
-      "Hindi": "एक बार",
+      "Korean": "한 번",
       "in English": "once"
     },
     {
       "Number": 264,
-      "Hindi": "आधार",
+      "Korean": "기본",
       "in English": "base"
     },
     {
       "Number": 265,
-      "Hindi": "सुनना",
+      "Korean": "듣다",
       "in English": "hear"
     },
     {
       "Number": 266,
-      "Hindi": "घोड़ा",
+      "Korean": "말",
       "in English": "horse"
     },
     {
       "Number": 267,
-      "Hindi": "कटौती",
+      "Korean": "컷",
       "in English": "cut"
     },
     {
       "Number": 268,
-      "Hindi": "यकीन",
+      "Korean": "확실한",
       "in English": "sure"
     },
     {
       "Number": 269,
-      "Hindi": "घड़ी",
+      "Korean": "손목 시계",
       "in English": "watch"
     },
     {
       "Number": 270,
-      "Hindi": "रंग",
+      "Korean": "색",
       "in English": "color"
     },
     {
       "Number": 271,
-      "Hindi": "चेहरा",
+      "Korean": "얼굴",
       "in English": "face"
     },
     {
       "Number": 272,
-      "Hindi": "लकड़ी",
+      "Korean": "나무",
       "in English": "wood"
     },
     {
       "Number": 273,
-      "Hindi": "मुख्य",
+      "Korean": "주",
       "in English": "main"
     },
     {
       "Number": 274,
-      "Hindi": "खुला",
+      "Korean": "오픈",
       "in English": "open"
     },
     {
       "Number": 275,
-      "Hindi": "प्रतीत",
+      "Korean": "것",
       "in English": "seem"
     },
     {
       "Number": 276,
-      "Hindi": "एक साथ",
+      "Korean": "함께",
       "in English": "together"
     },
     {
       "Number": 277,
-      "Hindi": "अगला",
+      "Korean": "다음",
       "in English": "next"
     },
     {
       "Number": 278,
-      "Hindi": "सफेद",
+      "Korean": "흰색",
       "in English": "white"
     },
     {
       "Number": 279,
-      "Hindi": "बच्चों",
+      "Korean": "어린이",
       "in English": "children"
     },
     {
       "Number": 280,
-      "Hindi": "प्रारंभ करना",
+      "Korean": "시작",
       "in English": "begin"
     },
     {
       "Number": 281,
-      "Hindi": "मिला",
+      "Korean": "있어",
       "in English": "got"
     },
     {
       "Number": 282,
-      "Hindi": "चलना",
+      "Korean": "도보",
       "in English": "walk"
     },
     {
       "Number": 283,
-      "Hindi": "उदाहरण",
+      "Korean": "예",
       "in English": "example"
     },
     {
       "Number": 284,
-      "Hindi": "आसानी",
+      "Korean": "완화",
       "in English": "ease"
     },
     {
       "Number": 285,
-      "Hindi": "कागज",
+      "Korean": "? 이",
       "in English": "paper"
     },
     {
       "Number": 286,
-      "Hindi": "समूह",
+      "Korean": "그룹",
       "in English": "group"
     },
     {
       "Number": 287,
-      "Hindi": "सदैव",
+      "Korean": "항상",
       "in English": "always"
     },
     {
       "Number": 288,
-      "Hindi": "संगीत",
+      "Korean": "음?",
       "in English": "music"
     },
     {
       "Number": 289,
-      "Hindi": "उन",
+      "Korean": "그",
       "in English": "those"
     },
     {
       "Number": 290,
-      "Hindi": "दोनों",
+      "Korean": "모두",
       "in English": "both"
     },
     {
       "Number": 291,
-      "Hindi": "मार्क",
+      "Korean": "마르크",
       "in English": "mark"
     },
     {
       "Number": 292,
-      "Hindi": "अक्सर",
+      "Korean": "자주",
       "in English": "often"
     },
     {
       "Number": 293,
-      "Hindi": "पत्र",
+      "Korean": "편지",
       "in English": "letter"
     },
     {
       "Number": 294,
-      "Hindi": "जब तक",
+      "Korean": "까지",
       "in English": "until"
     },
     {
       "Number": 295,
-      "Hindi": "मील",
+      "Korean": "마일",
       "in English": "mile"
     },
     {
       "Number": 296,
-      "Hindi": "नदी",
+      "Korean": "강",
       "in English": "river"
     },
     {
       "Number": 297,
-      "Hindi": "कार",
+      "Korean": "자동차",
       "in English": "car"
     },
     {
       "Number": 298,
-      "Hindi": "पैर",
+      "Korean": "피트",
       "in English": "feet"
     },
     {
       "Number": 299,
-      "Hindi": "देखभाल",
+      "Korean": "주의",
       "in English": "care"
     },
     {
       "Number": 300,
-      "Hindi": "दूसरा",
+      "Korean": "초",
       "in English": "second"
     },
     {
       "Number": 301,
-      "Hindi": "पर्याप्त",
+      "Korean": "충분히",
       "in English": "enough"
     },
     {
       "Number": 302,
-      "Hindi": "सादे",
+      "Korean": "일반",
       "in English": "plain"
     },
     {
       "Number": 303,
-      "Hindi": "लड़की",
+      "Korean": "소? ?",
       "in English": "girl"
     },
     {
       "Number": 304,
-      "Hindi": "हमेशा की तरह",
+      "Korean": "보통",
       "in English": "usual"
     },
     {
       "Number": 305,
-      "Hindi": "युवा",
+      "Korean": "젊은",
       "in English": "young"
     },
     {
       "Number": 306,
-      "Hindi": "तैयार",
+      "Korean": "준비된",
       "in English": "ready"
     },
     {
       "Number": 307,
-      "Hindi": "ऊपर",
+      "Korean": "위",
       "in English": "above"
     },
     {
       "Number": 308,
-      "Hindi": "कभी",
+      "Korean": "지금까지",
       "in English": "ever"
     },
     {
       "Number": 309,
-      "Hindi": "लाल",
+      "Korean": "빨간색",
       "in English": "red"
     },
     {
       "Number": 310,
-      "Hindi": "सूची",
+      "Korean": "표",
       "in English": "list"
     },
     {
       "Number": 311,
-      "Hindi": "हालांकि",
+      "Korean": "그래도",
       "in English": "though"
     },
     {
       "Number": 312,
-      "Hindi": "लग रहा है",
+      "Korean": "느낌",
       "in English": "feel"
     },
     {
       "Number": 313,
-      "Hindi": "वार्ता",
+      "Korean": "이야기",
       "in English": "talk"
     },
     {
       "Number": 314,
-      "Hindi": "पक्षी",
+      "Korean": "조류",
       "in English": "bird"
     },
     {
       "Number": 315,
-      "Hindi": "शीघ्र",
+      "Korean": "곧",
       "in English": "soon"
     },
     {
       "Number": 316,
-      "Hindi": "शरीर",
+      "Korean": "몸",
       "in English": "body"
     },
     {
       "Number": 317,
-      "Hindi": "कुत्ते",
+      "Korean": "개",
       "in English": "dog"
     },
     {
       "Number": 318,
-      "Hindi": "परिवार",
+      "Korean": "가족",
       "in English": "family"
     },
     {
       "Number": 319,
-      "Hindi": "प्रत्यक्ष",
+      "Korean": "직접",
       "in English": "direct"
     },
     {
       "Number": 320,
-      "Hindi": "ढोंग",
+      "Korean": "포즈",
       "in English": "pose"
     },
     {
       "Number": 321,
-      "Hindi": "छोड़",
+      "Korean": "떠나",
       "in English": "leave"
     },
     {
       "Number": 322,
-      "Hindi": "गीत",
+      "Korean": "? ?래",
       "in English": "song"
     },
     {
       "Number": 323,
-      "Hindi": "नाप",
+      "Korean": "측정",
       "in English": "measure"
     },
     {
       "Number": 324,
-      "Hindi": "दरवाजा",
+      "Korean": "문",
       "in English": "door"
     },
     {
       "Number": 325,
-      "Hindi": "उत्पाद",
+      "Korean": "제품",
       "in English": "product"
     },
     {
       "Number": 326,
-      "Hindi": "काला",
+      "Korean": "블랙",
       "in English": "black"
     },
     {
       "Number": 327,
-      "Hindi": "कम",
+      "Korean": "짧은",
       "in English": "short"
     },
     {
       "Number": 328,
-      "Hindi": "अंक",
+      "Korean": "숫자",
       "in English": "numeral"
     },
     {
       "Number": 329,
-      "Hindi": "क्लास",
+      "Korean": "클래스",
       "in English": "class"
     },
     {
       "Number": 330,
-      "Hindi": "हवा",
+      "Korean": "바람",
       "in English": "wind"
     },
     {
       "Number": 331,
-      "Hindi": "सवाल",
+      "Korean": "질문",
       "in English": "question"
     },
     {
       "Number": 332,
-      "Hindi": "होना",
+      "Korean": "일",
       "in English": "happen"
     },
     {
       "Number": 333,
-      "Hindi": "पूरा",
+      "Korean": "완료",
       "in English": "complete"
     },
     {
       "Number": 334,
-      "Hindi": "जहाज",
+      "Korean": "배",
       "in English": "ship"
     },
     {
       "Number": 335,
-      "Hindi": "क्षेत्र",
+      "Korean": "지역",
       "in English": "area"
     },
     {
       "Number": 336,
-      "Hindi": "आधा",
+      "Korean": "반",
       "in English": "half"
     },
     {
       "Number": 337,
-      "Hindi": "रॉक",
+      "Korean": "바위",
       "in English": "rock"
     },
     {
       "Number": 338,
-      "Hindi": "आदेश",
+      "Korean": "주문",
       "in English": "order"
     },
     {
       "Number": 339,
-      "Hindi": "आग",
+      "Korean": "화재",
       "in English": "fire"
     },
     {
       "Number": 340,
-      "Hindi": "दक्षिण",
+      "Korean": "남쪽",
       "in English": "south"
     },
     {
       "Number": 341,
-      "Hindi": "समस्या",
+      "Korean": "문제",
       "in English": "problem"
     },
     {
       "Number": 342,
-      "Hindi": "टुकड़ा",
+      "Korean": "조각",
       "in English": "piece"
     },
     {
       "Number": 343,
-      "Hindi": "बताया",
+      "Korean": "이야기",
       "in English": "told"
     },
     {
       "Number": 344,
-      "Hindi": "पता था",
+      "Korean": "알고",
       "in English": "knew"
     },
     {
       "Number": 345,
-      "Hindi": "पास",
+      "Korean": "통과",
       "in English": "pass"
     },
     {
       "Number": 346,
-      "Hindi": "के बाद से",
+      "Korean": "이후",
       "in English": "since"
     },
     {
       "Number": 347,
-      "Hindi": "शीर्ष",
+      "Korean": "최고",
       "in English": "top"
     },
     {
       "Number": 348,
-      "Hindi": "पूरे",
+      "Korean": "전체",
       "in English": "whole"
     },
     {
       "Number": 349,
-      "Hindi": "राजा",
+      "Korean": "왕",
       "in English": "king"
     },
     {
       "Number": 350,
-      "Hindi": "सड़क",
+      "Korean": "거리",
       "in English": "street"
     },
     {
       "Number": 351,
-      "Hindi": "इंच",
+      "Korean": "인치",
       "in English": "inch"
     },
     {
       "Number": 352,
-      "Hindi": "गुणा",
+      "Korean": "곱",
       "in English": "multiply"
     },
     {
       "Number": 353,
-      "Hindi": "कुछ नहीं",
+      "Korean": "아무것도",
       "in English": "nothing"
     },
     {
       "Number": 354,
-      "Hindi": "कोर्स",
+      "Korean": "물론",
       "in English": "course"
     },
     {
       "Number": 355,
-      "Hindi": "रहना",
+      "Korean": "유지",
       "in English": "stay"
     },
     {
       "Number": 356,
-      "Hindi": "पहिया",
+      "Korean": "휠",
       "in English": "wheel"
     },
     {
       "Number": 357,
-      "Hindi": "पूर्ण",
+      "Korean": "전체",
       "in English": "full"
     },
     {
       "Number": 358,
-      "Hindi": "बल",
+      "Korean": "힘",
       "in English": "force"
     },
     {
       "Number": 359,
-      "Hindi": "नीला",
+      "Korean": "푸른",
       "in English": "blue"
     },
     {
       "Number": 360,
-      "Hindi": "वस्तु",
+      "Korean": "객체",
       "in English": "object"
     },
     {
       "Number": 361,
-      "Hindi": "तय",
+      "Korean": "결정",
       "in English": "decide"
     },
     {
       "Number": 362,
-      "Hindi": "सतह",
+      "Korean": "표면",
       "in English": "surface"
     },
     {
       "Number": 363,
-      "Hindi": "गहरा",
+      "Korean": "깊은",
       "in English": "deep"
     },
     {
       "Number": 364,
-      "Hindi": "चांद",
+      "Korean": "달",
       "in English": "moon"
     },
     {
       "Number": 365,
-      "Hindi": "द्वीप",
+      "Korean": "섬",
       "in English": "island"
     },
     {
       "Number": 366,
-      "Hindi": "पैर",
+      "Korean": "발",
       "in English": "foot"
     },
     {
       "Number": 367,
-      "Hindi": "प्रणाली",
+      "Korean": "시스? ?",
       "in English": "system"
     },
     {
       "Number": 368,
-      "Hindi": "व्यस्त",
+      "Korean": "바쁜",
       "in English": "busy"
     },
     {
       "Number": 369,
-      "Hindi": "परीक्षण",
+      "Korean": "? ?스트",
       "in English": "test"
     },
     {
       "Number": 370,
-      "Hindi": "रिकॉर्ड",
+      "Korean": "기록",
       "in English": "record"
     },
     {
       "Number": 371,
-      "Hindi": "नाव",
+      "Korean": "보트",
       "in English": "boat"
     },
     {
       "Number": 372,
-      "Hindi": "आम",
+      "Korean": "공통의",
       "in English": "common"
     },
     {
       "Number": 373,
-      "Hindi": "सोना",
+      "Korean": "금",
       "in English": "gold"
     },
     {
       "Number": 374,
-      "Hindi": "संभव",
+      "Korean": "가능한",
       "in English": "possible"
     },
     {
       "Number": 375,
-      "Hindi": "विमान",
+      "Korean": "비행기",
       "in English": "plane"
     },
     {
       "Number": 376,
-      "Hindi": "जगह",
+      "Korean": "대신",
       "in English": "stead"
     },
     {
       "Number": 377,
-      "Hindi": "सूखा",
+      "Korean": "건조",
       "in English": "dry"
     },
     {
       "Number": 378,
-      "Hindi": "आश्चर्य",
+      "Korean": "궁금",
       "in English": "wonder"
     },
     {
       "Number": 379,
-      "Hindi": "हंसी",
+      "Korean": "웃음",
       "in English": "laugh"
     },
     {
       "Number": 380,
-      "Hindi": "हजार",
+      "Korean": "천",
       "in English": "thousand"
     },
     {
       "Number": 381,
-      "Hindi": "पहले",
+      "Korean": "전",
       "in English": "ago"
     },
     {
       "Number": 382,
-      "Hindi": "भागा",
+      "Korean": "실행",
       "in English": "ran"
     },
     {
       "Number": 383,
-      "Hindi": "जाँच",
+      "Korean": "확인",
       "in English": "check"
     },
     {
       "Number": 384,
-      "Hindi": "खेल",
+      "Korean": "게임",
       "in English": "game"
     },
     {
       "Number": 385,
-      "Hindi": "आकार",
+      "Korean": "모양",
       "in English": "shape"
     },
     {
       "Number": 386,
-      "Hindi": "समानता",
+      "Korean": "동일시",
       "in English": "equate"
     },
     {
       "Number": 387,
-      "Hindi": "गरम",
+      "Korean": "뜨거운",
       "in English": "hot"
     },
     {
       "Number": 388,
-      "Hindi": "मिस",
+      "Korean": "미스",
       "in English": "miss"
     },
     {
       "Number": 389,
-      "Hindi": "लाया",
+      "Korean": "가져",
       "in English": "brought"
     },
     {
       "Number": 390,
-      "Hindi": "गर्मी",
+      "Korean": "열",
       "in English": "heat"
     },
     {
       "Number": 391,
-      "Hindi": "बर्फ",
+      "Korean": "눈",
       "in English": "snow"
     },
     {
       "Number": 392,
-      "Hindi": "टायर",
+      "Korean": "타이어",
       "in English": "tire"
     },
     {
       "Number": 393,
-      "Hindi": "लाना",
+      "Korean": "가져",
       "in English": "bring"
     },
     {
       "Number": 394,
-      "Hindi": "हां",
+      "Korean": "예",
       "in English": "yes"
     },
     {
       "Number": 395,
-      "Hindi": "दूर",
+      "Korean": "먼",
       "in English": "distant"
     },
     {
       "Number": 396,
-      "Hindi": "भरने",
+      "Korean": "? 력",
       "in English": "fill"
     },
     {
       "Number": 397,
-      "Hindi": "पूर्व",
+      "Korean": "동쪽",
       "in English": "east"
     },
     {
       "Number": 398,
-      "Hindi": "रंग",
+      "Korean": "페인트",
       "in English": "paint"
     },
     {
       "Number": 399,
-      "Hindi": "भाषा",
+      "Korean": "언어",
       "in English": "language"
     },
     {
       "Number": 400,
-      "Hindi": "के बीच",
+      "Korean": "중",
       "in English": "among"
     },
     {
       "Number": 401,
-      "Hindi": "इकाई",
+      "Korean": "단위",
       "in English": "unit"
     },
     {
       "Number": 402,
-      "Hindi": "बिजली",
+      "Korean": "힘",
       "in English": "power"
     },
     {
       "Number": 403,
-      "Hindi": "शहर",
+      "Korean": "마을",
       "in English": "town"
     },
     {
       "Number": 404,
-      "Hindi": "ठीक",
+      "Korean": "잘",
       "in English": "fine"
     },
     {
       "Number": 405,
-      "Hindi": "कुछ",
+      "Korean": "어떤",
       "in English": "certain"
     },
     {
       "Number": 406,
-      "Hindi": "मक्खी",
+      "Korean": "비행",
       "in English": "fly"
     },
     {
       "Number": 407,
-      "Hindi": "गिरावट",
+      "Korean": "가을",
       "in English": "fall"
     },
     {
       "Number": 408,
-      "Hindi": "नेतृत्व",
+      "Korean": "지도",
       "in English": "lead"
     },
     {
       "Number": 409,
-      "Hindi": "रोना",
+      "Korean": "울음 소리",
       "in English": "cry"
     },
     {
       "Number": 410,
-      "Hindi": "अंधेरा",
+      "Korean": "어두운",
       "in English": "dark"
     },
     {
       "Number": 411,
-      "Hindi": "मशीन",
+      "Korean": "기계",
       "in English": "machine"
     },
     {
       "Number": 412,
-      "Hindi": "नोट",
+      "Korean": "주의",
       "in English": "note"
     },
     {
       "Number": 413,
-      "Hindi": "इंतजार",
+      "Korean": "대기",
       "in English": "wait"
     },
     {
       "Number": 414,
-      "Hindi": "योजना",
+      "Korean": "계획",
       "in English": "plan"
     },
     {
       "Number": 415,
-      "Hindi": "आंकड़ा",
+      "Korean": "그림",
       "in English": "figure"
     },
     {
       "Number": 416,
-      "Hindi": "सितारा",
+      "Korean": "스타",
       "in English": "star"
     },
     {
       "Number": 417,
-      "Hindi": "बॉक्स",
+      "Korean": "상자",
       "in English": "box"
     },
     {
       "Number": 418,
-      "Hindi": "संज्ञा",
+      "Korean": "? 사",
       "in English": "noun"
     },
     {
       "Number": 419,
-      "Hindi": "क्षेत्र",
+      "Korean": "필드",
       "in English": "field"
     },
     {
       "Number": 420,
-      "Hindi": "बाकी",
+      "Korean": "나머지",
       "in English": "rest"
     },
     {
       "Number": 421,
-      "Hindi": "सही",
+      "Korean": "정확한",
       "in English": "correct"
     },
     {
       "Number": 422,
-      "Hindi": "सक्षम",
+      "Korean": "수",
       "in English": "able"
     },
     {
       "Number": 423,
-      "Hindi": "पाउंड",
+      "Korean": "파운드",
       "in English": "pound"
     },
     {
       "Number": 424,
-      "Hindi": "किया",
+      "Korean": "완료",
       "in English": "done"
     },
     {
       "Number": 425,
-      "Hindi": "सुंदरता",
+      "Korean": "아름다움",
       "in English": "beauty"
     },
     {
       "Number": 426,
-      "Hindi": "ड्राइव",
+      "Korean": "드라이브",
       "in English": "drive"
     },
     {
       "Number": 427,
-      "Hindi": "खड़ा हुआ",
+      "Korean": "서",
       "in English": "stood"
     },
     {
       "Number": 428,
-      "Hindi": "होते हैं",
+      "Korean": "포함",
       "in English": "contain"
     },
     {
       "Number": 429,
-      "Hindi": "सामने",
+      "Korean": "앞",
       "in English": "front"
     },
     {
       "Number": 430,
-      "Hindi": "सिखाना",
+      "Korean": "가르쳐",
       "in English": "teach"
     },
     {
       "Number": 431,
-      "Hindi": "सप्ताह",
+      "Korean": "주",
       "in English": "week"
     },
     {
       "Number": 432,
-      "Hindi": "अंतिम",
+      "Korean": "최?",
       "in English": "final"
     },
     {
       "Number": 433,
-      "Hindi": "दिया",
+      "Korean": "준",
       "in English": "gave"
     },
     {
       "Number": 434,
-      "Hindi": "हरे रंग",
+      "Korean": "? ?색",
       "in English": "green"
     },
     {
       "Number": 435,
-      "Hindi": "ओह",
+      "Korean": "오",
       "in English": "oh"
     },
     {
       "Number": 436,
-      "Hindi": "त्वरित",
+      "Korean": "빨리",
       "in English": "quick"
     },
     {
       "Number": 437,
-      "Hindi": "विकसित",
+      "Korean": "개발",
       "in English": "develop"
     },
     {
       "Number": 438,
-      "Hindi": "सागर",
+      "Korean": "대양",
       "in English": "ocean"
     },
     {
       "Number": 439,
-      "Hindi": "गर्म",
+      "Korean": "따뜻한",
       "in English": "warm"
     },
     {
       "Number": 440,
-      "Hindi": "मुक्त",
+      "Korean": "무료",
       "in English": "free"
     },
     {
       "Number": 441,
-      "Hindi": "मिनट",
+      "Korean": "분",
       "in English": "minute"
     },
     {
       "Number": 442,
-      "Hindi": "मजबूत",
+      "Korean": "강한",
       "in English": "strong"
     },
     {
       "Number": 443,
-      "Hindi": "विशेष",
+      "Korean": "특수",
       "in English": "special"
     },
     {
       "Number": 444,
-      "Hindi": "मन",
+      "Korean": "마음",
       "in English": "mind"
     },
     {
       "Number": 445,
-      "Hindi": "पीछे",
+      "Korean": "뒤에",
       "in English": "behind"
     },
     {
       "Number": 446,
-      "Hindi": "स्पष्ट",
+      "Korean": "? 확한",
       "in English": "clear"
     },
     {
       "Number": 447,
-      "Hindi": "पूंछ",
+      "Korean": "꼬리",
       "in English": "tail"
     },
     {
       "Number": 448,
-      "Hindi": "उत्पादन",
+      "Korean": "생산",
       "in English": "produce"
     },
     {
       "Number": 449,
-      "Hindi": "तथ्य",
+      "Korean": "사실",
       "in English": "fact"
     },
     {
       "Number": 450,
-      "Hindi": "अंतरिक्ष",
+      "Korean": "공간",
       "in English": "space"
     },
     {
       "Number": 451,
-      "Hindi": "सुना",
+      "Korean": "들어",
       "in English": "heard"
     },
     {
       "Number": 452,
-      "Hindi": "सर्वश्रेष्ठ",
+      "Korean": "가장",
       "in English": "best"
     },
     {
       "Number": 453,
-      "Hindi": "घंटे",
+      "Korean": "시간",
       "in English": "hour"
     },
     {
       "Number": 454,
-      "Hindi": "बेहतर",
+      "Korean": "더",
       "in English": "better"
     },
     {
       "Number": 455,
-      "Hindi": "सच",
+      "Korean": "사실",
       "in English": "true"
     },
     {
       "Number": 456,
-      "Hindi": "दौरान",
+      "Korean": "중",
       "in English": "during"
     },
     {
       "Number": 457,
-      "Hindi": "सौ",
+      "Korean": "백",
       "in English": "hundred"
     },
     {
       "Number": 458,
-      "Hindi": "पांच",
+      "Korean": "오",
       "in English": "five"
     },
     {
       "Number": 459,
-      "Hindi": "याद",
+      "Korean": "기억",
       "in English": "remember"
     },
     {
       "Number": 460,
-      "Hindi": "कदम",
+      "Korean": "단계",
       "in English": "step"
     },
     {
       "Number": 461,
-      "Hindi": "शीघ्र",
+      "Korean": "초기",
       "in English": "early"
     },
     {
       "Number": 462,
-      "Hindi": "पकड़",
+      "Korean": "개최",
       "in English": "hold"
     },
     {
       "Number": 463,
-      "Hindi": "पश्चिम",
+      "Korean": "서쪽",
       "in English": "west"
     },
     {
       "Number": 464,
-      "Hindi": "जमीन",
+      "Korean": "지상",
       "in English": "ground"
     },
     {
       "Number": 465,
-      "Hindi": "ब्याज",
+      "Korean": "관심",
       "in English": "interest"
     },
     {
       "Number": 466,
-      "Hindi": "तक पहुँचने",
+      "Korean": "범위",
       "in English": "reach"
     },
     {
       "Number": 467,
-      "Hindi": "तेजी",
+      "Korean": "빠른",
       "in English": "fast"
     },
     {
       "Number": 468,
-      "Hindi": "क्रिया",
+      "Korean": "동사",
       "in English": "verb"
     },
     {
       "Number": 469,
-      "Hindi": "गाना",
+      "Korean": "? ?래",
       "in English": "sing"
     },
     {
       "Number": 470,
-      "Hindi": "सुनो",
+      "Korean": "청취",
       "in English": "listen"
     },
     {
       "Number": 471,
-      "Hindi": "छह",
+      "Korean": "육",
       "in English": "six"
     },
     {
       "Number": 472,
-      "Hindi": "तालिका",
+      "Korean": "나타난",
       "in English": "table"
     },
     {
       "Number": 473,
-      "Hindi": "यात्रा",
+      "Korean": "여행",
       "in English": "travel"
     },
     {
       "Number": 474,
-      "Hindi": "कम",
+      "Korean": "이하",
       "in English": "less"
     },
     {
       "Number": 475,
-      "Hindi": "सुबह",
+      "Korean": "아침",
       "in English": "morning"
     },
     {
       "Number": 476,
-      "Hindi": "दस",
+      "Korean": "열",
       "in English": "ten"
     },
     {
       "Number": 477,
-      "Hindi": "सरल",
+      "Korean": "간단한",
       "in English": "simple"
     },
     {
       "Number": 478,
-      "Hindi": "कई",
+      "Korean": "여러",
       "in English": "several"
     },
     {
       "Number": 479,
-      "Hindi": "स्वर",
+      "Korean": "모음",
       "in English": "vowel"
     },
     {
       "Number": 480,
-      "Hindi": "की ओर",
+      "Korean": "방향",
       "in English": "toward"
     },
     {
       "Number": 481,
-      "Hindi": "युद्ध",
+      "Korean": "전쟁",
       "in English": "war"
     },
     {
       "Number": 482,
-      "Hindi": "रखना",
+      "Korean": "누워",
       "in English": "lay"
     },
     {
       "Number": 483,
-      "Hindi": "के खिलाफ",
+      "Korean": "에 대하여",
       "in English": "against"
     },
     {
       "Number": 484,
-      "Hindi": "पैटर्न",
+      "Korean": "패턴",
       "in English": "pattern"
     },
     {
       "Number": 485,
-      "Hindi": "धीमी",
+      "Korean": "느린",
       "in English": "slow"
     },
     {
       "Number": 486,
-      "Hindi": "केंद्र",
+      "Korean": "센터",
       "in English": "center"
     },
     {
       "Number": 487,
-      "Hindi": "प्यार",
+      "Korean": "사랑",
       "in English": "love"
     },
     {
       "Number": 488,
-      "Hindi": "व्यक्ति",
+      "Korean": "사람",
       "in English": "person"
     },
     {
       "Number": 489,
-      "Hindi": "धन",
+      "Korean": "돈",
       "in English": "money"
     },
     {
       "Number": 490,
-      "Hindi": "सेवा कर",
+      "Korean": "봉사",
       "in English": "serve"
     },
     {
       "Number": 491,
-      "Hindi": "प्रकट",
+      "Korean": "표시",
       "in English": "appear"
     },
     {
       "Number": 492,
-      "Hindi": "सड़क",
+      "Korean": "도로",
       "in English": "road"
     },
     {
       "Number": 493,
-      "Hindi": "नक्शा",
+      "Korean": "지도",
       "in English": "map"
     },
     {
       "Number": 494,
-      "Hindi": "बारिश",
+      "Korean": "비",
       "in English": "rain"
     },
     {
       "Number": 495,
-      "Hindi": "नियम",
+      "Korean": "규칙",
       "in English": "rule"
     },
     {
       "Number": 496,
-      "Hindi": "शासन",
+      "Korean": "적용",
       "in English": "govern"
     },
     {
       "Number": 497,
-      "Hindi": "खींच",
+      "Korean": "당겨",
       "in English": "pull"
     },
     {
       "Number": 498,
-      "Hindi": "ठंड",
+      "Korean": "감기",
       "in English": "cold"
     },
     {
       "Number": 499,
-      "Hindi": "नोटिस",
+      "Korean": "예고",
       "in English": "notice"
     },
     {
       "Number": 500,
-      "Hindi": "आवाज",
+      "Korean": "음성",
       "in English": "voice"
     },
     {
       "Number": 501,
-      "Hindi": "ऊर्जा",
+      "Korean": "에너지",
       "in English": "energy"
     },
     {
       "Number": 502,
-      "Hindi": "शिकार",
+      "Korean": "사냥",
       "in English": "hunt"
     },
     {
       "Number": 503,
-      "Hindi": "संभावित",
+      "Korean": "가능성",
       "in English": "probable"
     },
     {
       "Number": 504,
-      "Hindi": "बिस्तर",
+      "Korean": "침대",
       "in English": "bed"
     },
     {
       "Number": 505,
-      "Hindi": "भाई",
+      "Korean": "형제",
       "in English": "brother"
     },
     {
       "Number": 506,
-      "Hindi": "अंडा",
+      "Korean": "계란",
       "in English": "egg"
     },
     {
       "Number": 507,
-      "Hindi": "सवारी",
+      "Korean": "타고",
       "in English": "ride"
     },
     {
       "Number": 508,
-      "Hindi": "सेल",
+      "Korean": "? ?",
       "in English": "cell"
     },
     {
       "Number": 509,
-      "Hindi": "विश्वास है",
+      "Korean": "생각",
       "in English": "believe"
     },
     {
       "Number": 510,
-      "Hindi": "शायद",
+      "Korean": "어쩌면",
       "in English": "perhaps"
     },
     {
       "Number": 511,
-      "Hindi": "उठाओ",
+      "Korean": "선택",
       "in English": "pick"
     },
     {
       "Number": 512,
-      "Hindi": "अचानक",
+      "Korean": "갑자기",
       "in English": "sudden"
     },
     {
       "Number": 513,
-      "Hindi": "गिनती",
+      "Korean": "계산",
       "in English": "count"
     },
     {
       "Number": 514,
-      "Hindi": "वर्ग",
+      "Korean": "광장",
       "in English": "square"
     },
     {
       "Number": 515,
-      "Hindi": "कारण",
+      "Korean": "이유",
       "in English": "reason"
     },
     {
       "Number": 516,
-      "Hindi": "लंबाई",
+      "Korean": "길이",
       "in English": "length"
     },
     {
       "Number": 517,
-      "Hindi": "का प्रतिनिधित्व",
+      "Korean": "대표",
       "in English": "represent"
     },
     {
       "Number": 518,
-      "Hindi": "कला",
+      "Korean": "예술",
       "in English": "art"
     },
     {
       "Number": 519,
-      "Hindi": "विषय",
+      "Korean": "주제",
       "in English": "subject"
     },
     {
       "Number": 520,
-      "Hindi": "क्षेत्र",
+      "Korean": "지역",
       "in English": "region"
     },
     {
       "Number": 521,
-      "Hindi": "आकार",
+      "Korean": "크기",
       "in English": "size"
     },
     {
       "Number": 522,
-      "Hindi": "भिन्न हो",
+      "Korean": "다양",
       "in English": "vary"
     },
     {
       "Number": 523,
-      "Hindi": "बसा",
+      "Korean": "정착",
       "in English": "settle"
     },
     {
       "Number": 524,
-      "Hindi": "बोलना",
+      "Korean": "이야기",
       "in English": "speak"
     },
     {
       "Number": 525,
-      "Hindi": "वजन",
+      "Korean": "무게",
       "in English": "weight"
     },
     {
       "Number": 526,
-      "Hindi": "सामान्य",
+      "Korean": "일반",
       "in English": "general"
     },
     {
       "Number": 527,
-      "Hindi": "बर्फ",
+      "Korean": "얼음",
       "in English": "ice"
     },
     {
       "Number": 528,
-      "Hindi": "मामला",
+      "Korean": "문제",
       "in English": "matter"
     },
     {
       "Number": 529,
-      "Hindi": "वृत्त",
+      "Korean": "원",
       "in English": "circle"
     },
     {
       "Number": 530,
-      "Hindi": "जोड़ी",
+      "Korean": "쌍",
       "in English": "pair"
     },
     {
       "Number": 531,
-      "Hindi": "शामिल",
+      "Korean": "포함",
       "in English": "include"
     },
     {
       "Number": 532,
-      "Hindi": "विभाजन",
+      "Korean": "분할",
       "in English": "divide"
     },
     {
       "Number": 533,
-      "Hindi": "शब्दांश",
+      "Korean": "음절",
       "in English": "syllable"
     },
     {
       "Number": 534,
-      "Hindi": "लगा",
+      "Korean": "느낌",
       "in English": "felt"
     },
     {
       "Number": 535,
-      "Hindi": "भव्य",
+      "Korean": "그랜드",
       "in English": "grand"
     },
     {
       "Number": 536,
-      "Hindi": "गेंद",
+      "Korean": "공",
       "in English": "ball"
     },
     {
       "Number": 537,
-      "Hindi": "अभी तक",
+      "Korean": "아직",
       "in English": "yet"
     },
     {
       "Number": 538,
-      "Hindi": "लहर",
+      "Korean": "파",
       "in English": "wave"
     },
     {
       "Number": 539,
-      "Hindi": "ड्रॉप",
+      "Korean": "드롭",
       "in English": "drop"
     },
     {
       "Number": 540,
-      "Hindi": "दिल",
+      "Korean": "마음",
       "in English": "heart"
     },
     {
       "Number": 541,
-      "Hindi": "AM",
+      "Korean": "어디로",
       "in English": "am"
     },
     {
       "Number": 542,
-      "Hindi": "वर्तमान",
+      "Korean": "현재",
       "in English": "present"
     },
     {
       "Number": 543,
-      "Hindi": "भारी",
+      "Korean": "무거운",
       "in English": "heavy"
     },
     {
       "Number": 544,
-      "Hindi": "नृत्य",
+      "Korean": "댄스",
       "in English": "dance"
     },
     {
       "Number": 545,
-      "Hindi": "इंजन",
+      "Korean": "엔진",
       "in English": "engine"
     },
     {
       "Number": 546,
-      "Hindi": "स्थिति",
+      "Korean": "위치",
       "in English": "position"
     },
     {
       "Number": 547,
-      "Hindi": "बांह",
+      "Korean": "팔",
       "in English": "arm"
     },
     {
       "Number": 548,
-      "Hindi": "विस्तृत",
+      "Korean": "폭",
       "in English": "wide"
     },
     {
       "Number": 549,
-      "Hindi": "स्टील अथॉरिटी ऑफ इंडिया",
+      "Korean": "항해",
       "in English": "sail"
     },
     {
       "Number": 550,
-      "Hindi": "सामग्री",
+      "Korean": "재료",
       "in English": "material"
     },
     {
       "Number": 551,
-      "Hindi": "अंश",
+      "Korean": "분수",
       "in English": "fraction"
     },
     {
       "Number": 552,
-      "Hindi": "वन",
+      "Korean": "숲",
       "in English": "forest"
     },
     {
       "Number": 553,
-      "Hindi": "बैठना",
+      "Korean": "앉아",
       "in English": "sit"
     },
     {
       "Number": 554,
-      "Hindi": "दौड़",
+      "Korean": "레이스",
       "in English": "race"
     },
     {
       "Number": 555,
-      "Hindi": "खिड़की",
+      "Korean": "창",
       "in English": "window"
     },
     {
       "Number": 556,
-      "Hindi": "दुकान",
+      "Korean": "상점",
       "in English": "store"
     },
     {
       "Number": 557,
-      "Hindi": "गर्मियों",
+      "Korean": "여름",
       "in English": "summer"
     },
     {
       "Number": 558,
-      "Hindi": "सफर",
+      "Korean": "기차",
       "in English": "train"
     },
     {
       "Number": 559,
-      "Hindi": "नींद",
+      "Korean": "잠",
       "in English": "sleep"
     },
     {
       "Number": 560,
-      "Hindi": "साबित",
+      "Korean": "증?",
       "in English": "prove"
     },
     {
       "Number": 561,
-      "Hindi": "लोन",
+      "Korean": "고? 한",
       "in English": "lone"
     },
     {
       "Number": 562,
-      "Hindi": "पैर",
+      "Korean": "다리",
       "in English": "leg"
     },
     {
       "Number": 563,
-      "Hindi": "व्यायाम",
+      "Korean": "운동",
       "in English": "exercise"
     },
     {
       "Number": 564,
-      "Hindi": "दीवार",
+      "Korean": "벽",
       "in English": "wall"
     },
     {
       "Number": 565,
-      "Hindi": "पकड़",
+      "Korean": "캐치",
       "in English": "catch"
     },
     {
       "Number": 566,
-      "Hindi": "माउंट",
+      "Korean": "마운트",
       "in English": "mount"
     },
     {
       "Number": 567,
-      "Hindi": "इच्छा",
+      "Korean": "소원",
       "in English": "wish"
     },
     {
       "Number": 568,
-      "Hindi": "आसमान",
+      "Korean": "하늘",
       "in English": "sky"
     },
     {
       "Number": 569,
-      "Hindi": "बोर्ड",
+      "Korean": "판",
       "in English": "board"
     },
     {
       "Number": 570,
-      "Hindi": "हर्ष",
+      "Korean": "즐거움",
       "in English": "joy"
     },
     {
       "Number": 571,
-      "Hindi": "सर्दियों",
+      "Korean": "겨울",
       "in English": "winter"
     },
     {
       "Number": 572,
-      "Hindi": "शनि",
+      "Korean": "토",
       "in English": "sat"
     },
     {
       "Number": 573,
-      "Hindi": "लिखित",
+      "Korean": "기록",
       "in English": "written"
     },
     {
       "Number": 574,
-      "Hindi": "जंगली",
+      "Korean": "야생",
       "in English": "wild"
     },
     {
       "Number": 575,
-      "Hindi": "साधन",
+      "Korean": "? 기",
       "in English": "instrument"
     },
     {
       "Number": 576,
-      "Hindi": "रखा",
+      "Korean": "유지",
       "in English": "kept"
     },
     {
       "Number": 577,
-      "Hindi": "कांच",
+      "Korean": "유리",
       "in English": "glass"
     },
     {
       "Number": 578,
-      "Hindi": "घास",
+      "Korean": "잔디",
       "in English": "grass"
     },
     {
       "Number": 579,
-      "Hindi": "गाय",
+      "Korean": "소",
       "in English": "cow"
     },
     {
       "Number": 580,
-      "Hindi": "काम",
+      "Korean": "작?",
       "in English": "job"
     },
     {
       "Number": 581,
-      "Hindi": "बढ़त",
+      "Korean": "에지",
       "in English": "edge"
     },
     {
       "Number": 582,
-      "Hindi": "साइन",
+      "Korean": "로그인",
       "in English": "sign"
     },
     {
       "Number": 583,
-      "Hindi": "यात्रा",
+      "Korean": "방문",
       "in English": "visit"
     },
     {
       "Number": 584,
-      "Hindi": "अतीत",
+      "Korean": "지난",
       "in English": "past"
     },
     {
       "Number": 585,
-      "Hindi": "मुलायम",
+      "Korean": "소프트",
       "in English": "soft"
     },
     {
       "Number": 586,
-      "Hindi": "मज़ा",
+      "Korean": "재미",
       "in English": "fun"
     },
     {
       "Number": 587,
-      "Hindi": "उज्ज्वल",
+      "Korean": "밝은",
       "in English": "bright"
     },
     {
       "Number": 588,
-      "Hindi": "गैस",
+      "Korean": "가스",
       "in English": "gas"
     },
     {
       "Number": 589,
-      "Hindi": "मौसम",
+      "Korean": "날씨",
       "in English": "weather"
     },
     {
       "Number": 590,
-      "Hindi": "माह",
+      "Korean": "개월",
       "in English": "month"
     },
     {
       "Number": 591,
-      "Hindi": "लाख",
+      "Korean": "만",
       "in English": "million"
     },
     {
       "Number": 592,
-      "Hindi": "भालू",
+      "Korean": "곰",
       "in English": "bear"
     },
     {
       "Number": 593,
-      "Hindi": "खत्म",
+      "Korean": "끝",
       "in English": "finish"
     },
     {
       "Number": 594,
-      "Hindi": "खुश",
+      "Korean": "행복",
       "in English": "happy"
     },
     {
       "Number": 595,
-      "Hindi": "आशा",
+      "Korean": "기대",
       "in English": "hope"
     },
     {
       "Number": 596,
-      "Hindi": "फूल",
+      "Korean": "꽃",
       "in English": "flower"
     },
     {
       "Number": 597,
-      "Hindi": "कपड़े",
+      "Korean": "의복을 걸치다",
       "in English": "clothe"
     },
     {
       "Number": 598,
-      "Hindi": "अजीब",
+      "Korean": "기이 한",
       "in English": "strange"
     },
     {
       "Number": 599,
-      "Hindi": "चला गया",
+      "Korean": "사라",
       "in English": "gone"
     },
     {
       "Number": 600,
-      "Hindi": "व्यापार",
+      "Korean": "무역",
       "in English": "trade"
     },
     {
       "Number": 601,
-      "Hindi": "राग",
+      "Korean": "멜로디",
       "in English": "melody"
     },
     {
       "Number": 602,
-      "Hindi": "यात्रा",
+      "Korean": "여행",
       "in English": "trip"
     },
     {
       "Number": 603,
-      "Hindi": "कार्यालय",
+      "Korean": "사무실",
       "in English": "office"
     },
     {
       "Number": 604,
-      "Hindi": "प्राप्त करना",
+      "Korean": "수신",
       "in English": "receive"
     },
     {
       "Number": 605,
-      "Hindi": "पंक्ति",
+      "Korean": "행",
       "in English": "row"
     },
     {
       "Number": 606,
-      "Hindi": "मुंह",
+      "Korean": "?",
       "in English": "mouth"
     },
     {
       "Number": 607,
-      "Hindi": "सटीक",
+      "Korean": "정확한",
       "in English": "exact"
     },
     {
       "Number": 608,
-      "Hindi": "प्रतीक",
+      "Korean": "기호",
       "in English": "symbol"
     },
     {
       "Number": 609,
-      "Hindi": "मरना",
+      "Korean": "죽다",
       "in English": "die"
     },
     {
       "Number": 610,
-      "Hindi": "कम से कम",
+      "Korean": "이상",
       "in English": "least"
     },
     {
       "Number": 611,
-      "Hindi": "मुसीबत",
+      "Korean": "수고",
       "in English": "trouble"
     },
     {
       "Number": 612,
-      "Hindi": "चिल्लाओ",
+      "Korean": "소리",
       "in English": "shout"
     },
     {
       "Number": 613,
-      "Hindi": "सिवाय",
+      "Korean": "제외",
       "in English": "except"
     },
     {
       "Number": 614,
-      "Hindi": "लिखा",
+      "Korean": "썼다",
       "in English": "wrote"
     },
     {
       "Number": 615,
-      "Hindi": "बीज",
+      "Korean": "씨앗",
       "in English": "seed"
     },
     {
       "Number": 616,
-      "Hindi": "स्वर",
+      "Korean": "톤",
       "in English": "tone"
     },
     {
       "Number": 617,
-      "Hindi": "शामिल होने",
+      "Korean": "가?",
       "in English": "join"
     },
     {
       "Number": 618,
-      "Hindi": "सुझाव है",
+      "Korean": "제안",
       "in English": "suggest"
     },
     {
       "Number": 619,
-      "Hindi": "साफ",
+      "Korean": "청소",
       "in English": "clean"
     },
     {
       "Number": 620,
-      "Hindi": "तोड़",
+      "Korean": "단절",
       "in English": "break"
     },
     {
       "Number": 621,
-      "Hindi": "महिला",
+      "Korean": "아가씨",
       "in English": "lady"
     },
     {
       "Number": 622,
-      "Hindi": "यार्ड",
+      "Korean": "야드",
       "in English": "yard"
     },
     {
       "Number": 623,
-      "Hindi": "वृद्धि",
+      "Korean": "상승",
       "in English": "rise"
     },
     {
       "Number": 624,
-      "Hindi": "बुरा",
+      "Korean": "나쁜",
       "in English": "bad"
     },
     {
       "Number": 625,
-      "Hindi": "झटका",
+      "Korean": "타격",
       "in English": "blow"
     },
     {
       "Number": 626,
-      "Hindi": "तेल",
+      "Korean": "기름",
       "in English": "oil"
     },
     {
       "Number": 627,
-      "Hindi": "खून",
+      "Korean": "피",
       "in English": "blood"
     },
     {
       "Number": 628,
-      "Hindi": "स्पर्श",
+      "Korean": "터치",
       "in English": "touch"
     },
     {
       "Number": 629,
-      "Hindi": "बढ़ी",
+      "Korean": "성장",
       "in English": "grew"
     },
     {
       "Number": 630,
-      "Hindi": "प्रतिशत",
+      "Korean": "센트",
       "in English": "cent"
     },
     {
       "Number": 631,
-      "Hindi": "मिश्रण",
+      "Korean": "혼합",
       "in English": "mix"
     },
     {
       "Number": 632,
-      "Hindi": "टीम",
+      "Korean": "팀",
       "in English": "team"
     },
     {
       "Number": 633,
-      "Hindi": "तार",
+      "Korean": "와이어",
       "in English": "wire"
     },
     {
       "Number": 634,
-      "Hindi": "लागत",
+      "Korean": "비용",
       "in English": "cost"
     },
     {
       "Number": 635,
-      "Hindi": "खोया",
+      "Korean": "손실",
       "in English": "lost"
     },
     {
       "Number": 636,
-      "Hindi": "ब्राउन",
+      "Korean": "갈색",
       "in English": "brown"
     },
     {
       "Number": 637,
-      "Hindi": "पहनना",
+      "Korean": "착용",
       "in English": "wear"
     },
     {
       "Number": 638,
-      "Hindi": "बगीचा",
+      "Korean": "정원",
       "in English": "garden"
     },
     {
       "Number": 639,
-      "Hindi": "बराबर",
+      "Korean": "동일",
       "in English": "equal"
     },
     {
       "Number": 640,
-      "Hindi": "भेजा",
+      "Korean": "전송",
       "in English": "sent"
     },
     {
       "Number": 641,
-      "Hindi": "चयन",
+      "Korean": "선택",
       "in English": "choose"
     },
     {
       "Number": 642,
-      "Hindi": "गिर गया",
+      "Korean": "하락",
       "in English": "fell"
     },
     {
       "Number": 643,
-      "Hindi": "फिट",
+      "Korean": "적합",
       "in English": "fit"
     },
     {
       "Number": 644,
-      "Hindi": "प्रवाह",
+      "Korean": "흐름",
       "in English": "flow"
     },
     {
       "Number": 645,
-      "Hindi": "मेला",
+      "Korean": "박람회",
       "in English": "fair"
     },
     {
       "Number": 646,
-      "Hindi": "बैंक",
+      "Korean": "은행",
       "in English": "bank"
     },
     {
       "Number": 647,
-      "Hindi": "इकट्ठा",
+      "Korean": "수집",
       "in English": "collect"
     },
     {
       "Number": 648,
-      "Hindi": "बचा",
+      "Korean": "저장",
       "in English": "save"
     },
     {
       "Number": 649,
-      "Hindi": "नियंत्रण",
+      "Korean": "제어",
       "in English": "control"
     },
     {
       "Number": 650,
-      "Hindi": "दशमलव",
+      "Korean": "소수점",
       "in English": "decimal"
     },
     {
       "Number": 651,
-      "Hindi": "कान",
+      "Korean": "귀",
       "in English": "ear"
     },
     {
       "Number": 652,
-      "Hindi": "बाकी",
+      "Korean": "다른",
       "in English": "else"
     },
     {
       "Number": 653,
-      "Hindi": "काफी",
+      "Korean": "아주",
       "in English": "quite"
     },
     {
       "Number": 654,
-      "Hindi": "तोड़ दिया",
+      "Korean": "파산",
       "in English": "broke"
     },
     {
       "Number": 655,
-      "Hindi": "मामले",
+      "Korean": "경우",
       "in English": "case"
     },
     {
       "Number": 656,
-      "Hindi": "बीच",
+      "Korean": "중간",
       "in English": "middle"
     },
     {
       "Number": 657,
-      "Hindi": "हत्या",
+      "Korean": "죽",
       "in English": "kill"
     },
     {
       "Number": 658,
-      "Hindi": "बेटा",
+      "Korean": "아들",
       "in English": "son"
     },
     {
       "Number": 659,
-      "Hindi": "झील",
+      "Korean": "호수",
       "in English": "lake"
     },
     {
       "Number": 660,
-      "Hindi": "पल",
+      "Korean": "순간",
       "in English": "moment"
     },
     {
       "Number": 661,
-      "Hindi": "पैमाने",
+      "Korean": "규모",
       "in English": "scale"
     },
     {
       "Number": 662,
-      "Hindi": "जोर",
+      "Korean": "큰 소리로",
       "in English": "loud"
     },
     {
       "Number": 663,
-      "Hindi": "वसंत",
+      "Korean": "봄",
       "in English": "spring"
     },
     {
       "Number": 664,
-      "Hindi": "निरीक्षण",
+      "Korean": "관찰",
       "in English": "observe"
     },
     {
       "Number": 665,
-      "Hindi": "बच्चे",
+      "Korean": "아이",
       "in English": "child"
     },
     {
       "Number": 666,
-      "Hindi": "सीधे",
+      "Korean": "직선",
       "in English": "straight"
     },
     {
       "Number": 667,
-      "Hindi": "व्यंजन",
+      "Korean": "자음",
       "in English": "consonant"
     },
     {
       "Number": 668,
-      "Hindi": "राष्ट्र",
+      "Korean": "국민",
       "in English": "nation"
     },
     {
       "Number": 669,
-      "Hindi": "शब्दकोश",
+      "Korean": "사전",
       "in English": "dictionary"
     },
     {
       "Number": 670,
-      "Hindi": "दूध",
+      "Korean": "우유",
       "in English": "milk"
     },
     {
       "Number": 671,
-      "Hindi": "गति",
+      "Korean": "속도",
       "in English": "speed"
     },
     {
       "Number": 672,
-      "Hindi": "विधि",
+      "Korean": "방법",
       "in English": "method"
     },
     {
       "Number": 673,
-      "Hindi": "अंग",
+      "Korean": "기관",
       "in English": "organ"
     },
     {
       "Number": 674,
-      "Hindi": "भुगतान",
+      "Korean": "지불",
       "in English": "pay"
     },
     {
       "Number": 675,
-      "Hindi": "उम्र",
+      "Korean": "연령",
       "in English": "age"
     },
     {
       "Number": 676,
-      "Hindi": "अनुभाग",
+      "Korean": "섹? ?",
       "in English": "section"
     },
     {
       "Number": 677,
-      "Hindi": "पोशाक",
+      "Korean": "드레스",
       "in English": "dress"
     },
     {
       "Number": 678,
-      "Hindi": "बादल",
+      "Korean": "구름",
       "in English": "cloud"
     },
     {
       "Number": 679,
-      "Hindi": "आश्चर्य",
+      "Korean": "놀람",
       "in English": "surprise"
     },
     {
       "Number": 680,
-      "Hindi": "शांत",
+      "Korean": "조용한",
       "in English": "quiet"
     },
     {
       "Number": 681,
-      "Hindi": "पत्थर",
+      "Korean": "돌",
       "in English": "stone"
     },
     {
       "Number": 682,
-      "Hindi": "छोटे",
+      "Korean": "작은",
       "in English": "tiny"
     },
     {
       "Number": 683,
-      "Hindi": "चढ़ाई",
+      "Korean": "등반",
       "in English": "climb"
     },
     {
       "Number": 684,
-      "Hindi": "शीतल",
+      "Korean": "멋진",
       "in English": "cool"
     },
     {
       "Number": 685,
-      "Hindi": "डिजाइन",
+      "Korean": "디자인",
       "in English": "design"
     },
     {
       "Number": 686,
-      "Hindi": "गरीब",
+      "Korean": "가난한",
       "in English": "poor"
     },
     {
       "Number": 687,
-      "Hindi": "बहुत",
+      "Korean": "많은",
       "in English": "lot"
     },
     {
       "Number": 688,
-      "Hindi": "प्रयोग",
+      "Korean": "실험",
       "in English": "experiment"
     },
     {
       "Number": 689,
-      "Hindi": "तल",
+      "Korean": "바닥",
       "in English": "bottom"
     },
     {
       "Number": 690,
-      "Hindi": "कुंजी",
+      "Korean": "키",
       "in English": "key"
     },
     {
       "Number": 691,
-      "Hindi": "लोहा",
+      "Korean": "철",
       "in English": "iron"
     },
     {
       "Number": 692,
-      "Hindi": "एकल",
+      "Korean": "단일",
       "in English": "single"
     },
     {
       "Number": 693,
-      "Hindi": "छड़ी",
+      "Korean": "스틱",
       "in English": "stick"
     },
     {
       "Number": 694,
-      "Hindi": "फ्लैट",
+      "Korean": "플랫",
       "in English": "flat"
     },
     {
       "Number": 695,
-      "Hindi": "बीस",
+      "Korean": "스물",
       "in English": "twenty"
     },
     {
       "Number": 696,
-      "Hindi": "त्वचा",
+      "Korean": "피부",
       "in English": "skin"
     },
     {
       "Number": 697,
-      "Hindi": "मुस्कान",
+      "Korean": "미소",
       "in English": "smile"
     },
     {
       "Number": 698,
-      "Hindi": "क्रीज",
+      "Korean": "주름",
       "in English": "crease"
     },
     {
       "Number": 699,
-      "Hindi": "छेद",
+      "Korean": "구멍",
       "in English": "hole"
     },
     {
       "Number": 700,
-      "Hindi": "कूद",
+      "Korean": "점프",
       "in English": "jump"
     },
     {
       "Number": 701,
-      "Hindi": "बच्चे",
+      "Korean": "아가",
       "in English": "baby"
     },
     {
       "Number": 702,
-      "Hindi": "आठ",
+      "Korean": "팔",
       "in English": "eight"
     },
     {
       "Number": 703,
-      "Hindi": "गांव",
+      "Korean": "마을",
       "in English": "village"
     },
     {
       "Number": 704,
-      "Hindi": "मिलो",
+      "Korean": "대회",
       "in English": "meet"
     },
     {
       "Number": 705,
-      "Hindi": "जड़",
+      "Korean": "루트",
       "in English": "root"
     },
     {
       "Number": 706,
-      "Hindi": "खरीद",
+      "Korean": "사기",
       "in English": "buy"
     },
     {
       "Number": 707,
-      "Hindi": "उठाना",
+      "Korean": "인상",
       "in English": "raise"
     },
     {
       "Number": 708,
-      "Hindi": "हल",
+      "Korean": "해결",
       "in English": "solve"
     },
     {
       "Number": 709,
-      "Hindi": "धातु",
+      "Korean": "금속",
       "in English": "metal"
     },
     {
       "Number": 710,
-      "Hindi": "चाहे",
+      "Korean": "여부",
       "in English": "whether"
     },
     {
       "Number": 711,
-      "Hindi": "धक्का",
+      "Korean": "푸시",
       "in English": "push"
     },
     {
       "Number": 712,
-      "Hindi": "सात",
+      "Korean": "일곱",
       "in English": "seven"
     },
     {
       "Number": 713,
-      "Hindi": "पैरा",
+      "Korean": "단락",
       "in English": "paragraph"
     },
     {
       "Number": 714,
-      "Hindi": "तीसरे",
+      "Korean": "세번째",
       "in English": "third"
     },
     {
       "Number": 715,
-      "Hindi": "करेगा",
+      "Korean": "하여야한다",
       "in English": "shall"
     },
     {
       "Number": 716,
-      "Hindi": "आयोजित",
+      "Korean": "개최",
       "in English": "held"
     },
     {
       "Number": 717,
-      "Hindi": "बाल",
+      "Korean": "머리",
       "in English": "hair"
     },
     {
       "Number": 718,
-      "Hindi": "वर्णन",
+      "Korean": "설?",
       "in English": "describe"
     },
     {
       "Number": 719,
-      "Hindi": "कुक",
+      "Korean": "요리",
       "in English": "cook"
     },
     {
       "Number": 720,
-      "Hindi": "मंजिल",
+      "Korean": "바닥",
       "in English": "floor"
     },
     {
       "Number": 721,
-      "Hindi": "भी",
+      "Korean": "중",
       "in English": "either"
     },
     {
       "Number": 722,
-      "Hindi": "परिणाम",
+      "Korean": "결과",
       "in English": "result"
     },
     {
       "Number": 723,
-      "Hindi": "जला",
+      "Korean": "구울",
       "in English": "burn"
     },
     {
       "Number": 724,
-      "Hindi": "पहाड़ी",
+      "Korean": "언덕",
       "in English": "hill"
     },
     {
       "Number": 725,
-      "Hindi": "सुरक्षित",
+      "Korean": "안전한",
       "in English": "safe"
     },
     {
       "Number": 726,
-      "Hindi": "बिल्ली",
+      "Korean": "고양이",
       "in English": "cat"
     },
     {
       "Number": 727,
-      "Hindi": "सदी",
+      "Korean": "세기",
       "in English": "century"
     },
     {
       "Number": 728,
-      "Hindi": "विचार करना",
+      "Korean": "고려",
       "in English": "consider"
     },
     {
       "Number": 729,
-      "Hindi": "प्रकार",
+      "Korean": "유형",
       "in English": "type"
     },
     {
       "Number": 730,
-      "Hindi": "कानून",
+      "Korean": "법",
       "in English": "law"
     },
     {
       "Number": 731,
-      "Hindi": "बिट",
+      "Korean": "비트",
       "in English": "bit"
     },
     {
       "Number": 732,
-      "Hindi": "तट",
+      "Korean": "해안",
       "in English": "coast"
     },
     {
       "Number": 733,
-      "Hindi": "नकल",
+      "Korean": "복사",
       "in English": "copy"
     },
     {
       "Number": 734,
-      "Hindi": "वाक्यांश",
+      "Korean": "문구",
       "in English": "phrase"
     },
     {
       "Number": 735,
-      "Hindi": "चुप",
+      "Korean": "침묵",
       "in English": "silent"
     },
     {
       "Number": 736,
-      "Hindi": "लंबा",
+      "Korean": "키",
       "in English": "tall"
     },
     {
       "Number": 737,
-      "Hindi": "रेत",
+      "Korean": "모래",
       "in English": "sand"
     },
     {
       "Number": 738,
-      "Hindi": "मिट्टी",
+      "Korean": "토양",
       "in English": "soil"
     },
     {
       "Number": 739,
-      "Hindi": "रोल",
+      "Korean": "롤",
       "in English": "roll"
     },
     {
       "Number": 740,
-      "Hindi": "तापमान",
+      "Korean": "온도",
       "in English": "temperature"
     },
     {
       "Number": 741,
-      "Hindi": "उंगली",
+      "Korean": "손가락",
       "in English": "finger"
     },
     {
       "Number": 742,
-      "Hindi": "उद्योग",
+      "Korean": "산?",
       "in English": "industry"
     },
     {
       "Number": 743,
-      "Hindi": "मूल्य",
+      "Korean": "값",
       "in English": "value"
     },
     {
       "Number": 744,
-      "Hindi": "लड़ाई",
+      "Korean": "싸움",
       "in English": "fight"
     },
     {
       "Number": 745,
-      "Hindi": "झूठ",
+      "Korean": "거짓말",
       "in English": "lie"
     },
     {
       "Number": 746,
-      "Hindi": "हरा",
+      "Korean": "이길",
       "in English": "beat"
     },
     {
       "Number": 747,
-      "Hindi": "उत्तेजित",
+      "Korean": "흥분",
       "in English": "excite"
     },
     {
       "Number": 748,
-      "Hindi": "प्राकृतिक",
+      "Korean": "자연",
       "in English": "natural"
     },
     {
       "Number": 749,
-      "Hindi": "देखें",
+      "Korean": "보기",
       "in English": "view"
     },
     {
       "Number": 750,
-      "Hindi": "भावना",
+      "Korean": "의미",
       "in English": "sense"
     },
     {
       "Number": 751,
-      "Hindi": "राजधानी",
+      "Korean": "자본",
       "in English": "capital"
     },
     {
       "Number": 752,
-      "Hindi": "नहीं होगा",
+      "Korean": "하지 않습니다",
       "in English": "won’t"
     },
     {
       "Number": 753,
-      "Hindi": "कुर्सी",
+      "Korean": "의자",
       "in English": "chair"
     },
     {
       "Number": 754,
-      "Hindi": "खतरे",
+      "Korean": "위험",
       "in English": "danger"
     },
     {
       "Number": 755,
-      "Hindi": "फल",
+      "Korean": "과일",
       "in English": "fruit"
     },
     {
       "Number": 756,
-      "Hindi": "अमीर",
+      "Korean": "풍부한",
       "in English": "rich"
     },
     {
       "Number": 757,
-      "Hindi": "मोटी",
+      "Korean": "두께",
       "in English": "thick"
     },
     {
       "Number": 758,
-      "Hindi": "सैनिक",
+      "Korean": "군인",
       "in English": "soldier"
     },
     {
       "Number": 759,
-      "Hindi": "प्रक्रिया",
+      "Korean": "과정",
       "in English": "process"
     },
     {
       "Number": 760,
-      "Hindi": "संचालित",
+      "Korean": "운영",
       "in English": "operate"
     },
     {
       "Number": 761,
-      "Hindi": "अभ्यास",
+      "Korean": "연습",
       "in English": "practice"
     },
     {
       "Number": 762,
-      "Hindi": "अलग",
+      "Korean": "별도의",
       "in English": "separate"
     },
     {
       "Number": 763,
-      "Hindi": "मुश्किल",
+      "Korean": "어려운",
       "in English": "difficult"
     },
     {
       "Number": 764,
-      "Hindi": "चिकित्सक",
+      "Korean": "의사",
       "in English": "doctor"
     },
     {
       "Number": 765,
-      "Hindi": "कृपया",
+      "Korean": "제발",
       "in English": "please"
     },
     {
       "Number": 766,
-      "Hindi": "रक्षा",
+      "Korean": "보호",
       "in English": "protect"
     },
     {
       "Number": 767,
-      "Hindi": "दोपहर",
+      "Korean": "정오",
       "in English": "noon"
     },
     {
       "Number": 768,
-      "Hindi": "फसल",
+      "Korean": "작물",
       "in English": "crop"
     },
     {
       "Number": 769,
-      "Hindi": "आधुनिक",
+      "Korean": "현대",
       "in English": "modern"
     },
     {
       "Number": 770,
-      "Hindi": "तत्व",
+      "Korean": "요소",
       "in English": "element"
     },
     {
       "Number": 771,
-      "Hindi": "मारना",
+      "Korean": "히트",
       "in English": "hit"
     },
     {
       "Number": 772,
-      "Hindi": "छात्र",
+      "Korean": "학생",
       "in English": "student"
     },
     {
       "Number": 773,
-      "Hindi": "कोने",
+      "Korean": "코너",
       "in English": "corner"
     },
     {
       "Number": 774,
-      "Hindi": "पार्टी",
+      "Korean": "파티",
       "in English": "party"
     },
     {
       "Number": 775,
-      "Hindi": "आपूर्ति",
+      "Korean": "공급",
       "in English": "supply"
     },
     {
       "Number": 776,
-      "Hindi": "जिसका",
+      "Korean": "누구의",
       "in English": "whose"
     },
     {
       "Number": 777,
-      "Hindi": "स्थिति जानें",
+      "Korean": "위치",
       "in English": "locate"
     },
     {
       "Number": 778,
-      "Hindi": "अंगूठी",
+      "Korean": "링",
       "in English": "ring"
     },
     {
       "Number": 779,
-      "Hindi": "चरित्र",
+      "Korean": "문자",
       "in English": "character"
     },
     {
       "Number": 780,
-      "Hindi": "कीट",
+      "Korean": "곤충",
       "in English": "insect"
     },
     {
       "Number": 781,
-      "Hindi": "पकड़ा",
+      "Korean": "적발",
       "in English": "caught"
     },
     {
       "Number": 782,
-      "Hindi": "अवधि",
+      "Korean": "기간",
       "in English": "period"
     },
     {
       "Number": 783,
-      "Hindi": "संकेत मिलता है",
+      "Korean": "표시",
       "in English": "indicate"
     },
     {
       "Number": 784,
-      "Hindi": "रेडियो",
+      "Korean": "라디오",
       "in English": "radio"
     },
     {
       "Number": 785,
-      "Hindi": "बात",
+      "Korean": "이야기",
       "in English": "spoke"
     },
     {
       "Number": 786,
-      "Hindi": "एटम",
+      "Korean": "원자",
       "in English": "atom"
     },
     {
       "Number": 787,
-      "Hindi": "मानव",
+      "Korean": "인간",
       "in English": "human"
     },
     {
       "Number": 788,
-      "Hindi": "इतिहास",
+      "Korean": "역사",
       "in English": "history"
     },
     {
       "Number": 789,
-      "Hindi": "प्रभाव",
+      "Korean": "효과",
       "in English": "effect"
     },
     {
       "Number": 790,
-      "Hindi": "बिजली",
+      "Korean": "전기",
       "in English": "electric"
     },
     {
       "Number": 791,
-      "Hindi": "उम्मीद",
+      "Korean": "기대",
       "in English": "expect"
     },
     {
       "Number": 792,
-      "Hindi": "हड्डी",
+      "Korean": "골",
       "in English": "bone"
     },
     {
       "Number": 793,
-      "Hindi": "रेल",
+      "Korean": "레일",
       "in English": "rail"
     },
     {
       "Number": 794,
-      "Hindi": "कल्पना",
+      "Korean": "상상",
       "in English": "imagine"
     },
     {
       "Number": 795,
-      "Hindi": "प्रदान",
+      "Korean": "제공",
       "in English": "provide"
     },
     {
       "Number": 796,
-      "Hindi": "सहमत",
+      "Korean": "동의",
       "in English": "agree"
     },
     {
       "Number": 797,
-      "Hindi": "इस प्रकार",
+      "Korean": "따라서",
       "in English": "thus"
     },
     {
       "Number": 798,
-      "Hindi": "कोमल",
+      "Korean": "부드러운",
       "in English": "gentle"
     },
     {
       "Number": 799,
-      "Hindi": "महिला",
+      "Korean": "여성",
       "in English": "woman"
     },
     {
       "Number": 800,
-      "Hindi": "कप्तान",
+      "Korean": "주장",
       "in English": "captain"
     },
     {
       "Number": 801,
-      "Hindi": "अनुमान",
+      "Korean": "추측",
       "in English": "guess"
     },
     {
       "Number": 802,
-      "Hindi": "आवश्यक",
+      "Korean": "필요",
       "in English": "necessary"
     },
     {
       "Number": 803,
-      "Hindi": "तेज़",
+      "Korean": "날카로운",
       "in English": "sharp"
     },
     {
       "Number": 804,
-      "Hindi": "पंख",
+      "Korean": "날개",
       "in English": "wing"
     },
     {
       "Number": 805,
-      "Hindi": "बना",
+      "Korean": "작성",
       "in English": "create"
     },
     {
       "Number": 806,
-      "Hindi": "पड़ोसी",
+      "Korean": "이웃",
       "in English": "neighbor"
     },
     {
       "Number": 807,
-      "Hindi": "धोने",
+      "Korean": "세척",
       "in English": "wash"
     },
     {
       "Number": 808,
-      "Hindi": "बल्ला",
+      "Korean": "박쥐",
       "in English": "bat"
     },
     {
       "Number": 809,
-      "Hindi": "बल्कि",
+      "Korean": "오히려",
       "in English": "rather"
     },
     {
       "Number": 810,
-      "Hindi": "भीड़",
+      "Korean": "군중",
       "in English": "crowd"
     },
     {
       "Number": 811,
-      "Hindi": "मकई",
+      "Korean": "옥수수",
       "in English": "corn"
     },
     {
       "Number": 812,
-      "Hindi": "तुलना",
+      "Korean": "비교",
       "in English": "compare"
     },
     {
       "Number": 813,
-      "Hindi": "कविता",
+      "Korean": "시",
       "in English": "poem"
     },
     {
       "Number": 814,
-      "Hindi": "स्ट्रिंग",
+      "Korean": "문자열",
       "in English": "string"
     },
     {
       "Number": 815,
-      "Hindi": "बेल",
+      "Korean": "벨",
       "in English": "bell"
     },
     {
       "Number": 816,
-      "Hindi": "निर्भर",
+      "Korean": "따라",
       "in English": "depend"
     },
     {
       "Number": 817,
-      "Hindi": "मांस",
+      "Korean": "고기",
       "in English": "meat"
     },
     {
       "Number": 818,
-      "Hindi": "रगड़",
+      "Korean": "문지",
       "in English": "rub"
     },
     {
       "Number": 819,
-      "Hindi": "ट्यूब",
+      "Korean": "튜브",
       "in English": "tube"
     },
     {
       "Number": 820,
-      "Hindi": "प्रसिद्ध",
+      "Korean": "유? 한",
       "in English": "famous"
     },
     {
       "Number": 921,
-      "Hindi": "डॉलर",
+      "Korean": "달러",
       "in English": "dollar"
     },
     {
       "Number": 822,
-      "Hindi": "धारा",
+      "Korean": "스트림",
       "in English": "stream"
     },
     {
       "Number": 823,
-      "Hindi": "डर",
+      "Korean": "무서움",
       "in English": "fear"
     },
     {
       "Number": 284,
-      "Hindi": "दृष्टि",
+      "Korean": "시력",
       "in English": "sight"
     },
     {
       "Number": 825,
-      "Hindi": "पतली",
+      "Korean": "얇은",
       "in English": "thin"
     },
     {
       "Number": 826,
-      "Hindi": "त्रिकोण",
+      "Korean": "삼각형",
       "in English": "triangle"
     },
     {
       "Number": 827,
-      "Hindi": "ग्रह",
+      "Korean": "행성",
       "in English": "planet"
     },
     {
       "Number": 828,
-      "Hindi": "जल्दी करो",
+      "Korean": "서둘러",
       "in English": "hurry"
     },
     {
       "Number": 829,
-      "Hindi": "प्रमुख",
+      "Korean": "장",
       "in English": "chief"
     },
     {
       "Number": 830,
-      "Hindi": "कॉलोनी",
+      "Korean": "식민지",
       "in English": "colony"
     },
     {
       "Number": 831,
-      "Hindi": "घड़ी",
+      "Korean": "시계",
       "in English": "clock"
     },
     {
       "Number": 832,
-      "Hindi": "मेरा",
+      "Korean": "내",
       "in English": "mine"
     },
     {
       "Number": 833,
-      "Hindi": "टाई",
+      "Korean": "넥타이",
       "in English": "tie"
     },
     {
       "Number": 834,
-      "Hindi": "दर्ज",
+      "Korean": "? 력",
       "in English": "enter"
     },
     {
       "Number": 835,
-      "Hindi": "प्रमुख",
+      "Korean": "주요",
       "in English": "major"
     },
     {
       "Number": 836,
-      "Hindi": "ताजा",
+      "Korean": "신선한",
       "in English": "fresh"
     },
     {
       "Number": 837,
-      "Hindi": "खोज",
+      "Korean": "검색",
       "in English": "search"
     },
     {
       "Number": 838,
-      "Hindi": "भेजें",
+      "Korean": "보내",
       "in English": "send"
     },
     {
       "Number": 839,
-      "Hindi": "पीले",
+      "Korean": "? ?란색",
       "in English": "yellow"
     },
     {
       "Number": 840,
-      "Hindi": "बंदूक",
+      "Korean": "총",
       "in English": "gun"
     },
     {
       "Number": 841,
-      "Hindi": "की अनुमति",
+      "Korean": "수",
       "in English": "allow"
     },
     {
       "Number": 842,
-      "Hindi": "प्रिंट",
+      "Korean": "인쇄",
       "in English": "print"
     },
     {
       "Number": 843,
-      "Hindi": "मृत",
+      "Korean": "죽은",
       "in English": "dead"
     },
     {
       "Number": 844,
-      "Hindi": "हाजिर",
+      "Korean": "자리",
       "in English": "spot"
     },
     {
       "Number": 845,
-      "Hindi": "रेगिस्तान",
+      "Korean": "사막",
       "in English": "desert"
     },
     {
       "Number": 846,
-      "Hindi": "सूट",
+      "Korean": "정장",
       "in English": "suit"
     },
     {
       "Number": 847,
-      "Hindi": "वर्तमान",
+      "Korean": "현재",
       "in English": "current"
     },
     {
       "Number": 848,
-      "Hindi": "लिफ्ट",
+      "Korean": "리프트",
       "in English": "lift"
     },
     {
       "Number": 840,
-      "Hindi": "गुलाब",
+      "Korean": "장미",
       "in English": "rose"
     },
     {
       "Number": 850,
-      "Hindi": "पहुंचना",
+      "Korean": "도착",
       "in English": "arrive"
     },
     {
       "Number": 851,
-      "Hindi": "मास्टर",
+      "Korean": "마스터",
       "in English": "master"
     },
     {
       "Number": 852,
-      "Hindi": "ट्रैक",
+      "Korean": "트랙",
       "in English": "track"
     },
     {
       "Number": 853,
-      "Hindi": "माता पिता",
+      "Korean": "부모",
       "in English": "parent"
     },
     {
       "Number": 854,
-      "Hindi": "किनारे",
+      "Korean": "해안",
       "in English": "shore"
     },
     {
       "Number": 855,
-      "Hindi": "विभाजन",
+      "Korean": "부문",
       "in English": "division"
     },
     {
       "Number": 856,
-      "Hindi": "चादर",
+      "Korean": "시트",
       "in English": "sheet"
     },
     {
       "Number": 857,
-      "Hindi": "पदार्थ",
+      "Korean": "물질",
       "in English": "substance"
     },
     {
       "Number": 858,
-      "Hindi": "एहसान",
+      "Korean": "호의",
       "in English": "favor"
     },
     {
       "Number": 859,
-      "Hindi": "कनेक्ट",
+      "Korean": "연결",
       "in English": "connect"
     },
     {
       "Number": 860,
-      "Hindi": "पोस्ट",
+      "Korean": "포스트",
       "in English": "post"
     },
     {
       "Number": 861,
-      "Hindi": "खर्च",
+      "Korean": "지출",
       "in English": "spend"
     },
     {
       "Number": 862,
-      "Hindi": "राग",
+      "Korean": "코드",
       "in English": "chord"
     },
     {
       "Number": 863,
-      "Hindi": "वसा",
+      "Korean": "지방",
       "in English": "fat"
     },
     {
       "Number": 864,
-      "Hindi": "प्रसन्न",
+      "Korean": "다행",
       "in English": "glad"
     },
     {
       "Number": 865,
-      "Hindi": "मूल",
+      "Korean": "원래",
       "in English": "original"
     },
     {
       "Number": 866,
-      "Hindi": "शेयर",
+      "Korean": "주",
       "in English": "share"
     },
     {
       "Number": 867,
-      "Hindi": "स्टेशन",
+      "Korean": "역",
       "in English": "station"
     },
     {
       "Number": 868,
-      "Hindi": "पिता",
+      "Korean": "아빠",
       "in English": "dad"
     },
     {
       "Number": 869,
-      "Hindi": "रोटी",
+      "Korean": "빵",
       "in English": "bread"
     },
     {
       "Number": 870,
-      "Hindi": "चार्ज",
+      "Korean": "충전",
       "in English": "charge"
     },
     {
       "Number": 871,
-      "Hindi": "उचित",
+      "Korean": "적절한",
       "in English": "proper"
     },
     {
       "Number": 872,
-      "Hindi": "बार",
+      "Korean": "바",
       "in English": "bar"
     },
     {
       "Number": 873,
-      "Hindi": "प्रस्ताव",
+      "Korean": "제안",
       "in English": "offer"
     },
     {
       "Number": 874,
-      "Hindi": "खंड",
+      "Korean": "세그먼트",
       "in English": "segment"
     },
     {
       "Number": 875,
-      "Hindi": "गुलाम",
+      "Korean": "슬레이브",
       "in English": "slave"
     },
     {
       "Number": 876,
-      "Hindi": "बतख",
+      "Korean": "오리",
       "in English": "duck"
     },
     {
       "Number": 877,
-      "Hindi": "पल",
+      "Korean": "인스턴트",
       "in English": "instant"
     },
     {
       "Number": 878,
-      "Hindi": "बाजार",
+      "Korean": "시장",
       "in English": "market"
     },
     {
       "Number": 879,
-      "Hindi": "डिग्री",
+      "Korean": "도",
       "in English": "degree"
     },
     {
       "Number": 880,
-      "Hindi": "आबाद",
+      "Korean": "웁니다",
       "in English": "populate"
     },
     {
       "Number": 881,
-      "Hindi": "लड़की",
+      "Korean": "병아리",
       "in English": "chick"
     },
     {
       "Number": 882,
-      "Hindi": "प्रिय",
+      "Korean": "친애",
       "in English": "dear"
     },
     {
       "Number": 883,
-      "Hindi": "दुश्मन",
+      "Korean": "적",
       "in English": "enemy"
     },
     {
       "Number": 884,
-      "Hindi": "उत्तर",
+      "Korean": "응답",
       "in English": "reply"
     },
     {
       "Number": 885,
-      "Hindi": "पेय",
+      "Korean": "한잔",
       "in English": "drink"
     },
     {
       "Number": 886,
-      "Hindi": "घटित",
+      "Korean": "발생",
       "in English": "occur"
     },
     {
       "Number": 887,
-      "Hindi": "समर्थन",
+      "Korean": "지원",
       "in English": "support"
     },
     {
       "Number": 888,
-      "Hindi": "भाषण",
+      "Korean": "음성",
       "in English": "speech"
     },
     {
       "Number": 889,
-      "Hindi": "प्रकृति",
+      "Korean": "자연",
       "in English": "nature"
     },
     {
       "Number": 890,
-      "Hindi": "सीमा",
+      "Korean": "범위",
       "in English": "range"
     },
     {
       "Number": 891,
-      "Hindi": "भाप",
+      "Korean": "증기",
       "in English": "steam"
     },
     {
       "Number": 892,
-      "Hindi": "प्रस्ताव",
+      "Korean": "모? ?",
       "in English": "motion"
     },
     {
       "Number": 893,
-      "Hindi": "पथ",
+      "Korean": "경로",
       "in English": "path"
     },
     {
       "Number": 894,
-      "Hindi": "तरल",
+      "Korean": "액체",
       "in English": "liquid"
     },
     {
       "Number": 895,
-      "Hindi": "लॉग इन करें",
+      "Korean": "로그인",
       "in English": "log"
     },
     {
       "Number": 896,
-      "Hindi": "मतलब",
+      "Korean": "의미",
       "in English": "meant"
     },
     {
       "Number": 897,
-      "Hindi": "भागफल",
+      "Korean": "지수",
       "in English": "quotient"
     },
     {
       "Number": 898,
-      "Hindi": "दांत",
+      "Korean": "치아",
       "in English": "teeth"
     },
     {
       "Number": 899,
-      "Hindi": "खोल",
+      "Korean": "쉘",
       "in English": "shell"
     },
     {
       "Number": 900,
-      "Hindi": "गर्दन",
+      "Korean": "목",
       "in English": "neck"
     },
     {
       "Number": 901,
-      "Hindi": "ऑक्सीजन",
+      "Korean": "산소",
       "in English": "oxygen"
     },
     {
       "Number": 902,
-      "Hindi": "चीनी",
+      "Korean": "설탕",
       "in English": "sugar"
     },
     {
       "Number": 903,
-      "Hindi": "मौत",
+      "Korean": "죽음",
       "in English": "death"
     },
     {
       "Number": 904,
-      "Hindi": "सुंदर",
+      "Korean": "꽤",
       "in English": "pretty"
     },
     {
       "Number": 905,
-      "Hindi": "कौशल",
+      "Korean": "기술",
       "in English": "skill"
     },
     {
       "Number": 906,
-      "Hindi": "महिलाओं",
+      "Korean": "여성",
       "in English": "women"
     },
     {
       "Number": 907,
-      "Hindi": "मौसम",
+      "Korean": "시즌",
       "in English": "season"
     },
     {
       "Number": 908,
-      "Hindi": "समाधान",
+      "Korean": "용액",
       "in English": "solution"
     },
     {
       "Number": 909,
-      "Hindi": "चुंबक",
+      "Korean": "자석",
       "in English": "magnet"
     },
     {
       "Number": 910,
-      "Hindi": "चांदी",
+      "Korean": "실버",
       "in English": "silver"
     },
     {
       "Number": 911,
-      "Hindi": "धन्यवाद",
+      "Korean": "감사",
       "in English": "thank"
     },
     {
       "Number": 912,
-      "Hindi": "शाखा",
+      "Korean": "지점",
       "in English": "branch"
     },
     {
       "Number": 913,
-      "Hindi": "मैच",
+      "Korean": "경기",
       "in English": "match"
     },
     {
       "Number": 914,
-      "Hindi": "प्रत्यय",
+      "Korean": "접미사",
       "in English": "suffix"
     },
     {
       "Number": 915,
-      "Hindi": "विशेष रूप से",
+      "Korean": "특히",
       "in English": "especially"
     },
     {
       "Number": 916,
-      "Hindi": "अंजीर",
+      "Korean": "그림",
       "in English": "fig"
     },
     {
       "Number": 917,
-      "Hindi": "डर",
+      "Korean": "두려워",
       "in English": "afraid"
     },
     {
       "Number": 918,
-      "Hindi": "भारी",
+      "Korean": "거대한",
       "in English": "huge"
     },
     {
       "Number": 919,
-      "Hindi": "बहन",
+      "Korean": "자매",
       "in English": "sister"
     },
     {
       "Number": 920,
-      "Hindi": "स्टील",
+      "Korean": "스틸",
       "in English": "steel"
     },
     {
       "Number": 921,
-      "Hindi": "चर्चा",
+      "Korean": "? ?의",
       "in English": "discuss"
     },
     {
       "Number": 922,
-      "Hindi": "आगे",
+      "Korean": "앞으로",
       "in English": "forward"
     },
     {
       "Number": 923,
-      "Hindi": "इसी तरह",
+      "Korean": "비슷한",
       "in English": "similar"
     },
     {
       "Number": 924,
-      "Hindi": "गाइड",
+      "Korean": "가이드",
       "in English": "guide"
     },
     {
       "Number": 925,
-      "Hindi": "अनुभव",
+      "Korean": "경험",
       "in English": "experience"
     },
     {
       "Number": 926,
-      "Hindi": "स्कोर",
+      "Korean": "점수",
       "in English": "score"
     },
     {
       "Number": 927,
-      "Hindi": "सेब",
+      "Korean": "사과",
       "in English": "apple"
     },
     {
       "Number": 928,
-      "Hindi": "खरीदा",
+      "Korean": "구?",
       "in English": "bought"
     },
     {
       "Number": 929,
-      "Hindi": "नेतृत्व",
+      "Korean": "주도",
       "in English": "led"
     },
     {
       "Number": 930,
-      "Hindi": "पिच",
+      "Korean": "피치",
       "in English": "pitch"
     },
     {
       "Number": 931,
-      "Hindi": "कोट",
+      "Korean": "코트",
       "in English": "coat"
     },
     {
       "Number": 932,
-      "Hindi": "सामूहिक",
+      "Korean": "질량",
       "in English": "mass"
     },
     {
       "Number": 933,
-      "Hindi": "कार्ड",
+      "Korean": "카드",
       "in English": "card"
     },
     {
       "Number": 934,
-      "Hindi": "बैंड",
+      "Korean": "밴드",
       "in English": "band"
     },
     {
       "Number": 935,
-      "Hindi": "रस्सी",
+      "Korean": "로프",
       "in English": "rope"
     },
     {
       "Number": 936,
-      "Hindi": "पर्ची",
+      "Korean": "슬립",
       "in English": "slip"
     },
     {
       "Number": 937,
-      "Hindi": "जीत",
+      "Korean": "승리",
       "in English": "win"
     },
     {
       "Number": 938,
-      "Hindi": "सपना",
+      "Korean": "꿈",
       "in English": "dream"
     },
     {
       "Number": 939,
-      "Hindi": "शाम",
+      "Korean": "저? ?",
       "in English": "evening"
     },
     {
       "Number": 940,
-      "Hindi": "शर्त",
+      "Korean": "조건",
       "in English": "condition"
     },
     {
       "Number": 941,
-      "Hindi": "फ़ीड",
+      "Korean": "먹이",
       "in English": "feed"
     },
     {
       "Number": 942,
-      "Hindi": "उपकरण",
+      "Korean": "도구",
       "in English": "tool"
     },
     {
       "Number": 943,
-      "Hindi": "संपूर्ण",
+      "Korean": "총",
       "in English": "total"
     },
     {
       "Number": 944,
-      "Hindi": "बुनियादी",
+      "Korean": "기본",
       "in English": "basic"
     },
     {
       "Number": 945,
-      "Hindi": "गंध",
+      "Korean": "냄새",
       "in English": "smell"
     },
     {
       "Number": 946,
-      "Hindi": "घाटी",
+      "Korean": "계곡",
       "in English": "valley"
     },
     {
       "Number": 947,
-      "Hindi": "और न ही",
+      "Korean": "도",
       "in English": "nor"
     },
     {
       "Number": 948,
-      "Hindi": "डबल",
+      "Korean": "더블",
       "in English": "double"
     },
     {
       "Number": 949,
-      "Hindi": "सीट",
+      "Korean": "좌석",
       "in English": "seat"
     },
     {
       "Number": 950,
-      "Hindi": "जारी रखने के",
+      "Korean": "계속",
       "in English": "continue"
     },
     {
       "Number": 951,
-      "Hindi": "खंड",
+      "Korean": "블록",
       "in English": "block"
     },
     {
       "Number": 952,
-      "Hindi": "चार्ट",
+      "Korean": "차트",
       "in English": "chart"
     },
     {
       "Number": 953,
-      "Hindi": "टोपी",
+      "Korean": "모자",
       "in English": "hat"
     },
     {
       "Number": 954,
-      "Hindi": "बेचने",
+      "Korean": "판매",
       "in English": "sell"
     },
     {
       "Number": 955,
-      "Hindi": "सफलता",
+      "Korean": "성공",
       "in English": "success"
     },
     {
       "Number": 956,
-      "Hindi": "कंपनी",
+      "Korean": "회사",
       "in English": "company"
     },
     {
       "Number": 957,
-      "Hindi": "घटाना",
+      "Korean": "빼기",
       "in English": "subtract"
     },
     {
       "Number": 958,
-      "Hindi": "घटना",
+      "Korean": "이벤트",
       "in English": "event"
     },
     {
       "Number": 959,
-      "Hindi": "विशेष",
+      "Korean": "특히",
       "in English": "particular"
     },
     {
       "Number": 960,
-      "Hindi": "सौदा",
+      "Korean": "거래",
       "in English": "deal"
     },
     {
       "Number": 961,
-      "Hindi": "तैरना",
+      "Korean": "수영",
       "in English": "swim"
     },
     {
       "Number": 962,
-      "Hindi": "अवधि",
+      "Korean": "용어",
       "in English": "term"
     },
     {
       "Number": 963,
-      "Hindi": "विपरीत",
+      "Korean": "정반대의",
       "in English": "opposite"
     },
     {
       "Number": 964,
-      "Hindi": "पत्नी",
+      "Korean": "아내",
       "in English": "wife"
     },
     {
       "Number": 965,
-      "Hindi": "जूता",
+      "Korean": "신발",
       "in English": "shoe"
     },
     {
       "Number": 966,
-      "Hindi": "कंधे",
+      "Korean": "어깨",
       "in English": "shoulder"
     },
     {
       "Number": 967,
-      "Hindi": "प्रसार",
+      "Korean": "확산",
       "in English": "spread"
     },
     {
       "Number": 968,
-      "Hindi": "व्यवस्था",
+      "Korean": "준비",
       "in English": "arrange"
     },
     {
       "Number": 969,
-      "Hindi": "शिविर",
+      "Korean": "캠프",
       "in English": "camp"
     },
     {
       "Number": 970,
-      "Hindi": "आविष्कार",
+      "Korean": "발? 하다",
       "in English": "invent"
     },
     {
       "Number": 971,
-      "Hindi": "कपास",
+      "Korean": "면",
       "in English": "cotton"
     },
     {
       "Number": 972,
-      "Hindi": "Born",
+      "Korean": "태어난",
       "in English": "born"
     },
     {
       "Number": 973,
-      "Hindi": "निर्धारित",
+      "Korean": "결정",
       "in English": "determine"
     },
     {
       "Number": 974,
-      "Hindi": "चौथाई गेलन",
+      "Korean": "쿼트",
       "in English": "quart"
     },
     {
       "Number": 975,
-      "Hindi": "नौ",
+      "Korean": "구",
       "in English": "nine"
     },
     {
       "Number": 976,
-      "Hindi": "ट्रक",
+      "Korean": "트럭",
       "in English": "truck"
     },
     {
       "Number": 977,
-      "Hindi": "शोर",
+      "Korean": "잡음",
       "in English": "noise"
     },
     {
       "Number": 978,
-      "Hindi": "स्तर",
+      "Korean": "수준",
       "in English": "level"
     },
     {
       "Number": 979,
-      "Hindi": "संयोग",
+      "Korean": "기회",
       "in English": "chance"
     },
     {
       "Number": 980,
-      "Hindi": "इकट्ठा",
+      "Korean": "수집",
       "in English": "gather"
     },
     {
       "Number": 981,
-      "Hindi": "दुकान",
+      "Korean": "상점",
       "in English": "shop"
     },
     {
       "Number": 982,
-      "Hindi": "खिंचाव",
+      "Korean": "스트레칭",
       "in English": "stretch"
     },
     {
       "Number": 983,
-      "Hindi": "फेंक",
+      "Korean": "던져",
       "in English": "throw"
     },
     {
       "Number": 984,
-      "Hindi": "चमक",
+      "Korean": "광택",
       "in English": "shine"
     },
     {
       "Number": 985,
-      "Hindi": "संपत्ति",
+      "Korean": "등록",
       "in English": "property"
     },
     {
       "Number": 986,
-      "Hindi": "स्तंभ",
+      "Korean": "열",
       "in English": "column"
     },
     {
       "Number": 987,
-      "Hindi": "अणु",
+      "Korean": "분자",
       "in English": "molecule"
     },
     {
       "Number": 988,
-      "Hindi": "चयन",
+      "Korean": "선택",
       "in English": "select"
     },
     {
       "Number": 989,
-      "Hindi": "गलत",
+      "Korean": "나쁜",
       "in English": "wrong"
     },
     {
       "Number": 990,
-      "Hindi": "ग्रे",
+      "Korean": "회색",
       "in English": "gray"
     },
     {
       "Number": 991,
-      "Hindi": "दोहराना",
+      "Korean": "반복",
       "in English": "repeat"
     },
     {
       "Number": 992,
-      "Hindi": "आवश्यकता",
+      "Korean": "필요",
       "in English": "require"
     },
     {
       "Number": 993,
-      "Hindi": "विस्तृत",
+      "Korean": "폭 넓은",
       "in English": "broad"
     },
     {
       "Number": 994,
-      "Hindi": "तैयार",
+      "Korean": "준비",
       "in English": "prepare"
     },
     {
       "Number": 995,
-      "Hindi": "नमक",
+      "Korean": "소금",
       "in English": "salt"
     },
     {
       "Number": 996,
-      "Hindi": "नाक",
+      "Korean": "코",
       "in English": "nose"
     },
     {
       "Number": 997,
-      "Hindi": "बहुवचन",
+      "Korean": "복수",
       "in English": "plural"
     },
     {
       "Number": 998,
-      "Hindi": "क्रोध",
+      "Korean": "분? ?",
       "in English": "anger"
     },
     {
       "Number": 999,
-      "Hindi": "दावा",
+      "Korean": "제",
       "in English": "claim"
     },
     {
       "Number": 1000,
-      "Hindi": "महाद्वीप",
+      "Korean": "대륙",
       "in English": "continent"
     }
 ];
 
-exports.language = "Hindi";
-exports.data = hindi;
+exports.language = "Korean";
+exports.data = korean;

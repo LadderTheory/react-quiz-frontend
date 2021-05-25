@@ -1,5005 +1,5005 @@
-const hindi = [
+const hawaiian = [
     {
       "Number": 1,
-      "Hindi": "जैसा",
-      "in English": "as"
-    },
-    {
-      "Number": 2,
-      "Hindi": "मैं",
-      "in English": "I"
-    },
-    {
-      "Number": 3,
-      "Hindi": "उसके",
-      "in English": "his"
-    },
-    {
-      "Number": 4,
-      "Hindi": "कि",
-      "in English": "that"
-    },
-    {
-      "Number": 5,
-      "Hindi": "वह",
+      "Hawaiian": "ka mea",
       "in English": "he"
     },
     {
-      "Number": 6,
-      "Hindi": "था",
+      "Number": 2,
+      "Hawaiian": "kona",
+      "in English": "his"
+    },
+    {
+      "Number": 3,
+      "Hawaiian": "ia",
+      "in English": "that"
+    },
+    {
+      "Number": 4,
+      "Hawaiian": "I",
+      "in English": "I"
+    },
+    {
+      "Number": 5,
+      "Hawaiian": "ia",
       "in English": "was"
     },
     {
-      "Number": 7,
-      "Hindi": "के लिए",
+      "Number": 6,
+      "Hawaiian": "no ka mea,",
       "in English": "for"
     },
     {
-      "Number": 8,
-      "Hindi": "पर",
+      "Number": 7,
+      "Hawaiian": "maluna o",
       "in English": "on"
     },
     {
-      "Number": 9,
-      "Hindi": "हैं",
+      "Number": 8,
+      "Hawaiian": "ua",
       "in English": "are"
     },
     {
-      "Number": 10,
-      "Hindi": "साथ",
+      "Number": 9,
+      "Hawaiian": "me",
       "in English": "with"
     },
     {
-      "Number": 11,
-      "Hindi": "वे",
+      "Number": 10,
+      "Hawaiian": "lakou",
       "in English": "they"
     },
     {
-      "Number": 12,
-      "Hindi": "हो",
+      "Number": 11,
+      "Hawaiian": "e",
       "in English": "be"
     },
     {
-      "Number": 13,
-      "Hindi": "पर",
+      "Number": 12,
+      "Hawaiian": "ma",
       "in English": "at"
     },
     {
-      "Number": 14,
-      "Hindi": "एक",
+      "Number": 13,
+      "Hawaiian": "ʻekahi",
       "in English": "one"
     },
     {
-      "Number": 15,
-      "Hindi": "है",
+      "Number": 14,
+      "Hawaiian": "loaa",
       "in English": "have"
     },
     {
-      "Number": 16,
-      "Hindi": "इस",
+      "Number": 15,
+      "Hawaiian": "keia",
       "in English": "this"
     },
     {
-      "Number": 17,
-      "Hindi": "से",
+      "Number": 16,
+      "Hawaiian": "mai",
       "in English": "from"
     },
     {
-      "Number": 18,
-      "Hindi": "द्वारा",
+      "Number": 17,
+      "Hawaiian": "ma",
       "in English": "by"
     },
     {
-      "Number": 19,
-      "Hindi": "गरम",
+      "Number": 18,
+      "Hawaiian": "anal",
       "in English": "hot"
     },
     {
-      "Number": 20,
-      "Hindi": "शब्द",
+      "Number": 19,
+      "Hawaiian": "olelo",
       "in English": "word"
     },
     {
-      "Number": 21,
-      "Hindi": "लेकिन",
+      "Number": 20,
+      "Hawaiian": "aka,",
       "in English": "but"
     },
     {
-      "Number": 22,
-      "Hindi": "क्या",
+      "Number": 21,
+      "Hawaiian": "ka mea",
       "in English": "what"
     },
     {
-      "Number": 23,
-      "Hindi": "कुछ",
+      "Number": 22,
+      "Hawaiian": "kekahi",
       "in English": "some"
     },
     {
+      "Number": 23,
+      "Hawaiian": "e like me",
+      "in English": "as"
+    },
+    {
       "Number": 24,
-      "Hindi": "है",
+      "Hawaiian": "ka mea",
       "in English": "is"
     },
     {
       "Number": 25,
-      "Hindi": "यह",
+      "Hawaiian": "ia",
       "in English": "it"
     },
     {
       "Number": 26,
-      "Hindi": "आप",
+      "Hawaiian": "oe",
       "in English": "you"
     },
     {
       "Number": 27,
-      "Hindi": "या",
+      "Hawaiian": "ai ole ia,",
       "in English": "or"
     },
     {
       "Number": 28,
-      "Hindi": "था",
+      "Hawaiian": "i",
       "in English": "had"
     },
     {
       "Number": 29,
-      "Hindi": "",
+      "Hawaiian": "ka",
       "in English": "the"
     },
     {
       "Number": 30,
-      "Hindi": "की",
+      "Hawaiian": "a",
       "in English": "of"
     },
     {
       "Number": 31,
-      "Hindi": "तक",
+      "Hawaiian": "i",
       "in English": "to"
     },
     {
       "Number": 32,
-      "Hindi": "और",
+      "Hawaiian": "a",
       "in English": "and"
     },
     {
       "Number": 33,
-      "Hindi": "एक",
+      "Hawaiian": "he",
       "in English": "a"
     },
     {
       "Number": 34,
-      "Hindi": "में",
+      "Hawaiian": "iloko o",
       "in English": "in"
     },
     {
       "Number": 35,
-      "Hindi": "हम",
+      "Hawaiian": "makou",
       "in English": "we"
     },
     {
       "Number": 36,
-      "Hindi": "कर सकते हैं",
+      "Hawaiian": "hiki",
       "in English": "can"
     },
     {
       "Number": 37,
-      "Hindi": "बाहर",
+      "Hawaiian": "aku",
       "in English": "out"
     },
     {
       "Number": 38,
-      "Hindi": "अन्य",
+      "Hawaiian": "kekahi",
       "in English": "other"
     },
     {
       "Number": 39,
-      "Hindi": "थे",
+      "Hawaiian": "he",
       "in English": "were"
     },
     {
       "Number": 40,
-      "Hindi": "जो",
+      "Hawaiian": "ka mea",
       "in English": "which"
     },
     {
       "Number": 41,
-      "Hindi": "कर",
+      "Hawaiian": "hana",
       "in English": "do"
     },
     {
       "Number": 42,
-      "Hindi": "उनके",
+      "Hawaiian": "ko lakou",
       "in English": "their"
     },
     {
       "Number": 43,
-      "Hindi": "समय",
+      "Hawaiian": "manawa",
       "in English": "time"
     },
     {
       "Number": 44,
-      "Hindi": "अगर",
+      "Hawaiian": "ina",
       "in English": "if"
     },
     {
       "Number": 45,
-      "Hindi": "होगा",
+      "Hawaiian": "makemake",
       "in English": "will"
     },
     {
       "Number": 46,
-      "Hindi": "कैसे",
+      "Hawaiian": "pehea",
       "in English": "how"
     },
     {
       "Number": 47,
-      "Hindi": "कहा",
+      "Hawaiian": "mai la",
       "in English": "said"
     },
     {
       "Number": 48,
-      "Hindi": "एक",
+      "Hawaiian": "kekahi",
       "in English": "an"
     },
     {
       "Number": 49,
-      "Hindi": "प्रत्येक",
+      "Hawaiian": "kela a me keia",
       "in English": "each"
     },
     {
       "Number": 50,
-      "Hindi": "बता",
+      "Hawaiian": "hai aku",
       "in English": "tell"
     },
     {
       "Number": 51,
-      "Hindi": "करता है",
+      "Hawaiian": "hana",
       "in English": "does"
     },
     {
       "Number": 52,
-      "Hindi": "सेट",
+      "Hawaiian": "i",
       "in English": "set"
     },
     {
       "Number": 53,
-      "Hindi": "तीन",
+      "Hawaiian": "ʻekolu",
       "in English": "three"
     },
     {
       "Number": 54,
-      "Hindi": "चाहते हैं",
+      "Hawaiian": "makemake",
       "in English": "want"
     },
     {
       "Number": 55,
-      "Hindi": "हवा",
+      "Hawaiian": "ea",
       "in English": "air"
     },
     {
       "Number": 56,
-      "Hindi": "अच्छी तरह से",
+      "Hawaiian": "pono",
       "in English": "well"
     },
     {
       "Number": 57,
-      "Hindi": "भी",
+      "Hawaiian": "no hoi",
       "in English": "also"
     },
     {
       "Number": 58,
-      "Hindi": "खेलने",
+      "Hawaiian": "paani",
       "in English": "play"
     },
     {
       "Number": 59,
-      "Hindi": "छोटे",
+      "Hawaiian": "uuku",
       "in English": "small"
     },
     {
       "Number": 60,
-      "Hindi": "अंत",
+      "Hawaiian": "hopena",
       "in English": "end"
     },
     {
       "Number": 61,
-      "Hindi": "डाल",
+      "Hawaiian": "kau",
       "in English": "put"
     },
     {
       "Number": 62,
-      "Hindi": "घर",
+      "Hawaiian": "ka hale",
       "in English": "home"
     },
     {
       "Number": 63,
-      "Hindi": "पढ़ा",
+      "Hawaiian": "heluhelu mai o",
       "in English": "read"
     },
     {
       "Number": 64,
-      "Hindi": "हाथ",
+      "Hawaiian": "lima",
       "in English": "hand"
     },
     {
       "Number": 65,
-      "Hindi": "बंदरगाह",
+      "Hawaiian": "ke awa",
       "in English": "port"
     },
     {
       "Number": 66,
-      "Hindi": "बड़ा",
+      "Hawaiian": "nui",
       "in English": "large"
     },
     {
       "Number": 67,
-      "Hindi": "जादू",
+      "Hawaiian": "wale",
       "in English": "spell"
     },
     {
       "Number": 68,
-      "Hindi": "जोड़",
+      "Hawaiian": "hui",
       "in English": "add"
     },
     {
       "Number": 69,
-      "Hindi": "और भी",
+      "Hawaiian": "a hiki",
       "in English": "even"
     },
     {
       "Number": 70,
-      "Hindi": "भूमि",
+      "Hawaiian": "aina",
       "in English": "land"
     },
     {
       "Number": 71,
-      "Hindi": "यहाँ",
+      "Hawaiian": "maanei",
       "in English": "here"
     },
     {
       "Number": 72,
-      "Hindi": "चाहिए",
+      "Hawaiian": "pono",
       "in English": "must"
     },
     {
       "Number": 73,
-      "Hindi": "बड़ा",
+      "Hawaiian": "nui",
       "in English": "big"
     },
     {
       "Number": 74,
-      "Hindi": "उच्च",
+      "Hawaiian": "kiʻekiʻe",
       "in English": "high"
     },
     {
       "Number": 75,
-      "Hindi": "ऐसा",
+      "Hawaiian": "ia",
       "in English": "such"
     },
     {
       "Number": 76,
-      "Hindi": "का पालन करें",
+      "Hawaiian": "hahai",
       "in English": "follow"
     },
     {
       "Number": 77,
-      "Hindi": "अधिनियम",
+      "Hawaiian": "hana",
       "in English": "act"
     },
     {
       "Number": 78,
-      "Hindi": "क्यों",
+      "Hawaiian": "no ke aha mai",
       "in English": "why"
     },
     {
       "Number": 79,
-      "Hindi": "पूछना",
+      "Hawaiian": "noi",
       "in English": "ask"
     },
     {
       "Number": 80,
-      "Hindi": "पुरुषों",
+      "Hawaiian": "kanaka",
       "in English": "men"
     },
     {
       "Number": 81,
-      "Hindi": "परिवर्तन",
+      "Hawaiian": "loli",
       "in English": "change"
     },
     {
       "Number": 82,
-      "Hindi": "चला गया",
+      "Hawaiian": "hele",
       "in English": "went"
     },
     {
       "Number": 83,
-      "Hindi": "प्रकाश",
+      "Hawaiian": "malamalama",
       "in English": "light"
     },
     {
       "Number": 84,
-      "Hindi": "तरह",
+      "Hawaiian": "keia ano",
       "in English": "kind"
     },
     {
       "Number": 85,
-      "Hindi": "बंद",
+      "Hawaiian": "aku",
       "in English": "off"
     },
     {
       "Number": 86,
-      "Hindi": "आवश्यकता",
+      "Hawaiian": "pono",
       "in English": "need"
     },
     {
       "Number": 87,
-      "Hindi": "घर",
+      "Hawaiian": "ka hale",
       "in English": "house"
     },
     {
       "Number": 88,
-      "Hindi": "तस्वीर",
+      "Hawaiian": "kiʻi",
       "in English": "picture"
     },
     {
       "Number": 89,
-      "Hindi": "कोशिश",
+      "Hawaiian": "hoao",
       "in English": "try"
     },
     {
       "Number": 90,
-      "Hindi": "हमें",
+      "Hawaiian": "makou",
       "in English": "us"
     },
     {
       "Number": 91,
-      "Hindi": "फिर",
+      "Hawaiian": "hou",
       "in English": "again"
     },
     {
       "Number": 92,
-      "Hindi": "पशु",
+      "Hawaiian": "holoholona",
       "in English": "animal"
     },
     {
       "Number": 93,
-      "Hindi": "बिंदु",
+      "Hawaiian": "wahi",
       "in English": "point"
     },
     {
       "Number": 94,
-      "Hindi": "मां",
+      "Hawaiian": "makuahine",
       "in English": "mother"
     },
     {
       "Number": 95,
-      "Hindi": "दुनिया",
+      "Hawaiian": "ao",
       "in English": "world"
     },
     {
       "Number": 96,
-      "Hindi": "निकट",
+      "Hawaiian": "kokoke",
       "in English": "near"
     },
     {
       "Number": 97,
-      "Hindi": "बनाना",
+      "Hawaiian": "hana",
       "in English": "build"
     },
     {
       "Number": 98,
-      "Hindi": "आत्म",
+      "Hawaiian": "iho",
       "in English": "self"
     },
     {
       "Number": 99,
-      "Hindi": "पृथ्वी",
+      "Hawaiian": "honua",
       "in English": "earth"
     },
     {
       "Number": 100,
-      "Hindi": "पिता",
+      "Hawaiian": "makuakāne",
       "in English": "father"
     },
     {
       "Number": 101,
-      "Hindi": "किसी भी",
+      "Hawaiian": "kekahi",
       "in English": "any"
     },
     {
       "Number": 102,
-      "Hindi": "नई",
+      "Hawaiian": "hou",
       "in English": "new"
     },
     {
       "Number": 103,
-      "Hindi": "काम",
+      "Hawaiian": "hana",
       "in English": "work"
     },
     {
       "Number": 104,
-      "Hindi": "हिस्सा",
+      "Hawaiian": "hapa",
       "in English": "part"
     },
     {
       "Number": 105,
-      "Hindi": "लेना",
+      "Hawaiian": "lawe",
       "in English": "take"
     },
     {
       "Number": 106,
-      "Hindi": "प्राप्त",
+      "Hawaiian": "loaa",
       "in English": "get"
     },
     {
       "Number": 107,
-      "Hindi": "जगह",
+      "Hawaiian": "wahi",
       "in English": "place"
     },
     {
       "Number": 108,
-      "Hindi": "निर्मित",
+      "Hawaiian": "hana",
       "in English": "made"
     },
     {
       "Number": 109,
-      "Hindi": "जीना",
+      "Hawaiian": "ola",
       "in English": "live"
     },
     {
       "Number": 110,
-      "Hindi": "जहां",
+      "Hawaiian": "kahi",
       "in English": "where"
     },
     {
       "Number": 111,
-      "Hindi": "के बाद",
+      "Hawaiian": "mahope iho o",
       "in English": "after"
     },
     {
       "Number": 112,
-      "Hindi": "वापस",
+      "Hawaiian": "i hope",
       "in English": "back"
     },
     {
       "Number": 113,
-      "Hindi": "थोड़ा",
+      "Hawaiian": "iki",
       "in English": "little"
     },
     {
       "Number": 114,
-      "Hindi": "केवल",
+      "Hawaiian": "wale no",
       "in English": "only"
     },
     {
       "Number": 115,
-      "Hindi": "दौर",
+      "Hawaiian": "a",
       "in English": "round"
     },
     {
       "Number": 116,
-      "Hindi": "आदमी",
+      "Hawaiian": "kanaka",
       "in English": "man"
     },
     {
       "Number": 117,
-      "Hindi": "वर्ष",
+      "Hawaiian": "makahiki",
       "in English": "year"
     },
     {
       "Number": 118,
-      "Hindi": "आया",
+      "Hawaiian": "hele mai",
       "in English": "came"
     },
     {
       "Number": 119,
-      "Hindi": "शो",
+      "Hawaiian": "hoike",
       "in English": "show"
     },
     {
       "Number": 120,
-      "Hindi": "हर",
+      "Hawaiian": "o kela",
       "in English": "every"
     },
     {
       "Number": 121,
-      "Hindi": "अच्छा",
+      "Hawaiian": "maikaʻi loa",
       "in English": "good"
     },
     {
       "Number": 122,
-      "Hindi": "मुझे",
+      "Hawaiian": "mai iaʻu",
       "in English": "me"
     },
     {
       "Number": 123,
-      "Hindi": "दे",
+      "Hawaiian": "haawi",
       "in English": "give"
     },
     {
       "Number": 124,
-      "Hindi": "हमारे",
+      "Hawaiian": "makou",
       "in English": "our"
     },
     {
       "Number": 125,
-      "Hindi": "नीचे",
+      "Hawaiian": "malalo o",
       "in English": "under"
     },
     {
       "Number": 126,
-      "Hindi": "नाम",
+      "Hawaiian": "inoa",
       "in English": "name"
     },
     {
       "Number": 127,
-      "Hindi": "बहुत",
+      "Hawaiian": "loa",
       "in English": "very"
     },
     {
       "Number": 128,
-      "Hindi": "के माध्यम से",
+      "Hawaiian": "ma",
       "in English": "through"
     },
     {
       "Number": 129,
-      "Hindi": "बस",
+      "Hawaiian": "pono",
       "in English": "just"
     },
     {
       "Number": 130,
-      "Hindi": "फार्म",
+      "Hawaiian": "ano",
       "in English": "form"
     },
     {
       "Number": 131,
-      "Hindi": "वाक्य",
+      "Hawaiian": "olelo",
       "in English": "sentence"
     },
     {
       "Number": 132,
-      "Hindi": "महान",
+      "Hawaiian": "nui",
       "in English": "great"
     },
     {
       "Number": 133,
-      "Hindi": "लगता है",
+      "Hawaiian": "manao",
       "in English": "think"
     },
     {
       "Number": 134,
-      "Hindi": "कहना",
+      "Hawaiian": "aku nei au",
       "in English": "say"
     },
     {
       "Number": 135,
-      "Hindi": "मदद",
+      "Hawaiian": "kokua",
       "in English": "help"
     },
     {
       "Number": 136,
-      "Hindi": "कम",
+      "Hawaiian": "haahaa",
       "in English": "low"
     },
     {
       "Number": 137,
-      "Hindi": "रेखा",
+      "Hawaiian": "laina",
       "in English": "line"
     },
     {
       "Number": 138,
-      "Hindi": "अलग",
+      "Hawaiian": "oko",
       "in English": "differ"
     },
     {
       "Number": 139,
-      "Hindi": "बारी",
+      "Hawaiian": "huli",
       "in English": "turn"
     },
     {
       "Number": 140,
-      "Hindi": "कारण",
+      "Hawaiian": "kumu",
       "in English": "cause"
     },
     {
       "Number": 141,
-      "Hindi": "ज्यादा",
+      "Hawaiian": "nui",
       "in English": "much"
     },
     {
       "Number": 142,
-      "Hindi": "मतलब",
+      "Hawaiian": "ke ano o",
       "in English": "mean"
     },
     {
       "Number": 143,
-      "Hindi": "पहले",
+      "Hawaiian": "imua o",
       "in English": "before"
     },
     {
       "Number": 144,
-      "Hindi": "चाल",
+      "Hawaiian": "hu",
       "in English": "move"
     },
     {
       "Number": 145,
-      "Hindi": "सही",
+      "Hawaiian": "akau",
       "in English": "right"
     },
     {
       "Number": 146,
-      "Hindi": "लड़का",
+      "Hawaiian": "keiki",
       "in English": "boy"
     },
     {
       "Number": 147,
-      "Hindi": "पुराना",
+      "Hawaiian": "ka wa kahiko",
       "in English": "old"
     },
     {
       "Number": 148,
-      "Hindi": "भी",
+      "Hawaiian": "oi aku",
       "in English": "too"
     },
     {
       "Number": 149,
-      "Hindi": "वही",
+      "Hawaiian": "ia",
       "in English": "same"
     },
     {
       "Number": 150,
-      "Hindi": "वह",
+      "Hawaiian": "ia",
       "in English": "she"
     },
     {
       "Number": 151,
-      "Hindi": "सब",
+      "Hawaiian": "a pau",
       "in English": "all"
     },
     {
       "Number": 152,
-      "Hindi": "वहाँ",
+      "Hawaiian": "laila",
       "in English": "there"
     },
     {
       "Number": 153,
-      "Hindi": "जब",
+      "Hawaiian": "i ka wa",
       "in English": "when"
     },
     {
       "Number": 154,
-      "Hindi": "ऊपर",
+      "Hawaiian": "ae la",
       "in English": "up"
     },
     {
       "Number": 155,
-      "Hindi": "उपयोग",
+      "Hawaiian": "hoʻohana",
       "in English": "use"
     },
     {
       "Number": 156,
-      "Hindi": "अपने",
+      "Hawaiian": "oukou",
       "in English": "your"
     },
     {
       "Number": 157,
-      "Hindi": "रास्ता",
+      "Hawaiian": "ala",
       "in English": "way"
     },
     {
       "Number": 158,
-      "Hindi": "के बारे में",
+      "Hawaiian": "e pili ana i",
       "in English": "about"
     },
     {
       "Number": 159,
-      "Hindi": "कई",
+      "Hawaiian": "he nui",
       "in English": "many"
     },
     {
       "Number": 160,
-      "Hindi": "तो",
+      "Hawaiian": "alaila,",
       "in English": "then"
     },
     {
       "Number": 161,
-      "Hindi": "उन्हें",
+      "Hawaiian": "ia lakou",
       "in English": "them"
     },
     {
       "Number": 162,
-      "Hindi": "लिखना",
+      "Hawaiian": "kakau",
       "in English": "write"
     },
     {
       "Number": 163,
-      "Hindi": "होगा",
+      "Hawaiian": "makemake",
       "in English": "would"
     },
     {
       "Number": 164,
-      "Hindi": "जैसा",
+      "Hawaiian": "like me",
       "in English": "like"
     },
     {
       "Number": 165,
-      "Hindi": "तो",
+      "Hawaiian": "pela",
       "in English": "so"
     },
     {
       "Number": 166,
-      "Hindi": "इन",
+      "Hawaiian": "mau",
       "in English": "these"
     },
     {
       "Number": 167,
-      "Hindi": "उसके",
+      "Hawaiian": "ia",
       "in English": "her"
     },
     {
       "Number": 168,
-      "Hindi": "लंबे समय तक",
+      "Hawaiian": "loihi",
       "in English": "long"
     },
     {
       "Number": 169,
-      "Hindi": "कर",
+      "Hawaiian": "hana",
       "in English": "make"
     },
     {
       "Number": 170,
-      "Hindi": "बात",
+      "Hawaiian": "mea",
       "in English": "thing"
     },
     {
       "Number": 171,
-      "Hindi": "देखना",
+      "Hawaiian": "ike",
       "in English": "see"
     },
     {
       "Number": 172,
-      "Hindi": "उसे",
+      "Hawaiian": "ia",
       "in English": "him"
     },
     {
       "Number": 173,
-      "Hindi": "दो",
+      "Hawaiian": "ʻelua",
       "in English": "two"
     },
     {
       "Number": 174,
-      "Hindi": "है",
+      "Hawaiian": "i",
       "in English": "has"
     },
     {
       "Number": 175,
-      "Hindi": "देखो",
+      "Hawaiian": "nana",
       "in English": "look"
     },
     {
       "Number": 176,
-      "Hindi": "अधिक",
+      "Hawaiian": "hou",
       "in English": "more"
     },
     {
       "Number": 177,
-      "Hindi": "दिन",
+      "Hawaiian": "lā",
       "in English": "day"
     },
     {
       "Number": 178,
-      "Hindi": "सकता है",
+      "Hawaiian": "hiki",
       "in English": "could"
     },
     {
       "Number": 179,
-      "Hindi": "जाना",
+      "Hawaiian": "hele",
       "in English": "go"
     },
     {
       "Number": 180,
-      "Hindi": "आ",
+      "Hawaiian": "hele mai",
       "in English": "come"
     },
     {
       "Number": 181,
-      "Hindi": "किया",
+      "Hawaiian": "hana",
       "in English": "did"
     },
     {
       "Number": 182,
-      "Hindi": "संख्या",
+      "Hawaiian": "helu",
       "in English": "number"
     },
     {
       "Number": 183,
-      "Hindi": "ध्वनि",
+      "Hawaiian": "hookani",
       "in English": "sound"
     },
     {
       "Number": 184,
-      "Hindi": "नहीं",
+      "Hawaiian": "ʻaʻole",
       "in English": "no"
     },
     {
       "Number": 185,
-      "Hindi": "सबसे",
+      "Hawaiian": "loa",
       "in English": "most"
     },
     {
       "Number": 186,
-      "Hindi": "लोग",
+      "Hawaiian": "kanaka",
       "in English": "people"
     },
     {
       "Number": 187,
-      "Hindi": "मेरे",
+      "Hawaiian": "i koʻu",
       "in English": "my"
     },
     {
       "Number": 188,
-      "Hindi": "अधिक",
+      "Hawaiian": "maluna o",
       "in English": "over"
     },
     {
       "Number": 189,
-      "Hindi": "पता",
+      "Hawaiian": "ike",
       "in English": "know"
     },
     {
       "Number": 190,
-      "Hindi": "पानी",
+      "Hawaiian": "ka wai",
       "in English": "water"
     },
     {
       "Number": 191,
-      "Hindi": "से",
+      "Hawaiian": "mamua o",
       "in English": "than"
     },
     {
       "Number": 192,
-      "Hindi": "कॉल",
+      "Hawaiian": "kahea",
       "in English": "call"
     },
     {
       "Number": 193,
-      "Hindi": "पहले",
+      "Hawaiian": "ka mua",
       "in English": "first"
     },
     {
       "Number": 194,
-      "Hindi": "कौन",
+      "Hawaiian": "ka mea",
       "in English": "who"
     },
     {
       "Number": 195,
-      "Hindi": "मई",
+      "Hawaiian": "Mei",
       "in English": "may"
     },
     {
       "Number": 196,
-      "Hindi": "नीचे",
+      "Hawaiian": "iho",
       "in English": "down"
     },
     {
       "Number": 197,
-      "Hindi": "पक्ष",
+      "Hawaiian": "aoao",
       "in English": "side"
     },
     {
       "Number": 198,
-      "Hindi": "गया",
+      "Hawaiian": "i",
       "in English": "been"
     },
     {
       "Number": 199,
-      "Hindi": "अब",
+      "Hawaiian": "Ano",
       "in English": "now"
     },
     {
       "Number": 200,
-      "Hindi": "लगता है",
+      "Hawaiian": "loaa",
       "in English": "find"
     },
     {
       "Number": 201,
-      "Hindi": "सिर",
+      "Hawaiian": "poo",
       "in English": "head"
     },
     {
       "Number": 202,
-      "Hindi": "खड़े",
+      "Hawaiian": "ku",
       "in English": "stand"
     },
     {
       "Number": 203,
-      "Hindi": "खुद",
+      "Hawaiian": "iho",
       "in English": "own"
     },
     {
       "Number": 204,
-      "Hindi": "पेज",
+      "Hawaiian": "palapala",
       "in English": "page"
     },
     {
       "Number": 205,
-      "Hindi": "चाहिए",
+      "Hawaiian": "e",
       "in English": "should"
     },
     {
       "Number": 206,
-      "Hindi": "देश",
+      "Hawaiian": "aina",
       "in English": "country"
     },
     {
       "Number": 207,
-      "Hindi": "पाया",
+      "Hawaiian": "loaa",
       "in English": "found"
     },
     {
       "Number": 208,
-      "Hindi": "जवाब",
+      "Hawaiian": "pane",
       "in English": "answer"
     },
     {
       "Number": 209,
-      "Hindi": "स्कूल",
+      "Hawaiian": "kula",
       "in English": "school"
     },
     {
       "Number": 210,
-      "Hindi": "बढ़ने",
+      "Hawaiian": "ulu",
       "in English": "grow"
     },
     {
       "Number": 211,
-      "Hindi": "अध्ययन",
+      "Hawaiian": "like",
       "in English": "study"
     },
     {
       "Number": 212,
-      "Hindi": "अब तक",
+      "Hawaiian": "malie",
       "in English": "still"
     },
     {
       "Number": 213,
-      "Hindi": "सीखना",
+      "Hawaiian": "e ao",
       "in English": "learn"
     },
     {
       "Number": 214,
-      "Hindi": "संयंत्र",
+      "Hawaiian": "kanu",
       "in English": "plant"
     },
     {
       "Number": 215,
-      "Hindi": "कवर",
+      "Hawaiian": "aloha",
       "in English": "cover"
     },
     {
       "Number": 216,
-      "Hindi": "भोजन",
+      "Hawaiian": "ai",
       "in English": "food"
     },
     {
       "Number": 217,
-      "Hindi": "सूरज",
+      "Hawaiian": "lā",
       "in English": "sun"
     },
     {
       "Number": 218,
-      "Hindi": "चार",
+      "Hawaiian": "ʻehā",
       "in English": "four"
     },
     {
       "Number": 219,
-      "Hindi": "के बीच",
+      "Hawaiian": "waena o",
       "in English": "between"
     },
     {
       "Number": 220,
-      "Hindi": "राज्य",
+      "Hawaiian": "moku’āina",
       "in English": "state"
     },
     {
       "Number": 221,
-      "Hindi": "रखना",
+      "Hawaiian": "malama",
       "in English": "keep"
     },
     {
       "Number": 222,
-      "Hindi": "आंख",
+      "Hawaiian": "maka",
       "in English": "eye"
     },
     {
       "Number": 223,
-      "Hindi": "कभी नहीं",
+      "Hawaiian": "loa",
       "in English": "never"
     },
     {
       "Number": 224,
-      "Hindi": "पिछले",
+      "Hawaiian": "hope",
       "in English": "last"
     },
     {
       "Number": 225,
-      "Hindi": "चलो",
+      "Hawaiian": "e",
       "in English": "let"
     },
     {
       "Number": 226,
-      "Hindi": "सोचा",
+      "Hawaiian": "manaʻo",
       "in English": "thought"
     },
     {
       "Number": 227,
-      "Hindi": "शहर",
+      "Hawaiian": "kulanakauhale",
       "in English": "city"
     },
     {
       "Number": 228,
-      "Hindi": "पेड़",
+      "Hawaiian": "laau",
       "in English": "tree"
     },
     {
       "Number": 229,
-      "Hindi": "पार",
+      "Hawaiian": "kela aoao",
       "in English": "cross"
     },
     {
       "Number": 230,
-      "Hindi": "खेत",
+      "Hawaiian": "mahiʻai",
       "in English": "farm"
     },
     {
       "Number": 231,
-      "Hindi": "कठिन",
+      "Hawaiian": "paakiki",
       "in English": "hard"
     },
     {
       "Number": 232,
-      "Hindi": "शुरुआत",
+      "Hawaiian": "hoʻomaka",
       "in English": "start"
     },
     {
       "Number": 233,
-      "Hindi": "हो सकता है",
+      "Hawaiian": "ikaika",
       "in English": "might"
     },
     {
       "Number": 234,
-      "Hindi": "कहानी",
+      "Hawaiian": "moʻolelo",
       "in English": "story"
     },
     {
       "Number": 235,
-      "Hindi": "देखा",
+      "Hawaiian": "i ike ai",
       "in English": "saw"
     },
     {
       "Number": 236,
-      "Hindi": "दूर",
+      "Hawaiian": "loa",
       "in English": "far"
     },
     {
       "Number": 237,
-      "Hindi": "समुद्र",
+      "Hawaiian": "kai",
       "in English": "sea"
     },
     {
       "Number": 238,
-      "Hindi": "आकर्षित",
+      "Hawaiian": "huki",
       "in English": "draw"
     },
     {
       "Number": 239,
-      "Hindi": "छोड़ा",
+      "Hawaiian": "hema",
       "in English": "left"
     },
     {
       "Number": 240,
-      "Hindi": "देर से",
+      "Hawaiian": "hopena o",
       "in English": "late"
     },
     {
       "Number": 241,
-      "Hindi": "चलाने",
+      "Hawaiian": "hoʻoholo",
       "in English": "run"
     },
     {
       "Number": 242,
-      "Hindi": "ऐसा नहीं",
+      "Hawaiian": "hana, aole",
       "in English": "don’t"
     },
     {
       "Number": 243,
-      "Hindi": "जबकि",
+      "Hawaiian": "oiai",
       "in English": "while"
     },
     {
       "Number": 244,
-      "Hindi": "प्रेस",
+      "Hawaiian": "kaomi",
       "in English": "press"
     },
     {
       "Number": 245,
-      "Hindi": "करीब",
+      "Hawaiian": "kokoke",
       "in English": "close"
     },
     {
       "Number": 246,
-      "Hindi": "रात",
+      "Hawaiian": "pō",
       "in English": "night"
     },
     {
       "Number": 247,
-      "Hindi": "असली",
+      "Hawaiian": "maoli",
       "in English": "real"
     },
     {
       "Number": 248,
-      "Hindi": "जीवन",
+      "Hawaiian": "ola",
       "in English": "life"
     },
     {
       "Number": 249,
-      "Hindi": "कुछ",
+      "Hawaiian": "kakaikahi",
       "in English": "few"
     },
     {
       "Number": 250,
-      "Hindi": "उत्तर",
+      "Hawaiian": "ke akau",
       "in English": "north"
     },
     {
       "Number": 251,
-      "Hindi": "किताब",
+      "Hawaiian": "buke",
       "in English": "book"
     },
     {
       "Number": 252,
-      "Hindi": "ले",
+      "Hawaiian": "lawe",
       "in English": "carry"
     },
     {
       "Number": 253,
-      "Hindi": "ले लिया",
+      "Hawaiian": "lawe",
       "in English": "took"
     },
     {
       "Number": 254,
-      "Hindi": "विज्ञान",
+      "Hawaiian": "nauka",
       "in English": "science"
     },
     {
       "Number": 255,
-      "Hindi": "खाने",
+      "Hawaiian": "ai",
       "in English": "eat"
     },
     {
       "Number": 256,
-      "Hindi": "कमरे",
+      "Hawaiian": "lumi",
       "in English": "room"
     },
     {
       "Number": 257,
-      "Hindi": "दोस्त",
+      "Hawaiian": "hoaaloha",
       "in English": "friend"
     },
     {
       "Number": 258,
-      "Hindi": "शुरू हुआ",
+      "Hawaiian": "hoomaka ae",
       "in English": "began"
     },
     {
       "Number": 259,
-      "Hindi": "विचार",
+      "Hawaiian": "manaʻo",
       "in English": "idea"
     },
     {
       "Number": 260,
-      "Hindi": "मछली",
+      "Hawaiian": "iʻa",
       "in English": "fish"
     },
     {
       "Number": 261,
-      "Hindi": "पहाड़",
+      "Hawaiian": "mauna",
       "in English": "mountain"
     },
     {
       "Number": 262,
-      "Hindi": "रोक",
+      "Hawaiian": "hooki",
       "in English": "stop"
     },
     {
       "Number": 263,
-      "Hindi": "एक बार",
+      "Hawaiian": "pākahi",
       "in English": "once"
     },
     {
       "Number": 264,
-      "Hindi": "आधार",
+      "Hawaiian": "kumu",
       "in English": "base"
     },
     {
       "Number": 265,
-      "Hindi": "सुनना",
+      "Hawaiian": "lohe",
       "in English": "hear"
     },
     {
       "Number": 266,
-      "Hindi": "घोड़ा",
+      "Hawaiian": "ka lio",
       "in English": "horse"
     },
     {
       "Number": 267,
-      "Hindi": "कटौती",
+      "Hawaiian": "e oki ai",
       "in English": "cut"
     },
     {
       "Number": 268,
-      "Hindi": "यकीन",
+      "Hawaiian": "paa,",
       "in English": "sure"
     },
     {
       "Number": 269,
-      "Hindi": "घड़ी",
+      "Hawaiian": "kiai",
       "in English": "watch"
     },
     {
       "Number": 270,
-      "Hindi": "रंग",
+      "Hawaiian": "kala like ‘ole",
       "in English": "color"
     },
     {
       "Number": 271,
-      "Hindi": "चेहरा",
+      "Hawaiian": "maka",
       "in English": "face"
     },
     {
       "Number": 272,
-      "Hindi": "लकड़ी",
+      "Hawaiian": "laau",
       "in English": "wood"
     },
     {
       "Number": 273,
-      "Hindi": "मुख्य",
+      "Hawaiian": "ka papa kuhikuhiE",
       "in English": "main"
     },
     {
       "Number": 274,
-      "Hindi": "खुला",
+      "Hawaiian": "hamama",
       "in English": "open"
     },
     {
       "Number": 275,
-      "Hindi": "प्रतीत",
+      "Hawaiian": "he",
       "in English": "seem"
     },
     {
       "Number": 276,
-      "Hindi": "एक साथ",
+      "Hawaiian": "pu",
       "in English": "together"
     },
     {
       "Number": 277,
-      "Hindi": "अगला",
+      "Hawaiian": "aʻe",
       "in English": "next"
     },
     {
       "Number": 278,
-      "Hindi": "सफेद",
+      "Hawaiian": "keʻokeʻo",
       "in English": "white"
     },
     {
       "Number": 279,
-      "Hindi": "बच्चों",
+      "Hawaiian": "keiki",
       "in English": "children"
     },
     {
       "Number": 280,
-      "Hindi": "प्रारंभ करना",
+      "Hawaiian": "hoomaka",
       "in English": "begin"
     },
     {
       "Number": 281,
-      "Hindi": "मिला",
+      "Hawaiian": "loaʻa",
       "in English": "got"
     },
     {
       "Number": 282,
-      "Hindi": "चलना",
+      "Hawaiian": "hele",
       "in English": "walk"
     },
     {
       "Number": 283,
-      "Hindi": "उदाहरण",
+      "Hawaiian": "Eia",
       "in English": "example"
     },
     {
       "Number": 284,
-      "Hindi": "आसानी",
+      "Hawaiian": "hoopau i",
       "in English": "ease"
     },
     {
       "Number": 285,
-      "Hindi": "कागज",
+      "Hawaiian": "pepa",
       "in English": "paper"
     },
     {
       "Number": 286,
-      "Hindi": "समूह",
+      "Hawaiian": "hui",
       "in English": "group"
     },
     {
       "Number": 287,
-      "Hindi": "सदैव",
+      "Hawaiian": "mau",
       "in English": "always"
     },
     {
       "Number": 288,
-      "Hindi": "संगीत",
+      "Hawaiian": "aloha",
       "in English": "music"
     },
     {
       "Number": 289,
-      "Hindi": "उन",
+      "Hawaiian": "mau",
       "in English": "those"
     },
     {
       "Number": 290,
-      "Hindi": "दोनों",
+      "Hawaiian": "elua",
       "in English": "both"
     },
     {
       "Number": 291,
-      "Hindi": "मार्क",
+      "Hawaiian": "mark",
       "in English": "mark"
     },
     {
       "Number": 292,
-      "Hindi": "अक्सर",
+      "Hawaiian": "pinepine",
       "in English": "often"
     },
     {
       "Number": 293,
-      "Hindi": "पत्र",
+      "Hawaiian": "palapala",
       "in English": "letter"
     },
     {
       "Number": 294,
-      "Hindi": "जब तक",
+      "Hawaiian": "a hiki i",
       "in English": "until"
     },
     {
       "Number": 295,
-      "Hindi": "मील",
+      "Hawaiian": "ka mile",
       "in English": "mile"
     },
     {
       "Number": 296,
-      "Hindi": "नदी",
+      "Hawaiian": "muliwai",
       "in English": "river"
     },
     {
       "Number": 297,
-      "Hindi": "कार",
+      "Hawaiian": "kaʻa",
       "in English": "car"
     },
     {
       "Number": 298,
-      "Hindi": "पैर",
+      "Hawaiian": "wawae",
       "in English": "feet"
     },
     {
       "Number": 299,
-      "Hindi": "देखभाल",
+      "Hawaiian": "mālama",
       "in English": "care"
     },
     {
       "Number": 300,
-      "Hindi": "दूसरा",
+      "Hawaiian": "ka lua",
       "in English": "second"
     },
     {
       "Number": 301,
-      "Hindi": "पर्याप्त",
+      "Hawaiian": "lawa",
       "in English": "enough"
     },
     {
       "Number": 302,
-      "Hindi": "सादे",
+      "Hawaiian": "maopopo",
       "in English": "plain"
     },
     {
       "Number": 303,
-      "Hindi": "लड़की",
+      "Hawaiian": "kaikamahine",
       "in English": "girl"
     },
     {
       "Number": 304,
-      "Hindi": "हमेशा की तरह",
+      "Hawaiian": "mau",
       "in English": "usual"
     },
     {
       "Number": 305,
-      "Hindi": "युवा",
+      "Hawaiian": "opiopio",
       "in English": "young"
     },
     {
       "Number": 306,
-      "Hindi": "तैयार",
+      "Hawaiian": "makaukau",
       "in English": "ready"
     },
     {
       "Number": 307,
-      "Hindi": "ऊपर",
+      "Hawaiian": "luna",
       "in English": "above"
     },
     {
       "Number": 308,
-      "Hindi": "कभी",
+      "Hawaiian": "loa",
       "in English": "ever"
     },
     {
       "Number": 309,
-      "Hindi": "लाल",
+      "Hawaiian": "ʻulaʻula",
       "in English": "red"
     },
     {
       "Number": 310,
-      "Hindi": "सूची",
+      "Hawaiian": "papa",
       "in English": "list"
     },
     {
       "Number": 311,
-      "Hindi": "हालांकि",
+      "Hawaiian": "nae",
       "in English": "though"
     },
     {
       "Number": 312,
-      "Hindi": "लग रहा है",
+      "Hawaiian": "haha aku",
       "in English": "feel"
     },
     {
       "Number": 313,
-      "Hindi": "वार्ता",
+      "Hawaiian": "o anakuhi",
       "in English": "talk"
     },
     {
       "Number": 314,
-      "Hindi": "पक्षी",
+      "Hawaiian": "manu",
       "in English": "bird"
     },
     {
       "Number": 315,
-      "Hindi": "शीघ्र",
+      "Hawaiian": "koke",
       "in English": "soon"
     },
     {
       "Number": 316,
-      "Hindi": "शरीर",
+      "Hawaiian": "kino",
       "in English": "body"
     },
     {
       "Number": 317,
-      "Hindi": "कुत्ते",
+      "Hawaiian": "‘īlio",
       "in English": "dog"
     },
     {
       "Number": 318,
-      "Hindi": "परिवार",
+      "Hawaiian": "ohana",
       "in English": "family"
     },
     {
       "Number": 319,
-      "Hindi": "प्रत्यक्ष",
+      "Hawaiian": "kauoha",
       "in English": "direct"
     },
     {
       "Number": 320,
-      "Hindi": "ढोंग",
+      "Hawaiian": "oweliweli",
       "in English": "pose"
     },
     {
       "Number": 321,
-      "Hindi": "छोड़",
+      "Hawaiian": "waiho",
       "in English": "leave"
     },
     {
       "Number": 322,
-      "Hindi": "गीत",
+      "Hawaiian": "mele",
       "in English": "song"
     },
     {
       "Number": 323,
-      "Hindi": "नाप",
+      "Hawaiian": "ana",
       "in English": "measure"
     },
     {
       "Number": 324,
-      "Hindi": "दरवाजा",
+      "Hawaiian": "puka",
       "in English": "door"
     },
     {
       "Number": 325,
-      "Hindi": "उत्पाद",
+      "Hawaiian": "huahana",
       "in English": "product"
     },
     {
       "Number": 326,
-      "Hindi": "काला",
+      "Hawaiian": "ʻeleʻele",
       "in English": "black"
     },
     {
       "Number": 327,
-      "Hindi": "कम",
+      "Hawaiian": "pōkole",
       "in English": "short"
     },
     {
       "Number": 328,
-      "Hindi": "अंक",
+      "Hawaiian": "numeral",
       "in English": "numeral"
     },
     {
       "Number": 329,
-      "Hindi": "क्लास",
+      "Hawaiian": "papa",
       "in English": "class"
     },
     {
       "Number": 330,
-      "Hindi": "हवा",
+      "Hawaiian": "makani",
       "in English": "wind"
     },
     {
       "Number": 331,
-      "Hindi": "सवाल",
+      "Hawaiian": "ninau",
       "in English": "question"
     },
     {
       "Number": 332,
-      "Hindi": "होना",
+      "Hawaiian": "hiki mai ana",
       "in English": "happen"
     },
     {
       "Number": 333,
-      "Hindi": "पूरा",
+      "Hawaiian": "loa",
       "in English": "complete"
     },
     {
       "Number": 334,
-      "Hindi": "जहाज",
+      "Hawaiian": "moku",
       "in English": "ship"
     },
     {
       "Number": 335,
-      "Hindi": "क्षेत्र",
+      "Hawaiian": "wahi",
       "in English": "area"
     },
     {
       "Number": 336,
-      "Hindi": "आधा",
+      "Hawaiian": "hapalua",
       "in English": "half"
     },
     {
       "Number": 337,
-      "Hindi": "रॉक",
+      "Hawaiian": "pohaku",
       "in English": "rock"
     },
     {
       "Number": 338,
-      "Hindi": "आदेश",
+      "Hawaiian": "aoao",
       "in English": "order"
     },
     {
       "Number": 339,
-      "Hindi": "आग",
+      "Hawaiian": "ke ahi",
       "in English": "fire"
     },
     {
       "Number": 340,
-      "Hindi": "दक्षिण",
+      "Hawaiian": "ka hema",
       "in English": "south"
     },
     {
       "Number": 341,
-      "Hindi": "समस्या",
+      "Hawaiian": "pilikia",
       "in English": "problem"
     },
     {
       "Number": 342,
-      "Hindi": "टुकड़ा",
+      "Hawaiian": "kauwahi",
       "in English": "piece"
     },
     {
       "Number": 343,
-      "Hindi": "बताया",
+      "Hawaiian": "haʻi",
       "in English": "told"
     },
     {
       "Number": 344,
-      "Hindi": "पता था",
+      "Hawaiian": "ike",
       "in English": "knew"
     },
     {
       "Number": 345,
-      "Hindi": "पास",
+      "Hawaiian": "kekahi",
       "in English": "pass"
     },
     {
       "Number": 346,
-      "Hindi": "के बाद से",
+      "Hawaiian": "mai",
       "in English": "since"
     },
     {
       "Number": 347,
-      "Hindi": "शीर्ष",
+      "Hawaiian": "luna",
       "in English": "top"
     },
     {
       "Number": 348,
-      "Hindi": "पूरे",
+      "Hawaiian": "a pau",
       "in English": "whole"
     },
     {
       "Number": 349,
-      "Hindi": "राजा",
+      "Hawaiian": "ke alii",
       "in English": "king"
     },
     {
       "Number": 350,
-      "Hindi": "सड़क",
+      "Hawaiian": "alanui",
       "in English": "street"
     },
     {
       "Number": 351,
-      "Hindi": "इंच",
+      "Hawaiian": "‘īniha",
       "in English": "inch"
     },
     {
       "Number": 352,
-      "Hindi": "गुणा",
+      "Hawaiian": "hoonui",
       "in English": "multiply"
     },
     {
       "Number": 353,
-      "Hindi": "कुछ नहीं",
+      "Hawaiian": "aole",
       "in English": "nothing"
     },
     {
       "Number": 354,
-      "Hindi": "कोर्स",
+      "Hawaiian": "ana",
       "in English": "course"
     },
     {
       "Number": 355,
-      "Hindi": "रहना",
+      "Hawaiian": "noho",
       "in English": "stay"
     },
     {
       "Number": 356,
-      "Hindi": "पहिया",
+      "Hawaiian": "huila",
       "in English": "wheel"
     },
     {
       "Number": 357,
-      "Hindi": "पूर्ण",
+      "Hawaiian": "piha",
       "in English": "full"
     },
     {
       "Number": 358,
-      "Hindi": "बल",
+      "Hawaiian": "ikaika",
       "in English": "force"
     },
     {
       "Number": 359,
-      "Hindi": "नीला",
+      "Hawaiian": "polū",
       "in English": "blue"
     },
     {
       "Number": 360,
-      "Hindi": "वस्तु",
+      "Hawaiian": "mea",
       "in English": "object"
     },
     {
       "Number": 361,
-      "Hindi": "तय",
+      "Hawaiian": "hooholo",
       "in English": "decide"
     },
     {
       "Number": 362,
-      "Hindi": "सतह",
+      "Hawaiian": "ili",
       "in English": "surface"
     },
     {
       "Number": 363,
-      "Hindi": "गहरा",
+      "Hawaiian": "hohonu",
       "in English": "deep"
     },
     {
       "Number": 364,
-      "Hindi": "चांद",
+      "Hawaiian": "luna",
       "in English": "moon"
     },
     {
       "Number": 365,
-      "Hindi": "द्वीप",
+      "Hawaiian": "mokupuni",
       "in English": "island"
     },
     {
       "Number": 366,
-      "Hindi": "पैर",
+      "Hawaiian": "wawae",
       "in English": "foot"
     },
     {
       "Number": 367,
-      "Hindi": "प्रणाली",
+      "Hawaiian": "nenoaiu",
       "in English": "system"
     },
     {
       "Number": 368,
-      "Hindi": "व्यस्त",
+      "Hawaiian": "‘ō i",
       "in English": "busy"
     },
     {
       "Number": 369,
-      "Hindi": "परीक्षण",
+      "Hawaiian": "hōʻike",
       "in English": "test"
     },
     {
       "Number": 370,
-      "Hindi": "रिकॉर्ड",
+      "Hawaiian": "mooolelo",
       "in English": "record"
     },
     {
       "Number": 371,
-      "Hindi": "नाव",
+      "Hawaiian": "moku",
       "in English": "boat"
     },
     {
       "Number": 372,
-      "Hindi": "आम",
+      "Hawaiian": "like",
       "in English": "common"
     },
     {
       "Number": 373,
-      "Hindi": "सोना",
+      "Hawaiian": "gula",
       "in English": "gold"
     },
     {
       "Number": 374,
-      "Hindi": "संभव",
+      "Hawaiian": "hiki",
       "in English": "possible"
     },
     {
       "Number": 375,
-      "Hindi": "विमान",
+      "Hawaiian": "pelane",
       "in English": "plane"
     },
     {
       "Number": 376,
-      "Hindi": "जगह",
+      "Hawaiian": "wahi",
       "in English": "stead"
     },
     {
       "Number": 377,
-      "Hindi": "सूखा",
+      "Hawaiian": "maloo",
       "in English": "dry"
     },
     {
       "Number": 378,
-      "Hindi": "आश्चर्य",
+      "Hawaiian": "hoohuoi",
       "in English": "wonder"
     },
     {
       "Number": 379,
-      "Hindi": "हंसी",
+      "Hawaiian": "akaaka",
       "in English": "laugh"
     },
     {
       "Number": 380,
-      "Hindi": "हजार",
+      "Hawaiian": "tausani",
       "in English": "thousand"
     },
     {
       "Number": 381,
-      "Hindi": "पहले",
+      "Hawaiian": "aku nei",
       "in English": "ago"
     },
     {
       "Number": 382,
-      "Hindi": "भागा",
+      "Hawaiian": "holo",
       "in English": "ran"
     },
     {
       "Number": 383,
-      "Hindi": "जाँच",
+      "Hawaiian": "huli",
       "in English": "check"
     },
     {
       "Number": 384,
-      "Hindi": "खेल",
+      "Hawaiian": "hihiu",
       "in English": "game"
     },
     {
       "Number": 385,
-      "Hindi": "आकार",
+      "Hawaiian": "helehelena",
       "in English": "shape"
     },
     {
       "Number": 386,
-      "Hindi": "समानता",
+      "Hawaiian": "equate",
       "in English": "equate"
     },
     {
       "Number": 387,
-      "Hindi": "गरम",
+      "Hawaiian": "anal",
       "in English": "hot"
     },
     {
       "Number": 388,
-      "Hindi": "मिस",
+      "Hawaiian": "Miss",
       "in English": "miss"
     },
     {
       "Number": 389,
-      "Hindi": "लाया",
+      "Hawaiian": "lawe mai",
       "in English": "brought"
     },
     {
       "Number": 390,
-      "Hindi": "गर्मी",
+      "Hawaiian": "wela",
       "in English": "heat"
     },
     {
       "Number": 391,
-      "Hindi": "बर्फ",
+      "Hawaiian": "hau",
       "in English": "snow"
     },
     {
       "Number": 392,
-      "Hindi": "टायर",
+      "Hawaiian": "kaea",
       "in English": "tire"
     },
     {
       "Number": 393,
-      "Hindi": "लाना",
+      "Hawaiian": "lawe mai",
       "in English": "bring"
     },
     {
       "Number": 394,
-      "Hindi": "हां",
+      "Hawaiian": "ʻae",
       "in English": "yes"
     },
     {
       "Number": 395,
-      "Hindi": "दूर",
+      "Hawaiian": "ke kaawale ana",
       "in English": "distant"
     },
     {
       "Number": 396,
-      "Hindi": "भरने",
+      "Hawaiian": "hoopiha",
       "in English": "fill"
     },
     {
       "Number": 397,
-      "Hindi": "पूर्व",
+      "Hawaiian": "ka hikina",
       "in English": "east"
     },
     {
       "Number": 398,
-      "Hindi": "रंग",
+      "Hawaiian": "pena",
       "in English": "paint"
     },
     {
       "Number": 399,
-      "Hindi": "भाषा",
+      "Hawaiian": "‘ōlelo",
       "in English": "language"
     },
     {
       "Number": 400,
-      "Hindi": "के बीच",
+      "Hawaiian": "mawaena o",
       "in English": "among"
     },
     {
       "Number": 401,
-      "Hindi": "इकाई",
+      "Hawaiian": "pa alima",
       "in English": "unit"
     },
     {
       "Number": 402,
-      "Hindi": "बिजली",
+      "Hawaiian": "mana",
       "in English": "power"
     },
     {
       "Number": 403,
-      "Hindi": "शहर",
+      "Hawaiian": "kulanakauhale",
       "in English": "town"
     },
     {
       "Number": 404,
-      "Hindi": "ठीक",
+      "Hawaiian": "uku",
       "in English": "fine"
     },
     {
       "Number": 405,
-      "Hindi": "कुछ",
+      "Hawaiian": "kekahi",
       "in English": "certain"
     },
     {
       "Number": 406,
-      "Hindi": "मक्खी",
+      "Hawaiian": "lele",
       "in English": "fly"
     },
     {
       "Number": 407,
-      "Hindi": "गिरावट",
+      "Hawaiian": "haule",
       "in English": "fall"
     },
     {
       "Number": 408,
-      "Hindi": "नेतृत्व",
+      "Hawaiian": "alakai",
       "in English": "lead"
     },
     {
       "Number": 409,
-      "Hindi": "रोना",
+      "Hawaiian": "kahea ana",
       "in English": "cry"
     },
     {
       "Number": 410,
-      "Hindi": "अंधेरा",
+      "Hawaiian": "pouli",
       "in English": "dark"
     },
     {
       "Number": 411,
-      "Hindi": "मशीन",
+      "Hawaiian": "Maker",
       "in English": "machine"
     },
     {
       "Number": 412,
-      "Hindi": "नोट",
+      "Hawaiian": "palapala aie",
       "in English": "note"
     },
     {
       "Number": 413,
-      "Hindi": "इंतजार",
+      "Hawaiian": "kali",
       "in English": "wait"
     },
     {
       "Number": 414,
-      "Hindi": "योजना",
+      "Hawaiian": "kuka",
       "in English": "plan"
     },
     {
       "Number": 415,
-      "Hindi": "आंकड़ा",
+      "Hawaiian": "huahelu",
       "in English": "figure"
     },
     {
       "Number": 416,
-      "Hindi": "सितारा",
+      "Hawaiian": "hoku",
       "in English": "star"
     },
     {
       "Number": 417,
-      "Hindi": "बॉक्स",
+      "Hawaiian": "pahu",
       "in English": "box"
     },
     {
       "Number": 418,
-      "Hindi": "संज्ञा",
+      "Hawaiian": "noun",
       "in English": "noun"
     },
     {
       "Number": 419,
-      "Hindi": "क्षेत्र",
+      "Hawaiian": "mahinaʻai",
       "in English": "field"
     },
     {
       "Number": 420,
-      "Hindi": "बाकी",
+      "Hawaiian": "maha",
       "in English": "rest"
     },
     {
       "Number": 421,
-      "Hindi": "सही",
+      "Hawaiian": "pololei",
       "in English": "correct"
     },
     {
       "Number": 422,
-      "Hindi": "सक्षम",
+      "Hawaiian": "hiki",
       "in English": "able"
     },
     {
       "Number": 423,
-      "Hindi": "पाउंड",
+      "Hawaiian": "paona",
       "in English": "pound"
     },
     {
       "Number": 424,
-      "Hindi": "किया",
+      "Hawaiian": "hana",
       "in English": "done"
     },
     {
       "Number": 425,
-      "Hindi": "सुंदरता",
+      "Hawaiian": "nani",
       "in English": "beauty"
     },
     {
       "Number": 426,
-      "Hindi": "ड्राइव",
+      "Hawaiian": "a holo",
       "in English": "drive"
     },
     {
       "Number": 427,
-      "Hindi": "खड़ा हुआ",
+      "Hawaiian": "ku",
       "in English": "stood"
     },
     {
       "Number": 428,
-      "Hindi": "होते हैं",
+      "Hawaiian": "no",
       "in English": "contain"
     },
     {
       "Number": 429,
-      "Hindi": "सामने",
+      "Hawaiian": "alo",
       "in English": "front"
     },
     {
       "Number": 430,
-      "Hindi": "सिखाना",
+      "Hawaiian": "ao",
       "in English": "teach"
     },
     {
       "Number": 431,
-      "Hindi": "सप्ताह",
+      "Hawaiian": "pule",
       "in English": "week"
     },
     {
       "Number": 432,
-      "Hindi": "अंतिम",
+      "Hawaiian": "hope loa",
       "in English": "final"
     },
     {
       "Number": 433,
-      "Hindi": "दिया",
+      "Hawaiian": "haawi",
       "in English": "gave"
     },
     {
       "Number": 434,
-      "Hindi": "हरे रंग",
+      "Hawaiian": "ʻōmaʻomaʻo",
       "in English": "green"
     },
     {
       "Number": 435,
-      "Hindi": "ओह",
+      "Hawaiian": "oh la",
       "in English": "oh"
     },
     {
       "Number": 436,
-      "Hindi": "त्वरित",
+      "Hawaiian": "poe ola,",
       "in English": "quick"
     },
     {
       "Number": 437,
-      "Hindi": "विकसित",
+      "Hawaiian": "hoʻomōhala",
       "in English": "develop"
     },
     {
       "Number": 438,
-      "Hindi": "सागर",
+      "Hawaiian": "moana",
       "in English": "ocean"
     },
     {
       "Number": 439,
-      "Hindi": "गर्म",
+      "Hawaiian": "pumehana",
       "in English": "warm"
     },
     {
       "Number": 440,
-      "Hindi": "मुक्त",
+      "Hawaiian": "like me",
       "in English": "free"
     },
     {
       "Number": 441,
-      "Hindi": "मिनट",
+      "Hawaiian": "minuke",
       "in English": "minute"
     },
     {
       "Number": 442,
-      "Hindi": "मजबूत",
+      "Hawaiian": "ikaika",
       "in English": "strong"
     },
     {
       "Number": 443,
-      "Hindi": "विशेष",
+      "Hawaiian": "kūikawā",
       "in English": "special"
     },
     {
       "Number": 444,
-      "Hindi": "मन",
+      "Hawaiian": "manao",
       "in English": "mind"
     },
     {
       "Number": 445,
-      "Hindi": "पीछे",
+      "Hawaiian": "mahope",
       "in English": "behind"
     },
     {
       "Number": 446,
-      "Hindi": "स्पष्ट",
+      "Hawaiian": "maopopo",
       "in English": "clear"
     },
     {
       "Number": 447,
-      "Hindi": "पूंछ",
+      "Hawaiian": "huelo",
       "in English": "tail"
     },
     {
       "Number": 448,
-      "Hindi": "उत्पादन",
+      "Hawaiian": "paka",
       "in English": "produce"
     },
     {
       "Number": 449,
-      "Hindi": "तथ्य",
+      "Hawaiian": "mea",
       "in English": "fact"
     },
     {
       "Number": 450,
-      "Hindi": "अंतरिक्ष",
+      "Hawaiian": "makahiki",
       "in English": "space"
     },
     {
       "Number": 451,
-      "Hindi": "सुना",
+      "Hawaiian": "lohe",
       "in English": "heard"
     },
     {
       "Number": 452,
-      "Hindi": "सर्वश्रेष्ठ",
+      "Hawaiian": "pono",
       "in English": "best"
     },
     {
       "Number": 453,
-      "Hindi": "घंटे",
+      "Hawaiian": "hola",
       "in English": "hour"
     },
     {
       "Number": 454,
-      "Hindi": "बेहतर",
+      "Hawaiian": "maikai",
       "in English": "better"
     },
     {
       "Number": 455,
-      "Hindi": "सच",
+      "Hawaiian": "oiaio",
       "in English": "true"
     },
     {
       "Number": 456,
-      "Hindi": "दौरान",
+      "Hawaiian": "iloko o",
       "in English": "during"
     },
     {
       "Number": 457,
-      "Hindi": "सौ",
+      "Hawaiian": "haneri",
       "in English": "hundred"
     },
     {
       "Number": 458,
-      "Hindi": "पांच",
+      "Hawaiian": "ʻelima",
       "in English": "five"
     },
     {
       "Number": 459,
-      "Hindi": "याद",
+      "Hawaiian": "no",
       "in English": "remember"
     },
     {
       "Number": 460,
-      "Hindi": "कदम",
+      "Hawaiian": "‘anuʻu",
       "in English": "step"
     },
     {
       "Number": 461,
-      "Hindi": "शीघ्र",
+      "Hawaiian": "koke",
       "in English": "early"
     },
     {
       "Number": 462,
-      "Hindi": "पकड़",
+      "Hawaiian": "paa",
       "in English": "hold"
     },
     {
       "Number": 463,
-      "Hindi": "पश्चिम",
+      "Hawaiian": "komohana",
       "in English": "west"
     },
     {
       "Number": 464,
-      "Hindi": "जमीन",
+      "Hawaiian": "honua",
       "in English": "ground"
     },
     {
       "Number": 465,
-      "Hindi": "ब्याज",
+      "Hawaiian": "panee",
       "in English": "interest"
     },
     {
       "Number": 466,
-      "Hindi": "तक पहुँचने",
+      "Hawaiian": "hiki",
       "in English": "reach"
     },
     {
       "Number": 467,
-      "Hindi": "तेजी",
+      "Hawaiian": "hookeai",
       "in English": "fast"
     },
     {
       "Number": 468,
-      "Hindi": "क्रिया",
+      "Hawaiian": "verb",
       "in English": "verb"
     },
     {
       "Number": 469,
-      "Hindi": "गाना",
+      "Hawaiian": "mele",
       "in English": "sing"
     },
     {
       "Number": 470,
-      "Hindi": "सुनो",
+      "Hawaiian": "hoolohe",
       "in English": "listen"
     },
     {
       "Number": 471,
-      "Hindi": "छह",
+      "Hawaiian": "ʻeono",
       "in English": "six"
     },
     {
       "Number": 472,
-      "Hindi": "तालिका",
+      "Hawaiian": "papaʻaina",
       "in English": "table"
     },
     {
       "Number": 473,
-      "Hindi": "यात्रा",
+      "Hawaiian": "hele",
       "in English": "travel"
     },
     {
       "Number": 474,
-      "Hindi": "कम",
+      "Hawaiian": "emi",
       "in English": "less"
     },
     {
       "Number": 475,
-      "Hindi": "सुबह",
+      "Hawaiian": "kakahiaka",
       "in English": "morning"
     },
     {
       "Number": 476,
-      "Hindi": "दस",
+      "Hawaiian": "ʻumi",
       "in English": "ten"
     },
     {
       "Number": 477,
-      "Hindi": "सरल",
+      "Hawaiian": "mea",
       "in English": "simple"
     },
     {
       "Number": 478,
-      "Hindi": "कई",
+      "Hawaiian": "mau",
       "in English": "several"
     },
     {
       "Number": 479,
-      "Hindi": "स्वर",
+      "Hawaiian": "vowel",
       "in English": "vowel"
     },
     {
       "Number": 480,
-      "Hindi": "की ओर",
+      "Hawaiian": "ma",
       "in English": "toward"
     },
     {
       "Number": 481,
-      "Hindi": "युद्ध",
+      "Hawaiian": "kaua",
       "in English": "war"
     },
     {
       "Number": 482,
-      "Hindi": "रखना",
+      "Hawaiian": "waiho",
       "in English": "lay"
     },
     {
       "Number": 483,
-      "Hindi": "के खिलाफ",
+      "Hawaiian": "ku",
       "in English": "against"
     },
     {
       "Number": 484,
-      "Hindi": "पैटर्न",
+      "Hawaiian": "kumu",
       "in English": "pattern"
     },
     {
       "Number": 485,
-      "Hindi": "धीमी",
+      "Hawaiian": "kali",
       "in English": "slow"
     },
     {
       "Number": 486,
-      "Hindi": "केंद्र",
+      "Hawaiian": "kikowaena",
       "in English": "center"
     },
     {
       "Number": 487,
-      "Hindi": "प्यार",
+      "Hawaiian": "aloha",
       "in English": "love"
     },
     {
       "Number": 488,
-      "Hindi": "व्यक्ति",
+      "Hawaiian": "kanaka",
       "in English": "person"
     },
     {
       "Number": 489,
-      "Hindi": "धन",
+      "Hawaiian": "kala",
       "in English": "money"
     },
     {
       "Number": 490,
-      "Hindi": "सेवा कर",
+      "Hawaiian": "malama",
       "in English": "serve"
     },
     {
       "Number": 491,
-      "Hindi": "प्रकट",
+      "Hawaiian": "hele mai",
       "in English": "appear"
     },
     {
       "Number": 492,
-      "Hindi": "सड़क",
+      "Hawaiian": "alanui",
       "in English": "road"
     },
     {
       "Number": 493,
-      "Hindi": "नक्शा",
+      "Hawaiian": "palapala ‘āina",
       "in English": "map"
     },
     {
       "Number": 494,
-      "Hindi": "बारिश",
+      "Hawaiian": "ka ua",
       "in English": "rain"
     },
     {
       "Number": 495,
-      "Hindi": "नियम",
+      "Hawaiian": "rula",
       "in English": "rule"
     },
     {
       "Number": 496,
-      "Hindi": "शासन",
+      "Hawaiian": "hoomalu",
       "in English": "govern"
     },
     {
       "Number": 497,
-      "Hindi": "खींच",
+      "Hawaiian": "huki",
       "in English": "pull"
     },
     {
       "Number": 498,
-      "Hindi": "ठंड",
+      "Hawaiian": "anu",
       "in English": "cold"
     },
     {
       "Number": 499,
-      "Hindi": "नोटिस",
+      "Hawaiian": "Hoike",
       "in English": "notice"
     },
     {
       "Number": 500,
-      "Hindi": "आवाज",
+      "Hawaiian": "leo",
       "in English": "voice"
     },
     {
       "Number": 501,
-      "Hindi": "ऊर्जा",
+      "Hawaiian": "ikehu",
       "in English": "energy"
     },
     {
       "Number": 502,
-      "Hindi": "शिकार",
+      "Hawaiian": "i hoʻohālua",
       "in English": "hunt"
     },
     {
       "Number": 503,
-      "Hindi": "संभावित",
+      "Hawaiian": "paha",
       "in English": "probable"
     },
     {
       "Number": 504,
-      "Hindi": "बिस्तर",
+      "Hawaiian": "moe",
       "in English": "bed"
     },
     {
       "Number": 505,
-      "Hindi": "भाई",
+      "Hawaiian": "kaikuaʻana, kaikaina",
       "in English": "brother"
     },
     {
       "Number": 506,
-      "Hindi": "अंडा",
+      "Hawaiian": "hua",
       "in English": "egg"
     },
     {
       "Number": 507,
-      "Hindi": "सवारी",
+      "Hawaiian": "No Lilo",
       "in English": "ride"
     },
     {
       "Number": 508,
-      "Hindi": "सेल",
+      "Hawaiian": "aeea",
       "in English": "cell"
     },
     {
       "Number": 509,
-      "Hindi": "विश्वास है",
+      "Hawaiian": "manaoio",
       "in English": "believe"
     },
     {
       "Number": 510,
-      "Hindi": "शायद",
+      "Hawaiian": "paha",
       "in English": "perhaps"
     },
     {
       "Number": 511,
-      "Hindi": "उठाओ",
+      "Hawaiian": "e koho i",
       "in English": "pick"
     },
     {
       "Number": 512,
-      "Hindi": "अचानक",
+      "Hawaiian": "ulia",
       "in English": "sudden"
     },
     {
       "Number": 513,
-      "Hindi": "गिनती",
+      "Hawaiian": "helu",
       "in English": "count"
     },
     {
       "Number": 514,
-      "Hindi": "वर्ग",
+      "Hawaiian": "pāhoʻonui",
       "in English": "square"
     },
     {
       "Number": 515,
-      "Hindi": "कारण",
+      "Hawaiian": "kumu",
       "in English": "reason"
     },
     {
       "Number": 516,
-      "Hindi": "लंबाई",
+      "Hawaiian": "loa",
       "in English": "length"
     },
     {
       "Number": 517,
-      "Hindi": "का प्रतिनिधित्व",
+      "Hawaiian": "ho i",
       "in English": "represent"
     },
     {
       "Number": 518,
-      "Hindi": "कला",
+      "Hawaiian": "oe",
       "in English": "art"
     },
     {
       "Number": 519,
-      "Hindi": "विषय",
+      "Hawaiian": "kumuhana",
       "in English": "subject"
     },
     {
       "Number": 520,
-      "Hindi": "क्षेत्र",
+      "Hawaiian": "māhele",
       "in English": "region"
     },
     {
       "Number": 521,
-      "Hindi": "आकार",
+      "Hawaiian": "ka nui",
       "in English": "size"
     },
     {
       "Number": 522,
-      "Hindi": "भिन्न हो",
+      "Hawaiian": "lauwili",
       "in English": "vary"
     },
     {
       "Number": 523,
-      "Hindi": "बसा",
+      "Hawaiian": "hoonoho au",
       "in English": "settle"
     },
     {
       "Number": 524,
-      "Hindi": "बोलना",
+      "Hawaiian": "olelo",
       "in English": "speak"
     },
     {
       "Number": 525,
-      "Hindi": "वजन",
+      "Hawaiian": "kaumaha",
       "in English": "weight"
     },
     {
       "Number": 526,
-      "Hindi": "सामान्य",
+      "Hawaiian": "nui",
       "in English": "general"
     },
     {
       "Number": 527,
-      "Hindi": "बर्फ",
+      "Hawaiian": "hau",
       "in English": "ice"
     },
     {
       "Number": 528,
-      "Hindi": "मामला",
+      "Hawaiian": "mea",
       "in English": "matter"
     },
     {
       "Number": 529,
-      "Hindi": "वृत्त",
+      "Hawaiian": "kaiapili",
       "in English": "circle"
     },
     {
       "Number": 530,
-      "Hindi": "जोड़ी",
+      "Hawaiian": "mau",
       "in English": "pair"
     },
     {
       "Number": 531,
-      "Hindi": "शामिल",
+      "Hawaiian": "nā",
       "in English": "include"
     },
     {
       "Number": 532,
-      "Hindi": "विभाजन",
+      "Hawaiian": "māhele",
       "in English": "divide"
     },
     {
       "Number": 533,
-      "Hindi": "शब्दांश",
+      "Hawaiian": "syllable",
       "in English": "syllable"
     },
     {
       "Number": 534,
-      "Hindi": "लगा",
+      "Hawaiian": "manaʻo",
       "in English": "felt"
     },
     {
       "Number": 535,
-      "Hindi": "भव्य",
+      "Hawaiian": "Luna nui",
       "in English": "grand"
     },
     {
       "Number": 536,
-      "Hindi": "गेंद",
+      "Hawaiian": "poepoe",
       "in English": "ball"
     },
     {
       "Number": 537,
-      "Hindi": "अभी तक",
+      "Hawaiian": "aka,",
       "in English": "yet"
     },
     {
       "Number": 538,
-      "Hindi": "लहर",
+      "Hawaiian": "hawewe",
       "in English": "wave"
     },
     {
       "Number": 539,
-      "Hindi": "ड्रॉप",
+      "Hawaiian": "papa",
       "in English": "drop"
     },
     {
       "Number": 540,
-      "Hindi": "दिल",
+      "Hawaiian": "Puʻuwai",
       "in English": "heart"
     },
     {
       "Number": 541,
-      "Hindi": "AM",
+      "Hawaiian": "no",
       "in English": "am"
     },
     {
       "Number": 542,
-      "Hindi": "वर्तमान",
+      "Hawaiian": "keia",
       "in English": "present"
     },
     {
       "Number": 543,
-      "Hindi": "भारी",
+      "Hawaiian": "kaumaha",
       "in English": "heavy"
     },
     {
       "Number": 544,
-      "Hindi": "नृत्य",
+      "Hawaiian": "hula",
       "in English": "dance"
     },
     {
       "Number": 545,
-      "Hindi": "इंजन",
+      "Hawaiian": "engine",
       "in English": "engine"
     },
     {
       "Number": 546,
-      "Hindi": "स्थिति",
+      "Hawaiian": "wahi",
       "in English": "position"
     },
     {
       "Number": 547,
-      "Hindi": "बांह",
+      "Hawaiian": "lima",
       "in English": "arm"
     },
     {
       "Number": 548,
-      "Hindi": "विस्तृत",
+      "Hawaiian": "ka laula,",
       "in English": "wide"
     },
     {
       "Number": 549,
-      "Hindi": "स्टील अथॉरिटी ऑफ इंडिया",
+      "Hawaiian": "holo",
       "in English": "sail"
     },
     {
       "Number": 550,
-      "Hindi": "सामग्री",
+      "Hawaiian": "mea",
       "in English": "material"
     },
     {
       "Number": 551,
-      "Hindi": "अंश",
+      "Hawaiian": "mahele",
       "in English": "fraction"
     },
     {
       "Number": 552,
-      "Hindi": "वन",
+      "Hawaiian": "nahele",
       "in English": "forest"
     },
     {
       "Number": 553,
-      "Hindi": "बैठना",
+      "Hawaiian": "noho",
       "in English": "sit"
     },
     {
       "Number": 554,
-      "Hindi": "दौड़",
+      "Hawaiian": "lāhui",
       "in English": "race"
     },
     {
       "Number": 555,
-      "Hindi": "खिड़की",
+      "Hawaiian": "puka makani",
       "in English": "window"
     },
     {
       "Number": 556,
-      "Hindi": "दुकान",
+      "Hawaiian": "hale kūʻai",
       "in English": "store"
     },
     {
       "Number": 557,
-      "Hindi": "गर्मियों",
+      "Hawaiian": "ke kau",
       "in English": "summer"
     },
     {
       "Number": 558,
-      "Hindi": "सफर",
+      "Hawaiian": "nalowale",
       "in English": "train"
     },
     {
       "Number": 559,
-      "Hindi": "नींद",
+      "Hawaiian": "hiamoe",
       "in English": "sleep"
     },
     {
       "Number": 560,
-      "Hindi": "साबित",
+      "Hawaiian": "hoao",
       "in English": "prove"
     },
     {
       "Number": 561,
-      "Hindi": "लोन",
+      "Hawaiian": "Lone",
       "in English": "lone"
     },
     {
       "Number": 562,
-      "Hindi": "पैर",
+      "Hawaiian": "wawae",
       "in English": "leg"
     },
     {
       "Number": 563,
-      "Hindi": "व्यायाम",
+      "Hawaiian": "me ka",
       "in English": "exercise"
     },
     {
       "Number": 564,
-      "Hindi": "दीवार",
+      "Hawaiian": "pa",
       "in English": "wall"
     },
     {
       "Number": 565,
-      "Hindi": "पकड़",
+      "Hawaiian": "hoopahele ae la i",
       "in English": "catch"
     },
     {
       "Number": 566,
-      "Hindi": "माउंट",
+      "Hawaiian": "mauna",
       "in English": "mount"
     },
     {
       "Number": 567,
-      "Hindi": "इच्छा",
+      "Hawaiian": "makemake",
       "in English": "wish"
     },
     {
       "Number": 568,
-      "Hindi": "आसमान",
+      "Hawaiian": "lani",
       "in English": "sky"
     },
     {
       "Number": 569,
-      "Hindi": "बोर्ड",
+      "Hawaiian": "papa",
       "in English": "board"
     },
     {
       "Number": 570,
-      "Hindi": "हर्ष",
+      "Hawaiian": "olioli",
       "in English": "joy"
     },
     {
       "Number": 571,
-      "Hindi": "सर्दियों",
+      "Hawaiian": "hooilo",
       "in English": "winter"
     },
     {
       "Number": 572,
-      "Hindi": "शनि",
+      "Hawaiian": "Pōʻaono",
       "in English": "sat"
     },
     {
       "Number": 573,
-      "Hindi": "लिखित",
+      "Hawaiian": "kakauia",
       "in English": "written"
     },
     {
       "Number": 574,
-      "Hindi": "जंगली",
+      "Hawaiian": "hihiu",
       "in English": "wild"
     },
     {
       "Number": 575,
-      "Hindi": "साधन",
+      "Hawaiian": "hana",
       "in English": "instrument"
     },
     {
       "Number": 576,
-      "Hindi": "रखा",
+      "Hawaiian": "malama",
       "in English": "kept"
     },
     {
       "Number": 577,
-      "Hindi": "कांच",
+      "Hawaiian": "aniani",
       "in English": "glass"
     },
     {
       "Number": 578,
-      "Hindi": "घास",
+      "Hawaiian": "ka mauu",
       "in English": "grass"
     },
     {
       "Number": 579,
-      "Hindi": "गाय",
+      "Hawaiian": "bipi",
       "in English": "cow"
     },
     {
       "Number": 580,
-      "Hindi": "काम",
+      "Hawaiian": "oihana",
       "in English": "job"
     },
     {
       "Number": 581,
-      "Hindi": "बढ़त",
+      "Hawaiian": "lihi",
       "in English": "edge"
     },
     {
       "Number": 582,
-      "Hindi": "साइन",
+      "Hawaiian": "hoailona",
       "in English": "sign"
     },
     {
       "Number": 583,
-      "Hindi": "यात्रा",
+      "Hawaiian": "makaikai.",
       "in English": "visit"
     },
     {
       "Number": 584,
-      "Hindi": "अतीत",
+      "Hawaiian": "i hala iho nei",
       "in English": "past"
     },
     {
       "Number": 585,
-      "Hindi": "मुलायम",
+      "Hawaiian": "pahee",
       "in English": "soft"
     },
     {
       "Number": 586,
-      "Hindi": "मज़ा",
+      "Hawaiian": "leʻaleʻa",
       "in English": "fun"
     },
     {
       "Number": 587,
-      "Hindi": "उज्ज्वल",
+      "Hawaiian": "ao alohilohi i",
       "in English": "bright"
     },
     {
       "Number": 588,
-      "Hindi": "गैस",
+      "Hawaiian": "kinoea",
       "in English": "gas"
     },
     {
       "Number": 589,
-      "Hindi": "मौसम",
+      "Hawaiian": "map",
       "in English": "weather"
     },
     {
       "Number": 590,
-      "Hindi": "माह",
+      "Hawaiian": "mahina",
       "in English": "month"
     },
     {
       "Number": 591,
-      "Hindi": "लाख",
+      "Hawaiian": "miliona",
       "in English": "million"
     },
     {
       "Number": 592,
-      "Hindi": "भालू",
+      "Hawaiian": "lawe",
       "in English": "bear"
     },
     {
       "Number": 593,
-      "Hindi": "खत्म",
+      "Hawaiian": "hoʻopau",
       "in English": "finish"
     },
     {
       "Number": 594,
-      "Hindi": "खुश",
+      "Hawaiian": "hauʻoli",
       "in English": "happy"
     },
     {
       "Number": 595,
-      "Hindi": "आशा",
+      "Hawaiian": "manaolana",
       "in English": "hope"
     },
     {
       "Number": 596,
-      "Hindi": "फूल",
+      "Hawaiian": "pua",
       "in English": "flower"
     },
     {
       "Number": 597,
-      "Hindi": "कपड़े",
+      "Hawaiian": "hoaahu",
       "in English": "clothe"
     },
     {
       "Number": 598,
-      "Hindi": "अजीब",
+      "Hawaiian": "malihini",
       "in English": "strange"
     },
     {
       "Number": 599,
-      "Hindi": "चला गया",
+      "Hawaiian": "Hana Party",
       "in English": "gone"
     },
     {
       "Number": 600,
-      "Hindi": "व्यापार",
+      "Hawaiian": "kuai",
       "in English": "trade"
     },
     {
       "Number": 601,
-      "Hindi": "राग",
+      "Hawaiian": "e hoʻonui i",
       "in English": "melody"
     },
     {
       "Number": 602,
-      "Hindi": "यात्रा",
+      "Hawaiian": "huakai",
       "in English": "trip"
     },
     {
       "Number": 603,
-      "Hindi": "कार्यालय",
+      "Hawaiian": "oihana",
       "in English": "office"
     },
     {
       "Number": 604,
-      "Hindi": "प्राप्त करना",
+      "Hawaiian": "loaa",
       "in English": "receive"
     },
     {
       "Number": 605,
-      "Hindi": "पंक्ति",
+      "Hawaiian": "lalani",
       "in English": "row"
     },
     {
       "Number": 606,
-      "Hindi": "मुंह",
+      "Hawaiian": "waha",
       "in English": "mouth"
     },
     {
       "Number": 607,
-      "Hindi": "सटीक",
+      "Hawaiian": "mau",
       "in English": "exact"
     },
     {
       "Number": 608,
-      "Hindi": "प्रतीक",
+      "Hawaiian": "hōʻailona",
       "in English": "symbol"
     },
     {
       "Number": 609,
-      "Hindi": "मरना",
+      "Hawaiian": "make",
       "in English": "die"
     },
     {
       "Number": 610,
-      "Hindi": "कम से कम",
+      "Hawaiian": "ka liʻiliʻi loa",
       "in English": "least"
     },
     {
       "Number": 611,
-      "Hindi": "मुसीबत",
+      "Hawaiian": "pilikia",
       "in English": "trouble"
     },
     {
       "Number": 612,
-      "Hindi": "चिल्लाओ",
+      "Hawaiian": "hooho",
       "in English": "shout"
     },
     {
       "Number": 613,
-      "Hindi": "सिवाय",
+      "Hawaiian": "koe nae",
       "in English": "except"
     },
     {
       "Number": 614,
-      "Hindi": "लिखा",
+      "Hawaiian": "kakau iho la",
       "in English": "wrote"
     },
     {
       "Number": 615,
-      "Hindi": "बीज",
+      "Hawaiian": "hua",
       "in English": "seed"
     },
     {
       "Number": 616,
-      "Hindi": "स्वर",
+      "Hawaiian": "leo",
       "in English": "tone"
     },
     {
       "Number": 617,
-      "Hindi": "शामिल होने",
+      "Hawaiian": "hui",
       "in English": "join"
     },
     {
       "Number": 618,
-      "Hindi": "सुझाव है",
+      "Hawaiian": "paipai",
       "in English": "suggest"
     },
     {
       "Number": 619,
-      "Hindi": "साफ",
+      "Hawaiian": "maemae",
       "in English": "clean"
     },
     {
       "Number": 620,
-      "Hindi": "तोड़",
+      "Hawaiian": "ʻoluʻolu o",
       "in English": "break"
     },
     {
       "Number": 621,
-      "Hindi": "महिला",
+      "Hawaiian": "wahine",
       "in English": "lady"
     },
     {
       "Number": 622,
-      "Hindi": "यार्ड",
+      "Hawaiian": "iwilei",
       "in English": "yard"
     },
     {
       "Number": 623,
-      "Hindi": "वृद्धि",
+      "Hawaiian": "ala",
       "in English": "rise"
     },
     {
       "Number": 624,
-      "Hindi": "बुरा",
+      "Hawaiian": "ino",
       "in English": "bad"
     },
     {
       "Number": 625,
-      "Hindi": "झटका",
+      "Hawaiian": "puupuu",
       "in English": "blow"
     },
     {
       "Number": 626,
-      "Hindi": "तेल",
+      "Hawaiian": "aila",
       "in English": "oil"
     },
     {
       "Number": 627,
-      "Hindi": "खून",
+      "Hawaiian": "ke koko",
       "in English": "blood"
     },
     {
       "Number": 628,
-      "Hindi": "स्पर्श",
+      "Hawaiian": "hoopa aku",
       "in English": "touch"
     },
     {
       "Number": 629,
-      "Hindi": "बढ़ी",
+      "Hawaiian": "ulu",
       "in English": "grew"
     },
     {
       "Number": 630,
-      "Hindi": "प्रतिशत",
+      "Hawaiian": "keneta",
       "in English": "cent"
     },
     {
       "Number": 631,
-      "Hindi": "मिश्रण",
+      "Hawaiian": "hui",
       "in English": "mix"
     },
     {
       "Number": 632,
-      "Hindi": "टीम",
+      "Hawaiian": "hui",
       "in English": "team"
     },
     {
       "Number": 633,
-      "Hindi": "तार",
+      "Hawaiian": "uea",
       "in English": "wire"
     },
     {
       "Number": 634,
-      "Hindi": "लागत",
+      "Hawaiian": "kāki",
       "in English": "cost"
     },
     {
       "Number": 635,
-      "Hindi": "खोया",
+      "Hawaiian": "nalowale",
       "in English": "lost"
     },
     {
       "Number": 636,
-      "Hindi": "ब्राउन",
+      "Hawaiian": "palaunu",
       "in English": "brown"
     },
     {
       "Number": 637,
-      "Hindi": "पहनना",
+      "Hawaiian": "komo",
       "in English": "wear"
     },
     {
       "Number": 638,
-      "Hindi": "बगीचा",
+      "Hawaiian": "kīhāpai",
       "in English": "garden"
     },
     {
       "Number": 639,
-      "Hindi": "बराबर",
+      "Hawaiian": "like",
       "in English": "equal"
     },
     {
       "Number": 640,
-      "Hindi": "भेजा",
+      "Hawaiian": "hoouna",
       "in English": "sent"
     },
     {
       "Number": 641,
-      "Hindi": "चयन",
+      "Hawaiian": "koho",
       "in English": "choose"
     },
     {
       "Number": 642,
-      "Hindi": "गिर गया",
+      "Hawaiian": "haule iho la",
       "in English": "fell"
     },
     {
       "Number": 643,
-      "Hindi": "फिट",
+      "Hawaiian": "pono",
       "in English": "fit"
     },
     {
       "Number": 644,
-      "Hindi": "प्रवाह",
+      "Hawaiian": "kahe ana",
       "in English": "flow"
     },
     {
       "Number": 645,
-      "Hindi": "मेला",
+      "Hawaiian": "maikai",
       "in English": "fair"
     },
     {
       "Number": 646,
-      "Hindi": "बैंक",
+      "Hawaiian": "pali,",
       "in English": "bank"
     },
     {
       "Number": 647,
-      "Hindi": "इकट्ठा",
+      "Hawaiian": "ohi",
       "in English": "collect"
     },
     {
       "Number": 648,
-      "Hindi": "बचा",
+      "Hawaiian": "hoola",
       "in English": "save"
     },
     {
       "Number": 649,
-      "Hindi": "नियंत्रण",
+      "Hawaiian": "hooponopono",
       "in English": "control"
     },
     {
       "Number": 650,
-      "Hindi": "दशमलव",
+      "Hawaiian": "kekimala",
       "in English": "decimal"
     },
     {
       "Number": 651,
-      "Hindi": "कान",
+      "Hawaiian": "pepeiao",
       "in English": "ear"
     },
     {
       "Number": 652,
-      "Hindi": "बाकी",
+      "Hawaiian": "e ae",
       "in English": "else"
     },
     {
       "Number": 653,
-      "Hindi": "काफी",
+      "Hawaiian": "loa",
       "in English": "quite"
     },
     {
       "Number": 654,
-      "Hindi": "तोड़ दिया",
+      "Hawaiian": "uhai",
       "in English": "broke"
     },
     {
       "Number": 655,
-      "Hindi": "मामले",
+      "Hawaiian": "hihia",
       "in English": "case"
     },
     {
       "Number": 656,
-      "Hindi": "बीच",
+      "Hawaiian": "waena",
       "in English": "middle"
     },
     {
       "Number": 657,
-      "Hindi": "हत्या",
+      "Hawaiian": "pepehi",
       "in English": "kill"
     },
     {
       "Number": 658,
-      "Hindi": "बेटा",
+      "Hawaiian": "keikikāne",
       "in English": "son"
     },
     {
       "Number": 659,
-      "Hindi": "झील",
+      "Hawaiian": "Lake",
       "in English": "lake"
     },
     {
       "Number": 660,
-      "Hindi": "पल",
+      "Hawaiian": "manawa",
       "in English": "moment"
     },
     {
       "Number": 661,
-      "Hindi": "पैमाने",
+      "Hawaiian": "pālākiō",
       "in English": "scale"
     },
     {
       "Number": 662,
-      "Hindi": "जोर",
+      "Hawaiian": "loa",
       "in English": "loud"
     },
     {
       "Number": 663,
-      "Hindi": "वसंत",
+      "Hawaiian": "waipuna",
       "in English": "spring"
     },
     {
       "Number": 664,
-      "Hindi": "निरीक्षण",
+      "Hawaiian": "malama",
       "in English": "observe"
     },
     {
       "Number": 665,
-      "Hindi": "बच्चे",
+      "Hawaiian": "keiki",
       "in English": "child"
     },
     {
       "Number": 666,
-      "Hindi": "सीधे",
+      "Hawaiian": "pololei",
       "in English": "straight"
     },
     {
       "Number": 667,
-      "Hindi": "व्यंजन",
+      "Hawaiian": "leokanipū",
       "in English": "consonant"
     },
     {
       "Number": 668,
-      "Hindi": "राष्ट्र",
+      "Hawaiian": "lahuikanaka",
       "in English": "nation"
     },
     {
       "Number": 669,
-      "Hindi": "शब्दकोश",
+      "Hawaiian": "puke wehewehe’ōlelo",
       "in English": "dictionary"
     },
     {
       "Number": 670,
-      "Hindi": "दूध",
+      "Hawaiian": "waiu",
       "in English": "milk"
     },
     {
       "Number": 671,
-      "Hindi": "गति",
+      "Hawaiian": "ka mämä holo",
       "in English": "speed"
     },
     {
       "Number": 672,
-      "Hindi": "विधि",
+      "Hawaiian": "hana",
       "in English": "method"
     },
     {
       "Number": 673,
-      "Hindi": "अंग",
+      "Hawaiian": "hui",
       "in English": "organ"
     },
     {
       "Number": 674,
-      "Hindi": "भुगतान",
+      "Hawaiian": "uku",
       "in English": "pay"
     },
     {
       "Number": 675,
-      "Hindi": "उम्र",
+      "Hawaiian": "makahiki",
       "in English": "age"
     },
     {
       "Number": 676,
-      "Hindi": "अनुभाग",
+      "Hawaiian": "pauku",
       "in English": "section"
     },
     {
       "Number": 677,
-      "Hindi": "पोशाक",
+      "Hawaiian": "male",
       "in English": "dress"
     },
     {
       "Number": 678,
-      "Hindi": "बादल",
+      "Hawaiian": "ao",
       "in English": "cloud"
     },
     {
       "Number": 679,
-      "Hindi": "आश्चर्य",
+      "Hawaiian": "haohao",
       "in English": "surprise"
     },
     {
       "Number": 680,
-      "Hindi": "शांत",
+      "Hawaiian": "mālie",
       "in English": "quiet"
     },
     {
       "Number": 681,
-      "Hindi": "पत्थर",
+      "Hawaiian": "pohaku",
       "in English": "stone"
     },
     {
       "Number": 682,
-      "Hindi": "छोटे",
+      "Hawaiian": "wahi",
       "in English": "tiny"
     },
     {
       "Number": 683,
-      "Hindi": "चढ़ाई",
+      "Hawaiian": "pii ana",
       "in English": "climb"
     },
     {
       "Number": 684,
-      "Hindi": "शीतल",
+      "Hawaiian": "anu",
       "in English": "cool"
     },
     {
       "Number": 685,
-      "Hindi": "डिजाइन",
+      "Hawaiian": "manao",
       "in English": "design"
     },
     {
       "Number": 686,
-      "Hindi": "गरीब",
+      "Hawaiian": "ilihune",
       "in English": "poor"
     },
     {
       "Number": 687,
-      "Hindi": "बहुत",
+      "Hawaiian": "puu",
       "in English": "lot"
     },
     {
       "Number": 688,
-      "Hindi": "प्रयोग",
+      "Hawaiian": "hoʻokolohua",
       "in English": "experiment"
     },
     {
       "Number": 689,
-      "Hindi": "तल",
+      "Hawaiian": "lalo",
       "in English": "bottom"
     },
     {
       "Number": 690,
-      "Hindi": "कुंजी",
+      "Hawaiian": "kī",
       "in English": "key"
     },
     {
       "Number": 691,
-      "Hindi": "लोहा",
+      "Hawaiian": "hao",
       "in English": "iron"
     },
     {
       "Number": 692,
-      "Hindi": "एकल",
+      "Hawaiian": "hookahi",
       "in English": "single"
     },
     {
       "Number": 693,
-      "Hindi": "छड़ी",
+      "Hawaiian": "koʻokoʻo",
       "in English": "stick"
     },
     {
       "Number": 694,
-      "Hindi": "फ्लैट",
+      "Hawaiian": "i lalo",
       "in English": "flat"
     },
     {
       "Number": 695,
-      "Hindi": "बीस",
+      "Hawaiian": "ʻiwakālua",
       "in English": "twenty"
     },
     {
       "Number": 696,
-      "Hindi": "त्वचा",
+      "Hawaiian": "ili",
       "in English": "skin"
     },
     {
       "Number": 697,
-      "Hindi": "मुस्कान",
+      "Hawaiian": "minoʻaka",
       "in English": "smile"
     },
     {
       "Number": 698,
-      "Hindi": "क्रीज",
+      "Hawaiian": "crease",
       "in English": "crease"
     },
     {
       "Number": 699,
-      "Hindi": "छेद",
+      "Hawaiian": "puka",
       "in English": "hole"
     },
     {
       "Number": 700,
-      "Hindi": "कूद",
+      "Hawaiian": "lele",
       "in English": "jump"
     },
     {
       "Number": 701,
-      "Hindi": "बच्चे",
+      "Hawaiian": "pēpē",
       "in English": "baby"
     },
     {
       "Number": 702,
-      "Hindi": "आठ",
+      "Hawaiian": "ʻewalu",
       "in English": "eight"
     },
     {
       "Number": 703,
-      "Hindi": "गांव",
+      "Hawaiian": "kauhale",
       "in English": "village"
     },
     {
       "Number": 704,
-      "Hindi": "मिलो",
+      "Hawaiian": "ku i",
       "in English": "meet"
     },
     {
       "Number": 705,
-      "Hindi": "जड़",
+      "Hawaiian": "aa",
       "in English": "root"
     },
     {
       "Number": 706,
-      "Hindi": "खरीद",
+      "Hawaiian": "kuai",
       "in English": "buy"
     },
     {
       "Number": 707,
-      "Hindi": "उठाना",
+      "Hawaiian": "hoala mai",
       "in English": "raise"
     },
     {
       "Number": 708,
-      "Hindi": "हल",
+      "Hawaiian": "ke hoʻoponopono",
       "in English": "solve"
     },
     {
       "Number": 709,
-      "Hindi": "धातु",
+      "Hawaiian": "metala",
       "in English": "metal"
     },
     {
       "Number": 710,
-      "Hindi": "चाहे",
+      "Hawaiian": "paha",
       "in English": "whether"
     },
     {
       "Number": 711,
-      "Hindi": "धक्का",
+      "Hawaiian": "pale wale",
       "in English": "push"
     },
     {
       "Number": 712,
-      "Hindi": "सात",
+      "Hawaiian": "ʻehiku",
       "in English": "seven"
     },
     {
       "Number": 713,
-      "Hindi": "पैरा",
+      "Hawaiian": "paukū",
       "in English": "paragraph"
     },
     {
       "Number": 714,
-      "Hindi": "तीसरे",
+      "Hawaiian": "ke kolu",
       "in English": "third"
     },
     {
       "Number": 715,
-      "Hindi": "करेगा",
+      "Hawaiian": "e",
       "in English": "shall"
     },
     {
       "Number": 716,
-      "Hindi": "आयोजित",
+      "Hawaiian": "paa ana",
       "in English": "held"
     },
     {
       "Number": 717,
-      "Hindi": "बाल",
+      "Hawaiian": "lauoho",
       "in English": "hair"
     },
     {
       "Number": 718,
-      "Hindi": "वर्णन",
+      "Hawaiian": "kakau",
       "in English": "describe"
     },
     {
       "Number": 719,
-      "Hindi": "कुक",
+      "Hawaiian": "Kapena Kuke,",
       "in English": "cook"
     },
     {
       "Number": 720,
-      "Hindi": "मंजिल",
+      "Hawaiian": "papahele",
       "in English": "floor"
     },
     {
       "Number": 721,
-      "Hindi": "भी",
+      "Hawaiian": "kekahi",
       "in English": "either"
     },
     {
       "Number": 722,
-      "Hindi": "परिणाम",
+      "Hawaiian": "result",
       "in English": "result"
     },
     {
       "Number": 723,
-      "Hindi": "जला",
+      "Hawaiian": "puhi",
       "in English": "burn"
     },
     {
       "Number": 724,
-      "Hindi": "पहाड़ी",
+      "Hawaiian": "puu",
       "in English": "hill"
     },
     {
       "Number": 725,
-      "Hindi": "सुरक्षित",
+      "Hawaiian": "maluhia",
       "in English": "safe"
     },
     {
       "Number": 726,
-      "Hindi": "बिल्ली",
+      "Hawaiian": "popoki",
       "in English": "cat"
     },
     {
       "Number": 727,
-      "Hindi": "सदी",
+      "Hawaiian": "kenekulia",
       "in English": "century"
     },
     {
       "Number": 728,
-      "Hindi": "विचार करना",
+      "Hawaiian": "noonoo",
       "in English": "consider"
     },
     {
       "Number": 729,
-      "Hindi": "प्रकार",
+      "Hawaiian": "ʻAno",
       "in English": "type"
     },
     {
       "Number": 730,
-      "Hindi": "कानून",
+      "Hawaiian": "kanawai",
       "in English": "law"
     },
     {
       "Number": 731,
-      "Hindi": "बिट",
+      "Hawaiian": "iki",
       "in English": "bit"
     },
     {
       "Number": 732,
-      "Hindi": "तट",
+      "Hawaiian": "mokuna",
       "in English": "coast"
     },
     {
       "Number": 733,
-      "Hindi": "नकल",
+      "Hawaiian": "kope",
       "in English": "copy"
     },
     {
       "Number": 734,
-      "Hindi": "वाक्यांश",
+      "Hawaiian": "hopuna’ōlelo",
       "in English": "phrase"
     },
     {
       "Number": 735,
-      "Hindi": "चुप",
+      "Hawaiian": "hāmau",
       "in English": "silent"
     },
     {
       "Number": 736,
-      "Hindi": "लंबा",
+      "Hawaiian": "kiʻekiʻe",
       "in English": "tall"
     },
     {
       "Number": 737,
-      "Hindi": "रेत",
+      "Hawaiian": "one",
       "in English": "sand"
     },
     {
       "Number": 738,
-      "Hindi": "मिट्टी",
+      "Hawaiian": "aina",
       "in English": "soil"
     },
     {
       "Number": 739,
-      "Hindi": "रोल",
+      "Hawaiian": "‘ōwili",
       "in English": "roll"
     },
     {
       "Number": 740,
-      "Hindi": "तापमान",
+      "Hawaiian": "wela",
       "in English": "temperature"
     },
     {
       "Number": 741,
-      "Hindi": "उंगली",
+      "Hawaiian": "manamana lima",
       "in English": "finger"
     },
     {
       "Number": 742,
-      "Hindi": "उद्योग",
+      "Hawaiian": "hana",
       "in English": "industry"
     },
     {
       "Number": 743,
-      "Hindi": "मूल्य",
+      "Hawaiian": "waiwai",
       "in English": "value"
     },
     {
       "Number": 744,
-      "Hindi": "लड़ाई",
+      "Hawaiian": "kaua",
       "in English": "fight"
     },
     {
       "Number": 745,
-      "Hindi": "झूठ",
+      "Hawaiian": "moe",
       "in English": "lie"
     },
     {
       "Number": 746,
-      "Hindi": "हरा",
+      "Hawaiian": "pepehi",
       "in English": "beat"
     },
     {
       "Number": 747,
-      "Hindi": "उत्तेजित",
+      "Hawaiian": "ka naita",
       "in English": "excite"
     },
     {
       "Number": 748,
-      "Hindi": "प्राकृतिक",
+      "Hawaiian": "maoli",
       "in English": "natural"
     },
     {
       "Number": 749,
-      "Hindi": "देखें",
+      "Hawaiian": "Hawaii",
       "in English": "view"
     },
     {
       "Number": 750,
-      "Hindi": "भावना",
+      "Hawaiian": "hoohalike",
       "in English": "sense"
     },
     {
       "Number": 751,
-      "Hindi": "राजधानी",
+      "Hawaiian": "poʻo",
       "in English": "capital"
     },
     {
       "Number": 752,
-      "Hindi": "नहीं होगा",
+      "Hawaiian": "e ole",
       "in English": "won’t"
     },
     {
       "Number": 753,
-      "Hindi": "कुर्सी",
+      "Hawaiian": "noho",
       "in English": "chair"
     },
     {
       "Number": 754,
-      "Hindi": "खतरे",
+      "Hawaiian": "weliweli",
       "in English": "danger"
     },
     {
       "Number": 755,
-      "Hindi": "फल",
+      "Hawaiian": "hua",
       "in English": "fruit"
     },
     {
       "Number": 756,
-      "Hindi": "अमीर",
+      "Hawaiian": "waiwai",
       "in English": "rich"
     },
     {
       "Number": 757,
-      "Hindi": "मोटी",
+      "Hawaiian": "manoanoa",
       "in English": "thick"
     },
     {
       "Number": 758,
-      "Hindi": "सैनिक",
+      "Hawaiian": "koa",
       "in English": "soldier"
     },
     {
       "Number": 759,
-      "Hindi": "प्रक्रिया",
+      "Hawaiian": "kaʻina",
       "in English": "process"
     },
     {
       "Number": 760,
-      "Hindi": "संचालित",
+      "Hawaiian": "hana",
       "in English": "operate"
     },
     {
       "Number": 761,
-      "Hindi": "अभ्यास",
+      "Hawaiian": "hana",
       "in English": "practice"
     },
     {
       "Number": 762,
-      "Hindi": "अलग",
+      "Hawaiian": "ana",
       "in English": "separate"
     },
     {
       "Number": 763,
-      "Hindi": "मुश्किल",
+      "Hawaiian": "paʻakikī",
       "in English": "difficult"
     },
     {
       "Number": 764,
-      "Hindi": "चिकित्सक",
+      "Hawaiian": "kauka",
       "in English": "doctor"
     },
     {
       "Number": 765,
-      "Hindi": "कृपया",
+      "Hawaiian": "e ʻoluʻolu",
       "in English": "please"
     },
     {
       "Number": 766,
-      "Hindi": "रक्षा",
+      "Hawaiian": "hoomalu",
       "in English": "protect"
     },
     {
       "Number": 767,
-      "Hindi": "दोपहर",
+      "Hawaiian": "awakea",
       "in English": "noon"
     },
     {
       "Number": 768,
-      "Hindi": "फसल",
+      "Hawaiian": "iʻohiʻia",
       "in English": "crop"
     },
     {
       "Number": 769,
-      "Hindi": "आधुनिक",
+      "Hawaiian": "kēia",
       "in English": "modern"
     },
     {
       "Number": 770,
-      "Hindi": "तत्व",
+      "Hawaiian": "‘āweʻaweʻa",
       "in English": "element"
     },
     {
       "Number": 771,
-      "Hindi": "मारना",
+      "Hawaiian": "ku",
       "in English": "hit"
     },
     {
       "Number": 772,
-      "Hindi": "छात्र",
+      "Hawaiian": "haumana",
       "in English": "student"
     },
     {
       "Number": 773,
-      "Hindi": "कोने",
+      "Hawaiian": "ke kihi",
       "in English": "corner"
     },
     {
       "Number": 774,
-      "Hindi": "पार्टी",
+      "Hawaiian": "‘aoʻao",
       "in English": "party"
     },
     {
       "Number": 775,
-      "Hindi": "आपूर्ति",
+      "Hawaiian": "lako hou",
       "in English": "supply"
     },
     {
       "Number": 776,
-      "Hindi": "जिसका",
+      "Hawaiian": "kona",
       "in English": "whose"
     },
     {
       "Number": 777,
-      "Hindi": "स्थिति जानें",
+      "Hawaiian": "huli ana",
       "in English": "locate"
     },
     {
       "Number": 778,
-      "Hindi": "अंगूठी",
+      "Hawaiian": "ke komo lima",
       "in English": "ring"
     },
     {
       "Number": 779,
-      "Hindi": "चरित्र",
+      "Hawaiian": "ano",
       "in English": "character"
     },
     {
       "Number": 780,
-      "Hindi": "कीट",
+      "Hawaiian": "insect",
       "in English": "insect"
     },
     {
       "Number": 781,
-      "Hindi": "पकड़ा",
+      "Hawaiian": "loaa",
       "in English": "caught"
     },
     {
       "Number": 782,
-      "Hindi": "अवधि",
+      "Hawaiian": "manawa",
       "in English": "period"
     },
     {
       "Number": 783,
-      "Hindi": "संकेत मिलता है",
+      "Hawaiian": "hoike",
       "in English": "indicate"
     },
     {
       "Number": 784,
-      "Hindi": "रेडियो",
+      "Hawaiian": "Radio",
       "in English": "radio"
     },
     {
       "Number": 785,
-      "Hindi": "बात",
+      "Hawaiian": "olelo",
       "in English": "spoke"
     },
     {
       "Number": 786,
-      "Hindi": "एटम",
+      "Hawaiian": "‘Ātoma",
       "in English": "atom"
     },
     {
       "Number": 787,
-      "Hindi": "मानव",
+      "Hawaiian": "kanaka",
       "in English": "human"
     },
     {
       "Number": 788,
-      "Hindi": "इतिहास",
+      "Hawaiian": "mōʻaukala",
       "in English": "history"
     },
     {
       "Number": 789,
-      "Hindi": "प्रभाव",
+      "Hawaiian": "kanawai",
       "in English": "effect"
     },
     {
       "Number": 790,
-      "Hindi": "बिजली",
+      "Hawaiian": "pila nui",
       "in English": "electric"
     },
     {
       "Number": 791,
-      "Hindi": "उम्मीद",
+      "Hawaiian": "makemake",
       "in English": "expect"
     },
     {
       "Number": 792,
-      "Hindi": "हड्डी",
+      "Hawaiian": "iwi",
       "in English": "bone"
     },
     {
       "Number": 793,
-      "Hindi": "रेल",
+      "Hawaiian": "hoino aku",
       "in English": "rail"
     },
     {
       "Number": 794,
-      "Hindi": "कल्पना",
+      "Hawaiian": "manao wale",
       "in English": "imagine"
     },
     {
       "Number": 795,
-      "Hindi": "प्रदान",
+      "Hawaiian": "e hoomakaukau i",
       "in English": "provide"
     },
     {
       "Number": 796,
-      "Hindi": "सहमत",
+      "Hawaiian": "ae",
       "in English": "agree"
     },
     {
       "Number": 797,
-      "Hindi": "इस प्रकार",
+      "Hawaiian": "pela",
       "in English": "thus"
     },
     {
       "Number": 798,
-      "Hindi": "कोमल",
+      "Hawaiian": "akahai",
       "in English": "gentle"
     },
     {
       "Number": 799,
-      "Hindi": "महिला",
+      "Hawaiian": "wahine",
       "in English": "woman"
     },
     {
       "Number": 800,
-      "Hindi": "कप्तान",
+      "Hawaiian": "luna",
       "in English": "captain"
     },
     {
       "Number": 801,
-      "Hindi": "अनुमान",
+      "Hawaiian": "koho",
       "in English": "guess"
     },
     {
       "Number": 802,
-      "Hindi": "आवश्यक",
+      "Hawaiian": "pono",
       "in English": "necessary"
     },
     {
       "Number": 803,
-      "Hindi": "तेज़",
+      "Hawaiian": "oi",
       "in English": "sharp"
     },
     {
       "Number": 804,
-      "Hindi": "पंख",
+      "Hawaiian": "‘ēheu",
       "in English": "wing"
     },
     {
       "Number": 805,
-      "Hindi": "बना",
+      "Hawaiian": "hana",
       "in English": "create"
     },
     {
       "Number": 806,
-      "Hindi": "पड़ोसी",
+      "Hawaiian": "hoalauna",
       "in English": "neighbor"
     },
     {
       "Number": 807,
-      "Hindi": "धोने",
+      "Hawaiian": "holoi ai",
       "in English": "wash"
     },
     {
       "Number": 808,
-      "Hindi": "बल्ला",
+      "Hawaiian": "‘ōpeʻapeʻa",
       "in English": "bat"
     },
     {
       "Number": 809,
-      "Hindi": "बल्कि",
+      "Hawaiian": "e aho",
       "in English": "rather"
     },
     {
       "Number": 810,
-      "Hindi": "भीड़",
+      "Hawaiian": "lehulehu",
       "in English": "crowd"
     },
     {
       "Number": 811,
-      "Hindi": "मकई",
+      "Hawaiian": "palaoa",
       "in English": "corn"
     },
     {
       "Number": 812,
-      "Hindi": "तुलना",
+      "Hawaiian": "hoohalike",
       "in English": "compare"
     },
     {
       "Number": 813,
-      "Hindi": "कविता",
+      "Hawaiian": "poem",
       "in English": "poem"
     },
     {
       "Number": 814,
-      "Hindi": "स्ट्रिंग",
+      "Hawaiian": "kaula",
       "in English": "string"
     },
     {
       "Number": 815,
-      "Hindi": "बेल",
+      "Hawaiian": "bele",
       "in English": "bell"
     },
     {
       "Number": 816,
-      "Hindi": "निर्भर",
+      "Hawaiian": "hilinai",
       "in English": "depend"
     },
     {
       "Number": 817,
-      "Hindi": "मांस",
+      "Hawaiian": "ai",
       "in English": "meat"
     },
     {
       "Number": 818,
-      "Hindi": "रगड़",
+      "Hawaiian": "hamo i",
       "in English": "rub"
     },
     {
       "Number": 819,
-      "Hindi": "ट्यूब",
+      "Hawaiian": "Tube",
       "in English": "tube"
     },
     {
       "Number": 820,
-      "Hindi": "प्रसिद्ध",
+      "Hawaiian": "kaulana",
       "in English": "famous"
     },
     {
       "Number": 921,
-      "Hindi": "डॉलर",
+      "Hawaiian": "dala",
       "in English": "dollar"
     },
     {
       "Number": 822,
-      "Hindi": "धारा",
+      "Hawaiian": "kahawai o",
       "in English": "stream"
     },
     {
       "Number": 823,
-      "Hindi": "डर",
+      "Hawaiian": "makau",
       "in English": "fear"
     },
     {
       "Number": 284,
-      "Hindi": "दृष्टि",
+      "Hawaiian": "maka",
       "in English": "sight"
     },
     {
       "Number": 825,
-      "Hindi": "पतली",
+      "Hawaiian": "lahilahi",
       "in English": "thin"
     },
     {
       "Number": 826,
-      "Hindi": "त्रिकोण",
+      "Hawaiian": "triangle",
       "in English": "triangle"
     },
     {
       "Number": 827,
-      "Hindi": "ग्रह",
+      "Hawaiian": "Honua",
       "in English": "planet"
     },
     {
       "Number": 828,
-      "Hindi": "जल्दी करो",
+      "Hawaiian": "wikiwiki",
       "in English": "hurry"
     },
     {
       "Number": 829,
-      "Hindi": "प्रमुख",
+      "Hawaiian": "kahuna",
       "in English": "chief"
     },
     {
       "Number": 830,
-      "Hindi": "कॉलोनी",
+      "Hawaiian": "panalaau ia",
       "in English": "colony"
     },
     {
       "Number": 831,
-      "Hindi": "घड़ी",
+      "Hawaiian": "uaki",
       "in English": "clock"
     },
     {
       "Number": 832,
-      "Hindi": "मेरा",
+      "Hawaiian": "i koʻu",
       "in English": "mine"
     },
     {
       "Number": 833,
-      "Hindi": "टाई",
+      "Hawaiian": "Ka Hawai i",
       "in English": "tie"
     },
     {
       "Number": 834,
-      "Hindi": "दर्ज",
+      "Hawaiian": "komo",
       "in English": "enter"
     },
     {
       "Number": 835,
-      "Hindi": "प्रमुख",
+      "Hawaiian": "nui",
       "in English": "major"
     },
     {
       "Number": 836,
-      "Hindi": "ताजा",
+      "Hawaiian": "hawaiian",
       "in English": "fresh"
     },
     {
       "Number": 837,
-      "Hindi": "खोज",
+      "Hawaiian": "huli",
       "in English": "search"
     },
     {
       "Number": 838,
-      "Hindi": "भेजें",
+      "Hawaiian": "hoouna aku",
       "in English": "send"
     },
     {
       "Number": 839,
-      "Hindi": "पीले",
+      "Hawaiian": "melemele",
       "in English": "yellow"
     },
     {
       "Number": 840,
-      "Hindi": "बंदूक",
+      "Hawaiian": "ka pū",
       "in English": "gun"
     },
     {
       "Number": 841,
-      "Hindi": "की अनुमति",
+      "Hawaiian": "ae aku",
       "in English": "allow"
     },
     {
       "Number": 842,
-      "Hindi": "प्रिंट",
+      "Hawaiian": "paʻi",
       "in English": "print"
     },
     {
       "Number": 843,
-      "Hindi": "मृत",
+      "Hawaiian": "make",
       "in English": "dead"
     },
     {
       "Number": 844,
-      "Hindi": "हाजिर",
+      "Hawaiian": "wahi",
       "in English": "spot"
     },
     {
       "Number": 845,
-      "Hindi": "रेगिस्तान",
+      "Hawaiian": "waonahele",
       "in English": "desert"
     },
     {
       "Number": 846,
-      "Hindi": "सूट",
+      "Hawaiian": "hoopii",
       "in English": "suit"
     },
     {
       "Number": 847,
-      "Hindi": "वर्तमान",
+      "Hawaiian": "papa",
       "in English": "current"
     },
     {
       "Number": 848,
-      "Hindi": "लिफ्ट",
+      "Hawaiian": "ke eaʻe",
       "in English": "lift"
     },
     {
       "Number": 840,
-      "Hindi": "गुलाब",
+      "Hawaiian": "ala",
       "in English": "rose"
     },
     {
       "Number": 850,
-      "Hindi": "पहुंचना",
+      "Hawaiian": "hiki",
       "in English": "arrive"
     },
     {
       "Number": 851,
-      "Hindi": "मास्टर",
+      "Hawaiian": "haku",
       "in English": "master"
     },
     {
       "Number": 852,
-      "Hindi": "ट्रैक",
+      "Hawaiian": "Track",
       "in English": "track"
     },
     {
       "Number": 853,
-      "Hindi": "माता पिता",
+      "Hawaiian": "makua",
       "in English": "parent"
     },
     {
       "Number": 854,
-      "Hindi": "किनारे",
+      "Hawaiian": "mauka",
       "in English": "shore"
     },
     {
       "Number": 855,
-      "Hindi": "विभाजन",
+      "Hawaiian": "mahele",
       "in English": "division"
     },
     {
       "Number": 856,
-      "Hindi": "चादर",
+      "Hawaiian": "pepa",
       "in English": "sheet"
     },
     {
       "Number": 857,
-      "Hindi": "पदार्थ",
+      "Hawaiian": "waiwai",
       "in English": "substance"
     },
     {
       "Number": 858,
-      "Hindi": "एहसान",
+      "Hawaiian": "i ka lokomaikaiia,",
       "in English": "favor"
     },
     {
       "Number": 859,
-      "Hindi": "कनेक्ट",
+      "Hawaiian": "hoʻohui",
       "in English": "connect"
     },
     {
       "Number": 860,
-      "Hindi": "पोस्ट",
+      "Hawaiian": "lāʻau kū",
       "in English": "post"
     },
     {
       "Number": 861,
-      "Hindi": "खर्च",
+      "Hawaiian": "ke lilo aku",
       "in English": "spend"
     },
     {
       "Number": 862,
-      "Hindi": "राग",
+      "Hawaiian": "chord",
       "in English": "chord"
     },
     {
       "Number": 863,
-      "Hindi": "वसा",
+      "Hawaiian": "kona kaikea a",
       "in English": "fat"
     },
     {
       "Number": 864,
-      "Hindi": "प्रसन्न",
+      "Hawaiian": "olioli",
       "in English": "glad"
     },
     {
       "Number": 865,
-      "Hindi": "मूल",
+      "Hawaiian": "kiʻi",
       "in English": "original"
     },
     {
       "Number": 866,
-      "Hindi": "शेयर",
+      "Hawaiian": "puu",
       "in English": "share"
     },
     {
       "Number": 867,
-      "Hindi": "स्टेशन",
+      "Hawaiian": "wahi",
       "in English": "station"
     },
     {
       "Number": 868,
-      "Hindi": "पिता",
+      "Hawaiian": "makuakāne",
       "in English": "dad"
     },
     {
       "Number": 869,
-      "Hindi": "रोटी",
+      "Hawaiian": "ka berena",
       "in English": "bread"
     },
     {
       "Number": 870,
-      "Hindi": "चार्ज",
+      "Hawaiian": "kauoha",
       "in English": "charge"
     },
     {
       "Number": 871,
-      "Hindi": "उचित",
+      "Hawaiian": "pono",
       "in English": "proper"
     },
     {
       "Number": 872,
-      "Hindi": "बार",
+      "Hawaiian": "hookolokolo",
       "in English": "bar"
     },
     {
       "Number": 873,
-      "Hindi": "प्रस्ताव",
+      "Hawaiian": "kaumaha",
       "in English": "offer"
     },
     {
       "Number": 874,
-      "Hindi": "खंड",
+      "Hawaiian": "Hoʻohana",
       "in English": "segment"
     },
     {
       "Number": 875,
-      "Hindi": "गुलाम",
+      "Hawaiian": "kauwa",
       "in English": "slave"
     },
     {
       "Number": 876,
-      "Hindi": "बतख",
+      "Hawaiian": "Duck",
       "in English": "duck"
     },
     {
       "Number": 877,
-      "Hindi": "पल",
+      "Hawaiian": "koi aku la lakou",
       "in English": "instant"
     },
     {
       "Number": 878,
-      "Hindi": "बाजार",
+      "Hawaiian": "makeke",
       "in English": "market"
     },
     {
       "Number": 879,
-      "Hindi": "डिग्री",
+      "Hawaiian": "degere",
       "in English": "degree"
     },
     {
       "Number": 880,
-      "Hindi": "आबाद",
+      "Hawaiian": "hoolahaia’ku [na kanaka",
       "in English": "populate"
     },
     {
       "Number": 881,
-      "Hindi": "लड़की",
+      "Hawaiian": "chick",
       "in English": "chick"
     },
     {
       "Number": 882,
-      "Hindi": "प्रिय",
+      "Hawaiian": "aloha",
       "in English": "dear"
     },
     {
       "Number": 883,
-      "Hindi": "दुश्मन",
+      "Hawaiian": "ʻenemi",
       "in English": "enemy"
     },
     {
       "Number": 884,
-      "Hindi": "उत्तर",
+      "Hawaiian": "pane",
       "in English": "reply"
     },
     {
       "Number": 885,
-      "Hindi": "पेय",
+      "Hawaiian": "inu",
       "in English": "drink"
     },
     {
       "Number": 886,
-      "Hindi": "घटित",
+      "Hawaiian": "ana",
       "in English": "occur"
     },
     {
       "Number": 887,
-      "Hindi": "समर्थन",
+      "Hawaiian": "kākoʻo",
       "in English": "support"
     },
     {
       "Number": 888,
-      "Hindi": "भाषण",
+      "Hawaiian": "olelo",
       "in English": "speech"
     },
     {
       "Number": 889,
-      "Hindi": "प्रकृति",
+      "Hawaiian": "maoli",
       "in English": "nature"
     },
     {
       "Number": 890,
-      "Hindi": "सीमा",
+      "Hawaiian": "huahelu",
       "in English": "range"
     },
     {
       "Number": 891,
-      "Hindi": "भाप",
+      "Hawaiian": "mahu",
       "in English": "steam"
     },
     {
       "Number": 892,
-      "Hindi": "प्रस्ताव",
+      "Hawaiian": "ka noi",
       "in English": "motion"
     },
     {
       "Number": 893,
-      "Hindi": "पथ",
+      "Hawaiian": "ala",
       "in English": "path"
     },
     {
       "Number": 894,
-      "Hindi": "तरल",
+      "Hawaiian": "wai",
       "in English": "liquid"
     },
     {
       "Number": 895,
-      "Hindi": "लॉग इन करें",
+      "Hawaiian": "mōʻaukala",
       "in English": "log"
     },
     {
       "Number": 896,
-      "Hindi": "मतलब",
+      "Hawaiian": "ia mea,",
       "in English": "meant"
     },
     {
       "Number": 897,
-      "Hindi": "भागफल",
+      "Hawaiian": "puu",
       "in English": "quotient"
     },
     {
       "Number": 898,
-      "Hindi": "दांत",
+      "Hawaiian": "niho",
       "in English": "teeth"
     },
     {
       "Number": 899,
-      "Hindi": "खोल",
+      "Hawaiian": "iwi",
       "in English": "shell"
     },
     {
       "Number": 900,
-      "Hindi": "गर्दन",
+      "Hawaiian": "‘ā’ī",
       "in English": "neck"
     },
     {
       "Number": 901,
-      "Hindi": "ऑक्सीजन",
+      "Hawaiian": "ka oxygen",
       "in English": "oxygen"
     },
     {
       "Number": 902,
-      "Hindi": "चीनी",
+      "Hawaiian": "kōpaʻa",
       "in English": "sugar"
     },
     {
       "Number": 903,
-      "Hindi": "मौत",
+      "Hawaiian": "make",
       "in English": "death"
     },
     {
       "Number": 904,
-      "Hindi": "सुंदर",
+      "Hawaiian": "nani",
       "in English": "pretty"
     },
     {
       "Number": 905,
-      "Hindi": "कौशल",
+      "Hawaiian": "akamai",
       "in English": "skill"
     },
     {
       "Number": 906,
-      "Hindi": "महिलाओं",
+      "Hawaiian": "na wahine",
       "in English": "women"
     },
     {
       "Number": 907,
-      "Hindi": "मौसम",
+      "Hawaiian": "manawa",
       "in English": "season"
     },
     {
       "Number": 908,
-      "Hindi": "समाधान",
+      "Hawaiian": "pāʻoihana",
       "in English": "solution"
     },
     {
       "Number": 909,
-      "Hindi": "चुंबक",
+      "Hawaiian": "Mākēneki",
       "in English": "magnet"
     },
     {
       "Number": 910,
-      "Hindi": "चांदी",
+      "Hawaiian": "kala",
       "in English": "silver"
     },
     {
       "Number": 911,
-      "Hindi": "धन्यवाद",
+      "Hawaiian": "aloha",
       "in English": "thank"
     },
     {
       "Number": 912,
-      "Hindi": "शाखा",
+      "Hawaiian": "lala",
       "in English": "branch"
     },
     {
       "Number": 913,
-      "Hindi": "मैच",
+      "Hawaiian": "ń",
       "in English": "match"
     },
     {
       "Number": 914,
-      "Hindi": "प्रत्यय",
+      "Hawaiian": "kau hope",
       "in English": "suffix"
     },
     {
       "Number": 915,
-      "Hindi": "विशेष रूप से",
+      "Hawaiian": "ka oi aku",
       "in English": "especially"
     },
     {
       "Number": 916,
-      "Hindi": "अंजीर",
+      "Hawaiian": "laau",
       "in English": "fig"
     },
     {
       "Number": 917,
-      "Hindi": "डर",
+      "Hawaiian": "makau",
       "in English": "afraid"
     },
     {
       "Number": 918,
-      "Hindi": "भारी",
+      "Hawaiian": "nui",
       "in English": "huge"
     },
     {
       "Number": 919,
-      "Hindi": "बहन",
+      "Hawaiian": "kaikuaʻana, kaikaina",
       "in English": "sister"
     },
     {
       "Number": 920,
-      "Hindi": "स्टील",
+      "Hawaiian": "kila",
       "in English": "steel"
     },
     {
       "Number": 921,
-      "Hindi": "चर्चा",
+      "Hawaiian": "kūkākūkā",
       "in English": "discuss"
     },
     {
       "Number": 922,
-      "Hindi": "आगे",
+      "Hawaiian": "mua",
       "in English": "forward"
     },
     {
       "Number": 923,
-      "Hindi": "इसी तरह",
+      "Hawaiian": "ano like",
       "in English": "similar"
     },
     {
       "Number": 924,
-      "Hindi": "गाइड",
+      "Hawaiian": "alakai",
       "in English": "guide"
     },
     {
       "Number": 925,
-      "Hindi": "अनुभव",
+      "Hawaiian": "ka hoao ana",
       "in English": "experience"
     },
     {
       "Number": 926,
-      "Hindi": "स्कोर",
+      "Hawaiian": "manual",
       "in English": "score"
     },
     {
       "Number": 927,
-      "Hindi": "सेब",
+      "Hawaiian": "kii onohi",
       "in English": "apple"
     },
     {
       "Number": 928,
-      "Hindi": "खरीदा",
+      "Hawaiian": "kuai",
       "in English": "bought"
     },
     {
       "Number": 929,
-      "Hindi": "नेतृत्व",
+      "Hawaiian": "alakai",
       "in English": "led"
     },
     {
       "Number": 930,
-      "Hindi": "पिच",
+      "Hawaiian": "kukulu iho",
       "in English": "pitch"
     },
     {
       "Number": 931,
-      "Hindi": "कोट",
+      "Hawaiian": "kapa",
       "in English": "coat"
     },
     {
       "Number": 932,
-      "Hindi": "सामूहिक",
+      "Hawaiian": "nuipa",
       "in English": "mass"
     },
     {
       "Number": 933,
-      "Hindi": "कार्ड",
+      "Hawaiian": "kāleka",
       "in English": "card"
     },
     {
       "Number": 934,
-      "Hindi": "बैंड",
+      "Hawaiian": "hui",
       "in English": "band"
     },
     {
       "Number": 935,
-      "Hindi": "रस्सी",
+      "Hawaiian": "kaula",
       "in English": "rope"
     },
     {
       "Number": 936,
-      "Hindi": "पर्ची",
+      "Hawaiian": "oihana",
       "in English": "slip"
     },
     {
       "Number": 937,
-      "Hindi": "जीत",
+      "Hawaiian": "lanakila ‘",
       "in English": "win"
     },
     {
       "Number": 938,
-      "Hindi": "सपना",
+      "Hawaiian": "moe",
       "in English": "dream"
     },
     {
       "Number": 939,
-      "Hindi": "शाम",
+      "Hawaiian": "ahiahi",
       "in English": "evening"
     },
     {
       "Number": 940,
-      "Hindi": "शर्त",
+      "Hawaiian": "ano",
       "in English": "condition"
     },
     {
       "Number": 941,
-      "Hindi": "फ़ीड",
+      "Hawaiian": "ʻai",
       "in English": "feed"
     },
     {
       "Number": 942,
-      "Hindi": "उपकरण",
+      "Hawaiian": "hoʻopololei",
       "in English": "tool"
     },
     {
       "Number": 943,
-      "Hindi": "संपूर्ण",
+      "Hawaiian": "huina",
       "in English": "total"
     },
     {
       "Number": 944,
-      "Hindi": "बुनियादी",
+      "Hawaiian": "kumu o",
       "in English": "basic"
     },
     {
       "Number": 945,
-      "Hindi": "गंध",
+      "Hawaiian": "honi",
       "in English": "smell"
     },
     {
       "Number": 946,
-      "Hindi": "घाटी",
+      "Hawaiian": "awāwa",
       "in English": "valley"
     },
     {
       "Number": 947,
-      "Hindi": "और न ही",
+      "Hawaiian": "aole",
       "in English": "nor"
     },
     {
       "Number": 948,
-      "Hindi": "डबल",
+      "Hawaiian": "palua",
       "in English": "double"
     },
     {
       "Number": 949,
-      "Hindi": "सीट",
+      "Hawaiian": "noho",
       "in English": "seat"
     },
     {
       "Number": 950,
-      "Hindi": "जारी रखने के",
+      "Hawaiian": "hoʻomau",
       "in English": "continue"
     },
     {
       "Number": 951,
-      "Hindi": "खंड",
+      "Hawaiian": "aeie",
       "in English": "block"
     },
     {
       "Number": 952,
-      "Hindi": "चार्ट",
+      "Hawaiian": "pakuhi",
       "in English": "chart"
     },
     {
       "Number": 953,
-      "Hindi": "टोपी",
+      "Hawaiian": "ua inaina i ka",
       "in English": "hat"
     },
     {
       "Number": 954,
-      "Hindi": "बेचने",
+      "Hawaiian": "kuai",
       "in English": "sell"
     },
     {
       "Number": 955,
-      "Hindi": "सफलता",
+      "Hawaiian": "holomua",
       "in English": "success"
     },
     {
       "Number": 956,
-      "Hindi": "कंपनी",
+      "Hawaiian": "poe",
       "in English": "company"
     },
     {
       "Number": 957,
-      "Hindi": "घटाना",
+      "Hawaiian": "unuhi",
       "in English": "subtract"
     },
     {
       "Number": 958,
-      "Hindi": "घटना",
+      "Hawaiian": "hanana",
       "in English": "event"
     },
     {
       "Number": 959,
-      "Hindi": "विशेष",
+      "Hawaiian": "mau",
       "in English": "particular"
     },
     {
       "Number": 960,
-      "Hindi": "सौदा",
+      "Hawaiian": "hana",
       "in English": "deal"
     },
     {
       "Number": 961,
-      "Hindi": "तैरना",
+      "Hawaiian": "‘auʻau",
       "in English": "swim"
     },
     {
       "Number": 962,
-      "Hindi": "अवधि",
+      "Hawaiian": "manawa",
       "in English": "term"
     },
     {
       "Number": 963,
-      "Hindi": "विपरीत",
+      "Hawaiian": "ku pono ana",
       "in English": "opposite"
     },
     {
       "Number": 964,
-      "Hindi": "पत्नी",
+      "Hawaiian": "wahine",
       "in English": "wife"
     },
     {
       "Number": 965,
-      "Hindi": "जूता",
+      "Hawaiian": "kāmaʻa",
       "in English": "shoe"
     },
     {
       "Number": 966,
-      "Hindi": "कंधे",
+      "Hawaiian": "poʻohiwi",
       "in English": "shoulder"
     },
     {
       "Number": 967,
-      "Hindi": "प्रसार",
+      "Hawaiian": "hoolaha aku",
       "in English": "spread"
     },
     {
       "Number": 968,
-      "Hindi": "व्यवस्था",
+      "Hawaiian": "hooponopono",
       "in English": "arrange"
     },
     {
       "Number": 969,
-      "Hindi": "शिविर",
+      "Hawaiian": "hoomoana",
       "in English": "camp"
     },
     {
       "Number": 970,
-      "Hindi": "आविष्कार",
+      "Hawaiian": "invent",
       "in English": "invent"
     },
     {
       "Number": 971,
-      "Hindi": "कपास",
+      "Hawaiian": "pulupulu",
       "in English": "cotton"
     },
     {
       "Number": 972,
-      "Hindi": "Born",
+      "Hawaiian": "Born",
       "in English": "born"
     },
     {
       "Number": 973,
-      "Hindi": "निर्धारित",
+      "Hawaiian": "hooholo",
       "in English": "determine"
     },
     {
       "Number": 974,
-      "Hindi": "चौथाई गेलन",
+      "Hawaiian": "quart",
       "in English": "quart"
     },
     {
       "Number": 975,
-      "Hindi": "नौ",
+      "Hawaiian": "ʻeiwa",
       "in English": "nine"
     },
     {
       "Number": 976,
-      "Hindi": "ट्रक",
+      "Hawaiian": "kona kalaka",
       "in English": "truck"
     },
     {
       "Number": 977,
-      "Hindi": "शोर",
+      "Hawaiian": "a noise",
       "in English": "noise"
     },
     {
       "Number": 978,
-      "Hindi": "स्तर",
+      "Hawaiian": "ilikai",
       "in English": "level"
     },
     {
       "Number": 979,
-      "Hindi": "संयोग",
+      "Hawaiian": "wale",
       "in English": "chance"
     },
     {
       "Number": 980,
-      "Hindi": "इकट्ठा",
+      "Hawaiian": "houluulu",
       "in English": "gather"
     },
     {
       "Number": 981,
-      "Hindi": "दुकान",
-      "in English": "shop"
+      "Hawaiian": "poʻohiwi",
+      "in English": "shoulder"
     },
     {
       "Number": 982,
-      "Hindi": "खिंचाव",
+      "Hawaiian": "‘ō",
       "in English": "stretch"
     },
     {
       "Number": 983,
-      "Hindi": "फेंक",
+      "Hawaiian": "hoolei",
       "in English": "throw"
     },
     {
       "Number": 984,
-      "Hindi": "चमक",
+      "Hawaiian": "alohi",
       "in English": "shine"
     },
     {
       "Number": 985,
-      "Hindi": "संपत्ति",
+      "Hawaiian": "waiwai",
       "in English": "property"
     },
     {
       "Number": 986,
-      "Hindi": "स्तंभ",
+      "Hawaiian": "kolamu",
       "in English": "column"
     },
     {
       "Number": 987,
-      "Hindi": "अणु",
+      "Hawaiian": "molecule",
       "in English": "molecule"
     },
     {
       "Number": 988,
-      "Hindi": "चयन",
+      "Hawaiian": "koho i",
       "in English": "select"
     },
     {
       "Number": 989,
-      "Hindi": "गलत",
+      "Hawaiian": "hewa",
       "in English": "wrong"
     },
     {
       "Number": 990,
-      "Hindi": "ग्रे",
+      "Hawaiian": "hinahina",
       "in English": "gray"
     },
     {
       "Number": 991,
-      "Hindi": "दोहराना",
+      "Hawaiian": "hana hou",
       "in English": "repeat"
     },
     {
       "Number": 992,
-      "Hindi": "आवश्यकता",
+      "Hawaiian": "pono",
       "in English": "require"
     },
     {
       "Number": 993,
-      "Hindi": "विस्तृत",
+      "Hawaiian": "ka laulā",
       "in English": "broad"
     },
     {
       "Number": 994,
-      "Hindi": "तैयार",
+      "Hawaiian": "hoomakaukau",
       "in English": "prepare"
     },
     {
       "Number": 995,
-      "Hindi": "नमक",
+      "Hawaiian": "ka paʻakai",
       "in English": "salt"
     },
     {
       "Number": 996,
-      "Hindi": "नाक",
+      "Hawaiian": "ihu",
       "in English": "nose"
     },
     {
       "Number": 997,
-      "Hindi": "बहुवचन",
+      "Hawaiian": "Plural",
       "in English": "plural"
     },
     {
       "Number": 998,
-      "Hindi": "क्रोध",
+      "Hawaiian": "huhu",
       "in English": "anger"
     },
     {
       "Number": 999,
-      "Hindi": "दावा",
+      "Hawaiian": "koi ana",
       "in English": "claim"
     },
     {
       "Number": 1000,
-      "Hindi": "महाद्वीप",
-      "in English": "continent"
+      "Hawaiian": "ka wiwo ole",
+      "in English": "confidence"
     }
-];
+]
 
-exports.language = "Hindi";
-exports.data = hindi;
+exports.language = "Hawaiian";
+exports.data = hawaiian;

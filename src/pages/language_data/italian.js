@@ -1,5005 +1,5005 @@
-const hindi = [
+const italian = [
     {
       "Number": 1,
-      "Hindi": "जैसा",
+      "Italian": "come",
       "in English": "as"
     },
     {
       "Number": 2,
-      "Hindi": "मैं",
+      "Italian": "io",
       "in English": "I"
     },
     {
       "Number": 3,
-      "Hindi": "उसके",
+      "Italian": "il suo",
       "in English": "his"
     },
     {
       "Number": 4,
-      "Hindi": "कि",
+      "Italian": "che",
       "in English": "that"
     },
     {
       "Number": 5,
-      "Hindi": "वह",
+      "Italian": "lui",
       "in English": "he"
     },
     {
       "Number": 6,
-      "Hindi": "था",
+      "Italian": "era",
       "in English": "was"
     },
     {
       "Number": 7,
-      "Hindi": "के लिए",
+      "Italian": "per",
       "in English": "for"
     },
     {
       "Number": 8,
-      "Hindi": "पर",
+      "Italian": "su",
       "in English": "on"
     },
     {
       "Number": 9,
-      "Hindi": "हैं",
+      "Italian": "sono",
       "in English": "are"
     },
     {
       "Number": 10,
-      "Hindi": "साथ",
+      "Italian": "con",
       "in English": "with"
     },
     {
       "Number": 11,
-      "Hindi": "वे",
+      "Italian": "essi",
       "in English": "they"
     },
     {
       "Number": 12,
-      "Hindi": "हो",
+      "Italian": "essere",
       "in English": "be"
     },
     {
       "Number": 13,
-      "Hindi": "पर",
+      "Italian": "a",
       "in English": "at"
     },
     {
       "Number": 14,
-      "Hindi": "एक",
+      "Italian": "uno",
       "in English": "one"
     },
     {
       "Number": 15,
-      "Hindi": "है",
+      "Italian": "avere",
       "in English": "have"
     },
     {
       "Number": 16,
-      "Hindi": "इस",
+      "Italian": "questo",
       "in English": "this"
     },
     {
       "Number": 17,
-      "Hindi": "से",
+      "Italian": "da",
       "in English": "from"
     },
     {
       "Number": 18,
-      "Hindi": "द्वारा",
+      "Italian": "da",
       "in English": "by"
     },
     {
       "Number": 19,
-      "Hindi": "गरम",
+      "Italian": "caldo",
       "in English": "hot"
     },
     {
       "Number": 20,
-      "Hindi": "शब्द",
+      "Italian": "parola",
       "in English": "word"
     },
     {
       "Number": 21,
-      "Hindi": "लेकिन",
+      "Italian": "ma",
       "in English": "but"
     },
     {
       "Number": 22,
-      "Hindi": "क्या",
+      "Italian": "cosa",
       "in English": "what"
     },
     {
       "Number": 23,
-      "Hindi": "कुछ",
+      "Italian": "alcuni",
       "in English": "some"
     },
     {
       "Number": 24,
-      "Hindi": "है",
+      "Italian": "è",
       "in English": "is"
     },
     {
       "Number": 25,
-      "Hindi": "यह",
+      "Italian": "esso",
       "in English": "it"
     },
     {
       "Number": 26,
-      "Hindi": "आप",
+      "Italian": "voi",
       "in English": "you"
     },
     {
       "Number": 27,
-      "Hindi": "या",
+      "Italian": "o",
       "in English": "or"
     },
     {
       "Number": 28,
-      "Hindi": "था",
+      "Italian": "aveva",
       "in English": "had"
     },
     {
       "Number": 29,
-      "Hindi": "",
+      "Italian": "il",
       "in English": "the"
     },
     {
       "Number": 30,
-      "Hindi": "की",
+      "Italian": "di",
       "in English": "of"
     },
     {
       "Number": 31,
-      "Hindi": "तक",
+      "Italian": "a",
       "in English": "to"
     },
     {
       "Number": 32,
-      "Hindi": "और",
+      "Italian": "e",
       "in English": "and"
     },
     {
       "Number": 33,
-      "Hindi": "एक",
+      "Italian": "un",
       "in English": "a"
     },
     {
       "Number": 34,
-      "Hindi": "में",
+      "Italian": "in",
       "in English": "in"
     },
     {
       "Number": 35,
-      "Hindi": "हम",
+      "Italian": "noi",
       "in English": "we"
     },
     {
       "Number": 36,
-      "Hindi": "कर सकते हैं",
+      "Italian": "lattina",
       "in English": "can"
     },
     {
       "Number": 37,
-      "Hindi": "बाहर",
+      "Italian": "fuori",
       "in English": "out"
     },
     {
       "Number": 38,
-      "Hindi": "अन्य",
+      "Italian": "altro",
       "in English": "other"
     },
     {
       "Number": 39,
-      "Hindi": "थे",
+      "Italian": "erano",
       "in English": "were"
     },
     {
       "Number": 40,
-      "Hindi": "जो",
+      "Italian": "che",
       "in English": "which"
     },
     {
       "Number": 41,
-      "Hindi": "कर",
+      "Italian": "fare",
       "in English": "do"
     },
     {
       "Number": 42,
-      "Hindi": "उनके",
+      "Italian": "loro",
       "in English": "their"
     },
     {
       "Number": 43,
-      "Hindi": "समय",
+      "Italian": "tempo",
       "in English": "time"
     },
     {
       "Number": 44,
-      "Hindi": "अगर",
+      "Italian": "se",
       "in English": "if"
     },
     {
       "Number": 45,
-      "Hindi": "होगा",
+      "Italian": "volontà",
       "in English": "will"
     },
     {
       "Number": 46,
-      "Hindi": "कैसे",
+      "Italian": "come",
       "in English": "how"
     },
     {
       "Number": 47,
-      "Hindi": "कहा",
+      "Italian": "suddetto",
       "in English": "said"
     },
     {
       "Number": 48,
-      "Hindi": "एक",
+      "Italian": "un",
       "in English": "an"
     },
     {
       "Number": 49,
-      "Hindi": "प्रत्येक",
+      "Italian": "ogni",
       "in English": "each"
     },
     {
       "Number": 50,
-      "Hindi": "बता",
+      "Italian": "dire",
       "in English": "tell"
     },
     {
       "Number": 51,
-      "Hindi": "करता है",
+      "Italian": "fa",
       "in English": "does"
     },
     {
       "Number": 52,
-      "Hindi": "सेट",
+      "Italian": "set",
       "in English": "set"
     },
     {
       "Number": 53,
-      "Hindi": "तीन",
+      "Italian": "tre",
       "in English": "three"
     },
     {
       "Number": 54,
-      "Hindi": "चाहते हैं",
+      "Italian": "desiderare",
       "in English": "want"
     },
     {
       "Number": 55,
-      "Hindi": "हवा",
+      "Italian": "aria",
       "in English": "air"
     },
     {
       "Number": 56,
-      "Hindi": "अच्छी तरह से",
+      "Italian": "bene",
       "in English": "well"
     },
     {
       "Number": 57,
-      "Hindi": "भी",
+      "Italian": "anche",
       "in English": "also"
     },
     {
       "Number": 58,
-      "Hindi": "खेलने",
+      "Italian": "giocare",
       "in English": "play"
     },
     {
       "Number": 59,
-      "Hindi": "छोटे",
+      "Italian": "piccolo",
       "in English": "small"
     },
     {
       "Number": 60,
-      "Hindi": "अंत",
+      "Italian": "fine",
       "in English": "end"
     },
     {
       "Number": 61,
-      "Hindi": "डाल",
+      "Italian": "mettere",
       "in English": "put"
     },
     {
       "Number": 62,
-      "Hindi": "घर",
+      "Italian": "casa",
       "in English": "home"
     },
     {
       "Number": 63,
-      "Hindi": "पढ़ा",
+      "Italian": "leggere",
       "in English": "read"
     },
     {
       "Number": 64,
-      "Hindi": "हाथ",
+      "Italian": "mano",
       "in English": "hand"
     },
     {
       "Number": 65,
-      "Hindi": "बंदरगाह",
+      "Italian": "porto",
       "in English": "port"
     },
     {
       "Number": 66,
-      "Hindi": "बड़ा",
+      "Italian": "grande",
       "in English": "large"
     },
     {
       "Number": 67,
-      "Hindi": "जादू",
+      "Italian": "compitare",
       "in English": "spell"
     },
     {
       "Number": 68,
-      "Hindi": "जोड़",
+      "Italian": "aggiungere",
       "in English": "add"
     },
     {
       "Number": 69,
-      "Hindi": "और भी",
+      "Italian": "anche",
       "in English": "even"
     },
     {
       "Number": 70,
-      "Hindi": "भूमि",
+      "Italian": "terra",
       "in English": "land"
     },
     {
       "Number": 71,
-      "Hindi": "यहाँ",
+      "Italian": "qui",
       "in English": "here"
     },
     {
       "Number": 72,
-      "Hindi": "चाहिए",
+      "Italian": "mosto",
       "in English": "must"
     },
     {
       "Number": 73,
-      "Hindi": "बड़ा",
+      "Italian": "grande",
       "in English": "big"
     },
     {
       "Number": 74,
-      "Hindi": "उच्च",
+      "Italian": "alto",
       "in English": "high"
     },
     {
       "Number": 75,
-      "Hindi": "ऐसा",
+      "Italian": "tale",
       "in English": "such"
     },
     {
       "Number": 76,
-      "Hindi": "का पालन करें",
+      "Italian": "seguire",
       "in English": "follow"
     },
     {
       "Number": 77,
-      "Hindi": "अधिनियम",
+      "Italian": "atto",
       "in English": "act"
     },
     {
       "Number": 78,
-      "Hindi": "क्यों",
+      "Italian": "perché",
       "in English": "why"
     },
     {
       "Number": 79,
-      "Hindi": "पूछना",
+      "Italian": "chiedere",
       "in English": "ask"
     },
     {
       "Number": 80,
-      "Hindi": "पुरुषों",
+      "Italian": "maschi",
       "in English": "men"
     },
     {
       "Number": 81,
-      "Hindi": "परिवर्तन",
+      "Italian": "cambiamento",
       "in English": "change"
     },
     {
       "Number": 82,
-      "Hindi": "चला गया",
+      "Italian": "è andato",
       "in English": "went"
     },
     {
       "Number": 83,
-      "Hindi": "प्रकाश",
+      "Italian": "luce",
       "in English": "light"
     },
     {
       "Number": 84,
-      "Hindi": "तरह",
+      "Italian": "tipo",
       "in English": "kind"
     },
     {
       "Number": 85,
-      "Hindi": "बंद",
+      "Italian": "spento",
       "in English": "off"
     },
     {
       "Number": 86,
-      "Hindi": "आवश्यकता",
+      "Italian": "bisogno",
       "in English": "need"
     },
     {
       "Number": 87,
-      "Hindi": "घर",
+      "Italian": "casa",
       "in English": "house"
     },
     {
       "Number": 88,
-      "Hindi": "तस्वीर",
+      "Italian": "immagine",
       "in English": "picture"
     },
     {
       "Number": 89,
-      "Hindi": "कोशिश",
+      "Italian": "provare",
       "in English": "try"
     },
     {
       "Number": 90,
-      "Hindi": "हमें",
+      "Italian": "noi",
       "in English": "us"
     },
     {
       "Number": 91,
-      "Hindi": "फिर",
+      "Italian": "di nuovo",
       "in English": "again"
     },
     {
       "Number": 92,
-      "Hindi": "पशु",
+      "Italian": "animale",
       "in English": "animal"
     },
     {
       "Number": 93,
-      "Hindi": "बिंदु",
+      "Italian": "punto",
       "in English": "point"
     },
     {
       "Number": 94,
-      "Hindi": "मां",
+      "Italian": "madre",
       "in English": "mother"
     },
     {
       "Number": 95,
-      "Hindi": "दुनिया",
+      "Italian": "mondo",
       "in English": "world"
     },
     {
       "Number": 96,
-      "Hindi": "निकट",
+      "Italian": "vicino",
       "in English": "near"
     },
     {
       "Number": 97,
-      "Hindi": "बनाना",
+      "Italian": "costruire",
       "in English": "build"
     },
     {
       "Number": 98,
-      "Hindi": "आत्म",
+      "Italian": "se stesso",
       "in English": "self"
     },
     {
       "Number": 99,
-      "Hindi": "पृथ्वी",
+      "Italian": "terra",
       "in English": "earth"
     },
     {
       "Number": 100,
-      "Hindi": "पिता",
+      "Italian": "padre",
       "in English": "father"
     },
     {
       "Number": 101,
-      "Hindi": "किसी भी",
+      "Italian": "qualsiasi",
       "in English": "any"
     },
     {
       "Number": 102,
-      "Hindi": "नई",
+      "Italian": "nuovo",
       "in English": "new"
     },
     {
       "Number": 103,
-      "Hindi": "काम",
+      "Italian": "lavoro",
       "in English": "work"
     },
     {
       "Number": 104,
-      "Hindi": "हिस्सा",
+      "Italian": "parte",
       "in English": "part"
     },
     {
       "Number": 105,
-      "Hindi": "लेना",
+      "Italian": "prendere",
       "in English": "take"
     },
     {
       "Number": 106,
-      "Hindi": "प्राप्त",
+      "Italian": "ottenere",
       "in English": "get"
     },
     {
       "Number": 107,
-      "Hindi": "जगह",
+      "Italian": "posto",
       "in English": "place"
     },
     {
       "Number": 108,
-      "Hindi": "निर्मित",
+      "Italian": "fatto",
       "in English": "made"
     },
     {
       "Number": 109,
-      "Hindi": "जीना",
+      "Italian": "vivere",
       "in English": "live"
     },
     {
       "Number": 110,
-      "Hindi": "जहां",
+      "Italian": "dove",
       "in English": "where"
     },
     {
       "Number": 111,
-      "Hindi": "के बाद",
+      "Italian": "dopo",
       "in English": "after"
     },
     {
       "Number": 112,
-      "Hindi": "वापस",
+      "Italian": "indietro",
       "in English": "back"
     },
     {
       "Number": 113,
-      "Hindi": "थोड़ा",
+      "Italian": "poco",
       "in English": "little"
     },
     {
       "Number": 114,
-      "Hindi": "केवल",
+      "Italian": "solo",
       "in English": "only"
     },
     {
       "Number": 115,
-      "Hindi": "दौर",
+      "Italian": "turno",
       "in English": "round"
     },
     {
       "Number": 116,
-      "Hindi": "आदमी",
+      "Italian": "uomo",
       "in English": "man"
     },
     {
       "Number": 117,
-      "Hindi": "वर्ष",
+      "Italian": "anno",
       "in English": "year"
     },
     {
       "Number": 118,
-      "Hindi": "आया",
+      "Italian": "è venuto",
       "in English": "came"
     },
     {
       "Number": 119,
-      "Hindi": "शो",
+      "Italian": "spettacolo",
       "in English": "show"
     },
     {
       "Number": 120,
-      "Hindi": "हर",
+      "Italian": "ogni",
       "in English": "every"
     },
     {
       "Number": 121,
-      "Hindi": "अच्छा",
+      "Italian": "buono",
       "in English": "good"
     },
     {
       "Number": 122,
-      "Hindi": "मुझे",
+      "Italian": "me",
       "in English": "me"
     },
     {
       "Number": 123,
-      "Hindi": "दे",
+      "Italian": "dare",
       "in English": "give"
     },
     {
       "Number": 124,
-      "Hindi": "हमारे",
+      "Italian": "il nostro",
       "in English": "our"
     },
     {
       "Number": 125,
-      "Hindi": "नीचे",
+      "Italian": "sotto",
       "in English": "under"
     },
     {
       "Number": 126,
-      "Hindi": "नाम",
+      "Italian": "nome",
       "in English": "name"
     },
     {
       "Number": 127,
-      "Hindi": "बहुत",
+      "Italian": "molto",
       "in English": "very"
     },
     {
       "Number": 128,
-      "Hindi": "के माध्यम से",
+      "Italian": "attraverso",
       "in English": "through"
     },
     {
       "Number": 129,
-      "Hindi": "बस",
+      "Italian": "solo",
       "in English": "just"
     },
     {
       "Number": 130,
-      "Hindi": "फार्म",
+      "Italian": "forma",
       "in English": "form"
     },
     {
       "Number": 131,
-      "Hindi": "वाक्य",
+      "Italian": "frase",
       "in English": "sentence"
     },
     {
       "Number": 132,
-      "Hindi": "महान",
+      "Italian": "grande",
       "in English": "great"
     },
     {
       "Number": 133,
-      "Hindi": "लगता है",
+      "Italian": "pensare",
       "in English": "think"
     },
     {
       "Number": 134,
-      "Hindi": "कहना",
+      "Italian": "dire",
       "in English": "say"
     },
     {
       "Number": 135,
-      "Hindi": "मदद",
+      "Italian": "aiutare",
       "in English": "help"
     },
     {
       "Number": 136,
-      "Hindi": "कम",
+      "Italian": "basso",
       "in English": "low"
     },
     {
       "Number": 137,
-      "Hindi": "रेखा",
+      "Italian": "linea",
       "in English": "line"
     },
     {
       "Number": 138,
-      "Hindi": "अलग",
+      "Italian": "differire",
       "in English": "differ"
     },
     {
       "Number": 139,
-      "Hindi": "बारी",
+      "Italian": "turno",
       "in English": "turn"
     },
     {
       "Number": 140,
-      "Hindi": "कारण",
+      "Italian": "causa",
       "in English": "cause"
     },
     {
       "Number": 141,
-      "Hindi": "ज्यादा",
+      "Italian": "molto",
       "in English": "much"
     },
     {
       "Number": 142,
-      "Hindi": "मतलब",
+      "Italian": "dire",
       "in English": "mean"
     },
     {
       "Number": 143,
-      "Hindi": "पहले",
+      "Italian": "prima",
       "in English": "before"
     },
     {
       "Number": 144,
-      "Hindi": "चाल",
+      "Italian": "spostare",
       "in English": "move"
     },
     {
       "Number": 145,
-      "Hindi": "सही",
+      "Italian": "diritto",
       "in English": "right"
     },
     {
       "Number": 146,
-      "Hindi": "लड़का",
+      "Italian": "ragazzo",
       "in English": "boy"
     },
     {
       "Number": 147,
-      "Hindi": "पुराना",
+      "Italian": "vecchio",
       "in English": "old"
     },
     {
       "Number": 148,
-      "Hindi": "भी",
+      "Italian": "troppo",
       "in English": "too"
     },
     {
       "Number": 149,
-      "Hindi": "वही",
+      "Italian": "stesso",
       "in English": "same"
     },
     {
       "Number": 150,
-      "Hindi": "वह",
+      "Italian": "lei",
       "in English": "she"
     },
     {
       "Number": 151,
-      "Hindi": "सब",
+      "Italian": "tutto",
       "in English": "all"
     },
     {
       "Number": 152,
-      "Hindi": "वहाँ",
+      "Italian": "ci",
       "in English": "there"
     },
     {
       "Number": 153,
-      "Hindi": "जब",
+      "Italian": "quando",
       "in English": "when"
     },
     {
       "Number": 154,
-      "Hindi": "ऊपर",
+      "Italian": "su",
       "in English": "up"
     },
     {
       "Number": 155,
-      "Hindi": "उपयोग",
+      "Italian": "uso",
       "in English": "use"
     },
     {
       "Number": 156,
-      "Hindi": "अपने",
+      "Italian": "il tuo",
       "in English": "your"
     },
     {
       "Number": 157,
-      "Hindi": "रास्ता",
+      "Italian": "modo",
       "in English": "way"
     },
     {
       "Number": 158,
-      "Hindi": "के बारे में",
+      "Italian": "circa",
       "in English": "about"
     },
     {
       "Number": 159,
-      "Hindi": "कई",
+      "Italian": "molti",
       "in English": "many"
     },
     {
       "Number": 160,
-      "Hindi": "तो",
+      "Italian": "allora",
       "in English": "then"
     },
     {
       "Number": 161,
-      "Hindi": "उन्हें",
+      "Italian": "loro",
       "in English": "them"
     },
     {
       "Number": 162,
-      "Hindi": "लिखना",
+      "Italian": "scrivere",
       "in English": "write"
     },
     {
       "Number": 163,
-      "Hindi": "होगा",
+      "Italian": "sarebbe",
       "in English": "would"
     },
     {
       "Number": 164,
-      "Hindi": "जैसा",
+      "Italian": "come",
       "in English": "like"
     },
     {
       "Number": 165,
-      "Hindi": "तो",
+      "Italian": "così",
       "in English": "so"
     },
     {
       "Number": 166,
-      "Hindi": "इन",
+      "Italian": "queste",
       "in English": "these"
     },
     {
       "Number": 167,
-      "Hindi": "उसके",
+      "Italian": "lei",
       "in English": "her"
     },
     {
       "Number": 168,
-      "Hindi": "लंबे समय तक",
+      "Italian": "lungo",
       "in English": "long"
     },
     {
       "Number": 169,
-      "Hindi": "कर",
+      "Italian": "rendere",
       "in English": "make"
     },
     {
       "Number": 170,
-      "Hindi": "बात",
+      "Italian": "cosa",
       "in English": "thing"
     },
     {
       "Number": 171,
-      "Hindi": "देखना",
+      "Italian": "vedere",
       "in English": "see"
     },
     {
       "Number": 172,
-      "Hindi": "उसे",
+      "Italian": "lui",
       "in English": "him"
     },
     {
       "Number": 173,
-      "Hindi": "दो",
+      "Italian": "due",
       "in English": "two"
     },
     {
       "Number": 174,
-      "Hindi": "है",
+      "Italian": "ha",
       "in English": "has"
     },
     {
       "Number": 175,
-      "Hindi": "देखो",
+      "Italian": "guardare",
       "in English": "look"
     },
     {
       "Number": 176,
-      "Hindi": "अधिक",
+      "Italian": "di più",
       "in English": "more"
     },
     {
       "Number": 177,
-      "Hindi": "दिन",
+      "Italian": "giorno",
       "in English": "day"
     },
     {
       "Number": 178,
-      "Hindi": "सकता है",
+      "Italian": "potuto",
       "in English": "could"
     },
     {
       "Number": 179,
-      "Hindi": "जाना",
+      "Italian": "andare",
       "in English": "go"
     },
     {
       "Number": 180,
-      "Hindi": "आ",
+      "Italian": "venire",
       "in English": "come"
     },
     {
       "Number": 181,
-      "Hindi": "किया",
+      "Italian": "ha fatto",
       "in English": "did"
     },
     {
       "Number": 182,
-      "Hindi": "संख्या",
+      "Italian": "numero",
       "in English": "number"
     },
     {
       "Number": 183,
-      "Hindi": "ध्वनि",
+      "Italian": "suono",
       "in English": "sound"
     },
     {
       "Number": 184,
-      "Hindi": "नहीं",
+      "Italian": "no",
       "in English": "no"
     },
     {
       "Number": 185,
-      "Hindi": "सबसे",
+      "Italian": "più",
       "in English": "most"
     },
     {
       "Number": 186,
-      "Hindi": "लोग",
+      "Italian": "persone",
       "in English": "people"
     },
     {
       "Number": 187,
-      "Hindi": "मेरे",
+      "Italian": "il mio",
       "in English": "my"
     },
     {
       "Number": 188,
-      "Hindi": "अधिक",
+      "Italian": "oltre",
       "in English": "over"
     },
     {
       "Number": 189,
-      "Hindi": "पता",
+      "Italian": "sapere",
       "in English": "know"
     },
     {
       "Number": 190,
-      "Hindi": "पानी",
+      "Italian": "acqua",
       "in English": "water"
     },
     {
       "Number": 191,
-      "Hindi": "से",
+      "Italian": "di",
       "in English": "than"
     },
     {
       "Number": 192,
-      "Hindi": "कॉल",
+      "Italian": "chiamata",
       "in English": "call"
     },
     {
       "Number": 193,
-      "Hindi": "पहले",
+      "Italian": "primo",
       "in English": "first"
     },
     {
       "Number": 194,
-      "Hindi": "कौन",
+      "Italian": "che",
       "in English": "who"
     },
     {
       "Number": 195,
-      "Hindi": "मई",
+      "Italian": "può",
       "in English": "may"
     },
     {
       "Number": 196,
-      "Hindi": "नीचे",
+      "Italian": "giù",
       "in English": "down"
     },
     {
       "Number": 197,
-      "Hindi": "पक्ष",
+      "Italian": "lato",
       "in English": "side"
     },
     {
       "Number": 198,
-      "Hindi": "गया",
+      "Italian": "stato",
       "in English": "been"
     },
     {
       "Number": 199,
-      "Hindi": "अब",
+      "Italian": "ora",
       "in English": "now"
     },
     {
       "Number": 200,
-      "Hindi": "लगता है",
+      "Italian": "trovare",
       "in English": "find"
     },
     {
       "Number": 201,
-      "Hindi": "सिर",
+      "Italian": "testa",
       "in English": "head"
     },
     {
       "Number": 202,
-      "Hindi": "खड़े",
+      "Italian": "stare in piedi",
       "in English": "stand"
     },
     {
       "Number": 203,
-      "Hindi": "खुद",
+      "Italian": "proprio",
       "in English": "own"
     },
     {
       "Number": 204,
-      "Hindi": "पेज",
+      "Italian": "pagina",
       "in English": "page"
     },
     {
       "Number": 205,
-      "Hindi": "चाहिए",
+      "Italian": "dovrebbe",
       "in English": "should"
     },
     {
       "Number": 206,
-      "Hindi": "देश",
+      "Italian": "paese",
       "in English": "country"
     },
     {
       "Number": 207,
-      "Hindi": "पाया",
+      "Italian": "fondare",
       "in English": "found"
     },
     {
       "Number": 208,
-      "Hindi": "जवाब",
+      "Italian": "risposta",
       "in English": "answer"
     },
     {
       "Number": 209,
-      "Hindi": "स्कूल",
+      "Italian": "scuola",
       "in English": "school"
     },
     {
       "Number": 210,
-      "Hindi": "बढ़ने",
+      "Italian": "crescere",
       "in English": "grow"
     },
     {
       "Number": 211,
-      "Hindi": "अध्ययन",
+      "Italian": "studio",
       "in English": "study"
     },
     {
       "Number": 212,
-      "Hindi": "अब तक",
+      "Italian": "ancora",
       "in English": "still"
     },
     {
       "Number": 213,
-      "Hindi": "सीखना",
+      "Italian": "imparare",
       "in English": "learn"
     },
     {
       "Number": 214,
-      "Hindi": "संयंत्र",
+      "Italian": "impianto",
       "in English": "plant"
     },
     {
       "Number": 215,
-      "Hindi": "कवर",
+      "Italian": "copertura",
       "in English": "cover"
     },
     {
       "Number": 216,
-      "Hindi": "भोजन",
+      "Italian": "cibo",
       "in English": "food"
     },
     {
       "Number": 217,
-      "Hindi": "सूरज",
+      "Italian": "sole",
       "in English": "sun"
     },
     {
       "Number": 218,
-      "Hindi": "चार",
+      "Italian": "quattro",
       "in English": "four"
     },
     {
       "Number": 219,
-      "Hindi": "के बीच",
+      "Italian": "fra",
       "in English": "between"
     },
     {
       "Number": 220,
-      "Hindi": "राज्य",
+      "Italian": "stato",
       "in English": "state"
     },
     {
       "Number": 221,
-      "Hindi": "रखना",
+      "Italian": "mantenere",
       "in English": "keep"
     },
     {
       "Number": 222,
-      "Hindi": "आंख",
+      "Italian": "occhio",
       "in English": "eye"
     },
     {
       "Number": 223,
-      "Hindi": "कभी नहीं",
+      "Italian": "mai",
       "in English": "never"
     },
     {
       "Number": 224,
-      "Hindi": "पिछले",
+      "Italian": "ultimo",
       "in English": "last"
     },
     {
       "Number": 225,
-      "Hindi": "चलो",
+      "Italian": "lasciare",
       "in English": "let"
     },
     {
       "Number": 226,
-      "Hindi": "सोचा",
+      "Italian": "pensiero",
       "in English": "thought"
     },
     {
       "Number": 227,
-      "Hindi": "शहर",
+      "Italian": "città",
       "in English": "city"
     },
     {
       "Number": 228,
-      "Hindi": "पेड़",
+      "Italian": "albero",
       "in English": "tree"
     },
     {
       "Number": 229,
-      "Hindi": "पार",
+      "Italian": "attraversare",
       "in English": "cross"
     },
     {
       "Number": 230,
-      "Hindi": "खेत",
+      "Italian": "fattoria",
       "in English": "farm"
     },
     {
       "Number": 231,
-      "Hindi": "कठिन",
+      "Italian": "difficile",
       "in English": "hard"
     },
     {
       "Number": 232,
-      "Hindi": "शुरुआत",
+      "Italian": "inizio",
       "in English": "start"
     },
     {
       "Number": 233,
-      "Hindi": "हो सकता है",
+      "Italian": "forza",
       "in English": "might"
     },
     {
       "Number": 234,
-      "Hindi": "कहानी",
+      "Italian": "storia",
       "in English": "story"
     },
     {
       "Number": 235,
-      "Hindi": "देखा",
+      "Italian": "sega",
       "in English": "saw"
     },
     {
       "Number": 236,
-      "Hindi": "दूर",
+      "Italian": "lontano",
       "in English": "far"
     },
     {
       "Number": 237,
-      "Hindi": "समुद्र",
+      "Italian": "mare",
       "in English": "sea"
     },
     {
       "Number": 238,
-      "Hindi": "आकर्षित",
+      "Italian": "disegnare",
       "in English": "draw"
     },
     {
       "Number": 239,
-      "Hindi": "छोड़ा",
+      "Italian": "sinistra",
       "in English": "left"
     },
     {
       "Number": 240,
-      "Hindi": "देर से",
+      "Italian": "tardi",
       "in English": "late"
     },
     {
       "Number": 241,
-      "Hindi": "चलाने",
+      "Italian": "run",
       "in English": "run"
     },
     {
       "Number": 242,
-      "Hindi": "ऐसा नहीं",
+      "Italian": "non",
       "in English": "don’t"
     },
     {
       "Number": 243,
-      "Hindi": "जबकि",
+      "Italian": "mentre",
       "in English": "while"
     },
     {
       "Number": 244,
-      "Hindi": "प्रेस",
+      "Italian": "stampa",
       "in English": "press"
     },
     {
       "Number": 245,
-      "Hindi": "करीब",
+      "Italian": "close",
       "in English": "close"
     },
     {
       "Number": 246,
-      "Hindi": "रात",
+      "Italian": "notte",
       "in English": "night"
     },
     {
       "Number": 247,
-      "Hindi": "असली",
+      "Italian": "reale",
       "in English": "real"
     },
     {
       "Number": 248,
-      "Hindi": "जीवन",
+      "Italian": "vita",
       "in English": "life"
     },
     {
       "Number": 249,
-      "Hindi": "कुछ",
+      "Italian": "pochi",
       "in English": "few"
     },
     {
       "Number": 250,
-      "Hindi": "उत्तर",
+      "Italian": "nord",
       "in English": "north"
     },
     {
       "Number": 251,
-      "Hindi": "किताब",
+      "Italian": "libro",
       "in English": "book"
     },
     {
       "Number": 252,
-      "Hindi": "ले",
+      "Italian": "portare",
       "in English": "carry"
     },
     {
       "Number": 253,
-      "Hindi": "ले लिया",
+      "Italian": "ha preso",
       "in English": "took"
     },
     {
       "Number": 254,
-      "Hindi": "विज्ञान",
+      "Italian": "scienza",
       "in English": "science"
     },
     {
       "Number": 255,
-      "Hindi": "खाने",
+      "Italian": "mangiare",
       "in English": "eat"
     },
     {
       "Number": 256,
-      "Hindi": "कमरे",
+      "Italian": "camera",
       "in English": "room"
     },
     {
       "Number": 257,
-      "Hindi": "दोस्त",
+      "Italian": "amico",
       "in English": "friend"
     },
     {
       "Number": 258,
-      "Hindi": "शुरू हुआ",
+      "Italian": "ha iniziato",
       "in English": "began"
     },
     {
       "Number": 259,
-      "Hindi": "विचार",
+      "Italian": "idea",
       "in English": "idea"
     },
     {
       "Number": 260,
-      "Hindi": "मछली",
+      "Italian": "pesce",
       "in English": "fish"
     },
     {
       "Number": 261,
-      "Hindi": "पहाड़",
+      "Italian": "montagna",
       "in English": "mountain"
     },
     {
       "Number": 262,
-      "Hindi": "रोक",
+      "Italian": "stop",
       "in English": "stop"
     },
     {
       "Number": 263,
-      "Hindi": "एक बार",
+      "Italian": "una volta",
       "in English": "once"
     },
     {
       "Number": 264,
-      "Hindi": "आधार",
+      "Italian": "base",
       "in English": "base"
     },
     {
       "Number": 265,
-      "Hindi": "सुनना",
+      "Italian": "sentire",
       "in English": "hear"
     },
     {
       "Number": 266,
-      "Hindi": "घोड़ा",
+      "Italian": "cavallo",
       "in English": "horse"
     },
     {
       "Number": 267,
-      "Hindi": "कटौती",
+      "Italian": "taglio",
       "in English": "cut"
     },
     {
       "Number": 268,
-      "Hindi": "यकीन",
+      "Italian": "sicuro",
       "in English": "sure"
     },
     {
       "Number": 269,
-      "Hindi": "घड़ी",
+      "Italian": "orologio",
       "in English": "watch"
     },
     {
       "Number": 270,
-      "Hindi": "रंग",
+      "Italian": "colore",
       "in English": "color"
     },
     {
       "Number": 271,
-      "Hindi": "चेहरा",
+      "Italian": "volto",
       "in English": "face"
     },
     {
       "Number": 272,
-      "Hindi": "लकड़ी",
+      "Italian": "legno",
       "in English": "wood"
     },
     {
       "Number": 273,
-      "Hindi": "मुख्य",
+      "Italian": "principale",
       "in English": "main"
     },
     {
       "Number": 274,
-      "Hindi": "खुला",
+      "Italian": "aperto",
       "in English": "open"
     },
     {
       "Number": 275,
-      "Hindi": "प्रतीत",
+      "Italian": "sembrare",
       "in English": "seem"
     },
     {
       "Number": 276,
-      "Hindi": "एक साथ",
+      "Italian": "insieme",
       "in English": "together"
     },
     {
       "Number": 277,
-      "Hindi": "अगला",
+      "Italian": "prossimo",
       "in English": "next"
     },
     {
       "Number": 278,
-      "Hindi": "सफेद",
+      "Italian": "bianco",
       "in English": "white"
     },
     {
       "Number": 279,
-      "Hindi": "बच्चों",
+      "Italian": "bambini",
       "in English": "children"
     },
     {
       "Number": 280,
-      "Hindi": "प्रारंभ करना",
+      "Italian": "inizio",
       "in English": "begin"
     },
     {
       "Number": 281,
-      "Hindi": "मिला",
+      "Italian": "ottenuto",
       "in English": "got"
     },
     {
       "Number": 282,
-      "Hindi": "चलना",
+      "Italian": "camminare",
       "in English": "walk"
     },
     {
       "Number": 283,
-      "Hindi": "उदाहरण",
+      "Italian": "esempio",
       "in English": "example"
     },
     {
       "Number": 284,
-      "Hindi": "आसानी",
+      "Italian": "alleviare",
       "in English": "ease"
     },
     {
       "Number": 285,
-      "Hindi": "कागज",
+      "Italian": "carta",
       "in English": "paper"
     },
     {
       "Number": 286,
-      "Hindi": "समूह",
+      "Italian": "gruppo",
       "in English": "group"
     },
     {
       "Number": 287,
-      "Hindi": "सदैव",
+      "Italian": "sempre",
       "in English": "always"
     },
     {
       "Number": 288,
-      "Hindi": "संगीत",
+      "Italian": "musica",
       "in English": "music"
     },
     {
       "Number": 289,
-      "Hindi": "उन",
+      "Italian": "quelli",
       "in English": "those"
     },
     {
       "Number": 290,
-      "Hindi": "दोनों",
+      "Italian": "entrambi",
       "in English": "both"
     },
     {
       "Number": 291,
-      "Hindi": "मार्क",
+      "Italian": "marchio",
       "in English": "mark"
     },
     {
       "Number": 292,
-      "Hindi": "अक्सर",
+      "Italian": "spesso",
       "in English": "often"
     },
     {
       "Number": 293,
-      "Hindi": "पत्र",
+      "Italian": "lettera",
       "in English": "letter"
     },
     {
       "Number": 294,
-      "Hindi": "जब तक",
+      "Italian": "fino a quando",
       "in English": "until"
     },
     {
       "Number": 295,
-      "Hindi": "मील",
+      "Italian": "miglio",
       "in English": "mile"
     },
     {
       "Number": 296,
-      "Hindi": "नदी",
+      "Italian": "fiume",
       "in English": "river"
     },
     {
       "Number": 297,
-      "Hindi": "कार",
+      "Italian": "auto",
       "in English": "car"
     },
     {
       "Number": 298,
-      "Hindi": "पैर",
+      "Italian": "piedi",
       "in English": "feet"
     },
     {
       "Number": 299,
-      "Hindi": "देखभाल",
+      "Italian": "cura",
       "in English": "care"
     },
     {
       "Number": 300,
-      "Hindi": "दूसरा",
+      "Italian": "secondo",
       "in English": "second"
     },
     {
       "Number": 301,
-      "Hindi": "पर्याप्त",
+      "Italian": "abbastanza",
       "in English": "enough"
     },
     {
       "Number": 302,
-      "Hindi": "सादे",
+      "Italian": "pianura",
       "in English": "plain"
     },
     {
       "Number": 303,
-      "Hindi": "लड़की",
+      "Italian": "ragazza",
       "in English": "girl"
     },
     {
       "Number": 304,
-      "Hindi": "हमेशा की तरह",
+      "Italian": "solito",
       "in English": "usual"
     },
     {
       "Number": 305,
-      "Hindi": "युवा",
+      "Italian": "giovane",
       "in English": "young"
     },
     {
       "Number": 306,
-      "Hindi": "तैयार",
+      "Italian": "pronto",
       "in English": "ready"
     },
     {
       "Number": 307,
-      "Hindi": "ऊपर",
+      "Italian": "sopra",
       "in English": "above"
     },
     {
       "Number": 308,
-      "Hindi": "कभी",
+      "Italian": "mai",
       "in English": "ever"
     },
     {
       "Number": 309,
-      "Hindi": "लाल",
+      "Italian": "rosso",
       "in English": "red"
     },
     {
       "Number": 310,
-      "Hindi": "सूची",
+      "Italian": "elenco",
       "in English": "list"
     },
     {
       "Number": 311,
-      "Hindi": "हालांकि",
+      "Italian": "anche se",
       "in English": "though"
     },
     {
       "Number": 312,
-      "Hindi": "लग रहा है",
+      "Italian": "sentire",
       "in English": "feel"
     },
     {
       "Number": 313,
-      "Hindi": "वार्ता",
+      "Italian": "Discussioni",
       "in English": "talk"
     },
     {
       "Number": 314,
-      "Hindi": "पक्षी",
+      "Italian": "uccello",
       "in English": "bird"
     },
     {
       "Number": 315,
-      "Hindi": "शीघ्र",
+      "Italian": "presto",
       "in English": "soon"
     },
     {
       "Number": 316,
-      "Hindi": "शरीर",
+      "Italian": "corpo",
       "in English": "body"
     },
     {
       "Number": 317,
-      "Hindi": "कुत्ते",
+      "Italian": "cane",
       "in English": "dog"
     },
     {
       "Number": 318,
-      "Hindi": "परिवार",
+      "Italian": "famiglia",
       "in English": "family"
     },
     {
       "Number": 319,
-      "Hindi": "प्रत्यक्ष",
+      "Italian": "diretto",
       "in English": "direct"
     },
     {
       "Number": 320,
-      "Hindi": "ढोंग",
+      "Italian": "posa",
       "in English": "pose"
     },
     {
       "Number": 321,
-      "Hindi": "छोड़",
+      "Italian": "lasciare",
       "in English": "leave"
     },
     {
       "Number": 322,
-      "Hindi": "गीत",
+      "Italian": "canzone",
       "in English": "song"
     },
     {
       "Number": 323,
-      "Hindi": "नाप",
+      "Italian": "misurare",
       "in English": "measure"
     },
     {
       "Number": 324,
-      "Hindi": "दरवाजा",
+      "Italian": "porta",
       "in English": "door"
     },
     {
       "Number": 325,
-      "Hindi": "उत्पाद",
+      "Italian": "prodotto",
       "in English": "product"
     },
     {
       "Number": 326,
-      "Hindi": "काला",
+      "Italian": "nero",
       "in English": "black"
     },
     {
       "Number": 327,
-      "Hindi": "कम",
+      "Italian": "breve",
       "in English": "short"
     },
     {
       "Number": 328,
-      "Hindi": "अंक",
+      "Italian": "numerale",
       "in English": "numeral"
     },
     {
       "Number": 329,
-      "Hindi": "क्लास",
+      "Italian": "classe",
       "in English": "class"
     },
     {
       "Number": 330,
-      "Hindi": "हवा",
+      "Italian": "vento",
       "in English": "wind"
     },
     {
       "Number": 331,
-      "Hindi": "सवाल",
+      "Italian": "domanda",
       "in English": "question"
     },
     {
       "Number": 332,
-      "Hindi": "होना",
+      "Italian": "accadere",
       "in English": "happen"
     },
     {
       "Number": 333,
-      "Hindi": "पूरा",
+      "Italian": "integrale",
       "in English": "complete"
     },
     {
       "Number": 334,
-      "Hindi": "जहाज",
+      "Italian": "nave",
       "in English": "ship"
     },
     {
       "Number": 335,
-      "Hindi": "क्षेत्र",
+      "Italian": "area",
       "in English": "area"
     },
     {
       "Number": 336,
-      "Hindi": "आधा",
+      "Italian": "metà",
       "in English": "half"
     },
     {
       "Number": 337,
-      "Hindi": "रॉक",
+      "Italian": "rock",
       "in English": "rock"
     },
     {
       "Number": 338,
-      "Hindi": "आदेश",
+      "Italian": "ordine",
       "in English": "order"
     },
     {
       "Number": 339,
-      "Hindi": "आग",
+      "Italian": "fuoco",
       "in English": "fire"
     },
     {
       "Number": 340,
-      "Hindi": "दक्षिण",
+      "Italian": "sud",
       "in English": "south"
     },
     {
       "Number": 341,
-      "Hindi": "समस्या",
+      "Italian": "problema",
       "in English": "problem"
     },
     {
       "Number": 342,
-      "Hindi": "टुकड़ा",
+      "Italian": "pezzo",
       "in English": "piece"
     },
     {
       "Number": 343,
-      "Hindi": "बताया",
+      "Italian": "ha detto",
       "in English": "told"
     },
     {
       "Number": 344,
-      "Hindi": "पता था",
+      "Italian": "sapeva",
       "in English": "knew"
     },
     {
       "Number": 345,
-      "Hindi": "पास",
+      "Italian": "passare",
       "in English": "pass"
     },
     {
       "Number": 346,
-      "Hindi": "के बाद से",
+      "Italian": "da",
       "in English": "since"
     },
     {
       "Number": 347,
-      "Hindi": "शीर्ष",
+      "Italian": "top",
       "in English": "top"
     },
     {
       "Number": 348,
-      "Hindi": "पूरे",
+      "Italian": "tutto",
       "in English": "whole"
     },
     {
       "Number": 349,
-      "Hindi": "राजा",
+      "Italian": "re",
       "in English": "king"
     },
     {
       "Number": 350,
-      "Hindi": "सड़क",
+      "Italian": "strada",
       "in English": "street"
     },
     {
       "Number": 351,
-      "Hindi": "इंच",
+      "Italian": "pollice",
       "in English": "inch"
     },
     {
       "Number": 352,
-      "Hindi": "गुणा",
+      "Italian": "moltiplicare",
       "in English": "multiply"
     },
     {
       "Number": 353,
-      "Hindi": "कुछ नहीं",
+      "Italian": "niente",
       "in English": "nothing"
     },
     {
       "Number": 354,
-      "Hindi": "कोर्स",
+      "Italian": "corso",
       "in English": "course"
     },
     {
       "Number": 355,
-      "Hindi": "रहना",
+      "Italian": "soggiornare",
       "in English": "stay"
     },
     {
       "Number": 356,
-      "Hindi": "पहिया",
+      "Italian": "ruota",
       "in English": "wheel"
     },
     {
       "Number": 357,
-      "Hindi": "पूर्ण",
+      "Italian": "completo",
       "in English": "full"
     },
     {
       "Number": 358,
-      "Hindi": "बल",
+      "Italian": "vigore",
       "in English": "force"
     },
     {
       "Number": 359,
-      "Hindi": "नीला",
+      "Italian": "blu",
       "in English": "blue"
     },
     {
       "Number": 360,
-      "Hindi": "वस्तु",
+      "Italian": "oggetto",
       "in English": "object"
     },
     {
       "Number": 361,
-      "Hindi": "तय",
+      "Italian": "decidere",
       "in English": "decide"
     },
     {
       "Number": 362,
-      "Hindi": "सतह",
+      "Italian": "superficie",
       "in English": "surface"
     },
     {
       "Number": 363,
-      "Hindi": "गहरा",
+      "Italian": "profondità",
       "in English": "deep"
     },
     {
       "Number": 364,
-      "Hindi": "चांद",
+      "Italian": "luna",
       "in English": "moon"
     },
     {
       "Number": 365,
-      "Hindi": "द्वीप",
+      "Italian": "isola",
       "in English": "island"
     },
     {
       "Number": 366,
-      "Hindi": "पैर",
+      "Italian": "piede",
       "in English": "foot"
     },
     {
       "Number": 367,
-      "Hindi": "प्रणाली",
+      "Italian": "sistema",
       "in English": "system"
     },
     {
       "Number": 368,
-      "Hindi": "व्यस्त",
+      "Italian": "occupato",
       "in English": "busy"
     },
     {
       "Number": 369,
-      "Hindi": "परीक्षण",
+      "Italian": "test",
       "in English": "test"
     },
     {
       "Number": 370,
-      "Hindi": "रिकॉर्ड",
+      "Italian": "record",
       "in English": "record"
     },
     {
       "Number": 371,
-      "Hindi": "नाव",
+      "Italian": "barca",
       "in English": "boat"
     },
     {
       "Number": 372,
-      "Hindi": "आम",
+      "Italian": "comune",
       "in English": "common"
     },
     {
       "Number": 373,
-      "Hindi": "सोना",
+      "Italian": "oro",
       "in English": "gold"
     },
     {
       "Number": 374,
-      "Hindi": "संभव",
+      "Italian": "possibile",
       "in English": "possible"
     },
     {
       "Number": 375,
-      "Hindi": "विमान",
+      "Italian": "piano",
       "in English": "plane"
     },
     {
       "Number": 376,
-      "Hindi": "जगह",
+      "Italian": "vece",
       "in English": "stead"
     },
     {
       "Number": 377,
-      "Hindi": "सूखा",
+      "Italian": "asciutto",
       "in English": "dry"
     },
     {
       "Number": 378,
-      "Hindi": "आश्चर्य",
+      "Italian": "meraviglia",
       "in English": "wonder"
     },
     {
       "Number": 379,
-      "Hindi": "हंसी",
+      "Italian": "ridere",
       "in English": "laugh"
     },
     {
       "Number": 380,
-      "Hindi": "हजार",
+      "Italian": "migliaia",
       "in English": "thousand"
     },
     {
       "Number": 381,
-      "Hindi": "पहले",
+      "Italian": "fa",
       "in English": "ago"
     },
     {
       "Number": 382,
-      "Hindi": "भागा",
+      "Italian": "corse",
       "in English": "ran"
     },
     {
       "Number": 383,
-      "Hindi": "जाँच",
+      "Italian": "controllare",
       "in English": "check"
     },
     {
       "Number": 384,
-      "Hindi": "खेल",
+      "Italian": "gioco",
       "in English": "game"
     },
     {
       "Number": 385,
-      "Hindi": "आकार",
+      "Italian": "forma",
       "in English": "shape"
     },
     {
       "Number": 386,
-      "Hindi": "समानता",
+      "Italian": "uguagliare",
       "in English": "equate"
     },
     {
       "Number": 387,
-      "Hindi": "गरम",
+      "Italian": "caldo",
       "in English": "hot"
     },
     {
       "Number": 388,
-      "Hindi": "मिस",
+      "Italian": "perdere",
       "in English": "miss"
     },
     {
       "Number": 389,
-      "Hindi": "लाया",
+      "Italian": "portato",
       "in English": "brought"
     },
     {
       "Number": 390,
-      "Hindi": "गर्मी",
+      "Italian": "calore",
       "in English": "heat"
     },
     {
       "Number": 391,
-      "Hindi": "बर्फ",
+      "Italian": "neve",
       "in English": "snow"
     },
     {
       "Number": 392,
-      "Hindi": "टायर",
+      "Italian": "pneumatico",
       "in English": "tire"
     },
     {
       "Number": 393,
-      "Hindi": "लाना",
+      "Italian": "portare",
       "in English": "bring"
     },
     {
       "Number": 394,
-      "Hindi": "हां",
+      "Italian": "sì",
       "in English": "yes"
     },
     {
       "Number": 395,
-      "Hindi": "दूर",
+      "Italian": "lontano",
       "in English": "distant"
     },
     {
       "Number": 396,
-      "Hindi": "भरने",
+      "Italian": "riempire",
       "in English": "fill"
     },
     {
       "Number": 397,
-      "Hindi": "पूर्व",
+      "Italian": "est",
       "in English": "east"
     },
     {
       "Number": 398,
-      "Hindi": "रंग",
+      "Italian": "dipingere",
       "in English": "paint"
     },
     {
       "Number": 399,
-      "Hindi": "भाषा",
+      "Italian": "lingua",
       "in English": "language"
     },
     {
       "Number": 400,
-      "Hindi": "के बीच",
+      "Italian": "tra",
       "in English": "among"
     },
     {
       "Number": 401,
-      "Hindi": "इकाई",
+      "Italian": "unità",
       "in English": "unit"
     },
     {
       "Number": 402,
-      "Hindi": "बिजली",
+      "Italian": "potenza",
       "in English": "power"
     },
     {
       "Number": 403,
-      "Hindi": "शहर",
+      "Italian": "città",
       "in English": "town"
     },
     {
       "Number": 404,
-      "Hindi": "ठीक",
+      "Italian": "fine",
       "in English": "fine"
     },
     {
       "Number": 405,
-      "Hindi": "कुछ",
+      "Italian": "certo",
       "in English": "certain"
     },
     {
       "Number": 406,
-      "Hindi": "मक्खी",
+      "Italian": "volare",
       "in English": "fly"
     },
     {
       "Number": 407,
-      "Hindi": "गिरावट",
+      "Italian": "cadere",
       "in English": "fall"
     },
     {
       "Number": 408,
-      "Hindi": "नेतृत्व",
+      "Italian": "portare",
       "in English": "lead"
     },
     {
       "Number": 409,
-      "Hindi": "रोना",
+      "Italian": "grido",
       "in English": "cry"
     },
     {
       "Number": 410,
-      "Hindi": "अंधेरा",
+      "Italian": "scuro",
       "in English": "dark"
     },
     {
       "Number": 411,
-      "Hindi": "मशीन",
+      "Italian": "macchina",
       "in English": "machine"
     },
     {
       "Number": 412,
-      "Hindi": "नोट",
+      "Italian": "nota",
       "in English": "note"
     },
     {
       "Number": 413,
-      "Hindi": "इंतजार",
+      "Italian": "aspettare",
       "in English": "wait"
     },
     {
       "Number": 414,
-      "Hindi": "योजना",
+      "Italian": "piano",
       "in English": "plan"
     },
     {
       "Number": 415,
-      "Hindi": "आंकड़ा",
+      "Italian": "figura",
       "in English": "figure"
     },
     {
       "Number": 416,
-      "Hindi": "सितारा",
+      "Italian": "stella",
       "in English": "star"
     },
     {
       "Number": 417,
-      "Hindi": "बॉक्स",
+      "Italian": "scatola",
       "in English": "box"
     },
     {
       "Number": 418,
-      "Hindi": "संज्ञा",
+      "Italian": "sostantivo",
       "in English": "noun"
     },
     {
       "Number": 419,
-      "Hindi": "क्षेत्र",
+      "Italian": "campo",
       "in English": "field"
     },
     {
       "Number": 420,
-      "Hindi": "बाकी",
+      "Italian": "resto",
       "in English": "rest"
     },
     {
       "Number": 421,
-      "Hindi": "सही",
+      "Italian": "corretto",
       "in English": "correct"
     },
     {
       "Number": 422,
-      "Hindi": "सक्षम",
+      "Italian": "in grado di",
       "in English": "able"
     },
     {
       "Number": 423,
-      "Hindi": "पाउंड",
+      "Italian": "libbra",
       "in English": "pound"
     },
     {
       "Number": 424,
-      "Hindi": "किया",
+      "Italian": "done",
       "in English": "done"
     },
     {
       "Number": 425,
-      "Hindi": "सुंदरता",
+      "Italian": "bellezza",
       "in English": "beauty"
     },
     {
       "Number": 426,
-      "Hindi": "ड्राइव",
+      "Italian": "unità",
       "in English": "drive"
     },
     {
       "Number": 427,
-      "Hindi": "खड़ा हुआ",
+      "Italian": "sorgeva",
       "in English": "stood"
     },
     {
       "Number": 428,
-      "Hindi": "होते हैं",
+      "Italian": "contenere",
       "in English": "contain"
     },
     {
       "Number": 429,
-      "Hindi": "सामने",
+      "Italian": "frontale",
       "in English": "front"
     },
     {
       "Number": 430,
-      "Hindi": "सिखाना",
+      "Italian": "insegnare",
       "in English": "teach"
     },
     {
       "Number": 431,
-      "Hindi": "सप्ताह",
+      "Italian": "settimana",
       "in English": "week"
     },
     {
       "Number": 432,
-      "Hindi": "अंतिम",
+      "Italian": "finale",
       "in English": "final"
     },
     {
       "Number": 433,
-      "Hindi": "दिया",
+      "Italian": "ha dato",
       "in English": "gave"
     },
     {
       "Number": 434,
-      "Hindi": "हरे रंग",
+      "Italian": "verde",
       "in English": "green"
     },
     {
       "Number": 435,
-      "Hindi": "ओह",
+      "Italian": "oh",
       "in English": "oh"
     },
     {
       "Number": 436,
-      "Hindi": "त्वरित",
+      "Italian": "veloce",
       "in English": "quick"
     },
     {
       "Number": 437,
-      "Hindi": "विकसित",
+      "Italian": "sviluppare",
       "in English": "develop"
     },
     {
       "Number": 438,
-      "Hindi": "सागर",
+      "Italian": "oceano",
       "in English": "ocean"
     },
     {
       "Number": 439,
-      "Hindi": "गर्म",
+      "Italian": "caldo",
       "in English": "warm"
     },
     {
       "Number": 440,
-      "Hindi": "मुक्त",
+      "Italian": "gratuito",
       "in English": "free"
     },
     {
       "Number": 441,
-      "Hindi": "मिनट",
+      "Italian": "minuto",
       "in English": "minute"
     },
     {
       "Number": 442,
-      "Hindi": "मजबूत",
+      "Italian": "forte",
       "in English": "strong"
     },
     {
       "Number": 443,
-      "Hindi": "विशेष",
+      "Italian": "speciale",
       "in English": "special"
     },
     {
       "Number": 444,
-      "Hindi": "मन",
+      "Italian": "mente",
       "in English": "mind"
     },
     {
       "Number": 445,
-      "Hindi": "पीछे",
+      "Italian": "dietro",
       "in English": "behind"
     },
     {
       "Number": 446,
-      "Hindi": "स्पष्ट",
+      "Italian": "chiaro",
       "in English": "clear"
     },
     {
       "Number": 447,
-      "Hindi": "पूंछ",
+      "Italian": "coda",
       "in English": "tail"
     },
     {
       "Number": 448,
-      "Hindi": "उत्पादन",
+      "Italian": "produrre",
       "in English": "produce"
     },
     {
       "Number": 449,
-      "Hindi": "तथ्य",
+      "Italian": "fatto",
       "in English": "fact"
     },
     {
       "Number": 450,
-      "Hindi": "अंतरिक्ष",
+      "Italian": "spazio",
       "in English": "space"
     },
     {
       "Number": 451,
-      "Hindi": "सुना",
+      "Italian": "sentito",
       "in English": "heard"
     },
     {
       "Number": 452,
-      "Hindi": "सर्वश्रेष्ठ",
+      "Italian": "migliore",
       "in English": "best"
     },
     {
       "Number": 453,
-      "Hindi": "घंटे",
+      "Italian": "ora",
       "in English": "hour"
     },
     {
       "Number": 454,
-      "Hindi": "बेहतर",
+      "Italian": "meglio",
       "in English": "better"
     },
     {
       "Number": 455,
-      "Hindi": "सच",
+      "Italian": "vero",
       "in English": "true"
     },
     {
       "Number": 456,
-      "Hindi": "दौरान",
+      "Italian": "durante",
       "in English": "during"
     },
     {
       "Number": 457,
-      "Hindi": "सौ",
+      "Italian": "cento",
       "in English": "hundred"
     },
     {
       "Number": 458,
-      "Hindi": "पांच",
+      "Italian": "cinque",
       "in English": "five"
     },
     {
       "Number": 459,
-      "Hindi": "याद",
+      "Italian": "ricordare",
       "in English": "remember"
     },
     {
       "Number": 460,
-      "Hindi": "कदम",
+      "Italian": "passo",
       "in English": "step"
     },
     {
       "Number": 461,
-      "Hindi": "शीघ्र",
+      "Italian": "presto",
       "in English": "early"
     },
     {
       "Number": 462,
-      "Hindi": "पकड़",
+      "Italian": "tenere",
       "in English": "hold"
     },
     {
       "Number": 463,
-      "Hindi": "पश्चिम",
+      "Italian": "ovest",
       "in English": "west"
     },
     {
       "Number": 464,
-      "Hindi": "जमीन",
+      "Italian": "terra",
       "in English": "ground"
     },
     {
       "Number": 465,
-      "Hindi": "ब्याज",
+      "Italian": "interesse",
       "in English": "interest"
     },
     {
       "Number": 466,
-      "Hindi": "तक पहुँचने",
+      "Italian": "raggiungere",
       "in English": "reach"
     },
     {
       "Number": 467,
-      "Hindi": "तेजी",
+      "Italian": "veloce",
       "in English": "fast"
     },
     {
       "Number": 468,
-      "Hindi": "क्रिया",
+      "Italian": "verbo",
       "in English": "verb"
     },
     {
       "Number": 469,
-      "Hindi": "गाना",
+      "Italian": "cantare",
       "in English": "sing"
     },
     {
       "Number": 470,
-      "Hindi": "सुनो",
+      "Italian": "ascoltare",
       "in English": "listen"
     },
     {
       "Number": 471,
-      "Hindi": "छह",
+      "Italian": "sei",
       "in English": "six"
     },
     {
       "Number": 472,
-      "Hindi": "तालिका",
+      "Italian": "tavolo",
       "in English": "table"
     },
     {
       "Number": 473,
-      "Hindi": "यात्रा",
+      "Italian": "viaggi",
       "in English": "travel"
     },
     {
       "Number": 474,
-      "Hindi": "कम",
+      "Italian": "meno",
       "in English": "less"
     },
     {
       "Number": 475,
-      "Hindi": "सुबह",
+      "Italian": "mattina",
       "in English": "morning"
     },
     {
       "Number": 476,
-      "Hindi": "दस",
+      "Italian": "dieci",
       "in English": "ten"
     },
     {
       "Number": 477,
-      "Hindi": "सरल",
+      "Italian": "semplice",
       "in English": "simple"
     },
     {
       "Number": 478,
-      "Hindi": "कई",
+      "Italian": "alcuni",
       "in English": "several"
     },
     {
       "Number": 479,
-      "Hindi": "स्वर",
+      "Italian": "vocale",
       "in English": "vowel"
     },
     {
       "Number": 480,
-      "Hindi": "की ओर",
+      "Italian": "verso",
       "in English": "toward"
     },
     {
       "Number": 481,
-      "Hindi": "युद्ध",
+      "Italian": "guerra",
       "in English": "war"
     },
     {
       "Number": 482,
-      "Hindi": "रखना",
+      "Italian": "porre",
       "in English": "lay"
     },
     {
       "Number": 483,
-      "Hindi": "के खिलाफ",
+      "Italian": "contro",
       "in English": "against"
     },
     {
       "Number": 484,
-      "Hindi": "पैटर्न",
+      "Italian": "modello",
       "in English": "pattern"
     },
     {
       "Number": 485,
-      "Hindi": "धीमी",
+      "Italian": "lento",
       "in English": "slow"
     },
     {
       "Number": 486,
-      "Hindi": "केंद्र",
+      "Italian": "centro",
       "in English": "center"
     },
     {
       "Number": 487,
-      "Hindi": "प्यार",
+      "Italian": "amore",
       "in English": "love"
     },
     {
       "Number": 488,
-      "Hindi": "व्यक्ति",
+      "Italian": "persona",
       "in English": "person"
     },
     {
       "Number": 489,
-      "Hindi": "धन",
+      "Italian": "soldi",
       "in English": "money"
     },
     {
       "Number": 490,
-      "Hindi": "सेवा कर",
+      "Italian": "servire",
       "in English": "serve"
     },
     {
       "Number": 491,
-      "Hindi": "प्रकट",
+      "Italian": "apparire",
       "in English": "appear"
     },
     {
       "Number": 492,
-      "Hindi": "सड़क",
+      "Italian": "strada",
       "in English": "road"
     },
     {
       "Number": 493,
-      "Hindi": "नक्शा",
+      "Italian": "mappa",
       "in English": "map"
     },
     {
       "Number": 494,
-      "Hindi": "बारिश",
+      "Italian": "pioggia",
       "in English": "rain"
     },
     {
       "Number": 495,
-      "Hindi": "नियम",
+      "Italian": "regola",
       "in English": "rule"
     },
     {
       "Number": 496,
-      "Hindi": "शासन",
+      "Italian": "governare",
       "in English": "govern"
     },
     {
       "Number": 497,
-      "Hindi": "खींच",
+      "Italian": "tirare",
       "in English": "pull"
     },
     {
       "Number": 498,
-      "Hindi": "ठंड",
+      "Italian": "freddo",
       "in English": "cold"
     },
     {
       "Number": 499,
-      "Hindi": "नोटिस",
+      "Italian": "avviso",
       "in English": "notice"
     },
     {
       "Number": 500,
-      "Hindi": "आवाज",
+      "Italian": "voce",
       "in English": "voice"
     },
     {
       "Number": 501,
-      "Hindi": "ऊर्जा",
+      "Italian": "energia",
       "in English": "energy"
     },
     {
       "Number": 502,
-      "Hindi": "शिकार",
+      "Italian": "caccia",
       "in English": "hunt"
     },
     {
       "Number": 503,
-      "Hindi": "संभावित",
+      "Italian": "probabile",
       "in English": "probable"
     },
     {
       "Number": 504,
-      "Hindi": "बिस्तर",
+      "Italian": "letto",
       "in English": "bed"
     },
     {
       "Number": 505,
-      "Hindi": "भाई",
+      "Italian": "fratello",
       "in English": "brother"
     },
     {
       "Number": 506,
-      "Hindi": "अंडा",
+      "Italian": "uovo",
       "in English": "egg"
     },
     {
       "Number": 507,
-      "Hindi": "सवारी",
+      "Italian": "giro",
       "in English": "ride"
     },
     {
       "Number": 508,
-      "Hindi": "सेल",
+      "Italian": "cella",
       "in English": "cell"
     },
     {
       "Number": 509,
-      "Hindi": "विश्वास है",
+      "Italian": "credere",
       "in English": "believe"
     },
     {
       "Number": 510,
-      "Hindi": "शायद",
+      "Italian": "forse",
       "in English": "perhaps"
     },
     {
       "Number": 511,
-      "Hindi": "उठाओ",
+      "Italian": "scegliere",
       "in English": "pick"
     },
     {
       "Number": 512,
-      "Hindi": "अचानक",
+      "Italian": "improvviso",
       "in English": "sudden"
     },
     {
       "Number": 513,
-      "Hindi": "गिनती",
+      "Italian": "contare",
       "in English": "count"
     },
     {
       "Number": 514,
-      "Hindi": "वर्ग",
+      "Italian": "piazza",
       "in English": "square"
     },
     {
       "Number": 515,
-      "Hindi": "कारण",
+      "Italian": "motivo",
       "in English": "reason"
     },
     {
       "Number": 516,
-      "Hindi": "लंबाई",
+      "Italian": "lunghezza",
       "in English": "length"
     },
     {
       "Number": 517,
-      "Hindi": "का प्रतिनिधित्व",
+      "Italian": "rappresentare",
       "in English": "represent"
     },
     {
       "Number": 518,
-      "Hindi": "कला",
+      "Italian": "arte",
       "in English": "art"
     },
     {
       "Number": 519,
-      "Hindi": "विषय",
+      "Italian": "soggetto",
       "in English": "subject"
     },
     {
       "Number": 520,
-      "Hindi": "क्षेत्र",
+      "Italian": "regione",
       "in English": "region"
     },
     {
       "Number": 521,
-      "Hindi": "आकार",
+      "Italian": "dimensione",
       "in English": "size"
     },
     {
       "Number": 522,
-      "Hindi": "भिन्न हो",
+      "Italian": "variare",
       "in English": "vary"
     },
     {
       "Number": 523,
-      "Hindi": "बसा",
+      "Italian": "risolvere",
       "in English": "settle"
     },
     {
       "Number": 524,
-      "Hindi": "बोलना",
+      "Italian": "parlare",
       "in English": "speak"
     },
     {
       "Number": 525,
-      "Hindi": "वजन",
+      "Italian": "peso",
       "in English": "weight"
     },
     {
       "Number": 526,
-      "Hindi": "सामान्य",
+      "Italian": "generale",
       "in English": "general"
     },
     {
       "Number": 527,
-      "Hindi": "बर्फ",
+      "Italian": "ghiaccio",
       "in English": "ice"
     },
     {
       "Number": 528,
-      "Hindi": "मामला",
+      "Italian": "materia",
       "in English": "matter"
     },
     {
       "Number": 529,
-      "Hindi": "वृत्त",
+      "Italian": "cerchio",
       "in English": "circle"
     },
     {
       "Number": 530,
-      "Hindi": "जोड़ी",
+      "Italian": "coppia",
       "in English": "pair"
     },
     {
       "Number": 531,
-      "Hindi": "शामिल",
+      "Italian": "includere",
       "in English": "include"
     },
     {
       "Number": 532,
-      "Hindi": "विभाजन",
+      "Italian": "divide",
       "in English": "divide"
     },
     {
       "Number": 533,
-      "Hindi": "शब्दांश",
+      "Italian": "sillaba",
       "in English": "syllable"
     },
     {
       "Number": 534,
-      "Hindi": "लगा",
+      "Italian": "feltro",
       "in English": "felt"
     },
     {
       "Number": 535,
-      "Hindi": "भव्य",
+      "Italian": "grande",
       "in English": "grand"
     },
     {
       "Number": 536,
-      "Hindi": "गेंद",
+      "Italian": "palla",
       "in English": "ball"
     },
     {
       "Number": 537,
-      "Hindi": "अभी तक",
+      "Italian": "ancora",
       "in English": "yet"
     },
     {
       "Number": 538,
-      "Hindi": "लहर",
+      "Italian": "onda",
       "in English": "wave"
     },
     {
       "Number": 539,
-      "Hindi": "ड्रॉप",
+      "Italian": "cadere",
       "in English": "drop"
     },
     {
       "Number": 540,
-      "Hindi": "दिल",
+      "Italian": "cuore",
       "in English": "heart"
     },
     {
       "Number": 541,
-      "Hindi": "AM",
+      "Italian": "am",
       "in English": "am"
     },
     {
       "Number": 542,
-      "Hindi": "वर्तमान",
+      "Italian": "presente",
       "in English": "present"
     },
     {
       "Number": 543,
-      "Hindi": "भारी",
+      "Italian": "pesante",
       "in English": "heavy"
     },
     {
       "Number": 544,
-      "Hindi": "नृत्य",
+      "Italian": "danza",
       "in English": "dance"
     },
     {
       "Number": 545,
-      "Hindi": "इंजन",
+      "Italian": "motore",
       "in English": "engine"
     },
     {
       "Number": 546,
-      "Hindi": "स्थिति",
+      "Italian": "posizione",
       "in English": "position"
     },
     {
       "Number": 547,
-      "Hindi": "बांह",
+      "Italian": "braccio",
       "in English": "arm"
     },
     {
       "Number": 548,
-      "Hindi": "विस्तृत",
+      "Italian": "ampio",
       "in English": "wide"
     },
     {
       "Number": 549,
-      "Hindi": "स्टील अथॉरिटी ऑफ इंडिया",
+      "Italian": "vela",
       "in English": "sail"
     },
     {
       "Number": 550,
-      "Hindi": "सामग्री",
+      "Italian": "materiale",
       "in English": "material"
     },
     {
       "Number": 551,
-      "Hindi": "अंश",
+      "Italian": "frazione",
       "in English": "fraction"
     },
     {
       "Number": 552,
-      "Hindi": "वन",
+      "Italian": "foresta",
       "in English": "forest"
     },
     {
       "Number": 553,
-      "Hindi": "बैठना",
+      "Italian": "sedersi",
       "in English": "sit"
     },
     {
       "Number": 554,
-      "Hindi": "दौड़",
+      "Italian": "gara",
       "in English": "race"
     },
     {
       "Number": 555,
-      "Hindi": "खिड़की",
+      "Italian": "finestra",
       "in English": "window"
     },
     {
       "Number": 556,
-      "Hindi": "दुकान",
+      "Italian": "negozio",
       "in English": "store"
     },
     {
       "Number": 557,
-      "Hindi": "गर्मियों",
+      "Italian": "estate",
       "in English": "summer"
     },
     {
       "Number": 558,
-      "Hindi": "सफर",
+      "Italian": "treno",
       "in English": "train"
     },
     {
       "Number": 559,
-      "Hindi": "नींद",
+      "Italian": "sonno",
       "in English": "sleep"
     },
     {
       "Number": 560,
-      "Hindi": "साबित",
+      "Italian": "dimostrare",
       "in English": "prove"
     },
     {
       "Number": 561,
-      "Hindi": "लोन",
+      "Italian": "solitario",
       "in English": "lone"
     },
     {
       "Number": 562,
-      "Hindi": "पैर",
+      "Italian": "gamba",
       "in English": "leg"
     },
     {
       "Number": 563,
-      "Hindi": "व्यायाम",
+      "Italian": "esercizio",
       "in English": "exercise"
     },
     {
       "Number": 564,
-      "Hindi": "दीवार",
+      "Italian": "muro",
       "in English": "wall"
     },
     {
       "Number": 565,
-      "Hindi": "पकड़",
+      "Italian": "prendere",
       "in English": "catch"
     },
     {
       "Number": 566,
-      "Hindi": "माउंट",
+      "Italian": "monte",
       "in English": "mount"
     },
     {
       "Number": 567,
-      "Hindi": "इच्छा",
+      "Italian": "desiderio",
       "in English": "wish"
     },
     {
       "Number": 568,
-      "Hindi": "आसमान",
+      "Italian": "cielo",
       "in English": "sky"
     },
     {
       "Number": 569,
-      "Hindi": "बोर्ड",
+      "Italian": "pensione",
       "in English": "board"
     },
     {
       "Number": 570,
-      "Hindi": "हर्ष",
+      "Italian": "gioia",
       "in English": "joy"
     },
     {
       "Number": 571,
-      "Hindi": "सर्दियों",
+      "Italian": "inverno",
       "in English": "winter"
     },
     {
       "Number": 572,
-      "Hindi": "शनि",
+      "Italian": "sat",
       "in English": "sat"
     },
     {
       "Number": 573,
-      "Hindi": "लिखित",
+      "Italian": "scritto",
       "in English": "written"
     },
     {
       "Number": 574,
-      "Hindi": "जंगली",
+      "Italian": "selvaggio",
       "in English": "wild"
     },
     {
       "Number": 575,
-      "Hindi": "साधन",
+      "Italian": "strumento",
       "in English": "instrument"
     },
     {
       "Number": 576,
-      "Hindi": "रखा",
+      "Italian": "tenere",
       "in English": "kept"
     },
     {
       "Number": 577,
-      "Hindi": "कांच",
+      "Italian": "vetro",
       "in English": "glass"
     },
     {
       "Number": 578,
-      "Hindi": "घास",
+      "Italian": "erba",
       "in English": "grass"
     },
     {
       "Number": 579,
-      "Hindi": "गाय",
+      "Italian": "mucca",
       "in English": "cow"
     },
     {
       "Number": 580,
-      "Hindi": "काम",
+      "Italian": "lavoro",
       "in English": "job"
     },
     {
       "Number": 581,
-      "Hindi": "बढ़त",
+      "Italian": "bordo",
       "in English": "edge"
     },
     {
       "Number": 582,
-      "Hindi": "साइन",
+      "Italian": "segno",
       "in English": "sign"
     },
     {
       "Number": 583,
-      "Hindi": "यात्रा",
+      "Italian": "visita",
       "in English": "visit"
     },
     {
       "Number": 584,
-      "Hindi": "अतीत",
+      "Italian": "passato",
       "in English": "past"
     },
     {
       "Number": 585,
-      "Hindi": "मुलायम",
+      "Italian": "morbido",
       "in English": "soft"
     },
     {
       "Number": 586,
-      "Hindi": "मज़ा",
+      "Italian": "divertimento",
       "in English": "fun"
     },
     {
       "Number": 587,
-      "Hindi": "उज्ज्वल",
+      "Italian": "luminoso",
       "in English": "bright"
     },
     {
       "Number": 588,
-      "Hindi": "गैस",
+      "Italian": "gas",
       "in English": "gas"
     },
     {
       "Number": 589,
-      "Hindi": "मौसम",
+      "Italian": "tempo",
       "in English": "weather"
     },
     {
       "Number": 590,
-      "Hindi": "माह",
+      "Italian": "mese",
       "in English": "month"
     },
     {
       "Number": 591,
-      "Hindi": "लाख",
+      "Italian": "milione",
       "in English": "million"
     },
     {
       "Number": 592,
-      "Hindi": "भालू",
+      "Italian": "sopportare",
       "in English": "bear"
     },
     {
       "Number": 593,
-      "Hindi": "खत्म",
+      "Italian": "finitura",
       "in English": "finish"
     },
     {
       "Number": 594,
-      "Hindi": "खुश",
+      "Italian": "felice",
       "in English": "happy"
     },
     {
       "Number": 595,
-      "Hindi": "आशा",
+      "Italian": "speranza",
       "in English": "hope"
     },
     {
       "Number": 596,
-      "Hindi": "फूल",
+      "Italian": "fiore",
       "in English": "flower"
     },
     {
       "Number": 597,
-      "Hindi": "कपड़े",
+      "Italian": "vestire",
       "in English": "clothe"
     },
     {
       "Number": 598,
-      "Hindi": "अजीब",
+      "Italian": "strano",
       "in English": "strange"
     },
     {
       "Number": 599,
-      "Hindi": "चला गया",
+      "Italian": "gone",
       "in English": "gone"
     },
     {
       "Number": 600,
-      "Hindi": "व्यापार",
+      "Italian": "commercio",
       "in English": "trade"
     },
     {
       "Number": 601,
-      "Hindi": "राग",
+      "Italian": "melodia",
       "in English": "melody"
     },
     {
       "Number": 602,
-      "Hindi": "यात्रा",
+      "Italian": "viaggio",
       "in English": "trip"
     },
     {
       "Number": 603,
-      "Hindi": "कार्यालय",
+      "Italian": "ufficio",
       "in English": "office"
     },
     {
       "Number": 604,
-      "Hindi": "प्राप्त करना",
+      "Italian": "ricevere",
       "in English": "receive"
     },
     {
       "Number": 605,
-      "Hindi": "पंक्ति",
+      "Italian": "fila",
       "in English": "row"
     },
     {
       "Number": 606,
-      "Hindi": "मुंह",
+      "Italian": "bocca",
       "in English": "mouth"
     },
     {
       "Number": 607,
-      "Hindi": "सटीक",
+      "Italian": "esatto",
       "in English": "exact"
     },
     {
       "Number": 608,
-      "Hindi": "प्रतीक",
+      "Italian": "simbolo",
       "in English": "symbol"
     },
     {
       "Number": 609,
-      "Hindi": "मरना",
+      "Italian": "morire",
       "in English": "die"
     },
     {
       "Number": 610,
-      "Hindi": "कम से कम",
+      "Italian": "meno",
       "in English": "least"
     },
     {
       "Number": 611,
-      "Hindi": "मुसीबत",
+      "Italian": "difficoltà",
       "in English": "trouble"
     },
     {
       "Number": 612,
-      "Hindi": "चिल्लाओ",
+      "Italian": "shout",
       "in English": "shout"
     },
     {
       "Number": 613,
-      "Hindi": "सिवाय",
+      "Italian": "tranne",
       "in English": "except"
     },
     {
       "Number": 614,
-      "Hindi": "लिखा",
+      "Italian": "ha scritto",
       "in English": "wrote"
     },
     {
       "Number": 615,
-      "Hindi": "बीज",
+      "Italian": "seme",
       "in English": "seed"
     },
     {
       "Number": 616,
-      "Hindi": "स्वर",
+      "Italian": "tono",
       "in English": "tone"
     },
     {
       "Number": 617,
-      "Hindi": "शामिल होने",
+      "Italian": "aderire",
       "in English": "join"
     },
     {
       "Number": 618,
-      "Hindi": "सुझाव है",
+      "Italian": "suggerire",
       "in English": "suggest"
     },
     {
       "Number": 619,
-      "Hindi": "साफ",
+      "Italian": "pulito",
       "in English": "clean"
     },
     {
       "Number": 620,
-      "Hindi": "तोड़",
+      "Italian": "pausa",
       "in English": "break"
     },
     {
       "Number": 621,
-      "Hindi": "महिला",
+      "Italian": "signora",
       "in English": "lady"
     },
     {
       "Number": 622,
-      "Hindi": "यार्ड",
+      "Italian": "cantiere",
       "in English": "yard"
     },
     {
       "Number": 623,
-      "Hindi": "वृद्धि",
+      "Italian": "salire",
       "in English": "rise"
     },
     {
       "Number": 624,
-      "Hindi": "बुरा",
+      "Italian": "male",
       "in English": "bad"
     },
     {
       "Number": 625,
-      "Hindi": "झटका",
+      "Italian": "colpo",
       "in English": "blow"
     },
     {
       "Number": 626,
-      "Hindi": "तेल",
+      "Italian": "olio",
       "in English": "oil"
     },
     {
       "Number": 627,
-      "Hindi": "खून",
+      "Italian": "sangue",
       "in English": "blood"
     },
     {
       "Number": 628,
-      "Hindi": "स्पर्श",
+      "Italian": "toccare",
       "in English": "touch"
     },
     {
       "Number": 629,
-      "Hindi": "बढ़ी",
+      "Italian": "è cresciuto",
       "in English": "grew"
     },
     {
       "Number": 630,
-      "Hindi": "प्रतिशत",
+      "Italian": "cent",
       "in English": "cent"
     },
     {
       "Number": 631,
-      "Hindi": "मिश्रण",
+      "Italian": "mescolare",
       "in English": "mix"
     },
     {
       "Number": 632,
-      "Hindi": "टीम",
+      "Italian": "team",
       "in English": "team"
     },
     {
       "Number": 633,
-      "Hindi": "तार",
+      "Italian": "filo",
       "in English": "wire"
     },
     {
       "Number": 634,
-      "Hindi": "लागत",
+      "Italian": "costo",
       "in English": "cost"
     },
     {
       "Number": 635,
-      "Hindi": "खोया",
+      "Italian": "perso",
       "in English": "lost"
     },
     {
       "Number": 636,
-      "Hindi": "ब्राउन",
+      "Italian": "marrone",
       "in English": "brown"
     },
     {
       "Number": 637,
-      "Hindi": "पहनना",
+      "Italian": "indossare",
       "in English": "wear"
     },
     {
       "Number": 638,
-      "Hindi": "बगीचा",
+      "Italian": "giardino",
       "in English": "garden"
     },
     {
       "Number": 639,
-      "Hindi": "बराबर",
+      "Italian": "pari",
       "in English": "equal"
     },
     {
       "Number": 640,
-      "Hindi": "भेजा",
+      "Italian": "inviato",
       "in English": "sent"
     },
     {
       "Number": 641,
-      "Hindi": "चयन",
+      "Italian": "scegliere",
       "in English": "choose"
     },
     {
       "Number": 642,
-      "Hindi": "गिर गया",
+      "Italian": "caduto",
       "in English": "fell"
     },
     {
       "Number": 643,
-      "Hindi": "फिट",
+      "Italian": "adattarsi",
       "in English": "fit"
     },
     {
       "Number": 644,
-      "Hindi": "प्रवाह",
+      "Italian": "flusso",
       "in English": "flow"
     },
     {
       "Number": 645,
-      "Hindi": "मेला",
+      "Italian": "fiera",
       "in English": "fair"
     },
     {
       "Number": 646,
-      "Hindi": "बैंक",
+      "Italian": "banca",
       "in English": "bank"
     },
     {
       "Number": 647,
-      "Hindi": "इकट्ठा",
+      "Italian": "raccogliere",
       "in English": "collect"
     },
     {
       "Number": 648,
-      "Hindi": "बचा",
+      "Italian": "salvare",
       "in English": "save"
     },
     {
       "Number": 649,
-      "Hindi": "नियंत्रण",
+      "Italian": "controllo",
       "in English": "control"
     },
     {
       "Number": 650,
-      "Hindi": "दशमलव",
+      "Italian": "decimale",
       "in English": "decimal"
     },
     {
       "Number": 651,
-      "Hindi": "कान",
+      "Italian": "orecchio",
       "in English": "ear"
     },
     {
       "Number": 652,
-      "Hindi": "बाकी",
+      "Italian": "altro",
       "in English": "else"
     },
     {
       "Number": 653,
-      "Hindi": "काफी",
+      "Italian": "abbastanza",
       "in English": "quite"
     },
     {
       "Number": 654,
-      "Hindi": "तोड़ दिया",
+      "Italian": "rotto",
       "in English": "broke"
     },
     {
       "Number": 655,
-      "Hindi": "मामले",
+      "Italian": "caso",
       "in English": "case"
     },
     {
       "Number": 656,
-      "Hindi": "बीच",
+      "Italian": "mezzo",
       "in English": "middle"
     },
     {
       "Number": 657,
-      "Hindi": "हत्या",
+      "Italian": "uccidere",
       "in English": "kill"
     },
     {
       "Number": 658,
-      "Hindi": "बेटा",
+      "Italian": "figlio",
       "in English": "son"
     },
     {
       "Number": 659,
-      "Hindi": "झील",
+      "Italian": "lago",
       "in English": "lake"
     },
     {
       "Number": 660,
-      "Hindi": "पल",
+      "Italian": "momento",
       "in English": "moment"
     },
     {
       "Number": 661,
-      "Hindi": "पैमाने",
+      "Italian": "scala",
       "in English": "scale"
     },
     {
       "Number": 662,
-      "Hindi": "जोर",
+      "Italian": "forte",
       "in English": "loud"
     },
     {
       "Number": 663,
-      "Hindi": "वसंत",
+      "Italian": "primavera",
       "in English": "spring"
     },
     {
       "Number": 664,
-      "Hindi": "निरीक्षण",
+      "Italian": "osservare",
       "in English": "observe"
     },
     {
       "Number": 665,
-      "Hindi": "बच्चे",
+      "Italian": "bambino",
       "in English": "child"
     },
     {
       "Number": 666,
-      "Hindi": "सीधे",
+      "Italian": "dritto",
       "in English": "straight"
     },
     {
       "Number": 667,
-      "Hindi": "व्यंजन",
+      "Italian": "consonante",
       "in English": "consonant"
     },
     {
       "Number": 668,
-      "Hindi": "राष्ट्र",
+      "Italian": "nazione",
       "in English": "nation"
     },
     {
       "Number": 669,
-      "Hindi": "शब्दकोश",
+      "Italian": "dizionario",
       "in English": "dictionary"
     },
     {
       "Number": 670,
-      "Hindi": "दूध",
+      "Italian": "latte",
       "in English": "milk"
     },
     {
       "Number": 671,
-      "Hindi": "गति",
+      "Italian": "velocità",
       "in English": "speed"
     },
     {
       "Number": 672,
-      "Hindi": "विधि",
+      "Italian": "metodo",
       "in English": "method"
     },
     {
       "Number": 673,
-      "Hindi": "अंग",
+      "Italian": "organo",
       "in English": "organ"
     },
     {
       "Number": 674,
-      "Hindi": "भुगतान",
+      "Italian": "pagare",
       "in English": "pay"
     },
     {
       "Number": 675,
-      "Hindi": "उम्र",
+      "Italian": "età",
       "in English": "age"
     },
     {
       "Number": 676,
-      "Hindi": "अनुभाग",
+      "Italian": "sezione",
       "in English": "section"
     },
     {
       "Number": 677,
-      "Hindi": "पोशाक",
+      "Italian": "vestito",
       "in English": "dress"
     },
     {
       "Number": 678,
-      "Hindi": "बादल",
+      "Italian": "nube",
       "in English": "cloud"
     },
     {
       "Number": 679,
-      "Hindi": "आश्चर्य",
+      "Italian": "sorpresa",
       "in English": "surprise"
     },
     {
       "Number": 680,
-      "Hindi": "शांत",
+      "Italian": "tranquillo",
       "in English": "quiet"
     },
     {
       "Number": 681,
-      "Hindi": "पत्थर",
+      "Italian": "pietra",
       "in English": "stone"
     },
     {
       "Number": 682,
-      "Hindi": "छोटे",
+      "Italian": "piccolo",
       "in English": "tiny"
     },
     {
       "Number": 683,
-      "Hindi": "चढ़ाई",
+      "Italian": "salita",
       "in English": "climb"
     },
     {
       "Number": 684,
-      "Hindi": "शीतल",
+      "Italian": "fresco",
       "in English": "cool"
     },
     {
       "Number": 685,
-      "Hindi": "डिजाइन",
+      "Italian": "design",
       "in English": "design"
     },
     {
       "Number": 686,
-      "Hindi": "गरीब",
+      "Italian": "povero",
       "in English": "poor"
     },
     {
       "Number": 687,
-      "Hindi": "बहुत",
+      "Italian": "lotto",
       "in English": "lot"
     },
     {
       "Number": 688,
-      "Hindi": "प्रयोग",
+      "Italian": "esperimento",
       "in English": "experiment"
     },
     {
       "Number": 689,
-      "Hindi": "तल",
+      "Italian": "fondo",
       "in English": "bottom"
     },
     {
       "Number": 690,
-      "Hindi": "कुंजी",
+      "Italian": "chiave",
       "in English": "key"
     },
     {
       "Number": 691,
-      "Hindi": "लोहा",
+      "Italian": "ferro",
       "in English": "iron"
     },
     {
       "Number": 692,
-      "Hindi": "एकल",
+      "Italian": "singolo",
       "in English": "single"
     },
     {
       "Number": 693,
-      "Hindi": "छड़ी",
+      "Italian": "bastone",
       "in English": "stick"
     },
     {
       "Number": 694,
-      "Hindi": "फ्लैट",
+      "Italian": "appartamento",
       "in English": "flat"
     },
     {
       "Number": 695,
-      "Hindi": "बीस",
+      "Italian": "venti",
       "in English": "twenty"
     },
     {
       "Number": 696,
-      "Hindi": "त्वचा",
+      "Italian": "pelle",
       "in English": "skin"
     },
     {
       "Number": 697,
-      "Hindi": "मुस्कान",
+      "Italian": "sorriso",
       "in English": "smile"
     },
     {
       "Number": 698,
-      "Hindi": "क्रीज",
+      "Italian": "piega",
       "in English": "crease"
     },
     {
       "Number": 699,
-      "Hindi": "छेद",
+      "Italian": "foro",
       "in English": "hole"
     },
     {
       "Number": 700,
-      "Hindi": "कूद",
+      "Italian": "salto",
       "in English": "jump"
     },
     {
       "Number": 701,
-      "Hindi": "बच्चे",
+      "Italian": "bambino",
       "in English": "baby"
     },
     {
       "Number": 702,
-      "Hindi": "आठ",
+      "Italian": "otto",
       "in English": "eight"
     },
     {
       "Number": 703,
-      "Hindi": "गांव",
+      "Italian": "villaggio",
       "in English": "village"
     },
     {
       "Number": 704,
-      "Hindi": "मिलो",
+      "Italian": "si incontrano",
       "in English": "meet"
     },
     {
       "Number": 705,
-      "Hindi": "जड़",
+      "Italian": "radice",
       "in English": "root"
     },
     {
       "Number": 706,
-      "Hindi": "खरीद",
+      "Italian": "acquistare",
       "in English": "buy"
     },
     {
       "Number": 707,
-      "Hindi": "उठाना",
+      "Italian": "aumentare",
       "in English": "raise"
     },
     {
       "Number": 708,
-      "Hindi": "हल",
+      "Italian": "risolvere",
       "in English": "solve"
     },
     {
       "Number": 709,
-      "Hindi": "धातु",
+      "Italian": "metallo",
       "in English": "metal"
     },
     {
       "Number": 710,
-      "Hindi": "चाहे",
+      "Italian": "se",
       "in English": "whether"
     },
     {
       "Number": 711,
-      "Hindi": "धक्का",
+      "Italian": "spingere",
       "in English": "push"
     },
     {
       "Number": 712,
-      "Hindi": "सात",
+      "Italian": "sette",
       "in English": "seven"
     },
     {
       "Number": 713,
-      "Hindi": "पैरा",
+      "Italian": "paragrafo",
       "in English": "paragraph"
     },
     {
       "Number": 714,
-      "Hindi": "तीसरे",
+      "Italian": "terzo",
       "in English": "third"
     },
     {
       "Number": 715,
-      "Hindi": "करेगा",
+      "Italian": "deve",
       "in English": "shall"
     },
     {
       "Number": 716,
-      "Hindi": "आयोजित",
+      "Italian": "tenuto",
       "in English": "held"
     },
     {
       "Number": 717,
-      "Hindi": "बाल",
+      "Italian": "capelli",
       "in English": "hair"
     },
     {
       "Number": 718,
-      "Hindi": "वर्णन",
+      "Italian": "descrivere",
       "in English": "describe"
     },
     {
       "Number": 719,
-      "Hindi": "कुक",
+      "Italian": "cuoco",
       "in English": "cook"
     },
     {
       "Number": 720,
-      "Hindi": "मंजिल",
+      "Italian": "piano",
       "in English": "floor"
     },
     {
       "Number": 721,
-      "Hindi": "भी",
+      "Italian": "o",
       "in English": "either"
     },
     {
       "Number": 722,
-      "Hindi": "परिणाम",
+      "Italian": "risultato",
       "in English": "result"
     },
     {
       "Number": 723,
-      "Hindi": "जला",
+      "Italian": "bruciare",
       "in English": "burn"
     },
     {
       "Number": 724,
-      "Hindi": "पहाड़ी",
+      "Italian": "collina",
       "in English": "hill"
     },
     {
       "Number": 725,
-      "Hindi": "सुरक्षित",
+      "Italian": "sicuro",
       "in English": "safe"
     },
     {
       "Number": 726,
-      "Hindi": "बिल्ली",
+      "Italian": "gatto",
       "in English": "cat"
     },
     {
       "Number": 727,
-      "Hindi": "सदी",
+      "Italian": "secolo",
       "in English": "century"
     },
     {
       "Number": 728,
-      "Hindi": "विचार करना",
+      "Italian": "considerare",
       "in English": "consider"
     },
     {
       "Number": 729,
-      "Hindi": "प्रकार",
+      "Italian": "tipo",
       "in English": "type"
     },
     {
       "Number": 730,
-      "Hindi": "कानून",
+      "Italian": "legge",
       "in English": "law"
     },
     {
       "Number": 731,
-      "Hindi": "बिट",
+      "Italian": "bit",
       "in English": "bit"
     },
     {
       "Number": 732,
-      "Hindi": "तट",
+      "Italian": "costa",
       "in English": "coast"
     },
     {
       "Number": 733,
-      "Hindi": "नकल",
+      "Italian": "copia",
       "in English": "copy"
     },
     {
       "Number": 734,
-      "Hindi": "वाक्यांश",
+      "Italian": "frase",
       "in English": "phrase"
     },
     {
       "Number": 735,
-      "Hindi": "चुप",
+      "Italian": "silenzioso",
       "in English": "silent"
     },
     {
       "Number": 736,
-      "Hindi": "लंबा",
+      "Italian": "alto",
       "in English": "tall"
     },
     {
       "Number": 737,
-      "Hindi": "रेत",
+      "Italian": "sabbia",
       "in English": "sand"
     },
     {
       "Number": 738,
-      "Hindi": "मिट्टी",
+      "Italian": "suolo",
       "in English": "soil"
     },
     {
       "Number": 739,
-      "Hindi": "रोल",
+      "Italian": "rotolo",
       "in English": "roll"
     },
     {
       "Number": 740,
-      "Hindi": "तापमान",
+      "Italian": "temperatura",
       "in English": "temperature"
     },
     {
       "Number": 741,
-      "Hindi": "उंगली",
+      "Italian": "dito",
       "in English": "finger"
     },
     {
       "Number": 742,
-      "Hindi": "उद्योग",
+      "Italian": "industria",
       "in English": "industry"
     },
     {
       "Number": 743,
-      "Hindi": "मूल्य",
+      "Italian": "valore",
       "in English": "value"
     },
     {
       "Number": 744,
-      "Hindi": "लड़ाई",
+      "Italian": "lotta",
       "in English": "fight"
     },
     {
       "Number": 745,
-      "Hindi": "झूठ",
+      "Italian": "bugia",
       "in English": "lie"
     },
     {
       "Number": 746,
-      "Hindi": "हरा",
+      "Italian": "battere",
       "in English": "beat"
     },
     {
       "Number": 747,
-      "Hindi": "उत्तेजित",
+      "Italian": "eccitare",
       "in English": "excite"
     },
     {
       "Number": 748,
-      "Hindi": "प्राकृतिक",
+      "Italian": "naturale",
       "in English": "natural"
     },
     {
       "Number": 749,
-      "Hindi": "देखें",
+      "Italian": "vista",
       "in English": "view"
     },
     {
       "Number": 750,
-      "Hindi": "भावना",
+      "Italian": "senso",
       "in English": "sense"
     },
     {
       "Number": 751,
-      "Hindi": "राजधानी",
+      "Italian": "capitale",
       "in English": "capital"
     },
     {
       "Number": 752,
-      "Hindi": "नहीं होगा",
+      "Italian": "non sarà",
       "in English": "won’t"
     },
     {
       "Number": 753,
-      "Hindi": "कुर्सी",
+      "Italian": "sedia",
       "in English": "chair"
     },
     {
       "Number": 754,
-      "Hindi": "खतरे",
+      "Italian": "pericolo",
       "in English": "danger"
     },
     {
       "Number": 755,
-      "Hindi": "फल",
+      "Italian": "frutta",
       "in English": "fruit"
     },
     {
       "Number": 756,
-      "Hindi": "अमीर",
+      "Italian": "ricco",
       "in English": "rich"
     },
     {
       "Number": 757,
-      "Hindi": "मोटी",
+      "Italian": "spesso",
       "in English": "thick"
     },
     {
       "Number": 758,
-      "Hindi": "सैनिक",
+      "Italian": "soldato",
       "in English": "soldier"
     },
     {
       "Number": 759,
-      "Hindi": "प्रक्रिया",
+      "Italian": "processo",
       "in English": "process"
     },
     {
       "Number": 760,
-      "Hindi": "संचालित",
+      "Italian": "operare",
       "in English": "operate"
     },
     {
       "Number": 761,
-      "Hindi": "अभ्यास",
+      "Italian": "pratica",
       "in English": "practice"
     },
     {
       "Number": 762,
-      "Hindi": "अलग",
+      "Italian": "separato",
       "in English": "separate"
     },
     {
       "Number": 763,
-      "Hindi": "मुश्किल",
+      "Italian": "difficile",
       "in English": "difficult"
     },
     {
       "Number": 764,
-      "Hindi": "चिकित्सक",
+      "Italian": "medico",
       "in English": "doctor"
     },
     {
       "Number": 765,
-      "Hindi": "कृपया",
+      "Italian": "per favore",
       "in English": "please"
     },
     {
       "Number": 766,
-      "Hindi": "रक्षा",
+      "Italian": "proteggere",
       "in English": "protect"
     },
     {
       "Number": 767,
-      "Hindi": "दोपहर",
+      "Italian": "mezzogiorno",
       "in English": "noon"
     },
     {
       "Number": 768,
-      "Hindi": "फसल",
+      "Italian": "raccolto",
       "in English": "crop"
     },
     {
       "Number": 769,
-      "Hindi": "आधुनिक",
+      "Italian": "moderno",
       "in English": "modern"
     },
     {
       "Number": 770,
-      "Hindi": "तत्व",
+      "Italian": "elemento",
       "in English": "element"
     },
     {
       "Number": 771,
-      "Hindi": "मारना",
+      "Italian": "colpire",
       "in English": "hit"
     },
     {
       "Number": 772,
-      "Hindi": "छात्र",
+      "Italian": "studente",
       "in English": "student"
     },
     {
       "Number": 773,
-      "Hindi": "कोने",
+      "Italian": "angolo",
       "in English": "corner"
     },
     {
       "Number": 774,
-      "Hindi": "पार्टी",
+      "Italian": "partito",
       "in English": "party"
     },
     {
       "Number": 775,
-      "Hindi": "आपूर्ति",
+      "Italian": "fornitura",
       "in English": "supply"
     },
     {
       "Number": 776,
-      "Hindi": "जिसका",
+      "Italian": "la cui",
       "in English": "whose"
     },
     {
       "Number": 777,
-      "Hindi": "स्थिति जानें",
+      "Italian": "individuare",
       "in English": "locate"
     },
     {
       "Number": 778,
-      "Hindi": "अंगूठी",
+      "Italian": "anello",
       "in English": "ring"
     },
     {
       "Number": 779,
-      "Hindi": "चरित्र",
+      "Italian": "carattere",
       "in English": "character"
     },
     {
       "Number": 780,
-      "Hindi": "कीट",
+      "Italian": "insetto",
       "in English": "insect"
     },
     {
       "Number": 781,
-      "Hindi": "पकड़ा",
+      "Italian": "catturato",
       "in English": "caught"
     },
     {
       "Number": 782,
-      "Hindi": "अवधि",
+      "Italian": "periodo",
       "in English": "period"
     },
     {
       "Number": 783,
-      "Hindi": "संकेत मिलता है",
+      "Italian": "indicare",
       "in English": "indicate"
     },
     {
       "Number": 784,
-      "Hindi": "रेडियो",
+      "Italian": "radio",
       "in English": "radio"
     },
     {
       "Number": 785,
-      "Hindi": "बात",
+      "Italian": "raggio",
       "in English": "spoke"
     },
     {
       "Number": 786,
-      "Hindi": "एटम",
+      "Italian": "atomo",
       "in English": "atom"
     },
     {
       "Number": 787,
-      "Hindi": "मानव",
+      "Italian": "umano",
       "in English": "human"
     },
     {
       "Number": 788,
-      "Hindi": "इतिहास",
+      "Italian": "storia",
       "in English": "history"
     },
     {
       "Number": 789,
-      "Hindi": "प्रभाव",
+      "Italian": "effetto",
       "in English": "effect"
     },
     {
       "Number": 790,
-      "Hindi": "बिजली",
+      "Italian": "elettrico",
       "in English": "electric"
     },
     {
       "Number": 791,
-      "Hindi": "उम्मीद",
+      "Italian": "aspettare",
       "in English": "expect"
     },
     {
       "Number": 792,
-      "Hindi": "हड्डी",
+      "Italian": "osso",
       "in English": "bone"
     },
     {
       "Number": 793,
-      "Hindi": "रेल",
+      "Italian": "ferrovia",
       "in English": "rail"
     },
     {
       "Number": 794,
-      "Hindi": "कल्पना",
+      "Italian": "immaginare",
       "in English": "imagine"
     },
     {
       "Number": 795,
-      "Hindi": "प्रदान",
+      "Italian": "fornire",
       "in English": "provide"
     },
     {
       "Number": 796,
-      "Hindi": "सहमत",
+      "Italian": "concordare",
       "in English": "agree"
     },
     {
       "Number": 797,
-      "Hindi": "इस प्रकार",
+      "Italian": "così",
       "in English": "thus"
     },
     {
       "Number": 798,
-      "Hindi": "कोमल",
+      "Italian": "dolce",
       "in English": "gentle"
     },
     {
       "Number": 799,
-      "Hindi": "महिला",
+      "Italian": "donna",
       "in English": "woman"
     },
     {
       "Number": 800,
-      "Hindi": "कप्तान",
+      "Italian": "capitano",
       "in English": "captain"
     },
     {
       "Number": 801,
-      "Hindi": "अनुमान",
+      "Italian": "indovinare",
       "in English": "guess"
     },
     {
       "Number": 802,
-      "Hindi": "आवश्यक",
+      "Italian": "necessario",
       "in English": "necessary"
     },
     {
       "Number": 803,
-      "Hindi": "तेज़",
+      "Italian": "tagliente",
       "in English": "sharp"
     },
     {
       "Number": 804,
-      "Hindi": "पंख",
+      "Italian": "ala",
       "in English": "wing"
     },
     {
       "Number": 805,
-      "Hindi": "बना",
+      "Italian": "creare",
       "in English": "create"
     },
     {
       "Number": 806,
-      "Hindi": "पड़ोसी",
+      "Italian": "prossimo",
       "in English": "neighbor"
     },
     {
       "Number": 807,
-      "Hindi": "धोने",
+      "Italian": "lavaggio",
       "in English": "wash"
     },
     {
       "Number": 808,
-      "Hindi": "बल्ला",
+      "Italian": "pipistrello",
       "in English": "bat"
     },
     {
       "Number": 809,
-      "Hindi": "बल्कि",
+      "Italian": "piuttosto",
       "in English": "rather"
     },
     {
       "Number": 810,
-      "Hindi": "भीड़",
+      "Italian": "folla",
       "in English": "crowd"
     },
     {
       "Number": 811,
-      "Hindi": "मकई",
+      "Italian": "mais",
       "in English": "corn"
     },
     {
       "Number": 812,
-      "Hindi": "तुलना",
+      "Italian": "confrontare",
       "in English": "compare"
     },
     {
       "Number": 813,
-      "Hindi": "कविता",
+      "Italian": "poesia",
       "in English": "poem"
     },
     {
       "Number": 814,
-      "Hindi": "स्ट्रिंग",
+      "Italian": "stringa",
       "in English": "string"
     },
     {
       "Number": 815,
-      "Hindi": "बेल",
+      "Italian": "campana",
       "in English": "bell"
     },
     {
       "Number": 816,
-      "Hindi": "निर्भर",
+      "Italian": "dipendere",
       "in English": "depend"
     },
     {
       "Number": 817,
-      "Hindi": "मांस",
+      "Italian": "carne",
       "in English": "meat"
     },
     {
       "Number": 818,
-      "Hindi": "रगड़",
+      "Italian": "strofinare",
       "in English": "rub"
     },
     {
       "Number": 819,
-      "Hindi": "ट्यूब",
+      "Italian": "tubo",
       "in English": "tube"
     },
     {
       "Number": 820,
-      "Hindi": "प्रसिद्ध",
+      "Italian": "famoso",
       "in English": "famous"
     },
     {
       "Number": 921,
-      "Hindi": "डॉलर",
+      "Italian": "dollaro",
       "in English": "dollar"
     },
     {
       "Number": 822,
-      "Hindi": "धारा",
+      "Italian": "ruscello",
       "in English": "stream"
     },
     {
       "Number": 823,
-      "Hindi": "डर",
+      "Italian": "paura",
       "in English": "fear"
     },
     {
       "Number": 284,
-      "Hindi": "दृष्टि",
+      "Italian": "vista",
       "in English": "sight"
     },
     {
       "Number": 825,
-      "Hindi": "पतली",
+      "Italian": "sottile",
       "in English": "thin"
     },
     {
       "Number": 826,
-      "Hindi": "त्रिकोण",
+      "Italian": "triangolo",
       "in English": "triangle"
     },
     {
       "Number": 827,
-      "Hindi": "ग्रह",
+      "Italian": "pianeta",
       "in English": "planet"
     },
     {
       "Number": 828,
-      "Hindi": "जल्दी करो",
+      "Italian": "fretta",
       "in English": "hurry"
     },
     {
       "Number": 829,
-      "Hindi": "प्रमुख",
+      "Italian": "capo",
       "in English": "chief"
     },
     {
       "Number": 830,
-      "Hindi": "कॉलोनी",
+      "Italian": "colonia",
       "in English": "colony"
     },
     {
       "Number": 831,
-      "Hindi": "घड़ी",
+      "Italian": "orologio",
       "in English": "clock"
     },
     {
       "Number": 832,
-      "Hindi": "मेरा",
+      "Italian": "miniera",
       "in English": "mine"
     },
     {
       "Number": 833,
-      "Hindi": "टाई",
+      "Italian": "cravatta",
       "in English": "tie"
     },
     {
       "Number": 834,
-      "Hindi": "दर्ज",
+      "Italian": "inserire",
       "in English": "enter"
     },
     {
       "Number": 835,
-      "Hindi": "प्रमुख",
+      "Italian": "maggiore",
       "in English": "major"
     },
     {
       "Number": 836,
-      "Hindi": "ताजा",
+      "Italian": "fresco",
       "in English": "fresh"
     },
     {
       "Number": 837,
-      "Hindi": "खोज",
+      "Italian": "ricerca",
       "in English": "search"
     },
     {
       "Number": 838,
-      "Hindi": "भेजें",
+      "Italian": "inviare",
       "in English": "send"
     },
     {
       "Number": 839,
-      "Hindi": "पीले",
+      "Italian": "giallo",
       "in English": "yellow"
     },
     {
       "Number": 840,
-      "Hindi": "बंदूक",
+      "Italian": "pistola",
       "in English": "gun"
     },
     {
       "Number": 841,
-      "Hindi": "की अनुमति",
+      "Italian": "consentire",
       "in English": "allow"
     },
     {
       "Number": 842,
-      "Hindi": "प्रिंट",
+      "Italian": "stampa",
       "in English": "print"
     },
     {
       "Number": 843,
-      "Hindi": "मृत",
+      "Italian": "morto",
       "in English": "dead"
     },
     {
       "Number": 844,
-      "Hindi": "हाजिर",
+      "Italian": "spot",
       "in English": "spot"
     },
     {
       "Number": 845,
-      "Hindi": "रेगिस्तान",
+      "Italian": "deserto",
       "in English": "desert"
     },
     {
       "Number": 846,
-      "Hindi": "सूट",
+      "Italian": "tuta",
       "in English": "suit"
     },
     {
       "Number": 847,
-      "Hindi": "वर्तमान",
+      "Italian": "corrente",
       "in English": "current"
     },
     {
       "Number": 848,
-      "Hindi": "लिफ्ट",
+      "Italian": "ascensore",
       "in English": "lift"
     },
     {
       "Number": 840,
-      "Hindi": "गुलाब",
+      "Italian": "rosa",
       "in English": "rose"
     },
     {
       "Number": 850,
-      "Hindi": "पहुंचना",
+      "Italian": "arrivare",
       "in English": "arrive"
     },
     {
       "Number": 851,
-      "Hindi": "मास्टर",
+      "Italian": "master",
       "in English": "master"
     },
     {
       "Number": 852,
-      "Hindi": "ट्रैक",
+      "Italian": "pista",
       "in English": "track"
     },
     {
       "Number": 853,
-      "Hindi": "माता पिता",
+      "Italian": "genitore",
       "in English": "parent"
     },
     {
       "Number": 854,
-      "Hindi": "किनारे",
+      "Italian": "riva",
       "in English": "shore"
     },
     {
       "Number": 855,
-      "Hindi": "विभाजन",
+      "Italian": "divisione",
       "in English": "division"
     },
     {
       "Number": 856,
-      "Hindi": "चादर",
+      "Italian": "foglio",
       "in English": "sheet"
     },
     {
       "Number": 857,
-      "Hindi": "पदार्थ",
+      "Italian": "sostanza",
       "in English": "substance"
     },
     {
       "Number": 858,
-      "Hindi": "एहसान",
+      "Italian": "favorire",
       "in English": "favor"
     },
     {
       "Number": 859,
-      "Hindi": "कनेक्ट",
+      "Italian": "collegare",
       "in English": "connect"
     },
     {
       "Number": 860,
-      "Hindi": "पोस्ट",
+      "Italian": "Messaggio",
       "in English": "post"
     },
     {
       "Number": 861,
-      "Hindi": "खर्च",
+      "Italian": "spendere",
       "in English": "spend"
     },
     {
       "Number": 862,
-      "Hindi": "राग",
+      "Italian": "accordo",
       "in English": "chord"
     },
     {
       "Number": 863,
-      "Hindi": "वसा",
+      "Italian": "grasso",
       "in English": "fat"
     },
     {
       "Number": 864,
-      "Hindi": "प्रसन्न",
+      "Italian": "felice",
       "in English": "glad"
     },
     {
       "Number": 865,
-      "Hindi": "मूल",
+      "Italian": "originale",
       "in English": "original"
     },
     {
       "Number": 866,
-      "Hindi": "शेयर",
+      "Italian": "quota",
       "in English": "share"
     },
     {
       "Number": 867,
-      "Hindi": "स्टेशन",
+      "Italian": "stazione",
       "in English": "station"
     },
     {
       "Number": 868,
-      "Hindi": "पिता",
+      "Italian": "papà",
       "in English": "dad"
     },
     {
       "Number": 869,
-      "Hindi": "रोटी",
+      "Italian": "pane",
       "in English": "bread"
     },
     {
       "Number": 870,
-      "Hindi": "चार्ज",
+      "Italian": "carica",
       "in English": "charge"
     },
     {
       "Number": 871,
-      "Hindi": "उचित",
+      "Italian": "corretto",
       "in English": "proper"
     },
     {
       "Number": 872,
-      "Hindi": "बार",
+      "Italian": "bar",
       "in English": "bar"
     },
     {
       "Number": 873,
-      "Hindi": "प्रस्ताव",
+      "Italian": "offerta",
       "in English": "offer"
     },
     {
       "Number": 874,
-      "Hindi": "खंड",
+      "Italian": "segmento",
       "in English": "segment"
     },
     {
       "Number": 875,
-      "Hindi": "गुलाम",
+      "Italian": "schiavo",
       "in English": "slave"
     },
     {
       "Number": 876,
-      "Hindi": "बतख",
+      "Italian": "anatra",
       "in English": "duck"
     },
     {
       "Number": 877,
-      "Hindi": "पल",
+      "Italian": "immediato",
       "in English": "instant"
     },
     {
       "Number": 878,
-      "Hindi": "बाजार",
+      "Italian": "mercato",
       "in English": "market"
     },
     {
       "Number": 879,
-      "Hindi": "डिग्री",
+      "Italian": "grado",
       "in English": "degree"
     },
     {
       "Number": 880,
-      "Hindi": "आबाद",
+      "Italian": "popolare",
       "in English": "populate"
     },
     {
       "Number": 881,
-      "Hindi": "लड़की",
+      "Italian": "pulcino",
       "in English": "chick"
     },
     {
       "Number": 882,
-      "Hindi": "प्रिय",
+      "Italian": "caro",
       "in English": "dear"
     },
     {
       "Number": 883,
-      "Hindi": "दुश्मन",
+      "Italian": "nemico",
       "in English": "enemy"
     },
     {
       "Number": 884,
-      "Hindi": "उत्तर",
+      "Italian": "rispondere",
       "in English": "reply"
     },
     {
       "Number": 885,
-      "Hindi": "पेय",
+      "Italian": "bevanda",
       "in English": "drink"
     },
     {
       "Number": 886,
-      "Hindi": "घटित",
+      "Italian": "verificarsi",
       "in English": "occur"
     },
     {
       "Number": 887,
-      "Hindi": "समर्थन",
+      "Italian": "supporto",
       "in English": "support"
     },
     {
       "Number": 888,
-      "Hindi": "भाषण",
+      "Italian": "discorso",
       "in English": "speech"
     },
     {
       "Number": 889,
-      "Hindi": "प्रकृति",
+      "Italian": "natura",
       "in English": "nature"
     },
     {
       "Number": 890,
-      "Hindi": "सीमा",
+      "Italian": "gamma",
       "in English": "range"
     },
     {
       "Number": 891,
-      "Hindi": "भाप",
+      "Italian": "vapore",
       "in English": "steam"
     },
     {
       "Number": 892,
-      "Hindi": "प्रस्ताव",
+      "Italian": "moto",
       "in English": "motion"
     },
     {
       "Number": 893,
-      "Hindi": "पथ",
+      "Italian": "sentiero",
       "in English": "path"
     },
     {
       "Number": 894,
-      "Hindi": "तरल",
+      "Italian": "liquido",
       "in English": "liquid"
     },
     {
       "Number": 895,
-      "Hindi": "लॉग इन करें",
+      "Italian": "log",
       "in English": "log"
     },
     {
       "Number": 896,
-      "Hindi": "मतलब",
+      "Italian": "significava",
       "in English": "meant"
     },
     {
       "Number": 897,
-      "Hindi": "भागफल",
+      "Italian": "quoziente",
       "in English": "quotient"
     },
     {
       "Number": 898,
-      "Hindi": "दांत",
+      "Italian": "denti",
       "in English": "teeth"
     },
     {
       "Number": 899,
-      "Hindi": "खोल",
+      "Italian": "guscio",
       "in English": "shell"
     },
     {
       "Number": 900,
-      "Hindi": "गर्दन",
+      "Italian": "collo",
       "in English": "neck"
     },
     {
       "Number": 901,
-      "Hindi": "ऑक्सीजन",
+      "Italian": "ossigeno",
       "in English": "oxygen"
     },
     {
       "Number": 902,
-      "Hindi": "चीनी",
+      "Italian": "zucchero",
       "in English": "sugar"
     },
     {
       "Number": 903,
-      "Hindi": "मौत",
+      "Italian": "morte",
       "in English": "death"
     },
     {
       "Number": 904,
-      "Hindi": "सुंदर",
+      "Italian": "piuttosto",
       "in English": "pretty"
     },
     {
       "Number": 905,
-      "Hindi": "कौशल",
+      "Italian": "abilità",
       "in English": "skill"
     },
     {
       "Number": 906,
-      "Hindi": "महिलाओं",
+      "Italian": "donne",
       "in English": "women"
     },
     {
       "Number": 907,
-      "Hindi": "मौसम",
+      "Italian": "stagione",
       "in English": "season"
     },
     {
       "Number": 908,
-      "Hindi": "समाधान",
+      "Italian": "soluzione",
       "in English": "solution"
     },
     {
       "Number": 909,
-      "Hindi": "चुंबक",
+      "Italian": "magnete",
       "in English": "magnet"
     },
     {
       "Number": 910,
-      "Hindi": "चांदी",
+      "Italian": "argento",
       "in English": "silver"
     },
     {
       "Number": 911,
-      "Hindi": "धन्यवाद",
+      "Italian": "grazie",
       "in English": "thank"
     },
     {
       "Number": 912,
-      "Hindi": "शाखा",
+      "Italian": "ramo",
       "in English": "branch"
     },
     {
       "Number": 913,
-      "Hindi": "मैच",
+      "Italian": "partita",
       "in English": "match"
     },
     {
       "Number": 914,
-      "Hindi": "प्रत्यय",
+      "Italian": "suffisso",
       "in English": "suffix"
     },
     {
       "Number": 915,
-      "Hindi": "विशेष रूप से",
+      "Italian": "particolarmente",
       "in English": "especially"
     },
     {
       "Number": 916,
-      "Hindi": "अंजीर",
+      "Italian": "fico",
       "in English": "fig"
     },
     {
       "Number": 917,
-      "Hindi": "डर",
+      "Italian": "impaurito",
       "in English": "afraid"
     },
     {
       "Number": 918,
-      "Hindi": "भारी",
+      "Italian": "enorme",
       "in English": "huge"
     },
     {
       "Number": 919,
-      "Hindi": "बहन",
+      "Italian": "sorella",
       "in English": "sister"
     },
     {
       "Number": 920,
-      "Hindi": "स्टील",
+      "Italian": "acciaio",
       "in English": "steel"
     },
     {
       "Number": 921,
-      "Hindi": "चर्चा",
+      "Italian": "discutere",
       "in English": "discuss"
     },
     {
       "Number": 922,
-      "Hindi": "आगे",
+      "Italian": "avanti",
       "in English": "forward"
     },
     {
       "Number": 923,
-      "Hindi": "इसी तरह",
+      "Italian": "simile",
       "in English": "similar"
     },
     {
       "Number": 924,
-      "Hindi": "गाइड",
+      "Italian": "guidare",
       "in English": "guide"
     },
     {
       "Number": 925,
-      "Hindi": "अनुभव",
+      "Italian": "esperienza",
       "in English": "experience"
     },
     {
       "Number": 926,
-      "Hindi": "स्कोर",
+      "Italian": "punteggio",
       "in English": "score"
     },
     {
       "Number": 927,
-      "Hindi": "सेब",
+      "Italian": "mela",
       "in English": "apple"
     },
     {
       "Number": 928,
-      "Hindi": "खरीदा",
+      "Italian": "comprato",
       "in English": "bought"
     },
     {
       "Number": 929,
-      "Hindi": "नेतृत्व",
+      "Italian": "portato",
       "in English": "led"
     },
     {
       "Number": 930,
-      "Hindi": "पिच",
+      "Italian": "pece",
       "in English": "pitch"
     },
     {
       "Number": 931,
-      "Hindi": "कोट",
+      "Italian": "cappotto",
       "in English": "coat"
     },
     {
       "Number": 932,
-      "Hindi": "सामूहिक",
+      "Italian": "massa",
       "in English": "mass"
     },
     {
       "Number": 933,
-      "Hindi": "कार्ड",
+      "Italian": "scheda",
       "in English": "card"
     },
     {
       "Number": 934,
-      "Hindi": "बैंड",
+      "Italian": "banda",
       "in English": "band"
     },
     {
       "Number": 935,
-      "Hindi": "रस्सी",
+      "Italian": "corda",
       "in English": "rope"
     },
     {
       "Number": 936,
-      "Hindi": "पर्ची",
+      "Italian": "slittamento",
       "in English": "slip"
     },
     {
       "Number": 937,
-      "Hindi": "जीत",
+      "Italian": "vittoria",
       "in English": "win"
     },
     {
       "Number": 938,
-      "Hindi": "सपना",
+      "Italian": "sognare",
       "in English": "dream"
     },
     {
       "Number": 939,
-      "Hindi": "शाम",
+      "Italian": "sera",
       "in English": "evening"
     },
     {
       "Number": 940,
-      "Hindi": "शर्त",
+      "Italian": "condizione",
       "in English": "condition"
     },
     {
       "Number": 941,
-      "Hindi": "फ़ीड",
+      "Italian": "alimentazione",
       "in English": "feed"
     },
     {
       "Number": 942,
-      "Hindi": "उपकरण",
+      "Italian": "strumento",
       "in English": "tool"
     },
     {
       "Number": 943,
-      "Hindi": "संपूर्ण",
+      "Italian": "totale",
       "in English": "total"
     },
     {
       "Number": 944,
-      "Hindi": "बुनियादी",
+      "Italian": "di base",
       "in English": "basic"
     },
     {
       "Number": 945,
-      "Hindi": "गंध",
+      "Italian": "odore",
       "in English": "smell"
     },
     {
       "Number": 946,
-      "Hindi": "घाटी",
+      "Italian": "valle",
       "in English": "valley"
     },
     {
       "Number": 947,
-      "Hindi": "और न ही",
+      "Italian": "né",
       "in English": "nor"
     },
     {
       "Number": 948,
-      "Hindi": "डबल",
+      "Italian": "doppio",
       "in English": "double"
     },
     {
       "Number": 949,
-      "Hindi": "सीट",
+      "Italian": "sedile",
       "in English": "seat"
     },
     {
       "Number": 950,
-      "Hindi": "जारी रखने के",
+      "Italian": "continuare",
       "in English": "continue"
     },
     {
       "Number": 951,
-      "Hindi": "खंड",
+      "Italian": "blocco",
       "in English": "block"
     },
     {
       "Number": 952,
-      "Hindi": "चार्ट",
+      "Italian": "grafico",
       "in English": "chart"
     },
     {
       "Number": 953,
-      "Hindi": "टोपी",
+      "Italian": "cappello",
       "in English": "hat"
     },
     {
       "Number": 954,
-      "Hindi": "बेचने",
+      "Italian": "vendere",
       "in English": "sell"
     },
     {
       "Number": 955,
-      "Hindi": "सफलता",
+      "Italian": "successo",
       "in English": "success"
     },
     {
       "Number": 956,
-      "Hindi": "कंपनी",
+      "Italian": "azienda",
       "in English": "company"
     },
     {
       "Number": 957,
-      "Hindi": "घटाना",
+      "Italian": "sottrarre",
       "in English": "subtract"
     },
     {
       "Number": 958,
-      "Hindi": "घटना",
+      "Italian": "evento",
       "in English": "event"
     },
     {
       "Number": 959,
-      "Hindi": "विशेष",
+      "Italian": "particolare",
       "in English": "particular"
     },
     {
       "Number": 960,
-      "Hindi": "सौदा",
+      "Italian": "affare",
       "in English": "deal"
     },
     {
       "Number": 961,
-      "Hindi": "तैरना",
+      "Italian": "nuoto",
       "in English": "swim"
     },
     {
       "Number": 962,
-      "Hindi": "अवधि",
+      "Italian": "termine",
       "in English": "term"
     },
     {
       "Number": 963,
-      "Hindi": "विपरीत",
+      "Italian": "opposto",
       "in English": "opposite"
     },
     {
       "Number": 964,
-      "Hindi": "पत्नी",
+      "Italian": "moglie",
       "in English": "wife"
     },
     {
       "Number": 965,
-      "Hindi": "जूता",
+      "Italian": "scarpa",
       "in English": "shoe"
     },
     {
       "Number": 966,
-      "Hindi": "कंधे",
+      "Italian": "spalla",
       "in English": "shoulder"
     },
     {
       "Number": 967,
-      "Hindi": "प्रसार",
+      "Italian": "spread",
       "in English": "spread"
     },
     {
       "Number": 968,
-      "Hindi": "व्यवस्था",
+      "Italian": "organizzare",
       "in English": "arrange"
     },
     {
       "Number": 969,
-      "Hindi": "शिविर",
+      "Italian": "campo",
       "in English": "camp"
     },
     {
       "Number": 970,
-      "Hindi": "आविष्कार",
+      "Italian": "inventare",
       "in English": "invent"
     },
     {
       "Number": 971,
-      "Hindi": "कपास",
+      "Italian": "cotone",
       "in English": "cotton"
     },
     {
       "Number": 972,
-      "Hindi": "Born",
+      "Italian": "nascita",
       "in English": "born"
     },
     {
       "Number": 973,
-      "Hindi": "निर्धारित",
+      "Italian": "determinare",
       "in English": "determine"
     },
     {
       "Number": 974,
-      "Hindi": "चौथाई गेलन",
+      "Italian": "quarto di gallone",
       "in English": "quart"
     },
     {
       "Number": 975,
-      "Hindi": "नौ",
+      "Italian": "nove",
       "in English": "nine"
     },
     {
       "Number": 976,
-      "Hindi": "ट्रक",
+      "Italian": "camion",
       "in English": "truck"
     },
     {
       "Number": 977,
-      "Hindi": "शोर",
+      "Italian": "rumore",
       "in English": "noise"
     },
     {
       "Number": 978,
-      "Hindi": "स्तर",
+      "Italian": "livello",
       "in English": "level"
     },
     {
       "Number": 979,
-      "Hindi": "संयोग",
+      "Italian": "possibilità",
       "in English": "chance"
     },
     {
       "Number": 980,
-      "Hindi": "इकट्ठा",
+      "Italian": "raccogliere",
       "in English": "gather"
     },
     {
       "Number": 981,
-      "Hindi": "दुकान",
+      "Italian": "negozio",
       "in English": "shop"
     },
     {
       "Number": 982,
-      "Hindi": "खिंचाव",
+      "Italian": "tratto",
       "in English": "stretch"
     },
     {
       "Number": 983,
-      "Hindi": "फेंक",
+      "Italian": "gettare",
       "in English": "throw"
     },
     {
       "Number": 984,
-      "Hindi": "चमक",
+      "Italian": "shine",
       "in English": "shine"
     },
     {
       "Number": 985,
-      "Hindi": "संपत्ति",
+      "Italian": "proprietà",
       "in English": "property"
     },
     {
       "Number": 986,
-      "Hindi": "स्तंभ",
+      "Italian": "colonna",
       "in English": "column"
     },
     {
       "Number": 987,
-      "Hindi": "अणु",
+      "Italian": "molecola",
       "in English": "molecule"
     },
     {
       "Number": 988,
-      "Hindi": "चयन",
+      "Italian": "selezionare",
       "in English": "select"
     },
     {
       "Number": 989,
-      "Hindi": "गलत",
+      "Italian": "sbagliato",
       "in English": "wrong"
     },
     {
       "Number": 990,
-      "Hindi": "ग्रे",
+      "Italian": "grigio",
       "in English": "gray"
     },
     {
       "Number": 991,
-      "Hindi": "दोहराना",
+      "Italian": "ripetizione",
       "in English": "repeat"
     },
     {
       "Number": 992,
-      "Hindi": "आवश्यकता",
+      "Italian": "richiedere",
       "in English": "require"
     },
     {
       "Number": 993,
-      "Hindi": "विस्तृत",
+      "Italian": "ampio",
       "in English": "broad"
     },
     {
       "Number": 994,
-      "Hindi": "तैयार",
+      "Italian": "preparare",
       "in English": "prepare"
     },
     {
       "Number": 995,
-      "Hindi": "नमक",
+      "Italian": "sale",
       "in English": "salt"
     },
     {
       "Number": 996,
-      "Hindi": "नाक",
+      "Italian": "naso",
       "in English": "nose"
     },
     {
       "Number": 997,
-      "Hindi": "बहुवचन",
+      "Italian": "plurale",
       "in English": "plural"
     },
     {
       "Number": 998,
-      "Hindi": "क्रोध",
+      "Italian": "rabbia",
       "in English": "anger"
     },
     {
       "Number": 999,
-      "Hindi": "दावा",
+      "Italian": "richiesta",
       "in English": "claim"
     },
     {
       "Number": 1000,
-      "Hindi": "महाद्वीप",
+      "Italian": "continente",
       "in English": "continent"
     }
 ];
 
-exports.language = "Hindi";
-exports.data = hindi;
+exports.language = "Italian";
+exports.data = italian;

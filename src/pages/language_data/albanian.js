@@ -5001,5 +5001,5 @@ const top_albanian = [
     },
 ];
 
-exports.language = "albanian"
+exports.language = "Albanian"
 exports.data = top_albanian
