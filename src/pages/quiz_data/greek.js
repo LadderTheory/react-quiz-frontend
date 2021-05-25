@@ -1,5005 +1,5005 @@
-const hindi = [
+const greek = [
     {
       "Number": 1,
-      "Hindi": "जैसा",
+      "Greek": "ως",
       "in English": "as"
     },
     {
       "Number": 2,
-      "Hindi": "मैं",
+      "Greek": "εδώ",
       "in English": "I"
     },
     {
       "Number": 3,
-      "Hindi": "उसके",
+      "Greek": "του",
       "in English": "his"
     },
     {
       "Number": 4,
-      "Hindi": "कि",
+      "Greek": "ότι",
       "in English": "that"
     },
     {
       "Number": 5,
-      "Hindi": "वह",
+      "Greek": "αυτός",
       "in English": "he"
     },
     {
       "Number": 6,
-      "Hindi": "था",
+      "Greek": "ήταν",
       "in English": "was"
     },
     {
       "Number": 7,
-      "Hindi": "के लिए",
+      "Greek": "για",
       "in English": "for"
     },
     {
       "Number": 8,
-      "Hindi": "पर",
+      "Greek": "επί",
       "in English": "on"
     },
     {
       "Number": 9,
-      "Hindi": "हैं",
+      "Greek": "είναι",
       "in English": "are"
     },
     {
       "Number": 10,
-      "Hindi": "साथ",
+      "Greek": "με",
       "in English": "with"
     },
     {
       "Number": 11,
-      "Hindi": "वे",
+      "Greek": "αυτοί",
       "in English": "they"
     },
     {
       "Number": 12,
-      "Hindi": "हो",
+      "Greek": "να",
       "in English": "be"
     },
     {
       "Number": 13,
-      "Hindi": "पर",
+      "Greek": "σε",
       "in English": "at"
     },
     {
       "Number": 14,
-      "Hindi": "एक",
+      "Greek": "ένας",
       "in English": "one"
     },
     {
       "Number": 15,
-      "Hindi": "है",
+      "Greek": "έχω",
       "in English": "have"
     },
     {
       "Number": 16,
-      "Hindi": "इस",
+      "Greek": "αυτό",
       "in English": "this"
     },
     {
       "Number": 17,
-      "Hindi": "से",
+      "Greek": "από",
       "in English": "from"
     },
     {
       "Number": 18,
-      "Hindi": "द्वारा",
+      "Greek": "από",
       "in English": "by"
     },
     {
       "Number": 19,
-      "Hindi": "गरम",
+      "Greek": "hot",
       "in English": "hot"
     },
     {
       "Number": 20,
-      "Hindi": "शब्द",
+      "Greek": "λέξη",
       "in English": "word"
     },
     {
       "Number": 21,
-      "Hindi": "लेकिन",
+      "Greek": "αλλά",
       "in English": "but"
     },
     {
       "Number": 22,
-      "Hindi": "क्या",
+      "Greek": "τι",
       "in English": "what"
     },
     {
       "Number": 23,
-      "Hindi": "कुछ",
+      "Greek": "περίπου",
       "in English": "some"
     },
     {
       "Number": 24,
-      "Hindi": "है",
+      "Greek": "είναι",
       "in English": "is"
     },
     {
       "Number": 25,
-      "Hindi": "यह",
+      "Greek": "το",
       "in English": "it"
     },
     {
       "Number": 26,
-      "Hindi": "आप",
+      "Greek": "σας",
       "in English": "you"
     },
     {
       "Number": 27,
-      "Hindi": "या",
+      "Greek": "ή",
       "in English": "or"
     },
     {
       "Number": 28,
-      "Hindi": "था",
+      "Greek": "είχε",
       "in English": "had"
     },
     {
       "Number": 29,
-      "Hindi": "",
+      "Greek": "ο",
       "in English": "the"
     },
     {
       "Number": 30,
-      "Hindi": "की",
+      "Greek": "από",
       "in English": "of"
     },
     {
       "Number": 31,
-      "Hindi": "तक",
+      "Greek": "να",
       "in English": "to"
     },
     {
       "Number": 32,
-      "Hindi": "और",
+      "Greek": "και",
       "in English": "and"
     },
     {
       "Number": 33,
-      "Hindi": "एक",
+      "Greek": "α",
       "in English": "a"
     },
     {
       "Number": 34,
-      "Hindi": "में",
+      "Greek": "σε",
       "in English": "in"
     },
     {
       "Number": 35,
-      "Hindi": "हम",
+      "Greek": "εμείς",
       "in English": "we"
     },
     {
       "Number": 36,
-      "Hindi": "कर सकते हैं",
+      "Greek": "μπορεί",
       "in English": "can"
     },
     {
       "Number": 37,
-      "Hindi": "बाहर",
+      "Greek": "από",
       "in English": "out"
     },
     {
       "Number": 38,
-      "Hindi": "अन्य",
+      "Greek": "άλλα",
       "in English": "other"
     },
     {
       "Number": 39,
-      "Hindi": "थे",
+      "Greek": "ήταν",
       "in English": "were"
     },
     {
       "Number": 40,
-      "Hindi": "जो",
+      "Greek": "ο οποίος",
       "in English": "which"
     },
     {
       "Number": 41,
-      "Hindi": "कर",
+      "Greek": "κάνει",
       "in English": "do"
     },
     {
       "Number": 42,
-      "Hindi": "उनके",
+      "Greek": "τους",
       "in English": "their"
     },
     {
       "Number": 43,
-      "Hindi": "समय",
+      "Greek": "χρόνος",
       "in English": "time"
     },
     {
       "Number": 44,
-      "Hindi": "अगर",
+      "Greek": "αν",
       "in English": "if"
     },
     {
       "Number": 45,
-      "Hindi": "होगा",
+      "Greek": "θα",
       "in English": "will"
     },
     {
       "Number": 46,
-      "Hindi": "कैसे",
+      "Greek": "πως",
       "in English": "how"
     },
     {
       "Number": 47,
-      "Hindi": "कहा",
+      "Greek": "είπε",
       "in English": "said"
     },
     {
       "Number": 48,
-      "Hindi": "एक",
+      "Greek": "ένα",
       "in English": "an"
     },
     {
       "Number": 49,
-      "Hindi": "प्रत्येक",
+      "Greek": "κάθε",
       "in English": "each"
     },
     {
       "Number": 50,
-      "Hindi": "बता",
+      "Greek": "πείτε",
       "in English": "tell"
     },
     {
       "Number": 51,
-      "Hindi": "करता है",
+      "Greek": "κάνει",
       "in English": "does"
     },
     {
       "Number": 52,
-      "Hindi": "सेट",
+      "Greek": "σετ",
       "in English": "set"
     },
     {
       "Number": 53,
-      "Hindi": "तीन",
+      "Greek": "τρία",
       "in English": "three"
     },
     {
       "Number": 54,
-      "Hindi": "चाहते हैं",
+      "Greek": "θέλω",
       "in English": "want"
     },
     {
       "Number": 55,
-      "Hindi": "हवा",
+      "Greek": "αέρας",
       "in English": "air"
     },
     {
       "Number": 56,
-      "Hindi": "अच्छी तरह से",
+      "Greek": "καλά",
       "in English": "well"
     },
     {
       "Number": 57,
-      "Hindi": "भी",
+      "Greek": "επίσης,",
       "in English": "also"
     },
     {
       "Number": 58,
-      "Hindi": "खेलने",
+      "Greek": "παιχνίδι",
       "in English": "play"
     },
     {
       "Number": 59,
-      "Hindi": "छोटे",
+      "Greek": "μικρό",
       "in English": "small"
     },
     {
       "Number": 60,
-      "Hindi": "अंत",
+      "Greek": "τέλος",
       "in English": "end"
     },
     {
       "Number": 61,
-      "Hindi": "डाल",
+      "Greek": "που",
       "in English": "put"
     },
     {
       "Number": 62,
-      "Hindi": "घर",
+      "Greek": "σπίτι",
       "in English": "home"
     },
     {
       "Number": 63,
-      "Hindi": "पढ़ा",
+      "Greek": "διαβάστε",
       "in English": "read"
     },
     {
       "Number": 64,
-      "Hindi": "हाथ",
+      "Greek": "χέρι",
       "in English": "hand"
     },
     {
       "Number": 65,
-      "Hindi": "बंदरगाह",
+      "Greek": "λιμάνι",
       "in English": "port"
     },
     {
       "Number": 66,
-      "Hindi": "बड़ा",
+      "Greek": "μεγάλες",
       "in English": "large"
     },
     {
       "Number": 67,
-      "Hindi": "जादू",
+      "Greek": "σημάνει",
       "in English": "spell"
     },
     {
       "Number": 68,
-      "Hindi": "जोड़",
+      "Greek": "προσθέσετε",
       "in English": "add"
     },
     {
       "Number": 69,
-      "Hindi": "और भी",
+      "Greek": "ακόμη",
       "in English": "even"
     },
     {
       "Number": 70,
-      "Hindi": "भूमि",
+      "Greek": "γη",
       "in English": "land"
     },
     {
       "Number": 71,
-      "Hindi": "यहाँ",
+      "Greek": "εδώ",
       "in English": "here"
     },
     {
       "Number": 72,
-      "Hindi": "चाहिए",
+      "Greek": "πρέπει",
       "in English": "must"
     },
     {
       "Number": 73,
-      "Hindi": "बड़ा",
+      "Greek": "μεγάλος",
       "in English": "big"
     },
     {
       "Number": 74,
-      "Hindi": "उच्च",
+      "Greek": "υψηλός",
       "in English": "high"
     },
     {
       "Number": 75,
-      "Hindi": "ऐसा",
+      "Greek": "όπως",
       "in English": "such"
     },
     {
       "Number": 76,
-      "Hindi": "का पालन करें",
+      "Greek": "ακολουθήστε",
       "in English": "follow"
     },
     {
       "Number": 77,
-      "Hindi": "अधिनियम",
+      "Greek": "πράξη",
       "in English": "act"
     },
     {
       "Number": 78,
-      "Hindi": "क्यों",
+      "Greek": "γιατί",
       "in English": "why"
     },
     {
       "Number": 79,
-      "Hindi": "पूछना",
+      "Greek": "ρωτήστε",
       "in English": "ask"
     },
     {
       "Number": 80,
-      "Hindi": "पुरुषों",
+      "Greek": "άνδρες",
       "in English": "men"
     },
     {
       "Number": 81,
-      "Hindi": "परिवर्तन",
+      "Greek": "αλλαγή",
       "in English": "change"
     },
     {
       "Number": 82,
-      "Hindi": "चला गया",
+      "Greek": "πήγε",
       "in English": "went"
     },
     {
       "Number": 83,
-      "Hindi": "प्रकाश",
+      "Greek": "φως",
       "in English": "light"
     },
     {
       "Number": 84,
-      "Hindi": "तरह",
+      "Greek": "είδος",
       "in English": "kind"
     },
     {
       "Number": 85,
-      "Hindi": "बंद",
+      "Greek": "απενεργοποίηση",
       "in English": "off"
     },
     {
       "Number": 86,
-      "Hindi": "आवश्यकता",
+      "Greek": "ανάγκη",
       "in English": "need"
     },
     {
       "Number": 87,
-      "Hindi": "घर",
+      "Greek": "σπίτι",
       "in English": "house"
     },
     {
       "Number": 88,
-      "Hindi": "तस्वीर",
+      "Greek": "εικόνα",
       "in English": "picture"
     },
     {
       "Number": 89,
-      "Hindi": "कोशिश",
+      "Greek": "δοκιμάστε",
       "in English": "try"
     },
     {
       "Number": 90,
-      "Hindi": "हमें",
+      "Greek": "μας",
       "in English": "us"
     },
     {
       "Number": 91,
-      "Hindi": "फिर",
+      "Greek": "πάλι",
       "in English": "again"
     },
     {
       "Number": 92,
-      "Hindi": "पशु",
+      "Greek": "ζώο",
       "in English": "animal"
     },
     {
       "Number": 93,
-      "Hindi": "बिंदु",
+      "Greek": "σημείο",
       "in English": "point"
     },
     {
       "Number": 94,
-      "Hindi": "मां",
+      "Greek": "Η μητέρα",
       "in English": "mother"
     },
     {
       "Number": 95,
-      "Hindi": "दुनिया",
+      "Greek": "κόσμο",
       "in English": "world"
     },
     {
       "Number": 96,
-      "Hindi": "निकट",
+      "Greek": "κοντά",
       "in English": "near"
     },
     {
       "Number": 97,
-      "Hindi": "बनाना",
+      "Greek": "οικοδομήσουμε",
       "in English": "build"
     },
     {
       "Number": 98,
-      "Hindi": "आत्म",
+      "Greek": "αυτο",
       "in English": "self"
     },
     {
       "Number": 99,
-      "Hindi": "पृथ्वी",
+      "Greek": "γη",
       "in English": "earth"
     },
     {
       "Number": 100,
-      "Hindi": "पिता",
+      "Greek": "Ο πατέρας",
       "in English": "father"
     },
     {
       "Number": 101,
-      "Hindi": "किसी भी",
+      "Greek": "κάθε",
       "in English": "any"
     },
     {
       "Number": 102,
-      "Hindi": "नई",
+      "Greek": "νέα",
       "in English": "new"
     },
     {
       "Number": 103,
-      "Hindi": "काम",
+      "Greek": "εργασία",
       "in English": "work"
     },
     {
       "Number": 104,
-      "Hindi": "हिस्सा",
+      "Greek": "μέρος",
       "in English": "part"
     },
     {
       "Number": 105,
-      "Hindi": "लेना",
+      "Greek": "λαμβάνουν",
       "in English": "take"
     },
     {
       "Number": 106,
-      "Hindi": "प्राप्त",
+      "Greek": "πάρετε",
       "in English": "get"
     },
     {
       "Number": 107,
-      "Hindi": "जगह",
+      "Greek": "θέση",
       "in English": "place"
     },
     {
       "Number": 108,
-      "Hindi": "निर्मित",
+      "Greek": "που",
       "in English": "made"
     },
     {
       "Number": 109,
-      "Hindi": "जीना",
+      "Greek": "ζω",
       "in English": "live"
     },
     {
       "Number": 110,
-      "Hindi": "जहां",
+      "Greek": "όπου",
       "in English": "where"
     },
     {
       "Number": 111,
-      "Hindi": "के बाद",
+      "Greek": "μετά",
       "in English": "after"
     },
     {
       "Number": 112,
-      "Hindi": "वापस",
+      "Greek": "πίσω",
       "in English": "back"
     },
     {
       "Number": 113,
-      "Hindi": "थोड़ा",
+      "Greek": "λίγο",
       "in English": "little"
     },
     {
       "Number": 114,
-      "Hindi": "केवल",
+      "Greek": "μόνο",
       "in English": "only"
     },
     {
       "Number": 115,
-      "Hindi": "दौर",
+      "Greek": "γύρος",
       "in English": "round"
     },
     {
       "Number": 116,
-      "Hindi": "आदमी",
+      "Greek": "άνθρωπος",
       "in English": "man"
     },
     {
       "Number": 117,
-      "Hindi": "वर्ष",
+      "Greek": "έτους",
       "in English": "year"
     },
     {
       "Number": 118,
-      "Hindi": "आया",
+      "Greek": "ήρθε",
       "in English": "came"
     },
     {
       "Number": 119,
-      "Hindi": "शो",
+      "Greek": "σόου",
       "in English": "show"
     },
     {
       "Number": 120,
-      "Hindi": "हर",
+      "Greek": "κάθε",
       "in English": "every"
     },
     {
       "Number": 121,
-      "Hindi": "अच्छा",
+      "Greek": "καλός",
       "in English": "good"
     },
     {
       "Number": 122,
-      "Hindi": "मुझे",
+      "Greek": "μου",
       "in English": "me"
     },
     {
       "Number": 123,
-      "Hindi": "दे",
+      "Greek": "δώσει",
       "in English": "give"
     },
     {
       "Number": 124,
-      "Hindi": "हमारे",
+      "Greek": "μας",
       "in English": "our"
     },
     {
       "Number": 125,
-      "Hindi": "नीचे",
+      "Greek": "υπό",
       "in English": "under"
     },
     {
       "Number": 126,
-      "Hindi": "नाम",
+      "Greek": "όνομα",
       "in English": "name"
     },
     {
       "Number": 127,
-      "Hindi": "बहुत",
+      "Greek": "πολύ",
       "in English": "very"
     },
     {
       "Number": 128,
-      "Hindi": "के माध्यम से",
+      "Greek": "μέσω",
       "in English": "through"
     },
     {
       "Number": 129,
-      "Hindi": "बस",
+      "Greek": "μόνο",
       "in English": "just"
     },
     {
       "Number": 130,
-      "Hindi": "फार्म",
+      "Greek": "μορφή",
       "in English": "form"
     },
     {
       "Number": 131,
-      "Hindi": "वाक्य",
+      "Greek": "φράση",
       "in English": "sentence"
     },
     {
       "Number": 132,
-      "Hindi": "महान",
+      "Greek": "μεγάλος",
       "in English": "great"
     },
     {
       "Number": 133,
-      "Hindi": "लगता है",
+      "Greek": "νομίζω",
       "in English": "think"
     },
     {
       "Number": 134,
-      "Hindi": "कहना",
+      "Greek": "λένε",
       "in English": "say"
     },
     {
       "Number": 135,
-      "Hindi": "मदद",
+      "Greek": "βοηθήσει",
       "in English": "help"
     },
     {
       "Number": 136,
-      "Hindi": "कम",
+      "Greek": "χαμηλής",
       "in English": "low"
     },
     {
       "Number": 137,
-      "Hindi": "रेखा",
+      "Greek": "γραμμή",
       "in English": "line"
     },
     {
       "Number": 138,
-      "Hindi": "अलग",
+      "Greek": "διαφέρουν",
       "in English": "differ"
     },
     {
       "Number": 139,
-      "Hindi": "बारी",
+      "Greek": "στροφή",
       "in English": "turn"
     },
     {
       "Number": 140,
-      "Hindi": "कारण",
+      "Greek": "αιτία",
       "in English": "cause"
     },
     {
       "Number": 141,
-      "Hindi": "ज्यादा",
+      "Greek": "πολύ",
       "in English": "much"
     },
     {
       "Number": 142,
-      "Hindi": "मतलब",
+      "Greek": "σημαίνει",
       "in English": "mean"
     },
     {
       "Number": 143,
-      "Hindi": "पहले",
+      "Greek": "πριν",
       "in English": "before"
     },
     {
       "Number": 144,
-      "Hindi": "चाल",
+      "Greek": "κίνηση",
       "in English": "move"
     },
     {
       "Number": 145,
-      "Hindi": "सही",
+      "Greek": "δεξιά",
       "in English": "right"
     },
     {
       "Number": 146,
-      "Hindi": "लड़का",
+      "Greek": "αγόρι",
       "in English": "boy"
     },
     {
       "Number": 147,
-      "Hindi": "पुराना",
+      "Greek": "γριά",
       "in English": "old"
     },
     {
       "Number": 148,
-      "Hindi": "भी",
+      "Greek": "πάρα πολύ",
       "in English": "too"
     },
     {
       "Number": 149,
-      "Hindi": "वही",
+      "Greek": "ίδιο",
       "in English": "same"
     },
     {
       "Number": 150,
-      "Hindi": "वह",
+      "Greek": "που",
       "in English": "she"
     },
     {
       "Number": 151,
-      "Hindi": "सब",
+      "Greek": "όλα",
       "in English": "all"
     },
     {
       "Number": 152,
-      "Hindi": "वहाँ",
+      "Greek": "εκεί",
       "in English": "there"
     },
     {
       "Number": 153,
-      "Hindi": "जब",
+      "Greek": "όταν",
       "in English": "when"
     },
     {
       "Number": 154,
-      "Hindi": "ऊपर",
+      "Greek": "επάνω",
       "in English": "up"
     },
     {
       "Number": 155,
-      "Hindi": "उपयोग",
+      "Greek": "χρήση",
       "in English": "use"
     },
     {
       "Number": 156,
-      "Hindi": "अपने",
+      "Greek": "σας",
       "in English": "your"
     },
     {
       "Number": 157,
-      "Hindi": "रास्ता",
+      "Greek": "τρόπος",
       "in English": "way"
     },
     {
       "Number": 158,
-      "Hindi": "के बारे में",
+      "Greek": "περίπου",
       "in English": "about"
     },
     {
       "Number": 159,
-      "Hindi": "कई",
+      "Greek": "πολλά",
       "in English": "many"
     },
     {
       "Number": 160,
-      "Hindi": "तो",
+      "Greek": "τότε",
       "in English": "then"
     },
     {
       "Number": 161,
-      "Hindi": "उन्हें",
+      "Greek": "τους",
       "in English": "them"
     },
     {
       "Number": 162,
-      "Hindi": "लिखना",
+      "Greek": "γράφω",
       "in English": "write"
     },
     {
       "Number": 163,
-      "Hindi": "होगा",
+      "Greek": "θα",
       "in English": "would"
     },
     {
       "Number": 164,
-      "Hindi": "जैसा",
+      "Greek": "σαν",
       "in English": "like"
     },
     {
       "Number": 165,
-      "Hindi": "तो",
+      "Greek": "έτσι",
       "in English": "so"
     },
     {
       "Number": 166,
-      "Hindi": "इन",
+      "Greek": "αυτά",
       "in English": "these"
     },
     {
       "Number": 167,
-      "Hindi": "उसके",
+      "Greek": "της",
       "in English": "her"
     },
     {
       "Number": 168,
-      "Hindi": "लंबे समय तक",
+      "Greek": "μακρά",
       "in English": "long"
     },
     {
       "Number": 169,
-      "Hindi": "कर",
+      "Greek": "κάνω",
       "in English": "make"
     },
     {
       "Number": 170,
-      "Hindi": "बात",
+      "Greek": "πράγμα",
       "in English": "thing"
     },
     {
       "Number": 171,
-      "Hindi": "देखना",
+      "Greek": "βλέπω",
       "in English": "see"
     },
     {
       "Number": 172,
-      "Hindi": "उसे",
+      "Greek": "τον",
       "in English": "him"
     },
     {
       "Number": 173,
-      "Hindi": "दो",
+      "Greek": "δυο",
       "in English": "two"
     },
     {
       "Number": 174,
-      "Hindi": "है",
+      "Greek": "έχει",
       "in English": "has"
     },
     {
       "Number": 175,
-      "Hindi": "देखो",
+      "Greek": "δείτε",
       "in English": "look"
     },
     {
       "Number": 176,
-      "Hindi": "अधिक",
+      "Greek": "περισσότερα",
       "in English": "more"
     },
     {
       "Number": 177,
-      "Hindi": "दिन",
+      "Greek": "ημέρα",
       "in English": "day"
     },
     {
       "Number": 178,
-      "Hindi": "सकता है",
+      "Greek": "θα μπορούσε",
       "in English": "could"
     },
     {
       "Number": 179,
-      "Hindi": "जाना",
+      "Greek": "πηγαίνω",
       "in English": "go"
     },
     {
       "Number": 180,
-      "Hindi": "आ",
+      "Greek": "έρχονται",
       "in English": "come"
     },
     {
       "Number": 181,
-      "Hindi": "किया",
+      "Greek": "έκανε",
       "in English": "did"
     },
     {
       "Number": 182,
-      "Hindi": "संख्या",
+      "Greek": "αριθμός",
       "in English": "number"
     },
     {
       "Number": 183,
-      "Hindi": "ध्वनि",
+      "Greek": "ήχος",
       "in English": "sound"
     },
     {
       "Number": 184,
-      "Hindi": "नहीं",
+      "Greek": "δεν",
       "in English": "no"
     },
     {
       "Number": 185,
-      "Hindi": "सबसे",
+      "Greek": "πλέον",
       "in English": "most"
     },
     {
       "Number": 186,
-      "Hindi": "लोग",
+      "Greek": "άνθρωποι",
       "in English": "people"
     },
     {
       "Number": 187,
-      "Hindi": "मेरे",
+      "Greek": "μου",
       "in English": "my"
     },
     {
       "Number": 188,
-      "Hindi": "अधिक",
+      "Greek": "πέρα",
       "in English": "over"
     },
     {
       "Number": 189,
-      "Hindi": "पता",
+      "Greek": "ξέρετε",
       "in English": "know"
     },
     {
       "Number": 190,
-      "Hindi": "पानी",
+      "Greek": "νερό",
       "in English": "water"
     },
     {
       "Number": 191,
-      "Hindi": "से",
+      "Greek": "από",
       "in English": "than"
     },
     {
       "Number": 192,
-      "Hindi": "कॉल",
+      "Greek": "κλήση",
       "in English": "call"
     },
     {
       "Number": 193,
-      "Hindi": "पहले",
+      "Greek": "πρώτη",
       "in English": "first"
     },
     {
       "Number": 194,
-      "Hindi": "कौन",
+      "Greek": "που",
       "in English": "who"
     },
     {
       "Number": 195,
-      "Hindi": "मई",
+      "Greek": "μπορεί",
       "in English": "may"
     },
     {
       "Number": 196,
-      "Hindi": "नीचे",
+      "Greek": "κάτω",
       "in English": "down"
     },
     {
       "Number": 197,
-      "Hindi": "पक्ष",
+      "Greek": "πλευρά",
       "in English": "side"
     },
     {
       "Number": 198,
-      "Hindi": "गया",
+      "Greek": "ήταν",
       "in English": "been"
     },
     {
       "Number": 199,
-      "Hindi": "अब",
+      "Greek": "τώρα",
       "in English": "now"
     },
     {
       "Number": 200,
-      "Hindi": "लगता है",
+      "Greek": "βρείτε",
       "in English": "find"
     },
     {
       "Number": 201,
-      "Hindi": "सिर",
+      "Greek": "κεφάλι",
       "in English": "head"
     },
     {
       "Number": 202,
-      "Hindi": "खड़े",
+      "Greek": "στάση",
       "in English": "stand"
     },
     {
       "Number": 203,
-      "Hindi": "खुद",
+      "Greek": "δική",
       "in English": "own"
     },
     {
       "Number": 204,
-      "Hindi": "पेज",
+      "Greek": "σελίδα",
       "in English": "page"
     },
     {
       "Number": 205,
-      "Hindi": "चाहिए",
+      "Greek": "θα πρέπει να",
       "in English": "should"
     },
     {
       "Number": 206,
-      "Hindi": "देश",
+      "Greek": "χώρα",
       "in English": "country"
     },
     {
       "Number": 207,
-      "Hindi": "पाया",
+      "Greek": "βρέθηκαν",
       "in English": "found"
     },
     {
       "Number": 208,
-      "Hindi": "जवाब",
+      "Greek": "απάντηση",
       "in English": "answer"
     },
     {
       "Number": 209,
-      "Hindi": "स्कूल",
+      "Greek": "σχολείο",
       "in English": "school"
     },
     {
       "Number": 210,
-      "Hindi": "बढ़ने",
+      "Greek": "μεγαλώνουν",
       "in English": "grow"
     },
     {
       "Number": 211,
-      "Hindi": "अध्ययन",
+      "Greek": "μελέτη",
       "in English": "study"
     },
     {
       "Number": 212,
-      "Hindi": "अब तक",
+      "Greek": "ακόμα",
       "in English": "still"
     },
     {
       "Number": 213,
-      "Hindi": "सीखना",
+      "Greek": "μάθετε",
       "in English": "learn"
     },
     {
       "Number": 214,
-      "Hindi": "संयंत्र",
+      "Greek": "φυτό",
       "in English": "plant"
     },
     {
       "Number": 215,
-      "Hindi": "कवर",
+      "Greek": "κάλυμμα",
       "in English": "cover"
     },
     {
       "Number": 216,
-      "Hindi": "भोजन",
+      "Greek": "τροφίμων",
       "in English": "food"
     },
     {
       "Number": 217,
-      "Hindi": "सूरज",
+      "Greek": "ήλιος",
       "in English": "sun"
     },
     {
       "Number": 218,
-      "Hindi": "चार",
+      "Greek": "τέσσερα",
       "in English": "four"
     },
     {
       "Number": 219,
-      "Hindi": "के बीच",
+      "Greek": "μεταξύ",
       "in English": "between"
     },
     {
       "Number": 220,
-      "Hindi": "राज्य",
+      "Greek": "κατάσταση",
       "in English": "state"
     },
     {
       "Number": 221,
-      "Hindi": "रखना",
+      "Greek": "κρατήσετε",
       "in English": "keep"
     },
     {
       "Number": 222,
-      "Hindi": "आंख",
+      "Greek": "μάτι",
       "in English": "eye"
     },
     {
       "Number": 223,
-      "Hindi": "कभी नहीं",
+      "Greek": "ποτέ",
       "in English": "never"
     },
     {
       "Number": 224,
-      "Hindi": "पिछले",
+      "Greek": "τελευταία",
       "in English": "last"
     },
     {
       "Number": 225,
-      "Hindi": "चलो",
+      "Greek": "ας",
       "in English": "let"
     },
     {
       "Number": 226,
-      "Hindi": "सोचा",
+      "Greek": "σκέψης",
       "in English": "thought"
     },
     {
       "Number": 227,
-      "Hindi": "शहर",
+      "Greek": "πόλη",
       "in English": "city"
     },
     {
       "Number": 228,
-      "Hindi": "पेड़",
+      "Greek": "δέντρο",
       "in English": "tree"
     },
     {
       "Number": 229,
-      "Hindi": "पार",
+      "Greek": "σταυρός",
       "in English": "cross"
     },
     {
       "Number": 230,
-      "Hindi": "खेत",
+      "Greek": "αγρόκτημα",
       "in English": "farm"
     },
     {
       "Number": 231,
-      "Hindi": "कठिन",
+      "Greek": "σκληρά",
       "in English": "hard"
     },
     {
       "Number": 232,
-      "Hindi": "शुरुआत",
+      "Greek": "αρχή",
       "in English": "start"
     },
     {
       "Number": 233,
-      "Hindi": "हो सकता है",
+      "Greek": "θα μπορούσε",
       "in English": "might"
     },
     {
       "Number": 234,
-      "Hindi": "कहानी",
+      "Greek": "ιστορία",
       "in English": "story"
     },
     {
       "Number": 235,
-      "Hindi": "देखा",
+      "Greek": "πριόνι",
       "in English": "saw"
     },
     {
       "Number": 236,
-      "Hindi": "दूर",
+      "Greek": "σήμερα",
       "in English": "far"
     },
     {
       "Number": 237,
-      "Hindi": "समुद्र",
+      "Greek": "θάλασσα",
       "in English": "sea"
     },
     {
       "Number": 238,
-      "Hindi": "आकर्षित",
+      "Greek": "κλήρωση",
       "in English": "draw"
     },
     {
       "Number": 239,
-      "Hindi": "छोड़ा",
+      "Greek": "αριστερά",
       "in English": "left"
     },
     {
       "Number": 240,
-      "Hindi": "देर से",
+      "Greek": "αργά",
       "in English": "late"
     },
     {
       "Number": 241,
-      "Hindi": "चलाने",
+      "Greek": "τρέχει",
       "in English": "run"
     },
     {
       "Number": 242,
-      "Hindi": "ऐसा नहीं",
+      "Greek": "μη",
       "in English": "don’t"
     },
     {
       "Number": 243,
-      "Hindi": "जबकि",
+      "Greek": "ενώ",
       "in English": "while"
     },
     {
       "Number": 244,
-      "Hindi": "प्रेस",
+      "Greek": "τύπου",
       "in English": "press"
     },
     {
       "Number": 245,
-      "Hindi": "करीब",
+      "Greek": "κοντά",
       "in English": "close"
     },
     {
       "Number": 246,
-      "Hindi": "रात",
+      "Greek": "νύχτα",
       "in English": "night"
     },
     {
       "Number": 247,
-      "Hindi": "असली",
+      "Greek": "πραγματική",
       "in English": "real"
     },
     {
       "Number": 248,
-      "Hindi": "जीवन",
+      "Greek": "ζωή",
       "in English": "life"
     },
     {
       "Number": 249,
-      "Hindi": "कुछ",
+      "Greek": "λίγα",
       "in English": "few"
     },
     {
       "Number": 250,
-      "Hindi": "उत्तर",
+      "Greek": "βόρεια",
       "in English": "north"
     },
     {
       "Number": 251,
-      "Hindi": "किताब",
+      "Greek": "βιβλίο",
       "in English": "book"
     },
     {
       "Number": 252,
-      "Hindi": "ले",
+      "Greek": "φέρουν",
       "in English": "carry"
     },
     {
       "Number": 253,
-      "Hindi": "ले लिया",
+      "Greek": "πήρε",
       "in English": "took"
     },
     {
       "Number": 254,
-      "Hindi": "विज्ञान",
+      "Greek": "επιστήμη",
       "in English": "science"
     },
     {
       "Number": 255,
-      "Hindi": "खाने",
+      "Greek": "φάτε",
       "in English": "eat"
     },
     {
       "Number": 256,
-      "Hindi": "कमरे",
+      "Greek": "δωμάτιο",
       "in English": "room"
     },
     {
       "Number": 257,
-      "Hindi": "दोस्त",
+      "Greek": "φίλος",
       "in English": "friend"
     },
     {
       "Number": 258,
-      "Hindi": "शुरू हुआ",
+      "Greek": "άρχισε",
       "in English": "began"
     },
     {
       "Number": 259,
-      "Hindi": "विचार",
+      "Greek": "ιδέα",
       "in English": "idea"
     },
     {
       "Number": 260,
-      "Hindi": "मछली",
+      "Greek": "ψάρι",
       "in English": "fish"
     },
     {
       "Number": 261,
-      "Hindi": "पहाड़",
+      "Greek": "βουνό",
       "in English": "mountain"
     },
     {
       "Number": 262,
-      "Hindi": "रोक",
+      "Greek": "στάση",
       "in English": "stop"
     },
     {
       "Number": 263,
-      "Hindi": "एक बार",
+      "Greek": "μια φορά",
       "in English": "once"
     },
     {
       "Number": 264,
-      "Hindi": "आधार",
+      "Greek": "βάση",
       "in English": "base"
     },
     {
       "Number": 265,
-      "Hindi": "सुनना",
+      "Greek": "ακούστε",
       "in English": "hear"
     },
     {
       "Number": 266,
-      "Hindi": "घोड़ा",
+      "Greek": "άλογο",
       "in English": "horse"
     },
     {
       "Number": 267,
-      "Hindi": "कटौती",
+      "Greek": "κόψιμο",
       "in English": "cut"
     },
     {
       "Number": 268,
-      "Hindi": "यकीन",
+      "Greek": "βέβαιος",
       "in English": "sure"
     },
     {
       "Number": 269,
-      "Hindi": "घड़ी",
+      "Greek": "παρακολουθήσετε",
       "in English": "watch"
     },
     {
       "Number": 270,
-      "Hindi": "रंग",
+      "Greek": "χρώμα",
       "in English": "color"
     },
     {
       "Number": 271,
-      "Hindi": "चेहरा",
+      "Greek": "πρόσωπο",
       "in English": "face"
     },
     {
       "Number": 272,
-      "Hindi": "लकड़ी",
+      "Greek": "ξύλο",
       "in English": "wood"
     },
     {
       "Number": 273,
-      "Hindi": "मुख्य",
+      "Greek": "κύρια",
       "in English": "main"
     },
     {
       "Number": 274,
-      "Hindi": "खुला",
+      "Greek": "ανοιχτή",
       "in English": "open"
     },
     {
       "Number": 275,
-      "Hindi": "प्रतीत",
+      "Greek": "φαίνεται",
       "in English": "seem"
     },
     {
       "Number": 276,
-      "Hindi": "एक साथ",
+      "Greek": "μαζί",
       "in English": "together"
     },
     {
       "Number": 277,
-      "Hindi": "अगला",
+      "Greek": "επόμενος",
       "in English": "next"
     },
     {
       "Number": 278,
-      "Hindi": "सफेद",
+      "Greek": "λευκό",
       "in English": "white"
     },
     {
       "Number": 279,
-      "Hindi": "बच्चों",
+      "Greek": "παιδιά",
       "in English": "children"
     },
     {
       "Number": 280,
-      "Hindi": "प्रारंभ करना",
+      "Greek": "αρχίσει",
       "in English": "begin"
     },
     {
       "Number": 281,
-      "Hindi": "मिला",
+      "Greek": "πήρε",
       "in English": "got"
     },
     {
       "Number": 282,
-      "Hindi": "चलना",
+      "Greek": "με τα πόδια",
       "in English": "walk"
     },
     {
       "Number": 283,
-      "Hindi": "उदाहरण",
+      "Greek": "παράδειγμα",
       "in English": "example"
     },
     {
       "Number": 284,
-      "Hindi": "आसानी",
+      "Greek": "ευκολία",
       "in English": "ease"
     },
     {
       "Number": 285,
-      "Hindi": "कागज",
+      "Greek": "χαρτί",
       "in English": "paper"
     },
     {
       "Number": 286,
-      "Hindi": "समूह",
+      "Greek": "ομάδα",
       "in English": "group"
     },
     {
       "Number": 287,
-      "Hindi": "सदैव",
+      "Greek": "πάντοτε",
       "in English": "always"
     },
     {
       "Number": 288,
-      "Hindi": "संगीत",
+      "Greek": "μουσική",
       "in English": "music"
     },
     {
       "Number": 289,
-      "Hindi": "उन",
+      "Greek": "εκείνοι",
       "in English": "those"
     },
     {
       "Number": 290,
-      "Hindi": "दोनों",
+      "Greek": "δύο",
       "in English": "both"
     },
     {
       "Number": 291,
-      "Hindi": "मार्क",
+      "Greek": "σήμα",
       "in English": "mark"
     },
     {
       "Number": 292,
-      "Hindi": "अक्सर",
+      "Greek": "συχνά",
       "in English": "often"
     },
     {
       "Number": 293,
-      "Hindi": "पत्र",
+      "Greek": "γράμμα",
       "in English": "letter"
     },
     {
       "Number": 294,
-      "Hindi": "जब तक",
+      "Greek": "μέχρι",
       "in English": "until"
     },
     {
       "Number": 295,
-      "Hindi": "मील",
+      "Greek": "μίλι",
       "in English": "mile"
     },
     {
       "Number": 296,
-      "Hindi": "नदी",
+      "Greek": "ποτάμι",
       "in English": "river"
     },
     {
       "Number": 297,
-      "Hindi": "कार",
+      "Greek": "αυτοκίνητο",
       "in English": "car"
     },
     {
       "Number": 298,
-      "Hindi": "पैर",
+      "Greek": "πόδια",
       "in English": "feet"
     },
     {
       "Number": 299,
-      "Hindi": "देखभाल",
+      "Greek": "φροντίδα",
       "in English": "care"
     },
     {
       "Number": 300,
-      "Hindi": "दूसरा",
+      "Greek": "δεύτερη",
       "in English": "second"
     },
     {
       "Number": 301,
-      "Hindi": "पर्याप्त",
+      "Greek": "αρκετά",
       "in English": "enough"
     },
     {
       "Number": 302,
-      "Hindi": "सादे",
+      "Greek": "απλό",
       "in English": "plain"
     },
     {
       "Number": 303,
-      "Hindi": "लड़की",
+      "Greek": "κορίτσι",
       "in English": "girl"
     },
     {
       "Number": 304,
-      "Hindi": "हमेशा की तरह",
+      "Greek": "συνήθεις",
       "in English": "usual"
     },
     {
       "Number": 305,
-      "Hindi": "युवा",
+      "Greek": "νέους",
       "in English": "young"
     },
     {
       "Number": 306,
-      "Hindi": "तैयार",
+      "Greek": "έτοιμο",
       "in English": "ready"
     },
     {
       "Number": 307,
-      "Hindi": "ऊपर",
+      "Greek": "παραπάνω",
       "in English": "above"
     },
     {
       "Number": 308,
-      "Hindi": "कभी",
+      "Greek": "πάντα",
       "in English": "ever"
     },
     {
       "Number": 309,
-      "Hindi": "लाल",
+      "Greek": "κόκκινο",
       "in English": "red"
     },
     {
       "Number": 310,
-      "Hindi": "सूची",
+      "Greek": "λίστα",
       "in English": "list"
     },
     {
       "Number": 311,
-      "Hindi": "हालांकि",
+      "Greek": "αν",
       "in English": "though"
     },
     {
       "Number": 312,
-      "Hindi": "लग रहा है",
+      "Greek": "αισθάνονται",
       "in English": "feel"
     },
     {
       "Number": 313,
-      "Hindi": "वार्ता",
+      "Greek": "Συζήτηση",
       "in English": "talk"
     },
     {
       "Number": 314,
-      "Hindi": "पक्षी",
+      "Greek": "πουλί",
       "in English": "bird"
     },
     {
       "Number": 315,
-      "Hindi": "शीघ्र",
+      "Greek": "σύντομα",
       "in English": "soon"
     },
     {
       "Number": 316,
-      "Hindi": "शरीर",
+      "Greek": "σώμα",
       "in English": "body"
     },
     {
       "Number": 317,
-      "Hindi": "कुत्ते",
+      "Greek": "σκύλος",
       "in English": "dog"
     },
     {
       "Number": 318,
-      "Hindi": "परिवार",
+      "Greek": "οικογένεια",
       "in English": "family"
     },
     {
       "Number": 319,
-      "Hindi": "प्रत्यक्ष",
+      "Greek": "απευθείας",
       "in English": "direct"
     },
     {
       "Number": 320,
-      "Hindi": "ढोंग",
+      "Greek": "ενέχουν",
       "in English": "pose"
     },
     {
       "Number": 321,
-      "Hindi": "छोड़",
+      "Greek": "αφήστε",
       "in English": "leave"
     },
     {
       "Number": 322,
-      "Hindi": "गीत",
+      "Greek": "τραγούδι",
       "in English": "song"
     },
     {
       "Number": 323,
-      "Hindi": "नाप",
+      "Greek": "μέτρο",
       "in English": "measure"
     },
     {
       "Number": 324,
-      "Hindi": "दरवाजा",
+      "Greek": "πόρτα",
       "in English": "door"
     },
     {
       "Number": 325,
-      "Hindi": "उत्पाद",
+      "Greek": "προϊόν",
       "in English": "product"
     },
     {
       "Number": 326,
-      "Hindi": "काला",
+      "Greek": "μαύρο",
       "in English": "black"
     },
     {
       "Number": 327,
-      "Hindi": "कम",
+      "Greek": "σύντομο",
       "in English": "short"
     },
     {
       "Number": 328,
-      "Hindi": "अंक",
+      "Greek": "αριθμητικό",
       "in English": "numeral"
     },
     {
       "Number": 329,
-      "Hindi": "क्लास",
+      "Greek": "κατηγορία",
       "in English": "class"
     },
     {
       "Number": 330,
-      "Hindi": "हवा",
+      "Greek": "άνεμος",
       "in English": "wind"
     },
     {
       "Number": 331,
-      "Hindi": "सवाल",
+      "Greek": "ερώτηση",
       "in English": "question"
     },
     {
       "Number": 332,
-      "Hindi": "होना",
+      "Greek": "συμβεί",
       "in English": "happen"
     },
     {
       "Number": 333,
-      "Hindi": "पूरा",
+      "Greek": "πλήρης",
       "in English": "complete"
     },
     {
       "Number": 334,
-      "Hindi": "जहाज",
+      "Greek": "πλοίο",
       "in English": "ship"
     },
     {
       "Number": 335,
-      "Hindi": "क्षेत्र",
+      "Greek": "έκταση",
       "in English": "area"
     },
     {
       "Number": 336,
-      "Hindi": "आधा",
+      "Greek": "ήμισυ",
       "in English": "half"
     },
     {
       "Number": 337,
-      "Hindi": "रॉक",
+      "Greek": "βράχος",
       "in English": "rock"
     },
     {
       "Number": 338,
-      "Hindi": "आदेश",
+      "Greek": "για",
       "in English": "order"
     },
     {
       "Number": 339,
-      "Hindi": "आग",
+      "Greek": "φωτιά",
       "in English": "fire"
     },
     {
       "Number": 340,
-      "Hindi": "दक्षिण",
+      "Greek": "νότια",
       "in English": "south"
     },
     {
       "Number": 341,
-      "Hindi": "समस्या",
+      "Greek": "πρόβλημα",
       "in English": "problem"
     },
     {
       "Number": 342,
-      "Hindi": "टुकड़ा",
+      "Greek": "κομμάτι",
       "in English": "piece"
     },
     {
       "Number": 343,
-      "Hindi": "बताया",
+      "Greek": "είπε",
       "in English": "told"
     },
     {
       "Number": 344,
-      "Hindi": "पता था",
+      "Greek": "ήξερε",
       "in English": "knew"
     },
     {
       "Number": 345,
-      "Hindi": "पास",
+      "Greek": "περάσει",
       "in English": "pass"
     },
     {
       "Number": 346,
-      "Hindi": "के बाद से",
+      "Greek": "από",
       "in English": "since"
     },
     {
       "Number": 347,
-      "Hindi": "शीर्ष",
+      "Greek": "κορυφή",
       "in English": "top"
     },
     {
       "Number": 348,
-      "Hindi": "पूरे",
+      "Greek": "ολόκληρο",
       "in English": "whole"
     },
     {
       "Number": 349,
-      "Hindi": "राजा",
+      "Greek": "βασιλιά",
       "in English": "king"
     },
     {
       "Number": 350,
-      "Hindi": "सड़क",
+      "Greek": "δρόμος",
       "in English": "street"
     },
     {
       "Number": 351,
-      "Hindi": "इंच",
+      "Greek": "ιντσών",
       "in English": "inch"
     },
     {
       "Number": 352,
-      "Hindi": "गुणा",
+      "Greek": "πολλαπλασιάστε",
       "in English": "multiply"
     },
     {
       "Number": 353,
-      "Hindi": "कुछ नहीं",
+      "Greek": "τίποτα",
       "in English": "nothing"
     },
     {
       "Number": 354,
-      "Hindi": "कोर्स",
+      "Greek": "πορεία",
       "in English": "course"
     },
     {
       "Number": 355,
-      "Hindi": "रहना",
+      "Greek": "μείνετε",
       "in English": "stay"
     },
     {
       "Number": 356,
-      "Hindi": "पहिया",
+      "Greek": "τροχός",
       "in English": "wheel"
     },
     {
       "Number": 357,
-      "Hindi": "पूर्ण",
+      "Greek": "πλήρους",
       "in English": "full"
     },
     {
       "Number": 358,
-      "Hindi": "बल",
+      "Greek": "δύναμη",
       "in English": "force"
     },
     {
       "Number": 359,
-      "Hindi": "नीला",
+      "Greek": "μπλε",
       "in English": "blue"
     },
     {
       "Number": 360,
-      "Hindi": "वस्तु",
+      "Greek": "αντικείμενο",
       "in English": "object"
     },
     {
       "Number": 361,
-      "Hindi": "तय",
+      "Greek": "αποφασίζει",
       "in English": "decide"
     },
     {
       "Number": 362,
-      "Hindi": "सतह",
+      "Greek": "επιφάνεια",
       "in English": "surface"
     },
     {
       "Number": 363,
-      "Hindi": "गहरा",
+      "Greek": "βαθιά",
       "in English": "deep"
     },
     {
       "Number": 364,
-      "Hindi": "चांद",
+      "Greek": "φεγγάρι",
       "in English": "moon"
     },
     {
       "Number": 365,
-      "Hindi": "द्वीप",
+      "Greek": "νησί",
       "in English": "island"
     },
     {
       "Number": 366,
-      "Hindi": "पैर",
+      "Greek": "πόδι",
       "in English": "foot"
     },
     {
       "Number": 367,
-      "Hindi": "प्रणाली",
+      "Greek": "σύστημα",
       "in English": "system"
     },
     {
       "Number": 368,
-      "Hindi": "व्यस्त",
+      "Greek": "απασχολημένος",
       "in English": "busy"
     },
     {
       "Number": 369,
-      "Hindi": "परीक्षण",
+      "Greek": "δοκιμή",
       "in English": "test"
     },
     {
       "Number": 370,
-      "Hindi": "रिकॉर्ड",
+      "Greek": "ρεκόρ",
       "in English": "record"
     },
     {
       "Number": 371,
-      "Hindi": "नाव",
+      "Greek": "βάρκα",
       "in English": "boat"
     },
     {
       "Number": 372,
-      "Hindi": "आम",
+      "Greek": "κοινός",
       "in English": "common"
     },
     {
       "Number": 373,
-      "Hindi": "सोना",
+      "Greek": "χρυσό",
       "in English": "gold"
     },
     {
       "Number": 374,
-      "Hindi": "संभव",
+      "Greek": "δυνατός",
       "in English": "possible"
     },
     {
       "Number": 375,
-      "Hindi": "विमान",
+      "Greek": "αεροπλάνο",
       "in English": "plane"
     },
     {
       "Number": 376,
-      "Hindi": "जगह",
+      "Greek": "αντ ‘",
       "in English": "stead"
     },
     {
       "Number": 377,
-      "Hindi": "सूखा",
+      "Greek": "ξηρό",
       "in English": "dry"
     },
     {
       "Number": 378,
-      "Hindi": "आश्चर्य",
+      "Greek": "αναρωτιέμαι",
       "in English": "wonder"
     },
     {
       "Number": 379,
-      "Hindi": "हंसी",
+      "Greek": "γέλιο",
       "in English": "laugh"
     },
     {
       "Number": 380,
-      "Hindi": "हजार",
+      "Greek": "χιλιάδες",
       "in English": "thousand"
     },
     {
       "Number": 381,
-      "Hindi": "पहले",
+      "Greek": "πριν",
       "in English": "ago"
     },
     {
       "Number": 382,
-      "Hindi": "भागा",
+      "Greek": "έτρεξε",
       "in English": "ran"
     },
     {
       "Number": 383,
-      "Hindi": "जाँच",
+      "Greek": "έλεγχος",
       "in English": "check"
     },
     {
       "Number": 384,
-      "Hindi": "खेल",
+      "Greek": "παιχνίδι",
       "in English": "game"
     },
     {
       "Number": 385,
-      "Hindi": "आकार",
+      "Greek": "σχήμα",
       "in English": "shape"
     },
     {
       "Number": 386,
-      "Hindi": "समानता",
+      "Greek": "εξισώνουν",
       "in English": "equate"
     },
     {
       "Number": 387,
-      "Hindi": "गरम",
+      "Greek": "ζεστό",
       "in English": "hot"
     },
     {
       "Number": 388,
-      "Hindi": "मिस",
+      "Greek": "δεσποινίς",
       "in English": "miss"
     },
     {
       "Number": 389,
-      "Hindi": "लाया",
+      "Greek": "έφερε",
       "in English": "brought"
     },
     {
       "Number": 390,
-      "Hindi": "गर्मी",
+      "Greek": "θερμότητα",
       "in English": "heat"
     },
     {
       "Number": 391,
-      "Hindi": "बर्फ",
+      "Greek": "χιόνι",
       "in English": "snow"
     },
     {
       "Number": 392,
-      "Hindi": "टायर",
+      "Greek": "ελαστικών",
       "in English": "tire"
     },
     {
       "Number": 393,
-      "Hindi": "लाना",
+      "Greek": "φέρω",
       "in English": "bring"
     },
     {
       "Number": 394,
-      "Hindi": "हां",
+      "Greek": "ναί",
       "in English": "yes"
     },
     {
       "Number": 395,
-      "Hindi": "दूर",
+      "Greek": "μακρινές",
       "in English": "distant"
     },
     {
       "Number": 396,
-      "Hindi": "भरने",
+      "Greek": "συμπληρώστε",
       "in English": "fill"
     },
     {
       "Number": 397,
-      "Hindi": "पूर्व",
+      "Greek": "ανατολικά",
       "in English": "east"
     },
     {
       "Number": 398,
-      "Hindi": "रंग",
+      "Greek": "ζωγραφίσει",
       "in English": "paint"
     },
     {
       "Number": 399,
-      "Hindi": "भाषा",
+      "Greek": "γλώσσα",
       "in English": "language"
     },
     {
       "Number": 400,
-      "Hindi": "के बीच",
+      "Greek": "μεταξύ",
       "in English": "among"
     },
     {
       "Number": 401,
-      "Hindi": "इकाई",
+      "Greek": "μονάδα",
       "in English": "unit"
     },
     {
       "Number": 402,
-      "Hindi": "बिजली",
+      "Greek": "δύναμη",
       "in English": "power"
     },
     {
       "Number": 403,
-      "Hindi": "शहर",
+      "Greek": "πόλη",
       "in English": "town"
     },
     {
       "Number": 404,
-      "Hindi": "ठीक",
+      "Greek": "πρόστιμο",
       "in English": "fine"
     },
     {
       "Number": 405,
-      "Hindi": "कुछ",
+      "Greek": "ορισμένες",
       "in English": "certain"
     },
     {
       "Number": 406,
-      "Hindi": "मक्खी",
+      "Greek": "πετάξει",
       "in English": "fly"
     },
     {
       "Number": 407,
-      "Hindi": "गिरावट",
+      "Greek": "πτώση",
       "in English": "fall"
     },
     {
       "Number": 408,
-      "Hindi": "नेतृत्व",
+      "Greek": "οδηγήσει",
       "in English": "lead"
     },
     {
       "Number": 409,
-      "Hindi": "रोना",
+      "Greek": "κραυγή",
       "in English": "cry"
     },
     {
       "Number": 410,
-      "Hindi": "अंधेरा",
+      "Greek": "σκούρο",
       "in English": "dark"
     },
     {
       "Number": 411,
-      "Hindi": "मशीन",
+      "Greek": "μηχανή",
       "in English": "machine"
     },
     {
       "Number": 412,
-      "Hindi": "नोट",
+      "Greek": "σημείωση",
       "in English": "note"
     },
     {
       "Number": 413,
-      "Hindi": "इंतजार",
+      "Greek": "περιμένετε",
       "in English": "wait"
     },
     {
       "Number": 414,
-      "Hindi": "योजना",
+      "Greek": "σχέδιο",
       "in English": "plan"
     },
     {
       "Number": 415,
-      "Hindi": "आंकड़ा",
+      "Greek": "εικόνα",
       "in English": "figure"
     },
     {
       "Number": 416,
-      "Hindi": "सितारा",
+      "Greek": "αστέρι",
       "in English": "star"
     },
     {
       "Number": 417,
-      "Hindi": "बॉक्स",
+      "Greek": "κουτί",
       "in English": "box"
     },
     {
       "Number": 418,
-      "Hindi": "संज्ञा",
+      "Greek": "όνομα",
       "in English": "noun"
     },
     {
       "Number": 419,
-      "Hindi": "क्षेत्र",
+      "Greek": "τομέα",
       "in English": "field"
     },
     {
       "Number": 420,
-      "Hindi": "बाकी",
+      "Greek": "ανάπαυση",
       "in English": "rest"
     },
     {
       "Number": 421,
-      "Hindi": "सही",
+      "Greek": "σωστός",
       "in English": "correct"
     },
     {
       "Number": 422,
-      "Hindi": "सक्षम",
+      "Greek": "θέση",
       "in English": "able"
     },
     {
       "Number": 423,
-      "Hindi": "पाउंड",
+      "Greek": "λίρα",
       "in English": "pound"
     },
     {
       "Number": 424,
-      "Hindi": "किया",
+      "Greek": "done",
       "in English": "done"
     },
     {
       "Number": 425,
-      "Hindi": "सुंदरता",
+      "Greek": "ομορφιά",
       "in English": "beauty"
     },
     {
       "Number": 426,
-      "Hindi": "ड्राइव",
+      "Greek": "drive",
       "in English": "drive"
     },
     {
       "Number": 427,
-      "Hindi": "खड़ा हुआ",
+      "Greek": "στάθηκε",
       "in English": "stood"
     },
     {
       "Number": 428,
-      "Hindi": "होते हैं",
+      "Greek": "περιέχουν",
       "in English": "contain"
     },
     {
       "Number": 429,
-      "Hindi": "सामने",
+      "Greek": "μπροστά",
       "in English": "front"
     },
     {
       "Number": 430,
-      "Hindi": "सिखाना",
+      "Greek": "διδάξουν",
       "in English": "teach"
     },
     {
       "Number": 431,
-      "Hindi": "सप्ताह",
+      "Greek": "εβδομάδα",
       "in English": "week"
     },
     {
       "Number": 432,
-      "Hindi": "अंतिम",
+      "Greek": "τελικό",
       "in English": "final"
     },
     {
       "Number": 433,
-      "Hindi": "दिया",
+      "Greek": "έδωσε",
       "in English": "gave"
     },
     {
       "Number": 434,
-      "Hindi": "हरे रंग",
+      "Greek": "πράσινος",
       "in English": "green"
     },
     {
       "Number": 435,
-      "Hindi": "ओह",
+      "Greek": "αμάν",
       "in English": "oh"
     },
     {
       "Number": 436,
-      "Hindi": "त्वरित",
+      "Greek": "γρήγορα",
       "in English": "quick"
     },
     {
       "Number": 437,
-      "Hindi": "विकसित",
+      "Greek": "ανάπτυξη",
       "in English": "develop"
     },
     {
       "Number": 438,
-      "Hindi": "सागर",
+      "Greek": "ωκεανός",
       "in English": "ocean"
     },
     {
       "Number": 439,
-      "Hindi": "गर्म",
+      "Greek": "ζεστό",
       "in English": "warm"
     },
     {
       "Number": 440,
-      "Hindi": "मुक्त",
+      "Greek": "δωρεάν",
       "in English": "free"
     },
     {
       "Number": 441,
-      "Hindi": "मिनट",
+      "Greek": "λεπτό",
       "in English": "minute"
     },
     {
       "Number": 442,
-      "Hindi": "मजबूत",
+      "Greek": "ισχυρή",
       "in English": "strong"
     },
     {
       "Number": 443,
-      "Hindi": "विशेष",
+      "Greek": "ειδικός",
       "in English": "special"
     },
     {
       "Number": 444,
-      "Hindi": "मन",
+      "Greek": "νου",
       "in English": "mind"
     },
     {
       "Number": 445,
-      "Hindi": "पीछे",
+      "Greek": "πίσω",
       "in English": "behind"
     },
     {
       "Number": 446,
-      "Hindi": "स्पष्ट",
+      "Greek": "σαφής",
       "in English": "clear"
     },
     {
       "Number": 447,
-      "Hindi": "पूंछ",
+      "Greek": "ουρά",
       "in English": "tail"
     },
     {
       "Number": 448,
-      "Hindi": "उत्पादन",
+      "Greek": "παράγουν",
       "in English": "produce"
     },
     {
       "Number": 449,
-      "Hindi": "तथ्य",
+      "Greek": "γεγονός",
       "in English": "fact"
     },
     {
       "Number": 450,
-      "Hindi": "अंतरिक्ष",
+      "Greek": "χώρο",
       "in English": "space"
     },
     {
       "Number": 451,
-      "Hindi": "सुना",
+      "Greek": "ακούσει",
       "in English": "heard"
     },
     {
       "Number": 452,
-      "Hindi": "सर्वश्रेष्ठ",
+      "Greek": "καλύτερο",
       "in English": "best"
     },
     {
       "Number": 453,
-      "Hindi": "घंटे",
+      "Greek": "ώρα",
       "in English": "hour"
     },
     {
       "Number": 454,
-      "Hindi": "बेहतर",
+      "Greek": "καλύτερη",
       "in English": "better"
     },
     {
       "Number": 455,
-      "Hindi": "सच",
+      "Greek": "αληθής",
       "in English": "true"
     },
     {
       "Number": 456,
-      "Hindi": "दौरान",
+      "Greek": "κατά τη διάρκεια της",
       "in English": "during"
     },
     {
       "Number": 457,
-      "Hindi": "सौ",
+      "Greek": "εκατό",
       "in English": "hundred"
     },
     {
       "Number": 458,
-      "Hindi": "पांच",
+      "Greek": "πέντε",
       "in English": "five"
     },
     {
       "Number": 459,
-      "Hindi": "याद",
+      "Greek": "θυμηθείτε",
       "in English": "remember"
     },
     {
       "Number": 460,
-      "Hindi": "कदम",
+      "Greek": "βήμα",
       "in English": "step"
     },
     {
       "Number": 461,
-      "Hindi": "शीघ्र",
+      "Greek": "νωρίς",
       "in English": "early"
     },
     {
       "Number": 462,
-      "Hindi": "पकड़",
+      "Greek": "κρατήστε",
       "in English": "hold"
     },
     {
       "Number": 463,
-      "Hindi": "पश्चिम",
+      "Greek": "δυτικά",
       "in English": "west"
     },
     {
       "Number": 464,
-      "Hindi": "जमीन",
+      "Greek": "έδαφος",
       "in English": "ground"
     },
     {
       "Number": 465,
-      "Hindi": "ब्याज",
+      "Greek": "ενδιαφέρον",
       "in English": "interest"
     },
     {
       "Number": 466,
-      "Hindi": "तक पहुँचने",
+      "Greek": "φτάσουν",
       "in English": "reach"
     },
     {
       "Number": 467,
-      "Hindi": "तेजी",
+      "Greek": "γρήγορα",
       "in English": "fast"
     },
     {
       "Number": 468,
-      "Hindi": "क्रिया",
+      "Greek": "ρήμα",
       "in English": "verb"
     },
     {
       "Number": 469,
-      "Hindi": "गाना",
+      "Greek": "τραγουδώ",
       "in English": "sing"
     },
     {
       "Number": 470,
-      "Hindi": "सुनो",
+      "Greek": "ακούστε",
       "in English": "listen"
     },
     {
       "Number": 471,
-      "Hindi": "छह",
+      "Greek": "έξι",
       "in English": "six"
     },
     {
       "Number": 472,
-      "Hindi": "तालिका",
+      "Greek": "τραπέζι",
       "in English": "table"
     },
     {
       "Number": 473,
-      "Hindi": "यात्रा",
+      "Greek": "ταξίδι",
       "in English": "travel"
     },
     {
       "Number": 474,
-      "Hindi": "कम",
+      "Greek": "λιγότερο",
       "in English": "less"
     },
     {
       "Number": 475,
-      "Hindi": "सुबह",
+      "Greek": "πρωί",
       "in English": "morning"
     },
     {
       "Number": 476,
-      "Hindi": "दस",
+      "Greek": "δέκα",
       "in English": "ten"
     },
     {
       "Number": 477,
-      "Hindi": "सरल",
+      "Greek": "απλό",
       "in English": "simple"
     },
     {
       "Number": 478,
-      "Hindi": "कई",
+      "Greek": "αρκετές",
       "in English": "several"
     },
     {
       "Number": 479,
-      "Hindi": "स्वर",
+      "Greek": "φωνήεν",
       "in English": "vowel"
     },
     {
       "Number": 480,
-      "Hindi": "की ओर",
+      "Greek": "προς",
       "in English": "toward"
     },
     {
       "Number": 481,
-      "Hindi": "युद्ध",
+      "Greek": "πόλεμο",
       "in English": "war"
     },
     {
       "Number": 482,
-      "Hindi": "रखना",
+      "Greek": "θέσει",
       "in English": "lay"
     },
     {
       "Number": 483,
-      "Hindi": "के खिलाफ",
+      "Greek": "κατά",
       "in English": "against"
     },
     {
       "Number": 484,
-      "Hindi": "पैटर्न",
+      "Greek": "μοτίβο",
       "in English": "pattern"
     },
     {
       "Number": 485,
-      "Hindi": "धीमी",
+      "Greek": "αργή",
       "in English": "slow"
     },
     {
       "Number": 486,
-      "Hindi": "केंद्र",
+      "Greek": "κέντρο",
       "in English": "center"
     },
     {
       "Number": 487,
-      "Hindi": "प्यार",
+      "Greek": "αγάπη",
       "in English": "love"
     },
     {
       "Number": 488,
-      "Hindi": "व्यक्ति",
+      "Greek": "πρόσωπο",
       "in English": "person"
     },
     {
       "Number": 489,
-      "Hindi": "धन",
+      "Greek": "χρήματα",
       "in English": "money"
     },
     {
       "Number": 490,
-      "Hindi": "सेवा कर",
+      "Greek": "εξυπηρετούν",
       "in English": "serve"
     },
     {
       "Number": 491,
-      "Hindi": "प्रकट",
+      "Greek": "εμφανίζονται",
       "in English": "appear"
     },
     {
       "Number": 492,
-      "Hindi": "सड़क",
+      "Greek": "δρόμος",
       "in English": "road"
     },
     {
       "Number": 493,
-      "Hindi": "नक्शा",
+      "Greek": "χάρτης",
       "in English": "map"
     },
     {
       "Number": 494,
-      "Hindi": "बारिश",
+      "Greek": "βροχή",
       "in English": "rain"
     },
     {
       "Number": 495,
-      "Hindi": "नियम",
+      "Greek": "κανόνας",
       "in English": "rule"
     },
     {
       "Number": 496,
-      "Hindi": "शासन",
+      "Greek": "διέπουν",
       "in English": "govern"
     },
     {
       "Number": 497,
-      "Hindi": "खींच",
+      "Greek": "τραβήξτε",
       "in English": "pull"
     },
     {
       "Number": 498,
-      "Hindi": "ठंड",
+      "Greek": "κρύο",
       "in English": "cold"
     },
     {
       "Number": 499,
-      "Hindi": "नोटिस",
+      "Greek": "ειδοποίηση",
       "in English": "notice"
     },
     {
       "Number": 500,
-      "Hindi": "आवाज",
+      "Greek": "φωνή",
       "in English": "voice"
     },
     {
       "Number": 501,
-      "Hindi": "ऊर्जा",
+      "Greek": "ενέργεια",
       "in English": "energy"
     },
     {
       "Number": 502,
-      "Hindi": "शिकार",
+      "Greek": "κυνήγι",
       "in English": "hunt"
     },
     {
       "Number": 503,
-      "Hindi": "संभावित",
+      "Greek": "πιθανή",
       "in English": "probable"
     },
     {
       "Number": 504,
-      "Hindi": "बिस्तर",
+      "Greek": "κρεβάτι",
       "in English": "bed"
     },
     {
       "Number": 505,
-      "Hindi": "भाई",
+      "Greek": "Ο αδελφός",
       "in English": "brother"
     },
     {
       "Number": 506,
-      "Hindi": "अंडा",
+      "Greek": "αυγό",
       "in English": "egg"
     },
     {
       "Number": 507,
-      "Hindi": "सवारी",
+      "Greek": "βόλτα",
       "in English": "ride"
     },
     {
       "Number": 508,
-      "Hindi": "सेल",
+      "Greek": "κυττάρων",
       "in English": "cell"
     },
     {
       "Number": 509,
-      "Hindi": "विश्वास है",
+      "Greek": "πιστεύουμε",
       "in English": "believe"
     },
     {
       "Number": 510,
-      "Hindi": "शायद",
+      "Greek": "ίσως",
       "in English": "perhaps"
     },
     {
       "Number": 511,
-      "Hindi": "उठाओ",
+      "Greek": "επιλέξτε",
       "in English": "pick"
     },
     {
       "Number": 512,
-      "Hindi": "अचानक",
+      "Greek": "ξαφνική",
       "in English": "sudden"
     },
     {
       "Number": 513,
-      "Hindi": "गिनती",
+      "Greek": "μετράνε",
       "in English": "count"
     },
     {
       "Number": 514,
-      "Hindi": "वर्ग",
+      "Greek": "πλατεία",
       "in English": "square"
     },
     {
       "Number": 515,
-      "Hindi": "कारण",
+      "Greek": "λόγος",
       "in English": "reason"
     },
     {
       "Number": 516,
-      "Hindi": "लंबाई",
+      "Greek": "μήκος",
       "in English": "length"
     },
     {
       "Number": 517,
-      "Hindi": "का प्रतिनिधित्व",
+      "Greek": "εκπροσωπώ",
       "in English": "represent"
     },
     {
       "Number": 518,
-      "Hindi": "कला",
+      "Greek": "τέχνη",
       "in English": "art"
     },
     {
       "Number": 519,
-      "Hindi": "विषय",
+      "Greek": "θέμα",
       "in English": "subject"
     },
     {
       "Number": 520,
-      "Hindi": "क्षेत्र",
+      "Greek": "περιοχή",
       "in English": "region"
     },
     {
       "Number": 521,
-      "Hindi": "आकार",
+      "Greek": "μέγεθος",
       "in English": "size"
     },
     {
       "Number": 522,
-      "Hindi": "भिन्न हो",
+      "Greek": "ποικίλλουν",
       "in English": "vary"
     },
     {
       "Number": 523,
-      "Hindi": "बसा",
+      "Greek": "εγκατασταθούν",
       "in English": "settle"
     },
     {
       "Number": 524,
-      "Hindi": "बोलना",
+      "Greek": "μιλούν",
       "in English": "speak"
     },
     {
       "Number": 525,
-      "Hindi": "वजन",
+      "Greek": "βάρος",
       "in English": "weight"
     },
     {
       "Number": 526,
-      "Hindi": "सामान्य",
+      "Greek": "γενικές",
       "in English": "general"
     },
     {
       "Number": 527,
-      "Hindi": "बर्फ",
+      "Greek": "πάγος",
       "in English": "ice"
     },
     {
       "Number": 528,
-      "Hindi": "मामला",
+      "Greek": "θέμα",
       "in English": "matter"
     },
     {
       "Number": 529,
-      "Hindi": "वृत्त",
+      "Greek": "κύκλο",
       "in English": "circle"
     },
     {
       "Number": 530,
-      "Hindi": "जोड़ी",
+      "Greek": "ζεύγος",
       "in English": "pair"
     },
     {
       "Number": 531,
-      "Hindi": "शामिल",
+      "Greek": "περιλαμβάνουν",
       "in English": "include"
     },
     {
       "Number": 532,
-      "Hindi": "विभाजन",
+      "Greek": "χάσματος",
       "in English": "divide"
     },
     {
       "Number": 533,
-      "Hindi": "शब्दांश",
+      "Greek": "συλλαβή",
       "in English": "syllable"
     },
     {
       "Number": 534,
-      "Hindi": "लगा",
+      "Greek": "αισθάνθηκε",
       "in English": "felt"
     },
     {
       "Number": 535,
-      "Hindi": "भव्य",
+      "Greek": "grand",
       "in English": "grand"
     },
     {
       "Number": 536,
-      "Hindi": "गेंद",
+      "Greek": "μπάλα",
       "in English": "ball"
     },
     {
       "Number": 537,
-      "Hindi": "अभी तक",
+      "Greek": "ακόμη",
       "in English": "yet"
     },
     {
       "Number": 538,
-      "Hindi": "लहर",
+      "Greek": "κύμα",
       "in English": "wave"
     },
     {
       "Number": 539,
-      "Hindi": "ड्रॉप",
+      "Greek": "πτώση",
       "in English": "drop"
     },
     {
       "Number": 540,
-      "Hindi": "दिल",
+      "Greek": "καρδιά",
       "in English": "heart"
     },
     {
       "Number": 541,
-      "Hindi": "AM",
+      "Greek": "είμαι",
       "in English": "am"
     },
     {
       "Number": 542,
-      "Hindi": "वर्तमान",
+      "Greek": "παρόν",
       "in English": "present"
     },
     {
       "Number": 543,
-      "Hindi": "भारी",
+      "Greek": "βαριά",
       "in English": "heavy"
     },
     {
       "Number": 544,
-      "Hindi": "नृत्य",
+      "Greek": "χορού",
       "in English": "dance"
     },
     {
       "Number": 545,
-      "Hindi": "इंजन",
+      "Greek": "κινητήρας",
       "in English": "engine"
     },
     {
       "Number": 546,
-      "Hindi": "स्थिति",
+      "Greek": "θέση",
       "in English": "position"
     },
     {
       "Number": 547,
-      "Hindi": "बांह",
+      "Greek": "μπράτσο",
       "in English": "arm"
     },
     {
       "Number": 548,
-      "Hindi": "विस्तृत",
+      "Greek": "ευρύ",
       "in English": "wide"
     },
     {
       "Number": 549,
-      "Hindi": "स्टील अथॉरिटी ऑफ इंडिया",
+      "Greek": "ιστίο",
       "in English": "sail"
     },
     {
       "Number": 550,
-      "Hindi": "सामग्री",
+      "Greek": "υλικό",
       "in English": "material"
     },
     {
       "Number": 551,
-      "Hindi": "अंश",
+      "Greek": "κλάσμα",
       "in English": "fraction"
     },
     {
       "Number": 552,
-      "Hindi": "वन",
+      "Greek": "δάσος",
       "in English": "forest"
     },
     {
       "Number": 553,
-      "Hindi": "बैठना",
+      "Greek": "καθίσει",
       "in English": "sit"
     },
     {
       "Number": 554,
-      "Hindi": "दौड़",
+      "Greek": "φυλή",
       "in English": "race"
     },
     {
       "Number": 555,
-      "Hindi": "खिड़की",
+      "Greek": "παράθυρο",
       "in English": "window"
     },
     {
       "Number": 556,
-      "Hindi": "दुकान",
+      "Greek": "κατάστημα",
       "in English": "store"
     },
     {
       "Number": 557,
-      "Hindi": "गर्मियों",
+      "Greek": "καλοκαίρι",
       "in English": "summer"
     },
     {
       "Number": 558,
-      "Hindi": "सफर",
+      "Greek": "τρένο",
       "in English": "train"
     },
     {
       "Number": 559,
-      "Hindi": "नींद",
+      "Greek": "ύπνου",
       "in English": "sleep"
     },
     {
       "Number": 560,
-      "Hindi": "साबित",
+      "Greek": "αποδειχθούν",
       "in English": "prove"
     },
     {
       "Number": 561,
-      "Hindi": "लोन",
+      "Greek": "μοναχικός",
       "in English": "lone"
     },
     {
       "Number": 562,
-      "Hindi": "पैर",
+      "Greek": "πόδι",
       "in English": "leg"
     },
     {
       "Number": 563,
-      "Hindi": "व्यायाम",
+      "Greek": "άσκηση",
       "in English": "exercise"
     },
     {
       "Number": 564,
-      "Hindi": "दीवार",
+      "Greek": "τοίχο",
       "in English": "wall"
     },
     {
       "Number": 565,
-      "Hindi": "पकड़",
+      "Greek": "σύλληψη",
       "in English": "catch"
     },
     {
       "Number": 566,
-      "Hindi": "माउंट",
+      "Greek": "mount",
       "in English": "mount"
     },
     {
       "Number": 567,
-      "Hindi": "इच्छा",
+      "Greek": "επιθυμούν",
       "in English": "wish"
     },
     {
       "Number": 568,
-      "Hindi": "आसमान",
+      "Greek": "ουρανό",
       "in English": "sky"
     },
     {
       "Number": 569,
-      "Hindi": "बोर्ड",
+      "Greek": "χαρτόνι",
       "in English": "board"
     },
     {
       "Number": 570,
-      "Hindi": "हर्ष",
+      "Greek": "χαρά",
       "in English": "joy"
     },
     {
       "Number": 571,
-      "Hindi": "सर्दियों",
+      "Greek": "χειμώνας",
       "in English": "winter"
     },
     {
       "Number": 572,
-      "Hindi": "शनि",
+      "Greek": "Σαβ",
       "in English": "sat"
     },
     {
       "Number": 573,
-      "Hindi": "लिखित",
+      "Greek": "γραπτή",
       "in English": "written"
     },
     {
       "Number": 574,
-      "Hindi": "जंगली",
+      "Greek": "άγρια",
       "in English": "wild"
     },
     {
       "Number": 575,
-      "Hindi": "साधन",
+      "Greek": "οργάνου",
       "in English": "instrument"
     },
     {
       "Number": 576,
-      "Hindi": "रखा",
+      "Greek": "φυλάσσονται",
       "in English": "kept"
     },
     {
       "Number": 577,
-      "Hindi": "कांच",
+      "Greek": "ποτήρι",
       "in English": "glass"
     },
     {
       "Number": 578,
-      "Hindi": "घास",
+      "Greek": "γρασίδι",
       "in English": "grass"
     },
     {
       "Number": 579,
-      "Hindi": "गाय",
+      "Greek": "αγελάδα",
       "in English": "cow"
     },
     {
       "Number": 580,
-      "Hindi": "काम",
+      "Greek": "δουλειά",
       "in English": "job"
     },
     {
       "Number": 581,
-      "Hindi": "बढ़त",
+      "Greek": "άκρο",
       "in English": "edge"
     },
     {
       "Number": 582,
-      "Hindi": "साइन",
+      "Greek": "πινακίδα",
       "in English": "sign"
     },
     {
       "Number": 583,
-      "Hindi": "यात्रा",
+      "Greek": "επίσκεψη",
       "in English": "visit"
     },
     {
       "Number": 584,
-      "Hindi": "अतीत",
+      "Greek": "παρελθόν",
       "in English": "past"
     },
     {
       "Number": 585,
-      "Hindi": "मुलायम",
+      "Greek": "μαλακός",
       "in English": "soft"
     },
     {
       "Number": 586,
-      "Hindi": "मज़ा",
+      "Greek": "διασκέδαση",
       "in English": "fun"
     },
     {
       "Number": 587,
-      "Hindi": "उज्ज्वल",
+      "Greek": "φωτεινό",
       "in English": "bright"
     },
     {
       "Number": 588,
-      "Hindi": "गैस",
+      "Greek": "αερίου",
       "in English": "gas"
     },
     {
       "Number": 589,
-      "Hindi": "मौसम",
+      "Greek": "καιρός",
       "in English": "weather"
     },
     {
       "Number": 590,
-      "Hindi": "माह",
+      "Greek": "μήνα",
       "in English": "month"
     },
     {
       "Number": 591,
-      "Hindi": "लाख",
+      "Greek": "εκατομμύρια",
       "in English": "million"
     },
     {
       "Number": 592,
-      "Hindi": "भालू",
+      "Greek": "φέρουν",
       "in English": "bear"
     },
     {
       "Number": 593,
-      "Hindi": "खत्म",
+      "Greek": "φινίρισμα",
       "in English": "finish"
     },
     {
       "Number": 594,
-      "Hindi": "खुश",
+      "Greek": "ευτυχισμένος",
       "in English": "happy"
     },
     {
       "Number": 595,
-      "Hindi": "आशा",
+      "Greek": "ελπίζω",
       "in English": "hope"
     },
     {
       "Number": 596,
-      "Hindi": "फूल",
+      "Greek": "λουλούδι",
       "in English": "flower"
     },
     {
       "Number": 597,
-      "Hindi": "कपड़े",
+      "Greek": "ντύσει",
       "in English": "clothe"
     },
     {
       "Number": 598,
-      "Hindi": "अजीब",
+      "Greek": "παράξενα",
       "in English": "strange"
     },
     {
       "Number": 599,
-      "Hindi": "चला गया",
+      "Greek": "φύγει",
       "in English": "gone"
     },
     {
       "Number": 600,
-      "Hindi": "व्यापार",
+      "Greek": "εμπόριο",
       "in English": "trade"
     },
     {
       "Number": 601,
-      "Hindi": "राग",
+      "Greek": "μελωδία",
       "in English": "melody"
     },
     {
       "Number": 602,
-      "Hindi": "यात्रा",
+      "Greek": "ταξίδι",
       "in English": "trip"
     },
     {
       "Number": 603,
-      "Hindi": "कार्यालय",
+      "Greek": "γραφείο",
       "in English": "office"
     },
     {
       "Number": 604,
-      "Hindi": "प्राप्त करना",
+      "Greek": "λαμβάνω",
       "in English": "receive"
     },
     {
       "Number": 605,
-      "Hindi": "पंक्ति",
+      "Greek": "σειρά",
       "in English": "row"
     },
     {
       "Number": 606,
-      "Hindi": "मुंह",
+      "Greek": "το στόμα",
       "in English": "mouth"
     },
     {
       "Number": 607,
-      "Hindi": "सटीक",
+      "Greek": "ακριβής",
       "in English": "exact"
     },
     {
       "Number": 608,
-      "Hindi": "प्रतीक",
+      "Greek": "σύμβολο",
       "in English": "symbol"
     },
     {
       "Number": 609,
-      "Hindi": "मरना",
+      "Greek": "πεθαίνω",
       "in English": "die"
     },
     {
       "Number": 610,
-      "Hindi": "कम से कम",
+      "Greek": "τουλάχιστον",
       "in English": "least"
     },
     {
       "Number": 611,
-      "Hindi": "मुसीबत",
+      "Greek": "πρόβλημα",
       "in English": "trouble"
     },
     {
       "Number": 612,
-      "Hindi": "चिल्लाओ",
+      "Greek": "κραυγή",
       "in English": "shout"
     },
     {
       "Number": 613,
-      "Hindi": "सिवाय",
+      "Greek": "εκτός",
       "in English": "except"
     },
     {
       "Number": 614,
-      "Hindi": "लिखा",
+      "Greek": "έγραψε",
       "in English": "wrote"
     },
     {
       "Number": 615,
-      "Hindi": "बीज",
+      "Greek": "σπόρων",
       "in English": "seed"
     },
     {
       "Number": 616,
-      "Hindi": "स्वर",
+      "Greek": "τόνος",
       "in English": "tone"
     },
     {
       "Number": 617,
-      "Hindi": "शामिल होने",
+      "Greek": "ένωση",
       "in English": "join"
     },
     {
       "Number": 618,
-      "Hindi": "सुझाव है",
+      "Greek": "προτείνουν",
       "in English": "suggest"
     },
     {
       "Number": 619,
-      "Hindi": "साफ",
+      "Greek": "καθαρό",
       "in English": "clean"
     },
     {
       "Number": 620,
-      "Hindi": "तोड़",
+      "Greek": "διάλειμμα",
       "in English": "break"
     },
     {
       "Number": 621,
-      "Hindi": "महिला",
+      "Greek": "η κυρία",
       "in English": "lady"
     },
     {
       "Number": 622,
-      "Hindi": "यार्ड",
+      "Greek": "αυλή",
       "in English": "yard"
     },
     {
       "Number": 623,
-      "Hindi": "वृद्धि",
+      "Greek": "αυξηθεί",
       "in English": "rise"
     },
     {
       "Number": 624,
-      "Hindi": "बुरा",
+      "Greek": "κακό",
       "in English": "bad"
     },
     {
       "Number": 625,
-      "Hindi": "झटका",
+      "Greek": "χτύπημα",
       "in English": "blow"
     },
     {
       "Number": 626,
-      "Hindi": "तेल",
+      "Greek": "πετρελαίου",
       "in English": "oil"
     },
     {
       "Number": 627,
-      "Hindi": "खून",
+      "Greek": "αίμα",
       "in English": "blood"
     },
     {
       "Number": 628,
-      "Hindi": "स्पर्श",
+      "Greek": "αγγίζετε",
       "in English": "touch"
     },
     {
       "Number": 629,
-      "Hindi": "बढ़ी",
+      "Greek": "μεγάλωσε",
       "in English": "grew"
     },
     {
       "Number": 630,
-      "Hindi": "प्रतिशत",
+      "Greek": "σεντ",
       "in English": "cent"
     },
     {
       "Number": 631,
-      "Hindi": "मिश्रण",
+      "Greek": "αναμίξτε",
       "in English": "mix"
     },
     {
       "Number": 632,
-      "Hindi": "टीम",
+      "Greek": "Η ομάδα",
       "in English": "team"
     },
     {
       "Number": 633,
-      "Hindi": "तार",
+      "Greek": "σύρμα",
       "in English": "wire"
     },
     {
       "Number": 634,
-      "Hindi": "लागत",
+      "Greek": "κόστος",
       "in English": "cost"
     },
     {
       "Number": 635,
-      "Hindi": "खोया",
+      "Greek": "χαμένος",
       "in English": "lost"
     },
     {
       "Number": 636,
-      "Hindi": "ब्राउन",
+      "Greek": "καφέ",
       "in English": "brown"
     },
     {
       "Number": 637,
-      "Hindi": "पहनना",
+      "Greek": "φθορά",
       "in English": "wear"
     },
     {
       "Number": 638,
-      "Hindi": "बगीचा",
+      "Greek": "κήπο",
       "in English": "garden"
     },
     {
       "Number": 639,
-      "Hindi": "बराबर",
+      "Greek": "ίση",
       "in English": "equal"
     },
     {
       "Number": 640,
-      "Hindi": "भेजा",
+      "Greek": "αποστέλλονται",
       "in English": "sent"
     },
     {
       "Number": 641,
-      "Hindi": "चयन",
+      "Greek": "επιλέξτε",
       "in English": "choose"
     },
     {
       "Number": 642,
-      "Hindi": "गिर गया",
+      "Greek": "έπεσε",
       "in English": "fell"
     },
     {
       "Number": 643,
-      "Hindi": "फिट",
+      "Greek": "ταιριάζει",
       "in English": "fit"
     },
     {
       "Number": 644,
-      "Hindi": "प्रवाह",
+      "Greek": "ροή",
       "in English": "flow"
     },
     {
       "Number": 645,
-      "Hindi": "मेला",
+      "Greek": "δίκαιος",
       "in English": "fair"
     },
     {
       "Number": 646,
-      "Hindi": "बैंक",
+      "Greek": "τράπεζα",
       "in English": "bank"
     },
     {
       "Number": 647,
-      "Hindi": "इकट्ठा",
+      "Greek": "συλλέγουν",
       "in English": "collect"
     },
     {
       "Number": 648,
-      "Hindi": "बचा",
+      "Greek": "αποθηκεύσετε",
       "in English": "save"
     },
     {
       "Number": 649,
-      "Hindi": "नियंत्रण",
+      "Greek": "ελέγχου",
       "in English": "control"
     },
     {
       "Number": 650,
-      "Hindi": "दशमलव",
+      "Greek": "δεκαδικό",
       "in English": "decimal"
     },
     {
       "Number": 651,
-      "Hindi": "कान",
+      "Greek": "αυτί",
       "in English": "ear"
     },
     {
       "Number": 652,
-      "Hindi": "बाकी",
+      "Greek": "άλλος",
       "in English": "else"
     },
     {
       "Number": 653,
-      "Hindi": "काफी",
+      "Greek": "αρκετά",
       "in English": "quite"
     },
     {
       "Number": 654,
-      "Hindi": "तोड़ दिया",
+      "Greek": "έσπασε",
       "in English": "broke"
     },
     {
       "Number": 655,
-      "Hindi": "मामले",
+      "Greek": "περίπτωση",
       "in English": "case"
     },
     {
       "Number": 656,
-      "Hindi": "बीच",
+      "Greek": "μέση",
       "in English": "middle"
     },
     {
       "Number": 657,
-      "Hindi": "हत्या",
+      "Greek": "σκοτώνουν",
       "in English": "kill"
     },
     {
       "Number": 658,
-      "Hindi": "बेटा",
+      "Greek": "Ο γιος",
       "in English": "son"
     },
     {
       "Number": 659,
-      "Hindi": "झील",
+      "Greek": "λίμνη",
       "in English": "lake"
     },
     {
       "Number": 660,
-      "Hindi": "पल",
+      "Greek": "στιγμή",
       "in English": "moment"
     },
     {
       "Number": 661,
-      "Hindi": "पैमाने",
+      "Greek": "κλίμακα",
       "in English": "scale"
     },
     {
       "Number": 662,
-      "Hindi": "जोर",
+      "Greek": "δυνατά",
       "in English": "loud"
     },
     {
       "Number": 663,
-      "Hindi": "वसंत",
+      "Greek": "άνοιξη",
       "in English": "spring"
     },
     {
       "Number": 664,
-      "Hindi": "निरीक्षण",
+      "Greek": "παρατηρώ",
       "in English": "observe"
     },
     {
       "Number": 665,
-      "Hindi": "बच्चे",
+      "Greek": "παιδί",
       "in English": "child"
     },
     {
       "Number": 666,
-      "Hindi": "सीधे",
+      "Greek": "ευθεία",
       "in English": "straight"
     },
     {
       "Number": 667,
-      "Hindi": "व्यंजन",
+      "Greek": "σύμφωνο",
       "in English": "consonant"
     },
     {
       "Number": 668,
-      "Hindi": "राष्ट्र",
+      "Greek": "έθνος",
       "in English": "nation"
     },
     {
       "Number": 669,
-      "Hindi": "शब्दकोश",
+      "Greek": "λεξικό",
       "in English": "dictionary"
     },
     {
       "Number": 670,
-      "Hindi": "दूध",
+      "Greek": "γάλα",
       "in English": "milk"
     },
     {
       "Number": 671,
-      "Hindi": "गति",
+      "Greek": "ταχύτητα",
       "in English": "speed"
     },
     {
       "Number": 672,
-      "Hindi": "विधि",
+      "Greek": "μέθοδος",
       "in English": "method"
     },
     {
       "Number": 673,
-      "Hindi": "अंग",
+      "Greek": "οργάνου",
       "in English": "organ"
     },
     {
       "Number": 674,
-      "Hindi": "भुगतान",
+      "Greek": "πληρωμή",
       "in English": "pay"
     },
     {
       "Number": 675,
-      "Hindi": "उम्र",
+      "Greek": "ηλικία",
       "in English": "age"
     },
     {
       "Number": 676,
-      "Hindi": "अनुभाग",
+      "Greek": "τμήμα",
       "in English": "section"
     },
     {
       "Number": 677,
-      "Hindi": "पोशाक",
+      "Greek": "φόρεμα",
       "in English": "dress"
     },
     {
       "Number": 678,
-      "Hindi": "बादल",
+      "Greek": "cloud",
       "in English": "cloud"
     },
     {
       "Number": 679,
-      "Hindi": "आश्चर्य",
+      "Greek": "έκπληξη",
       "in English": "surprise"
     },
     {
       "Number": 680,
-      "Hindi": "शांत",
+      "Greek": "ήσυχο",
       "in English": "quiet"
     },
     {
       "Number": 681,
-      "Hindi": "पत्थर",
+      "Greek": "πέτρα",
       "in English": "stone"
     },
     {
       "Number": 682,
-      "Hindi": "छोटे",
+      "Greek": "μικροσκοπικός",
       "in English": "tiny"
     },
     {
       "Number": 683,
-      "Hindi": "चढ़ाई",
+      "Greek": "ανάβαση",
       "in English": "climb"
     },
     {
       "Number": 684,
-      "Hindi": "शीतल",
+      "Greek": "δροσερό",
       "in English": "cool"
     },
     {
       "Number": 685,
-      "Hindi": "डिजाइन",
+      "Greek": "σχεδιασμός",
       "in English": "design"
     },
     {
       "Number": 686,
-      "Hindi": "गरीब",
+      "Greek": "φτωχός",
       "in English": "poor"
     },
     {
       "Number": 687,
-      "Hindi": "बहुत",
+      "Greek": "πολλά",
       "in English": "lot"
     },
     {
       "Number": 688,
-      "Hindi": "प्रयोग",
+      "Greek": "πείραμα",
       "in English": "experiment"
     },
     {
       "Number": 689,
-      "Hindi": "तल",
+      "Greek": "κάτω μέρος",
       "in English": "bottom"
     },
     {
       "Number": 690,
-      "Hindi": "कुंजी",
+      "Greek": "κλειδί",
       "in English": "key"
     },
     {
       "Number": 691,
-      "Hindi": "लोहा",
+      "Greek": "σίδερο",
       "in English": "iron"
     },
     {
       "Number": 692,
-      "Hindi": "एकल",
+      "Greek": "ενιαίου",
       "in English": "single"
     },
     {
       "Number": 693,
-      "Hindi": "छड़ी",
+      "Greek": "ραβδί",
       "in English": "stick"
     },
     {
       "Number": 694,
-      "Hindi": "फ्लैट",
+      "Greek": "επίπεδη",
       "in English": "flat"
     },
     {
       "Number": 695,
-      "Hindi": "बीस",
+      "Greek": "είκοσι",
       "in English": "twenty"
     },
     {
       "Number": 696,
-      "Hindi": "त्वचा",
+      "Greek": "δέρματος",
       "in English": "skin"
     },
     {
       "Number": 697,
-      "Hindi": "मुस्कान",
+      "Greek": "χαμόγελο",
       "in English": "smile"
     },
     {
       "Number": 698,
-      "Hindi": "क्रीज",
+      "Greek": "πτυχή",
       "in English": "crease"
     },
     {
       "Number": 699,
-      "Hindi": "छेद",
+      "Greek": "τρύπα",
       "in English": "hole"
     },
     {
       "Number": 700,
-      "Hindi": "कूद",
+      "Greek": "άλμα",
       "in English": "jump"
     },
     {
       "Number": 701,
-      "Hindi": "बच्चे",
+      "Greek": "μωρό",
       "in English": "baby"
     },
     {
       "Number": 702,
-      "Hindi": "आठ",
+      "Greek": "οκτώ",
       "in English": "eight"
     },
     {
       "Number": 703,
-      "Hindi": "गांव",
+      "Greek": "χωριό",
       "in English": "village"
     },
     {
       "Number": 704,
-      "Hindi": "मिलो",
+      "Greek": "πληρούν",
       "in English": "meet"
     },
     {
       "Number": 705,
-      "Hindi": "जड़",
+      "Greek": "ρίζα",
       "in English": "root"
     },
     {
       "Number": 706,
-      "Hindi": "खरीद",
+      "Greek": "αγοράζουν",
       "in English": "buy"
     },
     {
       "Number": 707,
-      "Hindi": "उठाना",
+      "Greek": "αύξηση",
       "in English": "raise"
     },
     {
       "Number": 708,
-      "Hindi": "हल",
+      "Greek": "επιλύσει",
       "in English": "solve"
     },
     {
       "Number": 709,
-      "Hindi": "धातु",
+      "Greek": "μετάλλων",
       "in English": "metal"
     },
     {
       "Number": 710,
-      "Hindi": "चाहे",
+      "Greek": "αν",
       "in English": "whether"
     },
     {
       "Number": 711,
-      "Hindi": "धक्का",
+      "Greek": "ώθηση",
       "in English": "push"
     },
     {
       "Number": 712,
-      "Hindi": "सात",
+      "Greek": "επτά",
       "in English": "seven"
     },
     {
       "Number": 713,
-      "Hindi": "पैरा",
+      "Greek": "παράγραφο",
       "in English": "paragraph"
     },
     {
       "Number": 714,
-      "Hindi": "तीसरे",
+      "Greek": "τρίτο",
       "in English": "third"
     },
     {
       "Number": 715,
-      "Hindi": "करेगा",
+      "Greek": "θα",
       "in English": "shall"
     },
     {
       "Number": 716,
-      "Hindi": "आयोजित",
+      "Greek": "χειρός",
       "in English": "held"
     },
     {
       "Number": 717,
-      "Hindi": "बाल",
+      "Greek": "μαλλιά",
       "in English": "hair"
     },
     {
       "Number": 718,
-      "Hindi": "वर्णन",
+      "Greek": "περιγράψει",
       "in English": "describe"
     },
     {
       "Number": 719,
-      "Hindi": "कुक",
+      "Greek": "μάγειρας",
       "in English": "cook"
     },
     {
       "Number": 720,
-      "Hindi": "मंजिल",
+      "Greek": "πάτωμα",
       "in English": "floor"
     },
     {
       "Number": 721,
-      "Hindi": "भी",
+      "Greek": "είτε",
       "in English": "either"
     },
     {
       "Number": 722,
-      "Hindi": "परिणाम",
+      "Greek": "αποτέλεσμα",
       "in English": "result"
     },
     {
       "Number": 723,
-      "Hindi": "जला",
+      "Greek": "έγκαυμα",
       "in English": "burn"
     },
     {
       "Number": 724,
-      "Hindi": "पहाड़ी",
+      "Greek": "λόφος",
       "in English": "hill"
     },
     {
       "Number": 725,
-      "Hindi": "सुरक्षित",
+      "Greek": "ασφαλής",
       "in English": "safe"
     },
     {
       "Number": 726,
-      "Hindi": "बिल्ली",
+      "Greek": "γάτα",
       "in English": "cat"
     },
     {
       "Number": 727,
-      "Hindi": "सदी",
+      "Greek": "αιώνα",
       "in English": "century"
     },
     {
       "Number": 728,
-      "Hindi": "विचार करना",
+      "Greek": "σκεφτείτε",
       "in English": "consider"
     },
     {
       "Number": 729,
-      "Hindi": "प्रकार",
+      "Greek": "τύπος",
       "in English": "type"
     },
     {
       "Number": 730,
-      "Hindi": "कानून",
+      "Greek": "του νόμου",
       "in English": "law"
     },
     {
       "Number": 731,
-      "Hindi": "बिट",
+      "Greek": "λίγο",
       "in English": "bit"
     },
     {
       "Number": 732,
-      "Hindi": "तट",
+      "Greek": "ακτή",
       "in English": "coast"
     },
     {
       "Number": 733,
-      "Hindi": "नकल",
+      "Greek": "αντίγραφο",
       "in English": "copy"
     },
     {
       "Number": 734,
-      "Hindi": "वाक्यांश",
+      "Greek": "φράση",
       "in English": "phrase"
     },
     {
       "Number": 735,
-      "Hindi": "चुप",
+      "Greek": "σιωπηλή",
       "in English": "silent"
     },
     {
       "Number": 736,
-      "Hindi": "लंबा",
+      "Greek": "ψηλός",
       "in English": "tall"
     },
     {
       "Number": 737,
-      "Hindi": "रेत",
+      "Greek": "άμμου",
       "in English": "sand"
     },
     {
       "Number": 738,
-      "Hindi": "मिट्टी",
+      "Greek": "χώμα",
       "in English": "soil"
     },
     {
       "Number": 739,
-      "Hindi": "रोल",
+      "Greek": "ρολό",
       "in English": "roll"
     },
     {
       "Number": 740,
-      "Hindi": "तापमान",
+      "Greek": "θερμοκρασία",
       "in English": "temperature"
     },
     {
       "Number": 741,
-      "Hindi": "उंगली",
+      "Greek": "δάχτυλο",
       "in English": "finger"
     },
     {
       "Number": 742,
-      "Hindi": "उद्योग",
+      "Greek": "βιομηχανία",
       "in English": "industry"
     },
     {
       "Number": 743,
-      "Hindi": "मूल्य",
+      "Greek": "αξία",
       "in English": "value"
     },
     {
       "Number": 744,
-      "Hindi": "लड़ाई",
+      "Greek": "αγώνα",
       "in English": "fight"
     },
     {
       "Number": 745,
-      "Hindi": "झूठ",
+      "Greek": "ψέμα",
       "in English": "lie"
     },
     {
       "Number": 746,
-      "Hindi": "हरा",
+      "Greek": "νικήσει",
       "in English": "beat"
     },
     {
       "Number": 747,
-      "Hindi": "उत्तेजित",
+      "Greek": "διεγείρει",
       "in English": "excite"
     },
     {
       "Number": 748,
-      "Hindi": "प्राकृतिक",
+      "Greek": "φυσικές",
       "in English": "natural"
     },
     {
       "Number": 749,
-      "Hindi": "देखें",
+      "Greek": "θέα",
       "in English": "view"
     },
     {
       "Number": 750,
-      "Hindi": "भावना",
+      "Greek": "νόημα",
       "in English": "sense"
     },
     {
       "Number": 751,
-      "Hindi": "राजधानी",
+      "Greek": "κεφάλαιο",
       "in English": "capital"
     },
     {
       "Number": 752,
-      "Hindi": "नहीं होगा",
+      "Greek": "δεν θα",
       "in English": "won’t"
     },
     {
       "Number": 753,
-      "Hindi": "कुर्सी",
+      "Greek": "καρέκλα",
       "in English": "chair"
     },
     {
       "Number": 754,
-      "Hindi": "खतरे",
+      "Greek": "κίνδυνο",
       "in English": "danger"
     },
     {
       "Number": 755,
-      "Hindi": "फल",
+      "Greek": "φρούτα",
       "in English": "fruit"
     },
     {
       "Number": 756,
-      "Hindi": "अमीर",
+      "Greek": "πλούσιος",
       "in English": "rich"
     },
     {
       "Number": 757,
-      "Hindi": "मोटी",
+      "Greek": "παχύ",
       "in English": "thick"
     },
     {
       "Number": 758,
-      "Hindi": "सैनिक",
+      "Greek": "στρατιώτης",
       "in English": "soldier"
     },
     {
       "Number": 759,
-      "Hindi": "प्रक्रिया",
+      "Greek": "διαδικασία",
       "in English": "process"
     },
     {
       "Number": 760,
-      "Hindi": "संचालित",
+      "Greek": "λειτουργούν",
       "in English": "operate"
     },
     {
       "Number": 761,
-      "Hindi": "अभ्यास",
+      "Greek": "πρακτική",
       "in English": "practice"
     },
     {
       "Number": 762,
-      "Hindi": "अलग",
+      "Greek": "ξεχωριστός",
       "in English": "separate"
     },
     {
       "Number": 763,
-      "Hindi": "मुश्किल",
+      "Greek": "δύσκολο",
       "in English": "difficult"
     },
     {
       "Number": 764,
-      "Hindi": "चिकित्सक",
+      "Greek": "γιατρός",
       "in English": "doctor"
     },
     {
       "Number": 765,
-      "Hindi": "कृपया",
+      "Greek": "παρακαλώ",
       "in English": "please"
     },
     {
       "Number": 766,
-      "Hindi": "रक्षा",
+      "Greek": "προστασία",
       "in English": "protect"
     },
     {
       "Number": 767,
-      "Hindi": "दोपहर",
+      "Greek": "το μεσημέρι",
       "in English": "noon"
     },
     {
       "Number": 768,
-      "Hindi": "फसल",
+      "Greek": "καλλιέργεια",
       "in English": "crop"
     },
     {
       "Number": 769,
-      "Hindi": "आधुनिक",
+      "Greek": "σύγχρονος",
       "in English": "modern"
     },
     {
       "Number": 770,
-      "Hindi": "तत्व",
+      "Greek": "στοιχείο",
       "in English": "element"
     },
     {
       "Number": 771,
-      "Hindi": "मारना",
+      "Greek": "χτύπημα",
       "in English": "hit"
     },
     {
       "Number": 772,
-      "Hindi": "छात्र",
+      "Greek": "φοιτητής",
       "in English": "student"
     },
     {
       "Number": 773,
-      "Hindi": "कोने",
+      "Greek": "γωνία",
       "in English": "corner"
     },
     {
       "Number": 774,
-      "Hindi": "पार्टी",
+      "Greek": "κόμμα",
       "in English": "party"
     },
     {
       "Number": 775,
-      "Hindi": "आपूर्ति",
+      "Greek": "προμήθεια",
       "in English": "supply"
     },
     {
       "Number": 776,
-      "Hindi": "जिसका",
+      "Greek": "των οποίων",
       "in English": "whose"
     },
     {
       "Number": 777,
-      "Hindi": "स्थिति जानें",
+      "Greek": "εντοπίσετε",
       "in English": "locate"
     },
     {
       "Number": 778,
-      "Hindi": "अंगूठी",
+      "Greek": "δαχτυλίδι",
       "in English": "ring"
     },
     {
       "Number": 779,
-      "Hindi": "चरित्र",
+      "Greek": "χαρακτήρας",
       "in English": "character"
     },
     {
       "Number": 780,
-      "Hindi": "कीट",
+      "Greek": "έντομο",
       "in English": "insect"
     },
     {
       "Number": 781,
-      "Hindi": "पकड़ा",
+      "Greek": "αλιεύονται",
       "in English": "caught"
     },
     {
       "Number": 782,
-      "Hindi": "अवधि",
+      "Greek": "περίοδο",
       "in English": "period"
     },
     {
       "Number": 783,
-      "Hindi": "संकेत मिलता है",
+      "Greek": "υποδεικνύουν",
       "in English": "indicate"
     },
     {
       "Number": 784,
-      "Hindi": "रेडियो",
+      "Greek": "ράδιο",
       "in English": "radio"
     },
     {
       "Number": 785,
-      "Hindi": "बात",
+      "Greek": "μίλησε",
       "in English": "spoke"
     },
     {
       "Number": 786,
-      "Hindi": "एटम",
+      "Greek": "άτομο",
       "in English": "atom"
     },
     {
       "Number": 787,
-      "Hindi": "मानव",
+      "Greek": "ανθρώπινη",
       "in English": "human"
     },
     {
       "Number": 788,
-      "Hindi": "इतिहास",
+      "Greek": "ιστορία",
       "in English": "history"
     },
     {
       "Number": 789,
-      "Hindi": "प्रभाव",
+      "Greek": "επίδραση",
       "in English": "effect"
     },
     {
       "Number": 790,
-      "Hindi": "बिजली",
+      "Greek": "ηλεκτρικός",
       "in English": "electric"
     },
     {
       "Number": 791,
-      "Hindi": "उम्मीद",
+      "Greek": "αναμένω",
       "in English": "expect"
     },
     {
       "Number": 792,
-      "Hindi": "हड्डी",
+      "Greek": "των οστών",
       "in English": "bone"
     },
     {
       "Number": 793,
-      "Hindi": "रेल",
+      "Greek": "σιδηροδρομικές",
       "in English": "rail"
     },
     {
       "Number": 794,
-      "Hindi": "कल्पना",
+      "Greek": "φανταστείτε",
       "in English": "imagine"
     },
     {
       "Number": 795,
-      "Hindi": "प्रदान",
+      "Greek": "παρέχουν",
       "in English": "provide"
     },
     {
       "Number": 796,
-      "Hindi": "सहमत",
+      "Greek": "συμφωνώ",
       "in English": "agree"
     },
     {
       "Number": 797,
-      "Hindi": "इस प्रकार",
+      "Greek": "έτσι",
       "in English": "thus"
     },
     {
       "Number": 798,
-      "Hindi": "कोमल",
+      "Greek": "ευγενής",
       "in English": "gentle"
     },
     {
       "Number": 799,
-      "Hindi": "महिला",
+      "Greek": "γυναίκα",
       "in English": "woman"
     },
     {
       "Number": 800,
-      "Hindi": "कप्तान",
+      "Greek": "καπετάνιος",
       "in English": "captain"
     },
     {
       "Number": 801,
-      "Hindi": "अनुमान",
+      "Greek": "υποθέτω",
       "in English": "guess"
     },
     {
       "Number": 802,
-      "Hindi": "आवश्यक",
+      "Greek": "απαραίτητο",
       "in English": "necessary"
     },
     {
       "Number": 803,
-      "Hindi": "तेज़",
+      "Greek": "αιχμηρός",
       "in English": "sharp"
     },
     {
       "Number": 804,
-      "Hindi": "पंख",
+      "Greek": "φτερό",
       "in English": "wing"
     },
     {
       "Number": 805,
-      "Hindi": "बना",
+      "Greek": "δημιουργήσετε",
       "in English": "create"
     },
     {
       "Number": 806,
-      "Hindi": "पड़ोसी",
+      "Greek": "γείτονας",
       "in English": "neighbor"
     },
     {
       "Number": 807,
-      "Hindi": "धोने",
+      "Greek": "πλύση",
       "in English": "wash"
     },
     {
       "Number": 808,
-      "Hindi": "बल्ला",
+      "Greek": "ρόπαλο",
       "in English": "bat"
     },
     {
       "Number": 809,
-      "Hindi": "बल्कि",
+      "Greek": "μάλλον",
       "in English": "rather"
     },
     {
       "Number": 810,
-      "Hindi": "भीड़",
+      "Greek": "πλήθος",
       "in English": "crowd"
     },
     {
       "Number": 811,
-      "Hindi": "मकई",
+      "Greek": "καλαμπόκι",
       "in English": "corn"
     },
     {
       "Number": 812,
-      "Hindi": "तुलना",
+      "Greek": "συγκρίνετε",
       "in English": "compare"
     },
     {
       "Number": 813,
-      "Hindi": "कविता",
+      "Greek": "ποίημα",
       "in English": "poem"
     },
     {
       "Number": 814,
-      "Hindi": "स्ट्रिंग",
+      "Greek": "κορδόνι",
       "in English": "string"
     },
     {
       "Number": 815,
-      "Hindi": "बेल",
+      "Greek": "κουδούνι",
       "in English": "bell"
     },
     {
       "Number": 816,
-      "Hindi": "निर्भर",
+      "Greek": "εξαρτηθεί",
       "in English": "depend"
     },
     {
       "Number": 817,
-      "Hindi": "मांस",
+      "Greek": "κρέας",
       "in English": "meat"
     },
     {
       "Number": 818,
-      "Hindi": "रगड़",
+      "Greek": "τρίψιμο",
       "in English": "rub"
     },
     {
       "Number": 819,
-      "Hindi": "ट्यूब",
+      "Greek": "σωλήνα",
       "in English": "tube"
     },
     {
       "Number": 820,
-      "Hindi": "प्रसिद्ध",
+      "Greek": "διάσημος",
       "in English": "famous"
     },
     {
       "Number": 921,
-      "Hindi": "डॉलर",
+      "Greek": "δολάριο",
       "in English": "dollar"
     },
     {
       "Number": 822,
-      "Hindi": "धारा",
+      "Greek": "ρεύμα",
       "in English": "stream"
     },
     {
       "Number": 823,
-      "Hindi": "डर",
+      "Greek": "φόβος",
       "in English": "fear"
     },
     {
       "Number": 284,
-      "Hindi": "दृष्टि",
+      "Greek": "όραση",
       "in English": "sight"
     },
     {
       "Number": 825,
-      "Hindi": "पतली",
+      "Greek": "λεπτός",
       "in English": "thin"
     },
     {
       "Number": 826,
-      "Hindi": "त्रिकोण",
+      "Greek": "τρίγωνο",
       "in English": "triangle"
     },
     {
       "Number": 827,
-      "Hindi": "ग्रह",
+      "Greek": "πλανήτης",
       "in English": "planet"
     },
     {
       "Number": 828,
-      "Hindi": "जल्दी करो",
+      "Greek": "βιασύνη",
       "in English": "hurry"
     },
     {
       "Number": 829,
-      "Hindi": "प्रमुख",
+      "Greek": "επικεφαλής",
       "in English": "chief"
     },
     {
       "Number": 830,
-      "Hindi": "कॉलोनी",
+      "Greek": "αποικία",
       "in English": "colony"
     },
     {
       "Number": 831,
-      "Hindi": "घड़ी",
+      "Greek": "ρολόι",
       "in English": "clock"
     },
     {
       "Number": 832,
-      "Hindi": "मेरा",
+      "Greek": "ορυχείο",
       "in English": "mine"
     },
     {
       "Number": 833,
-      "Hindi": "टाई",
+      "Greek": "γραβάτα",
       "in English": "tie"
     },
     {
       "Number": 834,
-      "Hindi": "दर्ज",
+      "Greek": "εισάγετε",
       "in English": "enter"
     },
     {
       "Number": 835,
-      "Hindi": "प्रमुख",
+      "Greek": "μεγάλες",
       "in English": "major"
     },
     {
       "Number": 836,
-      "Hindi": "ताजा",
+      "Greek": "φρέσκο",
       "in English": "fresh"
     },
     {
       "Number": 837,
-      "Hindi": "खोज",
+      "Greek": "αναζήτηση",
       "in English": "search"
     },
     {
       "Number": 838,
-      "Hindi": "भेजें",
+      "Greek": "στείλετε",
       "in English": "send"
     },
     {
       "Number": 839,
-      "Hindi": "पीले",
+      "Greek": "κίτρινο",
       "in English": "yellow"
     },
     {
       "Number": 840,
-      "Hindi": "बंदूक",
+      "Greek": "όπλο",
       "in English": "gun"
     },
     {
       "Number": 841,
-      "Hindi": "की अनुमति",
+      "Greek": "επιτρέπουν",
       "in English": "allow"
     },
     {
       "Number": 842,
-      "Hindi": "प्रिंट",
+      "Greek": "αποτύπωμα",
       "in English": "print"
     },
     {
       "Number": 843,
-      "Hindi": "मृत",
+      "Greek": "νεκρός",
       "in English": "dead"
     },
     {
       "Number": 844,
-      "Hindi": "हाजिर",
+      "Greek": "σημείο",
       "in English": "spot"
     },
     {
       "Number": 845,
-      "Hindi": "रेगिस्तान",
+      "Greek": "έρημο",
       "in English": "desert"
     },
     {
       "Number": 846,
-      "Hindi": "सूट",
+      "Greek": "κοστούμι",
       "in English": "suit"
     },
     {
       "Number": 847,
-      "Hindi": "वर्तमान",
+      "Greek": "ρεύμα",
       "in English": "current"
     },
     {
       "Number": 848,
-      "Hindi": "लिफ्ट",
+      "Greek": "ανελκυστήρα",
       "in English": "lift"
     },
     {
       "Number": 840,
-      "Hindi": "गुलाब",
+      "Greek": "τριαντάφυλλο",
       "in English": "rose"
     },
     {
       "Number": 850,
-      "Hindi": "पहुंचना",
+      "Greek": "φτάσετε",
       "in English": "arrive"
     },
     {
       "Number": 851,
-      "Hindi": "मास्टर",
+      "Greek": "κύριος",
       "in English": "master"
     },
     {
       "Number": 852,
-      "Hindi": "ट्रैक",
+      "Greek": "κομμάτι",
       "in English": "track"
     },
     {
       "Number": 853,
-      "Hindi": "माता पिता",
+      "Greek": "μητρική εταιρεία",
       "in English": "parent"
     },
     {
       "Number": 854,
-      "Hindi": "किनारे",
+      "Greek": "ακτή",
       "in English": "shore"
     },
     {
       "Number": 855,
-      "Hindi": "विभाजन",
+      "Greek": "διαίρεση",
       "in English": "division"
     },
     {
       "Number": 856,
-      "Hindi": "चादर",
+      "Greek": "φύλλο",
       "in English": "sheet"
     },
     {
       "Number": 857,
-      "Hindi": "पदार्थ",
+      "Greek": "ουσία",
       "in English": "substance"
     },
     {
       "Number": 858,
-      "Hindi": "एहसान",
+      "Greek": "ευνοούν",
       "in English": "favor"
     },
     {
       "Number": 859,
-      "Hindi": "कनेक्ट",
+      "Greek": "συνδεθείτε",
       "in English": "connect"
     },
     {
       "Number": 860,
-      "Hindi": "पोस्ट",
+      "Greek": "μετά",
       "in English": "post"
     },
     {
       "Number": 861,
-      "Hindi": "खर्च",
+      "Greek": "ξοδεύουν",
       "in English": "spend"
     },
     {
       "Number": 862,
-      "Hindi": "राग",
+      "Greek": "χορδή",
       "in English": "chord"
     },
     {
       "Number": 863,
-      "Hindi": "वसा",
+      "Greek": "λίπος",
       "in English": "fat"
     },
     {
       "Number": 864,
-      "Hindi": "प्रसन्न",
+      "Greek": "ευτυχής",
       "in English": "glad"
     },
     {
       "Number": 865,
-      "Hindi": "मूल",
+      "Greek": "πρωτότυπο",
       "in English": "original"
     },
     {
       "Number": 866,
-      "Hindi": "शेयर",
+      "Greek": "μετοχή",
       "in English": "share"
     },
     {
       "Number": 867,
-      "Hindi": "स्टेशन",
+      "Greek": "σταθμός",
       "in English": "station"
     },
     {
       "Number": 868,
-      "Hindi": "पिता",
+      "Greek": "μπαμπάς",
       "in English": "dad"
     },
     {
       "Number": 869,
-      "Hindi": "रोटी",
+      "Greek": "ψωμί",
       "in English": "bread"
     },
     {
       "Number": 870,
-      "Hindi": "चार्ज",
+      "Greek": "χρεώνουν",
       "in English": "charge"
     },
     {
       "Number": 871,
-      "Hindi": "उचित",
+      "Greek": "κατάλληλος",
       "in English": "proper"
     },
     {
       "Number": 872,
-      "Hindi": "बार",
+      "Greek": "μπαρ",
       "in English": "bar"
     },
     {
       "Number": 873,
-      "Hindi": "प्रस्ताव",
+      "Greek": "προσφορά",
       "in English": "offer"
     },
     {
       "Number": 874,
-      "Hindi": "खंड",
+      "Greek": "τμήμα",
       "in English": "segment"
     },
     {
       "Number": 875,
-      "Hindi": "गुलाम",
+      "Greek": "δούλος",
       "in English": "slave"
     },
     {
       "Number": 876,
-      "Hindi": "बतख",
+      "Greek": "πάπια",
       "in English": "duck"
     },
     {
       "Number": 877,
-      "Hindi": "पल",
+      "Greek": "στιγμιαία",
       "in English": "instant"
     },
     {
       "Number": 878,
-      "Hindi": "बाजार",
+      "Greek": "αγορά",
       "in English": "market"
     },
     {
       "Number": 879,
-      "Hindi": "डिग्री",
+      "Greek": "βαθμό",
       "in English": "degree"
     },
     {
       "Number": 880,
-      "Hindi": "आबाद",
+      "Greek": "συμπληρώσετε",
       "in English": "populate"
     },
     {
       "Number": 881,
-      "Hindi": "लड़की",
+      "Greek": "κοτοπουλάκι",
       "in English": "chick"
     },
     {
       "Number": 882,
-      "Hindi": "प्रिय",
+      "Greek": "αγαπητός",
       "in English": "dear"
     },
     {
       "Number": 883,
-      "Hindi": "दुश्मन",
+      "Greek": "εχθρός",
       "in English": "enemy"
     },
     {
       "Number": 884,
-      "Hindi": "उत्तर",
+      "Greek": "απάντηση",
       "in English": "reply"
     },
     {
       "Number": 885,
-      "Hindi": "पेय",
+      "Greek": "ποτό",
       "in English": "drink"
     },
     {
       "Number": 886,
-      "Hindi": "घटित",
+      "Greek": "συμβαίνουν",
       "in English": "occur"
     },
     {
       "Number": 887,
-      "Hindi": "समर्थन",
+      "Greek": "υποστήριξη",
       "in English": "support"
     },
     {
       "Number": 888,
-      "Hindi": "भाषण",
+      "Greek": "ομιλία",
       "in English": "speech"
     },
     {
       "Number": 889,
-      "Hindi": "प्रकृति",
+      "Greek": "φύση",
       "in English": "nature"
     },
     {
       "Number": 890,
-      "Hindi": "सीमा",
+      "Greek": "εύρος",
       "in English": "range"
     },
     {
       "Number": 891,
-      "Hindi": "भाप",
+      "Greek": "ατμού",
       "in English": "steam"
     },
     {
       "Number": 892,
-      "Hindi": "प्रस्ताव",
+      "Greek": "κίνηση",
       "in English": "motion"
     },
     {
       "Number": 893,
-      "Hindi": "पथ",
+      "Greek": "μονοπάτι",
       "in English": "path"
     },
     {
       "Number": 894,
-      "Hindi": "तरल",
+      "Greek": "υγρό",
       "in English": "liquid"
     },
     {
       "Number": 895,
-      "Hindi": "लॉग इन करें",
+      "Greek": "συνδεθείτε",
       "in English": "log"
     },
     {
       "Number": 896,
-      "Hindi": "मतलब",
+      "Greek": "σήμαινε",
       "in English": "meant"
     },
     {
       "Number": 897,
-      "Hindi": "भागफल",
+      "Greek": "πηλίκο",
       "in English": "quotient"
     },
     {
       "Number": 898,
-      "Hindi": "दांत",
+      "Greek": "δόντια",
       "in English": "teeth"
     },
     {
       "Number": 899,
-      "Hindi": "खोल",
+      "Greek": "κέλυφος",
       "in English": "shell"
     },
     {
       "Number": 900,
-      "Hindi": "गर्दन",
+      "Greek": "λαιμό",
       "in English": "neck"
     },
     {
       "Number": 901,
-      "Hindi": "ऑक्सीजन",
+      "Greek": "οξυγόνο",
       "in English": "oxygen"
     },
     {
       "Number": 902,
-      "Hindi": "चीनी",
+      "Greek": "ζάχαρη",
       "in English": "sugar"
     },
     {
       "Number": 903,
-      "Hindi": "मौत",
+      "Greek": "θάνατο",
       "in English": "death"
     },
     {
       "Number": 904,
-      "Hindi": "सुंदर",
+      "Greek": "αρκετά",
       "in English": "pretty"
     },
     {
       "Number": 905,
-      "Hindi": "कौशल",
+      "Greek": "επιδεξιότητα",
       "in English": "skill"
     },
     {
       "Number": 906,
-      "Hindi": "महिलाओं",
+      "Greek": "γυναίκες",
       "in English": "women"
     },
     {
       "Number": 907,
-      "Hindi": "मौसम",
+      "Greek": "εποχή",
       "in English": "season"
     },
     {
       "Number": 908,
-      "Hindi": "समाधान",
+      "Greek": "λύση",
       "in English": "solution"
     },
     {
       "Number": 909,
-      "Hindi": "चुंबक",
+      "Greek": "μαγνήτη",
       "in English": "magnet"
     },
     {
       "Number": 910,
-      "Hindi": "चांदी",
+      "Greek": "ασήμι",
       "in English": "silver"
     },
     {
       "Number": 911,
-      "Hindi": "धन्यवाद",
+      "Greek": "ευχαριστώ",
       "in English": "thank"
     },
     {
       "Number": 912,
-      "Hindi": "शाखा",
+      "Greek": "υποκατάστημα",
       "in English": "branch"
     },
     {
       "Number": 913,
-      "Hindi": "मैच",
+      "Greek": "αγώνα",
       "in English": "match"
     },
     {
       "Number": 914,
-      "Hindi": "प्रत्यय",
+      "Greek": "επίθημα",
       "in English": "suffix"
     },
     {
       "Number": 915,
-      "Hindi": "विशेष रूप से",
+      "Greek": "ιδιαίτερα",
       "in English": "especially"
     },
     {
       "Number": 916,
-      "Hindi": "अंजीर",
+      "Greek": "σύκο",
       "in English": "fig"
     },
     {
       "Number": 917,
-      "Hindi": "डर",
+      "Greek": "φοβισμένος",
       "in English": "afraid"
     },
     {
       "Number": 918,
-      "Hindi": "भारी",
+      "Greek": "τεράστια",
       "in English": "huge"
     },
     {
       "Number": 919,
-      "Hindi": "बहन",
+      "Greek": "αδελφή",
       "in English": "sister"
     },
     {
       "Number": 920,
-      "Hindi": "स्टील",
+      "Greek": "χάλυβας",
       "in English": "steel"
     },
     {
       "Number": 921,
-      "Hindi": "चर्चा",
+      "Greek": "συζητήσουν",
       "in English": "discuss"
     },
     {
       "Number": 922,
-      "Hindi": "आगे",
+      "Greek": "προς τα εμπρός",
       "in English": "forward"
     },
     {
       "Number": 923,
-      "Hindi": "इसी तरह",
+      "Greek": "παρόμοια",
       "in English": "similar"
     },
     {
       "Number": 924,
-      "Hindi": "गाइड",
+      "Greek": "καθοδηγήσει",
       "in English": "guide"
     },
     {
       "Number": 925,
-      "Hindi": "अनुभव",
+      "Greek": "εμπειρία",
       "in English": "experience"
     },
     {
       "Number": 926,
-      "Hindi": "स्कोर",
+      "Greek": "σκορ",
       "in English": "score"
     },
     {
       "Number": 927,
-      "Hindi": "सेब",
+      "Greek": "μήλο",
       "in English": "apple"
     },
     {
       "Number": 928,
-      "Hindi": "खरीदा",
+      "Greek": "αγόρασε",
       "in English": "bought"
     },
     {
       "Number": 929,
-      "Hindi": "नेतृत्व",
+      "Greek": "οδήγησε",
       "in English": "led"
     },
     {
       "Number": 930,
-      "Hindi": "पिच",
+      "Greek": "γήπεδο",
       "in English": "pitch"
     },
     {
       "Number": 931,
-      "Hindi": "कोट",
+      "Greek": "παλτό",
       "in English": "coat"
     },
     {
       "Number": 932,
-      "Hindi": "सामूहिक",
+      "Greek": "μάζα",
       "in English": "mass"
     },
     {
       "Number": 933,
-      "Hindi": "कार्ड",
+      "Greek": "κάρτα",
       "in English": "card"
     },
     {
       "Number": 934,
-      "Hindi": "बैंड",
+      "Greek": "band",
       "in English": "band"
     },
     {
       "Number": 935,
-      "Hindi": "रस्सी",
+      "Greek": "σκοινί",
       "in English": "rope"
     },
     {
       "Number": 936,
-      "Hindi": "पर्ची",
+      "Greek": "ολίσθησης",
       "in English": "slip"
     },
     {
       "Number": 937,
-      "Hindi": "जीत",
+      "Greek": "Νίκη",
       "in English": "win"
     },
     {
       "Number": 938,
-      "Hindi": "सपना",
+      "Greek": "όνειρο",
       "in English": "dream"
     },
     {
       "Number": 939,
-      "Hindi": "शाम",
+      "Greek": "βράδυ",
       "in English": "evening"
     },
     {
       "Number": 940,
-      "Hindi": "शर्त",
+      "Greek": "κατάσταση",
       "in English": "condition"
     },
     {
       "Number": 941,
-      "Hindi": "फ़ीड",
+      "Greek": "ζωοτροφές",
       "in English": "feed"
     },
     {
       "Number": 942,
-      "Hindi": "उपकरण",
+      "Greek": "εργαλείο",
       "in English": "tool"
     },
     {
       "Number": 943,
-      "Hindi": "संपूर्ण",
+      "Greek": "σύνολο",
       "in English": "total"
     },
     {
       "Number": 944,
-      "Hindi": "बुनियादी",
+      "Greek": "βασικός",
       "in English": "basic"
     },
     {
       "Number": 945,
-      "Hindi": "गंध",
+      "Greek": "μυρωδιά",
       "in English": "smell"
     },
     {
       "Number": 946,
-      "Hindi": "घाटी",
+      "Greek": "κοιλάδα",
       "in English": "valley"
     },
     {
       "Number": 947,
-      "Hindi": "और न ही",
+      "Greek": "ούτε",
       "in English": "nor"
     },
     {
       "Number": 948,
-      "Hindi": "डबल",
+      "Greek": "διπλό",
       "in English": "double"
     },
     {
       "Number": 949,
-      "Hindi": "सीट",
+      "Greek": "κάθισμα",
       "in English": "seat"
     },
     {
       "Number": 950,
-      "Hindi": "जारी रखने के",
+      "Greek": "συνεχίσει",
       "in English": "continue"
     },
     {
       "Number": 951,
-      "Hindi": "खंड",
+      "Greek": "κατηγορία",
       "in English": "block"
     },
     {
       "Number": 952,
-      "Hindi": "चार्ट",
+      "Greek": "διάγραμμα",
       "in English": "chart"
     },
     {
       "Number": 953,
-      "Hindi": "टोपी",
+      "Greek": "καπέλο",
       "in English": "hat"
     },
     {
       "Number": 954,
-      "Hindi": "बेचने",
+      "Greek": "πωλήσει",
       "in English": "sell"
     },
     {
       "Number": 955,
-      "Hindi": "सफलता",
+      "Greek": "επιτυχία",
       "in English": "success"
     },
     {
       "Number": 956,
-      "Hindi": "कंपनी",
+      "Greek": "Η εταιρεία",
       "in English": "company"
     },
     {
       "Number": 957,
-      "Hindi": "घटाना",
+      "Greek": "αφαιρέστε",
       "in English": "subtract"
     },
     {
       "Number": 958,
-      "Hindi": "घटना",
+      "Greek": "εκδήλωση",
       "in English": "event"
     },
     {
       "Number": 959,
-      "Hindi": "विशेष",
+      "Greek": "ειδικότερα",
       "in English": "particular"
     },
     {
       "Number": 960,
-      "Hindi": "सौदा",
+      "Greek": "συμφωνία",
       "in English": "deal"
     },
     {
       "Number": 961,
-      "Hindi": "तैरना",
+      "Greek": "κολύμπι",
       "in English": "swim"
     },
     {
       "Number": 962,
-      "Hindi": "अवधि",
+      "Greek": "όρος",
       "in English": "term"
     },
     {
       "Number": 963,
-      "Hindi": "विपरीत",
+      "Greek": "απέναντι",
       "in English": "opposite"
     },
     {
       "Number": 964,
-      "Hindi": "पत्नी",
+      "Greek": "γυναίκα",
       "in English": "wife"
     },
     {
       "Number": 965,
-      "Hindi": "जूता",
+      "Greek": "παπούτσι",
       "in English": "shoe"
     },
     {
       "Number": 966,
-      "Hindi": "कंधे",
+      "Greek": "ώμο",
       "in English": "shoulder"
     },
     {
       "Number": 967,
-      "Hindi": "प्रसार",
+      "Greek": "διάδοση",
       "in English": "spread"
     },
     {
       "Number": 968,
-      "Hindi": "व्यवस्था",
+      "Greek": "κανονίσει",
       "in English": "arrange"
     },
     {
       "Number": 969,
-      "Hindi": "शिविर",
+      "Greek": "στρατόπεδο",
       "in English": "camp"
     },
     {
       "Number": 970,
-      "Hindi": "आविष्कार",
+      "Greek": "εφεύρουν",
       "in English": "invent"
     },
     {
       "Number": 971,
-      "Hindi": "कपास",
+      "Greek": "βαμβάκι",
       "in English": "cotton"
     },
     {
       "Number": 972,
-      "Hindi": "Born",
+      "Greek": "γεννημένος",
       "in English": "born"
     },
     {
       "Number": 973,
-      "Hindi": "निर्धारित",
+      "Greek": "καθοριστεί",
       "in English": "determine"
     },
     {
       "Number": 974,
-      "Hindi": "चौथाई गेलन",
+      "Greek": "λίτρο",
       "in English": "quart"
     },
     {
       "Number": 975,
-      "Hindi": "नौ",
+      "Greek": "εννέα",
       "in English": "nine"
     },
     {
       "Number": 976,
-      "Hindi": "ट्रक",
+      "Greek": "φορτηγό",
       "in English": "truck"
     },
     {
       "Number": 977,
-      "Hindi": "शोर",
+      "Greek": "θόρυβο",
       "in English": "noise"
     },
     {
       "Number": 978,
-      "Hindi": "स्तर",
+      "Greek": "επίπεδο",
       "in English": "level"
     },
     {
       "Number": 979,
-      "Hindi": "संयोग",
+      "Greek": "ευκαιρία",
       "in English": "chance"
     },
     {
       "Number": 980,
-      "Hindi": "इकट्ठा",
+      "Greek": "συγκεντρώσει",
       "in English": "gather"
     },
     {
       "Number": 981,
-      "Hindi": "दुकान",
+      "Greek": "κατάστημα",
       "in English": "shop"
     },
     {
       "Number": 982,
-      "Hindi": "खिंचाव",
+      "Greek": "τέντωμα",
       "in English": "stretch"
     },
     {
       "Number": 983,
-      "Hindi": "फेंक",
+      "Greek": "ρίξει",
       "in English": "throw"
     },
     {
       "Number": 984,
-      "Hindi": "चमक",
+      "Greek": "λάμψη",
       "in English": "shine"
     },
     {
       "Number": 985,
-      "Hindi": "संपत्ति",
+      "Greek": "ακίνητα",
       "in English": "property"
     },
     {
       "Number": 986,
-      "Hindi": "स्तंभ",
+      "Greek": "στήλη",
       "in English": "column"
     },
     {
       "Number": 987,
-      "Hindi": "अणु",
+      "Greek": "μόριο",
       "in English": "molecule"
     },
     {
       "Number": 988,
-      "Hindi": "चयन",
+      "Greek": "επιλέξτε",
       "in English": "select"
     },
     {
       "Number": 989,
-      "Hindi": "गलत",
+      "Greek": "λάθος",
       "in English": "wrong"
     },
     {
       "Number": 990,
-      "Hindi": "ग्रे",
+      "Greek": "γκρί",
       "in English": "gray"
     },
     {
       "Number": 991,
-      "Hindi": "दोहराना",
+      "Greek": "επανάληψη",
       "in English": "repeat"
     },
     {
       "Number": 992,
-      "Hindi": "आवश्यकता",
+      "Greek": "απαιτούν",
       "in English": "require"
     },
     {
       "Number": 993,
-      "Hindi": "विस्तृत",
+      "Greek": "ευρύς",
       "in English": "broad"
     },
     {
       "Number": 994,
-      "Hindi": "तैयार",
+      "Greek": "προετοιμασία",
       "in English": "prepare"
     },
     {
       "Number": 995,
-      "Hindi": "नमक",
+      "Greek": "αλάτι",
       "in English": "salt"
     },
     {
       "Number": 996,
-      "Hindi": "नाक",
+      "Greek": "μύτη",
       "in English": "nose"
     },
     {
       "Number": 997,
-      "Hindi": "बहुवचन",
+      "Greek": "πληθυντικός",
       "in English": "plural"
     },
     {
       "Number": 998,
-      "Hindi": "क्रोध",
+      "Greek": "οργή",
       "in English": "anger"
     },
     {
       "Number": 999,
-      "Hindi": "दावा",
+      "Greek": "αξίωση",
       "in English": "claim"
     },
     {
       "Number": 1000,
-      "Hindi": "महाद्वीप",
+      "Greek": "ήπειρο",
       "in English": "continent"
     }
-];
+   ];
 
-exports.language = "Hindi";
-exports.data = hindi;
+exports.title = "Greek";
+exports.data = greek;

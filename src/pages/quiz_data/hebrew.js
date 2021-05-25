@@ -1,5005 +1,5005 @@
-const afrikaans = [
+const hebrew = [
     {
       "Number": 1,
-      "Afrikaans": "as",
+      "Hebrew": "כמו",
       "in English": "as"
     },
     {
       "Number": 2,
-      "Afrikaans": "Ek",
+      "Hebrew": "אני",
       "in English": "I"
     },
     {
       "Number": 3,
-      "Afrikaans": "sy",
+      "Hebrew": "שלו",
       "in English": "his"
     },
     {
       "Number": 4,
-      "Afrikaans": "wat",
+      "Hebrew": "ש",
       "in English": "that"
     },
     {
       "Number": 5,
-      "Afrikaans": "hy",
+      "Hebrew": "הוא",
       "in English": "he"
     },
     {
       "Number": 6,
-      "Afrikaans": "was",
+      "Hebrew": "היה",
       "in English": "was"
     },
     {
       "Number": 7,
-      "Afrikaans": "vir",
+      "Hebrew": "עבור",
       "in English": "for"
     },
     {
       "Number": 8,
-      "Afrikaans": "op",
+      "Hebrew": "על",
       "in English": "on"
     },
     {
       "Number": 9,
-      "Afrikaans": "is",
+      "Hebrew": "הם",
       "in English": "are"
     },
     {
       "Number": 10,
-      "Afrikaans": "met",
+      "Hebrew": "עם",
       "in English": "with"
     },
     {
       "Number": 11,
-      "Afrikaans": "hulle",
+      "Hebrew": "הם",
       "in English": "they"
     },
     {
       "Number": 12,
-      "Afrikaans": "wees",
+      "Hebrew": "להיות",
       "in English": "be"
     },
     {
       "Number": 13,
-      "Afrikaans": "op",
+      "Hebrew": "ב",
       "in English": "at"
     },
     {
       "Number": 14,
-      "Afrikaans": "een",
+      "Hebrew": "אחד",
       "in English": "one"
     },
     {
       "Number": 15,
-      "Afrikaans": "het",
+      "Hebrew": "יש לי",
       "in English": "have"
     },
     {
       "Number": 16,
-      "Afrikaans": "hierdie",
+      "Hebrew": "זה",
       "in English": "this"
     },
     {
       "Number": 17,
-      "Afrikaans": "uit",
+      "Hebrew": "מ",
       "in English": "from"
     },
     {
       "Number": 18,
-      "Afrikaans": "deur",
+      "Hebrew": "על ידי",
       "in English": "by"
     },
     {
       "Number": 19,
-      "Afrikaans": "warm",
+      "Hebrew": "חם",
       "in English": "hot"
     },
     {
       "Number": 20,
-      "Afrikaans": "woord",
+      "Hebrew": "מילה",
       "in English": "word"
     },
     {
       "Number": 21,
-      "Afrikaans": "maar",
+      "Hebrew": "אבל",
       "in English": "but"
     },
     {
       "Number": 22,
-      "Afrikaans": "wat",
+      "Hebrew": "מה",
       "in English": "what"
     },
     {
       "Number": 23,
-      "Afrikaans": "sommige",
+      "Hebrew": "כמה",
       "in English": "some"
     },
     {
       "Number": 24,
-      "Afrikaans": "is",
+      "Hebrew": "הוא",
       "in English": "is"
     },
     {
       "Number": 25,
-      "Afrikaans": "dit",
+      "Hebrew": "זה",
       "in English": "it"
     },
     {
       "Number": 26,
-      "Afrikaans": "jy",
+      "Hebrew": "אתה",
       "in English": "you"
     },
     {
       "Number": 27,
-      "Afrikaans": "of",
+      "Hebrew": "או",
       "in English": "or"
     },
     {
       "Number": 28,
-      "Afrikaans": "moes",
+      "Hebrew": "היה לי",
       "in English": "had"
     },
     {
       "Number": 29,
-      "Afrikaans": "die",
+      "Hebrew": "עבור",
       "in English": "the"
     },
     {
       "Number": 30,
-      "Afrikaans": "van",
+      "Hebrew": "של",
       "in English": "of"
     },
     {
       "Number": 31,
-      "Afrikaans": "te",
+      "Hebrew": "אל",
       "in English": "to"
     },
     {
       "Number": 32,
-      "Afrikaans": "en",
+      "Hebrew": "ו",
       "in English": "and"
     },
     {
       "Number": 33,
-      "Afrikaans": "‘n",
+      "Hebrew": "זמן",
       "in English": "a"
     },
     {
       "Number": 34,
-      "Afrikaans": "in",
+      "Hebrew": "ב",
       "in English": "in"
     },
     {
       "Number": 35,
-      "Afrikaans": "ons",
+      "Hebrew": "אנחנו",
       "in English": "we"
     },
     {
       "Number": 36,
-      "Afrikaans": "kan",
+      "Hebrew": "יכול",
       "in English": "can"
     },
     {
       "Number": 37,
-      "Afrikaans": "uit",
+      "Hebrew": "את",
       "in English": "out"
     },
     {
       "Number": 38,
-      "Afrikaans": "ander",
+      "Hebrew": "אחר",
       "in English": "other"
     },
     {
       "Number": 39,
-      "Afrikaans": "was",
+      "Hebrew": "היו",
       "in English": "were"
     },
     {
       "Number": 40,
-      "Afrikaans": "wat",
+      "Hebrew": "ש",
       "in English": "which"
     },
     {
       "Number": 41,
-      "Afrikaans": "doen",
+      "Hebrew": "לעשות",
       "in English": "do"
     },
     {
       "Number": 42,
-      "Afrikaans": "hul",
+      "Hebrew": "שלהם",
       "in English": "their"
     },
     {
       "Number": 43,
-      "Afrikaans": "tyd",
+      "Hebrew": "זמן",
       "in English": "time"
     },
     {
       "Number": 44,
-      "Afrikaans": "indien",
+      "Hebrew": "אם",
       "in English": "if"
     },
     {
       "Number": 45,
-      "Afrikaans": "sal",
+      "Hebrew": "יהיה",
       "in English": "will"
     },
     {
       "Number": 46,
-      "Afrikaans": "hoe",
+      "Hebrew": "איך",
       "in English": "how"
     },
     {
       "Number": 47,
-      "Afrikaans": "gesê",
+      "Hebrew": "אמר",
       "in English": "said"
     },
     {
       "Number": 48,
-      "Afrikaans": "‘n",
+      "Hebrew": "בית",
       "in English": "an"
     },
     {
       "Number": 49,
-      "Afrikaans": "elke",
+      "Hebrew": "כל",
       "in English": "each"
     },
     {
       "Number": 50,
-      "Afrikaans": "vertel",
+      "Hebrew": "לספר",
       "in English": "tell"
     },
     {
       "Number": 51,
-      "Afrikaans": "doen",
+      "Hebrew": "עושה",
       "in English": "does"
     },
     {
       "Number": 52,
-      "Afrikaans": "stel",
+      "Hebrew": "סט",
       "in English": "set"
     },
     {
       "Number": 53,
-      "Afrikaans": "drie",
+      "Hebrew": "שלוש",
       "in English": "three"
     },
     {
       "Number": 54,
-      "Afrikaans": "wil",
+      "Hebrew": "רוצה",
       "in English": "want"
     },
     {
       "Number": 55,
-      "Afrikaans": "lug",
+      "Hebrew": "אוויר",
       "in English": "air"
     },
     {
       "Number": 56,
-      "Afrikaans": "goed",
+      "Hebrew": "גם",
       "in English": "well"
     },
     {
       "Number": 57,
-      "Afrikaans": "ook",
+      "Hebrew": "גם",
       "in English": "also"
     },
     {
       "Number": 58,
-      "Afrikaans": "speel",
+      "Hebrew": "לשחק",
       "in English": "play"
     },
     {
       "Number": 59,
-      "Afrikaans": "klein",
+      "Hebrew": "קטן",
       "in English": "small"
     },
     {
       "Number": 60,
-      "Afrikaans": "einde",
+      "Hebrew": "סוף",
       "in English": "end"
     },
     {
       "Number": 61,
-      "Afrikaans": "sit",
+      "Hebrew": "לשים",
       "in English": "put"
     },
     {
       "Number": 62,
-      "Afrikaans": "huis",
+      "Hebrew": "בית",
       "in English": "home"
     },
     {
       "Number": 63,
-      "Afrikaans": "lees",
+      "Hebrew": "לקרוא",
       "in English": "read"
     },
     {
       "Number": 64,
-      "Afrikaans": "hand",
+      "Hebrew": "יד",
       "in English": "hand"
     },
     {
       "Number": 65,
-      "Afrikaans": "hawe",
+      "Hebrew": "נמל",
       "in English": "port"
     },
     {
       "Number": 66,
-      "Afrikaans": "groot",
+      "Hebrew": "גדול",
       "in English": "large"
     },
     {
       "Number": 67,
-      "Afrikaans": "spel",
+      "Hebrew": "לאיית",
       "in English": "spell"
     },
     {
       "Number": 68,
-      "Afrikaans": "voeg",
+      "Hebrew": "להוסיף",
       "in English": "add"
     },
     {
       "Number": 69,
-      "Afrikaans": "selfs",
+      "Hebrew": "אפילו",
       "in English": "even"
     },
     {
       "Number": 70,
-      "Afrikaans": "land",
+      "Hebrew": "ארץ",
       "in English": "land"
     },
     {
       "Number": 71,
-      "Afrikaans": "hier",
+      "Hebrew": "כאן",
       "in English": "here"
     },
     {
       "Number": 72,
-      "Afrikaans": "moet",
+      "Hebrew": "חייב",
       "in English": "must"
     },
     {
       "Number": 73,
-      "Afrikaans": "groot",
+      "Hebrew": "גדול",
       "in English": "big"
     },
     {
       "Number": 74,
-      "Afrikaans": "hoë",
+      "Hebrew": "גבוה",
       "in English": "high"
     },
     {
       "Number": 75,
-      "Afrikaans": "sodanige",
+      "Hebrew": "כזה",
       "in English": "such"
     },
     {
       "Number": 76,
-      "Afrikaans": "volg",
+      "Hebrew": "מעקב",
       "in English": "follow"
     },
     {
       "Number": 77,
-      "Afrikaans": "Wet",
+      "Hebrew": "מעשה",
       "in English": "act"
     },
     {
       "Number": 78,
-      "Afrikaans": "Hoekom",
+      "Hebrew": "מדוע",
       "in English": "why"
     },
     {
       "Number": 79,
-      "Afrikaans": "vra",
+      "Hebrew": "שואל",
       "in English": "ask"
     },
     {
       "Number": 80,
-      "Afrikaans": "mans",
+      "Hebrew": "אנשים",
       "in English": "men"
     },
     {
       "Number": 81,
-      "Afrikaans": "verandering",
+      "Hebrew": "לשנות",
       "in English": "change"
     },
     {
       "Number": 82,
-      "Afrikaans": "gegaan",
+      "Hebrew": "הלכתי",
       "in English": "went"
     },
     {
       "Number": 83,
-      "Afrikaans": "lig",
+      "Hebrew": "אור",
       "in English": "light"
     },
     {
       "Number": 84,
-      "Afrikaans": "soort",
+      "Hebrew": "סוג",
       "in English": "kind"
     },
     {
       "Number": 85,
-      "Afrikaans": "af",
+      "Hebrew": "את",
       "in English": "off"
     },
     {
       "Number": 86,
-      "Afrikaans": "nodig",
+      "Hebrew": "צריך",
       "in English": "need"
     },
     {
       "Number": 87,
-      "Afrikaans": "huis",
+      "Hebrew": "בית",
       "in English": "house"
     },
     {
       "Number": 88,
-      "Afrikaans": "prentjie",
+      "Hebrew": "תמונה",
       "in English": "picture"
     },
     {
       "Number": 89,
-      "Afrikaans": "probeer",
+      "Hebrew": "לנסות",
       "in English": "try"
     },
     {
       "Number": 90,
-      "Afrikaans": "ons",
+      "Hebrew": "שלנו",
       "in English": "us"
     },
     {
       "Number": 91,
-      "Afrikaans": "weer",
+      "Hebrew": "שוב",
       "in English": "again"
     },
     {
       "Number": 92,
-      "Afrikaans": "dier",
+      "Hebrew": "חיה",
       "in English": "animal"
     },
     {
       "Number": 93,
-      "Afrikaans": "punt",
+      "Hebrew": "נקודה",
       "in English": "point"
     },
     {
       "Number": 94,
-      "Afrikaans": "ma",
+      "Hebrew": "אמא",
       "in English": "mother"
     },
     {
       "Number": 95,
-      "Afrikaans": "wêreld",
+      "Hebrew": "עולם",
       "in English": "world"
     },
     {
       "Number": 96,
-      "Afrikaans": "naby",
+      "Hebrew": "ליד",
       "in English": "near"
     },
     {
       "Number": 97,
-      "Afrikaans": "bou",
+      "Hebrew": "לבנות",
       "in English": "build"
     },
     {
       "Number": 98,
-      "Afrikaans": "self",
+      "Hebrew": "עצמי",
       "in English": "self"
     },
     {
       "Number": 99,
-      "Afrikaans": "aarde",
+      "Hebrew": "כדור הארץ",
       "in English": "earth"
     },
     {
       "Number": 100,
-      "Afrikaans": "vader",
+      "Hebrew": "אב",
       "in English": "father"
     },
     {
       "Number": 101,
-      "Afrikaans": "enige",
+      "Hebrew": "כל",
       "in English": "any"
     },
     {
       "Number": 102,
-      "Afrikaans": "nuwe",
+      "Hebrew": "חדש",
       "in English": "new"
     },
     {
       "Number": 103,
-      "Afrikaans": "werk",
+      "Hebrew": "עבודה",
       "in English": "work"
     },
     {
       "Number": 104,
-      "Afrikaans": "deel",
+      "Hebrew": "חלק",
       "in English": "part"
     },
     {
       "Number": 105,
-      "Afrikaans": "neem",
+      "Hebrew": "לקחת",
       "in English": "take"
     },
     {
       "Number": 106,
-      "Afrikaans": "kry",
+      "Hebrew": "לקבל",
       "in English": "get"
     },
     {
       "Number": 107,
-      "Afrikaans": "plek",
+      "Hebrew": "מקום",
       "in English": "place"
     },
     {
       "Number": 108,
-      "Afrikaans": "gemaak",
+      "Hebrew": "עשיתי",
       "in English": "made"
     },
     {
       "Number": 109,
-      "Afrikaans": "lewe",
+      "Hebrew": "לחיות",
       "in English": "live"
     },
     {
       "Number": 110,
-      "Afrikaans": "waar",
+      "Hebrew": "איפה",
       "in English": "where"
     },
     {
       "Number": 111,
-      "Afrikaans": "na",
+      "Hebrew": "לאחר",
       "in English": "after"
     },
     {
       "Number": 112,
-      "Afrikaans": "terug",
+      "Hebrew": "בחזרה",
       "in English": "back"
     },
     {
       "Number": 113,
-      "Afrikaans": "bietjie",
+      "Hebrew": "קטן",
       "in English": "little"
     },
     {
       "Number": 114,
-      "Afrikaans": "slegs",
+      "Hebrew": "רק",
       "in English": "only"
     },
     {
       "Number": 115,
-      "Afrikaans": "ronde",
+      "Hebrew": "עגול",
       "in English": "round"
     },
     {
       "Number": 116,
-      "Afrikaans": "man",
+      "Hebrew": "גבר",
       "in English": "man"
     },
     {
       "Number": 117,
-      "Afrikaans": "jaar",
+      "Hebrew": "שנה",
       "in English": "year"
     },
     {
       "Number": 118,
-      "Afrikaans": "gekom",
+      "Hebrew": "הגיע",
       "in English": "came"
     },
     {
       "Number": 119,
-      "Afrikaans": "show",
+      "Hebrew": "מופע",
       "in English": "show"
     },
     {
       "Number": 120,
-      "Afrikaans": "elke",
+      "Hebrew": "כל",
       "in English": "every"
     },
     {
       "Number": 121,
-      "Afrikaans": "goeie",
+      "Hebrew": "טוב",
       "in English": "good"
     },
     {
       "Number": 122,
-      "Afrikaans": "my",
+      "Hebrew": "לי",
       "in English": "me"
     },
     {
       "Number": 123,
-      "Afrikaans": "gee",
+      "Hebrew": "לתת",
       "in English": "give"
     },
     {
       "Number": 124,
-      "Afrikaans": "ons",
+      "Hebrew": "שלנו",
       "in English": "our"
     },
     {
       "Number": 125,
-      "Afrikaans": "onder",
+      "Hebrew": "תחת",
       "in English": "under"
     },
     {
       "Number": 126,
-      "Afrikaans": "naam",
+      "Hebrew": "שם",
       "in English": "name"
     },
     {
       "Number": 127,
-      "Afrikaans": "baie",
+      "Hebrew": "מאוד",
       "in English": "very"
     },
     {
       "Number": 128,
-      "Afrikaans": "deur",
+      "Hebrew": "דרך",
       "in English": "through"
     },
     {
       "Number": 129,
-      "Afrikaans": "net",
+      "Hebrew": "רק",
       "in English": "just"
     },
     {
       "Number": 130,
-      "Afrikaans": "vorm",
+      "Hebrew": "טופס",
       "in English": "form"
     },
     {
       "Number": 131,
-      "Afrikaans": "vonnis",
+      "Hebrew": "משפט",
       "in English": "sentence"
     },
     {
       "Number": 132,
-      "Afrikaans": "groot",
+      "Hebrew": "גדול",
       "in English": "great"
     },
     {
       "Number": 133,
-      "Afrikaans": "dink",
+      "Hebrew": "חושב",
       "in English": "think"
     },
     {
       "Number": 134,
-      "Afrikaans": "sê",
+      "Hebrew": "אומר",
       "in English": "say"
     },
     {
       "Number": 135,
-      "Afrikaans": "help",
+      "Hebrew": "לעזור",
       "in English": "help"
     },
     {
       "Number": 136,
-      "Afrikaans": "lae",
+      "Hebrew": "נמוך",
       "in English": "low"
     },
     {
       "Number": 137,
-      "Afrikaans": "lyn",
+      "Hebrew": "שורה",
       "in English": "line"
     },
     {
       "Number": 138,
-      "Afrikaans": "verskil",
+      "Hebrew": "שונה",
       "in English": "differ"
     },
     {
       "Number": 139,
-      "Afrikaans": "beurt",
+      "Hebrew": "תור",
       "in English": "turn"
     },
     {
       "Number": 140,
-      "Afrikaans": "oorsaak",
+      "Hebrew": "סיבה",
       "in English": "cause"
     },
     {
       "Number": 141,
-      "Afrikaans": "veel",
+      "Hebrew": "הרבה",
       "in English": "much"
     },
     {
       "Number": 142,
-      "Afrikaans": "beteken",
+      "Hebrew": "אומר",
       "in English": "mean"
     },
     {
       "Number": 143,
-      "Afrikaans": "voor",
+      "Hebrew": "לפני",
       "in English": "before"
     },
     {
       "Number": 144,
-      "Afrikaans": "skuif",
+      "Hebrew": "מהלך",
       "in English": "move"
     },
     {
       "Number": 145,
-      "Afrikaans": "reg",
+      "Hebrew": "נכון",
       "in English": "right"
     },
     {
       "Number": 146,
-      "Afrikaans": "seuntjie",
+      "Hebrew": "ילד",
       "in English": "boy"
     },
     {
       "Number": 147,
-      "Afrikaans": "ou",
+      "Hebrew": "ישן",
       "in English": "old"
     },
     {
       "Number": 148,
-      "Afrikaans": "te",
+      "Hebrew": "גם",
       "in English": "too"
     },
     {
       "Number": 149,
-      "Afrikaans": "dieselfde",
+      "Hebrew": "אותו",
       "in English": "same"
     },
     {
       "Number": 150,
-      "Afrikaans": "sy",
+      "Hebrew": "היא",
       "in English": "she"
     },
     {
       "Number": 151,
-      "Afrikaans": "al",
+      "Hebrew": "כל",
       "in English": "all"
     },
     {
       "Number": 152,
-      "Afrikaans": "daar",
+      "Hebrew": "שם",
       "in English": "there"
     },
     {
       "Number": 153,
-      "Afrikaans": "wanneer",
+      "Hebrew": "כאשר",
       "in English": "when"
     },
     {
       "Number": 154,
-      "Afrikaans": "up",
+      "Hebrew": "למעלה",
       "in English": "up"
     },
     {
       "Number": 155,
-      "Afrikaans": "gebruik",
+      "Hebrew": "שימוש",
       "in English": "use"
     },
     {
       "Number": 156,
-      "Afrikaans": "jou",
+      "Hebrew": "שלך",
       "in English": "your"
     },
     {
       "Number": 157,
-      "Afrikaans": "manier",
+      "Hebrew": "דרך",
       "in English": "way"
     },
     {
       "Number": 158,
-      "Afrikaans": "oor",
+      "Hebrew": "על",
       "in English": "about"
     },
     {
       "Number": 159,
-      "Afrikaans": "baie",
+      "Hebrew": "רבים",
       "in English": "many"
     },
     {
       "Number": 160,
-      "Afrikaans": "dan",
+      "Hebrew": "אז",
       "in English": "then"
     },
     {
       "Number": 161,
-      "Afrikaans": "hulle",
+      "Hebrew": "שלהם",
       "in English": "them"
     },
     {
       "Number": 162,
-      "Afrikaans": "skryf",
+      "Hebrew": "לכתוב",
       "in English": "write"
     },
     {
       "Number": 163,
-      "Afrikaans": "sou",
+      "Hebrew": "היית",
       "in English": "would"
     },
     {
       "Number": 164,
-      "Afrikaans": "soos",
+      "Hebrew": "כמו",
       "in English": "like"
     },
     {
       "Number": 165,
-      "Afrikaans": "so",
+      "Hebrew": "כך",
       "in English": "so"
     },
     {
       "Number": 166,
-      "Afrikaans": "hierdie",
+      "Hebrew": "אלה",
       "in English": "these"
     },
     {
       "Number": 167,
-      "Afrikaans": "haar",
+      "Hebrew": "שלה",
       "in English": "her"
     },
     {
       "Number": 168,
-      "Afrikaans": "lang",
+      "Hebrew": "ארוך",
       "in English": "long"
     },
     {
       "Number": 169,
-      "Afrikaans": "maak",
+      "Hebrew": "לעשות",
       "in English": "make"
     },
     {
       "Number": 170,
-      "Afrikaans": "ding",
+      "Hebrew": "דבר",
       "in English": "thing"
     },
     {
       "Number": 171,
-      "Afrikaans": "sien",
+      "Hebrew": "לראות",
       "in English": "see"
     },
     {
       "Number": 172,
-      "Afrikaans": "hom",
+      "Hebrew": "שלו",
       "in English": "him"
     },
     {
       "Number": 173,
-      "Afrikaans": "twee",
+      "Hebrew": "שנים",
       "in English": "two"
     },
     {
       "Number": 174,
-      "Afrikaans": "het",
+      "Hebrew": "יש",
       "in English": "has"
     },
     {
       "Number": 175,
-      "Afrikaans": "kyk",
+      "Hebrew": "להסתכל",
       "in English": "look"
     },
     {
       "Number": 176,
-      "Afrikaans": "meer",
+      "Hebrew": "יותר",
       "in English": "more"
     },
     {
       "Number": 177,
-      "Afrikaans": "dag",
+      "Hebrew": "יום",
       "in English": "day"
     },
     {
       "Number": 178,
-      "Afrikaans": "kon",
+      "Hebrew": "יכול",
       "in English": "could"
     },
     {
       "Number": 179,
-      "Afrikaans": "gaan",
+      "Hebrew": "ללכת",
       "in English": "go"
     },
     {
       "Number": 180,
-      "Afrikaans": "kom",
+      "Hebrew": "תבואו",
       "in English": "come"
     },
     {
       "Number": 181,
-      "Afrikaans": "het",
+      "Hebrew": "עשיתי",
       "in English": "did"
     },
     {
       "Number": 182,
-      "Afrikaans": "aantal",
+      "Hebrew": "מספר",
       "in English": "number"
     },
     {
       "Number": 183,
-      "Afrikaans": "klink",
+      "Hebrew": "נשמע",
       "in English": "sound"
     },
     {
       "Number": 184,
-      "Afrikaans": "geen",
+      "Hebrew": "לא",
       "in English": "no"
     },
     {
       "Number": 185,
-      "Afrikaans": "mees",
+      "Hebrew": "ביותר",
       "in English": "most"
     },
     {
       "Number": 186,
-      "Afrikaans": "mense",
+      "Hebrew": "אנשים",
       "in English": "people"
     },
     {
       "Number": 187,
-      "Afrikaans": "my",
+      "Hebrew": "שלי",
       "in English": "my"
     },
     {
       "Number": 188,
-      "Afrikaans": "oor",
+      "Hebrew": "על",
       "in English": "over"
     },
     {
       "Number": 189,
-      "Afrikaans": "weet",
+      "Hebrew": "יודע",
       "in English": "know"
     },
     {
       "Number": 190,
-      "Afrikaans": "water",
+      "Hebrew": "מים",
       "in English": "water"
     },
     {
       "Number": 191,
-      "Afrikaans": "as",
+      "Hebrew": "מאשר",
       "in English": "than"
     },
     {
       "Number": 192,
-      "Afrikaans": "oproep",
+      "Hebrew": "שיחה",
       "in English": "call"
     },
     {
       "Number": 193,
-      "Afrikaans": "eerste",
+      "Hebrew": "ראשון",
       "in English": "first"
     },
     {
       "Number": 194,
-      "Afrikaans": "wat",
+      "Hebrew": "מי",
       "in English": "who"
     },
     {
       "Number": 195,
-      "Afrikaans": "mag",
+      "Hebrew": "רשאי",
       "in English": "may"
     },
     {
       "Number": 196,
-      "Afrikaans": "af",
+      "Hebrew": "למטה",
       "in English": "down"
     },
     {
       "Number": 197,
-      "Afrikaans": "kant",
+      "Hebrew": "צד",
       "in English": "side"
     },
     {
       "Number": 198,
-      "Afrikaans": "gewees",
+      "Hebrew": "היה",
       "in English": "been"
     },
     {
       "Number": 199,
-      "Afrikaans": "nou",
+      "Hebrew": "עכשיו",
       "in English": "now"
     },
     {
       "Number": 200,
-      "Afrikaans": "vind",
+      "Hebrew": "למצוא",
       "in English": "find"
     },
     {
       "Number": 201,
-      "Afrikaans": "hoof",
+      "Hebrew": "ראש",
       "in English": "head"
     },
     {
       "Number": 202,
-      "Afrikaans": "staan",
+      "Hebrew": "לעמוד",
       "in English": "stand"
     },
     {
       "Number": 203,
-      "Afrikaans": "eie",
+      "Hebrew": "של",
       "in English": "own"
     },
     {
       "Number": 204,
-      "Afrikaans": "bladsy",
+      "Hebrew": "דף",
       "in English": "page"
     },
     {
       "Number": 205,
-      "Afrikaans": "behoort",
+      "Hebrew": "צריך",
       "in English": "should"
     },
     {
       "Number": 206,
-      "Afrikaans": "land",
+      "Hebrew": "מדינה",
       "in English": "country"
     },
     {
       "Number": 207,
-      "Afrikaans": "gevind",
+      "Hebrew": "מצאתי",
       "in English": "found"
     },
     {
       "Number": 208,
-      "Afrikaans": "antwoord",
+      "Hebrew": "תשובה",
       "in English": "answer"
     },
     {
       "Number": 209,
-      "Afrikaans": "skool",
+      "Hebrew": "בית ספר",
       "in English": "school"
     },
     {
       "Number": 210,
-      "Afrikaans": "groei",
+      "Hebrew": "לגדול",
       "in English": "grow"
     },
     {
       "Number": 211,
-      "Afrikaans": "studie",
+      "Hebrew": "מחקר",
       "in English": "study"
     },
     {
       "Number": 212,
-      "Afrikaans": "steeds",
+      "Hebrew": "עוד",
       "in English": "still"
     },
     {
       "Number": 213,
-      "Afrikaans": "leer",
+      "Hebrew": "ללמוד",
       "in English": "learn"
     },
     {
       "Number": 214,
-      "Afrikaans": "plant",
+      "Hebrew": "צמח",
       "in English": "plant"
     },
     {
       "Number": 215,
-      "Afrikaans": "dekking",
+      "Hebrew": "כיסוי",
       "in English": "cover"
     },
     {
       "Number": 216,
-      "Afrikaans": "voedsel",
+      "Hebrew": "מזון",
       "in English": "food"
     },
     {
       "Number": 217,
-      "Afrikaans": "son",
+      "Hebrew": "שמש",
       "in English": "sun"
     },
     {
       "Number": 218,
-      "Afrikaans": "vier",
+      "Hebrew": "ארבעה",
       "in English": "four"
     },
     {
       "Number": 219,
-      "Afrikaans": "tussen",
+      "Hebrew": "בין",
       "in English": "between"
     },
     {
       "Number": 220,
-      "Afrikaans": "staat",
+      "Hebrew": "מדינה",
       "in English": "state"
     },
     {
       "Number": 221,
-      "Afrikaans": "hou",
+      "Hebrew": "לשמור",
       "in English": "keep"
     },
     {
       "Number": 222,
-      "Afrikaans": "oog",
+      "Hebrew": "עין",
       "in English": "eye"
     },
     {
       "Number": 223,
-      "Afrikaans": "nooit",
+      "Hebrew": "אף פעם לא",
       "in English": "never"
     },
     {
       "Number": 224,
-      "Afrikaans": "laaste",
+      "Hebrew": "אחרון",
       "in English": "last"
     },
     {
       "Number": 225,
-      "Afrikaans": "laat",
+      "Hebrew": "בואו",
       "in English": "let"
     },
     {
       "Number": 226,
-      "Afrikaans": "gedink",
+      "Hebrew": "חשבתי",
       "in English": "thought"
     },
     {
       "Number": 227,
-      "Afrikaans": "stad",
+      "Hebrew": "עיר",
       "in English": "city"
     },
     {
       "Number": 228,
-      "Afrikaans": "boom",
+      "Hebrew": "עץ",
       "in English": "tree"
     },
     {
       "Number": 229,
-      "Afrikaans": "steek",
+      "Hebrew": "לחצות",
       "in English": "cross"
     },
     {
       "Number": 230,
-      "Afrikaans": "plaas",
+      "Hebrew": "החווה",
       "in English": "farm"
     },
     {
       "Number": 231,
-      "Afrikaans": "hard",
+      "Hebrew": "קשה",
       "in English": "hard"
     },
     {
       "Number": 232,
-      "Afrikaans": "Begin",
+      "Hebrew": "התחלה",
       "in English": "start"
     },
     {
       "Number": 233,
-      "Afrikaans": "mag",
+      "Hebrew": "אולי",
       "in English": "might"
     },
     {
       "Number": 234,
-      "Afrikaans": "storie",
+      "Hebrew": "סיפור",
       "in English": "story"
     },
     {
       "Number": 235,
-      "Afrikaans": "saag",
+      "Hebrew": "מסור",
       "in English": "saw"
     },
     {
       "Number": 236,
-      "Afrikaans": "ver",
+      "Hebrew": "רחוק",
       "in English": "far"
     },
     {
       "Number": 237,
-      "Afrikaans": "see",
+      "Hebrew": "ים",
       "in English": "sea"
     },
     {
       "Number": 238,
-      "Afrikaans": "trek",
+      "Hebrew": "לצייר",
       "in English": "draw"
     },
     {
       "Number": 239,
-      "Afrikaans": "verlaat",
+      "Hebrew": "עזב",
       "in English": "left"
     },
     {
       "Number": 240,
-      "Afrikaans": "laat",
+      "Hebrew": "מאוחר",
       "in English": "late"
     },
     {
       "Number": 241,
-      "Afrikaans": "hardloop",
+      "Hebrew": "לרוץ",
       "in English": "run"
     },
     {
       "Number": 242,
-      "Afrikaans": "doen nie",
+      "Hebrew": "לא",
       "in English": "don’t"
     },
     {
       "Number": 243,
-      "Afrikaans": "terwyl",
+      "Hebrew": "תוך",
       "in English": "while"
     },
     {
       "Number": 244,
-      "Afrikaans": "pers",
+      "Hebrew": "עיתונות",
       "in English": "press"
     },
     {
       "Number": 245,
-      "Afrikaans": "naby",
+      "Hebrew": "קרוב",
       "in English": "close"
     },
     {
       "Number": 246,
-      "Afrikaans": "nag",
+      "Hebrew": "לילה",
       "in English": "night"
     },
     {
       "Number": 247,
-      "Afrikaans": "werklike",
+      "Hebrew": "אמיתי",
       "in English": "real"
     },
     {
       "Number": 248,
-      "Afrikaans": "lewe",
+      "Hebrew": "חיים",
       "in English": "life"
     },
     {
       "Number": 249,
-      "Afrikaans": "paar",
+      "Hebrew": "כמה",
       "in English": "few"
     },
     {
       "Number": 250,
-      "Afrikaans": "noord",
+      "Hebrew": "צפון",
       "in English": "north"
     },
     {
       "Number": 251,
-      "Afrikaans": "boek",
+      "Hebrew": "ספר",
       "in English": "book"
     },
     {
       "Number": 252,
-      "Afrikaans": "voer",
+      "Hebrew": "לשאת",
       "in English": "carry"
     },
     {
       "Number": 253,
-      "Afrikaans": "het",
+      "Hebrew": "לקחתי",
       "in English": "took"
     },
     {
       "Number": 254,
-      "Afrikaans": "wetenskap",
+      "Hebrew": "מדע",
       "in English": "science"
     },
     {
       "Number": 255,
-      "Afrikaans": "eet",
+      "Hebrew": "לסעוד",
       "in English": "eat"
     },
     {
       "Number": 256,
-      "Afrikaans": "kamer",
+      "Hebrew": "חדר",
       "in English": "room"
     },
     {
       "Number": 257,
-      "Afrikaans": "vriend",
+      "Hebrew": "חבר",
       "in English": "friend"
     },
     {
       "Number": 258,
-      "Afrikaans": "begin",
+      "Hebrew": "החל",
       "in English": "began"
     },
     {
       "Number": 259,
-      "Afrikaans": "idee",
+      "Hebrew": "רעיון",
       "in English": "idea"
     },
     {
       "Number": 260,
-      "Afrikaans": "vis",
+      "Hebrew": "דגים",
       "in English": "fish"
     },
     {
       "Number": 261,
-      "Afrikaans": "berg",
+      "Hebrew": "הר",
       "in English": "mountain"
     },
     {
       "Number": 262,
-      "Afrikaans": "stop",
+      "Hebrew": "להפסיק",
       "in English": "stop"
     },
     {
       "Number": 263,
-      "Afrikaans": "keer",
+      "Hebrew": "פעם אחת",
       "in English": "once"
     },
     {
       "Number": 264,
-      "Afrikaans": "basis",
+      "Hebrew": "בסיס",
       "in English": "base"
     },
     {
       "Number": 265,
-      "Afrikaans": "hoor",
+      "Hebrew": "לשמוע",
       "in English": "hear"
     },
     {
       "Number": 266,
-      "Afrikaans": "perd",
+      "Hebrew": "סוס",
       "in English": "horse"
     },
     {
       "Number": 267,
-      "Afrikaans": "cut",
+      "Hebrew": "לחתוך",
       "in English": "cut"
     },
     {
       "Number": 268,
-      "Afrikaans": "seker",
+      "Hebrew": "בטוח",
       "in English": "sure"
     },
     {
       "Number": 269,
-      "Afrikaans": "kyk",
+      "Hebrew": "לצפות",
       "in English": "watch"
     },
     {
       "Number": 270,
-      "Afrikaans": "kleur",
+      "Hebrew": "צבע",
       "in English": "color"
     },
     {
       "Number": 271,
-      "Afrikaans": "gesig",
+      "Hebrew": "פנים",
       "in English": "face"
     },
     {
       "Number": 272,
-      "Afrikaans": "hout",
+      "Hebrew": "עץ",
       "in English": "wood"
     },
     {
       "Number": 273,
-      "Afrikaans": "hoof",
+      "Hebrew": "עיקרי",
       "in English": "main"
     },
     {
       "Number": 274,
-      "Afrikaans": "oop",
+      "Hebrew": "פתוח",
       "in English": "open"
     },
     {
       "Number": 275,
-      "Afrikaans": "lyk",
+      "Hebrew": "נראה",
       "in English": "seem"
     },
     {
       "Number": 276,
-      "Afrikaans": "saam",
+      "Hebrew": "יחד",
       "in English": "together"
     },
     {
       "Number": 277,
-      "Afrikaans": "volgende",
+      "Hebrew": "הבא",
       "in English": "next"
     },
     {
       "Number": 278,
-      "Afrikaans": "wit",
+      "Hebrew": "לבן",
       "in English": "white"
     },
     {
       "Number": 279,
-      "Afrikaans": "kinders",
+      "Hebrew": "ילדים",
       "in English": "children"
     },
     {
       "Number": 280,
-      "Afrikaans": "begin",
+      "Hebrew": "להתחיל",
       "in English": "begin"
     },
     {
       "Number": 281,
-      "Afrikaans": "het",
+      "Hebrew": "לי",
       "in English": "got"
     },
     {
       "Number": 282,
-      "Afrikaans": "loop",
+      "Hebrew": "ללכת",
       "in English": "walk"
     },
     {
       "Number": 283,
-      "Afrikaans": "byvoorbeeld",
+      "Hebrew": "דוגמא",
       "in English": "example"
     },
     {
       "Number": 284,
-      "Afrikaans": "verlig",
+      "Hebrew": "להקל",
       "in English": "ease"
     },
     {
       "Number": 285,
-      "Afrikaans": "papier",
+      "Hebrew": "נייר",
       "in English": "paper"
     },
     {
       "Number": 286,
-      "Afrikaans": "groep",
+      "Hebrew": "קבוצה",
       "in English": "group"
     },
     {
       "Number": 287,
-      "Afrikaans": "altyd",
+      "Hebrew": "תמיד",
       "in English": "always"
     },
     {
       "Number": 288,
-      "Afrikaans": "musiek",
+      "Hebrew": "מוסיקה",
       "in English": "music"
     },
     {
       "Number": 289,
-      "Afrikaans": "diegene",
+      "Hebrew": "אלה",
       "in English": "those"
     },
     {
       "Number": 290,
-      "Afrikaans": "beide",
+      "Hebrew": "שני",
       "in English": "both"
     },
     {
       "Number": 291,
-      "Afrikaans": "merk",
+      "Hebrew": "סימן",
       "in English": "mark"
     },
     {
       "Number": 292,
-      "Afrikaans": "dikwels",
+      "Hebrew": "לעתים קרובות",
       "in English": "often"
     },
     {
       "Number": 293,
-      "Afrikaans": "brief",
+      "Hebrew": "מכתב",
       "in English": "letter"
     },
     {
       "Number": 294,
-      "Afrikaans": "totdat",
+      "Hebrew": "עד",
       "in English": "until"
     },
     {
       "Number": 295,
-      "Afrikaans": "myl",
+      "Hebrew": "מייל",
       "in English": "mile"
     },
     {
       "Number": 296,
-      "Afrikaans": "rivier",
+      "Hebrew": "נהר",
       "in English": "river"
     },
     {
       "Number": 297,
-      "Afrikaans": "motor",
+      "Hebrew": "מכונית",
       "in English": "car"
     },
     {
       "Number": 298,
-      "Afrikaans": "voete",
+      "Hebrew": "רגליים",
       "in English": "feet"
     },
     {
       "Number": 299,
-      "Afrikaans": "sorg",
+      "Hebrew": "טיפול",
       "in English": "care"
     },
     {
       "Number": 300,
-      "Afrikaans": "tweede",
+      "Hebrew": "שני",
       "in English": "second"
     },
     {
       "Number": 301,
-      "Afrikaans": "genoeg",
+      "Hebrew": "מספיק",
       "in English": "enough"
     },
     {
       "Number": 302,
-      "Afrikaans": "vlakte",
+      "Hebrew": "מישור",
       "in English": "plain"
     },
     {
       "Number": 303,
-      "Afrikaans": "meisie",
+      "Hebrew": "ילדה",
       "in English": "girl"
     },
     {
       "Number": 304,
-      "Afrikaans": "gewone",
+      "Hebrew": "כרגיל",
       "in English": "usual"
     },
     {
       "Number": 305,
-      "Afrikaans": "jong",
+      "Hebrew": "צעיר",
       "in English": "young"
     },
     {
       "Number": 306,
-      "Afrikaans": "gereed",
+      "Hebrew": "מוכן",
       "in English": "ready"
     },
     {
       "Number": 307,
-      "Afrikaans": "bo",
+      "Hebrew": "מעל",
       "in English": "above"
     },
     {
       "Number": 308,
-      "Afrikaans": "ooit",
+      "Hebrew": "אי פעם",
       "in English": "ever"
     },
     {
       "Number": 309,
-      "Afrikaans": "rooi",
+      "Hebrew": "אדום",
       "in English": "red"
     },
     {
       "Number": 310,
-      "Afrikaans": "lys",
+      "Hebrew": "רשימה",
       "in English": "list"
     },
     {
       "Number": 311,
-      "Afrikaans": "alhoewel",
+      "Hebrew": "למרות ש",
       "in English": "though"
     },
     {
       "Number": 312,
-      "Afrikaans": "voel",
+      "Hebrew": "להרגיש",
       "in English": "feel"
     },
     {
       "Number": 313,
-      "Afrikaans": "Besprekings",
+      "Hebrew": "דיבורים",
       "in English": "talk"
     },
     {
       "Number": 314,
-      "Afrikaans": "voël",
+      "Hebrew": "ציפור",
       "in English": "bird"
     },
     {
       "Number": 315,
-      "Afrikaans": "gou",
+      "Hebrew": "בקרוב",
       "in English": "soon"
     },
     {
       "Number": 316,
-      "Afrikaans": "liggaam",
+      "Hebrew": "גוף",
       "in English": "body"
     },
     {
       "Number": 317,
-      "Afrikaans": "hond",
+      "Hebrew": "כלב",
       "in English": "dog"
     },
     {
       "Number": 318,
-      "Afrikaans": "gesin",
+      "Hebrew": "משפחה",
       "in English": "family"
     },
     {
       "Number": 319,
-      "Afrikaans": "direkte",
+      "Hebrew": "ישיר",
       "in English": "direct"
     },
     {
       "Number": 320,
-      "Afrikaans": "inhou",
+      "Hebrew": "פוזה",
       "in English": "pose"
     },
     {
       "Number": 321,
-      "Afrikaans": "verlaat",
+      "Hebrew": "לעזוב",
       "in English": "leave"
     },
     {
       "Number": 322,
-      "Afrikaans": "lied",
+      "Hebrew": "שיר",
       "in English": "song"
     },
     {
       "Number": 323,
-      "Afrikaans": "meet",
+      "Hebrew": "למדוד",
       "in English": "measure"
     },
     {
       "Number": 324,
-      "Afrikaans": "deur",
+      "Hebrew": "דלת",
       "in English": "door"
     },
     {
       "Number": 325,
-      "Afrikaans": "produk",
+      "Hebrew": "מוצר",
       "in English": "product"
     },
     {
       "Number": 326,
-      "Afrikaans": "swart",
+      "Hebrew": "שחור",
       "in English": "black"
     },
     {
       "Number": 327,
-      "Afrikaans": "kort",
+      "Hebrew": "קצר",
       "in English": "short"
     },
     {
       "Number": 328,
-      "Afrikaans": "Syfer",
+      "Hebrew": "ספרה",
       "in English": "numeral"
     },
     {
       "Number": 329,
-      "Afrikaans": "klas",
+      "Hebrew": "כיתה",
       "in English": "class"
     },
     {
       "Number": 330,
-      "Afrikaans": "wind",
+      "Hebrew": "רוח",
       "in English": "wind"
     },
     {
       "Number": 331,
-      "Afrikaans": "vraag",
+      "Hebrew": "שאלה",
       "in English": "question"
     },
     {
       "Number": 332,
-      "Afrikaans": "gebeur",
+      "Hebrew": "לקרות",
       "in English": "happen"
     },
     {
       "Number": 333,
-      "Afrikaans": "volledige",
+      "Hebrew": "מלא",
       "in English": "complete"
     },
     {
       "Number": 334,
-      "Afrikaans": "skip",
+      "Hebrew": "ספינה",
       "in English": "ship"
     },
     {
       "Number": 335,
-      "Afrikaans": "gebied",
+      "Hebrew": "אזור",
       "in English": "area"
     },
     {
       "Number": 336,
-      "Afrikaans": "helfte",
+      "Hebrew": "מחצית",
       "in English": "half"
     },
     {
       "Number": 337,
-      "Afrikaans": "rock",
+      "Hebrew": "רוק",
       "in English": "rock"
     },
     {
       "Number": 338,
-      "Afrikaans": "orde",
+      "Hebrew": "כדי",
       "in English": "order"
     },
     {
       "Number": 339,
-      "Afrikaans": "vuur",
+      "Hebrew": "אש",
       "in English": "fire"
     },
     {
       "Number": 340,
-      "Afrikaans": "Suid-",
+      "Hebrew": "דרום",
       "in English": "south"
     },
     {
       "Number": 341,
-      "Afrikaans": "probleem",
+      "Hebrew": "בעיה",
       "in English": "problem"
     },
     {
       "Number": 342,
-      "Afrikaans": "stukkie",
+      "Hebrew": "חתיכה",
       "in English": "piece"
     },
     {
       "Number": 343,
-      "Afrikaans": "vertel",
+      "Hebrew": "אמר לי",
       "in English": "told"
     },
     {
       "Number": 344,
-      "Afrikaans": "geweet",
+      "Hebrew": "ידעתי",
       "in English": "knew"
     },
     {
       "Number": 345,
-      "Afrikaans": "slaag",
+      "Hebrew": "עובר",
       "in English": "pass"
     },
     {
       "Number": 346,
-      "Afrikaans": "sedert",
+      "Hebrew": "מאז",
       "in English": "since"
     },
     {
       "Number": 347,
-      "Afrikaans": "top",
+      "Hebrew": "עליון",
       "in English": "top"
     },
     {
       "Number": 348,
-      "Afrikaans": "geheel",
+      "Hebrew": "כל",
       "in English": "whole"
     },
     {
       "Number": 349,
-      "Afrikaans": "koning",
+      "Hebrew": "מלך",
       "in English": "king"
     },
     {
       "Number": 350,
-      "Afrikaans": "straat",
+      "Hebrew": "רחוב",
       "in English": "street"
     },
     {
       "Number": 351,
-      "Afrikaans": "duim",
+      "Hebrew": "אינץ",
       "in English": "inch"
     },
     {
       "Number": 352,
-      "Afrikaans": "vermeerder",
+      "Hebrew": "להכפיל",
       "in English": "multiply"
     },
     {
       "Number": 353,
-      "Afrikaans": "niks",
+      "Hebrew": "שום דבר",
       "in English": "nothing"
     },
     {
       "Number": 354,
-      "Afrikaans": "natuurlik",
+      "Hebrew": "כמובן",
       "in English": "course"
     },
     {
       "Number": 355,
-      "Afrikaans": "bly",
+      "Hebrew": "להישאר",
       "in English": "stay"
     },
     {
       "Number": 356,
-      "Afrikaans": "wiel",
+      "Hebrew": "גלגל",
       "in English": "wheel"
     },
     {
       "Number": 357,
-      "Afrikaans": "volle",
+      "Hebrew": "מלא",
       "in English": "full"
     },
     {
       "Number": 358,
-      "Afrikaans": "krag",
+      "Hebrew": "כוח",
       "in English": "force"
     },
     {
       "Number": 359,
-      "Afrikaans": "blou",
+      "Hebrew": "כחול",
       "in English": "blue"
     },
     {
       "Number": 360,
-      "Afrikaans": "voorwerp",
+      "Hebrew": "אובייקט",
       "in English": "object"
     },
     {
       "Number": 361,
-      "Afrikaans": "besluit",
+      "Hebrew": "להחליט",
       "in English": "decide"
     },
     {
       "Number": 362,
-      "Afrikaans": "oppervlak",
+      "Hebrew": "פני השטח",
       "in English": "surface"
     },
     {
       "Number": 363,
-      "Afrikaans": "diep",
+      "Hebrew": "עמוק",
       "in English": "deep"
     },
     {
       "Number": 364,
-      "Afrikaans": "maan",
+      "Hebrew": "ירח",
       "in English": "moon"
     },
     {
       "Number": 365,
-      "Afrikaans": "eiland",
+      "Hebrew": "אי",
       "in English": "island"
     },
     {
       "Number": 366,
-      "Afrikaans": "voet",
+      "Hebrew": "רגל",
       "in English": "foot"
     },
     {
       "Number": 367,
-      "Afrikaans": "stelsel",
+      "Hebrew": "מערכת",
       "in English": "system"
     },
     {
       "Number": 368,
-      "Afrikaans": "besig",
+      "Hebrew": "עסוק",
       "in English": "busy"
     },
     {
       "Number": 369,
-      "Afrikaans": "toets",
+      "Hebrew": "מבחן",
       "in English": "test"
     },
     {
       "Number": 370,
-      "Afrikaans": "rekord",
+      "Hebrew": "שיא",
       "in English": "record"
     },
     {
       "Number": 371,
-      "Afrikaans": "boot",
+      "Hebrew": "סירה",
       "in English": "boat"
     },
     {
       "Number": 372,
-      "Afrikaans": "gemeenskaplike",
+      "Hebrew": "משותף",
       "in English": "common"
     },
     {
       "Number": 373,
-      "Afrikaans": "goud",
+      "Hebrew": "זהב",
       "in English": "gold"
     },
     {
       "Number": 374,
-      "Afrikaans": "moontlik",
+      "Hebrew": "אפשרי",
       "in English": "possible"
     },
     {
       "Number": 375,
-      "Afrikaans": "vliegtuig",
+      "Hebrew": "מטוס",
       "in English": "plane"
     },
     {
       "Number": 376,
-      "Afrikaans": "plek",
+      "Hebrew": "במקום",
       "in English": "stead"
     },
     {
       "Number": 377,
-      "Afrikaans": "droë",
+      "Hebrew": "יבש",
       "in English": "dry"
     },
     {
       "Number": 378,
-      "Afrikaans": "wonder",
+      "Hebrew": "פלא",
       "in English": "wonder"
     },
     {
       "Number": 379,
-      "Afrikaans": "lag",
+      "Hebrew": "צחוק",
       "in English": "laugh"
     },
     {
       "Number": 380,
-      "Afrikaans": "duisend",
+      "Hebrew": "אלף",
       "in English": "thousand"
     },
     {
       "Number": 381,
-      "Afrikaans": "gelede",
+      "Hebrew": "לפני",
       "in English": "ago"
     },
     {
       "Number": 382,
-      "Afrikaans": "hardloop",
+      "Hebrew": "רצתי",
       "in English": "ran"
     },
     {
       "Number": 383,
-      "Afrikaans": "kyk",
+      "Hebrew": "לבדוק",
       "in English": "check"
     },
     {
       "Number": 384,
-      "Afrikaans": "spel",
+      "Hebrew": "משחק",
       "in English": "game"
     },
     {
       "Number": 385,
-      "Afrikaans": "vorm",
+      "Hebrew": "צורה",
       "in English": "shape"
     },
     {
       "Number": 386,
-      "Afrikaans": "gelyk",
+      "Hebrew": "להשוות",
       "in English": "equate"
     },
     {
       "Number": 387,
-      "Afrikaans": "warm",
+      "Hebrew": "חם",
       "in English": "hot"
     },
     {
       "Number": 388,
-      "Afrikaans": "mis",
+      "Hebrew": "מתגעגע",
       "in English": "miss"
     },
     {
       "Number": 389,
-      "Afrikaans": "gebring",
+      "Hebrew": "הביא",
       "in English": "brought"
     },
     {
       "Number": 390,
-      "Afrikaans": "hitte",
+      "Hebrew": "חום",
       "in English": "heat"
     },
     {
       "Number": 391,
-      "Afrikaans": "sneeu",
+      "Hebrew": "שלג",
       "in English": "snow"
     },
     {
       "Number": 392,
-      "Afrikaans": "band",
+      "Hebrew": "צמיג",
       "in English": "tire"
     },
     {
       "Number": 393,
-      "Afrikaans": "bring",
+      "Hebrew": "להביא",
       "in English": "bring"
     },
     {
       "Number": 394,
-      "Afrikaans": "Ja",
+      "Hebrew": "כן",
       "in English": "yes"
     },
     {
       "Number": 395,
-      "Afrikaans": "verre",
+      "Hebrew": "רחוק",
       "in English": "distant"
     },
     {
       "Number": 396,
-      "Afrikaans": "vul",
+      "Hebrew": "למלא",
       "in English": "fill"
     },
     {
       "Number": 397,
-      "Afrikaans": "oos",
+      "Hebrew": "מזרח",
       "in English": "east"
     },
     {
       "Number": 398,
-      "Afrikaans": "verf",
+      "Hebrew": "לצייר",
       "in English": "paint"
     },
     {
       "Number": 399,
-      "Afrikaans": "taal",
+      "Hebrew": "שפה",
       "in English": "language"
     },
     {
       "Number": 400,
-      "Afrikaans": "onder",
+      "Hebrew": "בין",
       "in English": "among"
     },
     {
       "Number": 401,
-      "Afrikaans": "eenheid",
+      "Hebrew": "יחידה",
       "in English": "unit"
     },
     {
       "Number": 402,
-      "Afrikaans": "krag",
+      "Hebrew": "כוח",
       "in English": "power"
     },
     {
       "Number": 403,
-      "Afrikaans": "dorp",
+      "Hebrew": "העיר",
       "in English": "town"
     },
     {
       "Number": 404,
-      "Afrikaans": "fyn",
+      "Hebrew": "קנס",
       "in English": "fine"
     },
     {
       "Number": 405,
-      "Afrikaans": "sekere",
+      "Hebrew": "מסוים",
       "in English": "certain"
     },
     {
       "Number": 406,
-      "Afrikaans": "vlieg",
+      "Hebrew": "לעוף",
       "in English": "fly"
     },
     {
       "Number": 407,
-      "Afrikaans": "val",
+      "Hebrew": "ליפול",
       "in English": "fall"
     },
     {
       "Number": 408,
-      "Afrikaans": "lei",
+      "Hebrew": "להוביל",
       "in English": "lead"
     },
     {
       "Number": 409,
-      "Afrikaans": "geroep",
+      "Hebrew": "זעקה",
       "in English": "cry"
     },
     {
       "Number": 410,
-      "Afrikaans": "donker",
+      "Hebrew": "אפל",
       "in English": "dark"
     },
     {
       "Number": 411,
-      "Afrikaans": "masjien",
+      "Hebrew": "מכונה",
       "in English": "machine"
     },
     {
       "Number": 412,
-      "Afrikaans": "noot",
+      "Hebrew": "הערה",
       "in English": "note"
     },
     {
       "Number": 413,
-      "Afrikaans": "wag",
+      "Hebrew": "לחכות",
       "in English": "wait"
     },
     {
       "Number": 414,
-      "Afrikaans": "plan",
+      "Hebrew": "תכנית",
       "in English": "plan"
     },
     {
       "Number": 415,
-      "Afrikaans": "figuur",
+      "Hebrew": "דמות",
       "in English": "figure"
     },
     {
       "Number": 416,
-      "Afrikaans": "ster",
+      "Hebrew": "כוכב",
       "in English": "star"
     },
     {
       "Number": 417,
-      "Afrikaans": "box",
+      "Hebrew": "תיבה",
       "in English": "box"
     },
     {
       "Number": 418,
-      "Afrikaans": "naamwoord",
+      "Hebrew": "שם עצם",
       "in English": "noun"
     },
     {
       "Number": 419,
-      "Afrikaans": "gebied",
+      "Hebrew": "שדה",
       "in English": "field"
     },
     {
       "Number": 420,
-      "Afrikaans": "res",
+      "Hebrew": "שאר",
       "in English": "rest"
     },
     {
       "Number": 421,
-      "Afrikaans": "korrekte",
+      "Hebrew": "נכון",
       "in English": "correct"
     },
     {
       "Number": 422,
-      "Afrikaans": "staat",
+      "Hebrew": "תוכל",
       "in English": "able"
     },
     {
       "Number": 423,
-      "Afrikaans": "pond",
+      "Hebrew": "קילו",
       "in English": "pound"
     },
     {
       "Number": 424,
-      "Afrikaans": "gedoen",
+      "Hebrew": "עשיתי",
       "in English": "done"
     },
     {
       "Number": 425,
-      "Afrikaans": "skoonheid",
+      "Hebrew": "יופי",
       "in English": "beauty"
     },
     {
       "Number": 426,
-      "Afrikaans": "ry",
+      "Hebrew": "כונן",
       "in English": "drive"
     },
     {
       "Number": 427,
-      "Afrikaans": "staan",
+      "Hebrew": "עמד",
       "in English": "stood"
     },
     {
       "Number": 428,
-      "Afrikaans": "bevat",
+      "Hebrew": "להכיל",
       "in English": "contain"
     },
     {
       "Number": 429,
-      "Afrikaans": "front",
+      "Hebrew": "מול",
       "in English": "front"
     },
     {
       "Number": 430,
-      "Afrikaans": "leer",
+      "Hebrew": "ללמד",
       "in English": "teach"
     },
     {
       "Number": 431,
-      "Afrikaans": "week",
+      "Hebrew": "שבוע",
       "in English": "week"
     },
     {
       "Number": 432,
-      "Afrikaans": "finale",
+      "Hebrew": "סופי",
       "in English": "final"
     },
     {
       "Number": 433,
-      "Afrikaans": "gegee",
+      "Hebrew": "נתתי",
       "in English": "gave"
     },
     {
       "Number": 434,
-      "Afrikaans": "groen",
+      "Hebrew": "ירוק",
       "in English": "green"
     },
     {
       "Number": 435,
-      "Afrikaans": "o",
+      "Hebrew": "הו",
       "in English": "oh"
     },
     {
       "Number": 436,
-      "Afrikaans": "vinnige",
+      "Hebrew": "מהיר",
       "in English": "quick"
     },
     {
       "Number": 437,
-      "Afrikaans": "ontwikkel",
+      "Hebrew": "לפתח",
       "in English": "develop"
     },
     {
       "Number": 438,
-      "Afrikaans": "oseaan",
+      "Hebrew": "אוקיינוס",
       "in English": "ocean"
     },
     {
       "Number": 439,
-      "Afrikaans": "warm",
+      "Hebrew": "חם",
       "in English": "warm"
     },
     {
       "Number": 440,
-      "Afrikaans": "gratis",
+      "Hebrew": "חופשי",
       "in English": "free"
     },
     {
       "Number": 441,
-      "Afrikaans": "minuut",
+      "Hebrew": "דקות",
       "in English": "minute"
     },
     {
       "Number": 442,
-      "Afrikaans": "sterk",
+      "Hebrew": "חזק",
       "in English": "strong"
     },
     {
       "Number": 443,
-      "Afrikaans": "spesiale",
+      "Hebrew": "מיוחד",
       "in English": "special"
     },
     {
       "Number": 444,
-      "Afrikaans": "gedagte",
+      "Hebrew": "דעה",
       "in English": "mind"
     },
     {
       "Number": 445,
-      "Afrikaans": "agter",
+      "Hebrew": "מאחור",
       "in English": "behind"
     },
     {
       "Number": 446,
-      "Afrikaans": "duidelik",
+      "Hebrew": "ברור",
       "in English": "clear"
     },
     {
       "Number": 447,
-      "Afrikaans": "stert",
+      "Hebrew": "זנב",
       "in English": "tail"
     },
     {
       "Number": 448,
-      "Afrikaans": "produseer",
+      "Hebrew": "לייצר",
       "in English": "produce"
     },
     {
       "Number": 449,
-      "Afrikaans": "Trouens",
+      "Hebrew": "עובדה",
       "in English": "fact"
     },
     {
       "Number": 450,
-      "Afrikaans": "ruimte",
+      "Hebrew": "חלל",
       "in English": "space"
     },
     {
       "Number": 451,
-      "Afrikaans": "gehoor",
+      "Hebrew": "שמע",
       "in English": "heard"
     },
     {
       "Number": 452,
-      "Afrikaans": "beste",
+      "Hebrew": "הטוב ביותר",
       "in English": "best"
     },
     {
       "Number": 453,
-      "Afrikaans": "uur",
+      "Hebrew": "שעה",
       "in English": "hour"
     },
     {
       "Number": 454,
-      "Afrikaans": "beter",
+      "Hebrew": "טוב יותר",
       "in English": "better"
     },
     {
       "Number": 455,
-      "Afrikaans": "ware",
+      "Hebrew": "נכון",
       "in English": "true"
     },
     {
       "Number": 456,
-      "Afrikaans": "tydens",
+      "Hebrew": "במהלך",
       "in English": "during"
     },
     {
       "Number": 457,
-      "Afrikaans": "honderd",
+      "Hebrew": "מאה",
       "in English": "hundred"
     },
     {
       "Number": 458,
-      "Afrikaans": "vyf",
+      "Hebrew": "חמש",
       "in English": "five"
     },
     {
       "Number": 459,
-      "Afrikaans": "onthou",
+      "Hebrew": "לזכור",
       "in English": "remember"
     },
     {
       "Number": 460,
-      "Afrikaans": "stap",
+      "Hebrew": "צעד",
       "in English": "step"
     },
     {
       "Number": 461,
-      "Afrikaans": "vroeë",
+      "Hebrew": "מוקדם",
       "in English": "early"
     },
     {
       "Number": 462,
-      "Afrikaans": "hou",
+      "Hebrew": "להחזיק",
       "in English": "hold"
     },
     {
       "Number": 463,
-      "Afrikaans": "West",
+      "Hebrew": "מערב",
       "in English": "west"
     },
     {
       "Number": 464,
-      "Afrikaans": "grond",
+      "Hebrew": "קרקע",
       "in English": "ground"
     },
     {
       "Number": 465,
-      "Afrikaans": "belangstelling",
+      "Hebrew": "עניין",
       "in English": "interest"
     },
     {
       "Number": 466,
-      "Afrikaans": "bereik",
+      "Hebrew": "להגיע",
       "in English": "reach"
     },
     {
       "Number": 467,
-      "Afrikaans": "vinnig",
+      "Hebrew": "מהר",
       "in English": "fast"
     },
     {
       "Number": 468,
-      "Afrikaans": "werkwoord",
+      "Hebrew": "פועל",
       "in English": "verb"
     },
     {
       "Number": 469,
-      "Afrikaans": "sing",
+      "Hebrew": "לשיר",
       "in English": "sing"
     },
     {
       "Number": 470,
-      "Afrikaans": "luister",
+      "Hebrew": "להקשיב",
       "in English": "listen"
     },
     {
       "Number": 471,
-      "Afrikaans": "ses",
+      "Hebrew": "שש",
       "in English": "six"
     },
     {
       "Number": 472,
-      "Afrikaans": "tafel",
+      "Hebrew": "שולחן",
       "in English": "table"
     },
     {
       "Number": 473,
-      "Afrikaans": "Reis",
+      "Hebrew": "נסיעה",
       "in English": "travel"
     },
     {
       "Number": 474,
-      "Afrikaans": "minder",
+      "Hebrew": "פחות",
       "in English": "less"
     },
     {
       "Number": 475,
-      "Afrikaans": "oggend",
+      "Hebrew": "בוקר",
       "in English": "morning"
     },
     {
       "Number": 476,
-      "Afrikaans": "tien",
+      "Hebrew": "עשר",
       "in English": "ten"
     },
     {
       "Number": 477,
-      "Afrikaans": "eenvoudige",
+      "Hebrew": "פשוט",
       "in English": "simple"
     },
     {
       "Number": 478,
-      "Afrikaans": "verskeie",
+      "Hebrew": "כמה",
       "in English": "several"
     },
     {
       "Number": 479,
-      "Afrikaans": "vokaal",
+      "Hebrew": "תנועה",
       "in English": "vowel"
     },
     {
       "Number": 480,
-      "Afrikaans": "teenoor",
+      "Hebrew": "לקראת",
       "in English": "toward"
     },
     {
       "Number": 481,
-      "Afrikaans": "oorlog",
+      "Hebrew": "מלחמה",
       "in English": "war"
     },
     {
       "Number": 482,
-      "Afrikaans": "lê",
+      "Hebrew": "שכבתי",
       "in English": "lay"
     },
     {
       "Number": 483,
-      "Afrikaans": "teen",
+      "Hebrew": "נגד",
       "in English": "against"
     },
     {
       "Number": 484,
-      "Afrikaans": "patroon",
+      "Hebrew": "דפוס",
       "in English": "pattern"
     },
     {
       "Number": 485,
-      "Afrikaans": "stadig",
+      "Hebrew": "איטי",
       "in English": "slow"
     },
     {
       "Number": 486,
-      "Afrikaans": "sentrum",
+      "Hebrew": "מרכז",
       "in English": "center"
     },
     {
       "Number": 487,
-      "Afrikaans": "liefde",
+      "Hebrew": "אהבה",
       "in English": "love"
     },
     {
       "Number": 488,
-      "Afrikaans": "persoon",
+      "Hebrew": "אדם",
       "in English": "person"
     },
     {
       "Number": 489,
-      "Afrikaans": "geld",
+      "Hebrew": "כסף",
       "in English": "money"
     },
     {
       "Number": 490,
-      "Afrikaans": "dien",
+      "Hebrew": "לשרת",
       "in English": "serve"
     },
     {
       "Number": 491,
-      "Afrikaans": "verskyn",
+      "Hebrew": "להופיע",
       "in English": "appear"
     },
     {
       "Number": 492,
-      "Afrikaans": "pad",
+      "Hebrew": "כביש",
       "in English": "road"
     },
     {
       "Number": 493,
-      "Afrikaans": "kaart",
+      "Hebrew": "המפה",
       "in English": "map"
     },
     {
       "Number": 494,
-      "Afrikaans": "reën",
+      "Hebrew": "גשם",
       "in English": "rain"
     },
     {
       "Number": 495,
-      "Afrikaans": "reël",
+      "Hebrew": "שלטון",
       "in English": "rule"
     },
     {
       "Number": 496,
-      "Afrikaans": "regeer",
+      "Hebrew": "למשול",
       "in English": "govern"
     },
     {
       "Number": 497,
-      "Afrikaans": "trek",
+      "Hebrew": "למשוך",
       "in English": "pull"
     },
     {
       "Number": 498,
-      "Afrikaans": "koue",
+      "Hebrew": "קר",
       "in English": "cold"
     },
     {
       "Number": 499,
-      "Afrikaans": "kennisgewing",
+      "Hebrew": "הודעה",
       "in English": "notice"
     },
     {
       "Number": 500,
-      "Afrikaans": "stem",
+      "Hebrew": "קול",
       "in English": "voice"
     },
     {
       "Number": 501,
-      "Afrikaans": "energie",
+      "Hebrew": "אנרגיה",
       "in English": "energy"
     },
     {
       "Number": 502,
-      "Afrikaans": "jag",
+      "Hebrew": "ציד",
       "in English": "hunt"
     },
     {
       "Number": 503,
-      "Afrikaans": "waarskynlike",
+      "Hebrew": "סביר",
       "in English": "probable"
     },
     {
       "Number": 504,
-      "Afrikaans": "bed",
+      "Hebrew": "מיטה",
       "in English": "bed"
     },
     {
       "Number": 505,
-      "Afrikaans": "broer",
+      "Hebrew": "אח",
       "in English": "brother"
     },
     {
       "Number": 506,
-      "Afrikaans": "eier",
+      "Hebrew": "ביצה",
       "in English": "egg"
     },
     {
       "Number": 507,
-      "Afrikaans": "rit",
+      "Hebrew": "נסיעה",
       "in English": "ride"
     },
     {
       "Number": 508,
-      "Afrikaans": "sel",
+      "Hebrew": "תא",
       "in English": "cell"
     },
     {
       "Number": 509,
-      "Afrikaans": "glo",
+      "Hebrew": "מאמין",
       "in English": "believe"
     },
     {
       "Number": 510,
-      "Afrikaans": "miskien",
+      "Hebrew": "אולי",
       "in English": "perhaps"
     },
     {
       "Number": 511,
-      "Afrikaans": "kies",
+      "Hebrew": "לבחור",
       "in English": "pick"
     },
     {
       "Number": 512,
-      "Afrikaans": "skielike",
+      "Hebrew": "פתאומי",
       "in English": "sudden"
     },
     {
       "Number": 513,
-      "Afrikaans": "tel",
+      "Hebrew": "לספור",
       "in English": "count"
     },
     {
       "Number": 514,
-      "Afrikaans": "vierkante",
+      "Hebrew": "רבוע",
       "in English": "square"
     },
     {
       "Number": 515,
-      "Afrikaans": "rede",
+      "Hebrew": "סיבה",
       "in English": "reason"
     },
     {
       "Number": 516,
-      "Afrikaans": "lengte",
+      "Hebrew": "משך",
       "in English": "length"
     },
     {
       "Number": 517,
-      "Afrikaans": "verteenwoordig",
+      "Hebrew": "מייצג",
       "in English": "represent"
     },
     {
       "Number": 518,
-      "Afrikaans": "kuns",
+      "Hebrew": "אמנות",
       "in English": "art"
     },
     {
       "Number": 519,
-      "Afrikaans": "onderwerp",
+      "Hebrew": "נושא",
       "in English": "subject"
     },
     {
       "Number": 520,
-      "Afrikaans": "streek",
+      "Hebrew": "אזור",
       "in English": "region"
     },
     {
       "Number": 521,
-      "Afrikaans": "grootte",
+      "Hebrew": "גודל",
       "in English": "size"
     },
     {
       "Number": 522,
-      "Afrikaans": "wissel",
+      "Hebrew": "להשתנות",
       "in English": "vary"
     },
     {
       "Number": 523,
-      "Afrikaans": "vestig",
+      "Hebrew": "להתיישב",
       "in English": "settle"
     },
     {
       "Number": 524,
-      "Afrikaans": "praat",
+      "Hebrew": "לדבר",
       "in English": "speak"
     },
     {
       "Number": 525,
-      "Afrikaans": "gewig",
+      "Hebrew": "משקל",
       "in English": "weight"
     },
     {
       "Number": 526,
-      "Afrikaans": "algemene",
+      "Hebrew": "כללי",
       "in English": "general"
     },
     {
       "Number": 527,
-      "Afrikaans": "ys",
+      "Hebrew": "קרח",
       "in English": "ice"
     },
     {
       "Number": 528,
-      "Afrikaans": "saak",
+      "Hebrew": "עניין",
       "in English": "matter"
     },
     {
       "Number": 529,
-      "Afrikaans": "sirkel",
+      "Hebrew": "המעגל",
       "in English": "circle"
     },
     {
       "Number": 530,
-      "Afrikaans": "paar",
+      "Hebrew": "זוג",
       "in English": "pair"
     },
     {
       "Number": 531,
-      "Afrikaans": "sluit",
+      "Hebrew": "כולל",
       "in English": "include"
     },
     {
       "Number": 532,
-      "Afrikaans": "verdeel",
+      "Hebrew": "פער",
       "in English": "divide"
     },
     {
       "Number": 533,
-      "Afrikaans": "lettergreep",
+      "Hebrew": "הברה",
       "in English": "syllable"
     },
     {
       "Number": 534,
-      "Afrikaans": "gevoel",
+      "Hebrew": "הרגיש",
       "in English": "felt"
     },
     {
       "Number": 535,
-      "Afrikaans": "grand",
+      "Hebrew": "גדול",
       "in English": "grand"
     },
     {
       "Number": 536,
-      "Afrikaans": "bal",
+      "Hebrew": "כדור",
       "in English": "ball"
     },
     {
       "Number": 537,
-      "Afrikaans": "nog",
+      "Hebrew": "בכל זאת",
       "in English": "yet"
     },
     {
       "Number": 538,
-      "Afrikaans": "golf",
+      "Hebrew": "גל",
       "in English": "wave"
     },
     {
       "Number": 539,
-      "Afrikaans": "drop",
+      "Hebrew": "טיפה",
       "in English": "drop"
     },
     {
       "Number": 540,
-      "Afrikaans": "hart",
+      "Hebrew": "לב",
       "in English": "heart"
     },
     {
       "Number": 541,
-      "Afrikaans": "is",
+      "Hebrew": "בבוקר",
       "in English": "am"
     },
     {
       "Number": 542,
-      "Afrikaans": "huidige",
+      "Hebrew": "נוכחי",
       "in English": "present"
     },
     {
       "Number": 543,
-      "Afrikaans": "swaar",
+      "Hebrew": "כבד",
       "in English": "heavy"
     },
     {
       "Number": 544,
-      "Afrikaans": "dans",
+      "Hebrew": "ריקוד",
       "in English": "dance"
     },
     {
       "Number": 545,
-      "Afrikaans": "enjin",
+      "Hebrew": "מנוע",
       "in English": "engine"
     },
     {
       "Number": 546,
-      "Afrikaans": "posisie",
+      "Hebrew": "עמדה",
       "in English": "position"
     },
     {
       "Number": 547,
-      "Afrikaans": "arm",
+      "Hebrew": "זרוע",
       "in English": "arm"
     },
     {
       "Number": 548,
-      "Afrikaans": "wye",
+      "Hebrew": "רחב",
       "in English": "wide"
     },
     {
       "Number": 549,
-      "Afrikaans": "vaar",
+      "Hebrew": "מפרש",
       "in English": "sail"
     },
     {
       "Number": 550,
-      "Afrikaans": "materiaal",
+      "Hebrew": "חומר",
       "in English": "material"
     },
     {
       "Number": 551,
-      "Afrikaans": "breuk",
+      "Hebrew": "חלק",
       "in English": "fraction"
     },
     {
       "Number": 552,
-      "Afrikaans": "bos",
+      "Hebrew": "יער",
       "in English": "forest"
     },
     {
       "Number": 553,
-      "Afrikaans": "sit",
+      "Hebrew": "לשבת",
       "in English": "sit"
     },
     {
       "Number": 554,
-      "Afrikaans": "ras",
+      "Hebrew": "מירוץ",
       "in English": "race"
     },
     {
       "Number": 555,
-      "Afrikaans": "venster",
+      "Hebrew": "חלון",
       "in English": "window"
     },
     {
       "Number": 556,
-      "Afrikaans": "winkel",
+      "Hebrew": "חנות",
       "in English": "store"
     },
     {
       "Number": 557,
-      "Afrikaans": "somer",
+      "Hebrew": "הקיץ",
       "in English": "summer"
     },
     {
       "Number": 558,
-      "Afrikaans": "trein",
+      "Hebrew": "רכבת",
       "in English": "train"
     },
     {
       "Number": 559,
-      "Afrikaans": "slaap",
+      "Hebrew": "לישון",
       "in English": "sleep"
     },
     {
       "Number": 560,
-      "Afrikaans": "bewys",
+      "Hebrew": "להוכיח",
       "in English": "prove"
     },
     {
       "Number": 561,
-      "Afrikaans": "eensaam",
+      "Hebrew": "בודד",
       "in English": "lone"
     },
     {
       "Number": 562,
-      "Afrikaans": "been",
+      "Hebrew": "רגל",
       "in English": "leg"
     },
     {
       "Number": 563,
-      "Afrikaans": "oefening",
+      "Hebrew": "תרגיל",
       "in English": "exercise"
     },
     {
       "Number": 564,
-      "Afrikaans": "muur",
+      "Hebrew": "קיר",
       "in English": "wall"
     },
     {
       "Number": 565,
-      "Afrikaans": "vangs",
+      "Hebrew": "מלכוד",
       "in English": "catch"
     },
     {
       "Number": 566,
-      "Afrikaans": "berg",
+      "Hebrew": "הר",
       "in English": "mount"
     },
     {
       "Number": 567,
-      "Afrikaans": "wens",
+      "Hebrew": "מאחל לי",
       "in English": "wish"
     },
     {
       "Number": 568,
-      "Afrikaans": "lug",
+      "Hebrew": "שמים",
       "in English": "sky"
     },
     {
       "Number": 569,
-      "Afrikaans": "direksie",
+      "Hebrew": "לוח",
       "in English": "board"
     },
     {
       "Number": 570,
-      "Afrikaans": "vreugde",
+      "Hebrew": "שמחה",
       "in English": "joy"
     },
     {
       "Number": 571,
-      "Afrikaans": "winter",
+      "Hebrew": "חורף",
       "in English": "winter"
     },
     {
       "Number": 572,
-      "Afrikaans": "Sat",
+      "Hebrew": "ישבתי",
       "in English": "sat"
     },
     {
       "Number": 573,
-      "Afrikaans": "geskryf",
+      "Hebrew": "נכתב",
       "in English": "written"
     },
     {
       "Number": 574,
-      "Afrikaans": "wilde",
+      "Hebrew": "פראי",
       "in English": "wild"
     },
     {
       "Number": 575,
-      "Afrikaans": "instrument",
+      "Hebrew": "מכשיר",
       "in English": "instrument"
     },
     {
       "Number": 576,
-      "Afrikaans": "gehou",
+      "Hebrew": "שמר",
       "in English": "kept"
     },
     {
       "Number": 577,
-      "Afrikaans": "glas",
+      "Hebrew": "זכוכית",
       "in English": "glass"
     },
     {
       "Number": 578,
-      "Afrikaans": "gras",
+      "Hebrew": "דשא",
       "in English": "grass"
     },
     {
       "Number": 579,
-      "Afrikaans": "koei",
+      "Hebrew": "פרה",
       "in English": "cow"
     },
     {
       "Number": 580,
-      "Afrikaans": "werk",
+      "Hebrew": "עבודה",
       "in English": "job"
     },
     {
       "Number": 581,
-      "Afrikaans": "rand",
+      "Hebrew": "קצה",
       "in English": "edge"
     },
     {
       "Number": 582,
-      "Afrikaans": "teken",
+      "Hebrew": "סימן",
       "in English": "sign"
     },
     {
       "Number": 583,
-      "Afrikaans": "besoek",
+      "Hebrew": "ביקור",
       "in English": "visit"
     },
     {
       "Number": 584,
-      "Afrikaans": "verlede",
+      "Hebrew": "האחרון",
       "in English": "past"
     },
     {
       "Number": 585,
-      "Afrikaans": "sagte",
+      "Hebrew": "רך",
       "in English": "soft"
     },
     {
       "Number": 586,
-      "Afrikaans": "pret",
+      "Hebrew": "כיף",
       "in English": "fun"
     },
     {
       "Number": 587,
-      "Afrikaans": "helder",
+      "Hebrew": "בהיר",
       "in English": "bright"
     },
     {
       "Number": 588,
-      "Afrikaans": "gas",
+      "Hebrew": "גז",
       "in English": "gas"
     },
     {
       "Number": 589,
-      "Afrikaans": "weer",
+      "Hebrew": "מזג אוויר",
       "in English": "weather"
     },
     {
       "Number": 590,
-      "Afrikaans": "maand",
+      "Hebrew": "חודש",
       "in English": "month"
     },
     {
       "Number": 591,
-      "Afrikaans": "miljoen",
+      "Hebrew": "מיליון",
       "in English": "million"
     },
     {
       "Number": 592,
-      "Afrikaans": "dra",
+      "Hebrew": "לשאת",
       "in English": "bear"
     },
     {
       "Number": 593,
-      "Afrikaans": "afwerking",
+      "Hebrew": "גימור",
       "in English": "finish"
     },
     {
       "Number": 594,
-      "Afrikaans": "gelukkig",
+      "Hebrew": "שמח",
       "in English": "happy"
     },
     {
       "Number": 595,
-      "Afrikaans": "hoop",
+      "Hebrew": "מקווה",
       "in English": "hope"
     },
     {
       "Number": 596,
-      "Afrikaans": "blom",
+      "Hebrew": "פרח",
       "in English": "flower"
     },
     {
       "Number": 597,
-      "Afrikaans": "beklee",
+      "Hebrew": "להלביש",
       "in English": "clothe"
     },
     {
       "Number": 598,
-      "Afrikaans": "vreemde",
+      "Hebrew": "מוזר",
       "in English": "strange"
     },
     {
       "Number": 599,
-      "Afrikaans": "weg",
+      "Hebrew": "נעלם",
       "in English": "gone"
     },
     {
       "Number": 600,
-      "Afrikaans": "handel",
+      "Hebrew": "מסחר",
       "in English": "trade"
     },
     {
       "Number": 601,
-      "Afrikaans": "melodie",
+      "Hebrew": "מנגינה",
       "in English": "melody"
     },
     {
       "Number": 602,
-      "Afrikaans": "reis",
+      "Hebrew": "טיול",
       "in English": "trip"
     },
     {
       "Number": 603,
-      "Afrikaans": "kantoor",
+      "Hebrew": "משרד",
       "in English": "office"
     },
     {
       "Number": 604,
-      "Afrikaans": "ontvang",
+      "Hebrew": "לקבל",
       "in English": "receive"
     },
     {
       "Number": 605,
-      "Afrikaans": "ry",
+      "Hebrew": "שורה",
       "in English": "row"
     },
     {
       "Number": 606,
-      "Afrikaans": "mond",
+      "Hebrew": "פה",
       "in English": "mouth"
     },
     {
       "Number": 607,
-      "Afrikaans": "presiese",
+      "Hebrew": "מדויק",
       "in English": "exact"
     },
     {
       "Number": 608,
-      "Afrikaans": "simbool",
+      "Hebrew": "סמל",
       "in English": "symbol"
     },
     {
       "Number": 609,
-      "Afrikaans": "sterf",
+      "Hebrew": "למות",
       "in English": "die"
     },
     {
       "Number": 610,
-      "Afrikaans": "minste",
+      "Hebrew": "לפחות",
       "in English": "least"
     },
     {
       "Number": 611,
-      "Afrikaans": "moeilikheid",
+      "Hebrew": "צרות",
       "in English": "trouble"
     },
     {
       "Number": 612,
-      "Afrikaans": "skree",
+      "Hebrew": "צעקה",
       "in English": "shout"
     },
     {
       "Number": 613,
-      "Afrikaans": "behalwe",
+      "Hebrew": "אלא",
       "in English": "except"
     },
     {
       "Number": 614,
-      "Afrikaans": "geskryf",
+      "Hebrew": "כתבתי",
       "in English": "wrote"
     },
     {
       "Number": 615,
-      "Afrikaans": "saad",
+      "Hebrew": "זרע",
       "in English": "seed"
     },
     {
       "Number": 616,
-      "Afrikaans": "toon",
+      "Hebrew": "טון",
       "in English": "tone"
     },
     {
       "Number": 617,
-      "Afrikaans": "sluit",
+      "Hebrew": "להצטרף",
       "in English": "join"
     },
     {
       "Number": 618,
-      "Afrikaans": "stel",
+      "Hebrew": "מציע",
       "in English": "suggest"
     },
     {
       "Number": 619,
-      "Afrikaans": "skoon",
+      "Hebrew": "נקי",
       "in English": "clean"
     },
     {
       "Number": 620,
-      "Afrikaans": "break",
+      "Hebrew": "הפסקה",
       "in English": "break"
     },
     {
       "Number": 621,
-      "Afrikaans": "lady",
+      "Hebrew": "גברת",
       "in English": "lady"
     },
     {
       "Number": 622,
-      "Afrikaans": "agterplaas",
+      "Hebrew": "חצר",
       "in English": "yard"
     },
     {
       "Number": 623,
-      "Afrikaans": "styg",
+      "Hebrew": "לעלות",
       "in English": "rise"
     },
     {
       "Number": 624,
-      "Afrikaans": "slegte",
+      "Hebrew": "רע",
       "in English": "bad"
     },
     {
       "Number": 625,
-      "Afrikaans": "blow",
+      "Hebrew": "מכה",
       "in English": "blow"
     },
     {
       "Number": 626,
-      "Afrikaans": "olie",
+      "Hebrew": "שמן",
       "in English": "oil"
     },
     {
       "Number": 627,
-      "Afrikaans": "bloed",
+      "Hebrew": "דם",
       "in English": "blood"
     },
     {
       "Number": 628,
-      "Afrikaans": "raak",
+      "Hebrew": "לגעת",
       "in English": "touch"
     },
     {
       "Number": 629,
-      "Afrikaans": "gegroei",
+      "Hebrew": "גדלתי",
       "in English": "grew"
     },
     {
       "Number": 630,
-      "Afrikaans": "persent",
+      "Hebrew": "סנט",
       "in English": "cent"
     },
     {
       "Number": 631,
-      "Afrikaans": "meng",
+      "Hebrew": "לערבב",
       "in English": "mix"
     },
     {
       "Number": 632,
-      "Afrikaans": "span",
+      "Hebrew": "צוות",
       "in English": "team"
     },
     {
       "Number": 633,
-      "Afrikaans": "draad",
+      "Hebrew": "חוט",
       "in English": "wire"
     },
     {
       "Number": 634,
-      "Afrikaans": "koste",
+      "Hebrew": "עלות",
       "in English": "cost"
     },
     {
       "Number": 635,
-      "Afrikaans": "verloor",
+      "Hebrew": "איבדתי",
       "in English": "lost"
     },
     {
       "Number": 636,
-      "Afrikaans": "bruin",
+      "Hebrew": "חום",
       "in English": "brown"
     },
     {
       "Number": 637,
-      "Afrikaans": "dra",
+      "Hebrew": "ללבוש",
       "in English": "wear"
     },
     {
       "Number": 638,
-      "Afrikaans": "tuin",
+      "Hebrew": "גן",
       "in English": "garden"
     },
     {
       "Number": 639,
-      "Afrikaans": "gelyke",
+      "Hebrew": "שווה",
       "in English": "equal"
     },
     {
       "Number": 640,
-      "Afrikaans": "gestuur",
+      "Hebrew": "שלחתי",
       "in English": "sent"
     },
     {
       "Number": 641,
-      "Afrikaans": "kies",
+      "Hebrew": "לבחור",
       "in English": "choose"
     },
     {
       "Number": 642,
-      "Afrikaans": "val",
+      "Hebrew": "נפלתי",
       "in English": "fell"
     },
     {
       "Number": 643,
-      "Afrikaans": "pas",
+      "Hebrew": "להתאים",
       "in English": "fit"
     },
     {
       "Number": 644,
-      "Afrikaans": "vloei",
+      "Hebrew": "לזרום",
       "in English": "flow"
     },
     {
       "Number": 645,
-      "Afrikaans": "billike",
+      "Hebrew": "הוגן",
       "in English": "fair"
     },
     {
       "Number": 646,
-      "Afrikaans": "bank",
+      "Hebrew": "בנק",
       "in English": "bank"
     },
     {
       "Number": 647,
-      "Afrikaans": "versamel",
+      "Hebrew": "לאסוף",
       "in English": "collect"
     },
     {
       "Number": 648,
-      "Afrikaans": "red",
+      "Hebrew": "להציל",
       "in English": "save"
     },
     {
       "Number": 649,
-      "Afrikaans": "beheer",
+      "Hebrew": "שליטה",
       "in English": "control"
     },
     {
       "Number": 650,
-      "Afrikaans": "desimale",
+      "Hebrew": "עשרוני",
       "in English": "decimal"
     },
     {
       "Number": 651,
-      "Afrikaans": "oor",
+      "Hebrew": "אוזן",
       "in English": "ear"
     },
     {
       "Number": 652,
-      "Afrikaans": "anders",
+      "Hebrew": "אחר",
       "in English": "else"
     },
     {
       "Number": 653,
-      "Afrikaans": "baie",
+      "Hebrew": "די",
       "in English": "quite"
     },
     {
       "Number": 654,
-      "Afrikaans": "gebreek",
+      "Hebrew": "פרץ",
       "in English": "broke"
     },
     {
       "Number": 655,
-      "Afrikaans": "geval",
+      "Hebrew": "מקרה",
       "in English": "case"
     },
     {
       "Number": 656,
-      "Afrikaans": "middel",
+      "Hebrew": "אמצע",
       "in English": "middle"
     },
     {
       "Number": 657,
-      "Afrikaans": "dood te maak",
+      "Hebrew": "להרוג",
       "in English": "kill"
     },
     {
       "Number": 658,
-      "Afrikaans": "seun",
+      "Hebrew": "בן",
       "in English": "son"
     },
     {
       "Number": 659,
-      "Afrikaans": "meer",
+      "Hebrew": "אגם",
       "in English": "lake"
     },
     {
       "Number": 660,
-      "Afrikaans": "oomblik",
+      "Hebrew": "רגע",
       "in English": "moment"
     },
     {
       "Number": 661,
-      "Afrikaans": "skaal",
+      "Hebrew": "בקנה מידה",
       "in English": "scale"
     },
     {
       "Number": 662,
-      "Afrikaans": "hard",
+      "Hebrew": "רם",
       "in English": "loud"
     },
     {
       "Number": 663,
-      "Afrikaans": "die lente",
+      "Hebrew": "האביב",
       "in English": "spring"
     },
     {
       "Number": 664,
-      "Afrikaans": "neem",
+      "Hebrew": "להתבונן",
       "in English": "observe"
     },
     {
       "Number": 665,
-      "Afrikaans": "kind",
+      "Hebrew": "ילד",
       "in English": "child"
     },
     {
       "Number": 666,
-      "Afrikaans": "reguit",
+      "Hebrew": "ישר",
       "in English": "straight"
     },
     {
       "Number": 667,
-      "Afrikaans": "konsonant",
+      "Hebrew": "עיצור",
       "in English": "consonant"
     },
     {
       "Number": 668,
-      "Afrikaans": "nasie",
+      "Hebrew": "אומה",
       "in English": "nation"
     },
     {
       "Number": 669,
-      "Afrikaans": "woordeboek",
+      "Hebrew": "מילון",
       "in English": "dictionary"
     },
     {
       "Number": 670,
-      "Afrikaans": "melk",
+      "Hebrew": "חלב",
       "in English": "milk"
     },
     {
       "Number": 671,
-      "Afrikaans": "spoed",
+      "Hebrew": "מהירות",
       "in English": "speed"
     },
     {
       "Number": 672,
-      "Afrikaans": "metode",
+      "Hebrew": "שיטה",
       "in English": "method"
     },
     {
       "Number": 673,
-      "Afrikaans": "orrel",
+      "Hebrew": "איבר",
       "in English": "organ"
     },
     {
       "Number": 674,
-      "Afrikaans": "betaal",
+      "Hebrew": "לשלם",
       "in English": "pay"
     },
     {
       "Number": 675,
-      "Afrikaans": "ouderdom",
+      "Hebrew": "גיל",
       "in English": "age"
     },
     {
       "Number": 676,
-      "Afrikaans": "artikel",
+      "Hebrew": "סעיף",
       "in English": "section"
     },
     {
       "Number": 677,
-      "Afrikaans": "rok",
+      "Hebrew": "שמלה",
       "in English": "dress"
     },
     {
       "Number": 678,
-      "Afrikaans": "wolk",
+      "Hebrew": "ענן",
       "in English": "cloud"
     },
     {
       "Number": 679,
-      "Afrikaans": "verrassing",
+      "Hebrew": "הפתעה",
       "in English": "surprise"
     },
     {
       "Number": 680,
-      "Afrikaans": "stil",
+      "Hebrew": "שקט",
       "in English": "quiet"
     },
     {
       "Number": 681,
-      "Afrikaans": "klip",
+      "Hebrew": "אבן",
       "in English": "stone"
     },
     {
       "Number": 682,
-      "Afrikaans": "klein",
+      "Hebrew": "זעיר",
       "in English": "tiny"
     },
     {
       "Number": 683,
-      "Afrikaans": "klim",
+      "Hebrew": "טיפוס",
       "in English": "climb"
     },
     {
       "Number": 684,
-      "Afrikaans": "Modern",
+      "Hebrew": "מגניב",
       "in English": "cool"
     },
     {
       "Number": 685,
-      "Afrikaans": "ontwerp",
+      "Hebrew": "לעצב",
       "in English": "design"
     },
     {
       "Number": 686,
-      "Afrikaans": "swak",
+      "Hebrew": "עני",
       "in English": "poor"
     },
     {
       "Number": 687,
-      "Afrikaans": "baie",
+      "Hebrew": "מגרש",
       "in English": "lot"
     },
     {
       "Number": 688,
-      "Afrikaans": "eksperiment",
+      "Hebrew": "ניסיון",
       "in English": "experiment"
     },
     {
       "Number": 689,
-      "Afrikaans": "onderkant",
+      "Hebrew": "תחתון",
       "in English": "bottom"
     },
     {
       "Number": 690,
-      "Afrikaans": "sleutel",
+      "Hebrew": "מפתח",
       "in English": "key"
     },
     {
       "Number": 691,
-      "Afrikaans": "yster",
+      "Hebrew": "ברזל",
       "in English": "iron"
     },
     {
       "Number": 692,
-      "Afrikaans": "enkele",
+      "Hebrew": "אחת",
       "in English": "single"
     },
     {
       "Number": 693,
-      "Afrikaans": "stok",
+      "Hebrew": "מקל",
       "in English": "stick"
     },
     {
       "Number": 694,
-      "Afrikaans": "plat",
+      "Hebrew": "דירה",
       "in English": "flat"
     },
     {
       "Number": 695,
-      "Afrikaans": "twintig",
+      "Hebrew": "עשרים",
       "in English": "twenty"
     },
     {
       "Number": 696,
-      "Afrikaans": "vel",
+      "Hebrew": "עור",
       "in English": "skin"
     },
     {
       "Number": 697,
-      "Afrikaans": "glimlag",
+      "Hebrew": "חיוך",
       "in English": "smile"
     },
     {
       "Number": 698,
-      "Afrikaans": "toename",
+      "Hebrew": "קמט",
       "in English": "crease"
     },
     {
       "Number": 699,
-      "Afrikaans": "gat",
+      "Hebrew": "חור",
       "in English": "hole"
     },
     {
       "Number": 700,
-      "Afrikaans": "spring",
+      "Hebrew": "לקפוץ",
       "in English": "jump"
     },
     {
       "Number": 701,
-      "Afrikaans": "baba",
+      "Hebrew": "תינוק",
       "in English": "baby"
     },
     {
       "Number": 702,
-      "Afrikaans": "agt",
+      "Hebrew": "שמונה",
       "in English": "eight"
     },
     {
       "Number": 703,
-      "Afrikaans": "dorpie",
+      "Hebrew": "כפר",
       "in English": "village"
     },
     {
       "Number": 704,
-      "Afrikaans": "ontmoet",
+      "Hebrew": "נפגש",
       "in English": "meet"
     },
     {
       "Number": 705,
-      "Afrikaans": "wortel",
+      "Hebrew": "שורש",
       "in English": "root"
     },
     {
       "Number": 706,
-      "Afrikaans": "koop",
+      "Hebrew": "לקנות",
       "in English": "buy"
     },
     {
       "Number": 707,
-      "Afrikaans": "verhoog",
+      "Hebrew": "להעלות",
       "in English": "raise"
     },
     {
       "Number": 708,
-      "Afrikaans": "los",
+      "Hebrew": "לפתור",
       "in English": "solve"
     },
     {
       "Number": 709,
-      "Afrikaans": "metaal",
+      "Hebrew": "מתכת",
       "in English": "metal"
     },
     {
       "Number": 710,
-      "Afrikaans": "of",
+      "Hebrew": "אם",
       "in English": "whether"
     },
     {
       "Number": 711,
-      "Afrikaans": "stoot",
+      "Hebrew": "דחיפה",
       "in English": "push"
     },
     {
       "Number": 712,
-      "Afrikaans": "sewe",
+      "Hebrew": "שבע",
       "in English": "seven"
     },
     {
       "Number": 713,
-      "Afrikaans": "paragraaf",
+      "Hebrew": "סעיף",
       "in English": "paragraph"
     },
     {
       "Number": 714,
-      "Afrikaans": "derde",
+      "Hebrew": "שלישי",
       "in English": "third"
     },
     {
       "Number": 715,
-      "Afrikaans": "sal",
+      "Hebrew": "תהא",
       "in English": "shall"
     },
     {
       "Number": 716,
-      "Afrikaans": "gehou",
+      "Hebrew": "מוחזק",
       "in English": "held"
     },
     {
       "Number": 717,
-      "Afrikaans": "hare",
+      "Hebrew": "שיער",
       "in English": "hair"
     },
     {
       "Number": 718,
-      "Afrikaans": "beskryf",
+      "Hebrew": "לתאר",
       "in English": "describe"
     },
     {
       "Number": 719,
-      "Afrikaans": "kok",
+      "Hebrew": "טבח",
       "in English": "cook"
     },
     {
       "Number": 720,
-      "Afrikaans": "vloer",
+      "Hebrew": "רצפה",
       "in English": "floor"
     },
     {
       "Number": 721,
-      "Afrikaans": "óf",
+      "Hebrew": "או",
       "in English": "either"
     },
     {
       "Number": 722,
-      "Afrikaans": "gevolg",
+      "Hebrew": "תוצאה",
       "in English": "result"
     },
     {
       "Number": 723,
-      "Afrikaans": "brand",
+      "Hebrew": "לשרוף",
       "in English": "burn"
     },
     {
       "Number": 724,
-      "Afrikaans": "Hill",
+      "Hebrew": "גבעה",
       "in English": "hill"
     },
     {
       "Number": 725,
-      "Afrikaans": "veilig",
+      "Hebrew": "בטוח",
       "in English": "safe"
     },
     {
       "Number": 726,
-      "Afrikaans": "kat",
+      "Hebrew": "חתול",
       "in English": "cat"
     },
     {
       "Number": 727,
-      "Afrikaans": "eeu",
+      "Hebrew": "המאה",
       "in English": "century"
     },
     {
       "Number": 728,
-      "Afrikaans": "oorweeg",
+      "Hebrew": "לשקול",
       "in English": "consider"
     },
     {
       "Number": 729,
-      "Afrikaans": "tipe",
+      "Hebrew": "סוג",
       "in English": "type"
     },
     {
       "Number": 730,
-      "Afrikaans": "wet",
+      "Hebrew": "החוק",
       "in English": "law"
     },
     {
       "Number": 731,
-      "Afrikaans": "bietjie",
+      "Hebrew": "קצת",
       "in English": "bit"
     },
     {
       "Number": 732,
-      "Afrikaans": "kus",
+      "Hebrew": "החוף",
       "in English": "coast"
     },
     {
       "Number": 733,
-      "Afrikaans": "afskrif",
+      "Hebrew": "עותק",
       "in English": "copy"
     },
     {
       "Number": 734,
-      "Afrikaans": "frase",
+      "Hebrew": "ביטוי",
       "in English": "phrase"
     },
     {
       "Number": 735,
-      "Afrikaans": "stil",
+      "Hebrew": "שקט",
       "in English": "silent"
     },
     {
       "Number": 736,
-      "Afrikaans": "hoë",
+      "Hebrew": "גבוה",
       "in English": "tall"
     },
     {
       "Number": 737,
-      "Afrikaans": "sand",
+      "Hebrew": "חול",
       "in English": "sand"
     },
     {
       "Number": 738,
-      "Afrikaans": "grond",
+      "Hebrew": "אדמה",
       "in English": "soil"
     },
     {
       "Number": 739,
-      "Afrikaans": "roll",
+      "Hebrew": "גליל",
       "in English": "roll"
     },
     {
       "Number": 740,
-      "Afrikaans": "temperatuur",
+      "Hebrew": "טמפרטורה",
       "in English": "temperature"
     },
     {
       "Number": 741,
-      "Afrikaans": "vinger",
+      "Hebrew": "אצבע",
       "in English": "finger"
     },
     {
       "Number": 742,
-      "Afrikaans": "bedryf",
+      "Hebrew": "תעשייה",
       "in English": "industry"
     },
     {
       "Number": 743,
-      "Afrikaans": "waarde",
+      "Hebrew": "ערך",
       "in English": "value"
     },
     {
       "Number": 744,
-      "Afrikaans": "stryd",
+      "Hebrew": "מאבק",
       "in English": "fight"
     },
     {
       "Number": 745,
-      "Afrikaans": "leuen",
+      "Hebrew": "שקר",
       "in English": "lie"
     },
     {
       "Number": 746,
-      "Afrikaans": "klop",
+      "Hebrew": "הכה",
       "in English": "beat"
     },
     {
       "Number": 747,
-      "Afrikaans": "opgewonde",
+      "Hebrew": "לרגש",
       "in English": "excite"
     },
     {
       "Number": 748,
-      "Afrikaans": "natuurlike",
+      "Hebrew": "טבעי",
       "in English": "natural"
     },
     {
       "Number": 749,
-      "Afrikaans": "view",
+      "Hebrew": "תצוגה",
       "in English": "view"
     },
     {
       "Number": 750,
-      "Afrikaans": "sin",
+      "Hebrew": "תחושה",
       "in English": "sense"
     },
     {
       "Number": 751,
-      "Afrikaans": "kapitaal",
+      "Hebrew": "הון",
       "in English": "capital"
     },
     {
       "Number": 752,
-      "Afrikaans": "sal nie",
+      "Hebrew": "לא יהיה",
       "in English": "won’t"
     },
     {
       "Number": 753,
-      "Afrikaans": "stoel",
+      "Hebrew": "כיסא",
       "in English": "chair"
     },
     {
       "Number": 754,
-      "Afrikaans": "gevaar",
+      "Hebrew": "סכנה",
       "in English": "danger"
     },
     {
       "Number": 755,
-      "Afrikaans": "vrugte",
+      "Hebrew": "פירות",
       "in English": "fruit"
     },
     {
       "Number": 756,
-      "Afrikaans": "ryk",
+      "Hebrew": "עשיר",
       "in English": "rich"
     },
     {
       "Number": 757,
-      "Afrikaans": "dik",
+      "Hebrew": "עבה",
       "in English": "thick"
     },
     {
       "Number": 758,
-      "Afrikaans": "soldaat",
+      "Hebrew": "חיל",
       "in English": "soldier"
     },
     {
       "Number": 759,
-      "Afrikaans": "proses",
+      "Hebrew": "תהליך",
       "in English": "process"
     },
     {
       "Number": 760,
-      "Afrikaans": "bedryf",
+      "Hebrew": "פועל",
       "in English": "operate"
     },
     {
       "Number": 761,
-      "Afrikaans": "praktyk",
+      "Hebrew": "בפועל",
       "in English": "practice"
     },
     {
       "Number": 762,
-      "Afrikaans": "afsonderlike",
+      "Hebrew": "נפרד",
       "in English": "separate"
     },
     {
       "Number": 763,
-      "Afrikaans": "moeilik",
+      "Hebrew": "קשה",
       "in English": "difficult"
     },
     {
       "Number": 764,
-      "Afrikaans": "dokter",
+      "Hebrew": "רופא",
       "in English": "doctor"
     },
     {
       "Number": 765,
-      "Afrikaans": "asseblief",
+      "Hebrew": "בבקשה",
       "in English": "please"
     },
     {
       "Number": 766,
-      "Afrikaans": "beskerm",
+      "Hebrew": "להגן על",
       "in English": "protect"
     },
     {
       "Number": 767,
-      "Afrikaans": "middag",
+      "Hebrew": "הצהריים",
       "in English": "noon"
     },
     {
       "Number": 768,
-      "Afrikaans": "oes",
+      "Hebrew": "יבול",
       "in English": "crop"
     },
     {
       "Number": 769,
-      "Afrikaans": "moderne",
+      "Hebrew": "מודרני",
       "in English": "modern"
     },
     {
       "Number": 770,
-      "Afrikaans": "element",
+      "Hebrew": "אלמנט",
       "in English": "element"
     },
     {
       "Number": 771,
-      "Afrikaans": "getref",
+      "Hebrew": "פגע",
       "in English": "hit"
     },
     {
       "Number": 772,
-      "Afrikaans": "student",
+      "Hebrew": "סטודנט",
       "in English": "student"
     },
     {
       "Number": 773,
-      "Afrikaans": "hoek",
+      "Hebrew": "פינה",
       "in English": "corner"
     },
     {
       "Number": 774,
-      "Afrikaans": "partytjie",
+      "Hebrew": "מפלגה",
       "in English": "party"
     },
     {
       "Number": 775,
-      "Afrikaans": "toevoer",
+      "Hebrew": "אספקה",
       "in English": "supply"
     },
     {
       "Number": 776,
-      "Afrikaans": "wie se",
+      "Hebrew": "של מי",
       "in English": "whose"
     },
     {
       "Number": 777,
-      "Afrikaans": "spoor",
+      "Hebrew": "אתר",
       "in English": "locate"
     },
     {
       "Number": 778,
-      "Afrikaans": "ring",
+      "Hebrew": "טבעת",
       "in English": "ring"
     },
     {
       "Number": 779,
-      "Afrikaans": "karakter",
+      "Hebrew": "אופי",
       "in English": "character"
     },
     {
       "Number": 780,
-      "Afrikaans": "insekte",
+      "Hebrew": "חרקים",
       "in English": "insect"
     },
     {
       "Number": 781,
-      "Afrikaans": "gevang",
+      "Hebrew": "נתפס",
       "in English": "caught"
     },
     {
       "Number": 782,
-      "Afrikaans": "tydperk",
+      "Hebrew": "התקופה",
       "in English": "period"
     },
     {
       "Number": 783,
-      "Afrikaans": "dui",
+      "Hebrew": "מצביע על",
       "in English": "indicate"
     },
     {
       "Number": 784,
-      "Afrikaans": "radio",
+      "Hebrew": "רדיו",
       "in English": "radio"
     },
     {
       "Number": 785,
-      "Afrikaans": "gepraat",
+      "Hebrew": "דיברתי",
       "in English": "spoke"
     },
     {
       "Number": 786,
-      "Afrikaans": "atoom",
+      "Hebrew": "אטום",
       "in English": "atom"
     },
     {
       "Number": 787,
-      "Afrikaans": "menslike",
+      "Hebrew": "אדם",
       "in English": "human"
     },
     {
       "Number": 788,
-      "Afrikaans": "geskiedenis",
+      "Hebrew": "היסטוריה",
       "in English": "history"
     },
     {
       "Number": 789,
-      "Afrikaans": "uitwerking",
+      "Hebrew": "השפעה",
       "in English": "effect"
     },
     {
       "Number": 790,
-      "Afrikaans": "elektriese",
+      "Hebrew": "חשמלי",
       "in English": "electric"
     },
     {
       "Number": 791,
-      "Afrikaans": "verwag",
+      "Hebrew": "מצפה",
       "in English": "expect"
     },
     {
       "Number": 792,
-      "Afrikaans": "been",
+      "Hebrew": "עצם",
       "in English": "bone"
     },
     {
       "Number": 793,
-      "Afrikaans": "spoor",
+      "Hebrew": "רכבת",
       "in English": "rail"
     },
     {
       "Number": 794,
-      "Afrikaans": "dink",
+      "Hebrew": "להניח",
       "in English": "imagine"
     },
     {
       "Number": 795,
-      "Afrikaans": "verskaf",
+      "Hebrew": "לספק",
       "in English": "provide"
     },
     {
       "Number": 796,
-      "Afrikaans": "saamstem",
+      "Hebrew": "מסכים",
       "in English": "agree"
     },
     {
       "Number": 797,
-      "Afrikaans": "dus",
+      "Hebrew": "כך",
       "in English": "thus"
     },
     {
       "Number": 798,
-      "Afrikaans": "sagte",
+      "Hebrew": "עדין",
       "in English": "gentle"
     },
     {
       "Number": 799,
-      "Afrikaans": "vrou",
+      "Hebrew": "אישה",
       "in English": "woman"
     },
     {
       "Number": 800,
-      "Afrikaans": "kaptein",
+      "Hebrew": "קפטן",
       "in English": "captain"
     },
     {
       "Number": 801,
-      "Afrikaans": "raai",
+      "Hebrew": "מניח",
       "in English": "guess"
     },
     {
       "Number": 802,
-      "Afrikaans": "nodige",
+      "Hebrew": "הכרחי",
       "in English": "necessary"
     },
     {
       "Number": 803,
-      "Afrikaans": "skerp",
+      "Hebrew": "חד",
       "in English": "sharp"
     },
     {
       "Number": 804,
-      "Afrikaans": "vleuel",
+      "Hebrew": "כנף",
       "in English": "wing"
     },
     {
       "Number": 805,
-      "Afrikaans": "skep",
+      "Hebrew": "ליצור",
       "in English": "create"
     },
     {
       "Number": 806,
-      "Afrikaans": "naaste",
+      "Hebrew": "השכן",
       "in English": "neighbor"
     },
     {
       "Number": 807,
-      "Afrikaans": "wash",
+      "Hebrew": "לשטוף",
       "in English": "wash"
     },
     {
       "Number": 808,
-      "Afrikaans": "kolf",
+      "Hebrew": "עטלף",
       "in English": "bat"
     },
     {
       "Number": 809,
-      "Afrikaans": "eerder",
+      "Hebrew": "ולא",
       "in English": "rather"
     },
     {
       "Number": 810,
-      "Afrikaans": "skare",
+      "Hebrew": "קהל",
       "in English": "crowd"
     },
     {
       "Number": 811,
-      "Afrikaans": "koring",
+      "Hebrew": "תירס",
       "in English": "corn"
     },
     {
       "Number": 812,
-      "Afrikaans": "vergelyk",
+      "Hebrew": "להשוות",
       "in English": "compare"
     },
     {
       "Number": 813,
-      "Afrikaans": "gedig",
+      "Hebrew": "שיר",
       "in English": "poem"
     },
     {
       "Number": 814,
-      "Afrikaans": "string",
+      "Hebrew": "מחרוזת",
       "in English": "string"
     },
     {
       "Number": 815,
-      "Afrikaans": "klok",
+      "Hebrew": "פעמון",
       "in English": "bell"
     },
     {
       "Number": 816,
-      "Afrikaans": "afhang",
+      "Hebrew": "תלויים",
       "in English": "depend"
     },
     {
       "Number": 817,
-      "Afrikaans": "vleis",
+      "Hebrew": "בשר",
       "in English": "meat"
     },
     {
       "Number": 818,
-      "Afrikaans": "vryf",
+      "Hebrew": "לשפשף",
       "in English": "rub"
     },
     {
       "Number": 819,
-      "Afrikaans": "buis",
+      "Hebrew": "צינור",
       "in English": "tube"
     },
     {
       "Number": 820,
-      "Afrikaans": "bekende",
+      "Hebrew": "מפורסם",
       "in English": "famous"
     },
     {
       "Number": 921,
-      "Afrikaans": "dollar",
+      "Hebrew": "דולר",
       "in English": "dollar"
     },
     {
       "Number": 822,
-      "Afrikaans": "stroom",
+      "Hebrew": "זרם",
       "in English": "stream"
     },
     {
       "Number": 823,
-      "Afrikaans": "vrees",
+      "Hebrew": "פחד",
       "in English": "fear"
     },
     {
       "Number": 284,
-      "Afrikaans": "oë",
+      "Hebrew": "מראה",
       "in English": "sight"
     },
     {
       "Number": 825,
-      "Afrikaans": "dun",
+      "Hebrew": "דק",
       "in English": "thin"
     },
     {
       "Number": 826,
-      "Afrikaans": "driehoek",
+      "Hebrew": "משולש",
       "in English": "triangle"
     },
     {
       "Number": 827,
-      "Afrikaans": "planeet",
+      "Hebrew": "כדור הארץ",
       "in English": "planet"
     },
     {
       "Number": 828,
-      "Afrikaans": "haastig",
+      "Hebrew": "למהר",
       "in English": "hurry"
     },
     {
       "Number": 829,
-      "Afrikaans": "hoof",
+      "Hebrew": "ראשי",
       "in English": "chief"
     },
     {
       "Number": 830,
-      "Afrikaans": "kolonie",
+      "Hebrew": "מושבה",
       "in English": "colony"
     },
     {
       "Number": 831,
-      "Afrikaans": "klok",
+      "Hebrew": "שעון",
       "in English": "clock"
     },
     {
       "Number": 832,
-      "Afrikaans": "myn",
+      "Hebrew": "שלי",
       "in English": "mine"
     },
     {
       "Number": 833,
-      "Afrikaans": "tie",
+      "Hebrew": "עניבה",
       "in English": "tie"
     },
     {
       "Number": 834,
-      "Afrikaans": "betree",
+      "Hebrew": "להיכנס",
       "in English": "enter"
     },
     {
       "Number": 835,
-      "Afrikaans": "groot",
+      "Hebrew": "גדול",
       "in English": "major"
     },
     {
       "Number": 836,
-      "Afrikaans": "vars",
+      "Hebrew": "טרי",
       "in English": "fresh"
     },
     {
       "Number": 837,
-      "Afrikaans": "soek",
+      "Hebrew": "חיפוש",
       "in English": "search"
     },
     {
       "Number": 838,
-      "Afrikaans": "stuur",
+      "Hebrew": "לשלוח",
       "in English": "send"
     },
     {
       "Number": 839,
-      "Afrikaans": "geel",
+      "Hebrew": "צהוב",
       "in English": "yellow"
     },
     {
       "Number": 840,
-      "Afrikaans": "geweer",
+      "Hebrew": "אקדח",
       "in English": "gun"
     },
     {
       "Number": 841,
-      "Afrikaans": "toelaat",
+      "Hebrew": "לאפשר",
       "in English": "allow"
     },
     {
       "Number": 842,
-      "Afrikaans": "Druk",
+      "Hebrew": "הדפסה",
       "in English": "print"
     },
     {
       "Number": 843,
-      "Afrikaans": "dood",
+      "Hebrew": "מת",
       "in English": "dead"
     },
     {
       "Number": 844,
-      "Afrikaans": "spot",
+      "Hebrew": "מקום",
       "in English": "spot"
     },
     {
       "Number": 845,
-      "Afrikaans": "woestyn",
+      "Hebrew": "מדבר",
       "in English": "desert"
     },
     {
       "Number": 846,
-      "Afrikaans": "pak",
+      "Hebrew": "חליפה",
       "in English": "suit"
     },
     {
       "Number": 847,
-      "Afrikaans": "huidige",
+      "Hebrew": "נוכחי",
       "in English": "current"
     },
     {
       "Number": 848,
-      "Afrikaans": "lift",
+      "Hebrew": "מעלית",
       "in English": "lift"
     },
     {
       "Number": 840,
-      "Afrikaans": "gestyg",
+      "Hebrew": "עלה",
       "in English": "rose"
     },
     {
       "Number": 850,
-      "Afrikaans": "kom",
+      "Hebrew": "להגיע",
       "in English": "arrive"
     },
     {
       "Number": 851,
-      "Afrikaans": "meester",
+      "Hebrew": "אדון",
       "in English": "master"
     },
     {
       "Number": 852,
-      "Afrikaans": "spoor",
+      "Hebrew": "מסלול",
       "in English": "track"
     },
     {
       "Number": 853,
-      "Afrikaans": "ouer",
+      "Hebrew": "הורה",
       "in English": "parent"
     },
     {
       "Number": 854,
-      "Afrikaans": "strand",
+      "Hebrew": "החוף",
       "in English": "shore"
     },
     {
       "Number": 855,
-      "Afrikaans": "afdeling",
+      "Hebrew": "החלוקה",
       "in English": "division"
     },
     {
       "Number": 856,
-      "Afrikaans": "blad",
+      "Hebrew": "גיליון",
       "in English": "sheet"
     },
     {
       "Number": 857,
-      "Afrikaans": "stof",
+      "Hebrew": "חומר",
       "in English": "substance"
     },
     {
       "Number": 858,
-      "Afrikaans": "guns",
+      "Hebrew": "להעדיף",
       "in English": "favor"
     },
     {
       "Number": 859,
-      "Afrikaans": "koppel",
+      "Hebrew": "להתחבר",
       "in English": "connect"
     },
     {
       "Number": 860,
-      "Afrikaans": "post",
+      "Hebrew": "שלאחר",
       "in English": "post"
     },
     {
       "Number": 861,
-      "Afrikaans": "spandeer",
+      "Hebrew": "לבלות",
       "in English": "spend"
     },
     {
       "Number": 862,
-      "Afrikaans": "koord",
+      "Hebrew": "אקורד",
       "in English": "chord"
     },
     {
       "Number": 863,
-      "Afrikaans": "vet",
+      "Hebrew": "שומן",
       "in English": "fat"
     },
     {
       "Number": 864,
-      "Afrikaans": "bly",
+      "Hebrew": "שמח",
       "in English": "glad"
     },
     {
       "Number": 865,
-      "Afrikaans": "oorspronklike",
+      "Hebrew": "מקורי",
       "in English": "original"
     },
     {
       "Number": 866,
-      "Afrikaans": "aandeel",
+      "Hebrew": "מניה",
       "in English": "share"
     },
     {
       "Number": 867,
-      "Afrikaans": "stasie",
+      "Hebrew": "תחנה",
       "in English": "station"
     },
     {
       "Number": 868,
-      "Afrikaans": "pa",
+      "Hebrew": "אבא",
       "in English": "dad"
     },
     {
       "Number": 869,
-      "Afrikaans": "brood",
+      "Hebrew": "לחם",
       "in English": "bread"
     },
     {
       "Number": 870,
-      "Afrikaans": "hef",
+      "Hebrew": "לחייב את",
       "in English": "charge"
     },
     {
       "Number": 871,
-      "Afrikaans": "behoorlike",
+      "Hebrew": "ראוי",
       "in English": "proper"
     },
     {
       "Number": 872,
-      "Afrikaans": "bar",
+      "Hebrew": "בר",
       "in English": "bar"
     },
     {
       "Number": 873,
-      "Afrikaans": "aanbod",
+      "Hebrew": "הצעה",
       "in English": "offer"
     },
     {
       "Number": 874,
-      "Afrikaans": "segment",
+      "Hebrew": "קטע",
       "in English": "segment"
     },
     {
       "Number": 875,
-      "Afrikaans": "slaaf",
+      "Hebrew": "עבדים",
       "in English": "slave"
     },
     {
       "Number": 876,
-      "Afrikaans": "eend",
+      "Hebrew": "ברווז",
       "in English": "duck"
     },
     {
       "Number": 877,
-      "Afrikaans": "direkte",
+      "Hebrew": "מיידי",
       "in English": "instant"
     },
     {
       "Number": 878,
-      "Afrikaans": "mark",
+      "Hebrew": "שוק",
       "in English": "market"
     },
     {
       "Number": 879,
-      "Afrikaans": "graad",
+      "Hebrew": "תואר",
       "in English": "degree"
     },
     {
       "Number": 880,
-      "Afrikaans": "vul",
+      "Hebrew": "לאכלס",
       "in English": "populate"
     },
     {
       "Number": 881,
-      "Afrikaans": "chick",
+      "Hebrew": "חומוס",
       "in English": "chick"
     },
     {
       "Number": 882,
-      "Afrikaans": "liewe",
+      "Hebrew": "יקר",
       "in English": "dear"
     },
     {
       "Number": 883,
-      "Afrikaans": "vyand",
+      "Hebrew": "אויב",
       "in English": "enemy"
     },
     {
       "Number": 884,
-      "Afrikaans": "antwoord",
+      "Hebrew": "להגיב",
       "in English": "reply"
     },
     {
       "Number": 885,
-      "Afrikaans": "drink",
+      "Hebrew": "משקה",
       "in English": "drink"
     },
     {
       "Number": 886,
-      "Afrikaans": "voorkom",
+      "Hebrew": "להתרחש",
       "in English": "occur"
     },
     {
       "Number": 887,
-      "Afrikaans": "ondersteuning",
+      "Hebrew": "תמיכה",
       "in English": "support"
     },
     {
       "Number": 888,
-      "Afrikaans": "toespraak",
+      "Hebrew": "נאום",
       "in English": "speech"
     },
     {
       "Number": 889,
-      "Afrikaans": "aard",
+      "Hebrew": "טבע",
       "in English": "nature"
     },
     {
       "Number": 890,
-      "Afrikaans": "reeks",
+      "Hebrew": "טווח",
       "in English": "range"
     },
     {
       "Number": 891,
-      "Afrikaans": "stoom",
+      "Hebrew": "קיטור",
       "in English": "steam"
     },
     {
       "Number": 892,
-      "Afrikaans": "beweging",
+      "Hebrew": "תנועה",
       "in English": "motion"
     },
     {
       "Number": 893,
-      "Afrikaans": "pad",
+      "Hebrew": "נתיב",
       "in English": "path"
     },
     {
       "Number": 894,
-      "Afrikaans": "vloeistof",
+      "Hebrew": "נוזל",
       "in English": "liquid"
     },
     {
       "Number": 895,
-      "Afrikaans": "teken",
+      "Hebrew": "להיכנס",
       "in English": "log"
     },
     {
       "Number": 896,
-      "Afrikaans": "bedoel",
+      "Hebrew": "התכוון",
       "in English": "meant"
     },
     {
       "Number": 897,
-      "Afrikaans": "kwosiënt",
+      "Hebrew": "מנה",
       "in English": "quotient"
     },
     {
       "Number": 898,
-      "Afrikaans": "tande",
+      "Hebrew": "שיניים",
       "in English": "teeth"
     },
     {
       "Number": 899,
-      "Afrikaans": "dop",
+      "Hebrew": "פגז",
       "in English": "shell"
     },
     {
       "Number": 900,
-      "Afrikaans": "nek",
+      "Hebrew": "צוואר",
       "in English": "neck"
     },
     {
       "Number": 901,
-      "Afrikaans": "suurstof",
+      "Hebrew": "חמצן",
       "in English": "oxygen"
     },
     {
       "Number": 902,
-      "Afrikaans": "suiker",
+      "Hebrew": "סוכר",
       "in English": "sugar"
     },
     {
       "Number": 903,
-      "Afrikaans": "dood",
+      "Hebrew": "מוות",
       "in English": "death"
     },
     {
       "Number": 904,
-      "Afrikaans": "mooi",
+      "Hebrew": "די",
       "in English": "pretty"
     },
     {
       "Number": 905,
-      "Afrikaans": "vaardigheid",
+      "Hebrew": "מיומנות",
       "in English": "skill"
     },
     {
       "Number": 906,
-      "Afrikaans": "vroue",
+      "Hebrew": "נשים",
       "in English": "women"
     },
     {
       "Number": 907,
-      "Afrikaans": "seisoen",
+      "Hebrew": "עונה",
       "in English": "season"
     },
     {
       "Number": 908,
-      "Afrikaans": "oplossing",
+      "Hebrew": "פתרון",
       "in English": "solution"
     },
     {
       "Number": 909,
-      "Afrikaans": "Magnet",
+      "Hebrew": "מגנט",
       "in English": "magnet"
     },
     {
       "Number": 910,
-      "Afrikaans": "silwer",
+      "Hebrew": "כסף",
       "in English": "silver"
     },
     {
       "Number": 911,
-      "Afrikaans": "dankie",
+      "Hebrew": "תודה",
       "in English": "thank"
     },
     {
       "Number": 912,
-      "Afrikaans": "tak",
+      "Hebrew": "סניף",
       "in English": "branch"
     },
     {
       "Number": 913,
-      "Afrikaans": "wedstryd",
+      "Hebrew": "משחק",
       "in English": "match"
     },
     {
       "Number": 914,
-      "Afrikaans": "agtervoegsel",
+      "Hebrew": "סיומת",
       "in English": "suffix"
     },
     {
       "Number": 915,
-      "Afrikaans": "veral",
+      "Hebrew": "במיוחד",
       "in English": "especially"
     },
     {
       "Number": 916,
-      "Afrikaans": "Fig",
+      "Hebrew": "תאנה",
       "in English": "fig"
     },
     {
       "Number": 917,
-      "Afrikaans": "bang",
+      "Hebrew": "חושש",
       "in English": "afraid"
     },
     {
       "Number": 918,
-      "Afrikaans": "groot",
+      "Hebrew": "ענק",
       "in English": "huge"
     },
     {
       "Number": 919,
-      "Afrikaans": "suster",
+      "Hebrew": "אחות",
       "in English": "sister"
     },
     {
       "Number": 920,
-      "Afrikaans": "staal",
+      "Hebrew": "פלדה",
       "in English": "steel"
     },
     {
       "Number": 921,
-      "Afrikaans": "bespreek",
+      "Hebrew": "לדון",
       "in English": "discuss"
     },
     {
       "Number": 922,
-      "Afrikaans": "vorentoe",
+      "Hebrew": "קדימה",
       "in English": "forward"
     },
     {
       "Number": 923,
-      "Afrikaans": "soortgelyke",
+      "Hebrew": "דומה",
       "in English": "similar"
     },
     {
       "Number": 924,
-      "Afrikaans": "lei",
+      "Hebrew": "להנחות את",
       "in English": "guide"
     },
     {
       "Number": 925,
-      "Afrikaans": "ervaring",
+      "Hebrew": "ניסיון",
       "in English": "experience"
     },
     {
       "Number": 926,
-      "Afrikaans": "telling",
+      "Hebrew": "ציון",
       "in English": "score"
     },
     {
       "Number": 927,
-      "Afrikaans": "appel",
+      "Hebrew": "תפוח",
       "in English": "apple"
     },
     {
       "Number": 928,
-      "Afrikaans": "gekoop",
+      "Hebrew": "קניתי",
       "in English": "bought"
     },
     {
       "Number": 929,
-      "Afrikaans": "gelei",
+      "Hebrew": "הוביל",
       "in English": "led"
     },
     {
       "Number": 930,
-      "Afrikaans": "steek",
+      "Hebrew": "המגרש",
       "in English": "pitch"
     },
     {
       "Number": 931,
-      "Afrikaans": "rok",
+      "Hebrew": "מעיל",
       "in English": "coat"
     },
     {
       "Number": 932,
-      "Afrikaans": "massa",
+      "Hebrew": "מסה",
       "in English": "mass"
     },
     {
       "Number": 933,
-      "Afrikaans": "kaart",
+      "Hebrew": "כרטיס",
       "in English": "card"
     },
     {
       "Number": 934,
-      "Afrikaans": "groep",
+      "Hebrew": "להקה",
       "in English": "band"
     },
     {
       "Number": 935,
-      "Afrikaans": "tou",
+      "Hebrew": "חבל",
       "in English": "rope"
     },
     {
       "Number": 936,
-      "Afrikaans": "strokie",
+      "Hebrew": "תלוש",
       "in English": "slip"
     },
     {
       "Number": 937,
-      "Afrikaans": "oorwinning",
+      "Hebrew": "לנצח",
       "in English": "win"
     },
     {
       "Number": 938,
-      "Afrikaans": "droom",
+      "Hebrew": "לחלום",
       "in English": "dream"
     },
     {
       "Number": 939,
-      "Afrikaans": "aand",
+      "Hebrew": "ערב",
       "in English": "evening"
     },
     {
       "Number": 940,
-      "Afrikaans": "toestand",
+      "Hebrew": "מצב",
       "in English": "condition"
     },
     {
       "Number": 941,
-      "Afrikaans": "voer",
+      "Hebrew": "הזנה",
       "in English": "feed"
     },
     {
       "Number": 942,
-      "Afrikaans": "hulpmiddel",
+      "Hebrew": "כלי",
       "in English": "tool"
     },
     {
       "Number": 943,
-      "Afrikaans": "totale",
+      "Hebrew": "סך הכל",
       "in English": "total"
     },
     {
       "Number": 944,
-      "Afrikaans": "basiese",
+      "Hebrew": "בסיסי",
       "in English": "basic"
     },
     {
       "Number": 945,
-      "Afrikaans": "reuk",
+      "Hebrew": "ריח",
       "in English": "smell"
     },
     {
       "Number": 946,
-      "Afrikaans": "vallei",
+      "Hebrew": "עמק",
       "in English": "valley"
     },
     {
       "Number": 947,
-      "Afrikaans": "of",
+      "Hebrew": "ולא",
       "in English": "nor"
     },
     {
       "Number": 948,
-      "Afrikaans": "dubbel",
+      "Hebrew": "כפול",
       "in English": "double"
     },
     {
       "Number": 949,
-      "Afrikaans": "sitplek",
+      "Hebrew": "מושב",
       "in English": "seat"
     },
     {
       "Number": 950,
-      "Afrikaans": "voortgaan",
+      "Hebrew": "להמשיך",
       "in English": "continue"
     },
     {
       "Number": 951,
-      "Afrikaans": "blok",
+      "Hebrew": "בלוק",
       "in English": "block"
     },
     {
       "Number": 952,
-      "Afrikaans": "grafiek",
+      "Hebrew": "תרשים",
       "in English": "chart"
     },
     {
       "Number": 953,
-      "Afrikaans": "hoed",
+      "Hebrew": "כובע",
       "in English": "hat"
     },
     {
       "Number": 954,
-      "Afrikaans": "verkoop",
+      "Hebrew": "למכור",
       "in English": "sell"
     },
     {
       "Number": 955,
-      "Afrikaans": "sukses",
+      "Hebrew": "הצלחה",
       "in English": "success"
     },
     {
       "Number": 956,
-      "Afrikaans": "maatskappy",
+      "Hebrew": "חברה",
       "in English": "company"
     },
     {
       "Number": 957,
-      "Afrikaans": "aftrek",
+      "Hebrew": "להחסיר",
       "in English": "subtract"
     },
     {
       "Number": 958,
-      "Afrikaans": "gebeurtenis",
+      "Hebrew": "אירוע",
       "in English": "event"
     },
     {
       "Number": 959,
-      "Afrikaans": "bepaalde",
+      "Hebrew": "בפרט",
       "in English": "particular"
     },
     {
       "Number": 960,
-      "Afrikaans": "transaksie",
+      "Hebrew": "עסקה",
       "in English": "deal"
     },
     {
       "Number": 961,
-      "Afrikaans": "swem",
+      "Hebrew": "לשחות",
       "in English": "swim"
     },
     {
       "Number": 962,
-      "Afrikaans": "term",
+      "Hebrew": "טווח",
       "in English": "term"
     },
     {
       "Number": 963,
-      "Afrikaans": "teenoorgestelde",
+      "Hebrew": "ההפך",
       "in English": "opposite"
     },
     {
       "Number": 964,
-      "Afrikaans": "vrou",
+      "Hebrew": "אישה",
       "in English": "wife"
     },
     {
       "Number": 965,
-      "Afrikaans": "skoen",
+      "Hebrew": "נעל",
       "in English": "shoe"
     },
     {
       "Number": 966,
-      "Afrikaans": "skouer",
+      "Hebrew": "כתף",
       "in English": "shoulder"
     },
     {
       "Number": 967,
-      "Afrikaans": "verspreiding",
+      "Hebrew": "התפשטות",
       "in English": "spread"
     },
     {
       "Number": 968,
-      "Afrikaans": "reël",
+      "Hebrew": "לסדר",
       "in English": "arrange"
     },
     {
       "Number": 969,
-      "Afrikaans": "kamp",
+      "Hebrew": "מחנה",
       "in English": "camp"
     },
     {
       "Number": 970,
-      "Afrikaans": "bedink",
+      "Hebrew": "להמציא",
       "in English": "invent"
     },
     {
       "Number": 971,
-      "Afrikaans": "katoen",
+      "Hebrew": "כותנה",
       "in English": "cotton"
     },
     {
       "Number": 972,
-      "Afrikaans": "Gebore",
+      "Hebrew": "נולד",
       "in English": "born"
     },
     {
       "Number": 973,
-      "Afrikaans": "bepaal",
+      "Hebrew": "לקבוע",
       "in English": "determine"
     },
     {
       "Number": 974,
-      "Afrikaans": "kwart",
+      "Hebrew": "ליטר",
       "in English": "quart"
     },
     {
       "Number": 975,
-      "Afrikaans": "nege",
+      "Hebrew": "תשע",
       "in English": "nine"
     },
     {
       "Number": 976,
-      "Afrikaans": "vragmotor",
+      "Hebrew": "משאית",
       "in English": "truck"
     },
     {
       "Number": 977,
-      "Afrikaans": "geraas",
+      "Hebrew": "רעש",
       "in English": "noise"
     },
     {
       "Number": 978,
-      "Afrikaans": "vlak",
+      "Hebrew": "רמה",
       "in English": "level"
     },
     {
       "Number": 979,
-      "Afrikaans": "kans",
+      "Hebrew": "סיכוי",
       "in English": "chance"
     },
     {
       "Number": 980,
-      "Afrikaans": "versamel",
+      "Hebrew": "לאסוף",
       "in English": "gather"
     },
     {
       "Number": 981,
-      "Afrikaans": "winkel",
+      "Hebrew": "חנות",
       "in English": "shop"
     },
     {
       "Number": 982,
-      "Afrikaans": "rek",
+      "Hebrew": "מתיחה",
       "in English": "stretch"
     },
     {
       "Number": 983,
-      "Afrikaans": "gooi",
+      "Hebrew": "לזרוק",
       "in English": "throw"
     },
     {
       "Number": 984,
-      "Afrikaans": "skyn",
+      "Hebrew": "ברק",
       "in English": "shine"
     },
     {
       "Number": 985,
-      "Afrikaans": "eiendom",
+      "Hebrew": "רכוש",
       "in English": "property"
     },
     {
       "Number": 986,
-      "Afrikaans": "kolom",
+      "Hebrew": "טור",
       "in English": "column"
     },
     {
       "Number": 987,
-      "Afrikaans": "molekule",
+      "Hebrew": "מולקולה",
       "in English": "molecule"
     },
     {
       "Number": 988,
-      "Afrikaans": "kies",
+      "Hebrew": "בחר",
       "in English": "select"
     },
     {
       "Number": 989,
-      "Afrikaans": "verkeerd",
+      "Hebrew": "לא נכון",
       "in English": "wrong"
     },
     {
       "Number": 990,
-      "Afrikaans": "grys",
+      "Hebrew": "אפור",
       "in English": "gray"
     },
     {
       "Number": 991,
-      "Afrikaans": "herhaling",
+      "Hebrew": "חוזר",
       "in English": "repeat"
     },
     {
       "Number": 992,
-      "Afrikaans": "vereis",
+      "Hebrew": "דורש",
       "in English": "require"
     },
     {
       "Number": 993,
-      "Afrikaans": "breë",
+      "Hebrew": "רחב",
       "in English": "broad"
     },
     {
       "Number": 994,
-      "Afrikaans": "voor te berei",
+      "Hebrew": "להכין",
       "in English": "prepare"
     },
     {
       "Number": 995,
-      "Afrikaans": "sout",
+      "Hebrew": "מלח",
       "in English": "salt"
     },
     {
       "Number": 996,
-      "Afrikaans": "neus",
+      "Hebrew": "האף",
       "in English": "nose"
     },
     {
       "Number": 997,
-      "Afrikaans": "meervoud",
+      "Hebrew": "לשון רבים",
       "in English": "plural"
     },
     {
       "Number": 998,
-      "Afrikaans": "woede",
+      "Hebrew": "כעס",
       "in English": "anger"
     },
     {
       "Number": 999,
-      "Afrikaans": "eis",
+      "Hebrew": "טענה",
       "in English": "claim"
     },
     {
       "Number": 1000,
-      "Afrikaans": "vasteland",
+      "Hebrew": "יבשת",
       "in English": "continent"
     }
-]
+];
 
-exports.language = "Afrikaans";
-exports.data = afrikaans;
+exports.title = "Hebrew";
+exports.data = hebrew;

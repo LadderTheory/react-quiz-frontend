@@ -1,17 +1,18 @@
 import * as React from "react"
 import Quiz from "./quiz.js"
 
-const language_data = [
-  require("./language_data/afrikaans"),
-  require("./language_data/albanian"),
-  require("./language_data/greek"),
-  require("./language_data/hawaiian"),
-  require("./language_data/hebrew"),
-  require("./language_data/hindi"),
-  require("./language_data/italian"),
-  require("./language_data/japanese"),
-  require("./language_data/korean"),
-  require("./language_data/russian"),
+const quiz_data = [
+  require("./quiz_data/afrikaans"),
+  require("./quiz_data/albanian"),
+  require("./quiz_data/german"),
+  require("./quiz_data/greek"),
+  require("./quiz_data/hawaiian"),
+  require("./quiz_data/hebrew"),
+  require("./quiz_data/hindi"),
+  require("./quiz_data/italian"),
+  require("./quiz_data/japanese"),
+  require("./quiz_data/korean"),
+  require("./quiz_data/russian"),
 ]
 
 // styles
@@ -28,7 +29,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Somou</title>
-      <Quiz datasets={language_data} />
+      <Quiz datasets={quiz_data} />
     </main>
   )
 }

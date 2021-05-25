@@ -1,5005 +1,5005 @@
-const greek = [
+const hawaiian = [
     {
       "Number": 1,
-      "Greek": "ως",
-      "in English": "as"
-    },
-    {
-      "Number": 2,
-      "Greek": "εδώ",
-      "in English": "I"
-    },
-    {
-      "Number": 3,
-      "Greek": "του",
-      "in English": "his"
-    },
-    {
-      "Number": 4,
-      "Greek": "ότι",
-      "in English": "that"
-    },
-    {
-      "Number": 5,
-      "Greek": "αυτός",
+      "Hawaiian": "ka mea",
       "in English": "he"
     },
     {
-      "Number": 6,
-      "Greek": "ήταν",
+      "Number": 2,
+      "Hawaiian": "kona",
+      "in English": "his"
+    },
+    {
+      "Number": 3,
+      "Hawaiian": "ia",
+      "in English": "that"
+    },
+    {
+      "Number": 4,
+      "Hawaiian": "I",
+      "in English": "I"
+    },
+    {
+      "Number": 5,
+      "Hawaiian": "ia",
       "in English": "was"
     },
     {
-      "Number": 7,
-      "Greek": "για",
+      "Number": 6,
+      "Hawaiian": "no ka mea,",
       "in English": "for"
     },
     {
-      "Number": 8,
-      "Greek": "επί",
+      "Number": 7,
+      "Hawaiian": "maluna o",
       "in English": "on"
     },
     {
-      "Number": 9,
-      "Greek": "είναι",
+      "Number": 8,
+      "Hawaiian": "ua",
       "in English": "are"
     },
     {
-      "Number": 10,
-      "Greek": "με",
+      "Number": 9,
+      "Hawaiian": "me",
       "in English": "with"
     },
     {
-      "Number": 11,
-      "Greek": "αυτοί",
+      "Number": 10,
+      "Hawaiian": "lakou",
       "in English": "they"
     },
     {
-      "Number": 12,
-      "Greek": "να",
+      "Number": 11,
+      "Hawaiian": "e",
       "in English": "be"
     },
     {
-      "Number": 13,
-      "Greek": "σε",
+      "Number": 12,
+      "Hawaiian": "ma",
       "in English": "at"
     },
     {
-      "Number": 14,
-      "Greek": "ένας",
+      "Number": 13,
+      "Hawaiian": "ʻekahi",
       "in English": "one"
     },
     {
-      "Number": 15,
-      "Greek": "έχω",
+      "Number": 14,
+      "Hawaiian": "loaa",
       "in English": "have"
     },
     {
-      "Number": 16,
-      "Greek": "αυτό",
+      "Number": 15,
+      "Hawaiian": "keia",
       "in English": "this"
     },
     {
-      "Number": 17,
-      "Greek": "από",
+      "Number": 16,
+      "Hawaiian": "mai",
       "in English": "from"
     },
     {
-      "Number": 18,
-      "Greek": "από",
+      "Number": 17,
+      "Hawaiian": "ma",
       "in English": "by"
     },
     {
-      "Number": 19,
-      "Greek": "hot",
+      "Number": 18,
+      "Hawaiian": "anal",
       "in English": "hot"
     },
     {
-      "Number": 20,
-      "Greek": "λέξη",
+      "Number": 19,
+      "Hawaiian": "olelo",
       "in English": "word"
     },
     {
-      "Number": 21,
-      "Greek": "αλλά",
+      "Number": 20,
+      "Hawaiian": "aka,",
       "in English": "but"
     },
     {
-      "Number": 22,
-      "Greek": "τι",
+      "Number": 21,
+      "Hawaiian": "ka mea",
       "in English": "what"
     },
     {
-      "Number": 23,
-      "Greek": "περίπου",
+      "Number": 22,
+      "Hawaiian": "kekahi",
       "in English": "some"
     },
     {
+      "Number": 23,
+      "Hawaiian": "e like me",
+      "in English": "as"
+    },
+    {
       "Number": 24,
-      "Greek": "είναι",
+      "Hawaiian": "ka mea",
       "in English": "is"
     },
     {
       "Number": 25,
-      "Greek": "το",
+      "Hawaiian": "ia",
       "in English": "it"
     },
     {
       "Number": 26,
-      "Greek": "σας",
+      "Hawaiian": "oe",
       "in English": "you"
     },
     {
       "Number": 27,
-      "Greek": "ή",
+      "Hawaiian": "ai ole ia,",
       "in English": "or"
     },
     {
       "Number": 28,
-      "Greek": "είχε",
+      "Hawaiian": "i",
       "in English": "had"
     },
     {
       "Number": 29,
-      "Greek": "ο",
+      "Hawaiian": "ka",
       "in English": "the"
     },
     {
       "Number": 30,
-      "Greek": "από",
+      "Hawaiian": "a",
       "in English": "of"
     },
     {
       "Number": 31,
-      "Greek": "να",
+      "Hawaiian": "i",
       "in English": "to"
     },
     {
       "Number": 32,
-      "Greek": "και",
+      "Hawaiian": "a",
       "in English": "and"
     },
     {
       "Number": 33,
-      "Greek": "α",
+      "Hawaiian": "he",
       "in English": "a"
     },
     {
       "Number": 34,
-      "Greek": "σε",
+      "Hawaiian": "iloko o",
       "in English": "in"
     },
     {
       "Number": 35,
-      "Greek": "εμείς",
+      "Hawaiian": "makou",
       "in English": "we"
     },
     {
       "Number": 36,
-      "Greek": "μπορεί",
+      "Hawaiian": "hiki",
       "in English": "can"
     },
     {
       "Number": 37,
-      "Greek": "από",
+      "Hawaiian": "aku",
       "in English": "out"
     },
     {
       "Number": 38,
-      "Greek": "άλλα",
+      "Hawaiian": "kekahi",
       "in English": "other"
     },
     {
       "Number": 39,
-      "Greek": "ήταν",
+      "Hawaiian": "he",
       "in English": "were"
     },
     {
       "Number": 40,
-      "Greek": "ο οποίος",
+      "Hawaiian": "ka mea",
       "in English": "which"
     },
     {
       "Number": 41,
-      "Greek": "κάνει",
+      "Hawaiian": "hana",
       "in English": "do"
     },
     {
       "Number": 42,
-      "Greek": "τους",
+      "Hawaiian": "ko lakou",
       "in English": "their"
     },
     {
       "Number": 43,
-      "Greek": "χρόνος",
+      "Hawaiian": "manawa",
       "in English": "time"
     },
     {
       "Number": 44,
-      "Greek": "αν",
+      "Hawaiian": "ina",
       "in English": "if"
     },
     {
       "Number": 45,
-      "Greek": "θα",
+      "Hawaiian": "makemake",
       "in English": "will"
     },
     {
       "Number": 46,
-      "Greek": "πως",
+      "Hawaiian": "pehea",
       "in English": "how"
     },
     {
       "Number": 47,
-      "Greek": "είπε",
+      "Hawaiian": "mai la",
       "in English": "said"
     },
     {
       "Number": 48,
-      "Greek": "ένα",
+      "Hawaiian": "kekahi",
       "in English": "an"
     },
     {
       "Number": 49,
-      "Greek": "κάθε",
+      "Hawaiian": "kela a me keia",
       "in English": "each"
     },
     {
       "Number": 50,
-      "Greek": "πείτε",
+      "Hawaiian": "hai aku",
       "in English": "tell"
     },
     {
       "Number": 51,
-      "Greek": "κάνει",
+      "Hawaiian": "hana",
       "in English": "does"
     },
     {
       "Number": 52,
-      "Greek": "σετ",
+      "Hawaiian": "i",
       "in English": "set"
     },
     {
       "Number": 53,
-      "Greek": "τρία",
+      "Hawaiian": "ʻekolu",
       "in English": "three"
     },
     {
       "Number": 54,
-      "Greek": "θέλω",
+      "Hawaiian": "makemake",
       "in English": "want"
     },
     {
       "Number": 55,
-      "Greek": "αέρας",
+      "Hawaiian": "ea",
       "in English": "air"
     },
     {
       "Number": 56,
-      "Greek": "καλά",
+      "Hawaiian": "pono",
       "in English": "well"
     },
     {
       "Number": 57,
-      "Greek": "επίσης,",
+      "Hawaiian": "no hoi",
       "in English": "also"
     },
     {
       "Number": 58,
-      "Greek": "παιχνίδι",
+      "Hawaiian": "paani",
       "in English": "play"
     },
     {
       "Number": 59,
-      "Greek": "μικρό",
+      "Hawaiian": "uuku",
       "in English": "small"
     },
     {
       "Number": 60,
-      "Greek": "τέλος",
+      "Hawaiian": "hopena",
       "in English": "end"
     },
     {
       "Number": 61,
-      "Greek": "που",
+      "Hawaiian": "kau",
       "in English": "put"
     },
     {
       "Number": 62,
-      "Greek": "σπίτι",
+      "Hawaiian": "ka hale",
       "in English": "home"
     },
     {
       "Number": 63,
-      "Greek": "διαβάστε",
+      "Hawaiian": "heluhelu mai o",
       "in English": "read"
     },
     {
       "Number": 64,
-      "Greek": "χέρι",
+      "Hawaiian": "lima",
       "in English": "hand"
     },
     {
       "Number": 65,
-      "Greek": "λιμάνι",
+      "Hawaiian": "ke awa",
       "in English": "port"
     },
     {
       "Number": 66,
-      "Greek": "μεγάλες",
+      "Hawaiian": "nui",
       "in English": "large"
     },
     {
       "Number": 67,
-      "Greek": "σημάνει",
+      "Hawaiian": "wale",
       "in English": "spell"
     },
     {
       "Number": 68,
-      "Greek": "προσθέσετε",
+      "Hawaiian": "hui",
       "in English": "add"
     },
     {
       "Number": 69,
-      "Greek": "ακόμη",
+      "Hawaiian": "a hiki",
       "in English": "even"
     },
     {
       "Number": 70,
-      "Greek": "γη",
+      "Hawaiian": "aina",
       "in English": "land"
     },
     {
       "Number": 71,
-      "Greek": "εδώ",
+      "Hawaiian": "maanei",
       "in English": "here"
     },
     {
       "Number": 72,
-      "Greek": "πρέπει",
+      "Hawaiian": "pono",
       "in English": "must"
     },
     {
       "Number": 73,
-      "Greek": "μεγάλος",
+      "Hawaiian": "nui",
       "in English": "big"
     },
     {
       "Number": 74,
-      "Greek": "υψηλός",
+      "Hawaiian": "kiʻekiʻe",
       "in English": "high"
     },
     {
       "Number": 75,
-      "Greek": "όπως",
+      "Hawaiian": "ia",
       "in English": "such"
     },
     {
       "Number": 76,
-      "Greek": "ακολουθήστε",
+      "Hawaiian": "hahai",
       "in English": "follow"
     },
     {
       "Number": 77,
-      "Greek": "πράξη",
+      "Hawaiian": "hana",
       "in English": "act"
     },
     {
       "Number": 78,
-      "Greek": "γιατί",
+      "Hawaiian": "no ke aha mai",
       "in English": "why"
     },
     {
       "Number": 79,
-      "Greek": "ρωτήστε",
+      "Hawaiian": "noi",
       "in English": "ask"
     },
     {
       "Number": 80,
-      "Greek": "άνδρες",
+      "Hawaiian": "kanaka",
       "in English": "men"
     },
     {
       "Number": 81,
-      "Greek": "αλλαγή",
+      "Hawaiian": "loli",
       "in English": "change"
     },
     {
       "Number": 82,
-      "Greek": "πήγε",
+      "Hawaiian": "hele",
       "in English": "went"
     },
     {
       "Number": 83,
-      "Greek": "φως",
+      "Hawaiian": "malamalama",
       "in English": "light"
     },
     {
       "Number": 84,
-      "Greek": "είδος",
+      "Hawaiian": "keia ano",
       "in English": "kind"
     },
     {
       "Number": 85,
-      "Greek": "απενεργοποίηση",
+      "Hawaiian": "aku",
       "in English": "off"
     },
     {
       "Number": 86,
-      "Greek": "ανάγκη",
+      "Hawaiian": "pono",
       "in English": "need"
     },
     {
       "Number": 87,
-      "Greek": "σπίτι",
+      "Hawaiian": "ka hale",
       "in English": "house"
     },
     {
       "Number": 88,
-      "Greek": "εικόνα",
+      "Hawaiian": "kiʻi",
       "in English": "picture"
     },
     {
       "Number": 89,
-      "Greek": "δοκιμάστε",
+      "Hawaiian": "hoao",
       "in English": "try"
     },
     {
       "Number": 90,
-      "Greek": "μας",
+      "Hawaiian": "makou",
       "in English": "us"
     },
     {
       "Number": 91,
-      "Greek": "πάλι",
+      "Hawaiian": "hou",
       "in English": "again"
     },
     {
       "Number": 92,
-      "Greek": "ζώο",
+      "Hawaiian": "holoholona",
       "in English": "animal"
     },
     {
       "Number": 93,
-      "Greek": "σημείο",
+      "Hawaiian": "wahi",
       "in English": "point"
     },
     {
       "Number": 94,
-      "Greek": "Η μητέρα",
+      "Hawaiian": "makuahine",
       "in English": "mother"
     },
     {
       "Number": 95,
-      "Greek": "κόσμο",
+      "Hawaiian": "ao",
       "in English": "world"
     },
     {
       "Number": 96,
-      "Greek": "κοντά",
+      "Hawaiian": "kokoke",
       "in English": "near"
     },
     {
       "Number": 97,
-      "Greek": "οικοδομήσουμε",
+      "Hawaiian": "hana",
       "in English": "build"
     },
     {
       "Number": 98,
-      "Greek": "αυτο",
+      "Hawaiian": "iho",
       "in English": "self"
     },
     {
       "Number": 99,
-      "Greek": "γη",
+      "Hawaiian": "honua",
       "in English": "earth"
     },
     {
       "Number": 100,
-      "Greek": "Ο πατέρας",
+      "Hawaiian": "makuakāne",
       "in English": "father"
     },
     {
       "Number": 101,
-      "Greek": "κάθε",
+      "Hawaiian": "kekahi",
       "in English": "any"
     },
     {
       "Number": 102,
-      "Greek": "νέα",
+      "Hawaiian": "hou",
       "in English": "new"
     },
     {
       "Number": 103,
-      "Greek": "εργασία",
+      "Hawaiian": "hana",
       "in English": "work"
     },
     {
       "Number": 104,
-      "Greek": "μέρος",
+      "Hawaiian": "hapa",
       "in English": "part"
     },
     {
       "Number": 105,
-      "Greek": "λαμβάνουν",
+      "Hawaiian": "lawe",
       "in English": "take"
     },
     {
       "Number": 106,
-      "Greek": "πάρετε",
+      "Hawaiian": "loaa",
       "in English": "get"
     },
     {
       "Number": 107,
-      "Greek": "θέση",
+      "Hawaiian": "wahi",
       "in English": "place"
     },
     {
       "Number": 108,
-      "Greek": "που",
+      "Hawaiian": "hana",
       "in English": "made"
     },
     {
       "Number": 109,
-      "Greek": "ζω",
+      "Hawaiian": "ola",
       "in English": "live"
     },
     {
       "Number": 110,
-      "Greek": "όπου",
+      "Hawaiian": "kahi",
       "in English": "where"
     },
     {
       "Number": 111,
-      "Greek": "μετά",
+      "Hawaiian": "mahope iho o",
       "in English": "after"
     },
     {
       "Number": 112,
-      "Greek": "πίσω",
+      "Hawaiian": "i hope",
       "in English": "back"
     },
     {
       "Number": 113,
-      "Greek": "λίγο",
+      "Hawaiian": "iki",
       "in English": "little"
     },
     {
       "Number": 114,
-      "Greek": "μόνο",
+      "Hawaiian": "wale no",
       "in English": "only"
     },
     {
       "Number": 115,
-      "Greek": "γύρος",
+      "Hawaiian": "a",
       "in English": "round"
     },
     {
       "Number": 116,
-      "Greek": "άνθρωπος",
+      "Hawaiian": "kanaka",
       "in English": "man"
     },
     {
       "Number": 117,
-      "Greek": "έτους",
+      "Hawaiian": "makahiki",
       "in English": "year"
     },
     {
       "Number": 118,
-      "Greek": "ήρθε",
+      "Hawaiian": "hele mai",
       "in English": "came"
     },
     {
       "Number": 119,
-      "Greek": "σόου",
+      "Hawaiian": "hoike",
       "in English": "show"
     },
     {
       "Number": 120,
-      "Greek": "κάθε",
+      "Hawaiian": "o kela",
       "in English": "every"
     },
     {
       "Number": 121,
-      "Greek": "καλός",
+      "Hawaiian": "maikaʻi loa",
       "in English": "good"
     },
     {
       "Number": 122,
-      "Greek": "μου",
+      "Hawaiian": "mai iaʻu",
       "in English": "me"
     },
     {
       "Number": 123,
-      "Greek": "δώσει",
+      "Hawaiian": "haawi",
       "in English": "give"
     },
     {
       "Number": 124,
-      "Greek": "μας",
+      "Hawaiian": "makou",
       "in English": "our"
     },
     {
       "Number": 125,
-      "Greek": "υπό",
+      "Hawaiian": "malalo o",
       "in English": "under"
     },
     {
       "Number": 126,
-      "Greek": "όνομα",
+      "Hawaiian": "inoa",
       "in English": "name"
     },
     {
       "Number": 127,
-      "Greek": "πολύ",
+      "Hawaiian": "loa",
       "in English": "very"
     },
     {
       "Number": 128,
-      "Greek": "μέσω",
+      "Hawaiian": "ma",
       "in English": "through"
     },
     {
       "Number": 129,
-      "Greek": "μόνο",
+      "Hawaiian": "pono",
       "in English": "just"
     },
     {
       "Number": 130,
-      "Greek": "μορφή",
+      "Hawaiian": "ano",
       "in English": "form"
     },
     {
       "Number": 131,
-      "Greek": "φράση",
+      "Hawaiian": "olelo",
       "in English": "sentence"
     },
     {
       "Number": 132,
-      "Greek": "μεγάλος",
+      "Hawaiian": "nui",
       "in English": "great"
     },
     {
       "Number": 133,
-      "Greek": "νομίζω",
+      "Hawaiian": "manao",
       "in English": "think"
     },
     {
       "Number": 134,
-      "Greek": "λένε",
+      "Hawaiian": "aku nei au",
       "in English": "say"
     },
     {
       "Number": 135,
-      "Greek": "βοηθήσει",
+      "Hawaiian": "kokua",
       "in English": "help"
     },
     {
       "Number": 136,
-      "Greek": "χαμηλής",
+      "Hawaiian": "haahaa",
       "in English": "low"
     },
     {
       "Number": 137,
-      "Greek": "γραμμή",
+      "Hawaiian": "laina",
       "in English": "line"
     },
     {
       "Number": 138,
-      "Greek": "διαφέρουν",
+      "Hawaiian": "oko",
       "in English": "differ"
     },
     {
       "Number": 139,
-      "Greek": "στροφή",
+      "Hawaiian": "huli",
       "in English": "turn"
     },
     {
       "Number": 140,
-      "Greek": "αιτία",
+      "Hawaiian": "kumu",
       "in English": "cause"
     },
     {
       "Number": 141,
-      "Greek": "πολύ",
+      "Hawaiian": "nui",
       "in English": "much"
     },
     {
       "Number": 142,
-      "Greek": "σημαίνει",
+      "Hawaiian": "ke ano o",
       "in English": "mean"
     },
     {
       "Number": 143,
-      "Greek": "πριν",
+      "Hawaiian": "imua o",
       "in English": "before"
     },
     {
       "Number": 144,
-      "Greek": "κίνηση",
+      "Hawaiian": "hu",
       "in English": "move"
     },
     {
       "Number": 145,
-      "Greek": "δεξιά",
+      "Hawaiian": "akau",
       "in English": "right"
     },
     {
       "Number": 146,
-      "Greek": "αγόρι",
+      "Hawaiian": "keiki",
       "in English": "boy"
     },
     {
       "Number": 147,
-      "Greek": "γριά",
+      "Hawaiian": "ka wa kahiko",
       "in English": "old"
     },
     {
       "Number": 148,
-      "Greek": "πάρα πολύ",
+      "Hawaiian": "oi aku",
       "in English": "too"
     },
     {
       "Number": 149,
-      "Greek": "ίδιο",
+      "Hawaiian": "ia",
       "in English": "same"
     },
     {
       "Number": 150,
-      "Greek": "που",
+      "Hawaiian": "ia",
       "in English": "she"
     },
     {
       "Number": 151,
-      "Greek": "όλα",
+      "Hawaiian": "a pau",
       "in English": "all"
     },
     {
       "Number": 152,
-      "Greek": "εκεί",
+      "Hawaiian": "laila",
       "in English": "there"
     },
     {
       "Number": 153,
-      "Greek": "όταν",
+      "Hawaiian": "i ka wa",
       "in English": "when"
     },
     {
       "Number": 154,
-      "Greek": "επάνω",
+      "Hawaiian": "ae la",
       "in English": "up"
     },
     {
       "Number": 155,
-      "Greek": "χρήση",
+      "Hawaiian": "hoʻohana",
       "in English": "use"
     },
     {
       "Number": 156,
-      "Greek": "σας",
+      "Hawaiian": "oukou",
       "in English": "your"
     },
     {
       "Number": 157,
-      "Greek": "τρόπος",
+      "Hawaiian": "ala",
       "in English": "way"
     },
     {
       "Number": 158,
-      "Greek": "περίπου",
+      "Hawaiian": "e pili ana i",
       "in English": "about"
     },
     {
       "Number": 159,
-      "Greek": "πολλά",
+      "Hawaiian": "he nui",
       "in English": "many"
     },
     {
       "Number": 160,
-      "Greek": "τότε",
+      "Hawaiian": "alaila,",
       "in English": "then"
     },
     {
       "Number": 161,
-      "Greek": "τους",
+      "Hawaiian": "ia lakou",
       "in English": "them"
     },
     {
       "Number": 162,
-      "Greek": "γράφω",
+      "Hawaiian": "kakau",
       "in English": "write"
     },
     {
       "Number": 163,
-      "Greek": "θα",
+      "Hawaiian": "makemake",
       "in English": "would"
     },
     {
       "Number": 164,
-      "Greek": "σαν",
+      "Hawaiian": "like me",
       "in English": "like"
     },
     {
       "Number": 165,
-      "Greek": "έτσι",
+      "Hawaiian": "pela",
       "in English": "so"
     },
     {
       "Number": 166,
-      "Greek": "αυτά",
+      "Hawaiian": "mau",
       "in English": "these"
     },
     {
       "Number": 167,
-      "Greek": "της",
+      "Hawaiian": "ia",
       "in English": "her"
     },
     {
       "Number": 168,
-      "Greek": "μακρά",
+      "Hawaiian": "loihi",
       "in English": "long"
     },
     {
       "Number": 169,
-      "Greek": "κάνω",
+      "Hawaiian": "hana",
       "in English": "make"
     },
     {
       "Number": 170,
-      "Greek": "πράγμα",
+      "Hawaiian": "mea",
       "in English": "thing"
     },
     {
       "Number": 171,
-      "Greek": "βλέπω",
+      "Hawaiian": "ike",
       "in English": "see"
     },
     {
       "Number": 172,
-      "Greek": "τον",
+      "Hawaiian": "ia",
       "in English": "him"
     },
     {
       "Number": 173,
-      "Greek": "δυο",
+      "Hawaiian": "ʻelua",
       "in English": "two"
     },
     {
       "Number": 174,
-      "Greek": "έχει",
+      "Hawaiian": "i",
       "in English": "has"
     },
     {
       "Number": 175,
-      "Greek": "δείτε",
+      "Hawaiian": "nana",
       "in English": "look"
     },
     {
       "Number": 176,
-      "Greek": "περισσότερα",
+      "Hawaiian": "hou",
       "in English": "more"
     },
     {
       "Number": 177,
-      "Greek": "ημέρα",
+      "Hawaiian": "lā",
       "in English": "day"
     },
     {
       "Number": 178,
-      "Greek": "θα μπορούσε",
+      "Hawaiian": "hiki",
       "in English": "could"
     },
     {
       "Number": 179,
-      "Greek": "πηγαίνω",
+      "Hawaiian": "hele",
       "in English": "go"
     },
     {
       "Number": 180,
-      "Greek": "έρχονται",
+      "Hawaiian": "hele mai",
       "in English": "come"
     },
     {
       "Number": 181,
-      "Greek": "έκανε",
+      "Hawaiian": "hana",
       "in English": "did"
     },
     {
       "Number": 182,
-      "Greek": "αριθμός",
+      "Hawaiian": "helu",
       "in English": "number"
     },
     {
       "Number": 183,
-      "Greek": "ήχος",
+      "Hawaiian": "hookani",
       "in English": "sound"
     },
     {
       "Number": 184,
-      "Greek": "δεν",
+      "Hawaiian": "ʻaʻole",
       "in English": "no"
     },
     {
       "Number": 185,
-      "Greek": "πλέον",
+      "Hawaiian": "loa",
       "in English": "most"
     },
     {
       "Number": 186,
-      "Greek": "άνθρωποι",
+      "Hawaiian": "kanaka",
       "in English": "people"
     },
     {
       "Number": 187,
-      "Greek": "μου",
+      "Hawaiian": "i koʻu",
       "in English": "my"
     },
     {
       "Number": 188,
-      "Greek": "πέρα",
+      "Hawaiian": "maluna o",
       "in English": "over"
     },
     {
       "Number": 189,
-      "Greek": "ξέρετε",
+      "Hawaiian": "ike",
       "in English": "know"
     },
     {
       "Number": 190,
-      "Greek": "νερό",
+      "Hawaiian": "ka wai",
       "in English": "water"
     },
     {
       "Number": 191,
-      "Greek": "από",
+      "Hawaiian": "mamua o",
       "in English": "than"
     },
     {
       "Number": 192,
-      "Greek": "κλήση",
+      "Hawaiian": "kahea",
       "in English": "call"
     },
     {
       "Number": 193,
-      "Greek": "πρώτη",
+      "Hawaiian": "ka mua",
       "in English": "first"
     },
     {
       "Number": 194,
-      "Greek": "που",
+      "Hawaiian": "ka mea",
       "in English": "who"
     },
     {
       "Number": 195,
-      "Greek": "μπορεί",
+      "Hawaiian": "Mei",
       "in English": "may"
     },
     {
       "Number": 196,
-      "Greek": "κάτω",
+      "Hawaiian": "iho",
       "in English": "down"
     },
     {
       "Number": 197,
-      "Greek": "πλευρά",
+      "Hawaiian": "aoao",
       "in English": "side"
     },
     {
       "Number": 198,
-      "Greek": "ήταν",
+      "Hawaiian": "i",
       "in English": "been"
     },
     {
       "Number": 199,
-      "Greek": "τώρα",
+      "Hawaiian": "Ano",
       "in English": "now"
     },
     {
       "Number": 200,
-      "Greek": "βρείτε",
+      "Hawaiian": "loaa",
       "in English": "find"
     },
     {
       "Number": 201,
-      "Greek": "κεφάλι",
+      "Hawaiian": "poo",
       "in English": "head"
     },
     {
       "Number": 202,
-      "Greek": "στάση",
+      "Hawaiian": "ku",
       "in English": "stand"
     },
     {
       "Number": 203,
-      "Greek": "δική",
+      "Hawaiian": "iho",
       "in English": "own"
     },
     {
       "Number": 204,
-      "Greek": "σελίδα",
+      "Hawaiian": "palapala",
       "in English": "page"
     },
     {
       "Number": 205,
-      "Greek": "θα πρέπει να",
+      "Hawaiian": "e",
       "in English": "should"
     },
     {
       "Number": 206,
-      "Greek": "χώρα",
+      "Hawaiian": "aina",
       "in English": "country"
     },
     {
       "Number": 207,
-      "Greek": "βρέθηκαν",
+      "Hawaiian": "loaa",
       "in English": "found"
     },
     {
       "Number": 208,
-      "Greek": "απάντηση",
+      "Hawaiian": "pane",
       "in English": "answer"
     },
     {
       "Number": 209,
-      "Greek": "σχολείο",
+      "Hawaiian": "kula",
       "in English": "school"
     },
     {
       "Number": 210,
-      "Greek": "μεγαλώνουν",
+      "Hawaiian": "ulu",
       "in English": "grow"
     },
     {
       "Number": 211,
-      "Greek": "μελέτη",
+      "Hawaiian": "like",
       "in English": "study"
     },
     {
       "Number": 212,
-      "Greek": "ακόμα",
+      "Hawaiian": "malie",
       "in English": "still"
     },
     {
       "Number": 213,
-      "Greek": "μάθετε",
+      "Hawaiian": "e ao",
       "in English": "learn"
     },
     {
       "Number": 214,
-      "Greek": "φυτό",
+      "Hawaiian": "kanu",
       "in English": "plant"
     },
     {
       "Number": 215,
-      "Greek": "κάλυμμα",
+      "Hawaiian": "aloha",
       "in English": "cover"
     },
     {
       "Number": 216,
-      "Greek": "τροφίμων",
+      "Hawaiian": "ai",
       "in English": "food"
     },
     {
       "Number": 217,
-      "Greek": "ήλιος",
+      "Hawaiian": "lā",
       "in English": "sun"
     },
     {
       "Number": 218,
-      "Greek": "τέσσερα",
+      "Hawaiian": "ʻehā",
       "in English": "four"
     },
     {
       "Number": 219,
-      "Greek": "μεταξύ",
+      "Hawaiian": "waena o",
       "in English": "between"
     },
     {
       "Number": 220,
-      "Greek": "κατάσταση",
+      "Hawaiian": "moku’āina",
       "in English": "state"
     },
     {
       "Number": 221,
-      "Greek": "κρατήσετε",
+      "Hawaiian": "malama",
       "in English": "keep"
     },
     {
       "Number": 222,
-      "Greek": "μάτι",
+      "Hawaiian": "maka",
       "in English": "eye"
     },
     {
       "Number": 223,
-      "Greek": "ποτέ",
+      "Hawaiian": "loa",
       "in English": "never"
     },
     {
       "Number": 224,
-      "Greek": "τελευταία",
+      "Hawaiian": "hope",
       "in English": "last"
     },
     {
       "Number": 225,
-      "Greek": "ας",
+      "Hawaiian": "e",
       "in English": "let"
     },
     {
       "Number": 226,
-      "Greek": "σκέψης",
+      "Hawaiian": "manaʻo",
       "in English": "thought"
     },
     {
       "Number": 227,
-      "Greek": "πόλη",
+      "Hawaiian": "kulanakauhale",
       "in English": "city"
     },
     {
       "Number": 228,
-      "Greek": "δέντρο",
+      "Hawaiian": "laau",
       "in English": "tree"
     },
     {
       "Number": 229,
-      "Greek": "σταυρός",
+      "Hawaiian": "kela aoao",
       "in English": "cross"
     },
     {
       "Number": 230,
-      "Greek": "αγρόκτημα",
+      "Hawaiian": "mahiʻai",
       "in English": "farm"
     },
     {
       "Number": 231,
-      "Greek": "σκληρά",
+      "Hawaiian": "paakiki",
       "in English": "hard"
     },
     {
       "Number": 232,
-      "Greek": "αρχή",
+      "Hawaiian": "hoʻomaka",
       "in English": "start"
     },
     {
       "Number": 233,
-      "Greek": "θα μπορούσε",
+      "Hawaiian": "ikaika",
       "in English": "might"
     },
     {
       "Number": 234,
-      "Greek": "ιστορία",
+      "Hawaiian": "moʻolelo",
       "in English": "story"
     },
     {
       "Number": 235,
-      "Greek": "πριόνι",
+      "Hawaiian": "i ike ai",
       "in English": "saw"
     },
     {
       "Number": 236,
-      "Greek": "σήμερα",
+      "Hawaiian": "loa",
       "in English": "far"
     },
     {
       "Number": 237,
-      "Greek": "θάλασσα",
+      "Hawaiian": "kai",
       "in English": "sea"
     },
     {
       "Number": 238,
-      "Greek": "κλήρωση",
+      "Hawaiian": "huki",
       "in English": "draw"
     },
     {
       "Number": 239,
-      "Greek": "αριστερά",
+      "Hawaiian": "hema",
       "in English": "left"
     },
     {
       "Number": 240,
-      "Greek": "αργά",
+      "Hawaiian": "hopena o",
       "in English": "late"
     },
     {
       "Number": 241,
-      "Greek": "τρέχει",
+      "Hawaiian": "hoʻoholo",
       "in English": "run"
     },
     {
       "Number": 242,
-      "Greek": "μη",
+      "Hawaiian": "hana, aole",
       "in English": "don’t"
     },
     {
       "Number": 243,
-      "Greek": "ενώ",
+      "Hawaiian": "oiai",
       "in English": "while"
     },
     {
       "Number": 244,
-      "Greek": "τύπου",
+      "Hawaiian": "kaomi",
       "in English": "press"
     },
     {
       "Number": 245,
-      "Greek": "κοντά",
+      "Hawaiian": "kokoke",
       "in English": "close"
     },
     {
       "Number": 246,
-      "Greek": "νύχτα",
+      "Hawaiian": "pō",
       "in English": "night"
     },
     {
       "Number": 247,
-      "Greek": "πραγματική",
+      "Hawaiian": "maoli",
       "in English": "real"
     },
     {
       "Number": 248,
-      "Greek": "ζωή",
+      "Hawaiian": "ola",
       "in English": "life"
     },
     {
       "Number": 249,
-      "Greek": "λίγα",
+      "Hawaiian": "kakaikahi",
       "in English": "few"
     },
     {
       "Number": 250,
-      "Greek": "βόρεια",
+      "Hawaiian": "ke akau",
       "in English": "north"
     },
     {
       "Number": 251,
-      "Greek": "βιβλίο",
+      "Hawaiian": "buke",
       "in English": "book"
     },
     {
       "Number": 252,
-      "Greek": "φέρουν",
+      "Hawaiian": "lawe",
       "in English": "carry"
     },
     {
       "Number": 253,
-      "Greek": "πήρε",
+      "Hawaiian": "lawe",
       "in English": "took"
     },
     {
       "Number": 254,
-      "Greek": "επιστήμη",
+      "Hawaiian": "nauka",
       "in English": "science"
     },
     {
       "Number": 255,
-      "Greek": "φάτε",
+      "Hawaiian": "ai",
       "in English": "eat"
     },
     {
       "Number": 256,
-      "Greek": "δωμάτιο",
+      "Hawaiian": "lumi",
       "in English": "room"
     },
     {
       "Number": 257,
-      "Greek": "φίλος",
+      "Hawaiian": "hoaaloha",
       "in English": "friend"
     },
     {
       "Number": 258,
-      "Greek": "άρχισε",
+      "Hawaiian": "hoomaka ae",
       "in English": "began"
     },
     {
       "Number": 259,
-      "Greek": "ιδέα",
+      "Hawaiian": "manaʻo",
       "in English": "idea"
     },
     {
       "Number": 260,
-      "Greek": "ψάρι",
+      "Hawaiian": "iʻa",
       "in English": "fish"
     },
     {
       "Number": 261,
-      "Greek": "βουνό",
+      "Hawaiian": "mauna",
       "in English": "mountain"
     },
     {
       "Number": 262,
-      "Greek": "στάση",
+      "Hawaiian": "hooki",
       "in English": "stop"
     },
     {
       "Number": 263,
-      "Greek": "μια φορά",
+      "Hawaiian": "pākahi",
       "in English": "once"
     },
     {
       "Number": 264,
-      "Greek": "βάση",
+      "Hawaiian": "kumu",
       "in English": "base"
     },
     {
       "Number": 265,
-      "Greek": "ακούστε",
+      "Hawaiian": "lohe",
       "in English": "hear"
     },
     {
       "Number": 266,
-      "Greek": "άλογο",
+      "Hawaiian": "ka lio",
       "in English": "horse"
     },
     {
       "Number": 267,
-      "Greek": "κόψιμο",
+      "Hawaiian": "e oki ai",
       "in English": "cut"
     },
     {
       "Number": 268,
-      "Greek": "βέβαιος",
+      "Hawaiian": "paa,",
       "in English": "sure"
     },
     {
       "Number": 269,
-      "Greek": "παρακολουθήσετε",
+      "Hawaiian": "kiai",
       "in English": "watch"
     },
     {
       "Number": 270,
-      "Greek": "χρώμα",
+      "Hawaiian": "kala like ‘ole",
       "in English": "color"
     },
     {
       "Number": 271,
-      "Greek": "πρόσωπο",
+      "Hawaiian": "maka",
       "in English": "face"
     },
     {
       "Number": 272,
-      "Greek": "ξύλο",
+      "Hawaiian": "laau",
       "in English": "wood"
     },
     {
       "Number": 273,
-      "Greek": "κύρια",
+      "Hawaiian": "ka papa kuhikuhiE",
       "in English": "main"
     },
     {
       "Number": 274,
-      "Greek": "ανοιχτή",
+      "Hawaiian": "hamama",
       "in English": "open"
     },
     {
       "Number": 275,
-      "Greek": "φαίνεται",
+      "Hawaiian": "he",
       "in English": "seem"
     },
     {
       "Number": 276,
-      "Greek": "μαζί",
+      "Hawaiian": "pu",
       "in English": "together"
     },
     {
       "Number": 277,
-      "Greek": "επόμενος",
+      "Hawaiian": "aʻe",
       "in English": "next"
     },
     {
       "Number": 278,
-      "Greek": "λευκό",
+      "Hawaiian": "keʻokeʻo",
       "in English": "white"
     },
     {
       "Number": 279,
-      "Greek": "παιδιά",
+      "Hawaiian": "keiki",
       "in English": "children"
     },
     {
       "Number": 280,
-      "Greek": "αρχίσει",
+      "Hawaiian": "hoomaka",
       "in English": "begin"
     },
     {
       "Number": 281,
-      "Greek": "πήρε",
+      "Hawaiian": "loaʻa",
       "in English": "got"
     },
     {
       "Number": 282,
-      "Greek": "με τα πόδια",
+      "Hawaiian": "hele",
       "in English": "walk"
     },
     {
       "Number": 283,
-      "Greek": "παράδειγμα",
+      "Hawaiian": "Eia",
       "in English": "example"
     },
     {
       "Number": 284,
-      "Greek": "ευκολία",
+      "Hawaiian": "hoopau i",
       "in English": "ease"
     },
     {
       "Number": 285,
-      "Greek": "χαρτί",
+      "Hawaiian": "pepa",
       "in English": "paper"
     },
     {
       "Number": 286,
-      "Greek": "ομάδα",
+      "Hawaiian": "hui",
       "in English": "group"
     },
     {
       "Number": 287,
-      "Greek": "πάντοτε",
+      "Hawaiian": "mau",
       "in English": "always"
     },
     {
       "Number": 288,
-      "Greek": "μουσική",
+      "Hawaiian": "aloha",
       "in English": "music"
     },
     {
       "Number": 289,
-      "Greek": "εκείνοι",
+      "Hawaiian": "mau",
       "in English": "those"
     },
     {
       "Number": 290,
-      "Greek": "δύο",
+      "Hawaiian": "elua",
       "in English": "both"
     },
     {
       "Number": 291,
-      "Greek": "σήμα",
+      "Hawaiian": "mark",
       "in English": "mark"
     },
     {
       "Number": 292,
-      "Greek": "συχνά",
+      "Hawaiian": "pinepine",
       "in English": "often"
     },
     {
       "Number": 293,
-      "Greek": "γράμμα",
+      "Hawaiian": "palapala",
       "in English": "letter"
     },
     {
       "Number": 294,
-      "Greek": "μέχρι",
+      "Hawaiian": "a hiki i",
       "in English": "until"
     },
     {
       "Number": 295,
-      "Greek": "μίλι",
+      "Hawaiian": "ka mile",
       "in English": "mile"
     },
     {
       "Number": 296,
-      "Greek": "ποτάμι",
+      "Hawaiian": "muliwai",
       "in English": "river"
     },
     {
       "Number": 297,
-      "Greek": "αυτοκίνητο",
+      "Hawaiian": "kaʻa",
       "in English": "car"
     },
     {
       "Number": 298,
-      "Greek": "πόδια",
+      "Hawaiian": "wawae",
       "in English": "feet"
     },
     {
       "Number": 299,
-      "Greek": "φροντίδα",
+      "Hawaiian": "mālama",
       "in English": "care"
     },
     {
       "Number": 300,
-      "Greek": "δεύτερη",
+      "Hawaiian": "ka lua",
       "in English": "second"
     },
     {
       "Number": 301,
-      "Greek": "αρκετά",
+      "Hawaiian": "lawa",
       "in English": "enough"
     },
     {
       "Number": 302,
-      "Greek": "απλό",
+      "Hawaiian": "maopopo",
       "in English": "plain"
     },
     {
       "Number": 303,
-      "Greek": "κορίτσι",
+      "Hawaiian": "kaikamahine",
       "in English": "girl"
     },
     {
       "Number": 304,
-      "Greek": "συνήθεις",
+      "Hawaiian": "mau",
       "in English": "usual"
     },
     {
       "Number": 305,
-      "Greek": "νέους",
+      "Hawaiian": "opiopio",
       "in English": "young"
     },
     {
       "Number": 306,
-      "Greek": "έτοιμο",
+      "Hawaiian": "makaukau",
       "in English": "ready"
     },
     {
       "Number": 307,
-      "Greek": "παραπάνω",
+      "Hawaiian": "luna",
       "in English": "above"
     },
     {
       "Number": 308,
-      "Greek": "πάντα",
+      "Hawaiian": "loa",
       "in English": "ever"
     },
     {
       "Number": 309,
-      "Greek": "κόκκινο",
+      "Hawaiian": "ʻulaʻula",
       "in English": "red"
     },
     {
       "Number": 310,
-      "Greek": "λίστα",
+      "Hawaiian": "papa",
       "in English": "list"
     },
     {
       "Number": 311,
-      "Greek": "αν",
+      "Hawaiian": "nae",
       "in English": "though"
     },
     {
       "Number": 312,
-      "Greek": "αισθάνονται",
+      "Hawaiian": "haha aku",
       "in English": "feel"
     },
     {
       "Number": 313,
-      "Greek": "Συζήτηση",
+      "Hawaiian": "o anakuhi",
       "in English": "talk"
     },
     {
       "Number": 314,
-      "Greek": "πουλί",
+      "Hawaiian": "manu",
       "in English": "bird"
     },
     {
       "Number": 315,
-      "Greek": "σύντομα",
+      "Hawaiian": "koke",
       "in English": "soon"
     },
     {
       "Number": 316,
-      "Greek": "σώμα",
+      "Hawaiian": "kino",
       "in English": "body"
     },
     {
       "Number": 317,
-      "Greek": "σκύλος",
+      "Hawaiian": "‘īlio",
       "in English": "dog"
     },
     {
       "Number": 318,
-      "Greek": "οικογένεια",
+      "Hawaiian": "ohana",
       "in English": "family"
     },
     {
       "Number": 319,
-      "Greek": "απευθείας",
+      "Hawaiian": "kauoha",
       "in English": "direct"
     },
     {
       "Number": 320,
-      "Greek": "ενέχουν",
+      "Hawaiian": "oweliweli",
       "in English": "pose"
     },
     {
       "Number": 321,
-      "Greek": "αφήστε",
+      "Hawaiian": "waiho",
       "in English": "leave"
     },
     {
       "Number": 322,
-      "Greek": "τραγούδι",
+      "Hawaiian": "mele",
       "in English": "song"
     },
     {
       "Number": 323,
-      "Greek": "μέτρο",
+      "Hawaiian": "ana",
       "in English": "measure"
     },
     {
       "Number": 324,
-      "Greek": "πόρτα",
+      "Hawaiian": "puka",
       "in English": "door"
     },
     {
       "Number": 325,
-      "Greek": "προϊόν",
+      "Hawaiian": "huahana",
       "in English": "product"
     },
     {
       "Number": 326,
-      "Greek": "μαύρο",
+      "Hawaiian": "ʻeleʻele",
       "in English": "black"
     },
     {
       "Number": 327,
-      "Greek": "σύντομο",
+      "Hawaiian": "pōkole",
       "in English": "short"
     },
     {
       "Number": 328,
-      "Greek": "αριθμητικό",
+      "Hawaiian": "numeral",
       "in English": "numeral"
     },
     {
       "Number": 329,
-      "Greek": "κατηγορία",
+      "Hawaiian": "papa",
       "in English": "class"
     },
     {
       "Number": 330,
-      "Greek": "άνεμος",
+      "Hawaiian": "makani",
       "in English": "wind"
     },
     {
       "Number": 331,
-      "Greek": "ερώτηση",
+      "Hawaiian": "ninau",
       "in English": "question"
     },
     {
       "Number": 332,
-      "Greek": "συμβεί",
+      "Hawaiian": "hiki mai ana",
       "in English": "happen"
     },
     {
       "Number": 333,
-      "Greek": "πλήρης",
+      "Hawaiian": "loa",
       "in English": "complete"
     },
     {
       "Number": 334,
-      "Greek": "πλοίο",
+      "Hawaiian": "moku",
       "in English": "ship"
     },
     {
       "Number": 335,
-      "Greek": "έκταση",
+      "Hawaiian": "wahi",
       "in English": "area"
     },
     {
       "Number": 336,
-      "Greek": "ήμισυ",
+      "Hawaiian": "hapalua",
       "in English": "half"
     },
     {
       "Number": 337,
-      "Greek": "βράχος",
+      "Hawaiian": "pohaku",
       "in English": "rock"
     },
     {
       "Number": 338,
-      "Greek": "για",
+      "Hawaiian": "aoao",
       "in English": "order"
     },
     {
       "Number": 339,
-      "Greek": "φωτιά",
+      "Hawaiian": "ke ahi",
       "in English": "fire"
     },
     {
       "Number": 340,
-      "Greek": "νότια",
+      "Hawaiian": "ka hema",
       "in English": "south"
     },
     {
       "Number": 341,
-      "Greek": "πρόβλημα",
+      "Hawaiian": "pilikia",
       "in English": "problem"
     },
     {
       "Number": 342,
-      "Greek": "κομμάτι",
+      "Hawaiian": "kauwahi",
       "in English": "piece"
     },
     {
       "Number": 343,
-      "Greek": "είπε",
+      "Hawaiian": "haʻi",
       "in English": "told"
     },
     {
       "Number": 344,
-      "Greek": "ήξερε",
+      "Hawaiian": "ike",
       "in English": "knew"
     },
     {
       "Number": 345,
-      "Greek": "περάσει",
+      "Hawaiian": "kekahi",
       "in English": "pass"
     },
     {
       "Number": 346,
-      "Greek": "από",
+      "Hawaiian": "mai",
       "in English": "since"
     },
     {
       "Number": 347,
-      "Greek": "κορυφή",
+      "Hawaiian": "luna",
       "in English": "top"
     },
     {
       "Number": 348,
-      "Greek": "ολόκληρο",
+      "Hawaiian": "a pau",
       "in English": "whole"
     },
     {
       "Number": 349,
-      "Greek": "βασιλιά",
+      "Hawaiian": "ke alii",
       "in English": "king"
     },
     {
       "Number": 350,
-      "Greek": "δρόμος",
+      "Hawaiian": "alanui",
       "in English": "street"
     },
     {
       "Number": 351,
-      "Greek": "ιντσών",
+      "Hawaiian": "‘īniha",
       "in English": "inch"
     },
     {
       "Number": 352,
-      "Greek": "πολλαπλασιάστε",
+      "Hawaiian": "hoonui",
       "in English": "multiply"
     },
     {
       "Number": 353,
-      "Greek": "τίποτα",
+      "Hawaiian": "aole",
       "in English": "nothing"
     },
     {
       "Number": 354,
-      "Greek": "πορεία",
+      "Hawaiian": "ana",
       "in English": "course"
     },
     {
       "Number": 355,
-      "Greek": "μείνετε",
+      "Hawaiian": "noho",
       "in English": "stay"
     },
     {
       "Number": 356,
-      "Greek": "τροχός",
+      "Hawaiian": "huila",
       "in English": "wheel"
     },
     {
       "Number": 357,
-      "Greek": "πλήρους",
+      "Hawaiian": "piha",
       "in English": "full"
     },
     {
       "Number": 358,
-      "Greek": "δύναμη",
+      "Hawaiian": "ikaika",
       "in English": "force"
     },
     {
       "Number": 359,
-      "Greek": "μπλε",
+      "Hawaiian": "polū",
       "in English": "blue"
     },
     {
       "Number": 360,
-      "Greek": "αντικείμενο",
+      "Hawaiian": "mea",
       "in English": "object"
     },
     {
       "Number": 361,
-      "Greek": "αποφασίζει",
+      "Hawaiian": "hooholo",
       "in English": "decide"
     },
     {
       "Number": 362,
-      "Greek": "επιφάνεια",
+      "Hawaiian": "ili",
       "in English": "surface"
     },
     {
       "Number": 363,
-      "Greek": "βαθιά",
+      "Hawaiian": "hohonu",
       "in English": "deep"
     },
     {
       "Number": 364,
-      "Greek": "φεγγάρι",
+      "Hawaiian": "luna",
       "in English": "moon"
     },
     {
       "Number": 365,
-      "Greek": "νησί",
+      "Hawaiian": "mokupuni",
       "in English": "island"
     },
     {
       "Number": 366,
-      "Greek": "πόδι",
+      "Hawaiian": "wawae",
       "in English": "foot"
     },
     {
       "Number": 367,
-      "Greek": "σύστημα",
+      "Hawaiian": "nenoaiu",
       "in English": "system"
     },
     {
       "Number": 368,
-      "Greek": "απασχολημένος",
+      "Hawaiian": "‘ō i",
       "in English": "busy"
     },
     {
       "Number": 369,
-      "Greek": "δοκιμή",
+      "Hawaiian": "hōʻike",
       "in English": "test"
     },
     {
       "Number": 370,
-      "Greek": "ρεκόρ",
+      "Hawaiian": "mooolelo",
       "in English": "record"
     },
     {
       "Number": 371,
-      "Greek": "βάρκα",
+      "Hawaiian": "moku",
       "in English": "boat"
     },
     {
       "Number": 372,
-      "Greek": "κοινός",
+      "Hawaiian": "like",
       "in English": "common"
     },
     {
       "Number": 373,
-      "Greek": "χρυσό",
+      "Hawaiian": "gula",
       "in English": "gold"
     },
     {
       "Number": 374,
-      "Greek": "δυνατός",
+      "Hawaiian": "hiki",
       "in English": "possible"
     },
     {
       "Number": 375,
-      "Greek": "αεροπλάνο",
+      "Hawaiian": "pelane",
       "in English": "plane"
     },
     {
       "Number": 376,
-      "Greek": "αντ ‘",
+      "Hawaiian": "wahi",
       "in English": "stead"
     },
     {
       "Number": 377,
-      "Greek": "ξηρό",
+      "Hawaiian": "maloo",
       "in English": "dry"
     },
     {
       "Number": 378,
-      "Greek": "αναρωτιέμαι",
+      "Hawaiian": "hoohuoi",
       "in English": "wonder"
     },
     {
       "Number": 379,
-      "Greek": "γέλιο",
+      "Hawaiian": "akaaka",
       "in English": "laugh"
     },
     {
       "Number": 380,
-      "Greek": "χιλιάδες",
+      "Hawaiian": "tausani",
       "in English": "thousand"
     },
     {
       "Number": 381,
-      "Greek": "πριν",
+      "Hawaiian": "aku nei",
       "in English": "ago"
     },
     {
       "Number": 382,
-      "Greek": "έτρεξε",
+      "Hawaiian": "holo",
       "in English": "ran"
     },
     {
       "Number": 383,
-      "Greek": "έλεγχος",
+      "Hawaiian": "huli",
       "in English": "check"
     },
     {
       "Number": 384,
-      "Greek": "παιχνίδι",
+      "Hawaiian": "hihiu",
       "in English": "game"
     },
     {
       "Number": 385,
-      "Greek": "σχήμα",
+      "Hawaiian": "helehelena",
       "in English": "shape"
     },
     {
       "Number": 386,
-      "Greek": "εξισώνουν",
+      "Hawaiian": "equate",
       "in English": "equate"
     },
     {
       "Number": 387,
-      "Greek": "ζεστό",
+      "Hawaiian": "anal",
       "in English": "hot"
     },
     {
       "Number": 388,
-      "Greek": "δεσποινίς",
+      "Hawaiian": "Miss",
       "in English": "miss"
     },
     {
       "Number": 389,
-      "Greek": "έφερε",
+      "Hawaiian": "lawe mai",
       "in English": "brought"
     },
     {
       "Number": 390,
-      "Greek": "θερμότητα",
+      "Hawaiian": "wela",
       "in English": "heat"
     },
     {
       "Number": 391,
-      "Greek": "χιόνι",
+      "Hawaiian": "hau",
       "in English": "snow"
     },
     {
       "Number": 392,
-      "Greek": "ελαστικών",
+      "Hawaiian": "kaea",
       "in English": "tire"
     },
     {
       "Number": 393,
-      "Greek": "φέρω",
+      "Hawaiian": "lawe mai",
       "in English": "bring"
     },
     {
       "Number": 394,
-      "Greek": "ναί",
+      "Hawaiian": "ʻae",
       "in English": "yes"
     },
     {
       "Number": 395,
-      "Greek": "μακρινές",
+      "Hawaiian": "ke kaawale ana",
       "in English": "distant"
     },
     {
       "Number": 396,
-      "Greek": "συμπληρώστε",
+      "Hawaiian": "hoopiha",
       "in English": "fill"
     },
     {
       "Number": 397,
-      "Greek": "ανατολικά",
+      "Hawaiian": "ka hikina",
       "in English": "east"
     },
     {
       "Number": 398,
-      "Greek": "ζωγραφίσει",
+      "Hawaiian": "pena",
       "in English": "paint"
     },
     {
       "Number": 399,
-      "Greek": "γλώσσα",
+      "Hawaiian": "‘ōlelo",
       "in English": "language"
     },
     {
       "Number": 400,
-      "Greek": "μεταξύ",
+      "Hawaiian": "mawaena o",
       "in English": "among"
     },
     {
       "Number": 401,
-      "Greek": "μονάδα",
+      "Hawaiian": "pa alima",
       "in English": "unit"
     },
     {
       "Number": 402,
-      "Greek": "δύναμη",
+      "Hawaiian": "mana",
       "in English": "power"
     },
     {
       "Number": 403,
-      "Greek": "πόλη",
+      "Hawaiian": "kulanakauhale",
       "in English": "town"
     },
     {
       "Number": 404,
-      "Greek": "πρόστιμο",
+      "Hawaiian": "uku",
       "in English": "fine"
     },
     {
       "Number": 405,
-      "Greek": "ορισμένες",
+      "Hawaiian": "kekahi",
       "in English": "certain"
     },
     {
       "Number": 406,
-      "Greek": "πετάξει",
+      "Hawaiian": "lele",
       "in English": "fly"
     },
     {
       "Number": 407,
-      "Greek": "πτώση",
+      "Hawaiian": "haule",
       "in English": "fall"
     },
     {
       "Number": 408,
-      "Greek": "οδηγήσει",
+      "Hawaiian": "alakai",
       "in English": "lead"
     },
     {
       "Number": 409,
-      "Greek": "κραυγή",
+      "Hawaiian": "kahea ana",
       "in English": "cry"
     },
     {
       "Number": 410,
-      "Greek": "σκούρο",
+      "Hawaiian": "pouli",
       "in English": "dark"
     },
     {
       "Number": 411,
-      "Greek": "μηχανή",
+      "Hawaiian": "Maker",
       "in English": "machine"
     },
     {
       "Number": 412,
-      "Greek": "σημείωση",
+      "Hawaiian": "palapala aie",
       "in English": "note"
     },
     {
       "Number": 413,
-      "Greek": "περιμένετε",
+      "Hawaiian": "kali",
       "in English": "wait"
     },
     {
       "Number": 414,
-      "Greek": "σχέδιο",
+      "Hawaiian": "kuka",
       "in English": "plan"
     },
     {
       "Number": 415,
-      "Greek": "εικόνα",
+      "Hawaiian": "huahelu",
       "in English": "figure"
     },
     {
       "Number": 416,
-      "Greek": "αστέρι",
+      "Hawaiian": "hoku",
       "in English": "star"
     },
     {
       "Number": 417,
-      "Greek": "κουτί",
+      "Hawaiian": "pahu",
       "in English": "box"
     },
     {
       "Number": 418,
-      "Greek": "όνομα",
+      "Hawaiian": "noun",
       "in English": "noun"
     },
     {
       "Number": 419,
-      "Greek": "τομέα",
+      "Hawaiian": "mahinaʻai",
       "in English": "field"
     },
     {
       "Number": 420,
-      "Greek": "ανάπαυση",
+      "Hawaiian": "maha",
       "in English": "rest"
     },
     {
       "Number": 421,
-      "Greek": "σωστός",
+      "Hawaiian": "pololei",
       "in English": "correct"
     },
     {
       "Number": 422,
-      "Greek": "θέση",
+      "Hawaiian": "hiki",
       "in English": "able"
     },
     {
       "Number": 423,
-      "Greek": "λίρα",
+      "Hawaiian": "paona",
       "in English": "pound"
     },
     {
       "Number": 424,
-      "Greek": "done",
+      "Hawaiian": "hana",
       "in English": "done"
     },
     {
       "Number": 425,
-      "Greek": "ομορφιά",
+      "Hawaiian": "nani",
       "in English": "beauty"
     },
     {
       "Number": 426,
-      "Greek": "drive",
+      "Hawaiian": "a holo",
       "in English": "drive"
     },
     {
       "Number": 427,
-      "Greek": "στάθηκε",
+      "Hawaiian": "ku",
       "in English": "stood"
     },
     {
       "Number": 428,
-      "Greek": "περιέχουν",
+      "Hawaiian": "no",
       "in English": "contain"
     },
     {
       "Number": 429,
-      "Greek": "μπροστά",
+      "Hawaiian": "alo",
       "in English": "front"
     },
     {
       "Number": 430,
-      "Greek": "διδάξουν",
+      "Hawaiian": "ao",
       "in English": "teach"
     },
     {
       "Number": 431,
-      "Greek": "εβδομάδα",
+      "Hawaiian": "pule",
       "in English": "week"
     },
     {
       "Number": 432,
-      "Greek": "τελικό",
+      "Hawaiian": "hope loa",
       "in English": "final"
     },
     {
       "Number": 433,
-      "Greek": "έδωσε",
+      "Hawaiian": "haawi",
       "in English": "gave"
     },
     {
       "Number": 434,
-      "Greek": "πράσινος",
+      "Hawaiian": "ʻōmaʻomaʻo",
       "in English": "green"
     },
     {
       "Number": 435,
-      "Greek": "αμάν",
+      "Hawaiian": "oh la",
       "in English": "oh"
     },
     {
       "Number": 436,
-      "Greek": "γρήγορα",
+      "Hawaiian": "poe ola,",
       "in English": "quick"
     },
     {
       "Number": 437,
-      "Greek": "ανάπτυξη",
+      "Hawaiian": "hoʻomōhala",
       "in English": "develop"
     },
     {
       "Number": 438,
-      "Greek": "ωκεανός",
+      "Hawaiian": "moana",
       "in English": "ocean"
     },
     {
       "Number": 439,
-      "Greek": "ζεστό",
+      "Hawaiian": "pumehana",
       "in English": "warm"
     },
     {
       "Number": 440,
-      "Greek": "δωρεάν",
+      "Hawaiian": "like me",
       "in English": "free"
     },
     {
       "Number": 441,
-      "Greek": "λεπτό",
+      "Hawaiian": "minuke",
       "in English": "minute"
     },
     {
       "Number": 442,
-      "Greek": "ισχυρή",
+      "Hawaiian": "ikaika",
       "in English": "strong"
     },
     {
       "Number": 443,
-      "Greek": "ειδικός",
+      "Hawaiian": "kūikawā",
       "in English": "special"
     },
     {
       "Number": 444,
-      "Greek": "νου",
+      "Hawaiian": "manao",
       "in English": "mind"
     },
     {
       "Number": 445,
-      "Greek": "πίσω",
+      "Hawaiian": "mahope",
       "in English": "behind"
     },
     {
       "Number": 446,
-      "Greek": "σαφής",
+      "Hawaiian": "maopopo",
       "in English": "clear"
     },
     {
       "Number": 447,
-      "Greek": "ουρά",
+      "Hawaiian": "huelo",
       "in English": "tail"
     },
     {
       "Number": 448,
-      "Greek": "παράγουν",
+      "Hawaiian": "paka",
       "in English": "produce"
     },
     {
       "Number": 449,
-      "Greek": "γεγονός",
+      "Hawaiian": "mea",
       "in English": "fact"
     },
     {
       "Number": 450,
-      "Greek": "χώρο",
+      "Hawaiian": "makahiki",
       "in English": "space"
     },
     {
       "Number": 451,
-      "Greek": "ακούσει",
+      "Hawaiian": "lohe",
       "in English": "heard"
     },
     {
       "Number": 452,
-      "Greek": "καλύτερο",
+      "Hawaiian": "pono",
       "in English": "best"
     },
     {
       "Number": 453,
-      "Greek": "ώρα",
+      "Hawaiian": "hola",
       "in English": "hour"
     },
     {
       "Number": 454,
-      "Greek": "καλύτερη",
+      "Hawaiian": "maikai",
       "in English": "better"
     },
     {
       "Number": 455,
-      "Greek": "αληθής",
+      "Hawaiian": "oiaio",
       "in English": "true"
     },
     {
       "Number": 456,
-      "Greek": "κατά τη διάρκεια της",
+      "Hawaiian": "iloko o",
       "in English": "during"
     },
     {
       "Number": 457,
-      "Greek": "εκατό",
+      "Hawaiian": "haneri",
       "in English": "hundred"
     },
     {
       "Number": 458,
-      "Greek": "πέντε",
+      "Hawaiian": "ʻelima",
       "in English": "five"
     },
     {
       "Number": 459,
-      "Greek": "θυμηθείτε",
+      "Hawaiian": "no",
       "in English": "remember"
     },
     {
       "Number": 460,
-      "Greek": "βήμα",
+      "Hawaiian": "‘anuʻu",
       "in English": "step"
     },
     {
       "Number": 461,
-      "Greek": "νωρίς",
+      "Hawaiian": "koke",
       "in English": "early"
     },
     {
       "Number": 462,
-      "Greek": "κρατήστε",
+      "Hawaiian": "paa",
       "in English": "hold"
     },
     {
       "Number": 463,
-      "Greek": "δυτικά",
+      "Hawaiian": "komohana",
       "in English": "west"
     },
     {
       "Number": 464,
-      "Greek": "έδαφος",
+      "Hawaiian": "honua",
       "in English": "ground"
     },
     {
       "Number": 465,
-      "Greek": "ενδιαφέρον",
+      "Hawaiian": "panee",
       "in English": "interest"
     },
     {
       "Number": 466,
-      "Greek": "φτάσουν",
+      "Hawaiian": "hiki",
       "in English": "reach"
     },
     {
       "Number": 467,
-      "Greek": "γρήγορα",
+      "Hawaiian": "hookeai",
       "in English": "fast"
     },
     {
       "Number": 468,
-      "Greek": "ρήμα",
+      "Hawaiian": "verb",
       "in English": "verb"
     },
     {
       "Number": 469,
-      "Greek": "τραγουδώ",
+      "Hawaiian": "mele",
       "in English": "sing"
     },
     {
       "Number": 470,
-      "Greek": "ακούστε",
+      "Hawaiian": "hoolohe",
       "in English": "listen"
     },
     {
       "Number": 471,
-      "Greek": "έξι",
+      "Hawaiian": "ʻeono",
       "in English": "six"
     },
     {
       "Number": 472,
-      "Greek": "τραπέζι",
+      "Hawaiian": "papaʻaina",
       "in English": "table"
     },
     {
       "Number": 473,
-      "Greek": "ταξίδι",
+      "Hawaiian": "hele",
       "in English": "travel"
     },
     {
       "Number": 474,
-      "Greek": "λιγότερο",
+      "Hawaiian": "emi",
       "in English": "less"
     },
     {
       "Number": 475,
-      "Greek": "πρωί",
+      "Hawaiian": "kakahiaka",
       "in English": "morning"
     },
     {
       "Number": 476,
-      "Greek": "δέκα",
+      "Hawaiian": "ʻumi",
       "in English": "ten"
     },
     {
       "Number": 477,
-      "Greek": "απλό",
+      "Hawaiian": "mea",
       "in English": "simple"
     },
     {
       "Number": 478,
-      "Greek": "αρκετές",
+      "Hawaiian": "mau",
       "in English": "several"
     },
     {
       "Number": 479,
-      "Greek": "φωνήεν",
+      "Hawaiian": "vowel",
       "in English": "vowel"
     },
     {
       "Number": 480,
-      "Greek": "προς",
+      "Hawaiian": "ma",
       "in English": "toward"
     },
     {
       "Number": 481,
-      "Greek": "πόλεμο",
+      "Hawaiian": "kaua",
       "in English": "war"
     },
     {
       "Number": 482,
-      "Greek": "θέσει",
+      "Hawaiian": "waiho",
       "in English": "lay"
     },
     {
       "Number": 483,
-      "Greek": "κατά",
+      "Hawaiian": "ku",
       "in English": "against"
     },
     {
       "Number": 484,
-      "Greek": "μοτίβο",
+      "Hawaiian": "kumu",
       "in English": "pattern"
     },
     {
       "Number": 485,
-      "Greek": "αργή",
+      "Hawaiian": "kali",
       "in English": "slow"
     },
     {
       "Number": 486,
-      "Greek": "κέντρο",
+      "Hawaiian": "kikowaena",
       "in English": "center"
     },
     {
       "Number": 487,
-      "Greek": "αγάπη",
+      "Hawaiian": "aloha",
       "in English": "love"
     },
     {
       "Number": 488,
-      "Greek": "πρόσωπο",
+      "Hawaiian": "kanaka",
       "in English": "person"
     },
     {
       "Number": 489,
-      "Greek": "χρήματα",
+      "Hawaiian": "kala",
       "in English": "money"
     },
     {
       "Number": 490,
-      "Greek": "εξυπηρετούν",
+      "Hawaiian": "malama",
       "in English": "serve"
     },
     {
       "Number": 491,
-      "Greek": "εμφανίζονται",
+      "Hawaiian": "hele mai",
       "in English": "appear"
     },
     {
       "Number": 492,
-      "Greek": "δρόμος",
+      "Hawaiian": "alanui",
       "in English": "road"
     },
     {
       "Number": 493,
-      "Greek": "χάρτης",
+      "Hawaiian": "palapala ‘āina",
       "in English": "map"
     },
     {
       "Number": 494,
-      "Greek": "βροχή",
+      "Hawaiian": "ka ua",
       "in English": "rain"
     },
     {
       "Number": 495,
-      "Greek": "κανόνας",
+      "Hawaiian": "rula",
       "in English": "rule"
     },
     {
       "Number": 496,
-      "Greek": "διέπουν",
+      "Hawaiian": "hoomalu",
       "in English": "govern"
     },
     {
       "Number": 497,
-      "Greek": "τραβήξτε",
+      "Hawaiian": "huki",
       "in English": "pull"
     },
     {
       "Number": 498,
-      "Greek": "κρύο",
+      "Hawaiian": "anu",
       "in English": "cold"
     },
     {
       "Number": 499,
-      "Greek": "ειδοποίηση",
+      "Hawaiian": "Hoike",
       "in English": "notice"
     },
     {
       "Number": 500,
-      "Greek": "φωνή",
+      "Hawaiian": "leo",
       "in English": "voice"
     },
     {
       "Number": 501,
-      "Greek": "ενέργεια",
+      "Hawaiian": "ikehu",
       "in English": "energy"
     },
     {
       "Number": 502,
-      "Greek": "κυνήγι",
+      "Hawaiian": "i hoʻohālua",
       "in English": "hunt"
     },
     {
       "Number": 503,
-      "Greek": "πιθανή",
+      "Hawaiian": "paha",
       "in English": "probable"
     },
     {
       "Number": 504,
-      "Greek": "κρεβάτι",
+      "Hawaiian": "moe",
       "in English": "bed"
     },
     {
       "Number": 505,
-      "Greek": "Ο αδελφός",
+      "Hawaiian": "kaikuaʻana, kaikaina",
       "in English": "brother"
     },
     {
       "Number": 506,
-      "Greek": "αυγό",
+      "Hawaiian": "hua",
       "in English": "egg"
     },
     {
       "Number": 507,
-      "Greek": "βόλτα",
+      "Hawaiian": "No Lilo",
       "in English": "ride"
     },
     {
       "Number": 508,
-      "Greek": "κυττάρων",
+      "Hawaiian": "aeea",
       "in English": "cell"
     },
     {
       "Number": 509,
-      "Greek": "πιστεύουμε",
+      "Hawaiian": "manaoio",
       "in English": "believe"
     },
     {
       "Number": 510,
-      "Greek": "ίσως",
+      "Hawaiian": "paha",
       "in English": "perhaps"
     },
     {
       "Number": 511,
-      "Greek": "επιλέξτε",
+      "Hawaiian": "e koho i",
       "in English": "pick"
     },
     {
       "Number": 512,
-      "Greek": "ξαφνική",
+      "Hawaiian": "ulia",
       "in English": "sudden"
     },
     {
       "Number": 513,
-      "Greek": "μετράνε",
+      "Hawaiian": "helu",
       "in English": "count"
     },
     {
       "Number": 514,
-      "Greek": "πλατεία",
+      "Hawaiian": "pāhoʻonui",
       "in English": "square"
     },
     {
       "Number": 515,
-      "Greek": "λόγος",
+      "Hawaiian": "kumu",
       "in English": "reason"
     },
     {
       "Number": 516,
-      "Greek": "μήκος",
+      "Hawaiian": "loa",
       "in English": "length"
     },
     {
       "Number": 517,
-      "Greek": "εκπροσωπώ",
+      "Hawaiian": "ho i",
       "in English": "represent"
     },
     {
       "Number": 518,
-      "Greek": "τέχνη",
+      "Hawaiian": "oe",
       "in English": "art"
     },
     {
       "Number": 519,
-      "Greek": "θέμα",
+      "Hawaiian": "kumuhana",
       "in English": "subject"
     },
     {
       "Number": 520,
-      "Greek": "περιοχή",
+      "Hawaiian": "māhele",
       "in English": "region"
     },
     {
       "Number": 521,
-      "Greek": "μέγεθος",
+      "Hawaiian": "ka nui",
       "in English": "size"
     },
     {
       "Number": 522,
-      "Greek": "ποικίλλουν",
+      "Hawaiian": "lauwili",
       "in English": "vary"
     },
     {
       "Number": 523,
-      "Greek": "εγκατασταθούν",
+      "Hawaiian": "hoonoho au",
       "in English": "settle"
     },
     {
       "Number": 524,
-      "Greek": "μιλούν",
+      "Hawaiian": "olelo",
       "in English": "speak"
     },
     {
       "Number": 525,
-      "Greek": "βάρος",
+      "Hawaiian": "kaumaha",
       "in English": "weight"
     },
     {
       "Number": 526,
-      "Greek": "γενικές",
+      "Hawaiian": "nui",
       "in English": "general"
     },
     {
       "Number": 527,
-      "Greek": "πάγος",
+      "Hawaiian": "hau",
       "in English": "ice"
     },
     {
       "Number": 528,
-      "Greek": "θέμα",
+      "Hawaiian": "mea",
       "in English": "matter"
     },
     {
       "Number": 529,
-      "Greek": "κύκλο",
+      "Hawaiian": "kaiapili",
       "in English": "circle"
     },
     {
       "Number": 530,
-      "Greek": "ζεύγος",
+      "Hawaiian": "mau",
       "in English": "pair"
     },
     {
       "Number": 531,
-      "Greek": "περιλαμβάνουν",
+      "Hawaiian": "nā",
       "in English": "include"
     },
     {
       "Number": 532,
-      "Greek": "χάσματος",
+      "Hawaiian": "māhele",
       "in English": "divide"
     },
     {
       "Number": 533,
-      "Greek": "συλλαβή",
+      "Hawaiian": "syllable",
       "in English": "syllable"
     },
     {
       "Number": 534,
-      "Greek": "αισθάνθηκε",
+      "Hawaiian": "manaʻo",
       "in English": "felt"
     },
     {
       "Number": 535,
-      "Greek": "grand",
+      "Hawaiian": "Luna nui",
       "in English": "grand"
     },
     {
       "Number": 536,
-      "Greek": "μπάλα",
+      "Hawaiian": "poepoe",
       "in English": "ball"
     },
     {
       "Number": 537,
-      "Greek": "ακόμη",
+      "Hawaiian": "aka,",
       "in English": "yet"
     },
     {
       "Number": 538,
-      "Greek": "κύμα",
+      "Hawaiian": "hawewe",
       "in English": "wave"
     },
     {
       "Number": 539,
-      "Greek": "πτώση",
+      "Hawaiian": "papa",
       "in English": "drop"
     },
     {
       "Number": 540,
-      "Greek": "καρδιά",
+      "Hawaiian": "Puʻuwai",
       "in English": "heart"
     },
     {
       "Number": 541,
-      "Greek": "είμαι",
+      "Hawaiian": "no",
       "in English": "am"
     },
     {
       "Number": 542,
-      "Greek": "παρόν",
+      "Hawaiian": "keia",
       "in English": "present"
     },
     {
       "Number": 543,
-      "Greek": "βαριά",
+      "Hawaiian": "kaumaha",
       "in English": "heavy"
     },
     {
       "Number": 544,
-      "Greek": "χορού",
+      "Hawaiian": "hula",
       "in English": "dance"
     },
     {
       "Number": 545,
-      "Greek": "κινητήρας",
+      "Hawaiian": "engine",
       "in English": "engine"
     },
     {
       "Number": 546,
-      "Greek": "θέση",
+      "Hawaiian": "wahi",
       "in English": "position"
     },
     {
       "Number": 547,
-      "Greek": "μπράτσο",
+      "Hawaiian": "lima",
       "in English": "arm"
     },
     {
       "Number": 548,
-      "Greek": "ευρύ",
+      "Hawaiian": "ka laula,",
       "in English": "wide"
     },
     {
       "Number": 549,
-      "Greek": "ιστίο",
+      "Hawaiian": "holo",
       "in English": "sail"
     },
     {
       "Number": 550,
-      "Greek": "υλικό",
+      "Hawaiian": "mea",
       "in English": "material"
     },
     {
       "Number": 551,
-      "Greek": "κλάσμα",
+      "Hawaiian": "mahele",
       "in English": "fraction"
     },
     {
       "Number": 552,
-      "Greek": "δάσος",
+      "Hawaiian": "nahele",
       "in English": "forest"
     },
     {
       "Number": 553,
-      "Greek": "καθίσει",
+      "Hawaiian": "noho",
       "in English": "sit"
     },
     {
       "Number": 554,
-      "Greek": "φυλή",
+      "Hawaiian": "lāhui",
       "in English": "race"
     },
     {
       "Number": 555,
-      "Greek": "παράθυρο",
+      "Hawaiian": "puka makani",
       "in English": "window"
     },
     {
       "Number": 556,
-      "Greek": "κατάστημα",
+      "Hawaiian": "hale kūʻai",
       "in English": "store"
     },
     {
       "Number": 557,
-      "Greek": "καλοκαίρι",
+      "Hawaiian": "ke kau",
       "in English": "summer"
     },
     {
       "Number": 558,
-      "Greek": "τρένο",
+      "Hawaiian": "nalowale",
       "in English": "train"
     },
     {
       "Number": 559,
-      "Greek": "ύπνου",
+      "Hawaiian": "hiamoe",
       "in English": "sleep"
     },
     {
       "Number": 560,
-      "Greek": "αποδειχθούν",
+      "Hawaiian": "hoao",
       "in English": "prove"
     },
     {
       "Number": 561,
-      "Greek": "μοναχικός",
+      "Hawaiian": "Lone",
       "in English": "lone"
     },
     {
       "Number": 562,
-      "Greek": "πόδι",
+      "Hawaiian": "wawae",
       "in English": "leg"
     },
     {
       "Number": 563,
-      "Greek": "άσκηση",
+      "Hawaiian": "me ka",
       "in English": "exercise"
     },
     {
       "Number": 564,
-      "Greek": "τοίχο",
+      "Hawaiian": "pa",
       "in English": "wall"
     },
     {
       "Number": 565,
-      "Greek": "σύλληψη",
+      "Hawaiian": "hoopahele ae la i",
       "in English": "catch"
     },
     {
       "Number": 566,
-      "Greek": "mount",
+      "Hawaiian": "mauna",
       "in English": "mount"
     },
     {
       "Number": 567,
-      "Greek": "επιθυμούν",
+      "Hawaiian": "makemake",
       "in English": "wish"
     },
     {
       "Number": 568,
-      "Greek": "ουρανό",
+      "Hawaiian": "lani",
       "in English": "sky"
     },
     {
       "Number": 569,
-      "Greek": "χαρτόνι",
+      "Hawaiian": "papa",
       "in English": "board"
     },
     {
       "Number": 570,
-      "Greek": "χαρά",
+      "Hawaiian": "olioli",
       "in English": "joy"
     },
     {
       "Number": 571,
-      "Greek": "χειμώνας",
+      "Hawaiian": "hooilo",
       "in English": "winter"
     },
     {
       "Number": 572,
-      "Greek": "Σαβ",
+      "Hawaiian": "Pōʻaono",
       "in English": "sat"
     },
     {
       "Number": 573,
-      "Greek": "γραπτή",
+      "Hawaiian": "kakauia",
       "in English": "written"
     },
     {
       "Number": 574,
-      "Greek": "άγρια",
+      "Hawaiian": "hihiu",
       "in English": "wild"
     },
     {
       "Number": 575,
-      "Greek": "οργάνου",
+      "Hawaiian": "hana",
       "in English": "instrument"
     },
     {
       "Number": 576,
-      "Greek": "φυλάσσονται",
+      "Hawaiian": "malama",
       "in English": "kept"
     },
     {
       "Number": 577,
-      "Greek": "ποτήρι",
+      "Hawaiian": "aniani",
       "in English": "glass"
     },
     {
       "Number": 578,
-      "Greek": "γρασίδι",
+      "Hawaiian": "ka mauu",
       "in English": "grass"
     },
     {
       "Number": 579,
-      "Greek": "αγελάδα",
+      "Hawaiian": "bipi",
       "in English": "cow"
     },
     {
       "Number": 580,
-      "Greek": "δουλειά",
+      "Hawaiian": "oihana",
       "in English": "job"
     },
     {
       "Number": 581,
-      "Greek": "άκρο",
+      "Hawaiian": "lihi",
       "in English": "edge"
     },
     {
       "Number": 582,
-      "Greek": "πινακίδα",
+      "Hawaiian": "hoailona",
       "in English": "sign"
     },
     {
       "Number": 583,
-      "Greek": "επίσκεψη",
+      "Hawaiian": "makaikai.",
       "in English": "visit"
     },
     {
       "Number": 584,
-      "Greek": "παρελθόν",
+      "Hawaiian": "i hala iho nei",
       "in English": "past"
     },
     {
       "Number": 585,
-      "Greek": "μαλακός",
+      "Hawaiian": "pahee",
       "in English": "soft"
     },
     {
       "Number": 586,
-      "Greek": "διασκέδαση",
+      "Hawaiian": "leʻaleʻa",
       "in English": "fun"
     },
     {
       "Number": 587,
-      "Greek": "φωτεινό",
+      "Hawaiian": "ao alohilohi i",
       "in English": "bright"
     },
     {
       "Number": 588,
-      "Greek": "αερίου",
+      "Hawaiian": "kinoea",
       "in English": "gas"
     },
     {
       "Number": 589,
-      "Greek": "καιρός",
+      "Hawaiian": "map",
       "in English": "weather"
     },
     {
       "Number": 590,
-      "Greek": "μήνα",
+      "Hawaiian": "mahina",
       "in English": "month"
     },
     {
       "Number": 591,
-      "Greek": "εκατομμύρια",
+      "Hawaiian": "miliona",
       "in English": "million"
     },
     {
       "Number": 592,
-      "Greek": "φέρουν",
+      "Hawaiian": "lawe",
       "in English": "bear"
     },
     {
       "Number": 593,
-      "Greek": "φινίρισμα",
+      "Hawaiian": "hoʻopau",
       "in English": "finish"
     },
     {
       "Number": 594,
-      "Greek": "ευτυχισμένος",
+      "Hawaiian": "hauʻoli",
       "in English": "happy"
     },
     {
       "Number": 595,
-      "Greek": "ελπίζω",
+      "Hawaiian": "manaolana",
       "in English": "hope"
     },
     {
       "Number": 596,
-      "Greek": "λουλούδι",
+      "Hawaiian": "pua",
       "in English": "flower"
     },
     {
       "Number": 597,
-      "Greek": "ντύσει",
+      "Hawaiian": "hoaahu",
       "in English": "clothe"
     },
     {
       "Number": 598,
-      "Greek": "παράξενα",
+      "Hawaiian": "malihini",
       "in English": "strange"
     },
     {
       "Number": 599,
-      "Greek": "φύγει",
+      "Hawaiian": "Hana Party",
       "in English": "gone"
     },
     {
       "Number": 600,
-      "Greek": "εμπόριο",
+      "Hawaiian": "kuai",
       "in English": "trade"
     },
     {
       "Number": 601,
-      "Greek": "μελωδία",
+      "Hawaiian": "e hoʻonui i",
       "in English": "melody"
     },
     {
       "Number": 602,
-      "Greek": "ταξίδι",
+      "Hawaiian": "huakai",
       "in English": "trip"
     },
     {
       "Number": 603,
-      "Greek": "γραφείο",
+      "Hawaiian": "oihana",
       "in English": "office"
     },
     {
       "Number": 604,
-      "Greek": "λαμβάνω",
+      "Hawaiian": "loaa",
       "in English": "receive"
     },
     {
       "Number": 605,
-      "Greek": "σειρά",
+      "Hawaiian": "lalani",
       "in English": "row"
     },
     {
       "Number": 606,
-      "Greek": "το στόμα",
+      "Hawaiian": "waha",
       "in English": "mouth"
     },
     {
       "Number": 607,
-      "Greek": "ακριβής",
+      "Hawaiian": "mau",
       "in English": "exact"
     },
     {
       "Number": 608,
-      "Greek": "σύμβολο",
+      "Hawaiian": "hōʻailona",
       "in English": "symbol"
     },
     {
       "Number": 609,
-      "Greek": "πεθαίνω",
+      "Hawaiian": "make",
       "in English": "die"
     },
     {
       "Number": 610,
-      "Greek": "τουλάχιστον",
+      "Hawaiian": "ka liʻiliʻi loa",
       "in English": "least"
     },
     {
       "Number": 611,
-      "Greek": "πρόβλημα",
+      "Hawaiian": "pilikia",
       "in English": "trouble"
     },
     {
       "Number": 612,
-      "Greek": "κραυγή",
+      "Hawaiian": "hooho",
       "in English": "shout"
     },
     {
       "Number": 613,
-      "Greek": "εκτός",
+      "Hawaiian": "koe nae",
       "in English": "except"
     },
     {
       "Number": 614,
-      "Greek": "έγραψε",
+      "Hawaiian": "kakau iho la",
       "in English": "wrote"
     },
     {
       "Number": 615,
-      "Greek": "σπόρων",
+      "Hawaiian": "hua",
       "in English": "seed"
     },
     {
       "Number": 616,
-      "Greek": "τόνος",
+      "Hawaiian": "leo",
       "in English": "tone"
     },
     {
       "Number": 617,
-      "Greek": "ένωση",
+      "Hawaiian": "hui",
       "in English": "join"
     },
     {
       "Number": 618,
-      "Greek": "προτείνουν",
+      "Hawaiian": "paipai",
       "in English": "suggest"
     },
     {
       "Number": 619,
-      "Greek": "καθαρό",
+      "Hawaiian": "maemae",
       "in English": "clean"
     },
     {
       "Number": 620,
-      "Greek": "διάλειμμα",
+      "Hawaiian": "ʻoluʻolu o",
       "in English": "break"
     },
     {
       "Number": 621,
-      "Greek": "η κυρία",
+      "Hawaiian": "wahine",
       "in English": "lady"
     },
     {
       "Number": 622,
-      "Greek": "αυλή",
+      "Hawaiian": "iwilei",
       "in English": "yard"
     },
     {
       "Number": 623,
-      "Greek": "αυξηθεί",
+      "Hawaiian": "ala",
       "in English": "rise"
     },
     {
       "Number": 624,
-      "Greek": "κακό",
+      "Hawaiian": "ino",
       "in English": "bad"
     },
     {
       "Number": 625,
-      "Greek": "χτύπημα",
+      "Hawaiian": "puupuu",
       "in English": "blow"
     },
     {
       "Number": 626,
-      "Greek": "πετρελαίου",
+      "Hawaiian": "aila",
       "in English": "oil"
     },
     {
       "Number": 627,
-      "Greek": "αίμα",
+      "Hawaiian": "ke koko",
       "in English": "blood"
     },
     {
       "Number": 628,
-      "Greek": "αγγίζετε",
+      "Hawaiian": "hoopa aku",
       "in English": "touch"
     },
     {
       "Number": 629,
-      "Greek": "μεγάλωσε",
+      "Hawaiian": "ulu",
       "in English": "grew"
     },
     {
       "Number": 630,
-      "Greek": "σεντ",
+      "Hawaiian": "keneta",
       "in English": "cent"
     },
     {
       "Number": 631,
-      "Greek": "αναμίξτε",
+      "Hawaiian": "hui",
       "in English": "mix"
     },
     {
       "Number": 632,
-      "Greek": "Η ομάδα",
+      "Hawaiian": "hui",
       "in English": "team"
     },
     {
       "Number": 633,
-      "Greek": "σύρμα",
+      "Hawaiian": "uea",
       "in English": "wire"
     },
     {
       "Number": 634,
-      "Greek": "κόστος",
+      "Hawaiian": "kāki",
       "in English": "cost"
     },
     {
       "Number": 635,
-      "Greek": "χαμένος",
+      "Hawaiian": "nalowale",
       "in English": "lost"
     },
     {
       "Number": 636,
-      "Greek": "καφέ",
+      "Hawaiian": "palaunu",
       "in English": "brown"
     },
     {
       "Number": 637,
-      "Greek": "φθορά",
+      "Hawaiian": "komo",
       "in English": "wear"
     },
     {
       "Number": 638,
-      "Greek": "κήπο",
+      "Hawaiian": "kīhāpai",
       "in English": "garden"
     },
     {
       "Number": 639,
-      "Greek": "ίση",
+      "Hawaiian": "like",
       "in English": "equal"
     },
     {
       "Number": 640,
-      "Greek": "αποστέλλονται",
+      "Hawaiian": "hoouna",
       "in English": "sent"
     },
     {
       "Number": 641,
-      "Greek": "επιλέξτε",
+      "Hawaiian": "koho",
       "in English": "choose"
     },
     {
       "Number": 642,
-      "Greek": "έπεσε",
+      "Hawaiian": "haule iho la",
       "in English": "fell"
     },
     {
       "Number": 643,
-      "Greek": "ταιριάζει",
+      "Hawaiian": "pono",
       "in English": "fit"
     },
     {
       "Number": 644,
-      "Greek": "ροή",
+      "Hawaiian": "kahe ana",
       "in English": "flow"
     },
     {
       "Number": 645,
-      "Greek": "δίκαιος",
+      "Hawaiian": "maikai",
       "in English": "fair"
     },
     {
       "Number": 646,
-      "Greek": "τράπεζα",
+      "Hawaiian": "pali,",
       "in English": "bank"
     },
     {
       "Number": 647,
-      "Greek": "συλλέγουν",
+      "Hawaiian": "ohi",
       "in English": "collect"
     },
     {
       "Number": 648,
-      "Greek": "αποθηκεύσετε",
+      "Hawaiian": "hoola",
       "in English": "save"
     },
     {
       "Number": 649,
-      "Greek": "ελέγχου",
+      "Hawaiian": "hooponopono",
       "in English": "control"
     },
     {
       "Number": 650,
-      "Greek": "δεκαδικό",
+      "Hawaiian": "kekimala",
       "in English": "decimal"
     },
     {
       "Number": 651,
-      "Greek": "αυτί",
+      "Hawaiian": "pepeiao",
       "in English": "ear"
     },
     {
       "Number": 652,
-      "Greek": "άλλος",
+      "Hawaiian": "e ae",
       "in English": "else"
     },
     {
       "Number": 653,
-      "Greek": "αρκετά",
+      "Hawaiian": "loa",
       "in English": "quite"
     },
     {
       "Number": 654,
-      "Greek": "έσπασε",
+      "Hawaiian": "uhai",
       "in English": "broke"
     },
     {
       "Number": 655,
-      "Greek": "περίπτωση",
+      "Hawaiian": "hihia",
       "in English": "case"
     },
     {
       "Number": 656,
-      "Greek": "μέση",
+      "Hawaiian": "waena",
       "in English": "middle"
     },
     {
       "Number": 657,
-      "Greek": "σκοτώνουν",
+      "Hawaiian": "pepehi",
       "in English": "kill"
     },
     {
       "Number": 658,
-      "Greek": "Ο γιος",
+      "Hawaiian": "keikikāne",
       "in English": "son"
     },
     {
       "Number": 659,
-      "Greek": "λίμνη",
+      "Hawaiian": "Lake",
       "in English": "lake"
     },
     {
       "Number": 660,
-      "Greek": "στιγμή",
+      "Hawaiian": "manawa",
       "in English": "moment"
     },
     {
       "Number": 661,
-      "Greek": "κλίμακα",
+      "Hawaiian": "pālākiō",
       "in English": "scale"
     },
     {
       "Number": 662,
-      "Greek": "δυνατά",
+      "Hawaiian": "loa",
       "in English": "loud"
     },
     {
       "Number": 663,
-      "Greek": "άνοιξη",
+      "Hawaiian": "waipuna",
       "in English": "spring"
     },
     {
       "Number": 664,
-      "Greek": "παρατηρώ",
+      "Hawaiian": "malama",
       "in English": "observe"
     },
     {
       "Number": 665,
-      "Greek": "παιδί",
+      "Hawaiian": "keiki",
       "in English": "child"
     },
     {
       "Number": 666,
-      "Greek": "ευθεία",
+      "Hawaiian": "pololei",
       "in English": "straight"
     },
     {
       "Number": 667,
-      "Greek": "σύμφωνο",
+      "Hawaiian": "leokanipū",
       "in English": "consonant"
     },
     {
       "Number": 668,
-      "Greek": "έθνος",
+      "Hawaiian": "lahuikanaka",
       "in English": "nation"
     },
     {
       "Number": 669,
-      "Greek": "λεξικό",
+      "Hawaiian": "puke wehewehe’ōlelo",
       "in English": "dictionary"
     },
     {
       "Number": 670,
-      "Greek": "γάλα",
+      "Hawaiian": "waiu",
       "in English": "milk"
     },
     {
       "Number": 671,
-      "Greek": "ταχύτητα",
+      "Hawaiian": "ka mämä holo",
       "in English": "speed"
     },
     {
       "Number": 672,
-      "Greek": "μέθοδος",
+      "Hawaiian": "hana",
       "in English": "method"
     },
     {
       "Number": 673,
-      "Greek": "οργάνου",
+      "Hawaiian": "hui",
       "in English": "organ"
     },
     {
       "Number": 674,
-      "Greek": "πληρωμή",
+      "Hawaiian": "uku",
       "in English": "pay"
     },
     {
       "Number": 675,
-      "Greek": "ηλικία",
+      "Hawaiian": "makahiki",
       "in English": "age"
     },
     {
       "Number": 676,
-      "Greek": "τμήμα",
+      "Hawaiian": "pauku",
       "in English": "section"
     },
     {
       "Number": 677,
-      "Greek": "φόρεμα",
+      "Hawaiian": "male",
       "in English": "dress"
     },
     {
       "Number": 678,
-      "Greek": "cloud",
+      "Hawaiian": "ao",
       "in English": "cloud"
     },
     {
       "Number": 679,
-      "Greek": "έκπληξη",
+      "Hawaiian": "haohao",
       "in English": "surprise"
     },
     {
       "Number": 680,
-      "Greek": "ήσυχο",
+      "Hawaiian": "mālie",
       "in English": "quiet"
     },
     {
       "Number": 681,
-      "Greek": "πέτρα",
+      "Hawaiian": "pohaku",
       "in English": "stone"
     },
     {
       "Number": 682,
-      "Greek": "μικροσκοπικός",
+      "Hawaiian": "wahi",
       "in English": "tiny"
     },
     {
       "Number": 683,
-      "Greek": "ανάβαση",
+      "Hawaiian": "pii ana",
       "in English": "climb"
     },
     {
       "Number": 684,
-      "Greek": "δροσερό",
+      "Hawaiian": "anu",
       "in English": "cool"
     },
     {
       "Number": 685,
-      "Greek": "σχεδιασμός",
+      "Hawaiian": "manao",
       "in English": "design"
     },
     {
       "Number": 686,
-      "Greek": "φτωχός",
+      "Hawaiian": "ilihune",
       "in English": "poor"
     },
     {
       "Number": 687,
-      "Greek": "πολλά",
+      "Hawaiian": "puu",
       "in English": "lot"
     },
     {
       "Number": 688,
-      "Greek": "πείραμα",
+      "Hawaiian": "hoʻokolohua",
       "in English": "experiment"
     },
     {
       "Number": 689,
-      "Greek": "κάτω μέρος",
+      "Hawaiian": "lalo",
       "in English": "bottom"
     },
     {
       "Number": 690,
-      "Greek": "κλειδί",
+      "Hawaiian": "kī",
       "in English": "key"
     },
     {
       "Number": 691,
-      "Greek": "σίδερο",
+      "Hawaiian": "hao",
       "in English": "iron"
     },
     {
       "Number": 692,
-      "Greek": "ενιαίου",
+      "Hawaiian": "hookahi",
       "in English": "single"
     },
     {
       "Number": 693,
-      "Greek": "ραβδί",
+      "Hawaiian": "koʻokoʻo",
       "in English": "stick"
     },
     {
       "Number": 694,
-      "Greek": "επίπεδη",
+      "Hawaiian": "i lalo",
       "in English": "flat"
     },
     {
       "Number": 695,
-      "Greek": "είκοσι",
+      "Hawaiian": "ʻiwakālua",
       "in English": "twenty"
     },
     {
       "Number": 696,
-      "Greek": "δέρματος",
+      "Hawaiian": "ili",
       "in English": "skin"
     },
     {
       "Number": 697,
-      "Greek": "χαμόγελο",
+      "Hawaiian": "minoʻaka",
       "in English": "smile"
     },
     {
       "Number": 698,
-      "Greek": "πτυχή",
+      "Hawaiian": "crease",
       "in English": "crease"
     },
     {
       "Number": 699,
-      "Greek": "τρύπα",
+      "Hawaiian": "puka",
       "in English": "hole"
     },
     {
       "Number": 700,
-      "Greek": "άλμα",
+      "Hawaiian": "lele",
       "in English": "jump"
     },
     {
       "Number": 701,
-      "Greek": "μωρό",
+      "Hawaiian": "pēpē",
       "in English": "baby"
     },
     {
       "Number": 702,
-      "Greek": "οκτώ",
+      "Hawaiian": "ʻewalu",
       "in English": "eight"
     },
     {
       "Number": 703,
-      "Greek": "χωριό",
+      "Hawaiian": "kauhale",
       "in English": "village"
     },
     {
       "Number": 704,
-      "Greek": "πληρούν",
+      "Hawaiian": "ku i",
       "in English": "meet"
     },
     {
       "Number": 705,
-      "Greek": "ρίζα",
+      "Hawaiian": "aa",
       "in English": "root"
     },
     {
       "Number": 706,
-      "Greek": "αγοράζουν",
+      "Hawaiian": "kuai",
       "in English": "buy"
     },
     {
       "Number": 707,
-      "Greek": "αύξηση",
+      "Hawaiian": "hoala mai",
       "in English": "raise"
     },
     {
       "Number": 708,
-      "Greek": "επιλύσει",
+      "Hawaiian": "ke hoʻoponopono",
       "in English": "solve"
     },
     {
       "Number": 709,
-      "Greek": "μετάλλων",
+      "Hawaiian": "metala",
       "in English": "metal"
     },
     {
       "Number": 710,
-      "Greek": "αν",
+      "Hawaiian": "paha",
       "in English": "whether"
     },
     {
       "Number": 711,
-      "Greek": "ώθηση",
+      "Hawaiian": "pale wale",
       "in English": "push"
     },
     {
       "Number": 712,
-      "Greek": "επτά",
+      "Hawaiian": "ʻehiku",
       "in English": "seven"
     },
     {
       "Number": 713,
-      "Greek": "παράγραφο",
+      "Hawaiian": "paukū",
       "in English": "paragraph"
     },
     {
       "Number": 714,
-      "Greek": "τρίτο",
+      "Hawaiian": "ke kolu",
       "in English": "third"
     },
     {
       "Number": 715,
-      "Greek": "θα",
+      "Hawaiian": "e",
       "in English": "shall"
     },
     {
       "Number": 716,
-      "Greek": "χειρός",
+      "Hawaiian": "paa ana",
       "in English": "held"
     },
     {
       "Number": 717,
-      "Greek": "μαλλιά",
+      "Hawaiian": "lauoho",
       "in English": "hair"
     },
     {
       "Number": 718,
-      "Greek": "περιγράψει",
+      "Hawaiian": "kakau",
       "in English": "describe"
     },
     {
       "Number": 719,
-      "Greek": "μάγειρας",
+      "Hawaiian": "Kapena Kuke,",
       "in English": "cook"
     },
     {
       "Number": 720,
-      "Greek": "πάτωμα",
+      "Hawaiian": "papahele",
       "in English": "floor"
     },
     {
       "Number": 721,
-      "Greek": "είτε",
+      "Hawaiian": "kekahi",
       "in English": "either"
     },
     {
       "Number": 722,
-      "Greek": "αποτέλεσμα",
+      "Hawaiian": "result",
       "in English": "result"
     },
     {
       "Number": 723,
-      "Greek": "έγκαυμα",
+      "Hawaiian": "puhi",
       "in English": "burn"
     },
     {
       "Number": 724,
-      "Greek": "λόφος",
+      "Hawaiian": "puu",
       "in English": "hill"
     },
     {
       "Number": 725,
-      "Greek": "ασφαλής",
+      "Hawaiian": "maluhia",
       "in English": "safe"
     },
     {
       "Number": 726,
-      "Greek": "γάτα",
+      "Hawaiian": "popoki",
       "in English": "cat"
     },
     {
       "Number": 727,
-      "Greek": "αιώνα",
+      "Hawaiian": "kenekulia",
       "in English": "century"
     },
     {
       "Number": 728,
-      "Greek": "σκεφτείτε",
+      "Hawaiian": "noonoo",
       "in English": "consider"
     },
     {
       "Number": 729,
-      "Greek": "τύπος",
+      "Hawaiian": "ʻAno",
       "in English": "type"
     },
     {
       "Number": 730,
-      "Greek": "του νόμου",
+      "Hawaiian": "kanawai",
       "in English": "law"
     },
     {
       "Number": 731,
-      "Greek": "λίγο",
+      "Hawaiian": "iki",
       "in English": "bit"
     },
     {
       "Number": 732,
-      "Greek": "ακτή",
+      "Hawaiian": "mokuna",
       "in English": "coast"
     },
     {
       "Number": 733,
-      "Greek": "αντίγραφο",
+      "Hawaiian": "kope",
       "in English": "copy"
     },
     {
       "Number": 734,
-      "Greek": "φράση",
+      "Hawaiian": "hopuna’ōlelo",
       "in English": "phrase"
     },
     {
       "Number": 735,
-      "Greek": "σιωπηλή",
+      "Hawaiian": "hāmau",
       "in English": "silent"
     },
     {
       "Number": 736,
-      "Greek": "ψηλός",
+      "Hawaiian": "kiʻekiʻe",
       "in English": "tall"
     },
     {
       "Number": 737,
-      "Greek": "άμμου",
+      "Hawaiian": "one",
       "in English": "sand"
     },
     {
       "Number": 738,
-      "Greek": "χώμα",
+      "Hawaiian": "aina",
       "in English": "soil"
     },
     {
       "Number": 739,
-      "Greek": "ρολό",
+      "Hawaiian": "‘ōwili",
       "in English": "roll"
     },
     {
       "Number": 740,
-      "Greek": "θερμοκρασία",
+      "Hawaiian": "wela",
       "in English": "temperature"
     },
     {
       "Number": 741,
-      "Greek": "δάχτυλο",
+      "Hawaiian": "manamana lima",
       "in English": "finger"
     },
     {
       "Number": 742,
-      "Greek": "βιομηχανία",
+      "Hawaiian": "hana",
       "in English": "industry"
     },
     {
       "Number": 743,
-      "Greek": "αξία",
+      "Hawaiian": "waiwai",
       "in English": "value"
     },
     {
       "Number": 744,
-      "Greek": "αγώνα",
+      "Hawaiian": "kaua",
       "in English": "fight"
     },
     {
       "Number": 745,
-      "Greek": "ψέμα",
+      "Hawaiian": "moe",
       "in English": "lie"
     },
     {
       "Number": 746,
-      "Greek": "νικήσει",
+      "Hawaiian": "pepehi",
       "in English": "beat"
     },
     {
       "Number": 747,
-      "Greek": "διεγείρει",
+      "Hawaiian": "ka naita",
       "in English": "excite"
     },
     {
       "Number": 748,
-      "Greek": "φυσικές",
+      "Hawaiian": "maoli",
       "in English": "natural"
     },
     {
       "Number": 749,
-      "Greek": "θέα",
+      "Hawaiian": "Hawaii",
       "in English": "view"
     },
     {
       "Number": 750,
-      "Greek": "νόημα",
+      "Hawaiian": "hoohalike",
       "in English": "sense"
     },
     {
       "Number": 751,
-      "Greek": "κεφάλαιο",
+      "Hawaiian": "poʻo",
       "in English": "capital"
     },
     {
       "Number": 752,
-      "Greek": "δεν θα",
+      "Hawaiian": "e ole",
       "in English": "won’t"
     },
     {
       "Number": 753,
-      "Greek": "καρέκλα",
+      "Hawaiian": "noho",
       "in English": "chair"
     },
     {
       "Number": 754,
-      "Greek": "κίνδυνο",
+      "Hawaiian": "weliweli",
       "in English": "danger"
     },
     {
       "Number": 755,
-      "Greek": "φρούτα",
+      "Hawaiian": "hua",
       "in English": "fruit"
     },
     {
       "Number": 756,
-      "Greek": "πλούσιος",
+      "Hawaiian": "waiwai",
       "in English": "rich"
     },
     {
       "Number": 757,
-      "Greek": "παχύ",
+      "Hawaiian": "manoanoa",
       "in English": "thick"
     },
     {
       "Number": 758,
-      "Greek": "στρατιώτης",
+      "Hawaiian": "koa",
       "in English": "soldier"
     },
     {
       "Number": 759,
-      "Greek": "διαδικασία",
+      "Hawaiian": "kaʻina",
       "in English": "process"
     },
     {
       "Number": 760,
-      "Greek": "λειτουργούν",
+      "Hawaiian": "hana",
       "in English": "operate"
     },
     {
       "Number": 761,
-      "Greek": "πρακτική",
+      "Hawaiian": "hana",
       "in English": "practice"
     },
     {
       "Number": 762,
-      "Greek": "ξεχωριστός",
+      "Hawaiian": "ana",
       "in English": "separate"
     },
     {
       "Number": 763,
-      "Greek": "δύσκολο",
+      "Hawaiian": "paʻakikī",
       "in English": "difficult"
     },
     {
       "Number": 764,
-      "Greek": "γιατρός",
+      "Hawaiian": "kauka",
       "in English": "doctor"
     },
     {
       "Number": 765,
-      "Greek": "παρακαλώ",
+      "Hawaiian": "e ʻoluʻolu",
       "in English": "please"
     },
     {
       "Number": 766,
-      "Greek": "προστασία",
+      "Hawaiian": "hoomalu",
       "in English": "protect"
     },
     {
       "Number": 767,
-      "Greek": "το μεσημέρι",
+      "Hawaiian": "awakea",
       "in English": "noon"
     },
     {
       "Number": 768,
-      "Greek": "καλλιέργεια",
+      "Hawaiian": "iʻohiʻia",
       "in English": "crop"
     },
     {
       "Number": 769,
-      "Greek": "σύγχρονος",
+      "Hawaiian": "kēia",
       "in English": "modern"
     },
     {
       "Number": 770,
-      "Greek": "στοιχείο",
+      "Hawaiian": "‘āweʻaweʻa",
       "in English": "element"
     },
     {
       "Number": 771,
-      "Greek": "χτύπημα",
+      "Hawaiian": "ku",
       "in English": "hit"
     },
     {
       "Number": 772,
-      "Greek": "φοιτητής",
+      "Hawaiian": "haumana",
       "in English": "student"
     },
     {
       "Number": 773,
-      "Greek": "γωνία",
+      "Hawaiian": "ke kihi",
       "in English": "corner"
     },
     {
       "Number": 774,
-      "Greek": "κόμμα",
+      "Hawaiian": "‘aoʻao",
       "in English": "party"
     },
     {
       "Number": 775,
-      "Greek": "προμήθεια",
+      "Hawaiian": "lako hou",
       "in English": "supply"
     },
     {
       "Number": 776,
-      "Greek": "των οποίων",
+      "Hawaiian": "kona",
       "in English": "whose"
     },
     {
       "Number": 777,
-      "Greek": "εντοπίσετε",
+      "Hawaiian": "huli ana",
       "in English": "locate"
     },
     {
       "Number": 778,
-      "Greek": "δαχτυλίδι",
+      "Hawaiian": "ke komo lima",
       "in English": "ring"
     },
     {
       "Number": 779,
-      "Greek": "χαρακτήρας",
+      "Hawaiian": "ano",
       "in English": "character"
     },
     {
       "Number": 780,
-      "Greek": "έντομο",
+      "Hawaiian": "insect",
       "in English": "insect"
     },
     {
       "Number": 781,
-      "Greek": "αλιεύονται",
+      "Hawaiian": "loaa",
       "in English": "caught"
     },
     {
       "Number": 782,
-      "Greek": "περίοδο",
+      "Hawaiian": "manawa",
       "in English": "period"
     },
     {
       "Number": 783,
-      "Greek": "υποδεικνύουν",
+      "Hawaiian": "hoike",
       "in English": "indicate"
     },
     {
       "Number": 784,
-      "Greek": "ράδιο",
+      "Hawaiian": "Radio",
       "in English": "radio"
     },
     {
       "Number": 785,
-      "Greek": "μίλησε",
+      "Hawaiian": "olelo",
       "in English": "spoke"
     },
     {
       "Number": 786,
-      "Greek": "άτομο",
+      "Hawaiian": "‘Ātoma",
       "in English": "atom"
     },
     {
       "Number": 787,
-      "Greek": "ανθρώπινη",
+      "Hawaiian": "kanaka",
       "in English": "human"
     },
     {
       "Number": 788,
-      "Greek": "ιστορία",
+      "Hawaiian": "mōʻaukala",
       "in English": "history"
     },
     {
       "Number": 789,
-      "Greek": "επίδραση",
+      "Hawaiian": "kanawai",
       "in English": "effect"
     },
     {
       "Number": 790,
-      "Greek": "ηλεκτρικός",
+      "Hawaiian": "pila nui",
       "in English": "electric"
     },
     {
       "Number": 791,
-      "Greek": "αναμένω",
+      "Hawaiian": "makemake",
       "in English": "expect"
     },
     {
       "Number": 792,
-      "Greek": "των οστών",
+      "Hawaiian": "iwi",
       "in English": "bone"
     },
     {
       "Number": 793,
-      "Greek": "σιδηροδρομικές",
+      "Hawaiian": "hoino aku",
       "in English": "rail"
     },
     {
       "Number": 794,
-      "Greek": "φανταστείτε",
+      "Hawaiian": "manao wale",
       "in English": "imagine"
     },
     {
       "Number": 795,
-      "Greek": "παρέχουν",
+      "Hawaiian": "e hoomakaukau i",
       "in English": "provide"
     },
     {
       "Number": 796,
-      "Greek": "συμφωνώ",
+      "Hawaiian": "ae",
       "in English": "agree"
     },
     {
       "Number": 797,
-      "Greek": "έτσι",
+      "Hawaiian": "pela",
       "in English": "thus"
     },
     {
       "Number": 798,
-      "Greek": "ευγενής",
+      "Hawaiian": "akahai",
       "in English": "gentle"
     },
     {
       "Number": 799,
-      "Greek": "γυναίκα",
+      "Hawaiian": "wahine",
       "in English": "woman"
     },
     {
       "Number": 800,
-      "Greek": "καπετάνιος",
+      "Hawaiian": "luna",
       "in English": "captain"
     },
     {
       "Number": 801,
-      "Greek": "υποθέτω",
+      "Hawaiian": "koho",
       "in English": "guess"
     },
     {
       "Number": 802,
-      "Greek": "απαραίτητο",
+      "Hawaiian": "pono",
       "in English": "necessary"
     },
     {
       "Number": 803,
-      "Greek": "αιχμηρός",
+      "Hawaiian": "oi",
       "in English": "sharp"
     },
     {
       "Number": 804,
-      "Greek": "φτερό",
+      "Hawaiian": "‘ēheu",
       "in English": "wing"
     },
     {
       "Number": 805,
-      "Greek": "δημιουργήσετε",
+      "Hawaiian": "hana",
       "in English": "create"
     },
     {
       "Number": 806,
-      "Greek": "γείτονας",
+      "Hawaiian": "hoalauna",
       "in English": "neighbor"
     },
     {
       "Number": 807,
-      "Greek": "πλύση",
+      "Hawaiian": "holoi ai",
       "in English": "wash"
     },
     {
       "Number": 808,
-      "Greek": "ρόπαλο",
+      "Hawaiian": "‘ōpeʻapeʻa",
       "in English": "bat"
     },
     {
       "Number": 809,
-      "Greek": "μάλλον",
+      "Hawaiian": "e aho",
       "in English": "rather"
     },
     {
       "Number": 810,
-      "Greek": "πλήθος",
+      "Hawaiian": "lehulehu",
       "in English": "crowd"
     },
     {
       "Number": 811,
-      "Greek": "καλαμπόκι",
+      "Hawaiian": "palaoa",
       "in English": "corn"
     },
     {
       "Number": 812,
-      "Greek": "συγκρίνετε",
+      "Hawaiian": "hoohalike",
       "in English": "compare"
     },
     {
       "Number": 813,
-      "Greek": "ποίημα",
+      "Hawaiian": "poem",
       "in English": "poem"
     },
     {
       "Number": 814,
-      "Greek": "κορδόνι",
+      "Hawaiian": "kaula",
       "in English": "string"
     },
     {
       "Number": 815,
-      "Greek": "κουδούνι",
+      "Hawaiian": "bele",
       "in English": "bell"
     },
     {
       "Number": 816,
-      "Greek": "εξαρτηθεί",
+      "Hawaiian": "hilinai",
       "in English": "depend"
     },
     {
       "Number": 817,
-      "Greek": "κρέας",
+      "Hawaiian": "ai",
       "in English": "meat"
     },
     {
       "Number": 818,
-      "Greek": "τρίψιμο",
+      "Hawaiian": "hamo i",
       "in English": "rub"
     },
     {
       "Number": 819,
-      "Greek": "σωλήνα",
+      "Hawaiian": "Tube",
       "in English": "tube"
     },
     {
       "Number": 820,
-      "Greek": "διάσημος",
+      "Hawaiian": "kaulana",
       "in English": "famous"
     },
     {
       "Number": 921,
-      "Greek": "δολάριο",
+      "Hawaiian": "dala",
       "in English": "dollar"
     },
     {
       "Number": 822,
-      "Greek": "ρεύμα",
+      "Hawaiian": "kahawai o",
       "in English": "stream"
     },
     {
       "Number": 823,
-      "Greek": "φόβος",
+      "Hawaiian": "makau",
       "in English": "fear"
     },
     {
       "Number": 284,
-      "Greek": "όραση",
+      "Hawaiian": "maka",
       "in English": "sight"
     },
     {
       "Number": 825,
-      "Greek": "λεπτός",
+      "Hawaiian": "lahilahi",
       "in English": "thin"
     },
     {
       "Number": 826,
-      "Greek": "τρίγωνο",
+      "Hawaiian": "triangle",
       "in English": "triangle"
     },
     {
       "Number": 827,
-      "Greek": "πλανήτης",
+      "Hawaiian": "Honua",
       "in English": "planet"
     },
     {
       "Number": 828,
-      "Greek": "βιασύνη",
+      "Hawaiian": "wikiwiki",
       "in English": "hurry"
     },
     {
       "Number": 829,
-      "Greek": "επικεφαλής",
+      "Hawaiian": "kahuna",
       "in English": "chief"
     },
     {
       "Number": 830,
-      "Greek": "αποικία",
+      "Hawaiian": "panalaau ia",
       "in English": "colony"
     },
     {
       "Number": 831,
-      "Greek": "ρολόι",
+      "Hawaiian": "uaki",
       "in English": "clock"
     },
     {
       "Number": 832,
-      "Greek": "ορυχείο",
+      "Hawaiian": "i koʻu",
       "in English": "mine"
     },
     {
       "Number": 833,
-      "Greek": "γραβάτα",
+      "Hawaiian": "Ka Hawai i",
       "in English": "tie"
     },
     {
       "Number": 834,
-      "Greek": "εισάγετε",
+      "Hawaiian": "komo",
       "in English": "enter"
     },
     {
       "Number": 835,
-      "Greek": "μεγάλες",
+      "Hawaiian": "nui",
       "in English": "major"
     },
     {
       "Number": 836,
-      "Greek": "φρέσκο",
+      "Hawaiian": "hawaiian",
       "in English": "fresh"
     },
     {
       "Number": 837,
-      "Greek": "αναζήτηση",
+      "Hawaiian": "huli",
       "in English": "search"
     },
     {
       "Number": 838,
-      "Greek": "στείλετε",
+      "Hawaiian": "hoouna aku",
       "in English": "send"
     },
     {
       "Number": 839,
-      "Greek": "κίτρινο",
+      "Hawaiian": "melemele",
       "in English": "yellow"
     },
     {
       "Number": 840,
-      "Greek": "όπλο",
+      "Hawaiian": "ka pū",
       "in English": "gun"
     },
     {
       "Number": 841,
-      "Greek": "επιτρέπουν",
+      "Hawaiian": "ae aku",
       "in English": "allow"
     },
     {
       "Number": 842,
-      "Greek": "αποτύπωμα",
+      "Hawaiian": "paʻi",
       "in English": "print"
     },
     {
       "Number": 843,
-      "Greek": "νεκρός",
+      "Hawaiian": "make",
       "in English": "dead"
     },
     {
       "Number": 844,
-      "Greek": "σημείο",
+      "Hawaiian": "wahi",
       "in English": "spot"
     },
     {
       "Number": 845,
-      "Greek": "έρημο",
+      "Hawaiian": "waonahele",
       "in English": "desert"
     },
     {
       "Number": 846,
-      "Greek": "κοστούμι",
+      "Hawaiian": "hoopii",
       "in English": "suit"
     },
     {
       "Number": 847,
-      "Greek": "ρεύμα",
+      "Hawaiian": "papa",
       "in English": "current"
     },
     {
       "Number": 848,
-      "Greek": "ανελκυστήρα",
+      "Hawaiian": "ke eaʻe",
       "in English": "lift"
     },
     {
       "Number": 840,
-      "Greek": "τριαντάφυλλο",
+      "Hawaiian": "ala",
       "in English": "rose"
     },
     {
       "Number": 850,
-      "Greek": "φτάσετε",
+      "Hawaiian": "hiki",
       "in English": "arrive"
     },
     {
       "Number": 851,
-      "Greek": "κύριος",
+      "Hawaiian": "haku",
       "in English": "master"
     },
     {
       "Number": 852,
-      "Greek": "κομμάτι",
+      "Hawaiian": "Track",
       "in English": "track"
     },
     {
       "Number": 853,
-      "Greek": "μητρική εταιρεία",
+      "Hawaiian": "makua",
       "in English": "parent"
     },
     {
       "Number": 854,
-      "Greek": "ακτή",
+      "Hawaiian": "mauka",
       "in English": "shore"
     },
     {
       "Number": 855,
-      "Greek": "διαίρεση",
+      "Hawaiian": "mahele",
       "in English": "division"
     },
     {
       "Number": 856,
-      "Greek": "φύλλο",
+      "Hawaiian": "pepa",
       "in English": "sheet"
     },
     {
       "Number": 857,
-      "Greek": "ουσία",
+      "Hawaiian": "waiwai",
       "in English": "substance"
     },
     {
       "Number": 858,
-      "Greek": "ευνοούν",
+      "Hawaiian": "i ka lokomaikaiia,",
       "in English": "favor"
     },
     {
       "Number": 859,
-      "Greek": "συνδεθείτε",
+      "Hawaiian": "hoʻohui",
       "in English": "connect"
     },
     {
       "Number": 860,
-      "Greek": "μετά",
+      "Hawaiian": "lāʻau kū",
       "in English": "post"
     },
     {
       "Number": 861,
-      "Greek": "ξοδεύουν",
+      "Hawaiian": "ke lilo aku",
       "in English": "spend"
     },
     {
       "Number": 862,
-      "Greek": "χορδή",
+      "Hawaiian": "chord",
       "in English": "chord"
     },
     {
       "Number": 863,
-      "Greek": "λίπος",
+      "Hawaiian": "kona kaikea a",
       "in English": "fat"
     },
     {
       "Number": 864,
-      "Greek": "ευτυχής",
+      "Hawaiian": "olioli",
       "in English": "glad"
     },
     {
       "Number": 865,
-      "Greek": "πρωτότυπο",
+      "Hawaiian": "kiʻi",
       "in English": "original"
     },
     {
       "Number": 866,
-      "Greek": "μετοχή",
+      "Hawaiian": "puu",
       "in English": "share"
     },
     {
       "Number": 867,
-      "Greek": "σταθμός",
+      "Hawaiian": "wahi",
       "in English": "station"
     },
     {
       "Number": 868,
-      "Greek": "μπαμπάς",
+      "Hawaiian": "makuakāne",
       "in English": "dad"
     },
     {
       "Number": 869,
-      "Greek": "ψωμί",
+      "Hawaiian": "ka berena",
       "in English": "bread"
     },
     {
       "Number": 870,
-      "Greek": "χρεώνουν",
+      "Hawaiian": "kauoha",
       "in English": "charge"
     },
     {
       "Number": 871,
-      "Greek": "κατάλληλος",
+      "Hawaiian": "pono",
       "in English": "proper"
     },
     {
       "Number": 872,
-      "Greek": "μπαρ",
+      "Hawaiian": "hookolokolo",
       "in English": "bar"
     },
     {
       "Number": 873,
-      "Greek": "προσφορά",
+      "Hawaiian": "kaumaha",
       "in English": "offer"
     },
     {
       "Number": 874,
-      "Greek": "τμήμα",
+      "Hawaiian": "Hoʻohana",
       "in English": "segment"
     },
     {
       "Number": 875,
-      "Greek": "δούλος",
+      "Hawaiian": "kauwa",
       "in English": "slave"
     },
     {
       "Number": 876,
-      "Greek": "πάπια",
+      "Hawaiian": "Duck",
       "in English": "duck"
     },
     {
       "Number": 877,
-      "Greek": "στιγμιαία",
+      "Hawaiian": "koi aku la lakou",
       "in English": "instant"
     },
     {
       "Number": 878,
-      "Greek": "αγορά",
+      "Hawaiian": "makeke",
       "in English": "market"
     },
     {
       "Number": 879,
-      "Greek": "βαθμό",
+      "Hawaiian": "degere",
       "in English": "degree"
     },
     {
       "Number": 880,
-      "Greek": "συμπληρώσετε",
+      "Hawaiian": "hoolahaia’ku [na kanaka",
       "in English": "populate"
     },
     {
       "Number": 881,
-      "Greek": "κοτοπουλάκι",
+      "Hawaiian": "chick",
       "in English": "chick"
     },
     {
       "Number": 882,
-      "Greek": "αγαπητός",
+      "Hawaiian": "aloha",
       "in English": "dear"
     },
     {
       "Number": 883,
-      "Greek": "εχθρός",
+      "Hawaiian": "ʻenemi",
       "in English": "enemy"
     },
     {
       "Number": 884,
-      "Greek": "απάντηση",
+      "Hawaiian": "pane",
       "in English": "reply"
     },
     {
       "Number": 885,
-      "Greek": "ποτό",
+      "Hawaiian": "inu",
       "in English": "drink"
     },
     {
       "Number": 886,
-      "Greek": "συμβαίνουν",
+      "Hawaiian": "ana",
       "in English": "occur"
     },
     {
       "Number": 887,
-      "Greek": "υποστήριξη",
+      "Hawaiian": "kākoʻo",
       "in English": "support"
     },
     {
       "Number": 888,
-      "Greek": "ομιλία",
+      "Hawaiian": "olelo",
       "in English": "speech"
     },
     {
       "Number": 889,
-      "Greek": "φύση",
+      "Hawaiian": "maoli",
       "in English": "nature"
     },
     {
       "Number": 890,
-      "Greek": "εύρος",
+      "Hawaiian": "huahelu",
       "in English": "range"
     },
     {
       "Number": 891,
-      "Greek": "ατμού",
+      "Hawaiian": "mahu",
       "in English": "steam"
     },
     {
       "Number": 892,
-      "Greek": "κίνηση",
+      "Hawaiian": "ka noi",
       "in English": "motion"
     },
     {
       "Number": 893,
-      "Greek": "μονοπάτι",
+      "Hawaiian": "ala",
       "in English": "path"
     },
     {
       "Number": 894,
-      "Greek": "υγρό",
+      "Hawaiian": "wai",
       "in English": "liquid"
     },
     {
       "Number": 895,
-      "Greek": "συνδεθείτε",
+      "Hawaiian": "mōʻaukala",
       "in English": "log"
     },
     {
       "Number": 896,
-      "Greek": "σήμαινε",
+      "Hawaiian": "ia mea,",
       "in English": "meant"
     },
     {
       "Number": 897,
-      "Greek": "πηλίκο",
+      "Hawaiian": "puu",
       "in English": "quotient"
     },
     {
       "Number": 898,
-      "Greek": "δόντια",
+      "Hawaiian": "niho",
       "in English": "teeth"
     },
     {
       "Number": 899,
-      "Greek": "κέλυφος",
+      "Hawaiian": "iwi",
       "in English": "shell"
     },
     {
       "Number": 900,
-      "Greek": "λαιμό",
+      "Hawaiian": "‘ā’ī",
       "in English": "neck"
     },
     {
       "Number": 901,
-      "Greek": "οξυγόνο",
+      "Hawaiian": "ka oxygen",
       "in English": "oxygen"
     },
     {
       "Number": 902,
-      "Greek": "ζάχαρη",
+      "Hawaiian": "kōpaʻa",
       "in English": "sugar"
     },
     {
       "Number": 903,
-      "Greek": "θάνατο",
+      "Hawaiian": "make",
       "in English": "death"
     },
     {
       "Number": 904,
-      "Greek": "αρκετά",
+      "Hawaiian": "nani",
       "in English": "pretty"
     },
     {
       "Number": 905,
-      "Greek": "επιδεξιότητα",
+      "Hawaiian": "akamai",
       "in English": "skill"
     },
     {
       "Number": 906,
-      "Greek": "γυναίκες",
+      "Hawaiian": "na wahine",
       "in English": "women"
     },
     {
       "Number": 907,
-      "Greek": "εποχή",
+      "Hawaiian": "manawa",
       "in English": "season"
     },
     {
       "Number": 908,
-      "Greek": "λύση",
+      "Hawaiian": "pāʻoihana",
       "in English": "solution"
     },
     {
       "Number": 909,
-      "Greek": "μαγνήτη",
+      "Hawaiian": "Mākēneki",
       "in English": "magnet"
     },
     {
       "Number": 910,
-      "Greek": "ασήμι",
+      "Hawaiian": "kala",
       "in English": "silver"
     },
     {
       "Number": 911,
-      "Greek": "ευχαριστώ",
+      "Hawaiian": "aloha",
       "in English": "thank"
     },
     {
       "Number": 912,
-      "Greek": "υποκατάστημα",
+      "Hawaiian": "lala",
       "in English": "branch"
     },
     {
       "Number": 913,
-      "Greek": "αγώνα",
+      "Hawaiian": "ń",
       "in English": "match"
     },
     {
       "Number": 914,
-      "Greek": "επίθημα",
+      "Hawaiian": "kau hope",
       "in English": "suffix"
     },
     {
       "Number": 915,
-      "Greek": "ιδιαίτερα",
+      "Hawaiian": "ka oi aku",
       "in English": "especially"
     },
     {
       "Number": 916,
-      "Greek": "σύκο",
+      "Hawaiian": "laau",
       "in English": "fig"
     },
     {
       "Number": 917,
-      "Greek": "φοβισμένος",
+      "Hawaiian": "makau",
       "in English": "afraid"
     },
     {
       "Number": 918,
-      "Greek": "τεράστια",
+      "Hawaiian": "nui",
       "in English": "huge"
     },
     {
       "Number": 919,
-      "Greek": "αδελφή",
+      "Hawaiian": "kaikuaʻana, kaikaina",
       "in English": "sister"
     },
     {
       "Number": 920,
-      "Greek": "χάλυβας",
+      "Hawaiian": "kila",
       "in English": "steel"
     },
     {
       "Number": 921,
-      "Greek": "συζητήσουν",
+      "Hawaiian": "kūkākūkā",
       "in English": "discuss"
     },
     {
       "Number": 922,
-      "Greek": "προς τα εμπρός",
+      "Hawaiian": "mua",
       "in English": "forward"
     },
     {
       "Number": 923,
-      "Greek": "παρόμοια",
+      "Hawaiian": "ano like",
       "in English": "similar"
     },
     {
       "Number": 924,
-      "Greek": "καθοδηγήσει",
+      "Hawaiian": "alakai",
       "in English": "guide"
     },
     {
       "Number": 925,
-      "Greek": "εμπειρία",
+      "Hawaiian": "ka hoao ana",
       "in English": "experience"
     },
     {
       "Number": 926,
-      "Greek": "σκορ",
+      "Hawaiian": "manual",
       "in English": "score"
     },
     {
       "Number": 927,
-      "Greek": "μήλο",
+      "Hawaiian": "kii onohi",
       "in English": "apple"
     },
     {
       "Number": 928,
-      "Greek": "αγόρασε",
+      "Hawaiian": "kuai",
       "in English": "bought"
     },
     {
       "Number": 929,
-      "Greek": "οδήγησε",
+      "Hawaiian": "alakai",
       "in English": "led"
     },
     {
       "Number": 930,
-      "Greek": "γήπεδο",
+      "Hawaiian": "kukulu iho",
       "in English": "pitch"
     },
     {
       "Number": 931,
-      "Greek": "παλτό",
+      "Hawaiian": "kapa",
       "in English": "coat"
     },
     {
       "Number": 932,
-      "Greek": "μάζα",
+      "Hawaiian": "nuipa",
       "in English": "mass"
     },
     {
       "Number": 933,
-      "Greek": "κάρτα",
+      "Hawaiian": "kāleka",
       "in English": "card"
     },
     {
       "Number": 934,
-      "Greek": "band",
+      "Hawaiian": "hui",
       "in English": "band"
     },
     {
       "Number": 935,
-      "Greek": "σκοινί",
+      "Hawaiian": "kaula",
       "in English": "rope"
     },
     {
       "Number": 936,
-      "Greek": "ολίσθησης",
+      "Hawaiian": "oihana",
       "in English": "slip"
     },
     {
       "Number": 937,
-      "Greek": "Νίκη",
+      "Hawaiian": "lanakila ‘",
       "in English": "win"
     },
     {
       "Number": 938,
-      "Greek": "όνειρο",
+      "Hawaiian": "moe",
       "in English": "dream"
     },
     {
       "Number": 939,
-      "Greek": "βράδυ",
+      "Hawaiian": "ahiahi",
       "in English": "evening"
     },
     {
       "Number": 940,
-      "Greek": "κατάσταση",
+      "Hawaiian": "ano",
       "in English": "condition"
     },
     {
       "Number": 941,
-      "Greek": "ζωοτροφές",
+      "Hawaiian": "ʻai",
       "in English": "feed"
     },
     {
       "Number": 942,
-      "Greek": "εργαλείο",
+      "Hawaiian": "hoʻopololei",
       "in English": "tool"
     },
     {
       "Number": 943,
-      "Greek": "σύνολο",
+      "Hawaiian": "huina",
       "in English": "total"
     },
     {
       "Number": 944,
-      "Greek": "βασικός",
+      "Hawaiian": "kumu o",
       "in English": "basic"
     },
     {
       "Number": 945,
-      "Greek": "μυρωδιά",
+      "Hawaiian": "honi",
       "in English": "smell"
     },
     {
       "Number": 946,
-      "Greek": "κοιλάδα",
+      "Hawaiian": "awāwa",
       "in English": "valley"
     },
     {
       "Number": 947,
-      "Greek": "ούτε",
+      "Hawaiian": "aole",
       "in English": "nor"
     },
     {
       "Number": 948,
-      "Greek": "διπλό",
+      "Hawaiian": "palua",
       "in English": "double"
     },
     {
       "Number": 949,
-      "Greek": "κάθισμα",
+      "Hawaiian": "noho",
       "in English": "seat"
     },
     {
       "Number": 950,
-      "Greek": "συνεχίσει",
+      "Hawaiian": "hoʻomau",
       "in English": "continue"
     },
     {
       "Number": 951,
-      "Greek": "κατηγορία",
+      "Hawaiian": "aeie",
       "in English": "block"
     },
     {
       "Number": 952,
-      "Greek": "διάγραμμα",
+      "Hawaiian": "pakuhi",
       "in English": "chart"
     },
     {
       "Number": 953,
-      "Greek": "καπέλο",
+      "Hawaiian": "ua inaina i ka",
       "in English": "hat"
     },
     {
       "Number": 954,
-      "Greek": "πωλήσει",
+      "Hawaiian": "kuai",
       "in English": "sell"
     },
     {
       "Number": 955,
-      "Greek": "επιτυχία",
+      "Hawaiian": "holomua",
       "in English": "success"
     },
     {
       "Number": 956,
-      "Greek": "Η εταιρεία",
+      "Hawaiian": "poe",
       "in English": "company"
     },
     {
       "Number": 957,
-      "Greek": "αφαιρέστε",
+      "Hawaiian": "unuhi",
       "in English": "subtract"
     },
     {
       "Number": 958,
-      "Greek": "εκδήλωση",
+      "Hawaiian": "hanana",
       "in English": "event"
     },
     {
       "Number": 959,
-      "Greek": "ειδικότερα",
+      "Hawaiian": "mau",
       "in English": "particular"
     },
     {
       "Number": 960,
-      "Greek": "συμφωνία",
+      "Hawaiian": "hana",
       "in English": "deal"
     },
     {
       "Number": 961,
-      "Greek": "κολύμπι",
+      "Hawaiian": "‘auʻau",
       "in English": "swim"
     },
     {
       "Number": 962,
-      "Greek": "όρος",
+      "Hawaiian": "manawa",
       "in English": "term"
     },
     {
       "Number": 963,
-      "Greek": "απέναντι",
+      "Hawaiian": "ku pono ana",
       "in English": "opposite"
     },
     {
       "Number": 964,
-      "Greek": "γυναίκα",
+      "Hawaiian": "wahine",
       "in English": "wife"
     },
     {
       "Number": 965,
-      "Greek": "παπούτσι",
+      "Hawaiian": "kāmaʻa",
       "in English": "shoe"
     },
     {
       "Number": 966,
-      "Greek": "ώμο",
+      "Hawaiian": "poʻohiwi",
       "in English": "shoulder"
     },
     {
       "Number": 967,
-      "Greek": "διάδοση",
+      "Hawaiian": "hoolaha aku",
       "in English": "spread"
     },
     {
       "Number": 968,
-      "Greek": "κανονίσει",
+      "Hawaiian": "hooponopono",
       "in English": "arrange"
     },
     {
       "Number": 969,
-      "Greek": "στρατόπεδο",
+      "Hawaiian": "hoomoana",
       "in English": "camp"
     },
     {
       "Number": 970,
-      "Greek": "εφεύρουν",
+      "Hawaiian": "invent",
       "in English": "invent"
     },
     {
       "Number": 971,
-      "Greek": "βαμβάκι",
+      "Hawaiian": "pulupulu",
       "in English": "cotton"
     },
     {
       "Number": 972,
-      "Greek": "γεννημένος",
+      "Hawaiian": "Born",
       "in English": "born"
     },
     {
       "Number": 973,
-      "Greek": "καθοριστεί",
+      "Hawaiian": "hooholo",
       "in English": "determine"
     },
     {
       "Number": 974,
-      "Greek": "λίτρο",
+      "Hawaiian": "quart",
       "in English": "quart"
     },
     {
       "Number": 975,
-      "Greek": "εννέα",
+      "Hawaiian": "ʻeiwa",
       "in English": "nine"
     },
     {
       "Number": 976,
-      "Greek": "φορτηγό",
+      "Hawaiian": "kona kalaka",
       "in English": "truck"
     },
     {
       "Number": 977,
-      "Greek": "θόρυβο",
+      "Hawaiian": "a noise",
       "in English": "noise"
     },
     {
       "Number": 978,
-      "Greek": "επίπεδο",
+      "Hawaiian": "ilikai",
       "in English": "level"
     },
     {
       "Number": 979,
-      "Greek": "ευκαιρία",
+      "Hawaiian": "wale",
       "in English": "chance"
     },
     {
       "Number": 980,
-      "Greek": "συγκεντρώσει",
+      "Hawaiian": "houluulu",
       "in English": "gather"
     },
     {
       "Number": 981,
-      "Greek": "κατάστημα",
-      "in English": "shop"
+      "Hawaiian": "poʻohiwi",
+      "in English": "shoulder"
     },
     {
       "Number": 982,
-      "Greek": "τέντωμα",
+      "Hawaiian": "‘ō",
       "in English": "stretch"
     },
     {
       "Number": 983,
-      "Greek": "ρίξει",
+      "Hawaiian": "hoolei",
       "in English": "throw"
     },
     {
       "Number": 984,
-      "Greek": "λάμψη",
+      "Hawaiian": "alohi",
       "in English": "shine"
     },
     {
       "Number": 985,
-      "Greek": "ακίνητα",
+      "Hawaiian": "waiwai",
       "in English": "property"
     },
     {
       "Number": 986,
-      "Greek": "στήλη",
+      "Hawaiian": "kolamu",
       "in English": "column"
     },
     {
       "Number": 987,
-      "Greek": "μόριο",
+      "Hawaiian": "molecule",
       "in English": "molecule"
     },
     {
       "Number": 988,
-      "Greek": "επιλέξτε",
+      "Hawaiian": "koho i",
       "in English": "select"
     },
     {
       "Number": 989,
-      "Greek": "λάθος",
+      "Hawaiian": "hewa",
       "in English": "wrong"
     },
     {
       "Number": 990,
-      "Greek": "γκρί",
+      "Hawaiian": "hinahina",
       "in English": "gray"
     },
     {
       "Number": 991,
-      "Greek": "επανάληψη",
+      "Hawaiian": "hana hou",
       "in English": "repeat"
     },
     {
       "Number": 992,
-      "Greek": "απαιτούν",
+      "Hawaiian": "pono",
       "in English": "require"
     },
     {
       "Number": 993,
-      "Greek": "ευρύς",
+      "Hawaiian": "ka laulā",
       "in English": "broad"
     },
     {
       "Number": 994,
-      "Greek": "προετοιμασία",
+      "Hawaiian": "hoomakaukau",
       "in English": "prepare"
     },
     {
       "Number": 995,
-      "Greek": "αλάτι",
+      "Hawaiian": "ka paʻakai",
       "in English": "salt"
     },
     {
       "Number": 996,
-      "Greek": "μύτη",
+      "Hawaiian": "ihu",
       "in English": "nose"
     },
     {
       "Number": 997,
-      "Greek": "πληθυντικός",
+      "Hawaiian": "Plural",
       "in English": "plural"
     },
     {
       "Number": 998,
-      "Greek": "οργή",
+      "Hawaiian": "huhu",
       "in English": "anger"
     },
     {
       "Number": 999,
-      "Greek": "αξίωση",
+      "Hawaiian": "koi ana",
       "in English": "claim"
     },
     {
       "Number": 1000,
-      "Greek": "ήπειρο",
-      "in English": "continent"
+      "Hawaiian": "ka wiwo ole",
+      "in English": "confidence"
     }
-   ];
+]
 
-exports.language = "Greek";
-exports.data = greek;
+exports.title = "Hawaiian";
+exports.data = hawaiian;

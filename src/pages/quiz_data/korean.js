@@ -1,5005 +1,5005 @@
-const hebrew = [
+const korean = [
     {
       "Number": 1,
-      "Hebrew": "כמו",
+      "Korean": "로",
       "in English": "as"
     },
     {
       "Number": 2,
-      "Hebrew": "אני",
+      "Korean": "나는",
       "in English": "I"
     },
     {
       "Number": 3,
-      "Hebrew": "שלו",
+      "Korean": "그의",
       "in English": "his"
     },
     {
       "Number": 4,
-      "Hebrew": "ש",
+      "Korean": "그",
       "in English": "that"
     },
     {
       "Number": 5,
-      "Hebrew": "הוא",
+      "Korean": "그",
       "in English": "he"
     },
     {
       "Number": 6,
-      "Hebrew": "היה",
+      "Korean": "했다",
       "in English": "was"
     },
     {
       "Number": 7,
-      "Hebrew": "עבור",
+      "Korean": "에 대한",
       "in English": "for"
     },
     {
       "Number": 8,
-      "Hebrew": "על",
+      "Korean": "에",
       "in English": "on"
     },
     {
       "Number": 9,
-      "Hebrew": "הם",
+      "Korean": "아르",
       "in English": "are"
     },
     {
       "Number": 10,
-      "Hebrew": "עם",
+      "Korean": "와",
       "in English": "with"
     },
     {
       "Number": 11,
-      "Hebrew": "הם",
+      "Korean": "그들",
       "in English": "they"
     },
     {
       "Number": 12,
-      "Hebrew": "להיות",
+      "Korean": "있다",
       "in English": "be"
     },
     {
       "Number": 13,
-      "Hebrew": "ב",
+      "Korean": "에",
       "in English": "at"
     },
     {
       "Number": 14,
-      "Hebrew": "אחד",
+      "Korean": "일",
       "in English": "one"
     },
     {
       "Number": 15,
-      "Hebrew": "יש לי",
+      "Korean": "이",
       "in English": "have"
     },
     {
       "Number": 16,
-      "Hebrew": "זה",
+      "Korean": "이",
       "in English": "this"
     },
     {
       "Number": 17,
-      "Hebrew": "מ",
+      "Korean": "부터",
       "in English": "from"
     },
     {
       "Number": 18,
-      "Hebrew": "על ידי",
+      "Korean": "에 의해",
       "in English": "by"
     },
     {
       "Number": 19,
-      "Hebrew": "חם",
+      "Korean": "뜨거운",
       "in English": "hot"
     },
     {
       "Number": 20,
-      "Hebrew": "מילה",
+      "Korean": "단어",
       "in English": "word"
     },
     {
       "Number": 21,
-      "Hebrew": "אבל",
+      "Korean": "하지만",
       "in English": "but"
     },
     {
       "Number": 22,
-      "Hebrew": "מה",
+      "Korean": "무엇",
       "in English": "what"
     },
     {
       "Number": 23,
-      "Hebrew": "כמה",
+      "Korean": "다소",
       "in English": "some"
     },
     {
       "Number": 24,
-      "Hebrew": "הוא",
+      "Korean": "이다",
       "in English": "is"
     },
     {
       "Number": 25,
-      "Hebrew": "זה",
+      "Korean": "그",
       "in English": "it"
     },
     {
       "Number": 26,
-      "Hebrew": "אתה",
+      "Korean": "당신",
       "in English": "you"
     },
     {
       "Number": 27,
-      "Hebrew": "או",
+      "Korean": "또는",
       "in English": "or"
     },
     {
       "Number": 28,
-      "Hebrew": "היה לי",
+      "Korean": "했다",
       "in English": "had"
     },
     {
       "Number": 29,
-      "Hebrew": "עבור",
+      "Korean": "에",
       "in English": "the"
     },
     {
       "Number": 30,
-      "Hebrew": "של",
+      "Korean": "의",
       "in English": "of"
     },
     {
       "Number": 31,
-      "Hebrew": "אל",
+      "Korean": "에",
       "in English": "to"
     },
     {
       "Number": 32,
-      "Hebrew": "ו",
+      "Korean": "과",
       "in English": "and"
     },
     {
       "Number": 33,
-      "Hebrew": "זמן",
+      "Korean": "이",
       "in English": "a"
     },
     {
       "Number": 34,
-      "Hebrew": "ב",
+      "Korean": "에",
       "in English": "in"
     },
     {
       "Number": 35,
-      "Hebrew": "אנחנו",
+      "Korean": "우리",
       "in English": "we"
     },
     {
       "Number": 36,
-      "Hebrew": "יכול",
+      "Korean": "수",
       "in English": "can"
     },
     {
       "Number": 37,
-      "Hebrew": "את",
+      "Korean": "아웃",
       "in English": "out"
     },
     {
       "Number": 38,
-      "Hebrew": "אחר",
+      "Korean": "다른",
       "in English": "other"
     },
     {
       "Number": 39,
-      "Hebrew": "היו",
+      "Korean": "했다",
       "in English": "were"
     },
     {
       "Number": 40,
-      "Hebrew": "ש",
+      "Korean": "하는",
       "in English": "which"
     },
     {
       "Number": 41,
-      "Hebrew": "לעשות",
+      "Korean": "할",
       "in English": "do"
     },
     {
       "Number": 42,
-      "Hebrew": "שלהם",
+      "Korean": "자신의",
       "in English": "their"
     },
     {
       "Number": 43,
-      "Hebrew": "זמן",
+      "Korean": "시간",
       "in English": "time"
     },
     {
       "Number": 44,
-      "Hebrew": "אם",
+      "Korean": "면",
       "in English": "if"
     },
     {
       "Number": 45,
-      "Hebrew": "יהיה",
+      "Korean": "것",
       "in English": "will"
     },
     {
       "Number": 46,
-      "Hebrew": "איך",
+      "Korean": "방법",
       "in English": "how"
     },
     {
       "Number": 47,
-      "Hebrew": "אמר",
+      "Korean": "말했다",
       "in English": "said"
     },
     {
       "Number": 48,
-      "Hebrew": "בית",
+      "Korean": "이",
       "in English": "an"
     },
     {
       "Number": 49,
-      "Hebrew": "כל",
+      "Korean": "각",
       "in English": "each"
     },
     {
       "Number": 50,
-      "Hebrew": "לספר",
+      "Korean": "이야기",
       "in English": "tell"
     },
     {
       "Number": 51,
-      "Hebrew": "עושה",
+      "Korean": "하지",
       "in English": "does"
     },
     {
       "Number": 52,
-      "Hebrew": "סט",
+      "Korean": "세트",
       "in English": "set"
     },
     {
       "Number": 53,
-      "Hebrew": "שלוש",
+      "Korean": "세",
       "in English": "three"
     },
     {
       "Number": 54,
-      "Hebrew": "רוצה",
+      "Korean": "필요",
       "in English": "want"
     },
     {
       "Number": 55,
-      "Hebrew": "אוויר",
+      "Korean": "공기",
       "in English": "air"
     },
     {
       "Number": 56,
-      "Hebrew": "גם",
+      "Korean": "잘",
       "in English": "well"
     },
     {
       "Number": 57,
-      "Hebrew": "גם",
+      "Korean": "또한",
       "in English": "also"
     },
     {
       "Number": 58,
-      "Hebrew": "לשחק",
+      "Korean": "재생",
       "in English": "play"
     },
     {
       "Number": 59,
-      "Hebrew": "קטן",
+      "Korean": "작은",
       "in English": "small"
     },
     {
       "Number": 60,
-      "Hebrew": "סוף",
+      "Korean": "끝",
       "in English": "end"
     },
     {
       "Number": 61,
-      "Hebrew": "לשים",
+      "Korean": "넣어",
       "in English": "put"
     },
     {
       "Number": 62,
-      "Hebrew": "בית",
+      "Korean": "홈",
       "in English": "home"
     },
     {
       "Number": 63,
-      "Hebrew": "לקרוא",
+      "Korean": "읽기",
       "in English": "read"
     },
     {
       "Number": 64,
-      "Hebrew": "יד",
+      "Korean": "손",
       "in English": "hand"
     },
     {
       "Number": 65,
-      "Hebrew": "נמל",
+      "Korean": "포트",
       "in English": "port"
     },
     {
       "Number": 66,
-      "Hebrew": "גדול",
+      "Korean": "큰",
       "in English": "large"
     },
     {
       "Number": 67,
-      "Hebrew": "לאיית",
+      "Korean": "철자",
       "in English": "spell"
     },
     {
       "Number": 68,
-      "Hebrew": "להוסיף",
+      "Korean": "추가",
       "in English": "add"
     },
     {
       "Number": 69,
-      "Hebrew": "אפילו",
+      "Korean": "도",
       "in English": "even"
     },
     {
       "Number": 70,
-      "Hebrew": "ארץ",
+      "Korean": "땅",
       "in English": "land"
     },
     {
       "Number": 71,
-      "Hebrew": "כאן",
+      "Korean": "여기",
       "in English": "here"
     },
     {
       "Number": 72,
-      "Hebrew": "חייב",
+      "Korean": "해야",
       "in English": "must"
     },
     {
       "Number": 73,
-      "Hebrew": "גדול",
+      "Korean": "큰",
       "in English": "big"
     },
     {
       "Number": 74,
-      "Hebrew": "גבוה",
+      "Korean": "높은",
       "in English": "high"
     },
     {
       "Number": 75,
-      "Hebrew": "כזה",
+      "Korean": "이러한",
       "in English": "such"
     },
     {
       "Number": 76,
-      "Hebrew": "מעקב",
+      "Korean": "따라",
       "in English": "follow"
     },
     {
       "Number": 77,
-      "Hebrew": "מעשה",
+      "Korean": "행위",
       "in English": "act"
     },
     {
       "Number": 78,
-      "Hebrew": "מדוע",
+      "Korean": "이유",
       "in English": "why"
     },
     {
       "Number": 79,
-      "Hebrew": "שואל",
+      "Korean": "문의",
       "in English": "ask"
     },
     {
       "Number": 80,
-      "Hebrew": "אנשים",
+      "Korean": "남자",
       "in English": "men"
     },
     {
       "Number": 81,
-      "Hebrew": "לשנות",
+      "Korean": "변경",
       "in English": "change"
     },
     {
       "Number": 82,
-      "Hebrew": "הלכתי",
+      "Korean": "갔다",
       "in English": "went"
     },
     {
       "Number": 83,
-      "Hebrew": "אור",
+      "Korean": "빛",
       "in English": "light"
     },
     {
       "Number": 84,
-      "Hebrew": "סוג",
+      "Korean": "종류",
       "in English": "kind"
     },
     {
       "Number": 85,
-      "Hebrew": "את",
+      "Korean": "오프",
       "in English": "off"
     },
     {
       "Number": 86,
-      "Hebrew": "צריך",
+      "Korean": "필요가있다",
       "in English": "need"
     },
     {
       "Number": 87,
-      "Hebrew": "בית",
+      "Korean": "집",
       "in English": "house"
     },
     {
       "Number": 88,
-      "Hebrew": "תמונה",
+      "Korean": "사진",
       "in English": "picture"
     },
     {
       "Number": 89,
-      "Hebrew": "לנסות",
+      "Korean": "시험",
       "in English": "try"
     },
     {
       "Number": 90,
-      "Hebrew": "שלנו",
+      "Korean": "우리",
       "in English": "us"
     },
     {
       "Number": 91,
-      "Hebrew": "שוב",
+      "Korean": "다시",
       "in English": "again"
     },
     {
       "Number": 92,
-      "Hebrew": "חיה",
+      "Korean": "동물",
       "in English": "animal"
     },
     {
       "Number": 93,
-      "Hebrew": "נקודה",
+      "Korean": "포인트",
       "in English": "point"
     },
     {
       "Number": 94,
-      "Hebrew": "אמא",
+      "Korean": "어머니",
       "in English": "mother"
     },
     {
       "Number": 95,
-      "Hebrew": "עולם",
+      "Korean": "세계",
       "in English": "world"
     },
     {
       "Number": 96,
-      "Hebrew": "ליד",
+      "Korean": "가까운",
       "in English": "near"
     },
     {
       "Number": 97,
-      "Hebrew": "לבנות",
+      "Korean": "구축",
       "in English": "build"
     },
     {
       "Number": 98,
-      "Hebrew": "עצמי",
+      "Korean": "자기",
       "in English": "self"
     },
     {
       "Number": 99,
-      "Hebrew": "כדור הארץ",
+      "Korean": "지구",
       "in English": "earth"
     },
     {
       "Number": 100,
-      "Hebrew": "אב",
+      "Korean": "아버지",
       "in English": "father"
     },
     {
       "Number": 101,
-      "Hebrew": "כל",
+      "Korean": "모든",
       "in English": "any"
     },
     {
       "Number": 102,
-      "Hebrew": "חדש",
+      "Korean": "새로운",
       "in English": "new"
     },
     {
       "Number": 103,
-      "Hebrew": "עבודה",
+      "Korean": "일",
       "in English": "work"
     },
     {
       "Number": 104,
-      "Hebrew": "חלק",
+      "Korean": "일부",
       "in English": "part"
     },
     {
       "Number": 105,
-      "Hebrew": "לקחת",
+      "Korean": "소요",
       "in English": "take"
     },
     {
       "Number": 106,
-      "Hebrew": "לקבל",
+      "Korean": "도착",
       "in English": "get"
     },
     {
       "Number": 107,
-      "Hebrew": "מקום",
+      "Korean": "장소",
       "in English": "place"
     },
     {
       "Number": 108,
-      "Hebrew": "עשיתי",
+      "Korean": "만든",
       "in English": "made"
     },
     {
       "Number": 109,
-      "Hebrew": "לחיות",
+      "Korean": "살고있다",
       "in English": "live"
     },
     {
       "Number": 110,
-      "Hebrew": "איפה",
+      "Korean": "어디에",
       "in English": "where"
     },
     {
       "Number": 111,
-      "Hebrew": "לאחר",
+      "Korean": "후",
       "in English": "after"
     },
     {
       "Number": 112,
-      "Hebrew": "בחזרה",
+      "Korean": "다시",
       "in English": "back"
     },
     {
       "Number": 113,
-      "Hebrew": "קטן",
+      "Korean": "작은",
       "in English": "little"
     },
     {
       "Number": 114,
-      "Hebrew": "רק",
+      "Korean": "만",
       "in English": "only"
     },
     {
       "Number": 115,
-      "Hebrew": "עגול",
+      "Korean": "둥근",
       "in English": "round"
     },
     {
       "Number": 116,
-      "Hebrew": "גבר",
+      "Korean": "사람",
       "in English": "man"
     },
     {
       "Number": 117,
-      "Hebrew": "שנה",
+      "Korean": "년",
       "in English": "year"
     },
     {
       "Number": 118,
-      "Hebrew": "הגיע",
+      "Korean": "온",
       "in English": "came"
     },
     {
       "Number": 119,
-      "Hebrew": "מופע",
+      "Korean": "쇼",
       "in English": "show"
     },
     {
       "Number": 120,
-      "Hebrew": "כל",
+      "Korean": "모든",
       "in English": "every"
     },
     {
       "Number": 121,
-      "Hebrew": "טוב",
+      "Korean": "좋은",
       "in English": "good"
     },
     {
       "Number": 122,
-      "Hebrew": "לי",
+      "Korean": "나를",
       "in English": "me"
     },
     {
       "Number": 123,
-      "Hebrew": "לתת",
+      "Korean": "제공",
       "in English": "give"
     },
     {
       "Number": 124,
-      "Hebrew": "שלנו",
+      "Korean": "우리의",
       "in English": "our"
     },
     {
       "Number": 125,
-      "Hebrew": "תחת",
+      "Korean": "아래의",
       "in English": "under"
     },
     {
       "Number": 126,
-      "Hebrew": "שם",
+      "Korean": "이름",
       "in English": "name"
     },
     {
       "Number": 127,
-      "Hebrew": "מאוד",
+      "Korean": "대단히",
       "in English": "very"
     },
     {
       "Number": 128,
-      "Hebrew": "דרך",
+      "Korean": "를 통해",
       "in English": "through"
     },
     {
       "Number": 129,
-      "Hebrew": "רק",
+      "Korean": "단지",
       "in English": "just"
     },
     {
       "Number": 130,
-      "Hebrew": "טופס",
+      "Korean": "양식",
       "in English": "form"
     },
     {
       "Number": 131,
-      "Hebrew": "משפט",
+      "Korean": "문장",
       "in English": "sentence"
     },
     {
       "Number": 132,
-      "Hebrew": "גדול",
+      "Korean": "큰",
       "in English": "great"
     },
     {
       "Number": 133,
-      "Hebrew": "חושב",
+      "Korean": "생각",
       "in English": "think"
     },
     {
       "Number": 134,
-      "Hebrew": "אומר",
+      "Korean": "말",
       "in English": "say"
     },
     {
       "Number": 135,
-      "Hebrew": "לעזור",
+      "Korean": "도움",
       "in English": "help"
     },
     {
       "Number": 136,
-      "Hebrew": "נמוך",
+      "Korean": "낮은",
       "in English": "low"
     },
     {
       "Number": 137,
-      "Hebrew": "שורה",
+      "Korean": "온라인",
       "in English": "line"
     },
     {
       "Number": 138,
-      "Hebrew": "שונה",
+      "Korean": "차이",
       "in English": "differ"
     },
     {
       "Number": 139,
-      "Hebrew": "תור",
+      "Korean": "회전",
       "in English": "turn"
     },
     {
       "Number": 140,
-      "Hebrew": "סיבה",
+      "Korean": "원인",
       "in English": "cause"
     },
     {
       "Number": 141,
-      "Hebrew": "הרבה",
+      "Korean": "많은",
       "in English": "much"
     },
     {
       "Number": 142,
-      "Hebrew": "אומר",
+      "Korean": "의미",
       "in English": "mean"
     },
     {
       "Number": 143,
-      "Hebrew": "לפני",
+      "Korean": "이전",
       "in English": "before"
     },
     {
       "Number": 144,
-      "Hebrew": "מהלך",
+      "Korean": "움직임",
       "in English": "move"
     },
     {
       "Number": 145,
-      "Hebrew": "נכון",
+      "Korean": "바로",
       "in English": "right"
     },
     {
       "Number": 146,
-      "Hebrew": "ילד",
+      "Korean": "소년",
       "in English": "boy"
     },
     {
       "Number": 147,
-      "Hebrew": "ישן",
+      "Korean": "늙은",
       "in English": "old"
     },
     {
       "Number": 148,
-      "Hebrew": "גם",
+      "Korean": "너무",
       "in English": "too"
     },
     {
       "Number": 149,
-      "Hebrew": "אותו",
+      "Korean": "동일",
       "in English": "same"
     },
     {
       "Number": 150,
-      "Hebrew": "היא",
+      "Korean": "그녀",
       "in English": "she"
     },
     {
       "Number": 151,
-      "Hebrew": "כל",
+      "Korean": "모든",
       "in English": "all"
     },
     {
       "Number": 152,
-      "Hebrew": "שם",
+      "Korean": "그곳에",
       "in English": "there"
     },
     {
       "Number": 153,
-      "Hebrew": "כאשר",
+      "Korean": "때",
       "in English": "when"
     },
     {
       "Number": 154,
-      "Hebrew": "למעלה",
+      "Korean": "올라",
       "in English": "up"
     },
     {
       "Number": 155,
-      "Hebrew": "שימוש",
+      "Korean": "사용",
       "in English": "use"
     },
     {
       "Number": 156,
-      "Hebrew": "שלך",
+      "Korean": "당신의",
       "in English": "your"
     },
     {
       "Number": 157,
-      "Hebrew": "דרך",
+      "Korean": "방법",
       "in English": "way"
     },
     {
       "Number": 158,
-      "Hebrew": "על",
+      "Korean": "에 대한",
       "in English": "about"
     },
     {
       "Number": 159,
-      "Hebrew": "רבים",
+      "Korean": "많은",
       "in English": "many"
     },
     {
       "Number": 160,
-      "Hebrew": "אז",
+      "Korean": "다음",
       "in English": "then"
     },
     {
       "Number": 161,
-      "Hebrew": "שלהם",
+      "Korean": "그",
       "in English": "them"
     },
     {
       "Number": 162,
-      "Hebrew": "לכתוב",
+      "Korean": "쓰기",
       "in English": "write"
     },
     {
       "Number": 163,
-      "Hebrew": "היית",
+      "Korean": "것",
       "in English": "would"
     },
     {
       "Number": 164,
-      "Hebrew": "כמו",
+      "Korean": "같은",
       "in English": "like"
     },
     {
       "Number": 165,
-      "Hebrew": "כך",
+      "Korean": "그래서",
       "in English": "so"
     },
     {
       "Number": 166,
-      "Hebrew": "אלה",
+      "Korean": "이들",
       "in English": "these"
     },
     {
       "Number": 167,
-      "Hebrew": "שלה",
+      "Korean": "그녀의",
       "in English": "her"
     },
     {
       "Number": 168,
-      "Hebrew": "ארוך",
+      "Korean": "긴",
       "in English": "long"
     },
     {
       "Number": 169,
-      "Hebrew": "לעשות",
+      "Korean": "확인",
       "in English": "make"
     },
     {
       "Number": 170,
-      "Hebrew": "דבר",
+      "Korean": "일",
       "in English": "thing"
     },
     {
       "Number": 171,
-      "Hebrew": "לראות",
+      "Korean": "참조",
       "in English": "see"
     },
     {
       "Number": 172,
-      "Hebrew": "שלו",
+      "Korean": "그",
       "in English": "him"
     },
     {
       "Number": 173,
-      "Hebrew": "שנים",
+      "Korean": "두",
       "in English": "two"
     },
     {
       "Number": 174,
-      "Hebrew": "יש",
+      "Korean": "이",
       "in English": "has"
     },
     {
       "Number": 175,
-      "Hebrew": "להסתכל",
+      "Korean": "봐",
       "in English": "look"
     },
     {
       "Number": 176,
-      "Hebrew": "יותר",
+      "Korean": "더",
       "in English": "more"
     },
     {
       "Number": 177,
-      "Hebrew": "יום",
+      "Korean": "일",
       "in English": "day"
     },
     {
       "Number": 178,
-      "Hebrew": "יכול",
+      "Korean": "수",
       "in English": "could"
     },
     {
       "Number": 179,
-      "Hebrew": "ללכת",
+      "Korean": "이동",
       "in English": "go"
     },
     {
       "Number": 180,
-      "Hebrew": "תבואו",
+      "Korean": "올",
       "in English": "come"
     },
     {
       "Number": 181,
-      "Hebrew": "עשיתי",
+      "Korean": "한",
       "in English": "did"
     },
     {
       "Number": 182,
-      "Hebrew": "מספר",
+      "Korean": "수",
       "in English": "number"
     },
     {
       "Number": 183,
-      "Hebrew": "נשמע",
+      "Korean": "소리",
       "in English": "sound"
     },
     {
       "Number": 184,
-      "Hebrew": "לא",
+      "Korean": "없음",
       "in English": "no"
     },
     {
       "Number": 185,
-      "Hebrew": "ביותר",
+      "Korean": "가장",
       "in English": "most"
     },
     {
       "Number": 186,
-      "Hebrew": "אנשים",
+      "Korean": "사람들",
       "in English": "people"
     },
     {
       "Number": 187,
-      "Hebrew": "שלי",
+      "Korean": "내",
       "in English": "my"
     },
     {
       "Number": 188,
-      "Hebrew": "על",
+      "Korean": "이상",
       "in English": "over"
     },
     {
       "Number": 189,
-      "Hebrew": "יודע",
+      "Korean": "알고",
       "in English": "know"
     },
     {
       "Number": 190,
-      "Hebrew": "מים",
+      "Korean": "물",
       "in English": "water"
     },
     {
       "Number": 191,
-      "Hebrew": "מאשר",
+      "Korean": "보다",
       "in English": "than"
     },
     {
       "Number": 192,
-      "Hebrew": "שיחה",
+      "Korean": "통화",
       "in English": "call"
     },
     {
       "Number": 193,
-      "Hebrew": "ראשון",
+      "Korean": "첫째",
       "in English": "first"
     },
     {
       "Number": 194,
-      "Hebrew": "מי",
+      "Korean": "사람",
       "in English": "who"
     },
     {
       "Number": 195,
-      "Hebrew": "רשאי",
+      "Korean": "수도",
       "in English": "may"
     },
     {
       "Number": 196,
-      "Hebrew": "למטה",
+      "Korean": "아래로",
       "in English": "down"
     },
     {
       "Number": 197,
-      "Hebrew": "צד",
+      "Korean": "측면",
       "in English": "side"
     },
     {
       "Number": 198,
-      "Hebrew": "היה",
+      "Korean": "하고",
       "in English": "been"
     },
     {
       "Number": 199,
-      "Hebrew": "עכשיו",
+      "Korean": "지금",
       "in English": "now"
     },
     {
       "Number": 200,
-      "Hebrew": "למצוא",
+      "Korean": "발견",
       "in English": "find"
     },
     {
       "Number": 201,
-      "Hebrew": "ראש",
+      "Korean": "머리",
       "in English": "head"
     },
     {
       "Number": 202,
-      "Hebrew": "לעמוד",
+      "Korean": "서",
       "in English": "stand"
     },
     {
       "Number": 203,
-      "Hebrew": "של",
+      "Korean": "자신의",
       "in English": "own"
     },
     {
       "Number": 204,
-      "Hebrew": "דף",
+      "Korean": "페이지",
       "in English": "page"
     },
     {
       "Number": 205,
-      "Hebrew": "צריך",
+      "Korean": "해야",
       "in English": "should"
     },
     {
       "Number": 206,
-      "Hebrew": "מדינה",
+      "Korean": "국가",
       "in English": "country"
     },
     {
       "Number": 207,
-      "Hebrew": "מצאתי",
+      "Korean": "발견",
       "in English": "found"
     },
     {
       "Number": 208,
-      "Hebrew": "תשובה",
+      "Korean": "답변",
       "in English": "answer"
     },
     {
       "Number": 209,
-      "Hebrew": "בית ספר",
+      "Korean": "학교",
       "in English": "school"
     },
     {
       "Number": 210,
-      "Hebrew": "לגדול",
+      "Korean": "성장",
       "in English": "grow"
     },
     {
       "Number": 211,
-      "Hebrew": "מחקר",
+      "Korean": "연구",
       "in English": "study"
     },
     {
       "Number": 212,
-      "Hebrew": "עוד",
+      "Korean": "여전히",
       "in English": "still"
     },
     {
       "Number": 213,
-      "Hebrew": "ללמוד",
+      "Korean": "학습",
       "in English": "learn"
     },
     {
       "Number": 214,
-      "Hebrew": "צמח",
+      "Korean": "공장",
       "in English": "plant"
     },
     {
       "Number": 215,
-      "Hebrew": "כיסוי",
+      "Korean": "덮개",
       "in English": "cover"
     },
     {
       "Number": 216,
-      "Hebrew": "מזון",
+      "Korean": "음식",
       "in English": "food"
     },
     {
       "Number": 217,
-      "Hebrew": "שמש",
+      "Korean": "일",
       "in English": "sun"
     },
     {
       "Number": 218,
-      "Hebrew": "ארבעה",
+      "Korean": "네",
       "in English": "four"
     },
     {
       "Number": 219,
-      "Hebrew": "בין",
+      "Korean": "사이",
       "in English": "between"
     },
     {
       "Number": 220,
-      "Hebrew": "מדינה",
+      "Korean": "상태",
       "in English": "state"
     },
     {
       "Number": 221,
-      "Hebrew": "לשמור",
+      "Korean": "유지",
       "in English": "keep"
     },
     {
       "Number": 222,
-      "Hebrew": "עין",
+      "Korean": "눈",
       "in English": "eye"
     },
     {
       "Number": 223,
-      "Hebrew": "אף פעם לא",
+      "Korean": "결코",
       "in English": "never"
     },
     {
       "Number": 224,
-      "Hebrew": "אחרון",
+      "Korean": "마지막",
       "in English": "last"
     },
     {
       "Number": 225,
-      "Hebrew": "בואו",
+      "Korean": "하자",
       "in English": "let"
     },
     {
       "Number": 226,
-      "Hebrew": "חשבתי",
+      "Korean": "생각",
       "in English": "thought"
     },
     {
       "Number": 227,
-      "Hebrew": "עיר",
+      "Korean": "도시",
       "in English": "city"
     },
     {
       "Number": 228,
-      "Hebrew": "עץ",
+      "Korean": "트리",
       "in English": "tree"
     },
     {
       "Number": 229,
-      "Hebrew": "לחצות",
+      "Korean": "교차",
       "in English": "cross"
     },
     {
       "Number": 230,
-      "Hebrew": "החווה",
+      "Korean": "농장",
       "in English": "farm"
     },
     {
       "Number": 231,
-      "Hebrew": "קשה",
+      "Korean": "단단한",
       "in English": "hard"
     },
     {
       "Number": 232,
-      "Hebrew": "התחלה",
+      "Korean": "시작",
       "in English": "start"
     },
     {
       "Number": 233,
-      "Hebrew": "אולי",
+      "Korean": "수도",
       "in English": "might"
     },
     {
       "Number": 234,
-      "Hebrew": "סיפור",
+      "Korean": "이야기",
       "in English": "story"
     },
     {
       "Number": 235,
-      "Hebrew": "מסור",
+      "Korean": "톱",
       "in English": "saw"
     },
     {
       "Number": 236,
-      "Hebrew": "רחוק",
+      "Korean": "까지",
       "in English": "far"
     },
     {
       "Number": 237,
-      "Hebrew": "ים",
+      "Korean": "바다",
       "in English": "sea"
     },
     {
       "Number": 238,
-      "Hebrew": "לצייר",
+      "Korean": "그리",
       "in English": "draw"
     },
     {
       "Number": 239,
-      "Hebrew": "עזב",
+      "Korean": "왼쪽",
       "in English": "left"
     },
     {
       "Number": 240,
-      "Hebrew": "מאוחר",
+      "Korean": "후반",
       "in English": "late"
     },
     {
       "Number": 241,
-      "Hebrew": "לרוץ",
+      "Korean": "실행",
       "in English": "run"
     },
     {
       "Number": 242,
-      "Hebrew": "לא",
+      "Korean": "하지",
       "in English": "don’t"
     },
     {
       "Number": 243,
-      "Hebrew": "תוך",
+      "Korean": "반면",
       "in English": "while"
     },
     {
       "Number": 244,
-      "Hebrew": "עיתונות",
+      "Korean": "키를 누릅니다",
       "in English": "press"
     },
     {
       "Number": 245,
-      "Hebrew": "קרוב",
+      "Korean": "가까이",
       "in English": "close"
     },
     {
       "Number": 246,
-      "Hebrew": "לילה",
+      "Korean": "밤",
       "in English": "night"
     },
     {
       "Number": 247,
-      "Hebrew": "אמיתי",
+      "Korean": "실제",
       "in English": "real"
     },
     {
       "Number": 248,
-      "Hebrew": "חיים",
+      "Korean": "생활",
       "in English": "life"
     },
     {
       "Number": 249,
-      "Hebrew": "כמה",
+      "Korean": "조금",
       "in English": "few"
     },
     {
       "Number": 250,
-      "Hebrew": "צפון",
+      "Korean": "북",
       "in English": "north"
     },
     {
       "Number": 251,
-      "Hebrew": "ספר",
+      "Korean": "책",
       "in English": "book"
     },
     {
       "Number": 252,
-      "Hebrew": "לשאת",
+      "Korean": "수행",
       "in English": "carry"
     },
     {
       "Number": 253,
-      "Hebrew": "לקחתי",
+      "Korean": "했다",
       "in English": "took"
     },
     {
       "Number": 254,
-      "Hebrew": "מדע",
+      "Korean": "과학",
       "in English": "science"
     },
     {
       "Number": 255,
-      "Hebrew": "לסעוד",
+      "Korean": "식사",
       "in English": "eat"
     },
     {
       "Number": 256,
-      "Hebrew": "חדר",
+      "Korean": "방",
       "in English": "room"
     },
     {
       "Number": 257,
-      "Hebrew": "חבר",
+      "Korean": "친구",
       "in English": "friend"
     },
     {
       "Number": 258,
-      "Hebrew": "החל",
+      "Korean": "시작",
       "in English": "began"
     },
     {
       "Number": 259,
-      "Hebrew": "רעיון",
+      "Korean": "아이디어",
       "in English": "idea"
     },
     {
       "Number": 260,
-      "Hebrew": "דגים",
+      "Korean": "물고기",
       "in English": "fish"
     },
     {
       "Number": 261,
-      "Hebrew": "הר",
+      "Korean": "산",
       "in English": "mountain"
     },
     {
       "Number": 262,
-      "Hebrew": "להפסיק",
+      "Korean": "중지",
       "in English": "stop"
     },
     {
       "Number": 263,
-      "Hebrew": "פעם אחת",
+      "Korean": "한 번",
       "in English": "once"
     },
     {
       "Number": 264,
-      "Hebrew": "בסיס",
+      "Korean": "기본",
       "in English": "base"
     },
     {
       "Number": 265,
-      "Hebrew": "לשמוע",
+      "Korean": "듣다",
       "in English": "hear"
     },
     {
       "Number": 266,
-      "Hebrew": "סוס",
+      "Korean": "말",
       "in English": "horse"
     },
     {
       "Number": 267,
-      "Hebrew": "לחתוך",
+      "Korean": "컷",
       "in English": "cut"
     },
     {
       "Number": 268,
-      "Hebrew": "בטוח",
+      "Korean": "확실한",
       "in English": "sure"
     },
     {
       "Number": 269,
-      "Hebrew": "לצפות",
+      "Korean": "손목 시계",
       "in English": "watch"
     },
     {
       "Number": 270,
-      "Hebrew": "צבע",
+      "Korean": "색",
       "in English": "color"
     },
     {
       "Number": 271,
-      "Hebrew": "פנים",
+      "Korean": "얼굴",
       "in English": "face"
     },
     {
       "Number": 272,
-      "Hebrew": "עץ",
+      "Korean": "나무",
       "in English": "wood"
     },
     {
       "Number": 273,
-      "Hebrew": "עיקרי",
+      "Korean": "주",
       "in English": "main"
     },
     {
       "Number": 274,
-      "Hebrew": "פתוח",
+      "Korean": "오픈",
       "in English": "open"
     },
     {
       "Number": 275,
-      "Hebrew": "נראה",
+      "Korean": "것",
       "in English": "seem"
     },
     {
       "Number": 276,
-      "Hebrew": "יחד",
+      "Korean": "함께",
       "in English": "together"
     },
     {
       "Number": 277,
-      "Hebrew": "הבא",
+      "Korean": "다음",
       "in English": "next"
     },
     {
       "Number": 278,
-      "Hebrew": "לבן",
+      "Korean": "흰색",
       "in English": "white"
     },
     {
       "Number": 279,
-      "Hebrew": "ילדים",
+      "Korean": "어린이",
       "in English": "children"
     },
     {
       "Number": 280,
-      "Hebrew": "להתחיל",
+      "Korean": "시작",
       "in English": "begin"
     },
     {
       "Number": 281,
-      "Hebrew": "לי",
+      "Korean": "있어",
       "in English": "got"
     },
     {
       "Number": 282,
-      "Hebrew": "ללכת",
+      "Korean": "도보",
       "in English": "walk"
     },
     {
       "Number": 283,
-      "Hebrew": "דוגמא",
+      "Korean": "예",
       "in English": "example"
     },
     {
       "Number": 284,
-      "Hebrew": "להקל",
+      "Korean": "완화",
       "in English": "ease"
     },
     {
       "Number": 285,
-      "Hebrew": "נייר",
+      "Korean": "종이",
       "in English": "paper"
     },
     {
       "Number": 286,
-      "Hebrew": "קבוצה",
+      "Korean": "그룹",
       "in English": "group"
     },
     {
       "Number": 287,
-      "Hebrew": "תמיד",
+      "Korean": "항상",
       "in English": "always"
     },
     {
       "Number": 288,
-      "Hebrew": "מוסיקה",
+      "Korean": "음악",
       "in English": "music"
     },
     {
       "Number": 289,
-      "Hebrew": "אלה",
+      "Korean": "그",
       "in English": "those"
     },
     {
       "Number": 290,
-      "Hebrew": "שני",
+      "Korean": "모두",
       "in English": "both"
     },
     {
       "Number": 291,
-      "Hebrew": "סימן",
+      "Korean": "마르크",
       "in English": "mark"
     },
     {
       "Number": 292,
-      "Hebrew": "לעתים קרובות",
+      "Korean": "자주",
       "in English": "often"
     },
     {
       "Number": 293,
-      "Hebrew": "מכתב",
+      "Korean": "편지",
       "in English": "letter"
     },
     {
       "Number": 294,
-      "Hebrew": "עד",
+      "Korean": "까지",
       "in English": "until"
     },
     {
       "Number": 295,
-      "Hebrew": "מייל",
+      "Korean": "마일",
       "in English": "mile"
     },
     {
       "Number": 296,
-      "Hebrew": "נהר",
+      "Korean": "강",
       "in English": "river"
     },
     {
       "Number": 297,
-      "Hebrew": "מכונית",
+      "Korean": "자동차",
       "in English": "car"
     },
     {
       "Number": 298,
-      "Hebrew": "רגליים",
+      "Korean": "피트",
       "in English": "feet"
     },
     {
       "Number": 299,
-      "Hebrew": "טיפול",
+      "Korean": "주의",
       "in English": "care"
     },
     {
       "Number": 300,
-      "Hebrew": "שני",
+      "Korean": "초",
       "in English": "second"
     },
     {
       "Number": 301,
-      "Hebrew": "מספיק",
+      "Korean": "충분히",
       "in English": "enough"
     },
     {
       "Number": 302,
-      "Hebrew": "מישור",
+      "Korean": "일반",
       "in English": "plain"
     },
     {
       "Number": 303,
-      "Hebrew": "ילדה",
+      "Korean": "소녀",
       "in English": "girl"
     },
     {
       "Number": 304,
-      "Hebrew": "כרגיל",
+      "Korean": "보통",
       "in English": "usual"
     },
     {
       "Number": 305,
-      "Hebrew": "צעיר",
+      "Korean": "젊은",
       "in English": "young"
     },
     {
       "Number": 306,
-      "Hebrew": "מוכן",
+      "Korean": "준비된",
       "in English": "ready"
     },
     {
       "Number": 307,
-      "Hebrew": "מעל",
+      "Korean": "위",
       "in English": "above"
     },
     {
       "Number": 308,
-      "Hebrew": "אי פעם",
+      "Korean": "지금까지",
       "in English": "ever"
     },
     {
       "Number": 309,
-      "Hebrew": "אדום",
+      "Korean": "빨간색",
       "in English": "red"
     },
     {
       "Number": 310,
-      "Hebrew": "רשימה",
+      "Korean": "표",
       "in English": "list"
     },
     {
       "Number": 311,
-      "Hebrew": "למרות ש",
+      "Korean": "그래도",
       "in English": "though"
     },
     {
       "Number": 312,
-      "Hebrew": "להרגיש",
+      "Korean": "느낌",
       "in English": "feel"
     },
     {
       "Number": 313,
-      "Hebrew": "דיבורים",
+      "Korean": "이야기",
       "in English": "talk"
     },
     {
       "Number": 314,
-      "Hebrew": "ציפור",
+      "Korean": "조류",
       "in English": "bird"
     },
     {
       "Number": 315,
-      "Hebrew": "בקרוב",
+      "Korean": "곧",
       "in English": "soon"
     },
     {
       "Number": 316,
-      "Hebrew": "גוף",
+      "Korean": "몸",
       "in English": "body"
     },
     {
       "Number": 317,
-      "Hebrew": "כלב",
+      "Korean": "개",
       "in English": "dog"
     },
     {
       "Number": 318,
-      "Hebrew": "משפחה",
+      "Korean": "가족",
       "in English": "family"
     },
     {
       "Number": 319,
-      "Hebrew": "ישיר",
+      "Korean": "직접",
       "in English": "direct"
     },
     {
       "Number": 320,
-      "Hebrew": "פוזה",
+      "Korean": "포즈",
       "in English": "pose"
     },
     {
       "Number": 321,
-      "Hebrew": "לעזוב",
+      "Korean": "떠나",
       "in English": "leave"
     },
     {
       "Number": 322,
-      "Hebrew": "שיר",
+      "Korean": "노래",
       "in English": "song"
     },
     {
       "Number": 323,
-      "Hebrew": "למדוד",
+      "Korean": "측정",
       "in English": "measure"
     },
     {
       "Number": 324,
-      "Hebrew": "דלת",
+      "Korean": "문",
       "in English": "door"
     },
     {
       "Number": 325,
-      "Hebrew": "מוצר",
+      "Korean": "제품",
       "in English": "product"
     },
     {
       "Number": 326,
-      "Hebrew": "שחור",
+      "Korean": "블랙",
       "in English": "black"
     },
     {
       "Number": 327,
-      "Hebrew": "קצר",
+      "Korean": "짧은",
       "in English": "short"
     },
     {
       "Number": 328,
-      "Hebrew": "ספרה",
+      "Korean": "숫자",
       "in English": "numeral"
     },
     {
       "Number": 329,
-      "Hebrew": "כיתה",
+      "Korean": "클래스",
       "in English": "class"
     },
     {
       "Number": 330,
-      "Hebrew": "רוח",
+      "Korean": "바람",
       "in English": "wind"
     },
     {
       "Number": 331,
-      "Hebrew": "שאלה",
+      "Korean": "질문",
       "in English": "question"
     },
     {
       "Number": 332,
-      "Hebrew": "לקרות",
+      "Korean": "일",
       "in English": "happen"
     },
     {
       "Number": 333,
-      "Hebrew": "מלא",
+      "Korean": "완료",
       "in English": "complete"
     },
     {
       "Number": 334,
-      "Hebrew": "ספינה",
+      "Korean": "배",
       "in English": "ship"
     },
     {
       "Number": 335,
-      "Hebrew": "אזור",
+      "Korean": "지역",
       "in English": "area"
     },
     {
       "Number": 336,
-      "Hebrew": "מחצית",
+      "Korean": "반",
       "in English": "half"
     },
     {
       "Number": 337,
-      "Hebrew": "רוק",
+      "Korean": "바위",
       "in English": "rock"
     },
     {
       "Number": 338,
-      "Hebrew": "כדי",
+      "Korean": "주문",
       "in English": "order"
     },
     {
       "Number": 339,
-      "Hebrew": "אש",
+      "Korean": "화재",
       "in English": "fire"
     },
     {
       "Number": 340,
-      "Hebrew": "דרום",
+      "Korean": "남쪽",
       "in English": "south"
     },
     {
       "Number": 341,
-      "Hebrew": "בעיה",
+      "Korean": "문제",
       "in English": "problem"
     },
     {
       "Number": 342,
-      "Hebrew": "חתיכה",
+      "Korean": "조각",
       "in English": "piece"
     },
     {
       "Number": 343,
-      "Hebrew": "אמר לי",
+      "Korean": "이야기",
       "in English": "told"
     },
     {
       "Number": 344,
-      "Hebrew": "ידעתי",
+      "Korean": "알고",
       "in English": "knew"
     },
     {
       "Number": 345,
-      "Hebrew": "עובר",
+      "Korean": "통과",
       "in English": "pass"
     },
     {
       "Number": 346,
-      "Hebrew": "מאז",
+      "Korean": "이후",
       "in English": "since"
     },
     {
       "Number": 347,
-      "Hebrew": "עליון",
+      "Korean": "최고",
       "in English": "top"
     },
     {
       "Number": 348,
-      "Hebrew": "כל",
+      "Korean": "전체",
       "in English": "whole"
     },
     {
       "Number": 349,
-      "Hebrew": "מלך",
+      "Korean": "왕",
       "in English": "king"
     },
     {
       "Number": 350,
-      "Hebrew": "רחוב",
+      "Korean": "거리",
       "in English": "street"
     },
     {
       "Number": 351,
-      "Hebrew": "אינץ",
+      "Korean": "인치",
       "in English": "inch"
     },
     {
       "Number": 352,
-      "Hebrew": "להכפיל",
+      "Korean": "곱",
       "in English": "multiply"
     },
     {
       "Number": 353,
-      "Hebrew": "שום דבר",
+      "Korean": "아무것도",
       "in English": "nothing"
     },
     {
       "Number": 354,
-      "Hebrew": "כמובן",
+      "Korean": "물론",
       "in English": "course"
     },
     {
       "Number": 355,
-      "Hebrew": "להישאר",
+      "Korean": "유지",
       "in English": "stay"
     },
     {
       "Number": 356,
-      "Hebrew": "גלגל",
+      "Korean": "휠",
       "in English": "wheel"
     },
     {
       "Number": 357,
-      "Hebrew": "מלא",
+      "Korean": "전체",
       "in English": "full"
     },
     {
       "Number": 358,
-      "Hebrew": "כוח",
+      "Korean": "힘",
       "in English": "force"
     },
     {
       "Number": 359,
-      "Hebrew": "כחול",
+      "Korean": "푸른",
       "in English": "blue"
     },
     {
       "Number": 360,
-      "Hebrew": "אובייקט",
+      "Korean": "객체",
       "in English": "object"
     },
     {
       "Number": 361,
-      "Hebrew": "להחליט",
+      "Korean": "결정",
       "in English": "decide"
     },
     {
       "Number": 362,
-      "Hebrew": "פני השטח",
+      "Korean": "표면",
       "in English": "surface"
     },
     {
       "Number": 363,
-      "Hebrew": "עמוק",
+      "Korean": "깊은",
       "in English": "deep"
     },
     {
       "Number": 364,
-      "Hebrew": "ירח",
+      "Korean": "달",
       "in English": "moon"
     },
     {
       "Number": 365,
-      "Hebrew": "אי",
+      "Korean": "섬",
       "in English": "island"
     },
     {
       "Number": 366,
-      "Hebrew": "רגל",
+      "Korean": "발",
       "in English": "foot"
     },
     {
       "Number": 367,
-      "Hebrew": "מערכת",
+      "Korean": "시스템",
       "in English": "system"
     },
     {
       "Number": 368,
-      "Hebrew": "עסוק",
+      "Korean": "바쁜",
       "in English": "busy"
     },
     {
       "Number": 369,
-      "Hebrew": "מבחן",
+      "Korean": "테스트",
       "in English": "test"
     },
     {
       "Number": 370,
-      "Hebrew": "שיא",
+      "Korean": "기록",
       "in English": "record"
     },
     {
       "Number": 371,
-      "Hebrew": "סירה",
+      "Korean": "보트",
       "in English": "boat"
     },
     {
       "Number": 372,
-      "Hebrew": "משותף",
+      "Korean": "공통의",
       "in English": "common"
     },
     {
       "Number": 373,
-      "Hebrew": "זהב",
+      "Korean": "금",
       "in English": "gold"
     },
     {
       "Number": 374,
-      "Hebrew": "אפשרי",
+      "Korean": "가능한",
       "in English": "possible"
     },
     {
       "Number": 375,
-      "Hebrew": "מטוס",
+      "Korean": "비행기",
       "in English": "plane"
     },
     {
       "Number": 376,
-      "Hebrew": "במקום",
+      "Korean": "대신",
       "in English": "stead"
     },
     {
       "Number": 377,
-      "Hebrew": "יבש",
+      "Korean": "건조",
       "in English": "dry"
     },
     {
       "Number": 378,
-      "Hebrew": "פלא",
+      "Korean": "궁금",
       "in English": "wonder"
     },
     {
       "Number": 379,
-      "Hebrew": "צחוק",
+      "Korean": "웃음",
       "in English": "laugh"
     },
     {
       "Number": 380,
-      "Hebrew": "אלף",
+      "Korean": "천",
       "in English": "thousand"
     },
     {
       "Number": 381,
-      "Hebrew": "לפני",
+      "Korean": "전",
       "in English": "ago"
     },
     {
       "Number": 382,
-      "Hebrew": "רצתי",
+      "Korean": "실행",
       "in English": "ran"
     },
     {
       "Number": 383,
-      "Hebrew": "לבדוק",
+      "Korean": "확인",
       "in English": "check"
     },
     {
       "Number": 384,
-      "Hebrew": "משחק",
+      "Korean": "게임",
       "in English": "game"
     },
     {
       "Number": 385,
-      "Hebrew": "צורה",
+      "Korean": "모양",
       "in English": "shape"
     },
     {
       "Number": 386,
-      "Hebrew": "להשוות",
+      "Korean": "동일시",
       "in English": "equate"
     },
     {
       "Number": 387,
-      "Hebrew": "חם",
+      "Korean": "뜨거운",
       "in English": "hot"
     },
     {
       "Number": 388,
-      "Hebrew": "מתגעגע",
+      "Korean": "미스",
       "in English": "miss"
     },
     {
       "Number": 389,
-      "Hebrew": "הביא",
+      "Korean": "가져",
       "in English": "brought"
     },
     {
       "Number": 390,
-      "Hebrew": "חום",
+      "Korean": "열",
       "in English": "heat"
     },
     {
       "Number": 391,
-      "Hebrew": "שלג",
+      "Korean": "눈",
       "in English": "snow"
     },
     {
       "Number": 392,
-      "Hebrew": "צמיג",
+      "Korean": "타이어",
       "in English": "tire"
     },
     {
       "Number": 393,
-      "Hebrew": "להביא",
+      "Korean": "가져",
       "in English": "bring"
     },
     {
       "Number": 394,
-      "Hebrew": "כן",
+      "Korean": "예",
       "in English": "yes"
     },
     {
       "Number": 395,
-      "Hebrew": "רחוק",
+      "Korean": "먼",
       "in English": "distant"
     },
     {
       "Number": 396,
-      "Hebrew": "למלא",
+      "Korean": "입력",
       "in English": "fill"
     },
     {
       "Number": 397,
-      "Hebrew": "מזרח",
+      "Korean": "동쪽",
       "in English": "east"
     },
     {
       "Number": 398,
-      "Hebrew": "לצייר",
+      "Korean": "페인트",
       "in English": "paint"
     },
     {
       "Number": 399,
-      "Hebrew": "שפה",
+      "Korean": "언어",
       "in English": "language"
     },
     {
       "Number": 400,
-      "Hebrew": "בין",
+      "Korean": "중",
       "in English": "among"
     },
     {
       "Number": 401,
-      "Hebrew": "יחידה",
+      "Korean": "단위",
       "in English": "unit"
     },
     {
       "Number": 402,
-      "Hebrew": "כוח",
+      "Korean": "힘",
       "in English": "power"
     },
     {
       "Number": 403,
-      "Hebrew": "העיר",
+      "Korean": "마을",
       "in English": "town"
     },
     {
       "Number": 404,
-      "Hebrew": "קנס",
+      "Korean": "잘",
       "in English": "fine"
     },
     {
       "Number": 405,
-      "Hebrew": "מסוים",
+      "Korean": "어떤",
       "in English": "certain"
     },
     {
       "Number": 406,
-      "Hebrew": "לעוף",
+      "Korean": "비행",
       "in English": "fly"
     },
     {
       "Number": 407,
-      "Hebrew": "ליפול",
+      "Korean": "가을",
       "in English": "fall"
     },
     {
       "Number": 408,
-      "Hebrew": "להוביל",
+      "Korean": "지도",
       "in English": "lead"
     },
     {
       "Number": 409,
-      "Hebrew": "זעקה",
+      "Korean": "울음 소리",
       "in English": "cry"
     },
     {
       "Number": 410,
-      "Hebrew": "אפל",
+      "Korean": "어두운",
       "in English": "dark"
     },
     {
       "Number": 411,
-      "Hebrew": "מכונה",
+      "Korean": "기계",
       "in English": "machine"
     },
     {
       "Number": 412,
-      "Hebrew": "הערה",
+      "Korean": "주의",
       "in English": "note"
     },
     {
       "Number": 413,
-      "Hebrew": "לחכות",
+      "Korean": "대기",
       "in English": "wait"
     },
     {
       "Number": 414,
-      "Hebrew": "תכנית",
+      "Korean": "계획",
       "in English": "plan"
     },
     {
       "Number": 415,
-      "Hebrew": "דמות",
+      "Korean": "그림",
       "in English": "figure"
     },
     {
       "Number": 416,
-      "Hebrew": "כוכב",
+      "Korean": "스타",
       "in English": "star"
     },
     {
       "Number": 417,
-      "Hebrew": "תיבה",
+      "Korean": "상자",
       "in English": "box"
     },
     {
       "Number": 418,
-      "Hebrew": "שם עצם",
+      "Korean": "명사",
       "in English": "noun"
     },
     {
       "Number": 419,
-      "Hebrew": "שדה",
+      "Korean": "필드",
       "in English": "field"
     },
     {
       "Number": 420,
-      "Hebrew": "שאר",
+      "Korean": "나머지",
       "in English": "rest"
     },
     {
       "Number": 421,
-      "Hebrew": "נכון",
+      "Korean": "정확한",
       "in English": "correct"
     },
     {
       "Number": 422,
-      "Hebrew": "תוכל",
+      "Korean": "수",
       "in English": "able"
     },
     {
       "Number": 423,
-      "Hebrew": "קילו",
+      "Korean": "파운드",
       "in English": "pound"
     },
     {
       "Number": 424,
-      "Hebrew": "עשיתי",
+      "Korean": "완료",
       "in English": "done"
     },
     {
       "Number": 425,
-      "Hebrew": "יופי",
+      "Korean": "아름다움",
       "in English": "beauty"
     },
     {
       "Number": 426,
-      "Hebrew": "כונן",
+      "Korean": "드라이브",
       "in English": "drive"
     },
     {
       "Number": 427,
-      "Hebrew": "עמד",
+      "Korean": "서",
       "in English": "stood"
     },
     {
       "Number": 428,
-      "Hebrew": "להכיל",
+      "Korean": "포함",
       "in English": "contain"
     },
     {
       "Number": 429,
-      "Hebrew": "מול",
+      "Korean": "앞",
       "in English": "front"
     },
     {
       "Number": 430,
-      "Hebrew": "ללמד",
+      "Korean": "가르쳐",
       "in English": "teach"
     },
     {
       "Number": 431,
-      "Hebrew": "שבוע",
+      "Korean": "주",
       "in English": "week"
     },
     {
       "Number": 432,
-      "Hebrew": "סופי",
+      "Korean": "최종",
       "in English": "final"
     },
     {
       "Number": 433,
-      "Hebrew": "נתתי",
+      "Korean": "준",
       "in English": "gave"
     },
     {
       "Number": 434,
-      "Hebrew": "ירוק",
+      "Korean": "녹색",
       "in English": "green"
     },
     {
       "Number": 435,
-      "Hebrew": "הו",
+      "Korean": "오",
       "in English": "oh"
     },
     {
       "Number": 436,
-      "Hebrew": "מהיר",
+      "Korean": "빨리",
       "in English": "quick"
     },
     {
       "Number": 437,
-      "Hebrew": "לפתח",
+      "Korean": "개발",
       "in English": "develop"
     },
     {
       "Number": 438,
-      "Hebrew": "אוקיינוס",
+      "Korean": "대양",
       "in English": "ocean"
     },
     {
       "Number": 439,
-      "Hebrew": "חם",
+      "Korean": "따뜻한",
       "in English": "warm"
     },
     {
       "Number": 440,
-      "Hebrew": "חופשי",
+      "Korean": "무료",
       "in English": "free"
     },
     {
       "Number": 441,
-      "Hebrew": "דקות",
+      "Korean": "분",
       "in English": "minute"
     },
     {
       "Number": 442,
-      "Hebrew": "חזק",
+      "Korean": "강한",
       "in English": "strong"
     },
     {
       "Number": 443,
-      "Hebrew": "מיוחד",
+      "Korean": "특수",
       "in English": "special"
     },
     {
       "Number": 444,
-      "Hebrew": "דעה",
+      "Korean": "마음",
       "in English": "mind"
     },
     {
       "Number": 445,
-      "Hebrew": "מאחור",
+      "Korean": "뒤에",
       "in English": "behind"
     },
     {
       "Number": 446,
-      "Hebrew": "ברור",
+      "Korean": "명확한",
       "in English": "clear"
     },
     {
       "Number": 447,
-      "Hebrew": "זנב",
+      "Korean": "꼬리",
       "in English": "tail"
     },
     {
       "Number": 448,
-      "Hebrew": "לייצר",
+      "Korean": "생산",
       "in English": "produce"
     },
     {
       "Number": 449,
-      "Hebrew": "עובדה",
+      "Korean": "사실",
       "in English": "fact"
     },
     {
       "Number": 450,
-      "Hebrew": "חלל",
+      "Korean": "공간",
       "in English": "space"
     },
     {
       "Number": 451,
-      "Hebrew": "שמע",
+      "Korean": "들어",
       "in English": "heard"
     },
     {
       "Number": 452,
-      "Hebrew": "הטוב ביותר",
+      "Korean": "가장",
       "in English": "best"
     },
     {
       "Number": 453,
-      "Hebrew": "שעה",
+      "Korean": "시간",
       "in English": "hour"
     },
     {
       "Number": 454,
-      "Hebrew": "טוב יותר",
+      "Korean": "더",
       "in English": "better"
     },
     {
       "Number": 455,
-      "Hebrew": "נכון",
+      "Korean": "사실",
       "in English": "true"
     },
     {
       "Number": 456,
-      "Hebrew": "במהלך",
+      "Korean": "중",
       "in English": "during"
     },
     {
       "Number": 457,
-      "Hebrew": "מאה",
+      "Korean": "백",
       "in English": "hundred"
     },
     {
       "Number": 458,
-      "Hebrew": "חמש",
+      "Korean": "오",
       "in English": "five"
     },
     {
       "Number": 459,
-      "Hebrew": "לזכור",
+      "Korean": "기억",
       "in English": "remember"
     },
     {
       "Number": 460,
-      "Hebrew": "צעד",
+      "Korean": "단계",
       "in English": "step"
     },
     {
       "Number": 461,
-      "Hebrew": "מוקדם",
+      "Korean": "초기",
       "in English": "early"
     },
     {
       "Number": 462,
-      "Hebrew": "להחזיק",
+      "Korean": "개최",
       "in English": "hold"
     },
     {
       "Number": 463,
-      "Hebrew": "מערב",
+      "Korean": "서쪽",
       "in English": "west"
     },
     {
       "Number": 464,
-      "Hebrew": "קרקע",
+      "Korean": "지상",
       "in English": "ground"
     },
     {
       "Number": 465,
-      "Hebrew": "עניין",
+      "Korean": "관심",
       "in English": "interest"
     },
     {
       "Number": 466,
-      "Hebrew": "להגיע",
+      "Korean": "범위",
       "in English": "reach"
     },
     {
       "Number": 467,
-      "Hebrew": "מהר",
+      "Korean": "빠른",
       "in English": "fast"
     },
     {
       "Number": 468,
-      "Hebrew": "פועל",
+      "Korean": "동사",
       "in English": "verb"
     },
     {
       "Number": 469,
-      "Hebrew": "לשיר",
+      "Korean": "노래",
       "in English": "sing"
     },
     {
       "Number": 470,
-      "Hebrew": "להקשיב",
+      "Korean": "청취",
       "in English": "listen"
     },
     {
       "Number": 471,
-      "Hebrew": "שש",
+      "Korean": "육",
       "in English": "six"
     },
     {
       "Number": 472,
-      "Hebrew": "שולחן",
+      "Korean": "나타난",
       "in English": "table"
     },
     {
       "Number": 473,
-      "Hebrew": "נסיעה",
+      "Korean": "여행",
       "in English": "travel"
     },
     {
       "Number": 474,
-      "Hebrew": "פחות",
+      "Korean": "이하",
       "in English": "less"
     },
     {
       "Number": 475,
-      "Hebrew": "בוקר",
+      "Korean": "아침",
       "in English": "morning"
     },
     {
       "Number": 476,
-      "Hebrew": "עשר",
+      "Korean": "열",
       "in English": "ten"
     },
     {
       "Number": 477,
-      "Hebrew": "פשוט",
+      "Korean": "간단한",
       "in English": "simple"
     },
     {
       "Number": 478,
-      "Hebrew": "כמה",
+      "Korean": "여러",
       "in English": "several"
     },
     {
       "Number": 479,
-      "Hebrew": "תנועה",
+      "Korean": "모음",
       "in English": "vowel"
     },
     {
       "Number": 480,
-      "Hebrew": "לקראת",
+      "Korean": "방향",
       "in English": "toward"
     },
     {
       "Number": 481,
-      "Hebrew": "מלחמה",
+      "Korean": "전쟁",
       "in English": "war"
     },
     {
       "Number": 482,
-      "Hebrew": "שכבתי",
+      "Korean": "누워",
       "in English": "lay"
     },
     {
       "Number": 483,
-      "Hebrew": "נגד",
+      "Korean": "에 대하여",
       "in English": "against"
     },
     {
       "Number": 484,
-      "Hebrew": "דפוס",
+      "Korean": "패턴",
       "in English": "pattern"
     },
     {
       "Number": 485,
-      "Hebrew": "איטי",
+      "Korean": "느린",
       "in English": "slow"
     },
     {
       "Number": 486,
-      "Hebrew": "מרכז",
+      "Korean": "센터",
       "in English": "center"
     },
     {
       "Number": 487,
-      "Hebrew": "אהבה",
+      "Korean": "사랑",
       "in English": "love"
     },
     {
       "Number": 488,
-      "Hebrew": "אדם",
+      "Korean": "사람",
       "in English": "person"
     },
     {
       "Number": 489,
-      "Hebrew": "כסף",
+      "Korean": "돈",
       "in English": "money"
     },
     {
       "Number": 490,
-      "Hebrew": "לשרת",
+      "Korean": "봉사",
       "in English": "serve"
     },
     {
       "Number": 491,
-      "Hebrew": "להופיע",
+      "Korean": "표시",
       "in English": "appear"
     },
     {
       "Number": 492,
-      "Hebrew": "כביש",
+      "Korean": "도로",
       "in English": "road"
     },
     {
       "Number": 493,
-      "Hebrew": "המפה",
+      "Korean": "지도",
       "in English": "map"
     },
     {
       "Number": 494,
-      "Hebrew": "גשם",
+      "Korean": "비",
       "in English": "rain"
     },
     {
       "Number": 495,
-      "Hebrew": "שלטון",
+      "Korean": "규칙",
       "in English": "rule"
     },
     {
       "Number": 496,
-      "Hebrew": "למשול",
+      "Korean": "적용",
       "in English": "govern"
     },
     {
       "Number": 497,
-      "Hebrew": "למשוך",
+      "Korean": "당겨",
       "in English": "pull"
     },
     {
       "Number": 498,
-      "Hebrew": "קר",
+      "Korean": "감기",
       "in English": "cold"
     },
     {
       "Number": 499,
-      "Hebrew": "הודעה",
+      "Korean": "예고",
       "in English": "notice"
     },
     {
       "Number": 500,
-      "Hebrew": "קול",
+      "Korean": "음성",
       "in English": "voice"
     },
     {
       "Number": 501,
-      "Hebrew": "אנרגיה",
+      "Korean": "에너지",
       "in English": "energy"
     },
     {
       "Number": 502,
-      "Hebrew": "ציד",
+      "Korean": "사냥",
       "in English": "hunt"
     },
     {
       "Number": 503,
-      "Hebrew": "סביר",
+      "Korean": "가능성",
       "in English": "probable"
     },
     {
       "Number": 504,
-      "Hebrew": "מיטה",
+      "Korean": "침대",
       "in English": "bed"
     },
     {
       "Number": 505,
-      "Hebrew": "אח",
+      "Korean": "형제",
       "in English": "brother"
     },
     {
       "Number": 506,
-      "Hebrew": "ביצה",
+      "Korean": "계란",
       "in English": "egg"
     },
     {
       "Number": 507,
-      "Hebrew": "נסיעה",
+      "Korean": "타고",
       "in English": "ride"
     },
     {
       "Number": 508,
-      "Hebrew": "תא",
+      "Korean": "셀",
       "in English": "cell"
     },
     {
       "Number": 509,
-      "Hebrew": "מאמין",
+      "Korean": "생각",
       "in English": "believe"
     },
     {
       "Number": 510,
-      "Hebrew": "אולי",
+      "Korean": "어쩌면",
       "in English": "perhaps"
     },
     {
       "Number": 511,
-      "Hebrew": "לבחור",
+      "Korean": "선택",
       "in English": "pick"
     },
     {
       "Number": 512,
-      "Hebrew": "פתאומי",
+      "Korean": "갑자기",
       "in English": "sudden"
     },
     {
       "Number": 513,
-      "Hebrew": "לספור",
+      "Korean": "계산",
       "in English": "count"
     },
     {
       "Number": 514,
-      "Hebrew": "רבוע",
+      "Korean": "광장",
       "in English": "square"
     },
     {
       "Number": 515,
-      "Hebrew": "סיבה",
+      "Korean": "이유",
       "in English": "reason"
     },
     {
       "Number": 516,
-      "Hebrew": "משך",
+      "Korean": "길이",
       "in English": "length"
     },
     {
       "Number": 517,
-      "Hebrew": "מייצג",
+      "Korean": "대표",
       "in English": "represent"
     },
     {
       "Number": 518,
-      "Hebrew": "אמנות",
+      "Korean": "예술",
       "in English": "art"
     },
     {
       "Number": 519,
-      "Hebrew": "נושא",
+      "Korean": "주제",
       "in English": "subject"
     },
     {
       "Number": 520,
-      "Hebrew": "אזור",
+      "Korean": "지역",
       "in English": "region"
     },
     {
       "Number": 521,
-      "Hebrew": "גודל",
+      "Korean": "크기",
       "in English": "size"
     },
     {
       "Number": 522,
-      "Hebrew": "להשתנות",
+      "Korean": "다양",
       "in English": "vary"
     },
     {
       "Number": 523,
-      "Hebrew": "להתיישב",
+      "Korean": "정착",
       "in English": "settle"
     },
     {
       "Number": 524,
-      "Hebrew": "לדבר",
+      "Korean": "이야기",
       "in English": "speak"
     },
     {
       "Number": 525,
-      "Hebrew": "משקל",
+      "Korean": "무게",
       "in English": "weight"
     },
     {
       "Number": 526,
-      "Hebrew": "כללי",
+      "Korean": "일반",
       "in English": "general"
     },
     {
       "Number": 527,
-      "Hebrew": "קרח",
+      "Korean": "얼음",
       "in English": "ice"
     },
     {
       "Number": 528,
-      "Hebrew": "עניין",
+      "Korean": "문제",
       "in English": "matter"
     },
     {
       "Number": 529,
-      "Hebrew": "המעגל",
+      "Korean": "원",
       "in English": "circle"
     },
     {
       "Number": 530,
-      "Hebrew": "זוג",
+      "Korean": "쌍",
       "in English": "pair"
     },
     {
       "Number": 531,
-      "Hebrew": "כולל",
+      "Korean": "포함",
       "in English": "include"
     },
     {
       "Number": 532,
-      "Hebrew": "פער",
+      "Korean": "분할",
       "in English": "divide"
     },
     {
       "Number": 533,
-      "Hebrew": "הברה",
+      "Korean": "음절",
       "in English": "syllable"
     },
     {
       "Number": 534,
-      "Hebrew": "הרגיש",
+      "Korean": "느낌",
       "in English": "felt"
     },
     {
       "Number": 535,
-      "Hebrew": "גדול",
+      "Korean": "그랜드",
       "in English": "grand"
     },
     {
       "Number": 536,
-      "Hebrew": "כדור",
+      "Korean": "공",
       "in English": "ball"
     },
     {
       "Number": 537,
-      "Hebrew": "בכל זאת",
+      "Korean": "아직",
       "in English": "yet"
     },
     {
       "Number": 538,
-      "Hebrew": "גל",
+      "Korean": "파",
       "in English": "wave"
     },
     {
       "Number": 539,
-      "Hebrew": "טיפה",
+      "Korean": "드롭",
       "in English": "drop"
     },
     {
       "Number": 540,
-      "Hebrew": "לב",
+      "Korean": "마음",
       "in English": "heart"
     },
     {
       "Number": 541,
-      "Hebrew": "בבוקר",
+      "Korean": "어디로",
       "in English": "am"
     },
     {
       "Number": 542,
-      "Hebrew": "נוכחי",
+      "Korean": "현재",
       "in English": "present"
     },
     {
       "Number": 543,
-      "Hebrew": "כבד",
+      "Korean": "무거운",
       "in English": "heavy"
     },
     {
       "Number": 544,
-      "Hebrew": "ריקוד",
+      "Korean": "댄스",
       "in English": "dance"
     },
     {
       "Number": 545,
-      "Hebrew": "מנוע",
+      "Korean": "엔진",
       "in English": "engine"
     },
     {
       "Number": 546,
-      "Hebrew": "עמדה",
+      "Korean": "위치",
       "in English": "position"
     },
     {
       "Number": 547,
-      "Hebrew": "זרוע",
+      "Korean": "팔",
       "in English": "arm"
     },
     {
       "Number": 548,
-      "Hebrew": "רחב",
+      "Korean": "폭",
       "in English": "wide"
     },
     {
       "Number": 549,
-      "Hebrew": "מפרש",
+      "Korean": "항해",
       "in English": "sail"
     },
     {
       "Number": 550,
-      "Hebrew": "חומר",
+      "Korean": "재료",
       "in English": "material"
     },
     {
       "Number": 551,
-      "Hebrew": "חלק",
+      "Korean": "분수",
       "in English": "fraction"
     },
     {
       "Number": 552,
-      "Hebrew": "יער",
+      "Korean": "숲",
       "in English": "forest"
     },
     {
       "Number": 553,
-      "Hebrew": "לשבת",
+      "Korean": "앉아",
       "in English": "sit"
     },
     {
       "Number": 554,
-      "Hebrew": "מירוץ",
+      "Korean": "레이스",
       "in English": "race"
     },
     {
       "Number": 555,
-      "Hebrew": "חלון",
+      "Korean": "창",
       "in English": "window"
     },
     {
       "Number": 556,
-      "Hebrew": "חנות",
+      "Korean": "상점",
       "in English": "store"
     },
     {
       "Number": 557,
-      "Hebrew": "הקיץ",
+      "Korean": "여름",
       "in English": "summer"
     },
     {
       "Number": 558,
-      "Hebrew": "רכבת",
+      "Korean": "기차",
       "in English": "train"
     },
     {
       "Number": 559,
-      "Hebrew": "לישון",
+      "Korean": "잠",
       "in English": "sleep"
     },
     {
       "Number": 560,
-      "Hebrew": "להוכיח",
+      "Korean": "증명",
       "in English": "prove"
     },
     {
       "Number": 561,
-      "Hebrew": "בודד",
+      "Korean": "고독한",
       "in English": "lone"
     },
     {
       "Number": 562,
-      "Hebrew": "רגל",
+      "Korean": "다리",
       "in English": "leg"
     },
     {
       "Number": 563,
-      "Hebrew": "תרגיל",
+      "Korean": "운동",
       "in English": "exercise"
     },
     {
       "Number": 564,
-      "Hebrew": "קיר",
+      "Korean": "벽",
       "in English": "wall"
     },
     {
       "Number": 565,
-      "Hebrew": "מלכוד",
+      "Korean": "캐치",
       "in English": "catch"
     },
     {
       "Number": 566,
-      "Hebrew": "הר",
+      "Korean": "마운트",
       "in English": "mount"
     },
     {
       "Number": 567,
-      "Hebrew": "מאחל לי",
+      "Korean": "소원",
       "in English": "wish"
     },
     {
       "Number": 568,
-      "Hebrew": "שמים",
+      "Korean": "하늘",
       "in English": "sky"
     },
     {
       "Number": 569,
-      "Hebrew": "לוח",
+      "Korean": "판",
       "in English": "board"
     },
     {
       "Number": 570,
-      "Hebrew": "שמחה",
+      "Korean": "즐거움",
       "in English": "joy"
     },
     {
       "Number": 571,
-      "Hebrew": "חורף",
+      "Korean": "겨울",
       "in English": "winter"
     },
     {
       "Number": 572,
-      "Hebrew": "ישבתי",
+      "Korean": "토",
       "in English": "sat"
     },
     {
       "Number": 573,
-      "Hebrew": "נכתב",
+      "Korean": "기록",
       "in English": "written"
     },
     {
       "Number": 574,
-      "Hebrew": "פראי",
+      "Korean": "야생",
       "in English": "wild"
     },
     {
       "Number": 575,
-      "Hebrew": "מכשיר",
+      "Korean": "instrument",
       "in English": "instrument"
     },
     {
       "Number": 576,
-      "Hebrew": "שמר",
+      "Korean": "유지",
       "in English": "kept"
     },
     {
       "Number": 577,
-      "Hebrew": "זכוכית",
+      "Korean": "유리",
       "in English": "glass"
     },
     {
       "Number": 578,
-      "Hebrew": "דשא",
+      "Korean": "잔디",
       "in English": "grass"
     },
     {
       "Number": 579,
-      "Hebrew": "פרה",
+      "Korean": "소",
       "in English": "cow"
     },
     {
       "Number": 580,
-      "Hebrew": "עבודה",
+      "Korean": "작업",
       "in English": "job"
     },
     {
       "Number": 581,
-      "Hebrew": "קצה",
+      "Korean": "에지",
       "in English": "edge"
     },
     {
       "Number": 582,
-      "Hebrew": "סימן",
+      "Korean": "로그인",
       "in English": "sign"
     },
     {
       "Number": 583,
-      "Hebrew": "ביקור",
+      "Korean": "방문",
       "in English": "visit"
     },
     {
       "Number": 584,
-      "Hebrew": "האחרון",
+      "Korean": "지난",
       "in English": "past"
     },
     {
       "Number": 585,
-      "Hebrew": "רך",
+      "Korean": "소프트",
       "in English": "soft"
     },
     {
       "Number": 586,
-      "Hebrew": "כיף",
+      "Korean": "재미",
       "in English": "fun"
     },
     {
       "Number": 587,
-      "Hebrew": "בהיר",
+      "Korean": "밝은",
       "in English": "bright"
     },
     {
       "Number": 588,
-      "Hebrew": "גז",
+      "Korean": "가스",
       "in English": "gas"
     },
     {
       "Number": 589,
-      "Hebrew": "מזג אוויר",
+      "Korean": "날씨",
       "in English": "weather"
     },
     {
       "Number": 590,
-      "Hebrew": "חודש",
+      "Korean": "개월",
       "in English": "month"
     },
     {
       "Number": 591,
-      "Hebrew": "מיליון",
+      "Korean": "만",
       "in English": "million"
     },
     {
       "Number": 592,
-      "Hebrew": "לשאת",
+      "Korean": "곰",
       "in English": "bear"
     },
     {
       "Number": 593,
-      "Hebrew": "גימור",
+      "Korean": "끝",
       "in English": "finish"
     },
     {
       "Number": 594,
-      "Hebrew": "שמח",
+      "Korean": "행복",
       "in English": "happy"
     },
     {
       "Number": 595,
-      "Hebrew": "מקווה",
+      "Korean": "기대",
       "in English": "hope"
     },
     {
       "Number": 596,
-      "Hebrew": "פרח",
+      "Korean": "꽃",
       "in English": "flower"
     },
     {
       "Number": 597,
-      "Hebrew": "להלביש",
+      "Korean": "의복을 걸치다",
       "in English": "clothe"
     },
     {
       "Number": 598,
-      "Hebrew": "מוזר",
+      "Korean": "기이 한",
       "in English": "strange"
     },
     {
       "Number": 599,
-      "Hebrew": "נעלם",
+      "Korean": "사라",
       "in English": "gone"
     },
     {
       "Number": 600,
-      "Hebrew": "מסחר",
+      "Korean": "무역",
       "in English": "trade"
     },
     {
       "Number": 601,
-      "Hebrew": "מנגינה",
+      "Korean": "멜로디",
       "in English": "melody"
     },
     {
       "Number": 602,
-      "Hebrew": "טיול",
+      "Korean": "여행",
       "in English": "trip"
     },
     {
       "Number": 603,
-      "Hebrew": "משרד",
+      "Korean": "사무실",
       "in English": "office"
     },
     {
       "Number": 604,
-      "Hebrew": "לקבל",
+      "Korean": "수신",
       "in English": "receive"
     },
     {
       "Number": 605,
-      "Hebrew": "שורה",
+      "Korean": "행",
       "in English": "row"
     },
     {
       "Number": 606,
-      "Hebrew": "פה",
+      "Korean": "입",
       "in English": "mouth"
     },
     {
       "Number": 607,
-      "Hebrew": "מדויק",
+      "Korean": "정확한",
       "in English": "exact"
     },
     {
       "Number": 608,
-      "Hebrew": "סמל",
+      "Korean": "기호",
       "in English": "symbol"
     },
     {
       "Number": 609,
-      "Hebrew": "למות",
+      "Korean": "죽다",
       "in English": "die"
     },
     {
       "Number": 610,
-      "Hebrew": "לפחות",
+      "Korean": "이상",
       "in English": "least"
     },
     {
       "Number": 611,
-      "Hebrew": "צרות",
+      "Korean": "수고",
       "in English": "trouble"
     },
     {
       "Number": 612,
-      "Hebrew": "צעקה",
+      "Korean": "소리",
       "in English": "shout"
     },
     {
       "Number": 613,
-      "Hebrew": "אלא",
+      "Korean": "제외",
       "in English": "except"
     },
     {
       "Number": 614,
-      "Hebrew": "כתבתי",
+      "Korean": "썼다",
       "in English": "wrote"
     },
     {
       "Number": 615,
-      "Hebrew": "זרע",
+      "Korean": "씨앗",
       "in English": "seed"
     },
     {
       "Number": 616,
-      "Hebrew": "טון",
+      "Korean": "톤",
       "in English": "tone"
     },
     {
       "Number": 617,
-      "Hebrew": "להצטרף",
+      "Korean": "가입",
       "in English": "join"
     },
     {
       "Number": 618,
-      "Hebrew": "מציע",
+      "Korean": "제안",
       "in English": "suggest"
     },
     {
       "Number": 619,
-      "Hebrew": "נקי",
+      "Korean": "청소",
       "in English": "clean"
     },
     {
       "Number": 620,
-      "Hebrew": "הפסקה",
+      "Korean": "단절",
       "in English": "break"
     },
     {
       "Number": 621,
-      "Hebrew": "גברת",
+      "Korean": "아가씨",
       "in English": "lady"
     },
     {
       "Number": 622,
-      "Hebrew": "חצר",
+      "Korean": "야드",
       "in English": "yard"
     },
     {
       "Number": 623,
-      "Hebrew": "לעלות",
+      "Korean": "상승",
       "in English": "rise"
     },
     {
       "Number": 624,
-      "Hebrew": "רע",
+      "Korean": "나쁜",
       "in English": "bad"
     },
     {
       "Number": 625,
-      "Hebrew": "מכה",
+      "Korean": "타격",
       "in English": "blow"
     },
     {
       "Number": 626,
-      "Hebrew": "שמן",
+      "Korean": "기름",
       "in English": "oil"
     },
     {
       "Number": 627,
-      "Hebrew": "דם",
+      "Korean": "피",
       "in English": "blood"
     },
     {
       "Number": 628,
-      "Hebrew": "לגעת",
+      "Korean": "터치",
       "in English": "touch"
     },
     {
       "Number": 629,
-      "Hebrew": "גדלתי",
+      "Korean": "성장",
       "in English": "grew"
     },
     {
       "Number": 630,
-      "Hebrew": "סנט",
+      "Korean": "센트",
       "in English": "cent"
     },
     {
       "Number": 631,
-      "Hebrew": "לערבב",
+      "Korean": "혼합",
       "in English": "mix"
     },
     {
       "Number": 632,
-      "Hebrew": "צוות",
+      "Korean": "팀",
       "in English": "team"
     },
     {
       "Number": 633,
-      "Hebrew": "חוט",
+      "Korean": "와이어",
       "in English": "wire"
     },
     {
       "Number": 634,
-      "Hebrew": "עלות",
+      "Korean": "비용",
       "in English": "cost"
     },
     {
       "Number": 635,
-      "Hebrew": "איבדתי",
+      "Korean": "손실",
       "in English": "lost"
     },
     {
       "Number": 636,
-      "Hebrew": "חום",
+      "Korean": "갈색",
       "in English": "brown"
     },
     {
       "Number": 637,
-      "Hebrew": "ללבוש",
+      "Korean": "착용",
       "in English": "wear"
     },
     {
       "Number": 638,
-      "Hebrew": "גן",
+      "Korean": "정원",
       "in English": "garden"
     },
     {
       "Number": 639,
-      "Hebrew": "שווה",
+      "Korean": "동일",
       "in English": "equal"
     },
     {
       "Number": 640,
-      "Hebrew": "שלחתי",
+      "Korean": "전송",
       "in English": "sent"
     },
     {
       "Number": 641,
-      "Hebrew": "לבחור",
+      "Korean": "선택",
       "in English": "choose"
     },
     {
       "Number": 642,
-      "Hebrew": "נפלתי",
+      "Korean": "하락",
       "in English": "fell"
     },
     {
       "Number": 643,
-      "Hebrew": "להתאים",
+      "Korean": "적합",
       "in English": "fit"
     },
     {
       "Number": 644,
-      "Hebrew": "לזרום",
+      "Korean": "흐름",
       "in English": "flow"
     },
     {
       "Number": 645,
-      "Hebrew": "הוגן",
+      "Korean": "박람회",
       "in English": "fair"
     },
     {
       "Number": 646,
-      "Hebrew": "בנק",
+      "Korean": "은행",
       "in English": "bank"
     },
     {
       "Number": 647,
-      "Hebrew": "לאסוף",
+      "Korean": "수집",
       "in English": "collect"
     },
     {
       "Number": 648,
-      "Hebrew": "להציל",
+      "Korean": "저장",
       "in English": "save"
     },
     {
       "Number": 649,
-      "Hebrew": "שליטה",
+      "Korean": "제어",
       "in English": "control"
     },
     {
       "Number": 650,
-      "Hebrew": "עשרוני",
+      "Korean": "소수점",
       "in English": "decimal"
     },
     {
       "Number": 651,
-      "Hebrew": "אוזן",
+      "Korean": "귀",
       "in English": "ear"
     },
     {
       "Number": 652,
-      "Hebrew": "אחר",
+      "Korean": "다른",
       "in English": "else"
     },
     {
       "Number": 653,
-      "Hebrew": "די",
+      "Korean": "아주",
       "in English": "quite"
     },
     {
       "Number": 654,
-      "Hebrew": "פרץ",
+      "Korean": "파산",
       "in English": "broke"
     },
     {
       "Number": 655,
-      "Hebrew": "מקרה",
+      "Korean": "경우",
       "in English": "case"
     },
     {
       "Number": 656,
-      "Hebrew": "אמצע",
+      "Korean": "중간",
       "in English": "middle"
     },
     {
       "Number": 657,
-      "Hebrew": "להרוג",
+      "Korean": "죽",
       "in English": "kill"
     },
     {
       "Number": 658,
-      "Hebrew": "בן",
+      "Korean": "아들",
       "in English": "son"
     },
     {
       "Number": 659,
-      "Hebrew": "אגם",
+      "Korean": "호수",
       "in English": "lake"
     },
     {
       "Number": 660,
-      "Hebrew": "רגע",
+      "Korean": "순간",
       "in English": "moment"
     },
     {
       "Number": 661,
-      "Hebrew": "בקנה מידה",
+      "Korean": "규모",
       "in English": "scale"
     },
     {
       "Number": 662,
-      "Hebrew": "רם",
+      "Korean": "큰 소리로",
       "in English": "loud"
     },
     {
       "Number": 663,
-      "Hebrew": "האביב",
+      "Korean": "봄",
       "in English": "spring"
     },
     {
       "Number": 664,
-      "Hebrew": "להתבונן",
+      "Korean": "관찰",
       "in English": "observe"
     },
     {
       "Number": 665,
-      "Hebrew": "ילד",
+      "Korean": "아이",
       "in English": "child"
     },
     {
       "Number": 666,
-      "Hebrew": "ישר",
+      "Korean": "직선",
       "in English": "straight"
     },
     {
       "Number": 667,
-      "Hebrew": "עיצור",
+      "Korean": "자음",
       "in English": "consonant"
     },
     {
       "Number": 668,
-      "Hebrew": "אומה",
+      "Korean": "국민",
       "in English": "nation"
     },
     {
       "Number": 669,
-      "Hebrew": "מילון",
+      "Korean": "사전",
       "in English": "dictionary"
     },
     {
       "Number": 670,
-      "Hebrew": "חלב",
+      "Korean": "우유",
       "in English": "milk"
     },
     {
       "Number": 671,
-      "Hebrew": "מהירות",
+      "Korean": "속도",
       "in English": "speed"
     },
     {
       "Number": 672,
-      "Hebrew": "שיטה",
+      "Korean": "방법",
       "in English": "method"
     },
     {
       "Number": 673,
-      "Hebrew": "איבר",
+      "Korean": "기관",
       "in English": "organ"
     },
     {
       "Number": 674,
-      "Hebrew": "לשלם",
+      "Korean": "지불",
       "in English": "pay"
     },
     {
       "Number": 675,
-      "Hebrew": "גיל",
+      "Korean": "연령",
       "in English": "age"
     },
     {
       "Number": 676,
-      "Hebrew": "סעיף",
+      "Korean": "섹션",
       "in English": "section"
     },
     {
       "Number": 677,
-      "Hebrew": "שמלה",
+      "Korean": "드레스",
       "in English": "dress"
     },
     {
       "Number": 678,
-      "Hebrew": "ענן",
+      "Korean": "구름",
       "in English": "cloud"
     },
     {
       "Number": 679,
-      "Hebrew": "הפתעה",
+      "Korean": "놀람",
       "in English": "surprise"
     },
     {
       "Number": 680,
-      "Hebrew": "שקט",
+      "Korean": "조용한",
       "in English": "quiet"
     },
     {
       "Number": 681,
-      "Hebrew": "אבן",
+      "Korean": "돌",
       "in English": "stone"
     },
     {
       "Number": 682,
-      "Hebrew": "זעיר",
+      "Korean": "작은",
       "in English": "tiny"
     },
     {
       "Number": 683,
-      "Hebrew": "טיפוס",
+      "Korean": "등반",
       "in English": "climb"
     },
     {
       "Number": 684,
-      "Hebrew": "מגניב",
+      "Korean": "멋진",
       "in English": "cool"
     },
     {
       "Number": 685,
-      "Hebrew": "לעצב",
+      "Korean": "디자인",
       "in English": "design"
     },
     {
       "Number": 686,
-      "Hebrew": "עני",
+      "Korean": "가난한",
       "in English": "poor"
     },
     {
       "Number": 687,
-      "Hebrew": "מגרש",
+      "Korean": "많은",
       "in English": "lot"
     },
     {
       "Number": 688,
-      "Hebrew": "ניסיון",
+      "Korean": "실험",
       "in English": "experiment"
     },
     {
       "Number": 689,
-      "Hebrew": "תחתון",
+      "Korean": "바닥",
       "in English": "bottom"
     },
     {
       "Number": 690,
-      "Hebrew": "מפתח",
+      "Korean": "키",
       "in English": "key"
     },
     {
       "Number": 691,
-      "Hebrew": "ברזל",
+      "Korean": "철",
       "in English": "iron"
     },
     {
       "Number": 692,
-      "Hebrew": "אחת",
+      "Korean": "단일",
       "in English": "single"
     },
     {
       "Number": 693,
-      "Hebrew": "מקל",
+      "Korean": "스틱",
       "in English": "stick"
     },
     {
       "Number": 694,
-      "Hebrew": "דירה",
+      "Korean": "플랫",
       "in English": "flat"
     },
     {
       "Number": 695,
-      "Hebrew": "עשרים",
+      "Korean": "스물",
       "in English": "twenty"
     },
     {
       "Number": 696,
-      "Hebrew": "עור",
+      "Korean": "피부",
       "in English": "skin"
     },
     {
       "Number": 697,
-      "Hebrew": "חיוך",
+      "Korean": "미소",
       "in English": "smile"
     },
     {
       "Number": 698,
-      "Hebrew": "קמט",
+      "Korean": "주름",
       "in English": "crease"
     },
     {
       "Number": 699,
-      "Hebrew": "חור",
+      "Korean": "구멍",
       "in English": "hole"
     },
     {
       "Number": 700,
-      "Hebrew": "לקפוץ",
+      "Korean": "점프",
       "in English": "jump"
     },
     {
       "Number": 701,
-      "Hebrew": "תינוק",
+      "Korean": "아가",
       "in English": "baby"
     },
     {
       "Number": 702,
-      "Hebrew": "שמונה",
+      "Korean": "팔",
       "in English": "eight"
     },
     {
       "Number": 703,
-      "Hebrew": "כפר",
+      "Korean": "마을",
       "in English": "village"
     },
     {
       "Number": 704,
-      "Hebrew": "נפגש",
+      "Korean": "대회",
       "in English": "meet"
     },
     {
       "Number": 705,
-      "Hebrew": "שורש",
+      "Korean": "루트",
       "in English": "root"
     },
     {
       "Number": 706,
-      "Hebrew": "לקנות",
+      "Korean": "사기",
       "in English": "buy"
     },
     {
       "Number": 707,
-      "Hebrew": "להעלות",
+      "Korean": "인상",
       "in English": "raise"
     },
     {
       "Number": 708,
-      "Hebrew": "לפתור",
+      "Korean": "해결",
       "in English": "solve"
     },
     {
       "Number": 709,
-      "Hebrew": "מתכת",
+      "Korean": "금속",
       "in English": "metal"
     },
     {
       "Number": 710,
-      "Hebrew": "אם",
+      "Korean": "여부",
       "in English": "whether"
     },
     {
       "Number": 711,
-      "Hebrew": "דחיפה",
+      "Korean": "푸시",
       "in English": "push"
     },
     {
       "Number": 712,
-      "Hebrew": "שבע",
+      "Korean": "일곱",
       "in English": "seven"
     },
     {
       "Number": 713,
-      "Hebrew": "סעיף",
+      "Korean": "단락",
       "in English": "paragraph"
     },
     {
       "Number": 714,
-      "Hebrew": "שלישי",
+      "Korean": "세번째",
       "in English": "third"
     },
     {
       "Number": 715,
-      "Hebrew": "תהא",
+      "Korean": "하여야한다",
       "in English": "shall"
     },
     {
       "Number": 716,
-      "Hebrew": "מוחזק",
+      "Korean": "개최",
       "in English": "held"
     },
     {
       "Number": 717,
-      "Hebrew": "שיער",
+      "Korean": "머리",
       "in English": "hair"
     },
     {
       "Number": 718,
-      "Hebrew": "לתאר",
+      "Korean": "설명",
       "in English": "describe"
     },
     {
       "Number": 719,
-      "Hebrew": "טבח",
+      "Korean": "요리",
       "in English": "cook"
     },
     {
       "Number": 720,
-      "Hebrew": "רצפה",
+      "Korean": "바닥",
       "in English": "floor"
     },
     {
       "Number": 721,
-      "Hebrew": "או",
+      "Korean": "중",
       "in English": "either"
     },
     {
       "Number": 722,
-      "Hebrew": "תוצאה",
+      "Korean": "결과",
       "in English": "result"
     },
     {
       "Number": 723,
-      "Hebrew": "לשרוף",
+      "Korean": "구울",
       "in English": "burn"
     },
     {
       "Number": 724,
-      "Hebrew": "גבעה",
+      "Korean": "언덕",
       "in English": "hill"
     },
     {
       "Number": 725,
-      "Hebrew": "בטוח",
+      "Korean": "안전한",
       "in English": "safe"
     },
     {
       "Number": 726,
-      "Hebrew": "חתול",
+      "Korean": "고양이",
       "in English": "cat"
     },
     {
       "Number": 727,
-      "Hebrew": "המאה",
+      "Korean": "세기",
       "in English": "century"
     },
     {
       "Number": 728,
-      "Hebrew": "לשקול",
+      "Korean": "고려",
       "in English": "consider"
     },
     {
       "Number": 729,
-      "Hebrew": "סוג",
+      "Korean": "유형",
       "in English": "type"
     },
     {
       "Number": 730,
-      "Hebrew": "החוק",
+      "Korean": "법",
       "in English": "law"
     },
     {
       "Number": 731,
-      "Hebrew": "קצת",
+      "Korean": "비트",
       "in English": "bit"
     },
     {
       "Number": 732,
-      "Hebrew": "החוף",
+      "Korean": "해안",
       "in English": "coast"
     },
     {
       "Number": 733,
-      "Hebrew": "עותק",
+      "Korean": "복사",
       "in English": "copy"
     },
     {
       "Number": 734,
-      "Hebrew": "ביטוי",
+      "Korean": "문구",
       "in English": "phrase"
     },
     {
       "Number": 735,
-      "Hebrew": "שקט",
+      "Korean": "침묵",
       "in English": "silent"
     },
     {
       "Number": 736,
-      "Hebrew": "גבוה",
+      "Korean": "키",
       "in English": "tall"
     },
     {
       "Number": 737,
-      "Hebrew": "חול",
+      "Korean": "모래",
       "in English": "sand"
     },
     {
       "Number": 738,
-      "Hebrew": "אדמה",
+      "Korean": "토양",
       "in English": "soil"
     },
     {
       "Number": 739,
-      "Hebrew": "גליל",
+      "Korean": "롤",
       "in English": "roll"
     },
     {
       "Number": 740,
-      "Hebrew": "טמפרטורה",
+      "Korean": "온도",
       "in English": "temperature"
     },
     {
       "Number": 741,
-      "Hebrew": "אצבע",
+      "Korean": "손가락",
       "in English": "finger"
     },
     {
       "Number": 742,
-      "Hebrew": "תעשייה",
+      "Korean": "산업",
       "in English": "industry"
     },
     {
       "Number": 743,
-      "Hebrew": "ערך",
+      "Korean": "값",
       "in English": "value"
     },
     {
       "Number": 744,
-      "Hebrew": "מאבק",
+      "Korean": "싸움",
       "in English": "fight"
     },
     {
       "Number": 745,
-      "Hebrew": "שקר",
+      "Korean": "거짓말",
       "in English": "lie"
     },
     {
       "Number": 746,
-      "Hebrew": "הכה",
+      "Korean": "이길",
       "in English": "beat"
     },
     {
       "Number": 747,
-      "Hebrew": "לרגש",
+      "Korean": "흥분",
       "in English": "excite"
     },
     {
       "Number": 748,
-      "Hebrew": "טבעי",
+      "Korean": "자연",
       "in English": "natural"
     },
     {
       "Number": 749,
-      "Hebrew": "תצוגה",
+      "Korean": "보기",
       "in English": "view"
     },
     {
       "Number": 750,
-      "Hebrew": "תחושה",
+      "Korean": "의미",
       "in English": "sense"
     },
     {
       "Number": 751,
-      "Hebrew": "הון",
+      "Korean": "자본",
       "in English": "capital"
     },
     {
       "Number": 752,
-      "Hebrew": "לא יהיה",
+      "Korean": "하지 않습니다",
       "in English": "won’t"
     },
     {
       "Number": 753,
-      "Hebrew": "כיסא",
+      "Korean": "의자",
       "in English": "chair"
     },
     {
       "Number": 754,
-      "Hebrew": "סכנה",
+      "Korean": "위험",
       "in English": "danger"
     },
     {
       "Number": 755,
-      "Hebrew": "פירות",
+      "Korean": "과일",
       "in English": "fruit"
     },
     {
       "Number": 756,
-      "Hebrew": "עשיר",
+      "Korean": "풍부한",
       "in English": "rich"
     },
     {
       "Number": 757,
-      "Hebrew": "עבה",
+      "Korean": "두께",
       "in English": "thick"
     },
     {
       "Number": 758,
-      "Hebrew": "חיל",
+      "Korean": "군인",
       "in English": "soldier"
     },
     {
       "Number": 759,
-      "Hebrew": "תהליך",
+      "Korean": "과정",
       "in English": "process"
     },
     {
       "Number": 760,
-      "Hebrew": "פועל",
+      "Korean": "운영",
       "in English": "operate"
     },
     {
       "Number": 761,
-      "Hebrew": "בפועל",
+      "Korean": "연습",
       "in English": "practice"
     },
     {
       "Number": 762,
-      "Hebrew": "נפרד",
+      "Korean": "별도의",
       "in English": "separate"
     },
     {
       "Number": 763,
-      "Hebrew": "קשה",
+      "Korean": "어려운",
       "in English": "difficult"
     },
     {
       "Number": 764,
-      "Hebrew": "רופא",
+      "Korean": "의사",
       "in English": "doctor"
     },
     {
       "Number": 765,
-      "Hebrew": "בבקשה",
+      "Korean": "제발",
       "in English": "please"
     },
     {
       "Number": 766,
-      "Hebrew": "להגן על",
+      "Korean": "보호",
       "in English": "protect"
     },
     {
       "Number": 767,
-      "Hebrew": "הצהריים",
+      "Korean": "정오",
       "in English": "noon"
     },
     {
       "Number": 768,
-      "Hebrew": "יבול",
+      "Korean": "작물",
       "in English": "crop"
     },
     {
       "Number": 769,
-      "Hebrew": "מודרני",
+      "Korean": "현대",
       "in English": "modern"
     },
     {
       "Number": 770,
-      "Hebrew": "אלמנט",
+      "Korean": "요소",
       "in English": "element"
     },
     {
       "Number": 771,
-      "Hebrew": "פגע",
+      "Korean": "히트",
       "in English": "hit"
     },
     {
       "Number": 772,
-      "Hebrew": "סטודנט",
+      "Korean": "학생",
       "in English": "student"
     },
     {
       "Number": 773,
-      "Hebrew": "פינה",
+      "Korean": "코너",
       "in English": "corner"
     },
     {
       "Number": 774,
-      "Hebrew": "מפלגה",
+      "Korean": "파티",
       "in English": "party"
     },
     {
       "Number": 775,
-      "Hebrew": "אספקה",
+      "Korean": "공급",
       "in English": "supply"
     },
     {
       "Number": 776,
-      "Hebrew": "של מי",
+      "Korean": "누구의",
       "in English": "whose"
     },
     {
       "Number": 777,
-      "Hebrew": "אתר",
+      "Korean": "위치",
       "in English": "locate"
     },
     {
       "Number": 778,
-      "Hebrew": "טבעת",
+      "Korean": "링",
       "in English": "ring"
     },
     {
       "Number": 779,
-      "Hebrew": "אופי",
+      "Korean": "문자",
       "in English": "character"
     },
     {
       "Number": 780,
-      "Hebrew": "חרקים",
+      "Korean": "곤충",
       "in English": "insect"
     },
     {
       "Number": 781,
-      "Hebrew": "נתפס",
+      "Korean": "적발",
       "in English": "caught"
     },
     {
       "Number": 782,
-      "Hebrew": "התקופה",
+      "Korean": "기간",
       "in English": "period"
     },
     {
       "Number": 783,
-      "Hebrew": "מצביע על",
+      "Korean": "표시",
       "in English": "indicate"
     },
     {
       "Number": 784,
-      "Hebrew": "רדיו",
+      "Korean": "라디오",
       "in English": "radio"
     },
     {
       "Number": 785,
-      "Hebrew": "דיברתי",
+      "Korean": "이야기",
       "in English": "spoke"
     },
     {
       "Number": 786,
-      "Hebrew": "אטום",
+      "Korean": "원자",
       "in English": "atom"
     },
     {
       "Number": 787,
-      "Hebrew": "אדם",
+      "Korean": "인간",
       "in English": "human"
     },
     {
       "Number": 788,
-      "Hebrew": "היסטוריה",
+      "Korean": "역사",
       "in English": "history"
     },
     {
       "Number": 789,
-      "Hebrew": "השפעה",
+      "Korean": "효과",
       "in English": "effect"
     },
     {
       "Number": 790,
-      "Hebrew": "חשמלי",
+      "Korean": "전기",
       "in English": "electric"
     },
     {
       "Number": 791,
-      "Hebrew": "מצפה",
+      "Korean": "기대",
       "in English": "expect"
     },
     {
       "Number": 792,
-      "Hebrew": "עצם",
+      "Korean": "골",
       "in English": "bone"
     },
     {
       "Number": 793,
-      "Hebrew": "רכבת",
+      "Korean": "레일",
       "in English": "rail"
     },
     {
       "Number": 794,
-      "Hebrew": "להניח",
+      "Korean": "상상",
       "in English": "imagine"
     },
     {
       "Number": 795,
-      "Hebrew": "לספק",
+      "Korean": "제공",
       "in English": "provide"
     },
     {
       "Number": 796,
-      "Hebrew": "מסכים",
+      "Korean": "동의",
       "in English": "agree"
     },
     {
       "Number": 797,
-      "Hebrew": "כך",
+      "Korean": "따라서",
       "in English": "thus"
     },
     {
       "Number": 798,
-      "Hebrew": "עדין",
+      "Korean": "부드러운",
       "in English": "gentle"
     },
     {
       "Number": 799,
-      "Hebrew": "אישה",
+      "Korean": "여성",
       "in English": "woman"
     },
     {
       "Number": 800,
-      "Hebrew": "קפטן",
+      "Korean": "주장",
       "in English": "captain"
     },
     {
       "Number": 801,
-      "Hebrew": "מניח",
+      "Korean": "추측",
       "in English": "guess"
     },
     {
       "Number": 802,
-      "Hebrew": "הכרחי",
+      "Korean": "필요",
       "in English": "necessary"
     },
     {
       "Number": 803,
-      "Hebrew": "חד",
+      "Korean": "날카로운",
       "in English": "sharp"
     },
     {
       "Number": 804,
-      "Hebrew": "כנף",
+      "Korean": "날개",
       "in English": "wing"
     },
     {
       "Number": 805,
-      "Hebrew": "ליצור",
+      "Korean": "작성",
       "in English": "create"
     },
     {
       "Number": 806,
-      "Hebrew": "השכן",
+      "Korean": "이웃",
       "in English": "neighbor"
     },
     {
       "Number": 807,
-      "Hebrew": "לשטוף",
+      "Korean": "세척",
       "in English": "wash"
     },
     {
       "Number": 808,
-      "Hebrew": "עטלף",
+      "Korean": "박쥐",
       "in English": "bat"
     },
     {
       "Number": 809,
-      "Hebrew": "ולא",
+      "Korean": "오히려",
       "in English": "rather"
     },
     {
       "Number": 810,
-      "Hebrew": "קהל",
+      "Korean": "군중",
       "in English": "crowd"
     },
     {
       "Number": 811,
-      "Hebrew": "תירס",
+      "Korean": "옥수수",
       "in English": "corn"
     },
     {
       "Number": 812,
-      "Hebrew": "להשוות",
+      "Korean": "비교",
       "in English": "compare"
     },
     {
       "Number": 813,
-      "Hebrew": "שיר",
+      "Korean": "시",
       "in English": "poem"
     },
     {
       "Number": 814,
-      "Hebrew": "מחרוזת",
+      "Korean": "문자열",
       "in English": "string"
     },
     {
       "Number": 815,
-      "Hebrew": "פעמון",
+      "Korean": "벨",
       "in English": "bell"
     },
     {
       "Number": 816,
-      "Hebrew": "תלויים",
+      "Korean": "따라",
       "in English": "depend"
     },
     {
       "Number": 817,
-      "Hebrew": "בשר",
+      "Korean": "고기",
       "in English": "meat"
     },
     {
       "Number": 818,
-      "Hebrew": "לשפשף",
+      "Korean": "문지",
       "in English": "rub"
     },
     {
       "Number": 819,
-      "Hebrew": "צינור",
+      "Korean": "튜브",
       "in English": "tube"
     },
     {
       "Number": 820,
-      "Hebrew": "מפורסם",
+      "Korean": "유명한",
       "in English": "famous"
     },
     {
       "Number": 921,
-      "Hebrew": "דולר",
+      "Korean": "달러",
       "in English": "dollar"
     },
     {
       "Number": 822,
-      "Hebrew": "זרם",
+      "Korean": "스트림",
       "in English": "stream"
     },
     {
       "Number": 823,
-      "Hebrew": "פחד",
+      "Korean": "무서움",
       "in English": "fear"
     },
     {
       "Number": 284,
-      "Hebrew": "מראה",
+      "Korean": "시력",
       "in English": "sight"
     },
     {
       "Number": 825,
-      "Hebrew": "דק",
+      "Korean": "얇은",
       "in English": "thin"
     },
     {
       "Number": 826,
-      "Hebrew": "משולש",
+      "Korean": "삼각형",
       "in English": "triangle"
     },
     {
       "Number": 827,
-      "Hebrew": "כדור הארץ",
+      "Korean": "행성",
       "in English": "planet"
     },
     {
       "Number": 828,
-      "Hebrew": "למהר",
+      "Korean": "서둘러",
       "in English": "hurry"
     },
     {
       "Number": 829,
-      "Hebrew": "ראשי",
+      "Korean": "장",
       "in English": "chief"
     },
     {
       "Number": 830,
-      "Hebrew": "מושבה",
+      "Korean": "식민지",
       "in English": "colony"
     },
     {
       "Number": 831,
-      "Hebrew": "שעון",
+      "Korean": "시계",
       "in English": "clock"
     },
     {
       "Number": 832,
-      "Hebrew": "שלי",
+      "Korean": "내",
       "in English": "mine"
     },
     {
       "Number": 833,
-      "Hebrew": "עניבה",
+      "Korean": "넥타이",
       "in English": "tie"
     },
     {
       "Number": 834,
-      "Hebrew": "להיכנס",
+      "Korean": "입력",
       "in English": "enter"
     },
     {
       "Number": 835,
-      "Hebrew": "גדול",
+      "Korean": "주요",
       "in English": "major"
     },
     {
       "Number": 836,
-      "Hebrew": "טרי",
+      "Korean": "신선한",
       "in English": "fresh"
     },
     {
       "Number": 837,
-      "Hebrew": "חיפוש",
+      "Korean": "검색",
       "in English": "search"
     },
     {
       "Number": 838,
-      "Hebrew": "לשלוח",
+      "Korean": "보내",
       "in English": "send"
     },
     {
       "Number": 839,
-      "Hebrew": "צהוב",
+      "Korean": "노란색",
       "in English": "yellow"
     },
     {
       "Number": 840,
-      "Hebrew": "אקדח",
+      "Korean": "총",
       "in English": "gun"
     },
     {
       "Number": 841,
-      "Hebrew": "לאפשר",
+      "Korean": "수",
       "in English": "allow"
     },
     {
       "Number": 842,
-      "Hebrew": "הדפסה",
+      "Korean": "인쇄",
       "in English": "print"
     },
     {
       "Number": 843,
-      "Hebrew": "מת",
+      "Korean": "죽은",
       "in English": "dead"
     },
     {
       "Number": 844,
-      "Hebrew": "מקום",
+      "Korean": "자리",
       "in English": "spot"
     },
     {
       "Number": 845,
-      "Hebrew": "מדבר",
+      "Korean": "사막",
       "in English": "desert"
     },
     {
       "Number": 846,
-      "Hebrew": "חליפה",
+      "Korean": "정장",
       "in English": "suit"
     },
     {
       "Number": 847,
-      "Hebrew": "נוכחי",
+      "Korean": "현재",
       "in English": "current"
     },
     {
       "Number": 848,
-      "Hebrew": "מעלית",
+      "Korean": "리프트",
       "in English": "lift"
     },
     {
       "Number": 840,
-      "Hebrew": "עלה",
+      "Korean": "장미",
       "in English": "rose"
     },
     {
       "Number": 850,
-      "Hebrew": "להגיע",
+      "Korean": "도착",
       "in English": "arrive"
     },
     {
       "Number": 851,
-      "Hebrew": "אדון",
+      "Korean": "마스터",
       "in English": "master"
     },
     {
       "Number": 852,
-      "Hebrew": "מסלול",
+      "Korean": "트랙",
       "in English": "track"
     },
     {
       "Number": 853,
-      "Hebrew": "הורה",
+      "Korean": "부모",
       "in English": "parent"
     },
     {
       "Number": 854,
-      "Hebrew": "החוף",
+      "Korean": "해안",
       "in English": "shore"
     },
     {
       "Number": 855,
-      "Hebrew": "החלוקה",
+      "Korean": "부문",
       "in English": "division"
     },
     {
       "Number": 856,
-      "Hebrew": "גיליון",
+      "Korean": "시트",
       "in English": "sheet"
     },
     {
       "Number": 857,
-      "Hebrew": "חומר",
+      "Korean": "물질",
       "in English": "substance"
     },
     {
       "Number": 858,
-      "Hebrew": "להעדיף",
+      "Korean": "호의",
       "in English": "favor"
     },
     {
       "Number": 859,
-      "Hebrew": "להתחבר",
+      "Korean": "연결",
       "in English": "connect"
     },
     {
       "Number": 860,
-      "Hebrew": "שלאחר",
+      "Korean": "포스트",
       "in English": "post"
     },
     {
       "Number": 861,
-      "Hebrew": "לבלות",
+      "Korean": "지출",
       "in English": "spend"
     },
     {
       "Number": 862,
-      "Hebrew": "אקורד",
+      "Korean": "코드",
       "in English": "chord"
     },
     {
       "Number": 863,
-      "Hebrew": "שומן",
+      "Korean": "지방",
       "in English": "fat"
     },
     {
       "Number": 864,
-      "Hebrew": "שמח",
+      "Korean": "다행",
       "in English": "glad"
     },
     {
       "Number": 865,
-      "Hebrew": "מקורי",
+      "Korean": "원래",
       "in English": "original"
     },
     {
       "Number": 866,
-      "Hebrew": "מניה",
+      "Korean": "주",
       "in English": "share"
     },
     {
       "Number": 867,
-      "Hebrew": "תחנה",
+      "Korean": "역",
       "in English": "station"
     },
     {
       "Number": 868,
-      "Hebrew": "אבא",
+      "Korean": "아빠",
       "in English": "dad"
     },
     {
       "Number": 869,
-      "Hebrew": "לחם",
+      "Korean": "빵",
       "in English": "bread"
     },
     {
       "Number": 870,
-      "Hebrew": "לחייב את",
+      "Korean": "충전",
       "in English": "charge"
     },
     {
       "Number": 871,
-      "Hebrew": "ראוי",
+      "Korean": "적절한",
       "in English": "proper"
     },
     {
       "Number": 872,
-      "Hebrew": "בר",
+      "Korean": "바",
       "in English": "bar"
     },
     {
       "Number": 873,
-      "Hebrew": "הצעה",
+      "Korean": "제안",
       "in English": "offer"
     },
     {
       "Number": 874,
-      "Hebrew": "קטע",
+      "Korean": "세그먼트",
       "in English": "segment"
     },
     {
       "Number": 875,
-      "Hebrew": "עבדים",
+      "Korean": "슬레이브",
       "in English": "slave"
     },
     {
       "Number": 876,
-      "Hebrew": "ברווז",
+      "Korean": "오리",
       "in English": "duck"
     },
     {
       "Number": 877,
-      "Hebrew": "מיידי",
+      "Korean": "인스턴트",
       "in English": "instant"
     },
     {
       "Number": 878,
-      "Hebrew": "שוק",
+      "Korean": "시장",
       "in English": "market"
     },
     {
       "Number": 879,
-      "Hebrew": "תואר",
+      "Korean": "도",
       "in English": "degree"
     },
     {
       "Number": 880,
-      "Hebrew": "לאכלס",
+      "Korean": "웁니다",
       "in English": "populate"
     },
     {
       "Number": 881,
-      "Hebrew": "חומוס",
+      "Korean": "병아리",
       "in English": "chick"
     },
     {
       "Number": 882,
-      "Hebrew": "יקר",
+      "Korean": "친애",
       "in English": "dear"
     },
     {
       "Number": 883,
-      "Hebrew": "אויב",
+      "Korean": "적",
       "in English": "enemy"
     },
     {
       "Number": 884,
-      "Hebrew": "להגיב",
+      "Korean": "응답",
       "in English": "reply"
     },
     {
       "Number": 885,
-      "Hebrew": "משקה",
+      "Korean": "한잔",
       "in English": "drink"
     },
     {
       "Number": 886,
-      "Hebrew": "להתרחש",
+      "Korean": "발생",
       "in English": "occur"
     },
     {
       "Number": 887,
-      "Hebrew": "תמיכה",
+      "Korean": "지원",
       "in English": "support"
     },
     {
       "Number": 888,
-      "Hebrew": "נאום",
+      "Korean": "음성",
       "in English": "speech"
     },
     {
       "Number": 889,
-      "Hebrew": "טבע",
+      "Korean": "자연",
       "in English": "nature"
     },
     {
       "Number": 890,
-      "Hebrew": "טווח",
+      "Korean": "범위",
       "in English": "range"
     },
     {
       "Number": 891,
-      "Hebrew": "קיטור",
+      "Korean": "증기",
       "in English": "steam"
     },
     {
       "Number": 892,
-      "Hebrew": "תנועה",
+      "Korean": "모션",
       "in English": "motion"
     },
     {
       "Number": 893,
-      "Hebrew": "נתיב",
+      "Korean": "경로",
       "in English": "path"
     },
     {
       "Number": 894,
-      "Hebrew": "נוזל",
+      "Korean": "액체",
       "in English": "liquid"
     },
     {
       "Number": 895,
-      "Hebrew": "להיכנס",
+      "Korean": "로그인",
       "in English": "log"
     },
     {
       "Number": 896,
-      "Hebrew": "התכוון",
+      "Korean": "의미",
       "in English": "meant"
     },
     {
       "Number": 897,
-      "Hebrew": "מנה",
+      "Korean": "지수",
       "in English": "quotient"
     },
     {
       "Number": 898,
-      "Hebrew": "שיניים",
+      "Korean": "치아",
       "in English": "teeth"
     },
     {
       "Number": 899,
-      "Hebrew": "פגז",
+      "Korean": "쉘",
       "in English": "shell"
     },
     {
       "Number": 900,
-      "Hebrew": "צוואר",
+      "Korean": "목",
       "in English": "neck"
     },
     {
       "Number": 901,
-      "Hebrew": "חמצן",
+      "Korean": "산소",
       "in English": "oxygen"
     },
     {
       "Number": 902,
-      "Hebrew": "סוכר",
+      "Korean": "설탕",
       "in English": "sugar"
     },
     {
       "Number": 903,
-      "Hebrew": "מוות",
+      "Korean": "죽음",
       "in English": "death"
     },
     {
       "Number": 904,
-      "Hebrew": "די",
+      "Korean": "꽤",
       "in English": "pretty"
     },
     {
       "Number": 905,
-      "Hebrew": "מיומנות",
+      "Korean": "기술",
       "in English": "skill"
     },
     {
       "Number": 906,
-      "Hebrew": "נשים",
+      "Korean": "여성",
       "in English": "women"
     },
     {
       "Number": 907,
-      "Hebrew": "עונה",
+      "Korean": "시즌",
       "in English": "season"
     },
     {
       "Number": 908,
-      "Hebrew": "פתרון",
+      "Korean": "용액",
       "in English": "solution"
     },
     {
       "Number": 909,
-      "Hebrew": "מגנט",
+      "Korean": "자석",
       "in English": "magnet"
     },
     {
       "Number": 910,
-      "Hebrew": "כסף",
+      "Korean": "실버",
       "in English": "silver"
     },
     {
       "Number": 911,
-      "Hebrew": "תודה",
+      "Korean": "감사",
       "in English": "thank"
     },
     {
       "Number": 912,
-      "Hebrew": "סניף",
+      "Korean": "지점",
       "in English": "branch"
     },
     {
       "Number": 913,
-      "Hebrew": "משחק",
+      "Korean": "경기",
       "in English": "match"
     },
     {
       "Number": 914,
-      "Hebrew": "סיומת",
+      "Korean": "접미사",
       "in English": "suffix"
     },
     {
       "Number": 915,
-      "Hebrew": "במיוחד",
+      "Korean": "특히",
       "in English": "especially"
     },
     {
       "Number": 916,
-      "Hebrew": "תאנה",
+      "Korean": "그림",
       "in English": "fig"
     },
     {
       "Number": 917,
-      "Hebrew": "חושש",
+      "Korean": "두려워",
       "in English": "afraid"
     },
     {
       "Number": 918,
-      "Hebrew": "ענק",
+      "Korean": "거대한",
       "in English": "huge"
     },
     {
       "Number": 919,
-      "Hebrew": "אחות",
+      "Korean": "자매",
       "in English": "sister"
     },
     {
       "Number": 920,
-      "Hebrew": "פלדה",
+      "Korean": "스틸",
       "in English": "steel"
     },
     {
       "Number": 921,
-      "Hebrew": "לדון",
+      "Korean": "논의",
       "in English": "discuss"
     },
     {
       "Number": 922,
-      "Hebrew": "קדימה",
+      "Korean": "앞으로",
       "in English": "forward"
     },
     {
       "Number": 923,
-      "Hebrew": "דומה",
+      "Korean": "비슷한",
       "in English": "similar"
     },
     {
       "Number": 924,
-      "Hebrew": "להנחות את",
+      "Korean": "가이드",
       "in English": "guide"
     },
     {
       "Number": 925,
-      "Hebrew": "ניסיון",
+      "Korean": "경험",
       "in English": "experience"
     },
     {
       "Number": 926,
-      "Hebrew": "ציון",
+      "Korean": "점수",
       "in English": "score"
     },
     {
       "Number": 927,
-      "Hebrew": "תפוח",
+      "Korean": "사과",
       "in English": "apple"
     },
     {
       "Number": 928,
-      "Hebrew": "קניתי",
+      "Korean": "구입",
       "in English": "bought"
     },
     {
       "Number": 929,
-      "Hebrew": "הוביל",
+      "Korean": "주도",
       "in English": "led"
     },
     {
       "Number": 930,
-      "Hebrew": "המגרש",
+      "Korean": "피치",
       "in English": "pitch"
     },
     {
       "Number": 931,
-      "Hebrew": "מעיל",
+      "Korean": "코트",
       "in English": "coat"
     },
     {
       "Number": 932,
-      "Hebrew": "מסה",
+      "Korean": "질량",
       "in English": "mass"
     },
     {
       "Number": 933,
-      "Hebrew": "כרטיס",
+      "Korean": "카드",
       "in English": "card"
     },
     {
       "Number": 934,
-      "Hebrew": "להקה",
+      "Korean": "밴드",
       "in English": "band"
     },
     {
       "Number": 935,
-      "Hebrew": "חבל",
+      "Korean": "로프",
       "in English": "rope"
     },
     {
       "Number": 936,
-      "Hebrew": "תלוש",
+      "Korean": "슬립",
       "in English": "slip"
     },
     {
       "Number": 937,
-      "Hebrew": "לנצח",
+      "Korean": "승리",
       "in English": "win"
     },
     {
       "Number": 938,
-      "Hebrew": "לחלום",
+      "Korean": "꿈",
       "in English": "dream"
     },
     {
       "Number": 939,
-      "Hebrew": "ערב",
+      "Korean": "저녁",
       "in English": "evening"
     },
     {
       "Number": 940,
-      "Hebrew": "מצב",
+      "Korean": "조건",
       "in English": "condition"
     },
     {
       "Number": 941,
-      "Hebrew": "הזנה",
+      "Korean": "먹이",
       "in English": "feed"
     },
     {
       "Number": 942,
-      "Hebrew": "כלי",
+      "Korean": "도구",
       "in English": "tool"
     },
     {
       "Number": 943,
-      "Hebrew": "סך הכל",
+      "Korean": "총",
       "in English": "total"
     },
     {
       "Number": 944,
-      "Hebrew": "בסיסי",
+      "Korean": "기본",
       "in English": "basic"
     },
     {
       "Number": 945,
-      "Hebrew": "ריח",
+      "Korean": "냄새",
       "in English": "smell"
     },
     {
       "Number": 946,
-      "Hebrew": "עמק",
+      "Korean": "계곡",
       "in English": "valley"
     },
     {
       "Number": 947,
-      "Hebrew": "ולא",
+      "Korean": "도",
       "in English": "nor"
     },
     {
       "Number": 948,
-      "Hebrew": "כפול",
+      "Korean": "더블",
       "in English": "double"
     },
     {
       "Number": 949,
-      "Hebrew": "מושב",
+      "Korean": "좌석",
       "in English": "seat"
     },
     {
       "Number": 950,
-      "Hebrew": "להמשיך",
+      "Korean": "계속",
       "in English": "continue"
     },
     {
       "Number": 951,
-      "Hebrew": "בלוק",
+      "Korean": "블록",
       "in English": "block"
     },
     {
       "Number": 952,
-      "Hebrew": "תרשים",
+      "Korean": "차트",
       "in English": "chart"
     },
     {
       "Number": 953,
-      "Hebrew": "כובע",
+      "Korean": "모자",
       "in English": "hat"
     },
     {
       "Number": 954,
-      "Hebrew": "למכור",
+      "Korean": "판매",
       "in English": "sell"
     },
     {
       "Number": 955,
-      "Hebrew": "הצלחה",
+      "Korean": "성공",
       "in English": "success"
     },
     {
       "Number": 956,
-      "Hebrew": "חברה",
+      "Korean": "회사",
       "in English": "company"
     },
     {
       "Number": 957,
-      "Hebrew": "להחסיר",
+      "Korean": "빼기",
       "in English": "subtract"
     },
     {
       "Number": 958,
-      "Hebrew": "אירוע",
+      "Korean": "이벤트",
       "in English": "event"
     },
     {
       "Number": 959,
-      "Hebrew": "בפרט",
+      "Korean": "특히",
       "in English": "particular"
     },
     {
       "Number": 960,
-      "Hebrew": "עסקה",
+      "Korean": "거래",
       "in English": "deal"
     },
     {
       "Number": 961,
-      "Hebrew": "לשחות",
+      "Korean": "수영",
       "in English": "swim"
     },
     {
       "Number": 962,
-      "Hebrew": "טווח",
+      "Korean": "용어",
       "in English": "term"
     },
     {
       "Number": 963,
-      "Hebrew": "ההפך",
+      "Korean": "정반대의",
       "in English": "opposite"
     },
     {
       "Number": 964,
-      "Hebrew": "אישה",
+      "Korean": "아내",
       "in English": "wife"
     },
     {
       "Number": 965,
-      "Hebrew": "נעל",
+      "Korean": "신발",
       "in English": "shoe"
     },
     {
       "Number": 966,
-      "Hebrew": "כתף",
+      "Korean": "어깨",
       "in English": "shoulder"
     },
     {
       "Number": 967,
-      "Hebrew": "התפשטות",
+      "Korean": "확산",
       "in English": "spread"
     },
     {
       "Number": 968,
-      "Hebrew": "לסדר",
+      "Korean": "준비",
       "in English": "arrange"
     },
     {
       "Number": 969,
-      "Hebrew": "מחנה",
+      "Korean": "캠프",
       "in English": "camp"
     },
     {
       "Number": 970,
-      "Hebrew": "להמציא",
+      "Korean": "발명하다",
       "in English": "invent"
     },
     {
       "Number": 971,
-      "Hebrew": "כותנה",
+      "Korean": "면",
       "in English": "cotton"
     },
     {
       "Number": 972,
-      "Hebrew": "נולד",
+      "Korean": "태어난",
       "in English": "born"
     },
     {
       "Number": 973,
-      "Hebrew": "לקבוע",
+      "Korean": "결정",
       "in English": "determine"
     },
     {
       "Number": 974,
-      "Hebrew": "ליטר",
+      "Korean": "쿼트",
       "in English": "quart"
     },
     {
       "Number": 975,
-      "Hebrew": "תשע",
+      "Korean": "구",
       "in English": "nine"
     },
     {
       "Number": 976,
-      "Hebrew": "משאית",
+      "Korean": "트럭",
       "in English": "truck"
     },
     {
       "Number": 977,
-      "Hebrew": "רעש",
+      "Korean": "잡음",
       "in English": "noise"
     },
     {
       "Number": 978,
-      "Hebrew": "רמה",
+      "Korean": "수준",
       "in English": "level"
     },
     {
       "Number": 979,
-      "Hebrew": "סיכוי",
+      "Korean": "기회",
       "in English": "chance"
     },
     {
       "Number": 980,
-      "Hebrew": "לאסוף",
+      "Korean": "수집",
       "in English": "gather"
     },
     {
       "Number": 981,
-      "Hebrew": "חנות",
+      "Korean": "상점",
       "in English": "shop"
     },
     {
       "Number": 982,
-      "Hebrew": "מתיחה",
+      "Korean": "스트레칭",
       "in English": "stretch"
     },
     {
       "Number": 983,
-      "Hebrew": "לזרוק",
+      "Korean": "던져",
       "in English": "throw"
     },
     {
       "Number": 984,
-      "Hebrew": "ברק",
+      "Korean": "광택",
       "in English": "shine"
     },
     {
       "Number": 985,
-      "Hebrew": "רכוש",
+      "Korean": "등록",
       "in English": "property"
     },
     {
       "Number": 986,
-      "Hebrew": "טור",
+      "Korean": "열",
       "in English": "column"
     },
     {
       "Number": 987,
-      "Hebrew": "מולקולה",
+      "Korean": "분자",
       "in English": "molecule"
     },
     {
       "Number": 988,
-      "Hebrew": "בחר",
+      "Korean": "선택",
       "in English": "select"
     },
     {
       "Number": 989,
-      "Hebrew": "לא נכון",
+      "Korean": "나쁜",
       "in English": "wrong"
     },
     {
       "Number": 990,
-      "Hebrew": "אפור",
+      "Korean": "회색",
       "in English": "gray"
     },
     {
       "Number": 991,
-      "Hebrew": "חוזר",
+      "Korean": "반복",
       "in English": "repeat"
     },
     {
       "Number": 992,
-      "Hebrew": "דורש",
+      "Korean": "필요",
       "in English": "require"
     },
     {
       "Number": 993,
-      "Hebrew": "רחב",
+      "Korean": "폭 넓은",
       "in English": "broad"
     },
     {
       "Number": 994,
-      "Hebrew": "להכין",
+      "Korean": "준비",
       "in English": "prepare"
     },
     {
       "Number": 995,
-      "Hebrew": "מלח",
+      "Korean": "소금",
       "in English": "salt"
     },
     {
       "Number": 996,
-      "Hebrew": "האף",
+      "Korean": "코",
       "in English": "nose"
     },
     {
       "Number": 997,
-      "Hebrew": "לשון רבים",
+      "Korean": "복수",
       "in English": "plural"
     },
     {
       "Number": 998,
-      "Hebrew": "כעס",
+      "Korean": "분노",
       "in English": "anger"
     },
     {
       "Number": 999,
-      "Hebrew": "טענה",
+      "Korean": "제",
       "in English": "claim"
     },
     {
       "Number": 1000,
-      "Hebrew": "יבשת",
+      "Korean": "대륙",
       "in English": "continent"
     }
 ];
 
-exports.language = "Hebrew";
-exports.data = hebrew;
+exports.title = "Korean";
+exports.data = korean;

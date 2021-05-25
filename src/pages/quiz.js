@@ -28,6 +28,7 @@ const ANSWER_SELECT_NAME = "answer_select";
 const ANSWER_BUTTON_NAME = "answer_button";
 const RETAKE_NAME = "retake_button";
 const QUIZ_SELECT_NAME = "quiz_select";
+const NUMBER_OF_ANSWERS_NAME = "number_of_answers";
 
 const TABLESTAGE = 1;
 const OPTIONSSTAGE = 2;
@@ -53,14 +54,14 @@ function Quiz(props) {
     const [q_selected_question, set_q_selected_question] = React.useState(keys()[1]);
     const [q_selected_answer, set_q_selected_answer] = React.useState(keys()[2]);
     const [q_answered_counter, set_q_answered_counter] = React.useState(0);
-    const [q_incorrect_arr, set_q_incorrect_arr] = React.useState([]);
+    const [q_answers, set_q_answers] = React.useState(4);
 
-    const [q_chosen_language, set_chosen_language] = React.useState(0);
+    const [q_chosen_quiz, set_chosen_quiz] = React.useState(0);
     const [q_is_shown, set_q_stage] = React.useState(TABLESTAGE); 
 
     function handleSelectionChange(event) {
       console.log(event.target.value)
-      set_chosen_language(Number(event.target.value));
+      set_chosen_quiz(Number(event.target.value));
       
     }
 
@@ -83,6 +84,20 @@ function Quiz(props) {
         ]
 
         return q_data.slice(range[0], range[1])
+    }
+
+    function change_q_answers(value) {
+        if (value < 1) {
+            value = 1;
+        }
+
+        let len = selected_items().length
+
+        if (value > len) {
+            value = len
+        }
+
+        set_q_answers(value)
     }
 
     function change_current_question() {
@@ -157,11 +172,10 @@ function Quiz(props) {
 
     function quiz_select() {
         return (<>
-            selection: {q_chosen_language}<br />
-            Language: <select name={QUIZ_SELECT_NAME} value={q_chosen_language} onChange={handleEvent}>
+            Choose Quiz: <select name={QUIZ_SELECT_NAME} value={q_chosen_quiz} onChange={handleEvent}>
                 {props.datasets.map((x,i) => {
                 return (
-                    <option value={i}>{x.language}</option>
+                    <option value={i}>{x.title}</option>
                 )
                 })}
             </select>
@@ -202,6 +216,8 @@ function Quiz(props) {
                             })}
                         </select>
                         <br />
+                        <input style={input_box_width(q_answers)} type="number" value={q_answers} name={NUMBER_OF_ANSWERS_NAME} onChange={handleEvent} /> {q_answers}
+                        <br />
                         <button onClick={handleEvent} name={START_QUIZ_NAME}>Begin Quiz</button><p>{err}</p>
                     </div>
                 )
@@ -209,7 +225,7 @@ function Quiz(props) {
             case QUIZSTAGE:
                 console.log(q_questions);
                 let question = q_questions[q_current_question].question;
-                let answers = shuffle(random_answers(q_questions, 4).slice());
+                let answers = shuffle(random_answers(q_questions, q_answers).slice());
 
                 data = (
                     <div>
@@ -281,8 +297,12 @@ function Quiz(props) {
                 set_q_questions(selected_items());
                 break;
             case BEGIN_QUIZ_NAME:
-                set_q_stage(OPTIONSSTAGE);
-                resetQuiz();
+                if (selected_items().length > 0) {
+                    change_q_answers(4);
+                    set_q_stage(OPTIONSSTAGE);
+                    resetQuiz();
+                }
+                
                 break;
             case END_QUIZ_NAME:
                 set_q_stage(TABLESTAGE);
@@ -320,6 +340,9 @@ function Quiz(props) {
                 break;
             case QUIZ_SELECT_NAME:
                 handleSelectionChange(event)
+                break;
+            case NUMBER_OF_ANSWERS_NAME:
+                change_q_answers(event.target.value);
                 break;
             default:
                 console.log("how?")
@@ -437,7 +460,7 @@ function Quiz(props) {
     
     React.useEffect(() => set_q_table(makeTable()), [q_page, q_range])
 
-    React.useEffect(() => set_q_data(props.datasets[q_chosen_language].data), [q_chosen_language]);
+    React.useEffect(() => set_q_data(props.datasets[q_chosen_quiz].data), [q_chosen_quiz]);
     React.useEffect(() => set_q_table(makeTable()), [q_data]);
 
     return (

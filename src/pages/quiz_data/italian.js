@@ -1,5005 +1,5005 @@
-const hawaiian = [
+const italian = [
     {
       "Number": 1,
-      "Hawaiian": "ka mea",
-      "in English": "he"
-    },
-    {
-      "Number": 2,
-      "Hawaiian": "kona",
-      "in English": "his"
-    },
-    {
-      "Number": 3,
-      "Hawaiian": "ia",
-      "in English": "that"
-    },
-    {
-      "Number": 4,
-      "Hawaiian": "I",
-      "in English": "I"
-    },
-    {
-      "Number": 5,
-      "Hawaiian": "ia",
-      "in English": "was"
-    },
-    {
-      "Number": 6,
-      "Hawaiian": "no ka mea,",
-      "in English": "for"
-    },
-    {
-      "Number": 7,
-      "Hawaiian": "maluna o",
-      "in English": "on"
-    },
-    {
-      "Number": 8,
-      "Hawaiian": "ua",
-      "in English": "are"
-    },
-    {
-      "Number": 9,
-      "Hawaiian": "me",
-      "in English": "with"
-    },
-    {
-      "Number": 10,
-      "Hawaiian": "lakou",
-      "in English": "they"
-    },
-    {
-      "Number": 11,
-      "Hawaiian": "e",
-      "in English": "be"
-    },
-    {
-      "Number": 12,
-      "Hawaiian": "ma",
-      "in English": "at"
-    },
-    {
-      "Number": 13,
-      "Hawaiian": "ʻekahi",
-      "in English": "one"
-    },
-    {
-      "Number": 14,
-      "Hawaiian": "loaa",
-      "in English": "have"
-    },
-    {
-      "Number": 15,
-      "Hawaiian": "keia",
-      "in English": "this"
-    },
-    {
-      "Number": 16,
-      "Hawaiian": "mai",
-      "in English": "from"
-    },
-    {
-      "Number": 17,
-      "Hawaiian": "ma",
-      "in English": "by"
-    },
-    {
-      "Number": 18,
-      "Hawaiian": "anal",
-      "in English": "hot"
-    },
-    {
-      "Number": 19,
-      "Hawaiian": "olelo",
-      "in English": "word"
-    },
-    {
-      "Number": 20,
-      "Hawaiian": "aka,",
-      "in English": "but"
-    },
-    {
-      "Number": 21,
-      "Hawaiian": "ka mea",
-      "in English": "what"
-    },
-    {
-      "Number": 22,
-      "Hawaiian": "kekahi",
-      "in English": "some"
-    },
-    {
-      "Number": 23,
-      "Hawaiian": "e like me",
+      "Italian": "come",
       "in English": "as"
     },
     {
+      "Number": 2,
+      "Italian": "io",
+      "in English": "I"
+    },
+    {
+      "Number": 3,
+      "Italian": "il suo",
+      "in English": "his"
+    },
+    {
+      "Number": 4,
+      "Italian": "che",
+      "in English": "that"
+    },
+    {
+      "Number": 5,
+      "Italian": "lui",
+      "in English": "he"
+    },
+    {
+      "Number": 6,
+      "Italian": "era",
+      "in English": "was"
+    },
+    {
+      "Number": 7,
+      "Italian": "per",
+      "in English": "for"
+    },
+    {
+      "Number": 8,
+      "Italian": "su",
+      "in English": "on"
+    },
+    {
+      "Number": 9,
+      "Italian": "sono",
+      "in English": "are"
+    },
+    {
+      "Number": 10,
+      "Italian": "con",
+      "in English": "with"
+    },
+    {
+      "Number": 11,
+      "Italian": "essi",
+      "in English": "they"
+    },
+    {
+      "Number": 12,
+      "Italian": "essere",
+      "in English": "be"
+    },
+    {
+      "Number": 13,
+      "Italian": "a",
+      "in English": "at"
+    },
+    {
+      "Number": 14,
+      "Italian": "uno",
+      "in English": "one"
+    },
+    {
+      "Number": 15,
+      "Italian": "avere",
+      "in English": "have"
+    },
+    {
+      "Number": 16,
+      "Italian": "questo",
+      "in English": "this"
+    },
+    {
+      "Number": 17,
+      "Italian": "da",
+      "in English": "from"
+    },
+    {
+      "Number": 18,
+      "Italian": "da",
+      "in English": "by"
+    },
+    {
+      "Number": 19,
+      "Italian": "caldo",
+      "in English": "hot"
+    },
+    {
+      "Number": 20,
+      "Italian": "parola",
+      "in English": "word"
+    },
+    {
+      "Number": 21,
+      "Italian": "ma",
+      "in English": "but"
+    },
+    {
+      "Number": 22,
+      "Italian": "cosa",
+      "in English": "what"
+    },
+    {
+      "Number": 23,
+      "Italian": "alcuni",
+      "in English": "some"
+    },
+    {
       "Number": 24,
-      "Hawaiian": "ka mea",
+      "Italian": "è",
       "in English": "is"
     },
     {
       "Number": 25,
-      "Hawaiian": "ia",
+      "Italian": "esso",
       "in English": "it"
     },
     {
       "Number": 26,
-      "Hawaiian": "oe",
+      "Italian": "voi",
       "in English": "you"
     },
     {
       "Number": 27,
-      "Hawaiian": "ai ole ia,",
+      "Italian": "o",
       "in English": "or"
     },
     {
       "Number": 28,
-      "Hawaiian": "i",
+      "Italian": "aveva",
       "in English": "had"
     },
     {
       "Number": 29,
-      "Hawaiian": "ka",
+      "Italian": "il",
       "in English": "the"
     },
     {
       "Number": 30,
-      "Hawaiian": "a",
+      "Italian": "di",
       "in English": "of"
     },
     {
       "Number": 31,
-      "Hawaiian": "i",
+      "Italian": "a",
       "in English": "to"
     },
     {
       "Number": 32,
-      "Hawaiian": "a",
+      "Italian": "e",
       "in English": "and"
     },
     {
       "Number": 33,
-      "Hawaiian": "he",
+      "Italian": "un",
       "in English": "a"
     },
     {
       "Number": 34,
-      "Hawaiian": "iloko o",
+      "Italian": "in",
       "in English": "in"
     },
     {
       "Number": 35,
-      "Hawaiian": "makou",
+      "Italian": "noi",
       "in English": "we"
     },
     {
       "Number": 36,
-      "Hawaiian": "hiki",
+      "Italian": "lattina",
       "in English": "can"
     },
     {
       "Number": 37,
-      "Hawaiian": "aku",
+      "Italian": "fuori",
       "in English": "out"
     },
     {
       "Number": 38,
-      "Hawaiian": "kekahi",
+      "Italian": "altro",
       "in English": "other"
     },
     {
       "Number": 39,
-      "Hawaiian": "he",
+      "Italian": "erano",
       "in English": "were"
     },
     {
       "Number": 40,
-      "Hawaiian": "ka mea",
+      "Italian": "che",
       "in English": "which"
     },
     {
       "Number": 41,
-      "Hawaiian": "hana",
+      "Italian": "fare",
       "in English": "do"
     },
     {
       "Number": 42,
-      "Hawaiian": "ko lakou",
+      "Italian": "loro",
       "in English": "their"
     },
     {
       "Number": 43,
-      "Hawaiian": "manawa",
+      "Italian": "tempo",
       "in English": "time"
     },
     {
       "Number": 44,
-      "Hawaiian": "ina",
+      "Italian": "se",
       "in English": "if"
     },
     {
       "Number": 45,
-      "Hawaiian": "makemake",
+      "Italian": "volontà",
       "in English": "will"
     },
     {
       "Number": 46,
-      "Hawaiian": "pehea",
+      "Italian": "come",
       "in English": "how"
     },
     {
       "Number": 47,
-      "Hawaiian": "mai la",
+      "Italian": "suddetto",
       "in English": "said"
     },
     {
       "Number": 48,
-      "Hawaiian": "kekahi",
+      "Italian": "un",
       "in English": "an"
     },
     {
       "Number": 49,
-      "Hawaiian": "kela a me keia",
+      "Italian": "ogni",
       "in English": "each"
     },
     {
       "Number": 50,
-      "Hawaiian": "hai aku",
+      "Italian": "dire",
       "in English": "tell"
     },
     {
       "Number": 51,
-      "Hawaiian": "hana",
+      "Italian": "fa",
       "in English": "does"
     },
     {
       "Number": 52,
-      "Hawaiian": "i",
+      "Italian": "set",
       "in English": "set"
     },
     {
       "Number": 53,
-      "Hawaiian": "ʻekolu",
+      "Italian": "tre",
       "in English": "three"
     },
     {
       "Number": 54,
-      "Hawaiian": "makemake",
+      "Italian": "desiderare",
       "in English": "want"
     },
     {
       "Number": 55,
-      "Hawaiian": "ea",
+      "Italian": "aria",
       "in English": "air"
     },
     {
       "Number": 56,
-      "Hawaiian": "pono",
+      "Italian": "bene",
       "in English": "well"
     },
     {
       "Number": 57,
-      "Hawaiian": "no hoi",
+      "Italian": "anche",
       "in English": "also"
     },
     {
       "Number": 58,
-      "Hawaiian": "paani",
+      "Italian": "giocare",
       "in English": "play"
     },
     {
       "Number": 59,
-      "Hawaiian": "uuku",
+      "Italian": "piccolo",
       "in English": "small"
     },
     {
       "Number": 60,
-      "Hawaiian": "hopena",
+      "Italian": "fine",
       "in English": "end"
     },
     {
       "Number": 61,
-      "Hawaiian": "kau",
+      "Italian": "mettere",
       "in English": "put"
     },
     {
       "Number": 62,
-      "Hawaiian": "ka hale",
+      "Italian": "casa",
       "in English": "home"
     },
     {
       "Number": 63,
-      "Hawaiian": "heluhelu mai o",
+      "Italian": "leggere",
       "in English": "read"
     },
     {
       "Number": 64,
-      "Hawaiian": "lima",
+      "Italian": "mano",
       "in English": "hand"
     },
     {
       "Number": 65,
-      "Hawaiian": "ke awa",
+      "Italian": "porto",
       "in English": "port"
     },
     {
       "Number": 66,
-      "Hawaiian": "nui",
+      "Italian": "grande",
       "in English": "large"
     },
     {
       "Number": 67,
-      "Hawaiian": "wale",
+      "Italian": "compitare",
       "in English": "spell"
     },
     {
       "Number": 68,
-      "Hawaiian": "hui",
+      "Italian": "aggiungere",
       "in English": "add"
     },
     {
       "Number": 69,
-      "Hawaiian": "a hiki",
+      "Italian": "anche",
       "in English": "even"
     },
     {
       "Number": 70,
-      "Hawaiian": "aina",
+      "Italian": "terra",
       "in English": "land"
     },
     {
       "Number": 71,
-      "Hawaiian": "maanei",
+      "Italian": "qui",
       "in English": "here"
     },
     {
       "Number": 72,
-      "Hawaiian": "pono",
+      "Italian": "mosto",
       "in English": "must"
     },
     {
       "Number": 73,
-      "Hawaiian": "nui",
+      "Italian": "grande",
       "in English": "big"
     },
     {
       "Number": 74,
-      "Hawaiian": "kiʻekiʻe",
+      "Italian": "alto",
       "in English": "high"
     },
     {
       "Number": 75,
-      "Hawaiian": "ia",
+      "Italian": "tale",
       "in English": "such"
     },
     {
       "Number": 76,
-      "Hawaiian": "hahai",
+      "Italian": "seguire",
       "in English": "follow"
     },
     {
       "Number": 77,
-      "Hawaiian": "hana",
+      "Italian": "atto",
       "in English": "act"
     },
     {
       "Number": 78,
-      "Hawaiian": "no ke aha mai",
+      "Italian": "perché",
       "in English": "why"
     },
     {
       "Number": 79,
-      "Hawaiian": "noi",
+      "Italian": "chiedere",
       "in English": "ask"
     },
     {
       "Number": 80,
-      "Hawaiian": "kanaka",
+      "Italian": "maschi",
       "in English": "men"
     },
     {
       "Number": 81,
-      "Hawaiian": "loli",
+      "Italian": "cambiamento",
       "in English": "change"
     },
     {
       "Number": 82,
-      "Hawaiian": "hele",
+      "Italian": "è andato",
       "in English": "went"
     },
     {
       "Number": 83,
-      "Hawaiian": "malamalama",
+      "Italian": "luce",
       "in English": "light"
     },
     {
       "Number": 84,
-      "Hawaiian": "keia ano",
+      "Italian": "tipo",
       "in English": "kind"
     },
     {
       "Number": 85,
-      "Hawaiian": "aku",
+      "Italian": "spento",
       "in English": "off"
     },
     {
       "Number": 86,
-      "Hawaiian": "pono",
+      "Italian": "bisogno",
       "in English": "need"
     },
     {
       "Number": 87,
-      "Hawaiian": "ka hale",
+      "Italian": "casa",
       "in English": "house"
     },
     {
       "Number": 88,
-      "Hawaiian": "kiʻi",
+      "Italian": "immagine",
       "in English": "picture"
     },
     {
       "Number": 89,
-      "Hawaiian": "hoao",
+      "Italian": "provare",
       "in English": "try"
     },
     {
       "Number": 90,
-      "Hawaiian": "makou",
+      "Italian": "noi",
       "in English": "us"
     },
     {
       "Number": 91,
-      "Hawaiian": "hou",
+      "Italian": "di nuovo",
       "in English": "again"
     },
     {
       "Number": 92,
-      "Hawaiian": "holoholona",
+      "Italian": "animale",
       "in English": "animal"
     },
     {
       "Number": 93,
-      "Hawaiian": "wahi",
+      "Italian": "punto",
       "in English": "point"
     },
     {
       "Number": 94,
-      "Hawaiian": "makuahine",
+      "Italian": "madre",
       "in English": "mother"
     },
     {
       "Number": 95,
-      "Hawaiian": "ao",
+      "Italian": "mondo",
       "in English": "world"
     },
     {
       "Number": 96,
-      "Hawaiian": "kokoke",
+      "Italian": "vicino",
       "in English": "near"
     },
     {
       "Number": 97,
-      "Hawaiian": "hana",
+      "Italian": "costruire",
       "in English": "build"
     },
     {
       "Number": 98,
-      "Hawaiian": "iho",
+      "Italian": "se stesso",
       "in English": "self"
     },
     {
       "Number": 99,
-      "Hawaiian": "honua",
+      "Italian": "terra",
       "in English": "earth"
     },
     {
       "Number": 100,
-      "Hawaiian": "makuakāne",
+      "Italian": "padre",
       "in English": "father"
     },
     {
       "Number": 101,
-      "Hawaiian": "kekahi",
+      "Italian": "qualsiasi",
       "in English": "any"
     },
     {
       "Number": 102,
-      "Hawaiian": "hou",
+      "Italian": "nuovo",
       "in English": "new"
     },
     {
       "Number": 103,
-      "Hawaiian": "hana",
+      "Italian": "lavoro",
       "in English": "work"
     },
     {
       "Number": 104,
-      "Hawaiian": "hapa",
+      "Italian": "parte",
       "in English": "part"
     },
     {
       "Number": 105,
-      "Hawaiian": "lawe",
+      "Italian": "prendere",
       "in English": "take"
     },
     {
       "Number": 106,
-      "Hawaiian": "loaa",
+      "Italian": "ottenere",
       "in English": "get"
     },
     {
       "Number": 107,
-      "Hawaiian": "wahi",
+      "Italian": "posto",
       "in English": "place"
     },
     {
       "Number": 108,
-      "Hawaiian": "hana",
+      "Italian": "fatto",
       "in English": "made"
     },
     {
       "Number": 109,
-      "Hawaiian": "ola",
+      "Italian": "vivere",
       "in English": "live"
     },
     {
       "Number": 110,
-      "Hawaiian": "kahi",
+      "Italian": "dove",
       "in English": "where"
     },
     {
       "Number": 111,
-      "Hawaiian": "mahope iho o",
+      "Italian": "dopo",
       "in English": "after"
     },
     {
       "Number": 112,
-      "Hawaiian": "i hope",
+      "Italian": "indietro",
       "in English": "back"
     },
     {
       "Number": 113,
-      "Hawaiian": "iki",
+      "Italian": "poco",
       "in English": "little"
     },
     {
       "Number": 114,
-      "Hawaiian": "wale no",
+      "Italian": "solo",
       "in English": "only"
     },
     {
       "Number": 115,
-      "Hawaiian": "a",
+      "Italian": "turno",
       "in English": "round"
     },
     {
       "Number": 116,
-      "Hawaiian": "kanaka",
+      "Italian": "uomo",
       "in English": "man"
     },
     {
       "Number": 117,
-      "Hawaiian": "makahiki",
+      "Italian": "anno",
       "in English": "year"
     },
     {
       "Number": 118,
-      "Hawaiian": "hele mai",
+      "Italian": "è venuto",
       "in English": "came"
     },
     {
       "Number": 119,
-      "Hawaiian": "hoike",
+      "Italian": "spettacolo",
       "in English": "show"
     },
     {
       "Number": 120,
-      "Hawaiian": "o kela",
+      "Italian": "ogni",
       "in English": "every"
     },
     {
       "Number": 121,
-      "Hawaiian": "maikaʻi loa",
+      "Italian": "buono",
       "in English": "good"
     },
     {
       "Number": 122,
-      "Hawaiian": "mai iaʻu",
+      "Italian": "me",
       "in English": "me"
     },
     {
       "Number": 123,
-      "Hawaiian": "haawi",
+      "Italian": "dare",
       "in English": "give"
     },
     {
       "Number": 124,
-      "Hawaiian": "makou",
+      "Italian": "il nostro",
       "in English": "our"
     },
     {
       "Number": 125,
-      "Hawaiian": "malalo o",
+      "Italian": "sotto",
       "in English": "under"
     },
     {
       "Number": 126,
-      "Hawaiian": "inoa",
+      "Italian": "nome",
       "in English": "name"
     },
     {
       "Number": 127,
-      "Hawaiian": "loa",
+      "Italian": "molto",
       "in English": "very"
     },
     {
       "Number": 128,
-      "Hawaiian": "ma",
+      "Italian": "attraverso",
       "in English": "through"
     },
     {
       "Number": 129,
-      "Hawaiian": "pono",
+      "Italian": "solo",
       "in English": "just"
     },
     {
       "Number": 130,
-      "Hawaiian": "ano",
+      "Italian": "forma",
       "in English": "form"
     },
     {
       "Number": 131,
-      "Hawaiian": "olelo",
+      "Italian": "frase",
       "in English": "sentence"
     },
     {
       "Number": 132,
-      "Hawaiian": "nui",
+      "Italian": "grande",
       "in English": "great"
     },
     {
       "Number": 133,
-      "Hawaiian": "manao",
+      "Italian": "pensare",
       "in English": "think"
     },
     {
       "Number": 134,
-      "Hawaiian": "aku nei au",
+      "Italian": "dire",
       "in English": "say"
     },
     {
       "Number": 135,
-      "Hawaiian": "kokua",
+      "Italian": "aiutare",
       "in English": "help"
     },
     {
       "Number": 136,
-      "Hawaiian": "haahaa",
+      "Italian": "basso",
       "in English": "low"
     },
     {
       "Number": 137,
-      "Hawaiian": "laina",
+      "Italian": "linea",
       "in English": "line"
     },
     {
       "Number": 138,
-      "Hawaiian": "oko",
+      "Italian": "differire",
       "in English": "differ"
     },
     {
       "Number": 139,
-      "Hawaiian": "huli",
+      "Italian": "turno",
       "in English": "turn"
     },
     {
       "Number": 140,
-      "Hawaiian": "kumu",
+      "Italian": "causa",
       "in English": "cause"
     },
     {
       "Number": 141,
-      "Hawaiian": "nui",
+      "Italian": "molto",
       "in English": "much"
     },
     {
       "Number": 142,
-      "Hawaiian": "ke ano o",
+      "Italian": "dire",
       "in English": "mean"
     },
     {
       "Number": 143,
-      "Hawaiian": "imua o",
+      "Italian": "prima",
       "in English": "before"
     },
     {
       "Number": 144,
-      "Hawaiian": "hu",
+      "Italian": "spostare",
       "in English": "move"
     },
     {
       "Number": 145,
-      "Hawaiian": "akau",
+      "Italian": "diritto",
       "in English": "right"
     },
     {
       "Number": 146,
-      "Hawaiian": "keiki",
+      "Italian": "ragazzo",
       "in English": "boy"
     },
     {
       "Number": 147,
-      "Hawaiian": "ka wa kahiko",
+      "Italian": "vecchio",
       "in English": "old"
     },
     {
       "Number": 148,
-      "Hawaiian": "oi aku",
+      "Italian": "troppo",
       "in English": "too"
     },
     {
       "Number": 149,
-      "Hawaiian": "ia",
+      "Italian": "stesso",
       "in English": "same"
     },
     {
       "Number": 150,
-      "Hawaiian": "ia",
+      "Italian": "lei",
       "in English": "she"
     },
     {
       "Number": 151,
-      "Hawaiian": "a pau",
+      "Italian": "tutto",
       "in English": "all"
     },
     {
       "Number": 152,
-      "Hawaiian": "laila",
+      "Italian": "ci",
       "in English": "there"
     },
     {
       "Number": 153,
-      "Hawaiian": "i ka wa",
+      "Italian": "quando",
       "in English": "when"
     },
     {
       "Number": 154,
-      "Hawaiian": "ae la",
+      "Italian": "su",
       "in English": "up"
     },
     {
       "Number": 155,
-      "Hawaiian": "hoʻohana",
+      "Italian": "uso",
       "in English": "use"
     },
     {
       "Number": 156,
-      "Hawaiian": "oukou",
+      "Italian": "il tuo",
       "in English": "your"
     },
     {
       "Number": 157,
-      "Hawaiian": "ala",
+      "Italian": "modo",
       "in English": "way"
     },
     {
       "Number": 158,
-      "Hawaiian": "e pili ana i",
+      "Italian": "circa",
       "in English": "about"
     },
     {
       "Number": 159,
-      "Hawaiian": "he nui",
+      "Italian": "molti",
       "in English": "many"
     },
     {
       "Number": 160,
-      "Hawaiian": "alaila,",
+      "Italian": "allora",
       "in English": "then"
     },
     {
       "Number": 161,
-      "Hawaiian": "ia lakou",
+      "Italian": "loro",
       "in English": "them"
     },
     {
       "Number": 162,
-      "Hawaiian": "kakau",
+      "Italian": "scrivere",
       "in English": "write"
     },
     {
       "Number": 163,
-      "Hawaiian": "makemake",
+      "Italian": "sarebbe",
       "in English": "would"
     },
     {
       "Number": 164,
-      "Hawaiian": "like me",
+      "Italian": "come",
       "in English": "like"
     },
     {
       "Number": 165,
-      "Hawaiian": "pela",
+      "Italian": "così",
       "in English": "so"
     },
     {
       "Number": 166,
-      "Hawaiian": "mau",
+      "Italian": "queste",
       "in English": "these"
     },
     {
       "Number": 167,
-      "Hawaiian": "ia",
+      "Italian": "lei",
       "in English": "her"
     },
     {
       "Number": 168,
-      "Hawaiian": "loihi",
+      "Italian": "lungo",
       "in English": "long"
     },
     {
       "Number": 169,
-      "Hawaiian": "hana",
+      "Italian": "rendere",
       "in English": "make"
     },
     {
       "Number": 170,
-      "Hawaiian": "mea",
+      "Italian": "cosa",
       "in English": "thing"
     },
     {
       "Number": 171,
-      "Hawaiian": "ike",
+      "Italian": "vedere",
       "in English": "see"
     },
     {
       "Number": 172,
-      "Hawaiian": "ia",
+      "Italian": "lui",
       "in English": "him"
     },
     {
       "Number": 173,
-      "Hawaiian": "ʻelua",
+      "Italian": "due",
       "in English": "two"
     },
     {
       "Number": 174,
-      "Hawaiian": "i",
+      "Italian": "ha",
       "in English": "has"
     },
     {
       "Number": 175,
-      "Hawaiian": "nana",
+      "Italian": "guardare",
       "in English": "look"
     },
     {
       "Number": 176,
-      "Hawaiian": "hou",
+      "Italian": "di più",
       "in English": "more"
     },
     {
       "Number": 177,
-      "Hawaiian": "lā",
+      "Italian": "giorno",
       "in English": "day"
     },
     {
       "Number": 178,
-      "Hawaiian": "hiki",
+      "Italian": "potuto",
       "in English": "could"
     },
     {
       "Number": 179,
-      "Hawaiian": "hele",
+      "Italian": "andare",
       "in English": "go"
     },
     {
       "Number": 180,
-      "Hawaiian": "hele mai",
+      "Italian": "venire",
       "in English": "come"
     },
     {
       "Number": 181,
-      "Hawaiian": "hana",
+      "Italian": "ha fatto",
       "in English": "did"
     },
     {
       "Number": 182,
-      "Hawaiian": "helu",
+      "Italian": "numero",
       "in English": "number"
     },
     {
       "Number": 183,
-      "Hawaiian": "hookani",
+      "Italian": "suono",
       "in English": "sound"
     },
     {
       "Number": 184,
-      "Hawaiian": "ʻaʻole",
+      "Italian": "no",
       "in English": "no"
     },
     {
       "Number": 185,
-      "Hawaiian": "loa",
+      "Italian": "più",
       "in English": "most"
     },
     {
       "Number": 186,
-      "Hawaiian": "kanaka",
+      "Italian": "persone",
       "in English": "people"
     },
     {
       "Number": 187,
-      "Hawaiian": "i koʻu",
+      "Italian": "il mio",
       "in English": "my"
     },
     {
       "Number": 188,
-      "Hawaiian": "maluna o",
+      "Italian": "oltre",
       "in English": "over"
     },
     {
       "Number": 189,
-      "Hawaiian": "ike",
+      "Italian": "sapere",
       "in English": "know"
     },
     {
       "Number": 190,
-      "Hawaiian": "ka wai",
+      "Italian": "acqua",
       "in English": "water"
     },
     {
       "Number": 191,
-      "Hawaiian": "mamua o",
+      "Italian": "di",
       "in English": "than"
     },
     {
       "Number": 192,
-      "Hawaiian": "kahea",
+      "Italian": "chiamata",
       "in English": "call"
     },
     {
       "Number": 193,
-      "Hawaiian": "ka mua",
+      "Italian": "primo",
       "in English": "first"
     },
     {
       "Number": 194,
-      "Hawaiian": "ka mea",
+      "Italian": "che",
       "in English": "who"
     },
     {
       "Number": 195,
-      "Hawaiian": "Mei",
+      "Italian": "può",
       "in English": "may"
     },
     {
       "Number": 196,
-      "Hawaiian": "iho",
+      "Italian": "giù",
       "in English": "down"
     },
     {
       "Number": 197,
-      "Hawaiian": "aoao",
+      "Italian": "lato",
       "in English": "side"
     },
     {
       "Number": 198,
-      "Hawaiian": "i",
+      "Italian": "stato",
       "in English": "been"
     },
     {
       "Number": 199,
-      "Hawaiian": "Ano",
+      "Italian": "ora",
       "in English": "now"
     },
     {
       "Number": 200,
-      "Hawaiian": "loaa",
+      "Italian": "trovare",
       "in English": "find"
     },
     {
       "Number": 201,
-      "Hawaiian": "poo",
+      "Italian": "testa",
       "in English": "head"
     },
     {
       "Number": 202,
-      "Hawaiian": "ku",
+      "Italian": "stare in piedi",
       "in English": "stand"
     },
     {
       "Number": 203,
-      "Hawaiian": "iho",
+      "Italian": "proprio",
       "in English": "own"
     },
     {
       "Number": 204,
-      "Hawaiian": "palapala",
+      "Italian": "pagina",
       "in English": "page"
     },
     {
       "Number": 205,
-      "Hawaiian": "e",
+      "Italian": "dovrebbe",
       "in English": "should"
     },
     {
       "Number": 206,
-      "Hawaiian": "aina",
+      "Italian": "paese",
       "in English": "country"
     },
     {
       "Number": 207,
-      "Hawaiian": "loaa",
+      "Italian": "fondare",
       "in English": "found"
     },
     {
       "Number": 208,
-      "Hawaiian": "pane",
+      "Italian": "risposta",
       "in English": "answer"
     },
     {
       "Number": 209,
-      "Hawaiian": "kula",
+      "Italian": "scuola",
       "in English": "school"
     },
     {
       "Number": 210,
-      "Hawaiian": "ulu",
+      "Italian": "crescere",
       "in English": "grow"
     },
     {
       "Number": 211,
-      "Hawaiian": "like",
+      "Italian": "studio",
       "in English": "study"
     },
     {
       "Number": 212,
-      "Hawaiian": "malie",
+      "Italian": "ancora",
       "in English": "still"
     },
     {
       "Number": 213,
-      "Hawaiian": "e ao",
+      "Italian": "imparare",
       "in English": "learn"
     },
     {
       "Number": 214,
-      "Hawaiian": "kanu",
+      "Italian": "impianto",
       "in English": "plant"
     },
     {
       "Number": 215,
-      "Hawaiian": "aloha",
+      "Italian": "copertura",
       "in English": "cover"
     },
     {
       "Number": 216,
-      "Hawaiian": "ai",
+      "Italian": "cibo",
       "in English": "food"
     },
     {
       "Number": 217,
-      "Hawaiian": "lā",
+      "Italian": "sole",
       "in English": "sun"
     },
     {
       "Number": 218,
-      "Hawaiian": "ʻehā",
+      "Italian": "quattro",
       "in English": "four"
     },
     {
       "Number": 219,
-      "Hawaiian": "waena o",
+      "Italian": "fra",
       "in English": "between"
     },
     {
       "Number": 220,
-      "Hawaiian": "moku’āina",
+      "Italian": "stato",
       "in English": "state"
     },
     {
       "Number": 221,
-      "Hawaiian": "malama",
+      "Italian": "mantenere",
       "in English": "keep"
     },
     {
       "Number": 222,
-      "Hawaiian": "maka",
+      "Italian": "occhio",
       "in English": "eye"
     },
     {
       "Number": 223,
-      "Hawaiian": "loa",
+      "Italian": "mai",
       "in English": "never"
     },
     {
       "Number": 224,
-      "Hawaiian": "hope",
+      "Italian": "ultimo",
       "in English": "last"
     },
     {
       "Number": 225,
-      "Hawaiian": "e",
+      "Italian": "lasciare",
       "in English": "let"
     },
     {
       "Number": 226,
-      "Hawaiian": "manaʻo",
+      "Italian": "pensiero",
       "in English": "thought"
     },
     {
       "Number": 227,
-      "Hawaiian": "kulanakauhale",
+      "Italian": "città",
       "in English": "city"
     },
     {
       "Number": 228,
-      "Hawaiian": "laau",
+      "Italian": "albero",
       "in English": "tree"
     },
     {
       "Number": 229,
-      "Hawaiian": "kela aoao",
+      "Italian": "attraversare",
       "in English": "cross"
     },
     {
       "Number": 230,
-      "Hawaiian": "mahiʻai",
+      "Italian": "fattoria",
       "in English": "farm"
     },
     {
       "Number": 231,
-      "Hawaiian": "paakiki",
+      "Italian": "difficile",
       "in English": "hard"
     },
     {
       "Number": 232,
-      "Hawaiian": "hoʻomaka",
+      "Italian": "inizio",
       "in English": "start"
     },
     {
       "Number": 233,
-      "Hawaiian": "ikaika",
+      "Italian": "forza",
       "in English": "might"
     },
     {
       "Number": 234,
-      "Hawaiian": "moʻolelo",
+      "Italian": "storia",
       "in English": "story"
     },
     {
       "Number": 235,
-      "Hawaiian": "i ike ai",
+      "Italian": "sega",
       "in English": "saw"
     },
     {
       "Number": 236,
-      "Hawaiian": "loa",
+      "Italian": "lontano",
       "in English": "far"
     },
     {
       "Number": 237,
-      "Hawaiian": "kai",
+      "Italian": "mare",
       "in English": "sea"
     },
     {
       "Number": 238,
-      "Hawaiian": "huki",
+      "Italian": "disegnare",
       "in English": "draw"
     },
     {
       "Number": 239,
-      "Hawaiian": "hema",
+      "Italian": "sinistra",
       "in English": "left"
     },
     {
       "Number": 240,
-      "Hawaiian": "hopena o",
+      "Italian": "tardi",
       "in English": "late"
     },
     {
       "Number": 241,
-      "Hawaiian": "hoʻoholo",
+      "Italian": "run",
       "in English": "run"
     },
     {
       "Number": 242,
-      "Hawaiian": "hana, aole",
+      "Italian": "non",
       "in English": "don’t"
     },
     {
       "Number": 243,
-      "Hawaiian": "oiai",
+      "Italian": "mentre",
       "in English": "while"
     },
     {
       "Number": 244,
-      "Hawaiian": "kaomi",
+      "Italian": "stampa",
       "in English": "press"
     },
     {
       "Number": 245,
-      "Hawaiian": "kokoke",
+      "Italian": "close",
       "in English": "close"
     },
     {
       "Number": 246,
-      "Hawaiian": "pō",
+      "Italian": "notte",
       "in English": "night"
     },
     {
       "Number": 247,
-      "Hawaiian": "maoli",
+      "Italian": "reale",
       "in English": "real"
     },
     {
       "Number": 248,
-      "Hawaiian": "ola",
+      "Italian": "vita",
       "in English": "life"
     },
     {
       "Number": 249,
-      "Hawaiian": "kakaikahi",
+      "Italian": "pochi",
       "in English": "few"
     },
     {
       "Number": 250,
-      "Hawaiian": "ke akau",
+      "Italian": "nord",
       "in English": "north"
     },
     {
       "Number": 251,
-      "Hawaiian": "buke",
+      "Italian": "libro",
       "in English": "book"
     },
     {
       "Number": 252,
-      "Hawaiian": "lawe",
+      "Italian": "portare",
       "in English": "carry"
     },
     {
       "Number": 253,
-      "Hawaiian": "lawe",
+      "Italian": "ha preso",
       "in English": "took"
     },
     {
       "Number": 254,
-      "Hawaiian": "nauka",
+      "Italian": "scienza",
       "in English": "science"
     },
     {
       "Number": 255,
-      "Hawaiian": "ai",
+      "Italian": "mangiare",
       "in English": "eat"
     },
     {
       "Number": 256,
-      "Hawaiian": "lumi",
+      "Italian": "camera",
       "in English": "room"
     },
     {
       "Number": 257,
-      "Hawaiian": "hoaaloha",
+      "Italian": "amico",
       "in English": "friend"
     },
     {
       "Number": 258,
-      "Hawaiian": "hoomaka ae",
+      "Italian": "ha iniziato",
       "in English": "began"
     },
     {
       "Number": 259,
-      "Hawaiian": "manaʻo",
+      "Italian": "idea",
       "in English": "idea"
     },
     {
       "Number": 260,
-      "Hawaiian": "iʻa",
+      "Italian": "pesce",
       "in English": "fish"
     },
     {
       "Number": 261,
-      "Hawaiian": "mauna",
+      "Italian": "montagna",
       "in English": "mountain"
     },
     {
       "Number": 262,
-      "Hawaiian": "hooki",
+      "Italian": "stop",
       "in English": "stop"
     },
     {
       "Number": 263,
-      "Hawaiian": "pākahi",
+      "Italian": "una volta",
       "in English": "once"
     },
     {
       "Number": 264,
-      "Hawaiian": "kumu",
+      "Italian": "base",
       "in English": "base"
     },
     {
       "Number": 265,
-      "Hawaiian": "lohe",
+      "Italian": "sentire",
       "in English": "hear"
     },
     {
       "Number": 266,
-      "Hawaiian": "ka lio",
+      "Italian": "cavallo",
       "in English": "horse"
     },
     {
       "Number": 267,
-      "Hawaiian": "e oki ai",
+      "Italian": "taglio",
       "in English": "cut"
     },
     {
       "Number": 268,
-      "Hawaiian": "paa,",
+      "Italian": "sicuro",
       "in English": "sure"
     },
     {
       "Number": 269,
-      "Hawaiian": "kiai",
+      "Italian": "orologio",
       "in English": "watch"
     },
     {
       "Number": 270,
-      "Hawaiian": "kala like ‘ole",
+      "Italian": "colore",
       "in English": "color"
     },
     {
       "Number": 271,
-      "Hawaiian": "maka",
+      "Italian": "volto",
       "in English": "face"
     },
     {
       "Number": 272,
-      "Hawaiian": "laau",
+      "Italian": "legno",
       "in English": "wood"
     },
     {
       "Number": 273,
-      "Hawaiian": "ka papa kuhikuhiE",
+      "Italian": "principale",
       "in English": "main"
     },
     {
       "Number": 274,
-      "Hawaiian": "hamama",
+      "Italian": "aperto",
       "in English": "open"
     },
     {
       "Number": 275,
-      "Hawaiian": "he",
+      "Italian": "sembrare",
       "in English": "seem"
     },
     {
       "Number": 276,
-      "Hawaiian": "pu",
+      "Italian": "insieme",
       "in English": "together"
     },
     {
       "Number": 277,
-      "Hawaiian": "aʻe",
+      "Italian": "prossimo",
       "in English": "next"
     },
     {
       "Number": 278,
-      "Hawaiian": "keʻokeʻo",
+      "Italian": "bianco",
       "in English": "white"
     },
     {
       "Number": 279,
-      "Hawaiian": "keiki",
+      "Italian": "bambini",
       "in English": "children"
     },
     {
       "Number": 280,
-      "Hawaiian": "hoomaka",
+      "Italian": "inizio",
       "in English": "begin"
     },
     {
       "Number": 281,
-      "Hawaiian": "loaʻa",
+      "Italian": "ottenuto",
       "in English": "got"
     },
     {
       "Number": 282,
-      "Hawaiian": "hele",
+      "Italian": "camminare",
       "in English": "walk"
     },
     {
       "Number": 283,
-      "Hawaiian": "Eia",
+      "Italian": "esempio",
       "in English": "example"
     },
     {
       "Number": 284,
-      "Hawaiian": "hoopau i",
+      "Italian": "alleviare",
       "in English": "ease"
     },
     {
       "Number": 285,
-      "Hawaiian": "pepa",
+      "Italian": "carta",
       "in English": "paper"
     },
     {
       "Number": 286,
-      "Hawaiian": "hui",
+      "Italian": "gruppo",
       "in English": "group"
     },
     {
       "Number": 287,
-      "Hawaiian": "mau",
+      "Italian": "sempre",
       "in English": "always"
     },
     {
       "Number": 288,
-      "Hawaiian": "aloha",
+      "Italian": "musica",
       "in English": "music"
     },
     {
       "Number": 289,
-      "Hawaiian": "mau",
+      "Italian": "quelli",
       "in English": "those"
     },
     {
       "Number": 290,
-      "Hawaiian": "elua",
+      "Italian": "entrambi",
       "in English": "both"
     },
     {
       "Number": 291,
-      "Hawaiian": "mark",
+      "Italian": "marchio",
       "in English": "mark"
     },
     {
       "Number": 292,
-      "Hawaiian": "pinepine",
+      "Italian": "spesso",
       "in English": "often"
     },
     {
       "Number": 293,
-      "Hawaiian": "palapala",
+      "Italian": "lettera",
       "in English": "letter"
     },
     {
       "Number": 294,
-      "Hawaiian": "a hiki i",
+      "Italian": "fino a quando",
       "in English": "until"
     },
     {
       "Number": 295,
-      "Hawaiian": "ka mile",
+      "Italian": "miglio",
       "in English": "mile"
     },
     {
       "Number": 296,
-      "Hawaiian": "muliwai",
+      "Italian": "fiume",
       "in English": "river"
     },
     {
       "Number": 297,
-      "Hawaiian": "kaʻa",
+      "Italian": "auto",
       "in English": "car"
     },
     {
       "Number": 298,
-      "Hawaiian": "wawae",
+      "Italian": "piedi",
       "in English": "feet"
     },
     {
       "Number": 299,
-      "Hawaiian": "mālama",
+      "Italian": "cura",
       "in English": "care"
     },
     {
       "Number": 300,
-      "Hawaiian": "ka lua",
+      "Italian": "secondo",
       "in English": "second"
     },
     {
       "Number": 301,
-      "Hawaiian": "lawa",
+      "Italian": "abbastanza",
       "in English": "enough"
     },
     {
       "Number": 302,
-      "Hawaiian": "maopopo",
+      "Italian": "pianura",
       "in English": "plain"
     },
     {
       "Number": 303,
-      "Hawaiian": "kaikamahine",
+      "Italian": "ragazza",
       "in English": "girl"
     },
     {
       "Number": 304,
-      "Hawaiian": "mau",
+      "Italian": "solito",
       "in English": "usual"
     },
     {
       "Number": 305,
-      "Hawaiian": "opiopio",
+      "Italian": "giovane",
       "in English": "young"
     },
     {
       "Number": 306,
-      "Hawaiian": "makaukau",
+      "Italian": "pronto",
       "in English": "ready"
     },
     {
       "Number": 307,
-      "Hawaiian": "luna",
+      "Italian": "sopra",
       "in English": "above"
     },
     {
       "Number": 308,
-      "Hawaiian": "loa",
+      "Italian": "mai",
       "in English": "ever"
     },
     {
       "Number": 309,
-      "Hawaiian": "ʻulaʻula",
+      "Italian": "rosso",
       "in English": "red"
     },
     {
       "Number": 310,
-      "Hawaiian": "papa",
+      "Italian": "elenco",
       "in English": "list"
     },
     {
       "Number": 311,
-      "Hawaiian": "nae",
+      "Italian": "anche se",
       "in English": "though"
     },
     {
       "Number": 312,
-      "Hawaiian": "haha aku",
+      "Italian": "sentire",
       "in English": "feel"
     },
     {
       "Number": 313,
-      "Hawaiian": "o anakuhi",
+      "Italian": "Discussioni",
       "in English": "talk"
     },
     {
       "Number": 314,
-      "Hawaiian": "manu",
+      "Italian": "uccello",
       "in English": "bird"
     },
     {
       "Number": 315,
-      "Hawaiian": "koke",
+      "Italian": "presto",
       "in English": "soon"
     },
     {
       "Number": 316,
-      "Hawaiian": "kino",
+      "Italian": "corpo",
       "in English": "body"
     },
     {
       "Number": 317,
-      "Hawaiian": "‘īlio",
+      "Italian": "cane",
       "in English": "dog"
     },
     {
       "Number": 318,
-      "Hawaiian": "ohana",
+      "Italian": "famiglia",
       "in English": "family"
     },
     {
       "Number": 319,
-      "Hawaiian": "kauoha",
+      "Italian": "diretto",
       "in English": "direct"
     },
     {
       "Number": 320,
-      "Hawaiian": "oweliweli",
+      "Italian": "posa",
       "in English": "pose"
     },
     {
       "Number": 321,
-      "Hawaiian": "waiho",
+      "Italian": "lasciare",
       "in English": "leave"
     },
     {
       "Number": 322,
-      "Hawaiian": "mele",
+      "Italian": "canzone",
       "in English": "song"
     },
     {
       "Number": 323,
-      "Hawaiian": "ana",
+      "Italian": "misurare",
       "in English": "measure"
     },
     {
       "Number": 324,
-      "Hawaiian": "puka",
+      "Italian": "porta",
       "in English": "door"
     },
     {
       "Number": 325,
-      "Hawaiian": "huahana",
+      "Italian": "prodotto",
       "in English": "product"
     },
     {
       "Number": 326,
-      "Hawaiian": "ʻeleʻele",
+      "Italian": "nero",
       "in English": "black"
     },
     {
       "Number": 327,
-      "Hawaiian": "pōkole",
+      "Italian": "breve",
       "in English": "short"
     },
     {
       "Number": 328,
-      "Hawaiian": "numeral",
+      "Italian": "numerale",
       "in English": "numeral"
     },
     {
       "Number": 329,
-      "Hawaiian": "papa",
+      "Italian": "classe",
       "in English": "class"
     },
     {
       "Number": 330,
-      "Hawaiian": "makani",
+      "Italian": "vento",
       "in English": "wind"
     },
     {
       "Number": 331,
-      "Hawaiian": "ninau",
+      "Italian": "domanda",
       "in English": "question"
     },
     {
       "Number": 332,
-      "Hawaiian": "hiki mai ana",
+      "Italian": "accadere",
       "in English": "happen"
     },
     {
       "Number": 333,
-      "Hawaiian": "loa",
+      "Italian": "integrale",
       "in English": "complete"
     },
     {
       "Number": 334,
-      "Hawaiian": "moku",
+      "Italian": "nave",
       "in English": "ship"
     },
     {
       "Number": 335,
-      "Hawaiian": "wahi",
+      "Italian": "area",
       "in English": "area"
     },
     {
       "Number": 336,
-      "Hawaiian": "hapalua",
+      "Italian": "metà",
       "in English": "half"
     },
     {
       "Number": 337,
-      "Hawaiian": "pohaku",
+      "Italian": "rock",
       "in English": "rock"
     },
     {
       "Number": 338,
-      "Hawaiian": "aoao",
+      "Italian": "ordine",
       "in English": "order"
     },
     {
       "Number": 339,
-      "Hawaiian": "ke ahi",
+      "Italian": "fuoco",
       "in English": "fire"
     },
     {
       "Number": 340,
-      "Hawaiian": "ka hema",
+      "Italian": "sud",
       "in English": "south"
     },
     {
       "Number": 341,
-      "Hawaiian": "pilikia",
+      "Italian": "problema",
       "in English": "problem"
     },
     {
       "Number": 342,
-      "Hawaiian": "kauwahi",
+      "Italian": "pezzo",
       "in English": "piece"
     },
     {
       "Number": 343,
-      "Hawaiian": "haʻi",
+      "Italian": "ha detto",
       "in English": "told"
     },
     {
       "Number": 344,
-      "Hawaiian": "ike",
+      "Italian": "sapeva",
       "in English": "knew"
     },
     {
       "Number": 345,
-      "Hawaiian": "kekahi",
+      "Italian": "passare",
       "in English": "pass"
     },
     {
       "Number": 346,
-      "Hawaiian": "mai",
+      "Italian": "da",
       "in English": "since"
     },
     {
       "Number": 347,
-      "Hawaiian": "luna",
+      "Italian": "top",
       "in English": "top"
     },
     {
       "Number": 348,
-      "Hawaiian": "a pau",
+      "Italian": "tutto",
       "in English": "whole"
     },
     {
       "Number": 349,
-      "Hawaiian": "ke alii",
+      "Italian": "re",
       "in English": "king"
     },
     {
       "Number": 350,
-      "Hawaiian": "alanui",
+      "Italian": "strada",
       "in English": "street"
     },
     {
       "Number": 351,
-      "Hawaiian": "‘īniha",
+      "Italian": "pollice",
       "in English": "inch"
     },
     {
       "Number": 352,
-      "Hawaiian": "hoonui",
+      "Italian": "moltiplicare",
       "in English": "multiply"
     },
     {
       "Number": 353,
-      "Hawaiian": "aole",
+      "Italian": "niente",
       "in English": "nothing"
     },
     {
       "Number": 354,
-      "Hawaiian": "ana",
+      "Italian": "corso",
       "in English": "course"
     },
     {
       "Number": 355,
-      "Hawaiian": "noho",
+      "Italian": "soggiornare",
       "in English": "stay"
     },
     {
       "Number": 356,
-      "Hawaiian": "huila",
+      "Italian": "ruota",
       "in English": "wheel"
     },
     {
       "Number": 357,
-      "Hawaiian": "piha",
+      "Italian": "completo",
       "in English": "full"
     },
     {
       "Number": 358,
-      "Hawaiian": "ikaika",
+      "Italian": "vigore",
       "in English": "force"
     },
     {
       "Number": 359,
-      "Hawaiian": "polū",
+      "Italian": "blu",
       "in English": "blue"
     },
     {
       "Number": 360,
-      "Hawaiian": "mea",
+      "Italian": "oggetto",
       "in English": "object"
     },
     {
       "Number": 361,
-      "Hawaiian": "hooholo",
+      "Italian": "decidere",
       "in English": "decide"
     },
     {
       "Number": 362,
-      "Hawaiian": "ili",
+      "Italian": "superficie",
       "in English": "surface"
     },
     {
       "Number": 363,
-      "Hawaiian": "hohonu",
+      "Italian": "profondità",
       "in English": "deep"
     },
     {
       "Number": 364,
-      "Hawaiian": "luna",
+      "Italian": "luna",
       "in English": "moon"
     },
     {
       "Number": 365,
-      "Hawaiian": "mokupuni",
+      "Italian": "isola",
       "in English": "island"
     },
     {
       "Number": 366,
-      "Hawaiian": "wawae",
+      "Italian": "piede",
       "in English": "foot"
     },
     {
       "Number": 367,
-      "Hawaiian": "nenoaiu",
+      "Italian": "sistema",
       "in English": "system"
     },
     {
       "Number": 368,
-      "Hawaiian": "‘ō i",
+      "Italian": "occupato",
       "in English": "busy"
     },
     {
       "Number": 369,
-      "Hawaiian": "hōʻike",
+      "Italian": "test",
       "in English": "test"
     },
     {
       "Number": 370,
-      "Hawaiian": "mooolelo",
+      "Italian": "record",
       "in English": "record"
     },
     {
       "Number": 371,
-      "Hawaiian": "moku",
+      "Italian": "barca",
       "in English": "boat"
     },
     {
       "Number": 372,
-      "Hawaiian": "like",
+      "Italian": "comune",
       "in English": "common"
     },
     {
       "Number": 373,
-      "Hawaiian": "gula",
+      "Italian": "oro",
       "in English": "gold"
     },
     {
       "Number": 374,
-      "Hawaiian": "hiki",
+      "Italian": "possibile",
       "in English": "possible"
     },
     {
       "Number": 375,
-      "Hawaiian": "pelane",
+      "Italian": "piano",
       "in English": "plane"
     },
     {
       "Number": 376,
-      "Hawaiian": "wahi",
+      "Italian": "vece",
       "in English": "stead"
     },
     {
       "Number": 377,
-      "Hawaiian": "maloo",
+      "Italian": "asciutto",
       "in English": "dry"
     },
     {
       "Number": 378,
-      "Hawaiian": "hoohuoi",
+      "Italian": "meraviglia",
       "in English": "wonder"
     },
     {
       "Number": 379,
-      "Hawaiian": "akaaka",
+      "Italian": "ridere",
       "in English": "laugh"
     },
     {
       "Number": 380,
-      "Hawaiian": "tausani",
+      "Italian": "migliaia",
       "in English": "thousand"
     },
     {
       "Number": 381,
-      "Hawaiian": "aku nei",
+      "Italian": "fa",
       "in English": "ago"
     },
     {
       "Number": 382,
-      "Hawaiian": "holo",
+      "Italian": "corse",
       "in English": "ran"
     },
     {
       "Number": 383,
-      "Hawaiian": "huli",
+      "Italian": "controllare",
       "in English": "check"
     },
     {
       "Number": 384,
-      "Hawaiian": "hihiu",
+      "Italian": "gioco",
       "in English": "game"
     },
     {
       "Number": 385,
-      "Hawaiian": "helehelena",
+      "Italian": "forma",
       "in English": "shape"
     },
     {
       "Number": 386,
-      "Hawaiian": "equate",
+      "Italian": "uguagliare",
       "in English": "equate"
     },
     {
       "Number": 387,
-      "Hawaiian": "anal",
+      "Italian": "caldo",
       "in English": "hot"
     },
     {
       "Number": 388,
-      "Hawaiian": "Miss",
+      "Italian": "perdere",
       "in English": "miss"
     },
     {
       "Number": 389,
-      "Hawaiian": "lawe mai",
+      "Italian": "portato",
       "in English": "brought"
     },
     {
       "Number": 390,
-      "Hawaiian": "wela",
+      "Italian": "calore",
       "in English": "heat"
     },
     {
       "Number": 391,
-      "Hawaiian": "hau",
+      "Italian": "neve",
       "in English": "snow"
     },
     {
       "Number": 392,
-      "Hawaiian": "kaea",
+      "Italian": "pneumatico",
       "in English": "tire"
     },
     {
       "Number": 393,
-      "Hawaiian": "lawe mai",
+      "Italian": "portare",
       "in English": "bring"
     },
     {
       "Number": 394,
-      "Hawaiian": "ʻae",
+      "Italian": "sì",
       "in English": "yes"
     },
     {
       "Number": 395,
-      "Hawaiian": "ke kaawale ana",
+      "Italian": "lontano",
       "in English": "distant"
     },
     {
       "Number": 396,
-      "Hawaiian": "hoopiha",
+      "Italian": "riempire",
       "in English": "fill"
     },
     {
       "Number": 397,
-      "Hawaiian": "ka hikina",
+      "Italian": "est",
       "in English": "east"
     },
     {
       "Number": 398,
-      "Hawaiian": "pena",
+      "Italian": "dipingere",
       "in English": "paint"
     },
     {
       "Number": 399,
-      "Hawaiian": "‘ōlelo",
+      "Italian": "lingua",
       "in English": "language"
     },
     {
       "Number": 400,
-      "Hawaiian": "mawaena o",
+      "Italian": "tra",
       "in English": "among"
     },
     {
       "Number": 401,
-      "Hawaiian": "pa alima",
+      "Italian": "unità",
       "in English": "unit"
     },
     {
       "Number": 402,
-      "Hawaiian": "mana",
+      "Italian": "potenza",
       "in English": "power"
     },
     {
       "Number": 403,
-      "Hawaiian": "kulanakauhale",
+      "Italian": "città",
       "in English": "town"
     },
     {
       "Number": 404,
-      "Hawaiian": "uku",
+      "Italian": "fine",
       "in English": "fine"
     },
     {
       "Number": 405,
-      "Hawaiian": "kekahi",
+      "Italian": "certo",
       "in English": "certain"
     },
     {
       "Number": 406,
-      "Hawaiian": "lele",
+      "Italian": "volare",
       "in English": "fly"
     },
     {
       "Number": 407,
-      "Hawaiian": "haule",
+      "Italian": "cadere",
       "in English": "fall"
     },
     {
       "Number": 408,
-      "Hawaiian": "alakai",
+      "Italian": "portare",
       "in English": "lead"
     },
     {
       "Number": 409,
-      "Hawaiian": "kahea ana",
+      "Italian": "grido",
       "in English": "cry"
     },
     {
       "Number": 410,
-      "Hawaiian": "pouli",
+      "Italian": "scuro",
       "in English": "dark"
     },
     {
       "Number": 411,
-      "Hawaiian": "Maker",
+      "Italian": "macchina",
       "in English": "machine"
     },
     {
       "Number": 412,
-      "Hawaiian": "palapala aie",
+      "Italian": "nota",
       "in English": "note"
     },
     {
       "Number": 413,
-      "Hawaiian": "kali",
+      "Italian": "aspettare",
       "in English": "wait"
     },
     {
       "Number": 414,
-      "Hawaiian": "kuka",
+      "Italian": "piano",
       "in English": "plan"
     },
     {
       "Number": 415,
-      "Hawaiian": "huahelu",
+      "Italian": "figura",
       "in English": "figure"
     },
     {
       "Number": 416,
-      "Hawaiian": "hoku",
+      "Italian": "stella",
       "in English": "star"
     },
     {
       "Number": 417,
-      "Hawaiian": "pahu",
+      "Italian": "scatola",
       "in English": "box"
     },
     {
       "Number": 418,
-      "Hawaiian": "noun",
+      "Italian": "sostantivo",
       "in English": "noun"
     },
     {
       "Number": 419,
-      "Hawaiian": "mahinaʻai",
+      "Italian": "campo",
       "in English": "field"
     },
     {
       "Number": 420,
-      "Hawaiian": "maha",
+      "Italian": "resto",
       "in English": "rest"
     },
     {
       "Number": 421,
-      "Hawaiian": "pololei",
+      "Italian": "corretto",
       "in English": "correct"
     },
     {
       "Number": 422,
-      "Hawaiian": "hiki",
+      "Italian": "in grado di",
       "in English": "able"
     },
     {
       "Number": 423,
-      "Hawaiian": "paona",
+      "Italian": "libbra",
       "in English": "pound"
     },
     {
       "Number": 424,
-      "Hawaiian": "hana",
+      "Italian": "done",
       "in English": "done"
     },
     {
       "Number": 425,
-      "Hawaiian": "nani",
+      "Italian": "bellezza",
       "in English": "beauty"
     },
     {
       "Number": 426,
-      "Hawaiian": "a holo",
+      "Italian": "unità",
       "in English": "drive"
     },
     {
       "Number": 427,
-      "Hawaiian": "ku",
+      "Italian": "sorgeva",
       "in English": "stood"
     },
     {
       "Number": 428,
-      "Hawaiian": "no",
+      "Italian": "contenere",
       "in English": "contain"
     },
     {
       "Number": 429,
-      "Hawaiian": "alo",
+      "Italian": "frontale",
       "in English": "front"
     },
     {
       "Number": 430,
-      "Hawaiian": "ao",
+      "Italian": "insegnare",
       "in English": "teach"
     },
     {
       "Number": 431,
-      "Hawaiian": "pule",
+      "Italian": "settimana",
       "in English": "week"
     },
     {
       "Number": 432,
-      "Hawaiian": "hope loa",
+      "Italian": "finale",
       "in English": "final"
     },
     {
       "Number": 433,
-      "Hawaiian": "haawi",
+      "Italian": "ha dato",
       "in English": "gave"
     },
     {
       "Number": 434,
-      "Hawaiian": "ʻōmaʻomaʻo",
+      "Italian": "verde",
       "in English": "green"
     },
     {
       "Number": 435,
-      "Hawaiian": "oh la",
+      "Italian": "oh",
       "in English": "oh"
     },
     {
       "Number": 436,
-      "Hawaiian": "poe ola,",
+      "Italian": "veloce",
       "in English": "quick"
     },
     {
       "Number": 437,
-      "Hawaiian": "hoʻomōhala",
+      "Italian": "sviluppare",
       "in English": "develop"
     },
     {
       "Number": 438,
-      "Hawaiian": "moana",
+      "Italian": "oceano",
       "in English": "ocean"
     },
     {
       "Number": 439,
-      "Hawaiian": "pumehana",
+      "Italian": "caldo",
       "in English": "warm"
     },
     {
       "Number": 440,
-      "Hawaiian": "like me",
+      "Italian": "gratuito",
       "in English": "free"
     },
     {
       "Number": 441,
-      "Hawaiian": "minuke",
+      "Italian": "minuto",
       "in English": "minute"
     },
     {
       "Number": 442,
-      "Hawaiian": "ikaika",
+      "Italian": "forte",
       "in English": "strong"
     },
     {
       "Number": 443,
-      "Hawaiian": "kūikawā",
+      "Italian": "speciale",
       "in English": "special"
     },
     {
       "Number": 444,
-      "Hawaiian": "manao",
+      "Italian": "mente",
       "in English": "mind"
     },
     {
       "Number": 445,
-      "Hawaiian": "mahope",
+      "Italian": "dietro",
       "in English": "behind"
     },
     {
       "Number": 446,
-      "Hawaiian": "maopopo",
+      "Italian": "chiaro",
       "in English": "clear"
     },
     {
       "Number": 447,
-      "Hawaiian": "huelo",
+      "Italian": "coda",
       "in English": "tail"
     },
     {
       "Number": 448,
-      "Hawaiian": "paka",
+      "Italian": "produrre",
       "in English": "produce"
     },
     {
       "Number": 449,
-      "Hawaiian": "mea",
+      "Italian": "fatto",
       "in English": "fact"
     },
     {
       "Number": 450,
-      "Hawaiian": "makahiki",
+      "Italian": "spazio",
       "in English": "space"
     },
     {
       "Number": 451,
-      "Hawaiian": "lohe",
+      "Italian": "sentito",
       "in English": "heard"
     },
     {
       "Number": 452,
-      "Hawaiian": "pono",
+      "Italian": "migliore",
       "in English": "best"
     },
     {
       "Number": 453,
-      "Hawaiian": "hola",
+      "Italian": "ora",
       "in English": "hour"
     },
     {
       "Number": 454,
-      "Hawaiian": "maikai",
+      "Italian": "meglio",
       "in English": "better"
     },
     {
       "Number": 455,
-      "Hawaiian": "oiaio",
+      "Italian": "vero",
       "in English": "true"
     },
     {
       "Number": 456,
-      "Hawaiian": "iloko o",
+      "Italian": "durante",
       "in English": "during"
     },
     {
       "Number": 457,
-      "Hawaiian": "haneri",
+      "Italian": "cento",
       "in English": "hundred"
     },
     {
       "Number": 458,
-      "Hawaiian": "ʻelima",
+      "Italian": "cinque",
       "in English": "five"
     },
     {
       "Number": 459,
-      "Hawaiian": "no",
+      "Italian": "ricordare",
       "in English": "remember"
     },
     {
       "Number": 460,
-      "Hawaiian": "‘anuʻu",
+      "Italian": "passo",
       "in English": "step"
     },
     {
       "Number": 461,
-      "Hawaiian": "koke",
+      "Italian": "presto",
       "in English": "early"
     },
     {
       "Number": 462,
-      "Hawaiian": "paa",
+      "Italian": "tenere",
       "in English": "hold"
     },
     {
       "Number": 463,
-      "Hawaiian": "komohana",
+      "Italian": "ovest",
       "in English": "west"
     },
     {
       "Number": 464,
-      "Hawaiian": "honua",
+      "Italian": "terra",
       "in English": "ground"
     },
     {
       "Number": 465,
-      "Hawaiian": "panee",
+      "Italian": "interesse",
       "in English": "interest"
     },
     {
       "Number": 466,
-      "Hawaiian": "hiki",
+      "Italian": "raggiungere",
       "in English": "reach"
     },
     {
       "Number": 467,
-      "Hawaiian": "hookeai",
+      "Italian": "veloce",
       "in English": "fast"
     },
     {
       "Number": 468,
-      "Hawaiian": "verb",
+      "Italian": "verbo",
       "in English": "verb"
     },
     {
       "Number": 469,
-      "Hawaiian": "mele",
+      "Italian": "cantare",
       "in English": "sing"
     },
     {
       "Number": 470,
-      "Hawaiian": "hoolohe",
+      "Italian": "ascoltare",
       "in English": "listen"
     },
     {
       "Number": 471,
-      "Hawaiian": "ʻeono",
+      "Italian": "sei",
       "in English": "six"
     },
     {
       "Number": 472,
-      "Hawaiian": "papaʻaina",
+      "Italian": "tavolo",
       "in English": "table"
     },
     {
       "Number": 473,
-      "Hawaiian": "hele",
+      "Italian": "viaggi",
       "in English": "travel"
     },
     {
       "Number": 474,
-      "Hawaiian": "emi",
+      "Italian": "meno",
       "in English": "less"
     },
     {
       "Number": 475,
-      "Hawaiian": "kakahiaka",
+      "Italian": "mattina",
       "in English": "morning"
     },
     {
       "Number": 476,
-      "Hawaiian": "ʻumi",
+      "Italian": "dieci",
       "in English": "ten"
     },
     {
       "Number": 477,
-      "Hawaiian": "mea",
+      "Italian": "semplice",
       "in English": "simple"
     },
     {
       "Number": 478,
-      "Hawaiian": "mau",
+      "Italian": "alcuni",
       "in English": "several"
     },
     {
       "Number": 479,
-      "Hawaiian": "vowel",
+      "Italian": "vocale",
       "in English": "vowel"
     },
     {
       "Number": 480,
-      "Hawaiian": "ma",
+      "Italian": "verso",
       "in English": "toward"
     },
     {
       "Number": 481,
-      "Hawaiian": "kaua",
+      "Italian": "guerra",
       "in English": "war"
     },
     {
       "Number": 482,
-      "Hawaiian": "waiho",
+      "Italian": "porre",
       "in English": "lay"
     },
     {
       "Number": 483,
-      "Hawaiian": "ku",
+      "Italian": "contro",
       "in English": "against"
     },
     {
       "Number": 484,
-      "Hawaiian": "kumu",
+      "Italian": "modello",
       "in English": "pattern"
     },
     {
       "Number": 485,
-      "Hawaiian": "kali",
+      "Italian": "lento",
       "in English": "slow"
     },
     {
       "Number": 486,
-      "Hawaiian": "kikowaena",
+      "Italian": "centro",
       "in English": "center"
     },
     {
       "Number": 487,
-      "Hawaiian": "aloha",
+      "Italian": "amore",
       "in English": "love"
     },
     {
       "Number": 488,
-      "Hawaiian": "kanaka",
+      "Italian": "persona",
       "in English": "person"
     },
     {
       "Number": 489,
-      "Hawaiian": "kala",
+      "Italian": "soldi",
       "in English": "money"
     },
     {
       "Number": 490,
-      "Hawaiian": "malama",
+      "Italian": "servire",
       "in English": "serve"
     },
     {
       "Number": 491,
-      "Hawaiian": "hele mai",
+      "Italian": "apparire",
       "in English": "appear"
     },
     {
       "Number": 492,
-      "Hawaiian": "alanui",
+      "Italian": "strada",
       "in English": "road"
     },
     {
       "Number": 493,
-      "Hawaiian": "palapala ‘āina",
+      "Italian": "mappa",
       "in English": "map"
     },
     {
       "Number": 494,
-      "Hawaiian": "ka ua",
+      "Italian": "pioggia",
       "in English": "rain"
     },
     {
       "Number": 495,
-      "Hawaiian": "rula",
+      "Italian": "regola",
       "in English": "rule"
     },
     {
       "Number": 496,
-      "Hawaiian": "hoomalu",
+      "Italian": "governare",
       "in English": "govern"
     },
     {
       "Number": 497,
-      "Hawaiian": "huki",
+      "Italian": "tirare",
       "in English": "pull"
     },
     {
       "Number": 498,
-      "Hawaiian": "anu",
+      "Italian": "freddo",
       "in English": "cold"
     },
     {
       "Number": 499,
-      "Hawaiian": "Hoike",
+      "Italian": "avviso",
       "in English": "notice"
     },
     {
       "Number": 500,
-      "Hawaiian": "leo",
+      "Italian": "voce",
       "in English": "voice"
     },
     {
       "Number": 501,
-      "Hawaiian": "ikehu",
+      "Italian": "energia",
       "in English": "energy"
     },
     {
       "Number": 502,
-      "Hawaiian": "i hoʻohālua",
+      "Italian": "caccia",
       "in English": "hunt"
     },
     {
       "Number": 503,
-      "Hawaiian": "paha",
+      "Italian": "probabile",
       "in English": "probable"
     },
     {
       "Number": 504,
-      "Hawaiian": "moe",
+      "Italian": "letto",
       "in English": "bed"
     },
     {
       "Number": 505,
-      "Hawaiian": "kaikuaʻana, kaikaina",
+      "Italian": "fratello",
       "in English": "brother"
     },
     {
       "Number": 506,
-      "Hawaiian": "hua",
+      "Italian": "uovo",
       "in English": "egg"
     },
     {
       "Number": 507,
-      "Hawaiian": "No Lilo",
+      "Italian": "giro",
       "in English": "ride"
     },
     {
       "Number": 508,
-      "Hawaiian": "aeea",
+      "Italian": "cella",
       "in English": "cell"
     },
     {
       "Number": 509,
-      "Hawaiian": "manaoio",
+      "Italian": "credere",
       "in English": "believe"
     },
     {
       "Number": 510,
-      "Hawaiian": "paha",
+      "Italian": "forse",
       "in English": "perhaps"
     },
     {
       "Number": 511,
-      "Hawaiian": "e koho i",
+      "Italian": "scegliere",
       "in English": "pick"
     },
     {
       "Number": 512,
-      "Hawaiian": "ulia",
+      "Italian": "improvviso",
       "in English": "sudden"
     },
     {
       "Number": 513,
-      "Hawaiian": "helu",
+      "Italian": "contare",
       "in English": "count"
     },
     {
       "Number": 514,
-      "Hawaiian": "pāhoʻonui",
+      "Italian": "piazza",
       "in English": "square"
     },
     {
       "Number": 515,
-      "Hawaiian": "kumu",
+      "Italian": "motivo",
       "in English": "reason"
     },
     {
       "Number": 516,
-      "Hawaiian": "loa",
+      "Italian": "lunghezza",
       "in English": "length"
     },
     {
       "Number": 517,
-      "Hawaiian": "ho i",
+      "Italian": "rappresentare",
       "in English": "represent"
     },
     {
       "Number": 518,
-      "Hawaiian": "oe",
+      "Italian": "arte",
       "in English": "art"
     },
     {
       "Number": 519,
-      "Hawaiian": "kumuhana",
+      "Italian": "soggetto",
       "in English": "subject"
     },
     {
       "Number": 520,
-      "Hawaiian": "māhele",
+      "Italian": "regione",
       "in English": "region"
     },
     {
       "Number": 521,
-      "Hawaiian": "ka nui",
+      "Italian": "dimensione",
       "in English": "size"
     },
     {
       "Number": 522,
-      "Hawaiian": "lauwili",
+      "Italian": "variare",
       "in English": "vary"
     },
     {
       "Number": 523,
-      "Hawaiian": "hoonoho au",
+      "Italian": "risolvere",
       "in English": "settle"
     },
     {
       "Number": 524,
-      "Hawaiian": "olelo",
+      "Italian": "parlare",
       "in English": "speak"
     },
     {
       "Number": 525,
-      "Hawaiian": "kaumaha",
+      "Italian": "peso",
       "in English": "weight"
     },
     {
       "Number": 526,
-      "Hawaiian": "nui",
+      "Italian": "generale",
       "in English": "general"
     },
     {
       "Number": 527,
-      "Hawaiian": "hau",
+      "Italian": "ghiaccio",
       "in English": "ice"
     },
     {
       "Number": 528,
-      "Hawaiian": "mea",
+      "Italian": "materia",
       "in English": "matter"
     },
     {
       "Number": 529,
-      "Hawaiian": "kaiapili",
+      "Italian": "cerchio",
       "in English": "circle"
     },
     {
       "Number": 530,
-      "Hawaiian": "mau",
+      "Italian": "coppia",
       "in English": "pair"
     },
     {
       "Number": 531,
-      "Hawaiian": "nā",
+      "Italian": "includere",
       "in English": "include"
     },
     {
       "Number": 532,
-      "Hawaiian": "māhele",
+      "Italian": "divide",
       "in English": "divide"
     },
     {
       "Number": 533,
-      "Hawaiian": "syllable",
+      "Italian": "sillaba",
       "in English": "syllable"
     },
     {
       "Number": 534,
-      "Hawaiian": "manaʻo",
+      "Italian": "feltro",
       "in English": "felt"
     },
     {
       "Number": 535,
-      "Hawaiian": "Luna nui",
+      "Italian": "grande",
       "in English": "grand"
     },
     {
       "Number": 536,
-      "Hawaiian": "poepoe",
+      "Italian": "palla",
       "in English": "ball"
     },
     {
       "Number": 537,
-      "Hawaiian": "aka,",
+      "Italian": "ancora",
       "in English": "yet"
     },
     {
       "Number": 538,
-      "Hawaiian": "hawewe",
+      "Italian": "onda",
       "in English": "wave"
     },
     {
       "Number": 539,
-      "Hawaiian": "papa",
+      "Italian": "cadere",
       "in English": "drop"
     },
     {
       "Number": 540,
-      "Hawaiian": "Puʻuwai",
+      "Italian": "cuore",
       "in English": "heart"
     },
     {
       "Number": 541,
-      "Hawaiian": "no",
+      "Italian": "am",
       "in English": "am"
     },
     {
       "Number": 542,
-      "Hawaiian": "keia",
+      "Italian": "presente",
       "in English": "present"
     },
     {
       "Number": 543,
-      "Hawaiian": "kaumaha",
+      "Italian": "pesante",
       "in English": "heavy"
     },
     {
       "Number": 544,
-      "Hawaiian": "hula",
+      "Italian": "danza",
       "in English": "dance"
     },
     {
       "Number": 545,
-      "Hawaiian": "engine",
+      "Italian": "motore",
       "in English": "engine"
     },
     {
       "Number": 546,
-      "Hawaiian": "wahi",
+      "Italian": "posizione",
       "in English": "position"
     },
     {
       "Number": 547,
-      "Hawaiian": "lima",
+      "Italian": "braccio",
       "in English": "arm"
     },
     {
       "Number": 548,
-      "Hawaiian": "ka laula,",
+      "Italian": "ampio",
       "in English": "wide"
     },
     {
       "Number": 549,
-      "Hawaiian": "holo",
+      "Italian": "vela",
       "in English": "sail"
     },
     {
       "Number": 550,
-      "Hawaiian": "mea",
+      "Italian": "materiale",
       "in English": "material"
     },
     {
       "Number": 551,
-      "Hawaiian": "mahele",
+      "Italian": "frazione",
       "in English": "fraction"
     },
     {
       "Number": 552,
-      "Hawaiian": "nahele",
+      "Italian": "foresta",
       "in English": "forest"
     },
     {
       "Number": 553,
-      "Hawaiian": "noho",
+      "Italian": "sedersi",
       "in English": "sit"
     },
     {
       "Number": 554,
-      "Hawaiian": "lāhui",
+      "Italian": "gara",
       "in English": "race"
     },
     {
       "Number": 555,
-      "Hawaiian": "puka makani",
+      "Italian": "finestra",
       "in English": "window"
     },
     {
       "Number": 556,
-      "Hawaiian": "hale kūʻai",
+      "Italian": "negozio",
       "in English": "store"
     },
     {
       "Number": 557,
-      "Hawaiian": "ke kau",
+      "Italian": "estate",
       "in English": "summer"
     },
     {
       "Number": 558,
-      "Hawaiian": "nalowale",
+      "Italian": "treno",
       "in English": "train"
     },
     {
       "Number": 559,
-      "Hawaiian": "hiamoe",
+      "Italian": "sonno",
       "in English": "sleep"
     },
     {
       "Number": 560,
-      "Hawaiian": "hoao",
+      "Italian": "dimostrare",
       "in English": "prove"
     },
     {
       "Number": 561,
-      "Hawaiian": "Lone",
+      "Italian": "solitario",
       "in English": "lone"
     },
     {
       "Number": 562,
-      "Hawaiian": "wawae",
+      "Italian": "gamba",
       "in English": "leg"
     },
     {
       "Number": 563,
-      "Hawaiian": "me ka",
+      "Italian": "esercizio",
       "in English": "exercise"
     },
     {
       "Number": 564,
-      "Hawaiian": "pa",
+      "Italian": "muro",
       "in English": "wall"
     },
     {
       "Number": 565,
-      "Hawaiian": "hoopahele ae la i",
+      "Italian": "prendere",
       "in English": "catch"
     },
     {
       "Number": 566,
-      "Hawaiian": "mauna",
+      "Italian": "monte",
       "in English": "mount"
     },
     {
       "Number": 567,
-      "Hawaiian": "makemake",
+      "Italian": "desiderio",
       "in English": "wish"
     },
     {
       "Number": 568,
-      "Hawaiian": "lani",
+      "Italian": "cielo",
       "in English": "sky"
     },
     {
       "Number": 569,
-      "Hawaiian": "papa",
+      "Italian": "pensione",
       "in English": "board"
     },
     {
       "Number": 570,
-      "Hawaiian": "olioli",
+      "Italian": "gioia",
       "in English": "joy"
     },
     {
       "Number": 571,
-      "Hawaiian": "hooilo",
+      "Italian": "inverno",
       "in English": "winter"
     },
     {
       "Number": 572,
-      "Hawaiian": "Pōʻaono",
+      "Italian": "sat",
       "in English": "sat"
     },
     {
       "Number": 573,
-      "Hawaiian": "kakauia",
+      "Italian": "scritto",
       "in English": "written"
     },
     {
       "Number": 574,
-      "Hawaiian": "hihiu",
+      "Italian": "selvaggio",
       "in English": "wild"
     },
     {
       "Number": 575,
-      "Hawaiian": "hana",
+      "Italian": "strumento",
       "in English": "instrument"
     },
     {
       "Number": 576,
-      "Hawaiian": "malama",
+      "Italian": "tenere",
       "in English": "kept"
     },
     {
       "Number": 577,
-      "Hawaiian": "aniani",
+      "Italian": "vetro",
       "in English": "glass"
     },
     {
       "Number": 578,
-      "Hawaiian": "ka mauu",
+      "Italian": "erba",
       "in English": "grass"
     },
     {
       "Number": 579,
-      "Hawaiian": "bipi",
+      "Italian": "mucca",
       "in English": "cow"
     },
     {
       "Number": 580,
-      "Hawaiian": "oihana",
+      "Italian": "lavoro",
       "in English": "job"
     },
     {
       "Number": 581,
-      "Hawaiian": "lihi",
+      "Italian": "bordo",
       "in English": "edge"
     },
     {
       "Number": 582,
-      "Hawaiian": "hoailona",
+      "Italian": "segno",
       "in English": "sign"
     },
     {
       "Number": 583,
-      "Hawaiian": "makaikai.",
+      "Italian": "visita",
       "in English": "visit"
     },
     {
       "Number": 584,
-      "Hawaiian": "i hala iho nei",
+      "Italian": "passato",
       "in English": "past"
     },
     {
       "Number": 585,
-      "Hawaiian": "pahee",
+      "Italian": "morbido",
       "in English": "soft"
     },
     {
       "Number": 586,
-      "Hawaiian": "leʻaleʻa",
+      "Italian": "divertimento",
       "in English": "fun"
     },
     {
       "Number": 587,
-      "Hawaiian": "ao alohilohi i",
+      "Italian": "luminoso",
       "in English": "bright"
     },
     {
       "Number": 588,
-      "Hawaiian": "kinoea",
+      "Italian": "gas",
       "in English": "gas"
     },
     {
       "Number": 589,
-      "Hawaiian": "map",
+      "Italian": "tempo",
       "in English": "weather"
     },
     {
       "Number": 590,
-      "Hawaiian": "mahina",
+      "Italian": "mese",
       "in English": "month"
     },
     {
       "Number": 591,
-      "Hawaiian": "miliona",
+      "Italian": "milione",
       "in English": "million"
     },
     {
       "Number": 592,
-      "Hawaiian": "lawe",
+      "Italian": "sopportare",
       "in English": "bear"
     },
     {
       "Number": 593,
-      "Hawaiian": "hoʻopau",
+      "Italian": "finitura",
       "in English": "finish"
     },
     {
       "Number": 594,
-      "Hawaiian": "hauʻoli",
+      "Italian": "felice",
       "in English": "happy"
     },
     {
       "Number": 595,
-      "Hawaiian": "manaolana",
+      "Italian": "speranza",
       "in English": "hope"
     },
     {
       "Number": 596,
-      "Hawaiian": "pua",
+      "Italian": "fiore",
       "in English": "flower"
     },
     {
       "Number": 597,
-      "Hawaiian": "hoaahu",
+      "Italian": "vestire",
       "in English": "clothe"
     },
     {
       "Number": 598,
-      "Hawaiian": "malihini",
+      "Italian": "strano",
       "in English": "strange"
     },
     {
       "Number": 599,
-      "Hawaiian": "Hana Party",
+      "Italian": "gone",
       "in English": "gone"
     },
     {
       "Number": 600,
-      "Hawaiian": "kuai",
+      "Italian": "commercio",
       "in English": "trade"
     },
     {
       "Number": 601,
-      "Hawaiian": "e hoʻonui i",
+      "Italian": "melodia",
       "in English": "melody"
     },
     {
       "Number": 602,
-      "Hawaiian": "huakai",
+      "Italian": "viaggio",
       "in English": "trip"
     },
     {
       "Number": 603,
-      "Hawaiian": "oihana",
+      "Italian": "ufficio",
       "in English": "office"
     },
     {
       "Number": 604,
-      "Hawaiian": "loaa",
+      "Italian": "ricevere",
       "in English": "receive"
     },
     {
       "Number": 605,
-      "Hawaiian": "lalani",
+      "Italian": "fila",
       "in English": "row"
     },
     {
       "Number": 606,
-      "Hawaiian": "waha",
+      "Italian": "bocca",
       "in English": "mouth"
     },
     {
       "Number": 607,
-      "Hawaiian": "mau",
+      "Italian": "esatto",
       "in English": "exact"
     },
     {
       "Number": 608,
-      "Hawaiian": "hōʻailona",
+      "Italian": "simbolo",
       "in English": "symbol"
     },
     {
       "Number": 609,
-      "Hawaiian": "make",
+      "Italian": "morire",
       "in English": "die"
     },
     {
       "Number": 610,
-      "Hawaiian": "ka liʻiliʻi loa",
+      "Italian": "meno",
       "in English": "least"
     },
     {
       "Number": 611,
-      "Hawaiian": "pilikia",
+      "Italian": "difficoltà",
       "in English": "trouble"
     },
     {
       "Number": 612,
-      "Hawaiian": "hooho",
+      "Italian": "shout",
       "in English": "shout"
     },
     {
       "Number": 613,
-      "Hawaiian": "koe nae",
+      "Italian": "tranne",
       "in English": "except"
     },
     {
       "Number": 614,
-      "Hawaiian": "kakau iho la",
+      "Italian": "ha scritto",
       "in English": "wrote"
     },
     {
       "Number": 615,
-      "Hawaiian": "hua",
+      "Italian": "seme",
       "in English": "seed"
     },
     {
       "Number": 616,
-      "Hawaiian": "leo",
+      "Italian": "tono",
       "in English": "tone"
     },
     {
       "Number": 617,
-      "Hawaiian": "hui",
+      "Italian": "aderire",
       "in English": "join"
     },
     {
       "Number": 618,
-      "Hawaiian": "paipai",
+      "Italian": "suggerire",
       "in English": "suggest"
     },
     {
       "Number": 619,
-      "Hawaiian": "maemae",
+      "Italian": "pulito",
       "in English": "clean"
     },
     {
       "Number": 620,
-      "Hawaiian": "ʻoluʻolu o",
+      "Italian": "pausa",
       "in English": "break"
     },
     {
       "Number": 621,
-      "Hawaiian": "wahine",
+      "Italian": "signora",
       "in English": "lady"
     },
     {
       "Number": 622,
-      "Hawaiian": "iwilei",
+      "Italian": "cantiere",
       "in English": "yard"
     },
     {
       "Number": 623,
-      "Hawaiian": "ala",
+      "Italian": "salire",
       "in English": "rise"
     },
     {
       "Number": 624,
-      "Hawaiian": "ino",
+      "Italian": "male",
       "in English": "bad"
     },
     {
       "Number": 625,
-      "Hawaiian": "puupuu",
+      "Italian": "colpo",
       "in English": "blow"
     },
     {
       "Number": 626,
-      "Hawaiian": "aila",
+      "Italian": "olio",
       "in English": "oil"
     },
     {
       "Number": 627,
-      "Hawaiian": "ke koko",
+      "Italian": "sangue",
       "in English": "blood"
     },
     {
       "Number": 628,
-      "Hawaiian": "hoopa aku",
+      "Italian": "toccare",
       "in English": "touch"
     },
     {
       "Number": 629,
-      "Hawaiian": "ulu",
+      "Italian": "è cresciuto",
       "in English": "grew"
     },
     {
       "Number": 630,
-      "Hawaiian": "keneta",
+      "Italian": "cent",
       "in English": "cent"
     },
     {
       "Number": 631,
-      "Hawaiian": "hui",
+      "Italian": "mescolare",
       "in English": "mix"
     },
     {
       "Number": 632,
-      "Hawaiian": "hui",
+      "Italian": "team",
       "in English": "team"
     },
     {
       "Number": 633,
-      "Hawaiian": "uea",
+      "Italian": "filo",
       "in English": "wire"
     },
     {
       "Number": 634,
-      "Hawaiian": "kāki",
+      "Italian": "costo",
       "in English": "cost"
     },
     {
       "Number": 635,
-      "Hawaiian": "nalowale",
+      "Italian": "perso",
       "in English": "lost"
     },
     {
       "Number": 636,
-      "Hawaiian": "palaunu",
+      "Italian": "marrone",
       "in English": "brown"
     },
     {
       "Number": 637,
-      "Hawaiian": "komo",
+      "Italian": "indossare",
       "in English": "wear"
     },
     {
       "Number": 638,
-      "Hawaiian": "kīhāpai",
+      "Italian": "giardino",
       "in English": "garden"
     },
     {
       "Number": 639,
-      "Hawaiian": "like",
+      "Italian": "pari",
       "in English": "equal"
     },
     {
       "Number": 640,
-      "Hawaiian": "hoouna",
+      "Italian": "inviato",
       "in English": "sent"
     },
     {
       "Number": 641,
-      "Hawaiian": "koho",
+      "Italian": "scegliere",
       "in English": "choose"
     },
     {
       "Number": 642,
-      "Hawaiian": "haule iho la",
+      "Italian": "caduto",
       "in English": "fell"
     },
     {
       "Number": 643,
-      "Hawaiian": "pono",
+      "Italian": "adattarsi",
       "in English": "fit"
     },
     {
       "Number": 644,
-      "Hawaiian": "kahe ana",
+      "Italian": "flusso",
       "in English": "flow"
     },
     {
       "Number": 645,
-      "Hawaiian": "maikai",
+      "Italian": "fiera",
       "in English": "fair"
     },
     {
       "Number": 646,
-      "Hawaiian": "pali,",
+      "Italian": "banca",
       "in English": "bank"
     },
     {
       "Number": 647,
-      "Hawaiian": "ohi",
+      "Italian": "raccogliere",
       "in English": "collect"
     },
     {
       "Number": 648,
-      "Hawaiian": "hoola",
+      "Italian": "salvare",
       "in English": "save"
     },
     {
       "Number": 649,
-      "Hawaiian": "hooponopono",
+      "Italian": "controllo",
       "in English": "control"
     },
     {
       "Number": 650,
-      "Hawaiian": "kekimala",
+      "Italian": "decimale",
       "in English": "decimal"
     },
     {
       "Number": 651,
-      "Hawaiian": "pepeiao",
+      "Italian": "orecchio",
       "in English": "ear"
     },
     {
       "Number": 652,
-      "Hawaiian": "e ae",
+      "Italian": "altro",
       "in English": "else"
     },
     {
       "Number": 653,
-      "Hawaiian": "loa",
+      "Italian": "abbastanza",
       "in English": "quite"
     },
     {
       "Number": 654,
-      "Hawaiian": "uhai",
+      "Italian": "rotto",
       "in English": "broke"
     },
     {
       "Number": 655,
-      "Hawaiian": "hihia",
+      "Italian": "caso",
       "in English": "case"
     },
     {
       "Number": 656,
-      "Hawaiian": "waena",
+      "Italian": "mezzo",
       "in English": "middle"
     },
     {
       "Number": 657,
-      "Hawaiian": "pepehi",
+      "Italian": "uccidere",
       "in English": "kill"
     },
     {
       "Number": 658,
-      "Hawaiian": "keikikāne",
+      "Italian": "figlio",
       "in English": "son"
     },
     {
       "Number": 659,
-      "Hawaiian": "Lake",
+      "Italian": "lago",
       "in English": "lake"
     },
     {
       "Number": 660,
-      "Hawaiian": "manawa",
+      "Italian": "momento",
       "in English": "moment"
     },
     {
       "Number": 661,
-      "Hawaiian": "pālākiō",
+      "Italian": "scala",
       "in English": "scale"
     },
     {
       "Number": 662,
-      "Hawaiian": "loa",
+      "Italian": "forte",
       "in English": "loud"
     },
     {
       "Number": 663,
-      "Hawaiian": "waipuna",
+      "Italian": "primavera",
       "in English": "spring"
     },
     {
       "Number": 664,
-      "Hawaiian": "malama",
+      "Italian": "osservare",
       "in English": "observe"
     },
     {
       "Number": 665,
-      "Hawaiian": "keiki",
+      "Italian": "bambino",
       "in English": "child"
     },
     {
       "Number": 666,
-      "Hawaiian": "pololei",
+      "Italian": "dritto",
       "in English": "straight"
     },
     {
       "Number": 667,
-      "Hawaiian": "leokanipū",
+      "Italian": "consonante",
       "in English": "consonant"
     },
     {
       "Number": 668,
-      "Hawaiian": "lahuikanaka",
+      "Italian": "nazione",
       "in English": "nation"
     },
     {
       "Number": 669,
-      "Hawaiian": "puke wehewehe’ōlelo",
+      "Italian": "dizionario",
       "in English": "dictionary"
     },
     {
       "Number": 670,
-      "Hawaiian": "waiu",
+      "Italian": "latte",
       "in English": "milk"
     },
     {
       "Number": 671,
-      "Hawaiian": "ka mämä holo",
+      "Italian": "velocità",
       "in English": "speed"
     },
     {
       "Number": 672,
-      "Hawaiian": "hana",
+      "Italian": "metodo",
       "in English": "method"
     },
     {
       "Number": 673,
-      "Hawaiian": "hui",
+      "Italian": "organo",
       "in English": "organ"
     },
     {
       "Number": 674,
-      "Hawaiian": "uku",
+      "Italian": "pagare",
       "in English": "pay"
     },
     {
       "Number": 675,
-      "Hawaiian": "makahiki",
+      "Italian": "età",
       "in English": "age"
     },
     {
       "Number": 676,
-      "Hawaiian": "pauku",
+      "Italian": "sezione",
       "in English": "section"
     },
     {
       "Number": 677,
-      "Hawaiian": "male",
+      "Italian": "vestito",
       "in English": "dress"
     },
     {
       "Number": 678,
-      "Hawaiian": "ao",
+      "Italian": "nube",
       "in English": "cloud"
     },
     {
       "Number": 679,
-      "Hawaiian": "haohao",
+      "Italian": "sorpresa",
       "in English": "surprise"
     },
     {
       "Number": 680,
-      "Hawaiian": "mālie",
+      "Italian": "tranquillo",
       "in English": "quiet"
     },
     {
       "Number": 681,
-      "Hawaiian": "pohaku",
+      "Italian": "pietra",
       "in English": "stone"
     },
     {
       "Number": 682,
-      "Hawaiian": "wahi",
+      "Italian": "piccolo",
       "in English": "tiny"
     },
     {
       "Number": 683,
-      "Hawaiian": "pii ana",
+      "Italian": "salita",
       "in English": "climb"
     },
     {
       "Number": 684,
-      "Hawaiian": "anu",
+      "Italian": "fresco",
       "in English": "cool"
     },
     {
       "Number": 685,
-      "Hawaiian": "manao",
+      "Italian": "design",
       "in English": "design"
     },
     {
       "Number": 686,
-      "Hawaiian": "ilihune",
+      "Italian": "povero",
       "in English": "poor"
     },
     {
       "Number": 687,
-      "Hawaiian": "puu",
+      "Italian": "lotto",
       "in English": "lot"
     },
     {
       "Number": 688,
-      "Hawaiian": "hoʻokolohua",
+      "Italian": "esperimento",
       "in English": "experiment"
     },
     {
       "Number": 689,
-      "Hawaiian": "lalo",
+      "Italian": "fondo",
       "in English": "bottom"
     },
     {
       "Number": 690,
-      "Hawaiian": "kī",
+      "Italian": "chiave",
       "in English": "key"
     },
     {
       "Number": 691,
-      "Hawaiian": "hao",
+      "Italian": "ferro",
       "in English": "iron"
     },
     {
       "Number": 692,
-      "Hawaiian": "hookahi",
+      "Italian": "singolo",
       "in English": "single"
     },
     {
       "Number": 693,
-      "Hawaiian": "koʻokoʻo",
+      "Italian": "bastone",
       "in English": "stick"
     },
     {
       "Number": 694,
-      "Hawaiian": "i lalo",
+      "Italian": "appartamento",
       "in English": "flat"
     },
     {
       "Number": 695,
-      "Hawaiian": "ʻiwakālua",
+      "Italian": "venti",
       "in English": "twenty"
     },
     {
       "Number": 696,
-      "Hawaiian": "ili",
+      "Italian": "pelle",
       "in English": "skin"
     },
     {
       "Number": 697,
-      "Hawaiian": "minoʻaka",
+      "Italian": "sorriso",
       "in English": "smile"
     },
     {
       "Number": 698,
-      "Hawaiian": "crease",
+      "Italian": "piega",
       "in English": "crease"
     },
     {
       "Number": 699,
-      "Hawaiian": "puka",
+      "Italian": "foro",
       "in English": "hole"
     },
     {
       "Number": 700,
-      "Hawaiian": "lele",
+      "Italian": "salto",
       "in English": "jump"
     },
     {
       "Number": 701,
-      "Hawaiian": "pēpē",
+      "Italian": "bambino",
       "in English": "baby"
     },
     {
       "Number": 702,
-      "Hawaiian": "ʻewalu",
+      "Italian": "otto",
       "in English": "eight"
     },
     {
       "Number": 703,
-      "Hawaiian": "kauhale",
+      "Italian": "villaggio",
       "in English": "village"
     },
     {
       "Number": 704,
-      "Hawaiian": "ku i",
+      "Italian": "si incontrano",
       "in English": "meet"
     },
     {
       "Number": 705,
-      "Hawaiian": "aa",
+      "Italian": "radice",
       "in English": "root"
     },
     {
       "Number": 706,
-      "Hawaiian": "kuai",
+      "Italian": "acquistare",
       "in English": "buy"
     },
     {
       "Number": 707,
-      "Hawaiian": "hoala mai",
+      "Italian": "aumentare",
       "in English": "raise"
     },
     {
       "Number": 708,
-      "Hawaiian": "ke hoʻoponopono",
+      "Italian": "risolvere",
       "in English": "solve"
     },
     {
       "Number": 709,
-      "Hawaiian": "metala",
+      "Italian": "metallo",
       "in English": "metal"
     },
     {
       "Number": 710,
-      "Hawaiian": "paha",
+      "Italian": "se",
       "in English": "whether"
     },
     {
       "Number": 711,
-      "Hawaiian": "pale wale",
+      "Italian": "spingere",
       "in English": "push"
     },
     {
       "Number": 712,
-      "Hawaiian": "ʻehiku",
+      "Italian": "sette",
       "in English": "seven"
     },
     {
       "Number": 713,
-      "Hawaiian": "paukū",
+      "Italian": "paragrafo",
       "in English": "paragraph"
     },
     {
       "Number": 714,
-      "Hawaiian": "ke kolu",
+      "Italian": "terzo",
       "in English": "third"
     },
     {
       "Number": 715,
-      "Hawaiian": "e",
+      "Italian": "deve",
       "in English": "shall"
     },
     {
       "Number": 716,
-      "Hawaiian": "paa ana",
+      "Italian": "tenuto",
       "in English": "held"
     },
     {
       "Number": 717,
-      "Hawaiian": "lauoho",
+      "Italian": "capelli",
       "in English": "hair"
     },
     {
       "Number": 718,
-      "Hawaiian": "kakau",
+      "Italian": "descrivere",
       "in English": "describe"
     },
     {
       "Number": 719,
-      "Hawaiian": "Kapena Kuke,",
+      "Italian": "cuoco",
       "in English": "cook"
     },
     {
       "Number": 720,
-      "Hawaiian": "papahele",
+      "Italian": "piano",
       "in English": "floor"
     },
     {
       "Number": 721,
-      "Hawaiian": "kekahi",
+      "Italian": "o",
       "in English": "either"
     },
     {
       "Number": 722,
-      "Hawaiian": "result",
+      "Italian": "risultato",
       "in English": "result"
     },
     {
       "Number": 723,
-      "Hawaiian": "puhi",
+      "Italian": "bruciare",
       "in English": "burn"
     },
     {
       "Number": 724,
-      "Hawaiian": "puu",
+      "Italian": "collina",
       "in English": "hill"
     },
     {
       "Number": 725,
-      "Hawaiian": "maluhia",
+      "Italian": "sicuro",
       "in English": "safe"
     },
     {
       "Number": 726,
-      "Hawaiian": "popoki",
+      "Italian": "gatto",
       "in English": "cat"
     },
     {
       "Number": 727,
-      "Hawaiian": "kenekulia",
+      "Italian": "secolo",
       "in English": "century"
     },
     {
       "Number": 728,
-      "Hawaiian": "noonoo",
+      "Italian": "considerare",
       "in English": "consider"
     },
     {
       "Number": 729,
-      "Hawaiian": "ʻAno",
+      "Italian": "tipo",
       "in English": "type"
     },
     {
       "Number": 730,
-      "Hawaiian": "kanawai",
+      "Italian": "legge",
       "in English": "law"
     },
     {
       "Number": 731,
-      "Hawaiian": "iki",
+      "Italian": "bit",
       "in English": "bit"
     },
     {
       "Number": 732,
-      "Hawaiian": "mokuna",
+      "Italian": "costa",
       "in English": "coast"
     },
     {
       "Number": 733,
-      "Hawaiian": "kope",
+      "Italian": "copia",
       "in English": "copy"
     },
     {
       "Number": 734,
-      "Hawaiian": "hopuna’ōlelo",
+      "Italian": "frase",
       "in English": "phrase"
     },
     {
       "Number": 735,
-      "Hawaiian": "hāmau",
+      "Italian": "silenzioso",
       "in English": "silent"
     },
     {
       "Number": 736,
-      "Hawaiian": "kiʻekiʻe",
+      "Italian": "alto",
       "in English": "tall"
     },
     {
       "Number": 737,
-      "Hawaiian": "one",
+      "Italian": "sabbia",
       "in English": "sand"
     },
     {
       "Number": 738,
-      "Hawaiian": "aina",
+      "Italian": "suolo",
       "in English": "soil"
     },
     {
       "Number": 739,
-      "Hawaiian": "‘ōwili",
+      "Italian": "rotolo",
       "in English": "roll"
     },
     {
       "Number": 740,
-      "Hawaiian": "wela",
+      "Italian": "temperatura",
       "in English": "temperature"
     },
     {
       "Number": 741,
-      "Hawaiian": "manamana lima",
+      "Italian": "dito",
       "in English": "finger"
     },
     {
       "Number": 742,
-      "Hawaiian": "hana",
+      "Italian": "industria",
       "in English": "industry"
     },
     {
       "Number": 743,
-      "Hawaiian": "waiwai",
+      "Italian": "valore",
       "in English": "value"
     },
     {
       "Number": 744,
-      "Hawaiian": "kaua",
+      "Italian": "lotta",
       "in English": "fight"
     },
     {
       "Number": 745,
-      "Hawaiian": "moe",
+      "Italian": "bugia",
       "in English": "lie"
     },
     {
       "Number": 746,
-      "Hawaiian": "pepehi",
+      "Italian": "battere",
       "in English": "beat"
     },
     {
       "Number": 747,
-      "Hawaiian": "ka naita",
+      "Italian": "eccitare",
       "in English": "excite"
     },
     {
       "Number": 748,
-      "Hawaiian": "maoli",
+      "Italian": "naturale",
       "in English": "natural"
     },
     {
       "Number": 749,
-      "Hawaiian": "Hawaii",
+      "Italian": "vista",
       "in English": "view"
     },
     {
       "Number": 750,
-      "Hawaiian": "hoohalike",
+      "Italian": "senso",
       "in English": "sense"
     },
     {
       "Number": 751,
-      "Hawaiian": "poʻo",
+      "Italian": "capitale",
       "in English": "capital"
     },
     {
       "Number": 752,
-      "Hawaiian": "e ole",
+      "Italian": "non sarà",
       "in English": "won’t"
     },
     {
       "Number": 753,
-      "Hawaiian": "noho",
+      "Italian": "sedia",
       "in English": "chair"
     },
     {
       "Number": 754,
-      "Hawaiian": "weliweli",
+      "Italian": "pericolo",
       "in English": "danger"
     },
     {
       "Number": 755,
-      "Hawaiian": "hua",
+      "Italian": "frutta",
       "in English": "fruit"
     },
     {
       "Number": 756,
-      "Hawaiian": "waiwai",
+      "Italian": "ricco",
       "in English": "rich"
     },
     {
       "Number": 757,
-      "Hawaiian": "manoanoa",
+      "Italian": "spesso",
       "in English": "thick"
     },
     {
       "Number": 758,
-      "Hawaiian": "koa",
+      "Italian": "soldato",
       "in English": "soldier"
     },
     {
       "Number": 759,
-      "Hawaiian": "kaʻina",
+      "Italian": "processo",
       "in English": "process"
     },
     {
       "Number": 760,
-      "Hawaiian": "hana",
+      "Italian": "operare",
       "in English": "operate"
     },
     {
       "Number": 761,
-      "Hawaiian": "hana",
+      "Italian": "pratica",
       "in English": "practice"
     },
     {
       "Number": 762,
-      "Hawaiian": "ana",
+      "Italian": "separato",
       "in English": "separate"
     },
     {
       "Number": 763,
-      "Hawaiian": "paʻakikī",
+      "Italian": "difficile",
       "in English": "difficult"
     },
     {
       "Number": 764,
-      "Hawaiian": "kauka",
+      "Italian": "medico",
       "in English": "doctor"
     },
     {
       "Number": 765,
-      "Hawaiian": "e ʻoluʻolu",
+      "Italian": "per favore",
       "in English": "please"
     },
     {
       "Number": 766,
-      "Hawaiian": "hoomalu",
+      "Italian": "proteggere",
       "in English": "protect"
     },
     {
       "Number": 767,
-      "Hawaiian": "awakea",
+      "Italian": "mezzogiorno",
       "in English": "noon"
     },
     {
       "Number": 768,
-      "Hawaiian": "iʻohiʻia",
+      "Italian": "raccolto",
       "in English": "crop"
     },
     {
       "Number": 769,
-      "Hawaiian": "kēia",
+      "Italian": "moderno",
       "in English": "modern"
     },
     {
       "Number": 770,
-      "Hawaiian": "‘āweʻaweʻa",
+      "Italian": "elemento",
       "in English": "element"
     },
     {
       "Number": 771,
-      "Hawaiian": "ku",
+      "Italian": "colpire",
       "in English": "hit"
     },
     {
       "Number": 772,
-      "Hawaiian": "haumana",
+      "Italian": "studente",
       "in English": "student"
     },
     {
       "Number": 773,
-      "Hawaiian": "ke kihi",
+      "Italian": "angolo",
       "in English": "corner"
     },
     {
       "Number": 774,
-      "Hawaiian": "‘aoʻao",
+      "Italian": "partito",
       "in English": "party"
     },
     {
       "Number": 775,
-      "Hawaiian": "lako hou",
+      "Italian": "fornitura",
       "in English": "supply"
     },
     {
       "Number": 776,
-      "Hawaiian": "kona",
+      "Italian": "la cui",
       "in English": "whose"
     },
     {
       "Number": 777,
-      "Hawaiian": "huli ana",
+      "Italian": "individuare",
       "in English": "locate"
     },
     {
       "Number": 778,
-      "Hawaiian": "ke komo lima",
+      "Italian": "anello",
       "in English": "ring"
     },
     {
       "Number": 779,
-      "Hawaiian": "ano",
+      "Italian": "carattere",
       "in English": "character"
     },
     {
       "Number": 780,
-      "Hawaiian": "insect",
+      "Italian": "insetto",
       "in English": "insect"
     },
     {
       "Number": 781,
-      "Hawaiian": "loaa",
+      "Italian": "catturato",
       "in English": "caught"
     },
     {
       "Number": 782,
-      "Hawaiian": "manawa",
+      "Italian": "periodo",
       "in English": "period"
     },
     {
       "Number": 783,
-      "Hawaiian": "hoike",
+      "Italian": "indicare",
       "in English": "indicate"
     },
     {
       "Number": 784,
-      "Hawaiian": "Radio",
+      "Italian": "radio",
       "in English": "radio"
     },
     {
       "Number": 785,
-      "Hawaiian": "olelo",
+      "Italian": "raggio",
       "in English": "spoke"
     },
     {
       "Number": 786,
-      "Hawaiian": "‘Ātoma",
+      "Italian": "atomo",
       "in English": "atom"
     },
     {
       "Number": 787,
-      "Hawaiian": "kanaka",
+      "Italian": "umano",
       "in English": "human"
     },
     {
       "Number": 788,
-      "Hawaiian": "mōʻaukala",
+      "Italian": "storia",
       "in English": "history"
     },
     {
       "Number": 789,
-      "Hawaiian": "kanawai",
+      "Italian": "effetto",
       "in English": "effect"
     },
     {
       "Number": 790,
-      "Hawaiian": "pila nui",
+      "Italian": "elettrico",
       "in English": "electric"
     },
     {
       "Number": 791,
-      "Hawaiian": "makemake",
+      "Italian": "aspettare",
       "in English": "expect"
     },
     {
       "Number": 792,
-      "Hawaiian": "iwi",
+      "Italian": "osso",
       "in English": "bone"
     },
     {
       "Number": 793,
-      "Hawaiian": "hoino aku",
+      "Italian": "ferrovia",
       "in English": "rail"
     },
     {
       "Number": 794,
-      "Hawaiian": "manao wale",
+      "Italian": "immaginare",
       "in English": "imagine"
     },
     {
       "Number": 795,
-      "Hawaiian": "e hoomakaukau i",
+      "Italian": "fornire",
       "in English": "provide"
     },
     {
       "Number": 796,
-      "Hawaiian": "ae",
+      "Italian": "concordare",
       "in English": "agree"
     },
     {
       "Number": 797,
-      "Hawaiian": "pela",
+      "Italian": "così",
       "in English": "thus"
     },
     {
       "Number": 798,
-      "Hawaiian": "akahai",
+      "Italian": "dolce",
       "in English": "gentle"
     },
     {
       "Number": 799,
-      "Hawaiian": "wahine",
+      "Italian": "donna",
       "in English": "woman"
     },
     {
       "Number": 800,
-      "Hawaiian": "luna",
+      "Italian": "capitano",
       "in English": "captain"
     },
     {
       "Number": 801,
-      "Hawaiian": "koho",
+      "Italian": "indovinare",
       "in English": "guess"
     },
     {
       "Number": 802,
-      "Hawaiian": "pono",
+      "Italian": "necessario",
       "in English": "necessary"
     },
     {
       "Number": 803,
-      "Hawaiian": "oi",
+      "Italian": "tagliente",
       "in English": "sharp"
     },
     {
       "Number": 804,
-      "Hawaiian": "‘ēheu",
+      "Italian": "ala",
       "in English": "wing"
     },
     {
       "Number": 805,
-      "Hawaiian": "hana",
+      "Italian": "creare",
       "in English": "create"
     },
     {
       "Number": 806,
-      "Hawaiian": "hoalauna",
+      "Italian": "prossimo",
       "in English": "neighbor"
     },
     {
       "Number": 807,
-      "Hawaiian": "holoi ai",
+      "Italian": "lavaggio",
       "in English": "wash"
     },
     {
       "Number": 808,
-      "Hawaiian": "‘ōpeʻapeʻa",
+      "Italian": "pipistrello",
       "in English": "bat"
     },
     {
       "Number": 809,
-      "Hawaiian": "e aho",
+      "Italian": "piuttosto",
       "in English": "rather"
     },
     {
       "Number": 810,
-      "Hawaiian": "lehulehu",
+      "Italian": "folla",
       "in English": "crowd"
     },
     {
       "Number": 811,
-      "Hawaiian": "palaoa",
+      "Italian": "mais",
       "in English": "corn"
     },
     {
       "Number": 812,
-      "Hawaiian": "hoohalike",
+      "Italian": "confrontare",
       "in English": "compare"
     },
     {
       "Number": 813,
-      "Hawaiian": "poem",
+      "Italian": "poesia",
       "in English": "poem"
     },
     {
       "Number": 814,
-      "Hawaiian": "kaula",
+      "Italian": "stringa",
       "in English": "string"
     },
     {
       "Number": 815,
-      "Hawaiian": "bele",
+      "Italian": "campana",
       "in English": "bell"
     },
     {
       "Number": 816,
-      "Hawaiian": "hilinai",
+      "Italian": "dipendere",
       "in English": "depend"
     },
     {
       "Number": 817,
-      "Hawaiian": "ai",
+      "Italian": "carne",
       "in English": "meat"
     },
     {
       "Number": 818,
-      "Hawaiian": "hamo i",
+      "Italian": "strofinare",
       "in English": "rub"
     },
     {
       "Number": 819,
-      "Hawaiian": "Tube",
+      "Italian": "tubo",
       "in English": "tube"
     },
     {
       "Number": 820,
-      "Hawaiian": "kaulana",
+      "Italian": "famoso",
       "in English": "famous"
     },
     {
       "Number": 921,
-      "Hawaiian": "dala",
+      "Italian": "dollaro",
       "in English": "dollar"
     },
     {
       "Number": 822,
-      "Hawaiian": "kahawai o",
+      "Italian": "ruscello",
       "in English": "stream"
     },
     {
       "Number": 823,
-      "Hawaiian": "makau",
+      "Italian": "paura",
       "in English": "fear"
     },
     {
       "Number": 284,
-      "Hawaiian": "maka",
+      "Italian": "vista",
       "in English": "sight"
     },
     {
       "Number": 825,
-      "Hawaiian": "lahilahi",
+      "Italian": "sottile",
       "in English": "thin"
     },
     {
       "Number": 826,
-      "Hawaiian": "triangle",
+      "Italian": "triangolo",
       "in English": "triangle"
     },
     {
       "Number": 827,
-      "Hawaiian": "Honua",
+      "Italian": "pianeta",
       "in English": "planet"
     },
     {
       "Number": 828,
-      "Hawaiian": "wikiwiki",
+      "Italian": "fretta",
       "in English": "hurry"
     },
     {
       "Number": 829,
-      "Hawaiian": "kahuna",
+      "Italian": "capo",
       "in English": "chief"
     },
     {
       "Number": 830,
-      "Hawaiian": "panalaau ia",
+      "Italian": "colonia",
       "in English": "colony"
     },
     {
       "Number": 831,
-      "Hawaiian": "uaki",
+      "Italian": "orologio",
       "in English": "clock"
     },
     {
       "Number": 832,
-      "Hawaiian": "i koʻu",
+      "Italian": "miniera",
       "in English": "mine"
     },
     {
       "Number": 833,
-      "Hawaiian": "Ka Hawai i",
+      "Italian": "cravatta",
       "in English": "tie"
     },
     {
       "Number": 834,
-      "Hawaiian": "komo",
+      "Italian": "inserire",
       "in English": "enter"
     },
     {
       "Number": 835,
-      "Hawaiian": "nui",
+      "Italian": "maggiore",
       "in English": "major"
     },
     {
       "Number": 836,
-      "Hawaiian": "hawaiian",
+      "Italian": "fresco",
       "in English": "fresh"
     },
     {
       "Number": 837,
-      "Hawaiian": "huli",
+      "Italian": "ricerca",
       "in English": "search"
     },
     {
       "Number": 838,
-      "Hawaiian": "hoouna aku",
+      "Italian": "inviare",
       "in English": "send"
     },
     {
       "Number": 839,
-      "Hawaiian": "melemele",
+      "Italian": "giallo",
       "in English": "yellow"
     },
     {
       "Number": 840,
-      "Hawaiian": "ka pū",
+      "Italian": "pistola",
       "in English": "gun"
     },
     {
       "Number": 841,
-      "Hawaiian": "ae aku",
+      "Italian": "consentire",
       "in English": "allow"
     },
     {
       "Number": 842,
-      "Hawaiian": "paʻi",
+      "Italian": "stampa",
       "in English": "print"
     },
     {
       "Number": 843,
-      "Hawaiian": "make",
+      "Italian": "morto",
       "in English": "dead"
     },
     {
       "Number": 844,
-      "Hawaiian": "wahi",
+      "Italian": "spot",
       "in English": "spot"
     },
     {
       "Number": 845,
-      "Hawaiian": "waonahele",
+      "Italian": "deserto",
       "in English": "desert"
     },
     {
       "Number": 846,
-      "Hawaiian": "hoopii",
+      "Italian": "tuta",
       "in English": "suit"
     },
     {
       "Number": 847,
-      "Hawaiian": "papa",
+      "Italian": "corrente",
       "in English": "current"
     },
     {
       "Number": 848,
-      "Hawaiian": "ke eaʻe",
+      "Italian": "ascensore",
       "in English": "lift"
     },
     {
       "Number": 840,
-      "Hawaiian": "ala",
+      "Italian": "rosa",
       "in English": "rose"
     },
     {
       "Number": 850,
-      "Hawaiian": "hiki",
+      "Italian": "arrivare",
       "in English": "arrive"
     },
     {
       "Number": 851,
-      "Hawaiian": "haku",
+      "Italian": "master",
       "in English": "master"
     },
     {
       "Number": 852,
-      "Hawaiian": "Track",
+      "Italian": "pista",
       "in English": "track"
     },
     {
       "Number": 853,
-      "Hawaiian": "makua",
+      "Italian": "genitore",
       "in English": "parent"
     },
     {
       "Number": 854,
-      "Hawaiian": "mauka",
+      "Italian": "riva",
       "in English": "shore"
     },
     {
       "Number": 855,
-      "Hawaiian": "mahele",
+      "Italian": "divisione",
       "in English": "division"
     },
     {
       "Number": 856,
-      "Hawaiian": "pepa",
+      "Italian": "foglio",
       "in English": "sheet"
     },
     {
       "Number": 857,
-      "Hawaiian": "waiwai",
+      "Italian": "sostanza",
       "in English": "substance"
     },
     {
       "Number": 858,
-      "Hawaiian": "i ka lokomaikaiia,",
+      "Italian": "favorire",
       "in English": "favor"
     },
     {
       "Number": 859,
-      "Hawaiian": "hoʻohui",
+      "Italian": "collegare",
       "in English": "connect"
     },
     {
       "Number": 860,
-      "Hawaiian": "lāʻau kū",
+      "Italian": "Messaggio",
       "in English": "post"
     },
     {
       "Number": 861,
-      "Hawaiian": "ke lilo aku",
+      "Italian": "spendere",
       "in English": "spend"
     },
     {
       "Number": 862,
-      "Hawaiian": "chord",
+      "Italian": "accordo",
       "in English": "chord"
     },
     {
       "Number": 863,
-      "Hawaiian": "kona kaikea a",
+      "Italian": "grasso",
       "in English": "fat"
     },
     {
       "Number": 864,
-      "Hawaiian": "olioli",
+      "Italian": "felice",
       "in English": "glad"
     },
     {
       "Number": 865,
-      "Hawaiian": "kiʻi",
+      "Italian": "originale",
       "in English": "original"
     },
     {
       "Number": 866,
-      "Hawaiian": "puu",
+      "Italian": "quota",
       "in English": "share"
     },
     {
       "Number": 867,
-      "Hawaiian": "wahi",
+      "Italian": "stazione",
       "in English": "station"
     },
     {
       "Number": 868,
-      "Hawaiian": "makuakāne",
+      "Italian": "papà",
       "in English": "dad"
     },
     {
       "Number": 869,
-      "Hawaiian": "ka berena",
+      "Italian": "pane",
       "in English": "bread"
     },
     {
       "Number": 870,
-      "Hawaiian": "kauoha",
+      "Italian": "carica",
       "in English": "charge"
     },
     {
       "Number": 871,
-      "Hawaiian": "pono",
+      "Italian": "corretto",
       "in English": "proper"
     },
     {
       "Number": 872,
-      "Hawaiian": "hookolokolo",
+      "Italian": "bar",
       "in English": "bar"
     },
     {
       "Number": 873,
-      "Hawaiian": "kaumaha",
+      "Italian": "offerta",
       "in English": "offer"
     },
     {
       "Number": 874,
-      "Hawaiian": "Hoʻohana",
+      "Italian": "segmento",
       "in English": "segment"
     },
     {
       "Number": 875,
-      "Hawaiian": "kauwa",
+      "Italian": "schiavo",
       "in English": "slave"
     },
     {
       "Number": 876,
-      "Hawaiian": "Duck",
+      "Italian": "anatra",
       "in English": "duck"
     },
     {
       "Number": 877,
-      "Hawaiian": "koi aku la lakou",
+      "Italian": "immediato",
       "in English": "instant"
     },
     {
       "Number": 878,
-      "Hawaiian": "makeke",
+      "Italian": "mercato",
       "in English": "market"
     },
     {
       "Number": 879,
-      "Hawaiian": "degere",
+      "Italian": "grado",
       "in English": "degree"
     },
     {
       "Number": 880,
-      "Hawaiian": "hoolahaia’ku [na kanaka",
+      "Italian": "popolare",
       "in English": "populate"
     },
     {
       "Number": 881,
-      "Hawaiian": "chick",
+      "Italian": "pulcino",
       "in English": "chick"
     },
     {
       "Number": 882,
-      "Hawaiian": "aloha",
+      "Italian": "caro",
       "in English": "dear"
     },
     {
       "Number": 883,
-      "Hawaiian": "ʻenemi",
+      "Italian": "nemico",
       "in English": "enemy"
     },
     {
       "Number": 884,
-      "Hawaiian": "pane",
+      "Italian": "rispondere",
       "in English": "reply"
     },
     {
       "Number": 885,
-      "Hawaiian": "inu",
+      "Italian": "bevanda",
       "in English": "drink"
     },
     {
       "Number": 886,
-      "Hawaiian": "ana",
+      "Italian": "verificarsi",
       "in English": "occur"
     },
     {
       "Number": 887,
-      "Hawaiian": "kākoʻo",
+      "Italian": "supporto",
       "in English": "support"
     },
     {
       "Number": 888,
-      "Hawaiian": "olelo",
+      "Italian": "discorso",
       "in English": "speech"
     },
     {
       "Number": 889,
-      "Hawaiian": "maoli",
+      "Italian": "natura",
       "in English": "nature"
     },
     {
       "Number": 890,
-      "Hawaiian": "huahelu",
+      "Italian": "gamma",
       "in English": "range"
     },
     {
       "Number": 891,
-      "Hawaiian": "mahu",
+      "Italian": "vapore",
       "in English": "steam"
     },
     {
       "Number": 892,
-      "Hawaiian": "ka noi",
+      "Italian": "moto",
       "in English": "motion"
     },
     {
       "Number": 893,
-      "Hawaiian": "ala",
+      "Italian": "sentiero",
       "in English": "path"
     },
     {
       "Number": 894,
-      "Hawaiian": "wai",
+      "Italian": "liquido",
       "in English": "liquid"
     },
     {
       "Number": 895,
-      "Hawaiian": "mōʻaukala",
+      "Italian": "log",
       "in English": "log"
     },
     {
       "Number": 896,
-      "Hawaiian": "ia mea,",
+      "Italian": "significava",
       "in English": "meant"
     },
     {
       "Number": 897,
-      "Hawaiian": "puu",
+      "Italian": "quoziente",
       "in English": "quotient"
     },
     {
       "Number": 898,
-      "Hawaiian": "niho",
+      "Italian": "denti",
       "in English": "teeth"
     },
     {
       "Number": 899,
-      "Hawaiian": "iwi",
+      "Italian": "guscio",
       "in English": "shell"
     },
     {
       "Number": 900,
-      "Hawaiian": "‘ā’ī",
+      "Italian": "collo",
       "in English": "neck"
     },
     {
       "Number": 901,
-      "Hawaiian": "ka oxygen",
+      "Italian": "ossigeno",
       "in English": "oxygen"
     },
     {
       "Number": 902,
-      "Hawaiian": "kōpaʻa",
+      "Italian": "zucchero",
       "in English": "sugar"
     },
     {
       "Number": 903,
-      "Hawaiian": "make",
+      "Italian": "morte",
       "in English": "death"
     },
     {
       "Number": 904,
-      "Hawaiian": "nani",
+      "Italian": "piuttosto",
       "in English": "pretty"
     },
     {
       "Number": 905,
-      "Hawaiian": "akamai",
+      "Italian": "abilità",
       "in English": "skill"
     },
     {
       "Number": 906,
-      "Hawaiian": "na wahine",
+      "Italian": "donne",
       "in English": "women"
     },
     {
       "Number": 907,
-      "Hawaiian": "manawa",
+      "Italian": "stagione",
       "in English": "season"
     },
     {
       "Number": 908,
-      "Hawaiian": "pāʻoihana",
+      "Italian": "soluzione",
       "in English": "solution"
     },
     {
       "Number": 909,
-      "Hawaiian": "Mākēneki",
+      "Italian": "magnete",
       "in English": "magnet"
     },
     {
       "Number": 910,
-      "Hawaiian": "kala",
+      "Italian": "argento",
       "in English": "silver"
     },
     {
       "Number": 911,
-      "Hawaiian": "aloha",
+      "Italian": "grazie",
       "in English": "thank"
     },
     {
       "Number": 912,
-      "Hawaiian": "lala",
+      "Italian": "ramo",
       "in English": "branch"
     },
     {
       "Number": 913,
-      "Hawaiian": "ń",
+      "Italian": "partita",
       "in English": "match"
     },
     {
       "Number": 914,
-      "Hawaiian": "kau hope",
+      "Italian": "suffisso",
       "in English": "suffix"
     },
     {
       "Number": 915,
-      "Hawaiian": "ka oi aku",
+      "Italian": "particolarmente",
       "in English": "especially"
     },
     {
       "Number": 916,
-      "Hawaiian": "laau",
+      "Italian": "fico",
       "in English": "fig"
     },
     {
       "Number": 917,
-      "Hawaiian": "makau",
+      "Italian": "impaurito",
       "in English": "afraid"
     },
     {
       "Number": 918,
-      "Hawaiian": "nui",
+      "Italian": "enorme",
       "in English": "huge"
     },
     {
       "Number": 919,
-      "Hawaiian": "kaikuaʻana, kaikaina",
+      "Italian": "sorella",
       "in English": "sister"
     },
     {
       "Number": 920,
-      "Hawaiian": "kila",
+      "Italian": "acciaio",
       "in English": "steel"
     },
     {
       "Number": 921,
-      "Hawaiian": "kūkākūkā",
+      "Italian": "discutere",
       "in English": "discuss"
     },
     {
       "Number": 922,
-      "Hawaiian": "mua",
+      "Italian": "avanti",
       "in English": "forward"
     },
     {
       "Number": 923,
-      "Hawaiian": "ano like",
+      "Italian": "simile",
       "in English": "similar"
     },
     {
       "Number": 924,
-      "Hawaiian": "alakai",
+      "Italian": "guidare",
       "in English": "guide"
     },
     {
       "Number": 925,
-      "Hawaiian": "ka hoao ana",
+      "Italian": "esperienza",
       "in English": "experience"
     },
     {
       "Number": 926,
-      "Hawaiian": "manual",
+      "Italian": "punteggio",
       "in English": "score"
     },
     {
       "Number": 927,
-      "Hawaiian": "kii onohi",
+      "Italian": "mela",
       "in English": "apple"
     },
     {
       "Number": 928,
-      "Hawaiian": "kuai",
+      "Italian": "comprato",
       "in English": "bought"
     },
     {
       "Number": 929,
-      "Hawaiian": "alakai",
+      "Italian": "portato",
       "in English": "led"
     },
     {
       "Number": 930,
-      "Hawaiian": "kukulu iho",
+      "Italian": "pece",
       "in English": "pitch"
     },
     {
       "Number": 931,
-      "Hawaiian": "kapa",
+      "Italian": "cappotto",
       "in English": "coat"
     },
     {
       "Number": 932,
-      "Hawaiian": "nuipa",
+      "Italian": "massa",
       "in English": "mass"
     },
     {
       "Number": 933,
-      "Hawaiian": "kāleka",
+      "Italian": "scheda",
       "in English": "card"
     },
     {
       "Number": 934,
-      "Hawaiian": "hui",
+      "Italian": "banda",
       "in English": "band"
     },
     {
       "Number": 935,
-      "Hawaiian": "kaula",
+      "Italian": "corda",
       "in English": "rope"
     },
     {
       "Number": 936,
-      "Hawaiian": "oihana",
+      "Italian": "slittamento",
       "in English": "slip"
     },
     {
       "Number": 937,
-      "Hawaiian": "lanakila ‘",
+      "Italian": "vittoria",
       "in English": "win"
     },
     {
       "Number": 938,
-      "Hawaiian": "moe",
+      "Italian": "sognare",
       "in English": "dream"
     },
     {
       "Number": 939,
-      "Hawaiian": "ahiahi",
+      "Italian": "sera",
       "in English": "evening"
     },
     {
       "Number": 940,
-      "Hawaiian": "ano",
+      "Italian": "condizione",
       "in English": "condition"
     },
     {
       "Number": 941,
-      "Hawaiian": "ʻai",
+      "Italian": "alimentazione",
       "in English": "feed"
     },
     {
       "Number": 942,
-      "Hawaiian": "hoʻopololei",
+      "Italian": "strumento",
       "in English": "tool"
     },
     {
       "Number": 943,
-      "Hawaiian": "huina",
+      "Italian": "totale",
       "in English": "total"
     },
     {
       "Number": 944,
-      "Hawaiian": "kumu o",
+      "Italian": "di base",
       "in English": "basic"
     },
     {
       "Number": 945,
-      "Hawaiian": "honi",
+      "Italian": "odore",
       "in English": "smell"
     },
     {
       "Number": 946,
-      "Hawaiian": "awāwa",
+      "Italian": "valle",
       "in English": "valley"
     },
     {
       "Number": 947,
-      "Hawaiian": "aole",
+      "Italian": "né",
       "in English": "nor"
     },
     {
       "Number": 948,
-      "Hawaiian": "palua",
+      "Italian": "doppio",
       "in English": "double"
     },
     {
       "Number": 949,
-      "Hawaiian": "noho",
+      "Italian": "sedile",
       "in English": "seat"
     },
     {
       "Number": 950,
-      "Hawaiian": "hoʻomau",
+      "Italian": "continuare",
       "in English": "continue"
     },
     {
       "Number": 951,
-      "Hawaiian": "aeie",
+      "Italian": "blocco",
       "in English": "block"
     },
     {
       "Number": 952,
-      "Hawaiian": "pakuhi",
+      "Italian": "grafico",
       "in English": "chart"
     },
     {
       "Number": 953,
-      "Hawaiian": "ua inaina i ka",
+      "Italian": "cappello",
       "in English": "hat"
     },
     {
       "Number": 954,
-      "Hawaiian": "kuai",
+      "Italian": "vendere",
       "in English": "sell"
     },
     {
       "Number": 955,
-      "Hawaiian": "holomua",
+      "Italian": "successo",
       "in English": "success"
     },
     {
       "Number": 956,
-      "Hawaiian": "poe",
+      "Italian": "azienda",
       "in English": "company"
     },
     {
       "Number": 957,
-      "Hawaiian": "unuhi",
+      "Italian": "sottrarre",
       "in English": "subtract"
     },
     {
       "Number": 958,
-      "Hawaiian": "hanana",
+      "Italian": "evento",
       "in English": "event"
     },
     {
       "Number": 959,
-      "Hawaiian": "mau",
+      "Italian": "particolare",
       "in English": "particular"
     },
     {
       "Number": 960,
-      "Hawaiian": "hana",
+      "Italian": "affare",
       "in English": "deal"
     },
     {
       "Number": 961,
-      "Hawaiian": "‘auʻau",
+      "Italian": "nuoto",
       "in English": "swim"
     },
     {
       "Number": 962,
-      "Hawaiian": "manawa",
+      "Italian": "termine",
       "in English": "term"
     },
     {
       "Number": 963,
-      "Hawaiian": "ku pono ana",
+      "Italian": "opposto",
       "in English": "opposite"
     },
     {
       "Number": 964,
-      "Hawaiian": "wahine",
+      "Italian": "moglie",
       "in English": "wife"
     },
     {
       "Number": 965,
-      "Hawaiian": "kāmaʻa",
+      "Italian": "scarpa",
       "in English": "shoe"
     },
     {
       "Number": 966,
-      "Hawaiian": "poʻohiwi",
+      "Italian": "spalla",
       "in English": "shoulder"
     },
     {
       "Number": 967,
-      "Hawaiian": "hoolaha aku",
+      "Italian": "spread",
       "in English": "spread"
     },
     {
       "Number": 968,
-      "Hawaiian": "hooponopono",
+      "Italian": "organizzare",
       "in English": "arrange"
     },
     {
       "Number": 969,
-      "Hawaiian": "hoomoana",
+      "Italian": "campo",
       "in English": "camp"
     },
     {
       "Number": 970,
-      "Hawaiian": "invent",
+      "Italian": "inventare",
       "in English": "invent"
     },
     {
       "Number": 971,
-      "Hawaiian": "pulupulu",
+      "Italian": "cotone",
       "in English": "cotton"
     },
     {
       "Number": 972,
-      "Hawaiian": "Born",
+      "Italian": "nascita",
       "in English": "born"
     },
     {
       "Number": 973,
-      "Hawaiian": "hooholo",
+      "Italian": "determinare",
       "in English": "determine"
     },
     {
       "Number": 974,
-      "Hawaiian": "quart",
+      "Italian": "quarto di gallone",
       "in English": "quart"
     },
     {
       "Number": 975,
-      "Hawaiian": "ʻeiwa",
+      "Italian": "nove",
       "in English": "nine"
     },
     {
       "Number": 976,
-      "Hawaiian": "kona kalaka",
+      "Italian": "camion",
       "in English": "truck"
     },
     {
       "Number": 977,
-      "Hawaiian": "a noise",
+      "Italian": "rumore",
       "in English": "noise"
     },
     {
       "Number": 978,
-      "Hawaiian": "ilikai",
+      "Italian": "livello",
       "in English": "level"
     },
     {
       "Number": 979,
-      "Hawaiian": "wale",
+      "Italian": "possibilità",
       "in English": "chance"
     },
     {
       "Number": 980,
-      "Hawaiian": "houluulu",
+      "Italian": "raccogliere",
       "in English": "gather"
     },
     {
       "Number": 981,
-      "Hawaiian": "poʻohiwi",
-      "in English": "shoulder"
+      "Italian": "negozio",
+      "in English": "shop"
     },
     {
       "Number": 982,
-      "Hawaiian": "‘ō",
+      "Italian": "tratto",
       "in English": "stretch"
     },
     {
       "Number": 983,
-      "Hawaiian": "hoolei",
+      "Italian": "gettare",
       "in English": "throw"
     },
     {
       "Number": 984,
-      "Hawaiian": "alohi",
+      "Italian": "shine",
       "in English": "shine"
     },
     {
       "Number": 985,
-      "Hawaiian": "waiwai",
+      "Italian": "proprietà",
       "in English": "property"
     },
     {
       "Number": 986,
-      "Hawaiian": "kolamu",
+      "Italian": "colonna",
       "in English": "column"
     },
     {
       "Number": 987,
-      "Hawaiian": "molecule",
+      "Italian": "molecola",
       "in English": "molecule"
     },
     {
       "Number": 988,
-      "Hawaiian": "koho i",
+      "Italian": "selezionare",
       "in English": "select"
     },
     {
       "Number": 989,
-      "Hawaiian": "hewa",
+      "Italian": "sbagliato",
       "in English": "wrong"
     },
     {
       "Number": 990,
-      "Hawaiian": "hinahina",
+      "Italian": "grigio",
       "in English": "gray"
     },
     {
       "Number": 991,
-      "Hawaiian": "hana hou",
+      "Italian": "ripetizione",
       "in English": "repeat"
     },
     {
       "Number": 992,
-      "Hawaiian": "pono",
+      "Italian": "richiedere",
       "in English": "require"
     },
     {
       "Number": 993,
-      "Hawaiian": "ka laulā",
+      "Italian": "ampio",
       "in English": "broad"
     },
     {
       "Number": 994,
-      "Hawaiian": "hoomakaukau",
+      "Italian": "preparare",
       "in English": "prepare"
     },
     {
       "Number": 995,
-      "Hawaiian": "ka paʻakai",
+      "Italian": "sale",
       "in English": "salt"
     },
     {
       "Number": 996,
-      "Hawaiian": "ihu",
+      "Italian": "naso",
       "in English": "nose"
     },
     {
       "Number": 997,
-      "Hawaiian": "Plural",
+      "Italian": "plurale",
       "in English": "plural"
     },
     {
       "Number": 998,
-      "Hawaiian": "huhu",
+      "Italian": "rabbia",
       "in English": "anger"
     },
     {
       "Number": 999,
-      "Hawaiian": "koi ana",
+      "Italian": "richiesta",
       "in English": "claim"
     },
     {
       "Number": 1000,
-      "Hawaiian": "ka wiwo ole",
-      "in English": "confidence"
+      "Italian": "continente",
+      "in English": "continent"
     }
-]
+];
 
-exports.language = "Hawaiian";
-exports.data = hawaiian;
+exports.title = "Italian";
+exports.data = italian;
