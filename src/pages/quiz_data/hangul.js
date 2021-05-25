@@ -48,3 +48,4 @@ exports.data = hangul.map(x => {
         Pronounciation: x[1]
     }
 })
+exports.default_qa = [0,1];

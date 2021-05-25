@@ -52,7 +52,7 @@ function Quiz(props) {
     const DEFAULT_SELECTION = keys()[0]
 
     const [q_selected_question, set_q_selected_question] = React.useState(keys()[0]);
-    const [q_selected_answer, set_q_selected_answer] = React.useState(keys()[1]);
+    const [q_selected_answer, set_q_selected_answer] = React.useState(keys()[0]);
     const [q_answered_counter, set_q_answered_counter] = React.useState(0);
     const [q_answers, set_q_answers] = React.useState(4);
 
@@ -462,8 +462,14 @@ function Quiz(props) {
     }
     
     React.useEffect(() => set_q_table(makeTable()), [q_page, q_range])
-    React.useEffect(() => set_q_data(props.datasets[q_chosen_quiz].data), [q_chosen_quiz]);
-    React.useEffect(() => set_q_table(makeTable()), [q_data]);
+    React.useEffect(() => {
+        set_q_table(makeTable());
+        set_q_selected_question(keys()[props.datasets[q_chosen_quiz].default_qa[0]]);
+        set_q_selected_answer(keys()[props.datasets[q_chosen_quiz].default_qa[1]])
+    }, [q_data]);
+    React.useEffect(() => {
+        set_q_data(props.datasets[q_chosen_quiz].data);
+    }, [q_chosen_quiz]);
 
     return (
         <div>

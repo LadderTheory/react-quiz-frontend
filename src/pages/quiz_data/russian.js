@@ -6003,3 +6003,4 @@ const top_russian = [
 
 exports.title = "Russian";
 exports.data= top_russian;
+exports.default_qa = [1,2];

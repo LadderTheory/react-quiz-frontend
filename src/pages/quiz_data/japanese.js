@@ -5003,3 +5003,4 @@ const japanese = [
 
 exports.title = "Japanese";
 exports.data = japanese;
+exports.default_qa = [1,2]

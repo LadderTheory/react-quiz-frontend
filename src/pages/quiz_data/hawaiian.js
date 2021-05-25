@@ -5003,3 +5003,4 @@ const hawaiian = [
 
 exports.title = "Hawaiian";
 exports.data = hawaiian;
+exports.default_qa = [1,2];

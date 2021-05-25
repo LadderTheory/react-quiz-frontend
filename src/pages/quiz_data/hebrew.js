@@ -5003,3 +5003,4 @@ const hebrew = [
 
 exports.title = "Hebrew";
 exports.data = hebrew;
+exports.default_qa = [1,2]

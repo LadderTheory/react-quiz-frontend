@@ -5003,3 +5003,4 @@ const greek = [
 
 exports.title = "Greek";
 exports.data = greek;
+exports.default_qa = [1,2]

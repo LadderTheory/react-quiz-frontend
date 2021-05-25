@@ -5003,3 +5003,4 @@ const italian = [
 
 exports.title = "Italian";
 exports.data = italian;
+exports.default_qa = [1,2]

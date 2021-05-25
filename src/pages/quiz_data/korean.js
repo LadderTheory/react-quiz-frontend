@@ -5003,3 +5003,4 @@ const korean = [
 
 exports.title = "Korean";
 exports.data = korean;
+exports.default_qa = [1,2]

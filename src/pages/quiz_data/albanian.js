@@ -5003,3 +5003,4 @@ const top_albanian = [
 
 exports.title = "Albanian"
 exports.data = top_albanian
+exports.default_qa = [1,2]

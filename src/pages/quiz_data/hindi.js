@@ -5003,3 +5003,4 @@ const hindi = [
 
 exports.title = "Hindi";
 exports.data = hindi;
+exports.default_qa = [1,2]

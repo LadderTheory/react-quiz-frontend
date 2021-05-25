@@ -5003,3 +5003,4 @@ let german = [
 
 exports.title = "German"
 exports.data = german
+exports.default_qa = [1,2]

@@ -4,6 +4,7 @@ import Quiz from "./quiz.js"
 const quiz_data = [
   require("./quiz_data/afrikaans"),
   require("./quiz_data/albanian"),
+  require("./quiz_data/braille"),
   require("./quiz_data/german"),
   require("./quiz_data/greek"),
   require("./quiz_data/hawaiian"),

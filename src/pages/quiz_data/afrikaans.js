@@ -5003,3 +5003,4 @@ const afrikaans = [
 
 exports.title = "Afrikaans";
 exports.data = afrikaans;
+exports.default_qa = [1,2]
