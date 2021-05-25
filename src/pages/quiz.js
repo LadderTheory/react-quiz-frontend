@@ -87,8 +87,8 @@ function Quiz(props) {
     }
 
     function change_q_answers(value) {
-        if (value < 1) {
-            value = 1;
+        if (value < 0) {
+            value = 0;
         }
 
         let len = selected_items().length
@@ -216,7 +216,7 @@ function Quiz(props) {
                             })}
                         </select>
                         <br />
-                        <input style={input_box_width(q_answers)} type="number" value={q_answers} name={NUMBER_OF_ANSWERS_NAME} onChange={handleEvent} /> {q_answers}
+                        <input style={input_box_width(q_answers)} type="number" value={q_answers} name={NUMBER_OF_ANSWERS_NAME} onChange={handleEvent} />
                         <br />
                         <button onClick={handleEvent} name={START_QUIZ_NAME}>Begin Quiz</button><p>{err}</p>
                     </div>
@@ -232,7 +232,7 @@ function Quiz(props) {
                         <b>Q: {question}</b>
                         <br /><br />
                         {answers.map((x,i) => (
-                            <>{`${i+1}: `}<button onClick={handleEvent} data-question={x.toString()} value={i} name={ANSWER_BUTTON_NAME}>{x}</button><br /></>
+                            <>{`${i+1}:\t\t`}<button onClick={handleEvent} data-question={x.toString()} value={i} name={ANSWER_BUTTON_NAME}>{x}</button><br /></>
                         ))}
                         <br />Correct Answers: {q_answered_counter}
                         <br />Incorrect Answers: {q_incorrect_counter}
@@ -243,6 +243,7 @@ function Quiz(props) {
             case SCORECARDSTAGE:
                 data = (
                     <div>
+                        You Got {q_answered_counter} correct and {q_incorrect_counter} incorrect.<br />
                         You scored {selected_items().length - q_incorrect_counter}
                         <br />
                         <button onClick={handleEvent} name={END_QUIZ_NAME}>End Quiz</button>
@@ -318,7 +319,7 @@ function Quiz(props) {
                 set_q_selected_answer(keys()[si]);
                 break;
             case START_QUIZ_NAME:
-                if (q_selected_question === q_selected_answer) {
+                if (q_selected_question === q_selected_answer || q_answers == 0) {
                     set_q_selection_error(true);
                 }else{
                     set_q_questions(selected_items().map(x => {
