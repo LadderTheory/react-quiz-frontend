@@ -27,7 +27,7 @@ const hangul = [
     ['ㅜ', 'oo (as in "moon")'],
     ['ㅠ', 'yu'],
     ['ㅡ', 'u (as in "put")'],
-    ['ㅣ', 'ee (as in "meet'],
+    ['ㅣ', 'ee (as in "meet")'],
     ['ㅐ', 'a (as in "hand")'],
     ['ㅒ', 'yae'],
     ['ㅔ', 'e (as in "set")'],
