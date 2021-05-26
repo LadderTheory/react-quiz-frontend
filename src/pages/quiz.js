@@ -269,11 +269,11 @@ function Quiz(props) {
 
     function change_range(a) {
         if (a < 0) {
-            a = q_length();
+            a = 0;
         }
 
         if (a > q_length()) {
-            a = 0;
+            a = q_length();
         }
 
         set_q_range(a);
@@ -495,7 +495,7 @@ function Quiz(props) {
 
     return (
         <div>
-            <p>Length of quiz: {q_range} questions</p>
+            <p>Length of quiz: {selected_items().length} questions</p>
             {quiz_modal()}
         </div>
     )
