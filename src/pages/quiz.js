@@ -3,6 +3,7 @@ import * as React from "react"
 //styles
 const table_style = {
     borderCollapse: 'collapse',
+    width: "100%",
 }
 const cell_style = {
     border: '1px solid #ddd',
@@ -32,6 +33,7 @@ const ANSWER_BUTTON_NAME = "answer_button";
 const RETAKE_NAME = "retake_button";
 const QUIZ_SELECT_NAME = "quiz_select";
 const NUMBER_OF_ANSWERS_NAME = "number_of_answers";
+const FLIP_BUTTON_NAME = "flip_button";
 
 const TABLESTAGE = 1;
 const OPTIONSSTAGE = 2;
@@ -184,6 +186,11 @@ function Quiz(props) {
                 break;
             case NUMBER_OF_ANSWERS_NAME:
                 change_q_answers(event.target.value);
+                break;
+            case FLIP_BUTTON_NAME:
+                let t = q_selected_answer;
+                set_q_selected_answer(q_selected_question);
+                set_q_selected_question(q_selected_answer);
                 break;
             default:
                 console.log("how?")
@@ -411,10 +418,11 @@ function Quiz(props) {
                                 return <option value={x}>{x}</option>
                             })}
                         </select>
+                        <button name={FLIP_BUTTON_NAME} onClick={handleEvent} >flip</button>
                         <br />
-                        <input style={input_box_width(q_answers)} type="number" value={q_answers} name={NUMBER_OF_ANSWERS_NAME} onChange={handleEvent} />
+                        Answers per question: <input style={input_box_width(q_answers)} type="number" value={q_answers} name={NUMBER_OF_ANSWERS_NAME} onChange={handleEvent} />
                         <br />
-                        <button style={menu_button_style} onClick={handleEvent} name={START_QUIZ_NAME}>Begin Quiz</button><p>{err}</p>
+                        <button style={menu_button_style} onClick={handleEvent} name={START_QUIZ_NAME}>Begin Quiz</button>{err}
                     </div>
                 )
                 break;
@@ -430,7 +438,7 @@ function Quiz(props) {
                         {answers.map((x,i) => (
                             <>{`${i+1}:\t\t`}<button onClick={handleEvent} data-question={x.toString()} value={i} name={ANSWER_BUTTON_NAME}>{x}</button><br /></>
                         ))}
-                        <br />Questions Left: {q_range - q_answered_counter}
+                        <br />Questions Left: {selected_items().length - q_answered_counter}
                         <br />Correct Answers: {q_answered_counter}
                         <br />Incorrect Answers: {q_incorrect_counter}
                         <br /><button style={menu_button_style} onClick={handleEvent} name={END_QUIZ_NAME}>End Quiz</button>
@@ -494,7 +502,7 @@ function Quiz(props) {
     //END REACT EFFECTS
 
     return (
-        <div>
+        <div style={{width: "fit-content"}}>
             <p>Length of quiz: {selected_items().length} questions</p>
             {quiz_modal()}
         </div>

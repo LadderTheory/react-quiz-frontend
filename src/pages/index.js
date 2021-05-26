@@ -11,6 +11,7 @@ const quiz_data = [
   require("./quiz_data/hangul"),
   require("./quiz_data/hebrew"),
   require("./quiz_data/hindi"),
+  require("./quiz_data/hungarian"),
   require("./quiz_data/italian"),
   require("./quiz_data/japanese"),
   require("./quiz_data/korean"),
