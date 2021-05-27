@@ -140,7 +140,7 @@ function Quiz(props) {
                 break;
             case BEGIN_QUIZ_NAME:
                 if (selected_items().length > 0) {
-                    change_q_answers(4);
+                    change_q_answers(q_answers);
                     set_q_stage(OPTIONSSTAGE);
                     resetQuiz();
                 }
