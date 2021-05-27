@@ -536,7 +536,7 @@ const top_russian = [
  {
    "Rank": 90,
    "Russian word": "при",
-   "English translation": "attached to, in the presence of, by, about; masterrussian, dot com",
+   "English translation": "attached to, in the presence of, by, about",
    "Part of speech": "preposition"
  },
  {
@@ -680,7 +680,7 @@ const top_russian = [
  {
    "Rank": 114,
    "Russian word": "хороший",
-   "English translation": "good, nice (see #152)",
+   "English translation": "good, nice",
    "Part of speech": "adjective"
  },
  {
@@ -830,7 +830,7 @@ const top_russian = [
  {
    "Rank": 139,
    "Russian word": "казаться",
-   "English translation": "to seem, appear; masterrussian, dot com",
+   "English translation": "to seem, appear",
    "Part of speech": "verb"
  },
  {
@@ -908,7 +908,7 @@ const top_russian = [
  {
    "Rank": 152,
    "Russian word": "хорошо",
-   "English translation": "well (see #114)",
+   "English translation": "well",
    "Part of speech": "adverb"
  },
  {
@@ -986,7 +986,7 @@ const top_russian = [
  {
    "Rank": 165,
    "Russian word": "отец",
-   "English translation": "father (see #918)",
+   "English translation": "father",
    "Part of speech": "noun"
  },
  {
@@ -1034,13 +1034,13 @@ const top_russian = [
  {
    "Rank": 173,
    "Russian word": "остаться",
-   "English translation": "to remain, stay (see #297)",
+   "English translation": "to remain, stay",
    "Part of speech": "verb"
  },
  {
    "Rank": 174,
    "Russian word": "об",
-   "English translation": "about, of (see #34)",
+   "English translation": "about, of",
    "Part of speech": "preposition"
  },
  {
@@ -1058,7 +1058,7 @@ const top_russian = [
  {
    "Rank": 177,
    "Russian word": "дать",
-   "English translation": "to give; masterrussian, dot com",
+   "English translation": "to give",
    "Part of speech": "verb"
  },
  {
@@ -1118,7 +1118,7 @@ const top_russian = [
  {
    "Rank": 187,
    "Russian word": "много",
-   "English translation": "many, much (see #799)",
+   "English translation": "many, much",
    "Part of speech": "adverb"
  },
  {
@@ -1136,7 +1136,7 @@ const top_russian = [
  {
    "Rank": 190,
    "Russian word": "ответить",
-   "English translation": "to answer, reply (see #404)",
+   "English translation": "to answer, reply",
    "Part of speech": "verb"
  },
  {
@@ -1346,7 +1346,7 @@ const top_russian = [
  {
    "Rank": 225,
    "Russian word": "улица",
-   "English translation": "street; masterrussian, dot com",
+   "English translation": "street",
    "Part of speech": "noun"
  },
  {
@@ -1514,7 +1514,7 @@ const top_russian = [
  {
    "Rank": 253,
    "Russian word": "прийти",
-   "English translation": "to come, arrive (see #464)",
+   "English translation": "to come, arrive",
    "Part of speech": "verb"
  },
  {
@@ -1670,7 +1670,7 @@ const top_russian = [
  {
    "Rank": 279,
    "Russian word": "пора",
-   "English translation": "time; pore (see #1000)",
+   "English translation": "time; pore",
    "Part of speech": "noun"
  },
  {
@@ -1706,7 +1706,7 @@ const top_russian = [
  {
    "Rank": 285,
    "Russian word": "ж",
-   "English translation": "and, as for, but (see #27)",
+   "English translation": "and, as for, but",
    "Part of speech": "misc"
  },
  {
@@ -1724,7 +1724,7 @@ const top_russian = [
  {
    "Rank": 288,
    "Russian word": "молодой",
-   "English translation": "young (see #679); bridegroom (as a noun)",
+   "English translation": "young; bridegroom (as a noun)",
    "Part of speech": "adjective"
  },
  {
@@ -1778,7 +1778,7 @@ const top_russian = [
  {
    "Rank": 297,
    "Russian word": "оставаться",
-   "English translation": "to remain, stay (see #173)",
+   "English translation": "to remain, stay",
    "Part of speech": "verb"
  },
  {
@@ -1850,7 +1850,7 @@ const top_russian = [
  {
    "Rank": 309,
    "Russian word": "начинать",
-   "English translation": "to begin (see #413)",
+   "English translation": "to begin",
    "Part of speech": "verb"
  },
  {
@@ -1952,7 +1952,7 @@ const top_russian = [
  {
    "Rank": 326,
    "Russian word": "девушка",
-   "English translation": "girl, miss (see #524)",
+   "English translation": "girl, miss",
    "Part of speech": "noun"
  },
  {
@@ -1964,7 +1964,7 @@ const top_russian = [
  {
    "Rank": 328,
    "Russian word": "ко",
-   "English translation": "to, towards, by (see #19)",
+   "English translation": "to, towards, by",
    "Part of speech": "preposition"
  },
  {
@@ -1994,19 +1994,19 @@ const top_russian = [
  {
    "Rank": 333,
    "Russian word": "чёрный",
-   "English translation": "black (see #456)",
+   "English translation": "black",
    "Part of speech": "adjective"
  },
  {
    "Rank": 334,
    "Russian word": "пройти",
-   "English translation": "to pass, go by, be over (see #543)",
+   "English translation": "to pass, go by, be over",
    "Part of speech": "verb"
  },
  {
    "Rank": 335,
    "Russian word": "появиться",
-   "English translation": "to appear, show up (see #699)",
+   "English translation": "to appear, show up",
    "Part of speech": "verb"
  },
  {
@@ -2024,7 +2024,7 @@ const top_russian = [
  {
    "Rank": 338,
    "Russian word": "выходить",
-   "English translation": "to go out; nurse (see #176)",
+   "English translation": "to go out; nurse",
    "Part of speech": "verb"
  },
  {
@@ -2042,7 +2042,7 @@ const top_russian = [
  {
    "Rank": 341,
    "Russian word": "собственный",
-   "English translation": "one's own; masterrussian, dot com",
+   "English translation": "one's own",
    "Part of speech": "adjective"
  },
  {
@@ -2126,13 +2126,13 @@ const top_russian = [
  {
    "Rank": 355,
    "Russian word": "чтоб",
-   "English translation": "that, in order that, (See #74)",
+   "English translation": "that, in order that",
    "Part of speech": "misc"
  },
  {
    "Rank": 356,
    "Russian word": "называть",
-   "English translation": "to call, name, (See #597)",
+   "English translation": "to call, name",
    "Part of speech": "verb"
  },
  {
@@ -2162,7 +2162,7 @@ const top_russian = [
  {
    "Rank": 361,
    "Russian word": "подойти",
-   "English translation": "to approach, come up(See #798)",
+   "English translation": "to approach, come up",
    "Part of speech": "verb"
  },
  {
@@ -2300,7 +2300,7 @@ const top_russian = [
  {
    "Rank": 384,
    "Russian word": "мало",
-   "English translation": "little, few, (See #630)",
+   "English translation": "little, few",
    "Part of speech": "adverb"
  },
  {
@@ -2348,7 +2348,7 @@ const top_russian = [
  {
    "Rank": 392,
    "Russian word": "рассказать",
-   "English translation": "to tell, narrate(See #403)",
+   "English translation": "to tell, narrate",
    "Part of speech": "verb"
  },
  {
@@ -2414,13 +2414,13 @@ const top_russian = [
  {
    "Rank": 403,
    "Russian word": "рассказывать",
-   "English translation": "to tell, narrate, (See #392)",
+   "English translation": "to tell, narrate",
    "Part of speech": "verb"
  },
  {
    "Rank": 404,
    "Russian word": "отвечать",
-   "English translation": "to answer, reply, (See #190)",
+   "English translation": "to answer, reply",
    "Part of speech": "verb"
  },
  {
@@ -2474,7 +2474,7 @@ const top_russian = [
  {
    "Rank": 413,
    "Russian word": "начать",
-   "English translation": "to begin(See #309)",
+   "English translation": "to begin",
    "Part of speech": "verb"
  },
  {
@@ -2498,7 +2498,7 @@ const top_russian = [
  {
    "Rank": 417,
    "Russian word": "верить",
-   "English translation": "to believe; masterrussian, dot com",
+   "English translation": "to believe",
    "Part of speech": "verb"
  },
  {
@@ -2678,7 +2678,7 @@ const top_russian = [
  {
    "Rank": 447,
    "Russian word": "кричать",
-   "English translation": "to cry, shout(See #656)",
+   "English translation": "to cry, shout",
    "Part of speech": "verb"
  },
  {
@@ -2732,7 +2732,7 @@ const top_russian = [
  {
    "Rank": 456,
    "Russian word": "черный",
-   "English translation": "black (as in \"she wears black\")(See #333)",
+   "English translation": "black (as in \"she wears black\")",
    "Part of speech": "noun"
  },
  {
@@ -2762,7 +2762,7 @@ const top_russian = [
  {
    "Rank": 461,
    "Russian word": "наверное",
-   "English translation": "probably, most likely(See #972)",
+   "English translation": "probably, most likely",
    "Part of speech": "adverb"
  },
  {
@@ -2780,7 +2780,7 @@ const top_russian = [
  {
    "Rank": 464,
    "Russian word": "приходить",
-   "English translation": "to come, arrive(See #253)",
+   "English translation": "to come, arrive",
    "Part of speech": "verb"
  },
  {
@@ -2870,7 +2870,7 @@ const top_russian = [
  {
    "Rank": 479,
    "Russian word": "собираться",
-   "English translation": "to gather together, assemble; intend(See #981)",
+   "English translation": "to gather together, assemble; intend",
    "Part of speech": "verb"
  },
  {
@@ -2882,7 +2882,7 @@ const top_russian = [
  {
    "Rank": 481,
    "Russian word": "принять",
-   "English translation": "to take, admit, accept(See #643)",
+   "English translation": "to take, admit, accept",
    "Part of speech": "verb"
  },
  {
@@ -3140,7 +3140,7 @@ const top_russian = [
  {
    "Rank": 524,
    "Russian word": "девочка",
-   "English translation": "girl, little girl(See #326)",
+   "English translation": "girl, little girl",
    "Part of speech": "noun"
  },
  {
@@ -3206,7 +3206,7 @@ const top_russian = [
  {
    "Rank": 535,
    "Russian word": "красивый",
-   "English translation": "beautiful; masterrussian, dot com",
+   "English translation": "beautiful",
    "Part of speech": "adjective"
  },
  {
@@ -3254,7 +3254,7 @@ const top_russian = [
  {
    "Rank": 543,
    "Russian word": "проходить",
-   "English translation": "to pass, go;study(See #334)",
+   "English translation": "to pass, go;study",
    "Part of speech": "verb"
  },
  {
@@ -3344,7 +3344,7 @@ const top_russian = [
  {
    "Rank": 558,
    "Russian word": "представлять",
-   "English translation": "to present, introduce, imagine(See #586)",
+   "English translation": "to present, introduce, imagine",
    "Part of speech": "verb"
  },
  {
@@ -3452,7 +3452,7 @@ const top_russian = [
  {
    "Rank": 576,
    "Russian word": "знать",
-   "English translation": "to know(See #51)",
+   "English translation": "to know",
    "Part of speech": "noun"
  },
  {
@@ -3482,7 +3482,7 @@ const top_russian = [
  {
    "Rank": 581,
    "Russian word": "худой",
-   "English translation": "thin, skinny; masterrussian.com",
+   "English translation": "thin, skinny",
    "Part of speech": "adjective"
  },
  {
@@ -3512,7 +3512,7 @@ const top_russian = [
  {
    "Rank": 586,
    "Russian word": "представить",
-   "English translation": "to presetn, produce, introduce(See #558)",
+   "English translation": "to presetn, produce, introduce",
    "Part of speech": "verb"
  },
  {
@@ -3578,7 +3578,7 @@ const top_russian = [
  {
    "Rank": 597,
    "Russian word": "назвать",
-   "English translation": "to call, name(See #356)",
+   "English translation": "to call, name",
    "Part of speech": "verb"
  },
  {
@@ -3590,7 +3590,7 @@ const top_russian = [
  {
    "Rank": 599,
    "Russian word": "улыбаться",
-   "English translation": "to smile(See #605)",
+   "English translation": "to smile",
    "Part of speech": "verb"
  },
  {
@@ -3626,7 +3626,7 @@ const top_russian = [
  {
    "Rank": 605,
    "Russian word": "улыбнуться",
-   "English translation": "to smile(See #599)",
+   "English translation": "to smile",
    "Part of speech": "verb"
  },
  {
@@ -3704,7 +3704,7 @@ const top_russian = [
  {
    "Rank": 618,
    "Russian word": "хватать",
-   "English translation": "to snatch, seize; be sufficient(See #636)",
+   "English translation": "to snatch, seize; be sufficient",
    "Part of speech": "verb"
  },
  {
@@ -3734,7 +3734,7 @@ const top_russian = [
  {
    "Rank": 623,
    "Russian word": "принести",
-   "English translation": "to bring; masterrussian",
+   "English translation": "to bring",
    "Part of speech": "verb"
  },
  {
@@ -3776,7 +3776,7 @@ const top_russian = [
  {
    "Rank": 630,
    "Russian word": "мало",
-   "English translation": "little, few, not enough(See #384)",
+   "English translation": "little, few, not enough",
    "Part of speech": "cardinal numberinal number"
  },
  {
@@ -3812,7 +3812,7 @@ const top_russian = [
  {
    "Rank": 636,
    "Russian word": "хватить",
-   "English translation": "to snatch, seize, suffice(See #618)",
+   "English translation": "to snatch, seize, suffice",
    "Part of speech": "verb"
  },
  {
@@ -3854,7 +3854,7 @@ const top_russian = [
  {
    "Rank": 643,
    "Russian word": "принимать",
-   "English translation": "to take, admit, accept (See #481)",
+   "English translation": "to take, admit, accept",
    "Part of speech": "verb"
  },
  {
@@ -3932,7 +3932,7 @@ const top_russian = [
  {
    "Rank": 656,
    "Russian word": "крикнуть",
-   "English translation": "to cry, shout(See #447)",
+   "English translation": "to cry, shout",
    "Part of speech": "verb"
  },
  {
@@ -3974,7 +3974,7 @@ const top_russian = [
  {
    "Rank": 663,
    "Russian word": "вызвать",
-   "English translation": "to call, send(See #821)",
+   "English translation": "to call, send",
    "Part of speech": "verb"
  },
  {
@@ -4010,7 +4010,7 @@ const top_russian = [
  {
    "Rank": 669,
    "Russian word": "оказываться",
-   "English translation": "to turn out, find oneself(See #183)",
+   "English translation": "to turn out, find oneself",
    "Part of speech": "verb"
  },
  {
@@ -4070,7 +4070,7 @@ const top_russian = [
  {
    "Rank": 679,
    "Russian word": "молодая",
-   "English translation": "bride (See #288); young (as an adjective)",
+   "English translation": "bride; young (as an adjective)",
    "Part of speech": "noun"
  },
  {
@@ -4190,7 +4190,7 @@ const top_russian = [
  {
    "Rank": 699,
    "Russian word": "появляться",
-   "English translation": "to appear, show up(See #335)",
+   "English translation": "to appear, show up",
    "Part of speech": "verb"
  },
  {
@@ -4274,7 +4274,7 @@ const top_russian = [
  {
    "Rank": 713,
    "Russian word": "провести",
-   "English translation": "to accompany, set off; conduct; spend (See #973)",
+   "English translation": "to accompany, set off; conduct; spend",
    "Part of speech": "verb"
  },
  {
@@ -4304,7 +4304,7 @@ const top_russian = [
  {
    "Rank": 718,
    "Russian word": "родитель",
-   "English translation": "parent; masterrussian, dot, com",
+   "English translation": "parent",
    "Part of speech": "noun"
  },
  {
@@ -4412,7 +4412,7 @@ const top_russian = [
  {
    "Rank": 736,
    "Russian word": "помочь",
-   "English translation": "to help (See #857)",
+   "English translation": "to help",
    "Part of speech": "verb"
  },
  {
@@ -4634,7 +4634,7 @@ const top_russian = [
  {
    "Rank": 773,
    "Russian word": "баба",
-   "English translation": "woman, wife, old woman, (See #911)",
+   "English translation": "woman, wife, old woman",
    "Part of speech": "noun"
  },
  {
@@ -4694,7 +4694,7 @@ const top_russian = [
  {
    "Rank": 783,
    "Russian word": "получать",
-   "English translation": "to receive, get (See #239)",
+   "English translation": "to receive, get",
    "Part of speech": "verb"
  },
  {
@@ -4784,13 +4784,13 @@ const top_russian = [
  {
    "Rank": 798,
    "Russian word": "подходить",
-   "English translation": "to come up, approach;to fit(See #361)",
+   "English translation": "to come up, approach;to fit",
    "Part of speech": "verb"
  },
  {
    "Rank": 799,
    "Russian word": "много",
-   "English translation": "many, much, a lot of(See #187)",
+   "English translation": "many, much, a lot of",
    "Part of speech": "adverb"
  },
  {
@@ -4921,7 +4921,7 @@ const top_russian = [
  },
  {
    "Rank": 821,
-   "Russian word": "вызывать (See #663)",
+   "Russian word": "вызывать",
    "English translation": "to call, send",
    "Part of speech": "verb"
  },
@@ -4940,7 +4940,7 @@ const top_russian = [
  {
    "Rank": 824,
    "Russian word": "совет",
-   "English translation": "advice; masterrussian, dot com",
+   "English translation": "advice",
    "Part of speech": "noun"
  },
  {
@@ -5138,7 +5138,7 @@ const top_russian = [
  {
    "Rank": 857,
    "Russian word": "помогать",
-   "English translation": "to help, assist(See #736)",
+   "English translation": "to help, assist",
    "Part of speech": "verb"
  },
  {
@@ -5348,7 +5348,7 @@ const top_russian = [
  {
    "Rank": 892,
    "Russian word": "возникать",
-   "English translation": "to arise, appear(See #951)",
+   "English translation": "to arise, appear",
    "Part of speech": "verb"
  },
  {
@@ -5462,7 +5462,7 @@ const top_russian = [
  {
    "Rank": 911,
    "Russian word": "бабушка",
-   "English translation": "grandmother(See #773)",
+   "English translation": "grandmother",
    "Part of speech": "noun"
  },
  {
@@ -5498,13 +5498,13 @@ const top_russian = [
  {
    "Rank": 917,
    "Russian word": "круг",
-   "English translation": "circle; masterrussian, dot com",
+   "English translation": "circle",
    "Part of speech": "noun"
  },
  {
    "Rank": 918,
    "Russian word": "папа",
-   "English translation": "dad, daddy(See #165)",
+   "English translation": "dad, daddy",
    "Part of speech": "noun"
  },
  {
@@ -5702,7 +5702,7 @@ const top_russian = [
  {
    "Rank": 951,
    "Russian word": "возникнуть",
-   "English translation": "to arise, spring up(See #892)",
+   "English translation": "to arise, spring up",
    "Part of speech": "verb"
  },
  {
@@ -5828,13 +5828,13 @@ const top_russian = [
  {
    "Rank": 972,
    "Russian word": "наверно",
-   "English translation": "probably(See #461)",
+   "English translation": "probably",
    "Part of speech": "adverb"
  },
  {
    "Rank": 973,
    "Russian word": "проводить",
-   "English translation": "to lead, escort; accompany(See #713)",
+   "English translation": "to lead, escort; accompany",
    "Part of speech": "verb"
  },
  {
@@ -5882,7 +5882,7 @@ const top_russian = [
  {
    "Rank": 981,
    "Russian word": "собраться",
-   "English translation": "to gather, collect(See #479)",
+   "English translation": "to gather, collect",
    "Part of speech": "verb"
  },
  {
@@ -5996,7 +5996,7 @@ const top_russian = [
  {
    "Rank": 1000,
    "Russian word": "пора",
-   "English translation": "it's time;at times, now and then(See #279)",
+   "English translation": "it's time;at times, now and then",
    "Part of speech": "misc"
  }
 ]
