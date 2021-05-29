@@ -3,7 +3,8 @@ import * as React from "react"
 //styles
 const table_style = {
     borderCollapse: 'collapse',
-    width: "100%",
+    //width: "100%",
+    tableLayout: "fixed",
 }
 const cell_style = {
     border: '1px solid #ddd',
