@@ -450,7 +450,7 @@ function Quiz(props) {
                 data = (
                     <div>
                         You Got {q_answered_counter} correct and {q_incorrect_counter} incorrect.<br />
-                        You scored {selected_items().length - q_incorrect_counter}
+                        You scored {selected_items().length - q_incorrect_counter}/{q_questions.length}
                         <br />
                         <button style={menu_button_style} onClick={handleEvent} name={END_QUIZ_NAME}>End Quiz</button>
                         <button style={menu_button_style} onClick={handleEvent} name={RETAKE_NAME}>Retake Quiz</button>
