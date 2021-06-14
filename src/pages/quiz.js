@@ -20,6 +20,9 @@ const head_cell_color_style = {
 const menu_button_style = {
     whiteSpace: "nowrap"
 }
+const answer_button_style = {
+    width: "100%",
+}
 //end styles
 
 const RANGE_NAME = "quiz_range";
@@ -440,7 +443,8 @@ function Quiz(props) {
                             <tbody>
                                 {answers.map((x,i) => (
                                     <tr>
-                                        <td>{`${i+1}:\t\t`}</td><td><button onClick={handleEvent} data-question={x.toString()} value={i} name={ANSWER_BUTTON_NAME}>{x}</button></td>
+                                        <td>{`${i+1}:\t\t`}</td>
+                                        <td><button onClick={handleEvent} data-question={x.toString()} value={i} style={answer_button_style} name={ANSWER_BUTTON_NAME}>{x}</button></td>
                                     </tr>
                                 ))}
                             </tbody>
