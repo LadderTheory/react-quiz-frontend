@@ -25,6 +25,7 @@ const answer_button_style = {
     border: "none",
     textAlign: "center",
     display: "inline-block",
+    backgroundColor: "#dcdcdc",
 
 }
     //color: white;
