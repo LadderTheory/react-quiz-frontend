@@ -22,6 +22,7 @@ const menu_button_style = {
 }
 const answer_button_style = {
     width: "100%",
+    height: "100%",
     border: "none",
     textAlign: "center",
     display: "inline-block",
