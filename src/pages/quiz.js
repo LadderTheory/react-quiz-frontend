@@ -28,8 +28,7 @@ const answer_button_style = {
     display: "inline-block",
     backgroundColor: "#dcdcdc",
     textDecoration: "none",
-    paddingTop: "1em",
-    paddingBottom: "1em",
+    padding: ".5em",
 }
     //color: white;
     //padding: 15px 32px;
