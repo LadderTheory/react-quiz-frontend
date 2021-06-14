@@ -27,11 +27,11 @@ const answer_button_style = {
     textAlign: "center",
     display: "inline-block",
     backgroundColor: "#dcdcdc",
-
+    textDecoration: "none",
 }
     //color: white;
     //padding: 15px 32px;
-    //text-decoration: none;
+    //;
     //font-size: 16px;
     //margin: 4px 2px;
     //cursor: pointer;
