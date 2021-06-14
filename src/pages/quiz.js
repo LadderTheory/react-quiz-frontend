@@ -436,9 +436,16 @@ function Quiz(props) {
                     <div>
                         <b>Q: {question}</b>
                         <br /><br />
-                        {answers.map((x,i) => (
-                            <>{`${i+1}:\t\t`}<button onClick={handleEvent} data-question={x.toString()} value={i} name={ANSWER_BUTTON_NAME}>{x}</button><br /></>
-                        ))}
+                        <table>
+                            <tbody>
+                                {answers.map((x,i) => (
+                                    <tr>
+                                        <td>{`${i+1}:\t\t`}</td><td><button onClick={handleEvent} data-question={x.toString()} value={i} name={ANSWER_BUTTON_NAME}>{x}</button></td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                        
                         <br />Questions Left: {selected_items().length - q_answered_counter}
                         <br />Correct Answers: {q_answered_counter}
                         <br />Incorrect Answers: {q_incorrect_counter}
