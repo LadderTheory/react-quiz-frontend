@@ -22,7 +22,17 @@ const menu_button_style = {
 }
 const answer_button_style = {
     width: "100%",
+    border: "none",
+    textAlign: "center",
+    display: "inline-block",
+
 }
+    //color: white;
+    //padding: 15px 32px;
+    //text-decoration: none;
+    //font-size: 16px;
+    //margin: 4px 2px;
+    //cursor: pointer;
 //end styles
 
 const RANGE_NAME = "quiz_range";
